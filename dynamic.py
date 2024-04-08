@@ -79,7 +79,8 @@ def collectSub():
 
 
 AUTOURLS = [w1770946466,collectSub]
-AUTOFETCH = [kkzui, sharkdoor]
+# AUTOFETCH = [kkzui, sharkdoor]
+AUTOFETCH = [sharkdoor]
 
 if __name__ == '__main__':
     print("URL 抓取："+', '.join([_.__name__ for _ in AUTOURLS]))
