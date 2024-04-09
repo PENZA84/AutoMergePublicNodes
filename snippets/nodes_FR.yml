@@ -29,7 +29,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '23,121,188,189,194,211,213,250,253,254,284,286,302,306,307,347,359,372,373,382,383,398,439,451,463,464,485,487,542,554,556,588|阿联酋【付费推荐：https://jdyvip.link/】...
+  name: '23,115,121,188,189,194,211,213,250,253,254,280,284,286,302,306,307,347,359,372,373,382,383,398,439,451,463,464,485,487,542,554,556,588|阿联酋【付费推荐：https://jdyvip.link/】...
     #2'
   network: ws
   port: '8880'
@@ -85,7 +85,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '23,50,121,188,189,253,254,286,302,310,372,373,385,398,431,439,485,487,542,554,588|美国【付费推荐：https://jdyvip.link/】4
+  name: '23,50,121,188,189,253,254,286,302,310,372,373,385,398,431,485,487,542,554,588|美国【付费推荐：https://jdyvip.link/】4
     #2'
   network: ws
   port: '2086'
@@ -104,7 +104,9 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '23,121,188,189,194,253,254,283,284,302,306,307,372,373,382,383,398,542,554,588|美国【付费推荐：https://jdyvip.link/】1...
+  h2-opts: {}
+  http-opts: {}
+  name: '23,121,188,189,194,236,253,254,283,284,302,306,307,372,373,382,383,398,542,554,588|美国【付费推荐：https://jdyvip.link/】1...
     #8'
   network: ws
   port: '2086'
@@ -122,7 +124,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '23,188,189,286,372,373,398,431,485,487,542,554,588|美国【付费推荐：https://jdyvip.link/】6
+  name: '23,188,189,286,372,373,398,431,439,485,487,542,554,588|美国【付费推荐：https://jdyvip.link/】6
     #2'
   network: ws
   port: '2086'
@@ -145,38 +147,11 @@ proxies:
   tls: false
   type: vmess
   uuid: 43d3c519-fb90-4e1c-ab72-ab921f6d3d04
-- cipher: aes-256-cfb
-  country: 🇫🇷FR
-  name: 78,112,231,235|🇫🇷FR_84
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 195.154.169.198
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇫🇷FR
-  name: 78,231,235|🇫🇷FR_92
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 195.154.185.174
-  type: ss
-- cipher: aes-256-cfb
-  name: 78,112|🆔@LuxyNet💎❖🇳🇱❖NL❖631
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 51.15.27.48
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇷FR
-  name: 78,230,231,235|🇫🇷FR_87
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 51.159.111.208
-  type: ss
 - cipher: aes-256-gcm
   country: FR
-  name: 79|FR_13
+  name: 79,235|_47
   password: KixLvKzwjekG00rm
-  port: 5500
+  port: 8000
   server: 149.202.82.172
   type: ss
 - cipher: aes-256-gcm
@@ -188,18 +163,27 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   country: FR
-  name: 79,235|_47
-  password: KixLvKzwjekG00rm
-  port: 8000
-  server: 149.202.82.172
-  type: ss
-- cipher: aes-256-gcm
-  country: FR
   name: 79,235|_46
   password: Y6R9pAtvxxzmGC
   port: 3389
   server: 149.202.82.172
   type: ss
+- cipher: aes-256-gcm
+  country: FR
+  name: 79|FR_15
+  password: KixLvKzwjekG00rm
+  port: 5500
+  server: 149.202.82.172
+  type: ss
+- country: FR
+  name: 79|FR_16
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 15.236.63.242
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
 - country: FR
   name: 79|FR_17
   network: tcp
@@ -209,33 +193,6 @@ proxies:
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
-- country: FR
-  name: 79|FR_18
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 13.39.117.25
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  country: US
-  h2-opts: {}
-  http-opts: {}
-  name: '79|netflix_FR #1'
-  network: ws
-  port: 443
-  server: 172.67.71.160
-  servername: obdii.cfd
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      HOST: obdii.cfd
-    path: /linkws
 - alterId: 0
   cipher: auto
   name: 88|🇫🇷 法国 | V1 | 01
@@ -607,6 +564,13 @@ proxies:
       Host: ''
     path: /
 - cipher: aes-256-cfb
+  country: 🇫🇷FR
+  name: 112,231,235|🇫🇷FR_78
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 195.154.169.198
+  type: ss
+- cipher: aes-256-cfb
   name: 112|🆔@LuxyNet💎❖❖FR❖1322
   password: asdKkaskJKfnsa
   port: 443
@@ -825,15 +789,11 @@ proxies:
   uuid: acba8460-6c85-4d67-8f74-5a51da5e8393
 - alterId: 0
   cipher: auto
-  country: 🇷FR
-  h2-opts: {}
-  http-opts: {}
-  name: '121,236,385,431,439|🔒 VM-TCP-NA 🇫🇷 FR-162.19.25.20... #3'
+  name: '121,385,431,439|🔒 VM-TCP-NA 🇫🇷 FR-162.19.25.20... #3'
   network: tcp
   port: '44513'
   server: 162.19.25.207
   servername: ''
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 4552bdb6-e008-43ac-926d-c6c6c5a6fc76
@@ -909,10 +869,10 @@ proxies:
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
-  country: 🇺🇸US
+  country: 🇨🇴CO
   h2-opts: {}
   http-opts: {}
-  name: '230,236,333,407,408|🇺🇸_US_美国->🇫🇷_FR_法国_3 #1'
+  name: '230,333,407,408|🇺🇸_US_美国->🇫🇷_FR_法国_3 #1'
   network: ws
   port: 2086
   server: admin.arzonhost.ir
@@ -925,12 +885,19 @@ proxies:
     headers:
       host: admin.arzonhost.ir
     path: /
+- cipher: aes-256-cfb
+  country: 🇫🇷FR
+  name: 230,231,235|🇫🇷FR_91
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 51.159.111.208
+  type: ss
 - alterId: 0
   cipher: auto
-  country: 🇫🇷FR
+  country: 🇷FR
   h2-opts: {}
   http-opts: {}
-  name: 230,236,283,333,348,372,373,408,450|FR
+  name: 230,283,333,348,372,373,408,450|FR
   network: ws
   port: 8880
   server: 94.140.0.110
@@ -964,59 +931,52 @@ proxies:
       host: admin.arzonhost.ir
     path: /
 - cipher: aes-256-gcm
-  country: 🇷FR
-  name: 231,235|_01
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  server: 54.36.174.181
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇫🇷 FR
-  name: 231,235|🇫🇷 FR_69
-  password: Y6R9pAtvxxzmGC
-  port: 5001
-  server: 54.36.174.181
-  type: ss
-- cipher: aes-256-gcm
   country: 🇫🇷FR
-  name: 231,235|🇫🇷FR_80
+  name: 231,235|🇫🇷FR_95
   password: Y6R9pAtvxxzmGC
   port: 3389
   server: 217.182.198.219
   type: ss
 - cipher: aes-256-gcm
   country: 🇫🇷FR
-  name: 231,235|🇫🇷FR_79
-  password: pKEW8JPByTVTLtM
-  port: 4444
-  server: 145.239.6.202
+  name: 231,235|_38
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 54.36.174.181
   type: ss
 - cipher: aes-256-gcm
   country: 🇷 FR
-  name: 235| FR_66
+  name: 231,235| FR_67
+  password: Y6R9pAtvxxzmGC
+  port: 5001
+  server: 54.36.174.181
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇷FR
+  name: 231,235|🇫🇷FR_76
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 195.154.185.174
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇫🇷 FR
+  name: 235|🇷 FR_68
+  password: KixLvKzwjekG00rm
+  port: 5500
+  server: 54.36.174.181
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇫🇷 FR
+  name: 235|🇫🇷 FR_69
   password: pKEW8JPByTVTLtM
   port: 443
   server: 54.36.174.181
   type: ss
 - cipher: aes-256-gcm
   country: 🇫🇷 FR
-  name: 235|🇷 FR_67
-  password: pKEW8JPByTVTLtM
-  port: 4444
-  server: 54.36.174.181
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇫🇷 FR
-  name: 235|🇫🇷 FR_68
+  name: 235|🇫🇷 FR_70
   password: faBAoD54k87UJG7
   port: 2375
-  server: 54.36.174.181
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇫🇷 FR
-  name: 235|🇫🇷 FR_70
-  password: KixLvKzwjekG00rm
-  port: 5500
   server: 54.36.174.181
   type: ss
 - cipher: aes-256-gcm
@@ -1028,20 +988,6 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   country: 🇫🇷 FR
-  name: 235|🇫🇷 FR_72
-  password: e4FCWrgpkji3QY
-  port: 9101
-  server: 54.36.174.181
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇫🇷 FR
-  name: 235|🇫🇷 FR_73
-  password: e4FCWrgpkji3QY
-  port: 9102
-  server: 54.36.174.181
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇫🇷 FR
   name: 235,351|TG@极客分享_2
   password: g5MeD6Ft3CWlJId
   port: 5003
@@ -1049,94 +995,157 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   country: 🇫🇷 FR
-  name: 235|🇫🇷 FR_75
+  name: 235|🇫🇷 FR_73
   password: RexnBgU7EV5ADxG
   port: 7001
   server: 54.36.174.181
   type: ss
 - cipher: aes-256-gcm
   country: 🇫🇷 FR
-  name: 235|🇫🇷 FR_76
+  name: 235|🇫🇷 FR_74
   password: kDWvXYZoTBcGkC4
   port: 8881
   server: 54.36.174.181
   type: ss
 - cipher: aes-256-gcm
-  country: 🇫🇷FR
-  name: 235|🇫🇷FR_77
-  password: Y6R9pAtvxxzmGC
-  port: 5600
+  country: 🇫🇷 FR
+  name: 235|🇫🇷 FR_75
+  password: e4FCWrgpkji3QY
+  port: 9102
   server: 54.36.174.181
   type: ss
 - cipher: aes-256-gcm
   country: 🇫🇷FR
-  name: 235|🇫🇷FR_78
-  password: kDWvXYZoTBcGkC4
-  port: 8882
+  name: 235|🇷FR_77
+  password: FoOiGlkAA9yPEGP
+  port: 7306
   server: 149.202.82.172
   type: ss
 - cipher: aes-256-gcm
   country: 🇫🇷FR
-  name: 235|🇫🇷FR_81
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 54.36.174.181
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇫🇷FR
-  name: 235|🇫🇷FR_82
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 149.202.82.172
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇫🇷FR
-  name: 235|🇫🇷FR_83
-  password: Y6R9pAtvxxzmGC
-  port: 3389
-  server: 54.36.174.181
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇫🇷FR
-  name: 235|🇷FR_85
-  password: cdBIDV42DCwnfIN
-  port: 8119
-  server: 54.36.174.181
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇫🇷FR
-  name: 235|🇫🇷FR_86
+  name: 235|🇷FR_79
   password: FoOiGlkAA9yPEGP
   port: 7306
   server: 54.36.174.181
   type: ss
 - cipher: aes-256-gcm
   country: 🇫🇷FR
-  name: 235|🇫🇷FR_88
-  password: TEzjfAYq2IjtuoS
-  port: 6679
-  server: 54.36.174.181
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇫🇷FR
-  name: 235|🇫🇷FR_89
+  name: 235|🇫🇷FR_80
   password: Y6R9pAtvxxzmGC
   port: 5601
   server: 54.36.174.181
   type: ss
 - cipher: aes-256-gcm
   country: 🇫🇷FR
-  name: 235|🇫🇷FR_90
+  name: 235|🇫🇷FR_82
+  password: Y6R9pAtvxxzmGC
+  port: 8888
+  server: 54.36.174.181
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇫🇷FR
+  name: 235|🇫🇷FR_83
+  password: RexnBgU7EV5ADxG
+  port: 7002
+  server: 149.202.82.172
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇫🇷FR
+  name: 235|🇫🇷FR_84
+  password: zDNVedRFPQexG9v
+  port: 6379
+  server: 54.36.174.181
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇫🇷FR
+  name: 235|🇫🇷FR_85
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 149.202.82.172
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇫🇷FR
+  name: 235|🇫🇷FR_86
+  password: kDWvXYZoTBcGkC4
+  port: 8881
+  server: 149.202.82.172
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇫🇷FR
+  name: 235|🇫🇷FR_87
+  password: e4FCWrgpkji3QY
+  port: 9101
+  server: 149.202.82.172
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇫🇷FR
+  name: 235|🇫🇷FR_88
   password: Y6R9pAtvxxzmGC
   port: 3306
   server: 54.36.174.181
   type: ss
 - cipher: aes-256-gcm
   country: 🇫🇷FR
-  name: 235|🇫🇷FR_91
+  name: 235|🇫🇷FR_89
+  password: Y6R9pAtvxxzmGC
+  port: 5600
+  server: 54.36.174.181
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇫🇷FR
+  name: 235|🇫🇷FR_90
+  password: TEzjfAYq2IjtuoS
+  port: 6679
+  server: 54.36.174.181
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇫🇷FR
+  name: 235|🇫🇷FR_93
+  password: cdBIDV42DCwnfIN
+  port: 8119
+  server: 54.36.174.181
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇫🇷FR
+  name: 235|🇫🇷FR_94
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 54.36.174.181
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇫🇷FR
+  name: 235|🇫🇷FR_96
+  password: Y6R9pAtvxxzmGC
+  port: 3389
+  server: 54.36.174.181
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇫🇷FR
+  name: 235|🇫🇷FR_97
   password: XKFKl2rULjIp74
   port: 8008
   server: 54.36.174.181
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇫🇷FR
+  name: 235|🇫🇷FR_98
+  password: FoOiGlkAA9yPEGP
+  port: 7307
+  server: 149.202.82.172
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇫🇷FR
+  name: 235|🇫🇷FR_99
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 149.202.82.172
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇫🇷FR
+  name: 235|🇫🇷FR_100
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 149.202.82.172
   type: ss
 - cipher: aes-256-gcm
   country: 🇫🇷FR
@@ -1147,118 +1156,43 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   country: 🇫🇷FR
-  name: 235|🇫🇷FR_94
-  password: Y6R9pAtvxxzmGC
-  port: 8888
-  server: 54.36.174.181
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇫🇷FR
-  name: 235|🇫🇷FR_95
-  password: zDNVedRFPQexG9v
-  port: 6379
-  server: 54.36.174.181
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇫🇷FR
-  name: 235|🇫🇷FR_96
+  name: 235|🇫🇷FR_102
   password: XKFKl2rULjIp74
   port: 8008
   server: 149.202.82.172
   type: ss
 - cipher: aes-256-gcm
   country: 🇫🇷FR
-  name: 235|🇫🇷FR_97
-  password: faBAoD54k87UJG7
-  port: 2375
-  server: 149.202.82.172
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇫🇷FR
-  name: 235|🇫🇷FR_98
-  password: kDWvXYZoTBcGkC4
-  port: 8881
-  server: 149.202.82.172
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇫🇷FR
-  name: 235|🇫🇷FR_100
-  password: FoOiGlkAA9yPEGP
-  port: 7307
-  server: 149.202.82.172
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇫🇷FR
-  name: 235|🇫🇷FR_101
-  password: FoOiGlkAA9yPEGP
-  port: 7306
-  server: 149.202.82.172
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇫🇷FR
-  name: 235|🇫🇷FR_102
-  password: e4FCWrgpkji3QY
-  port: 9101
-  server: 149.202.82.172
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇫🇷FR
   name: 235|🇫🇷FR_103
-  password: RexnBgU7EV5ADxG
-  port: 7002
-  server: 149.202.82.172
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇫🇷FR
-  name: 235|🇫🇷FR_105
   password: PCnnH6SQSnfoS27
   port: 8091
   server: 54.36.174.181
   type: ss
 - cipher: aes-256-gcm
   country: 🇫🇷FR
-  name: 235|🇫🇷FR_106
+  name: 235|🇫🇷FR_104
   password: kDWvXYZoTBcGkC4
   port: 8882
   server: 54.36.174.181
   type: ss
 - alterId: 0
   cipher: auto
-  country: 🏁ZZ
+  country: ZZ
   h2-opts: {}
   http-opts: {}
-  name: '236,407,423,450,462,464|美国 CloudFlare节点 #63'
+  name: 236|Relay_ZZ-🇷FR_141
   network: ws
-  port: '2082'
-  server: s1c.v2.v001sss.xyz
-  servername: ''
+  port: 443
+  server: obdii.cfd
+  servername: obdii.cfd
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
   ws-opts:
     headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: '236,283,333,372,373,408|🇺🇸_US_美国->🇫🇷_FR_法国_4 #2'
-  network: ws
-  port: 2082
-  server: 104.21.8.157
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-  ws-opts:
-    headers:
-      host: s1c.v2.v001sss.xyz
-    path: /
+      HOST: obdii.cfd
+    path: /linkws
 - alterId: 0
   cipher: auto
   name: 250|🇫🇷FR(AzadNet.t.me)_001
@@ -1616,20 +1550,6 @@ proxies:
     headers:
       Host: kristin.makeup
     path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 352|🔐FREENET44
-  network: ws
-  port: '443'
-  server: 172.67.131.108
-  servername: glweidf.cfd
-  tls: true
-  type: vmess
-  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
-  ws-opts:
-    headers:
-      Host: glweidf.cfd
-    path: /linkws
 - alterId: 0
   cipher: auto
   name: 368|🇫🇷_FR_法国_CollectorDonate
