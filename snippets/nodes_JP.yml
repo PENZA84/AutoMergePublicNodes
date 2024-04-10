@@ -4,7 +4,7 @@ proxies:
   country: 🇺🇸US
   h2-opts: {}
   http-opts: {}
-  name: '17,112,115,121,149,230,231,236,237,258,265,267,280,286,354,371,385,393,431,439,468,485,487|日本_0410002
+  name: '17,112,115,121,149,231,235,236,258,265,267,280,286,354,371,385,393,431,439,468,485,487|日本_0410002
     #2'
   network: tcp
   port: '1069'
@@ -17,12 +17,29 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
+  country: 🇵JP
+  h2-opts: {}
+  http-opts: {}
+  name: '17,115,121,236,280,301,385,431,439|🔒 VM-TCP-NA 🇯🇵 JP-167.179.111.... #4'
+  network: tcp
+  port: '14935'
+  server: 167.179.111.237
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: e961894f-8e90-472f-98d3-09402e4be453
+  ws-path: /
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
   country: 🇺🇸US
   delay: 512
   grpc-opts:
     grpc-service-name: 1654431
-  name: '32,51,81,134,209,236,243,247,251,253,283,299,306,311,316,321,323,327,329,338,359,386,387,390,391,393,396,400,405,407,408,440,456,482,483,595,596|注:请定时更新订阅
+  h2-opts: {}
+  http-opts: {}
+  name: '32,51,78,81,134,209,235,236,243,247,251,253,283,299,306,311,316,321,323,327,329,338,359,386,387,390,391,393,396,400,405,407,408,440,450,456,482,483,595,596|注:请定时更新订阅
     #1'
   network: grpc
   password: bbab60b8-779f-31e2-916e-571f7d7023c4
@@ -38,7 +55,7 @@ proxies:
   uuid: d29227ac-4060-3736-9f88-e03af4198410
 - alterId: 0
   cipher: auto
-  name: '50,121,253,254,286,302,310,372,373,385,485|美国_0410101 #1'
+  name: '50,253,254,286,302,310,372,373,385,485|美国_0410101 #1'
   network: ws
   port: '8080'
   server: kkyx.yydsii.com
@@ -66,6 +83,101 @@ proxies:
     headers:
       Host: d3kh9mjh71ygeb.cloudfront.net
     path: /stream
+- cipher: aes-256-cfb
+  name: 78,283|🇯🇵 JP 13 → tg@nicevpn123
+  password: amazonskr05
+  port: 443
+  server: 13.230.190.100
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: '78,372,373|🇯🇵JP-152.69.197.74-0238 #1'
+  network: ws
+  port: 12345
+  server: 152.69.197.74
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: b8a6bf58-485a-4046-b386-b3661bf65eff
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- cipher: aes-128-gcm
+  name: 78|🇯🇵JP-154.47.20.240-0748 | 17.9...
+  password: shadowsocks
+  port: 443
+  server: 154.47.20.240
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 78,112|🆔@LuxyNet💎❖🇵❖JP❖1093
+  password: G!yBwPWH3Vao
+  port: 804
+  server: 185.172.113.182
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 78,112|🆔@LuxyNet💎❖🇵❖JP❖1092
+  password: G!yBwPWH3Vao
+  port: 800
+  server: 185.172.113.182
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 78|🇯🇵JP-185.172.113.182-0851 | 2....
+  password: G!yBwPWH3Vao
+  port: 806
+  server: 185.172.113.182
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 78|🇯🇵JP-185.172.113.182-0852 | 1....
+  password: G!yBwPWH3Vao
+  port: 810
+  server: 185.172.113.182
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 78|🇯🇵JP-185.172.113.182-0853 | 1....
+  password: G!yBwPWH3Vao
+  port: 812
+  server: 185.172.113.182
+  type: ss
+- cipher: aes-256-cfb
+  name: 78,283|🇯🇵 JP 9 → tg@nicevpn123
+  password: amazonskr05
+  port: 443
+  server: 52.69.81.42
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: '78,121,372,373|🇯🇵JP-87.120.204.64-0756 #2'
+  network: ws
+  port: 8080
+  server: 87.120.204.64
+  servername: ''
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: bdd22841-c4d2-4aa8-acf2-95aa9125f159
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '78,121,286,372,373,485|卢森堡_0410006 #1'
+  network: ws
+  port: '8080'
+  server: 87.120.204.64
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: bdd22841-c4d2-4aa8-acf2-95aa9125f159
+  ws-opts:
+    headers:
+      Host: 87.120.204.64
+    path: /
 - cipher: rc4-md5
   name: 81|🇯🇵 IPLC｜冀日 [2.0][原生]
   obfs: http_simple
@@ -451,7 +563,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 112,265,267,393|10|_121320057
+  name: 112,265,267,393|10|日本_121320057
   network: tcp
   port: '51801'
   server: 45.88.43.143
@@ -471,18 +583,6 @@ proxies:
   name: 112|🆔@LuxyNet💎❖🇵❖JP❖1091
   password: G!yBwPWH3Vao
   port: 811
-  server: 185.172.113.182
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 112|🆔@LuxyNet💎❖🇵❖JP❖1092
-  password: G!yBwPWH3Vao
-  port: 800
-  server: 185.172.113.182
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 112|🆔@LuxyNet💎❖🇵❖JP❖1093
-  password: G!yBwPWH3Vao
-  port: 804
   server: 185.172.113.182
   type: ss
 - alterId: 0
@@ -531,45 +631,17 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '121|%F0%9F%87%AF%F0%9F%87%B5%20Jap... #3'
+  name: '121|%F0%9F%87%AF%F0%9F%87%B5%20Jap... #2'
   network: ws
   port: '443'
   server: jp-full.privateip.net
   tls: true
   type: vmess
-  uuid: c72e672e-54d9-408b-b34c-38ff7e254d0a
+  uuid: 0b44a53d-4c02-4e68-b328-0b0263e97256
   ws-opts:
     headers:
       Host: ''
     path: /RACEVPN
-- alterId: 0
-  cipher: auto
-  name: '121,372,373|🇯🇵JP-87.120.204.64-0756 #2'
-  network: ws
-  port: 8080
-  server: 87.120.204.64
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: bdd22841-c4d2-4aa8-acf2-95aa9125f159
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '121,286,372,373,485|卢森堡_0410006 #1'
-  network: ws
-  port: '8080'
-  server: 87.120.204.64
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: bdd22841-c4d2-4aa8-acf2-95aa9125f159
-  ws-opts:
-    headers:
-      Host: 87.120.204.64
-    path: /
 - alterId: '0'
   cipher: auto
   name: 134|[🇯🇵]192.51.188.63:28494(26ae22...
@@ -702,6 +774,54 @@ proxies:
     headers:
       Host: ''
     path: ''
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 235|🇺🇸US_366
+  network: tcp
+  port: 21581
+  server: jp03-alt-vm0.entry.srthdw.art
+  servername: jp03-alt-vm0.entry.srthdw.art
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 2d98a577-c108-3dfa-baeb-8d70819ec5b7
+  ws-path: /adobe
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 235|🇺🇸US_357
+  network: tcp
+  port: 11773
+  server: jp02-vm0.entry.srthdw.art
+  servername: jp02-vm0.entry.srthdw.art
+  skip-cert-verify: true
+  type: vmess
+  uuid: c2365e4e-3700-323a-b889-fea7677ef8d1
+  ws-path: /path/040525210130
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  country: 🇵JP
+  name: 236,393,405|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 54.168.245.187
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  country: 🇯🇵JP
+  name: 236,283,393,405|🇰🇷 韩国特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.231.229.48
+  tfo: false
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 252,372,373,386|0.55|JPhttpsawkjcfky 注册体验流媒体机场...
@@ -1080,7 +1200,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 265,267,393|10|日本_121320007
+  name: 265,267,393|10|本_121320007
   network: tcp
   port: '56262'
   server: 64.176.39.31
@@ -1104,7 +1224,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 265,267,393|10|日本_121320014
+  name: 265,267,393|10|_121320014
   network: ''
   port: '1069'
   server: 152.69.197.60
@@ -1182,16 +1302,6 @@ proxies:
   tls: false
   type: vmess
   uuid: d9dc506b-9bcf-497e-ea11-53c369e2b343
-- alterId: 64
-  cipher: auto
-  name: 265,267,301,371,393|10|日本_121320038
-  network: tcp
-  port: '20081'
-  server: 138.2.44.211
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973
 - alterId: 0
   cipher: auto
   name: 265,267,393|10|日本_121320043
@@ -1264,7 +1374,7 @@ proxies:
   uuid: d9a7c529-f98b-429b-eb26-c90979c910a3
 - alterId: 64
   cipher: auto
-  name: 265,267,393|10|本_121320051
+  name: 265,267,393|10|日本_121320051
   network: ''
   port: '51801'
   server: 45.88.43.143
@@ -1314,7 +1424,7 @@ proxies:
   uuid: 5de808d1-b707-462c-83f3-68739504ad70
 - alterId: 0
   cipher: auto
-  name: 265,267,393|10|日本_121320056
+  name: 265,267,393|10|本_121320056
   network: tcp
   port: '36013'
   server: 167.179.83.138
@@ -1326,118 +1436,137 @@ proxies:
   name: 283|🇯🇵 JP 10 → tg@nicevpn123
   password: amazonskr05
   port: 443
-  server: 43.201.56.52
+  server: 54.238.182.167
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 283|🇯🇵 JP 11 → tg@nicevpn123
+  password: amazonskr05
+  port: 443
+  server: 43.202.41.139
   type: ss
   udp: true
 - cipher: aes-256-cfb
   name: 283|🇯🇵 JP 12 → tg@nicevpn123
   password: amazonskr05
   port: 443
-  server: 13.230.190.100
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 283|🇯🇵 JP 13 → tg@nicevpn123
-  password: amazonskr05
-  port: 443
-  server: 52.194.214.99
+  server: 43.203.201.192
   type: ss
   udp: true
 - cipher: aes-256-cfb
   name: 283|🇯🇵 JP 14 → tg@nicevpn123
   password: amazonskr05
   port: 443
-  server: 13.115.234.77
+  server: 54.248.173.222
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 283|🇯🇵 JP 18 → tg@nicevpn123
-  password: amazonskr05
-  port: 443
-  server: 43.206.237.42
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 283|🇯🇵 JP 2 → tg@nicevpn123
-  password: amazonskr05
-  port: 443
-  server: 43.201.104.145
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 283|🇯🇵 JP 20 → tg@nicevpn123
-  network: ws
-  port: 443
-  server: hk5g.xn--vhq70hxyat50h6wk.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: ae1e5588-79c2-44a9-a2c8-a8e4b645fcce
-  ws-opts:
-    headers:
-      Host: hk5g.xn--vhq70hxyat50h6wk.com
-    path: /
-- cipher: aes-256-cfb
-  name: 283|🇯🇵 JP 21 → tg@nicevpn123
-  password: amazonskr05
-  port: 443
-  server: 54.238.182.167
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 283|🇯🇵 JP 22 → tg@nicevpn123
-  password: amazonskr05
-  port: 443
-  server: 43.203.201.192
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 283|🇯🇵 JP 23 → tg@nicevpn123
-  password: amazonskr05
-  port: 443
-  server: 54.249.1.223
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 283|🇯🇵 JP 24 → tg@nicevpn123
-  password: amazonskr05
-  port: 443
-  server: 43.207.80.176
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 283|🇯🇵 JP 26 → tg@nicevpn123
+  name: 283|🇯🇵 JP 16 → tg@nicevpn123
   password: amazonskr05
   port: 443
   server: 52.195.10.194
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 283|🇯🇵 JP 27 → tg@nicevpn123
+  name: 283|🇯🇵 JP 17 → tg@nicevpn123
+  password: amazonskr05
+  port: 443
+  server: 52.195.225.184
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 283|🇯🇵 JP 19 → tg@nicevpn123
   password: amazonskr05
   port: 443
   server: 43.207.117.29
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 283|🇯🇵 JP 3 → tg@nicevpn123
+  name: 283|🇯🇵 JP 2 → tg@nicevpn123
   password: amazonskr05
   port: 443
-  server: 54.248.173.222
+  server: 52.194.214.99
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 283|🇯🇵 JP 30 → tg@nicevpn123
+  name: 283|🇯🇵 JP 20 → tg@nicevpn123
+  password: amazonskr05
+  port: 443
+  server: 18.177.138.167
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 283|🇯🇵 JP 21 → tg@nicevpn123
   password: amazonskr05
   port: 443
   server: 43.203.220.68
   type: ss
   udp: true
+- cipher: aes-256-cfb
+  name: 283|🇯🇵 JP 22 → tg@nicevpn123
+  password: amazonskr05
+  port: 443
+  server: 13.115.234.77
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 283|🇯🇵 JP 23 → tg@nicevpn123
+  password: amazonskr05
+  port: 443
+  server: 43.201.56.52
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 283|🇯🇵 JP 25 → tg@nicevpn123
+  password: amazonskr05
+  port: 443
+  server: 54.249.1.223
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 283|🇯🇵 JP 31 → tg@nicevpn123
+  name: 283|🇯🇵 JP 26 → tg@nicevpn123
+  network: ws
+  port: 8443
+  server: 45.85.119.65
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 2b6ff9f6-00b6-4bc7-e16f-a7f1f4d43e4c
+  ws-opts:
+    path: /build
+- cipher: aes-256-cfb
+  name: 283|🇯🇵 JP 27 → tg@nicevpn123
+  password: amazonskr05
+  port: 443
+  server: 43.207.80.176
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 283|🇯🇵 JP 32 → tg@nicevpn123
+  password: amazonskr05
+  port: 443
+  server: 43.201.110.81
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 283|🇯🇵 JP 33 → tg@nicevpn123
+  password: amazonskr05
+  port: 443
+  server: 13.112.216.180
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 283|🇯🇵 JP 34 → tg@nicevpn123
+  password: amazonskr05
+  port: 443
+  server: 43.206.237.42
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 283|🇯🇵 JP 36 → tg@nicevpn123
   network: ws
   port: 80
   server: hk5g.xn--vhq70hxyat50h6wk.com
@@ -1450,41 +1579,6 @@ proxies:
     headers:
       Host: hk5g.xn--vhq70hxyat50h6wk.com
     path: /
-- cipher: aes-256-cfb
-  name: 283|🇯🇵 JP 33 → tg@nicevpn123
-  password: amazonskr05
-  port: 443
-  server: 3.112.241.19
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 283|🇯🇵 JP 34 → tg@nicevpn123
-  password: amazonskr05
-  port: 443
-  server: 52.69.81.42
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 283|🇯🇵 JP 39 → tg@nicevpn123
-  password: amazonskr05
-  port: 443
-  server: 54.199.15.70
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 283|🇯🇵 JP 40 → tg@nicevpn123
-  password: amazonskr05
-  port: 443
-  server: 18.177.138.167
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 283|🇯🇵 JP 42 → tg@nicevpn123
-  password: amazonskr05
-  port: 443
-  server: 13.112.216.180
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   name: '283,301|PP|@Zyw_Channel #2'
@@ -1502,22 +1596,45 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 283|🇯🇵 JP 6 → tg@nicevpn123
+  name: 283|🇯🇵 JP 38 → tg@nicevpn123
   network: ws
-  port: 8443
-  server: 45.85.119.65
+  port: 443
+  server: hk5g.xn--vhq70hxyat50h6wk.com
   skip-cert-verify: true
-  tls: true
+  tls: false
   type: vmess
   udp: true
-  uuid: 2b6ff9f6-00b6-4bc7-e16f-a7f1f4d43e4c
+  uuid: ae1e5588-79c2-44a9-a2c8-a8e4b645fcce
   ws-opts:
-    path: /build
+    headers:
+      Host: hk5g.xn--vhq70hxyat50h6wk.com
+    path: /
 - cipher: aes-256-cfb
-  name: 283|🇯🇵 JP 9 → tg@nicevpn123
+  name: 283|🇯🇵 JP 40 → tg@nicevpn123
   password: amazonskr05
   port: 443
-  server: 43.201.110.81
+  server: 3.112.241.19
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 283|🇯🇵 JP 6 → tg@nicevpn123
+  password: amazonskr05
+  port: 443
+  server: 52.195.237.101
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 283|🇯🇵 JP 7 → tg@nicevpn123
+  password: amazonskr05
+  port: 443
+  server: 43.201.104.145
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 283|🇯🇵 JP 8 → tg@nicevpn123
+  password: amazonskr05
+  port: 443
+  server: 54.199.15.70
   type: ss
   udp: true
 - alterId: 0
@@ -2165,14 +2282,14 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 303,393|12|04
+  name: 303,393|12|🇵日本04
   network: tcp
   port: '36116'
   server: free.2weradf.xyz
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f3e01681-5c5e-4cfe-9ebd-d3baa7b29450
+  uuid: 8f5202be-a542-47e4-a804-60746b1b66ca
 - alterId: 0
   cipher: auto
   name: 303,393|12|日本05
@@ -2182,17 +2299,17 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f3e01681-5c5e-4cfe-9ebd-d3baa7b29450
+  uuid: 8f5202be-a542-47e4-a804-60746b1b66ca
 - alterId: 0
   cipher: auto
-  name: 303,393|12|🇵日本06
+  name: 303,393|12|日本06
   network: tcp
   port: '36111'
   server: free.2weradf.xyz
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f3e01681-5c5e-4cfe-9ebd-d3baa7b29450
+  uuid: 8f5202be-a542-47e4-a804-60746b1b66ca
 - alterId: 0
   cipher: auto
   name: 304|adi|0703v - 日本-04 免流
@@ -2567,20 +2684,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '372,373|🇯🇵JP-152.69.197.74-0238 #1'
-  network: ws
-  port: 12345
-  server: 152.69.197.74
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b8a6bf58-485a-4046-b386-b3661bf65eff
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
   name: '372,373|🇯🇵JP-52.196.144.61-3016 #1'
   network: ws
   port: 3331
@@ -2700,14 +2803,14 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 388,393|23|【BGP】本 04  | 1x JP
+  name: 388,393|23|【BGP】日本 04  | 1x JP
   network: tcp
   port: '31116'
   server: free.2apzhfa.xyz
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 967eba3f-b1da-4be1-bc28-50a516e8258f
+  uuid: 6ba483f9-8b59-48c7-8bd1-47a98148cca1
 - alterId: 0
   cipher: auto
   name: 388,393|23|【BGP】日本 05  | 1x JP
@@ -2717,25 +2820,17 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 967eba3f-b1da-4be1-bc28-50a516e8258f
+  uuid: 6ba483f9-8b59-48c7-8bd1-47a98148cca1
 - alterId: 0
   cipher: auto
-  name: 388,393|23|【BGP】日本 06  | 1x JP
+  name: 388,393|23|【BGP】本 06  | 1x JP
   network: tcp
   port: '31111'
   server: free.2apzhfa.xyz
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 967eba3f-b1da-4be1-bc28-50a516e8258f
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 393,405|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 54.168.245.187
-  tfo: false
-  type: ss
+  uuid: 6ba483f9-8b59-48c7-8bd1-47a98148cca1
 - alterId: 0
   cipher: auto
   name: 393,464|🇯🇵日本 02
