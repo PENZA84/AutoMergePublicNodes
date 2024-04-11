@@ -2,7 +2,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 0,3,122,192,194,255,256,286,288,304,308,309,352,374,375,384,385,395|3,11,13,21|🇺🇸_US_美国->🇩🇪_DE_德国
+  name: 0,3,122,192,194,256,286,288,304,308,309,352,374,375,384,385,395|3,11,13,21|🇺🇸_US_美国->🇩🇪_DE_德国
   network: ws
   port: 80
   server: 104.21.225.104
@@ -187,7 +187,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '0,3,122,192,194,352,374,375,384,385,395|3,21|🇺🇸_US_美国->🇩🇪_DE_德国 #13'
+  name: '0,3,122,192,194,352,374,375,384,385,395|3,21|🇺🇸_US_美国->🇪_DE_德国 #13'
   network: ws
   port: 80
   server: 104.21.225.229
@@ -342,7 +342,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 0,3,122,192,194,255,256,286,288,304,308,309,352,374,375,384,385,395|3,11,13,21|🇺🇸_US_美国->🇩🇪_DE_德国
+  name: 0,3,122,192,194,256,286,288,304,308,309,352,374,375,384,385,395|3,11,13,21|🇺🇸_US_美国->🇩🇪_DE_德国
     ...
   network: ws
   port: 80
@@ -388,7 +388,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '0,3,122,192,194,352,374,375,384,385,395|3,21|🇸_US_美国->🇪_DE_德国 #27'
+  name: '0,3,122,192,194,352,374,375,384,385,395|3,21|🇺🇸_US_美国->🇩🇪_DE_德国 #27'
   network: ws
   port: 80
   server: 104.21.233.68
@@ -458,7 +458,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 0,3,122,192,194,352,374,375,384,385,395|3,21|🇳_CN_中国->🇫🇷_FR_法国
+  name: 0,3,122,192,194,352,374,375,384,385,395|3,21|🇳_CN_国->🇷_FR_国
   network: ws
   port: 16645
   server: yes.cnmjcn.net
@@ -1074,7 +1074,7 @@ proxies:
     path: /?ed=2048
 - grpc-opts:
     grpc-service-name: 443trojan
-  name: 1,2,395|1|_US_->_RU_
+  name: 1,2,335,395|1|_US_->_RU_
   network: grpc
   password: qj1Dz1CJmFQRhWr1SP80aA
   port: 443
@@ -1483,13 +1483,17 @@ proxies:
     path: /singapore
 - alterId: 0
   cipher: auto
-  name: 167|🇸🇬新加坡 02-中转
+  client-fingerprint: chrome
+  name: 167,395,400,407,408|新加坡|@ripaojiedian
   network: ws
   port: '21021'
   server: sg.lianjianode.cc
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: 0d67f300-bfd2-4e63-bb61-20ed80f88ebb
+  uuid: 44ceed0a-7421-4da0-b968-c30cb933a89d
   ws-opts:
     headers:
       Host: sg1.luodi.xyz
@@ -1750,7 +1754,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '213,361,395,466,560|🇺🇸_US_美国 #65'
+  name: '213,361,395,466,560|🇺🇸_US_美国 #64'
   network: ws
   port: 8080
   server: 162.159.1.33
@@ -1776,7 +1780,7 @@ proxies:
     path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
 - alterId: 0
   cipher: auto
-  name: '213,215,361,395,465,466,560|🇺🇸_US_美国 #64'
+  name: '213,215,361,395,465,466,560|🇺🇸_US_美国 #63'
   network: ws
   port: 8080
   server: yh3.freeh1.xyz
@@ -1789,7 +1793,7 @@ proxies:
     path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
 - alterId: 0
   cipher: auto
-  name: '213,215,395,464,465,466|🇺🇸_US_美国 #58'
+  name: '213,215,395,464,465,466|🇺🇸_US_美国 #57'
   network: ws
   port: 8080
   server: 162.159.5.6
@@ -1861,14 +1865,13 @@ proxies:
     path: /blue01
 - alterId: 0
   cipher: auto
-  name: 255,256,304,336|_TW_->🇸_US_美国
+  name: 256,304,336|_TW_->🇸_US_美国
   network: ws
   port: 80
   server: 107.167.182.230
   skip-cert-verify: true
   tls: false
   type: vmess
-  udp: true
   uuid: efcb7d7c-c582-46f5-eeff-0e553342528d
   ws-opts:
     headers:
@@ -1876,14 +1879,12 @@ proxies:
     path: /tg@hkaa0
 - alterId: 0
   cipher: auto
-  name: '255,256,304,337|🇺🇸_US_美国->🇩🇪_DE_德国 #91'
+  name: '256,304,337|🇺🇸_US_美国->🇩🇪_DE_德国 #91'
   network: ws
   port: 80
   server: flkf2.shabijichang.com
-  skip-cert-verify: true
   tls: false
   type: vmess
-  udp: true
   uuid: c458695d-6908-45c3-9512-e0c46418454c
   ws-opts:
     headers:
@@ -1891,14 +1892,12 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 255,256,304,337|🇺🇸_US_美国->🇬🇧_GB_英国
+  name: 256,304,337|🇺🇸_US_美国->🇬🇧_GB_英国
   network: ws
   port: 80
   server: mrb2.shabijichang.com
-  skip-cert-verify: true
   tls: false
   type: vmess
-  udp: true
   uuid: c458695d-6908-45c3-9512-e0c46418454c
   ws-opts:
     headers:
@@ -1906,15 +1905,13 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '255,256,288,304,337,374,375,487|美国_0410351 #1'
+  name: '256,288,304,337,374,375,487|美国_0410351 #1'
   network: ws
   port: '80'
   server: ld2.shabijichang.com
   servername: ''
-  skip-cert-verify: true
   tls: false
   type: vmess
-  udp: true
   uuid: c458695d-6908-45c3-9512-e0c46418454c
   ws-opts:
     headers:
@@ -1922,14 +1919,13 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 255,256,304,336|🇺🇸_US_美国->🇳_IN__1
+  name: 256,304,336|🇺🇸_US_美国->🇳_IN__1
   network: ws
   port: 80
   server: 104.17.18.26
   skip-cert-verify: true
   tls: false
   type: vmess
-  udp: true
   uuid: 5180444a-4756-43b4-960b-49eb9052e4e8
   ws-opts:
     headers:
@@ -1937,14 +1933,13 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 255,256,304,336|🇺🇸_US_美国->🇮🇳_IN_印度_2
+  name: 256,304,336|🇺🇸_US_美国->🇮🇳_IN_印度_2
   network: ws
   port: 80
   server: 104.26.8.44
   skip-cert-verify: true
   tls: false
   type: vmess
-  udp: true
   uuid: 5180444a-4756-43b4-960b-49eb9052e4e8
   ws-opts:
     headers:
@@ -1952,15 +1947,13 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '255,256,288,304,337,374,375,487|美国_0410350 #1'
+  name: '256,288,304,337,374,375,487|美国_0410350 #1'
   network: ws
   port: '80'
   server: mm2.shabijichang.com
   servername: ''
-  skip-cert-verify: true
   tls: false
   type: vmess
-  udp: true
   uuid: c458695d-6908-45c3-9512-e0c46418454c
   ws-opts:
     headers:
@@ -1968,15 +1961,13 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 255,256,288,304,337,374,375,487|美国_0410355
+  name: 256,288,304,337,374,375,487|美国_0410355
   network: ws
   port: '80'
   server: mm3.shabijichang.com
   servername: ''
-  skip-cert-verify: true
   tls: false
   type: vmess
-  udp: true
   uuid: c458695d-6908-45c3-9512-e0c46418454c
   ws-opts:
     headers:
@@ -1984,7 +1975,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: '255,256,304,336,374,375|🇳🇱NL-45.199.138.191-6576 #1'
+  name: '256,304,336,374,375|🇳🇱NL-45.199.138.191-6576 #1'
   network: ws
   port: 30000
   server: 45.199.138.191
@@ -1992,7 +1983,6 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: vmess
-  udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
@@ -2000,15 +1990,13 @@ proxies:
     path: /path/1696251522438
 - alterId: 0
   cipher: auto
-  name: 255,256,288,304,337,374,375,487|美国_0410354
+  name: 256,288,304,337,374,375,487|美国_0410354
   network: ws
   port: '80'
   server: jd3.shabijichang.com
   servername: ''
-  skip-cert-verify: true
   tls: false
   type: vmess
-  udp: true
   uuid: c458695d-6908-45c3-9512-e0c46418454c
   ws-opts:
     headers:
@@ -4238,55 +4226,48 @@ proxies:
   ws-headers:
     Host: usys.qiutan.pw
   ws-path: /videos
-- name: 335|_CN_->_DE_国_1
-  network: tcp
-  password: 575bc4d8-e9e0-48d4-9286-f922c17b35fc
-  port: 53279
-  server: gcdddd0005.likeone.lol
-  skip-cert-verify: true
-  sni: de01.ckcloud.info
-  type: trojan
-  udp: true
-- name: 335|🇳_CN_中国->🇳_IN_
-  network: tcp
-  password: 575bc4d8-e9e0-48d4-9286-f922c17b35fc
-  port: 26094
-  server: gcdddd0001.likeone.lol
-  skip-cert-verify: true
-  sni: id01.ckcloud.info
-  type: trojan
-  udp: true
-- name: 335|🇳_CN_中国->🇩🇪_DE_德国_2
-  network: tcp
-  password: 575bc4d8-e9e0-48d4-9286-f922c17b35fc
-  port: 53279
-  server: gcdddd0001.likeone.lol
-  skip-cert-verify: true
-  sni: de01.ckcloud.info
-  type: trojan
-  udp: true
-- name: 335|🇳_CN_中国->🇷_TR_
-  network: tcp
-  password: 575bc4d8-e9e0-48d4-9286-f922c17b35fc
-  port: 60293
-  server: gcdddd0005.likeone.lol
-  skip-cert-verify: true
-  sni: tur01.ckcloud.info
-  type: trojan
-  udp: true
 - alterId: 0
-  cipher: auto
-  name: 335,410|🇺🇸_US_美国->🇹🇷_TR_土耳其
+  cipher: chacha20-poly1305
+  name: 335,410|🇪🇸_ES_西班牙->🇺🇸_US_美国
   network: ws
-  port: 2095
-  server: tu.mahilu.site
+  port: 8002
+  server: 185.214.103.249
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  uuid: b00c57f5-3f8f-38e7-b269-6ca1dea41096
   ws-opts:
     headers:
-      host: tu.mahilu.site
+      host: cache-2.cn-db.top
+    path: /db00
+- alterId: 0
+  cipher: auto
+  name: '335,410|🇺🇸_US_美国->🇫🇷_FR_法国_3 #1'
+  network: ws
+  port: 2086
+  server: admin.arzonhost.ir
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c
+  ws-opts:
+    headers:
+      host: admin.arzonhost.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '335,395,410,425,452,464,466|美国 CloudFlare节点 #64'
+  network: ws
+  port: '2082'
+  server: s1c.v2.v001sss.xyz
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  ws-opts:
+    headers:
+      Host: ''
     path: /
 - alterId: 0
   cipher: auto
