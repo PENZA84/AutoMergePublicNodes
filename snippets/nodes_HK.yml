@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '51,255,256,304,312|香港 001 #1'
+  name: '51,256,304,312|香港 001 #1'
   network: ws
   port: 20759
   server: hkt.littleqqq.co
@@ -45,14 +45,18 @@ proxies:
       Host: 194.99.79.178
     path: /
 - cipher: aes-128-gcm
-  name: 79|🇭🇰HK-47.243.45.101-0847 | 1.95...
+  country: 🇰HK
+  name: 79,238|HK_47 |11.33Mb
   password: a-wym4ovY4Yw
   port: 81
   server: 47.243.45.101
   type: ss
 - alterId: 0
   cipher: auto
-  name: '79,122,285,288,374,375,387,433,441,466,487|美国_0410113 #1'
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: '79,122,238,285,288,374,375,387,433,441,466,487|美国_0410113 #1'
   network: ws
   port: '24101'
   server: 47.76.35.246
@@ -259,19 +263,23 @@ proxies:
   tls: false
   type: vmess
   uuid: f6195be4-37bc-3cc8-917e-50c704e2f974
-- alterId: 32
+- alterId: 0
   cipher: auto
-  name: 113|🆔@LuxyNet💎❖🇭🇰❖HK❖298
+  country: 🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: 113,238|🇭🇰HK_48 |26.58Mb
   network: ws
   port: 80
   server: hrgdvpn.flycdnedc55.vip
+  servername: hrgdvpn.flycdnedc55.vip
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
   ws-opts:
     headers:
-      host: hrgdvpn.flycdnedc55.vip
+      HOST: hrgdvpn.flycdnedc55.vip
     path: /opt/video/images
 - alterId: 0
   cipher: auto
@@ -1098,7 +1106,7 @@ proxies:
   uuid: d5e16a28-afa8-4b64-a459-db32d14cd4d1
 - alterId: 32
   cipher: auto
-  name: '122,285,288,374,375,466,473,481,487|香港_0410040 #1'
+  name: '122,279,285,288,374,375,466,473,481,487|香港_0410040 #1'
   network: ws
   port: '80'
   server: hrgdvpn.flycdnedc55.vip
@@ -1363,6 +1371,36 @@ proxies:
   type: vmess
   uuid: 4664e760-f5f3-3cc2-8bb3-04f85aa7febb
   ws-path: /
+- alterId: 0
+  cipher: auto
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: 237|🇭🇰HK_137
+  network: ws
+  port: 80
+  server: 182.16.1.194
+  skip-cert-verify: true
+  type: vmess
+  uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
+  ws-path: /opt/video/images
+- alterId: 0
+  cipher: auto
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: 238,285|🇭🇰 HK 3 → tg@nicevpn123
+  network: ws
+  port: 80
+  server: 182.16.1.194
+  servername: 182.16.1.194
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
+  ws-opts:
+    path: /opt/video/images
 - alterId: 0
   cipher: auto
   name: '243|🇨🇳中国【YouTube-由零開始】 #7'
@@ -1733,19 +1771,6 @@ proxies:
   uuid: 32daf1ff-4b08-4c22-b997-1c24ff34c43a
   ws-opts:
     path: /
-- alterId: 0
-  cipher: auto
-  name: 285|🇭🇰 HK 3 → tg@nicevpn123
-  network: ws
-  port: 80
-  server: 182.16.1.194
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
-  ws-opts:
-    path: /opt/video/images
 - alterId: 0
   cipher: auto
   name: 285|🇭🇰 HK 4 → tg@nicevpn123
@@ -3341,23 +3366,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 374,375,400,407,408|香港5|@ripaojiedian
-  network: ws
-  port: '8080'
-  server: 91.199.84.136
-  servername: hk-3.trollfunny.net
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: bdd22841-c4d2-4aa8-acf2-95aa9125f159
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
   name: '374,375|🇭🇰HK-8.210.20.159-3632 #1'
   network: http
   port: 45751
@@ -4070,6 +4078,20 @@ proxies:
     headers:
       Host: cfhk.393930.xyz
     path: /
+- cipher: aes-128-gcm
+  name: 484|HK_speednode_0021
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: /
+    skip-cert-verify: true
+    tls: false
+  port: 443
+  server: 42.98.119.98
+  type: ss
 - alterId: 2
   cipher: auto
   name: 487|香港_0410007
@@ -4111,24 +4133,6 @@ proxies:
     headers:
       Host: yvhnbevxhk1.yofnhkfc.xyz
     path: /video/34kKXbLM
-- alterId: 0
-  cipher: auto
-  name: 524|A香港1
-  network: tcp
-  port: 16001
-  server: bgp2.ktyyun.com
-  tls: false
-  type: vmess
-  uuid: 3b40af01-e7e5-3cf2-807d-3f6df986f34b
-- alterId: 0
-  cipher: auto
-  name: 524|A香港2
-  network: tcp
-  port: 16601
-  server: bgp2.ktyyun.com
-  tls: false
-  type: vmess
-  uuid: 3b40af01-e7e5-3cf2-807d-3f6df986f34b
 - alterId: 0
   cipher: auto
   name: 535|🇭🇰 香港｜HK- 11 | L2
