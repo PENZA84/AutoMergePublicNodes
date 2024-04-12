@@ -1,6 +1,19 @@
 proxies:
 - alterId: 0
   cipher: auto
+  country: ' TW'
+  h2-opts: {}
+  http-opts: {}
+  name: 17| TW_10
+  network: ws
+  port: 31945
+  server: 103.159.206.35
+  skip-cert-verify: true
+  type: vmess
+  uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
+  ws-path: /
+- alterId: 0
+  cipher: auto
   name: 45|台湾省 中华电信(HiNet)数据中心
   network: tcp
   port: 6122
@@ -157,13 +170,6 @@ proxies:
     headers:
       Host: 706dc7c0280181c5816781dea5ae3d87.mobgslb.tbcache.com
     path: /
-- cipher: aes-128-gcm
-  country: 🇼TW
-  name: 235,346|-TW-001
-  password: oiwym4ovI4Yb
-  port: 81
-  server: 61.224.91.182
-  type: ss
 - alterId: 0
   cipher: auto
   name: 256|🇹🇼_TW_台湾
@@ -271,7 +277,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 270,272,398|10|湾_121320002
+  name: 270,272,398|10|台湾_121320002
   network: ''
   port: '10001'
   server: 45.121.48.196
@@ -281,7 +287,7 @@ proxies:
   uuid: 0ed35629-919a-4891-ba0f-13cd198f863b
 - alterId: 0
   cipher: auto
-  name: '270,272,306,398|10|_121320006 #1'
+  name: 270,272,306,398|10|台湾_121320006
   network: ws
   port: '443'
   server: 123.58.197.70
@@ -295,7 +301,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 270,272,398|10|_121320007
+  name: 270,272,398|10|台湾_121320007
   network: tcp
   port: '19588'
   server: 152.32.167.166
@@ -305,7 +311,7 @@ proxies:
   uuid: e160d0ba-5b1a-448c-fcfb-35bfc5c2b1b5
 - alterId: 0
   cipher: auto
-  name: 270,272,306,398|10|台湾_121320008
+  name: 270,272,306,398|10|湾_121320008
   network: tcp
   port: '10001'
   server: 45.121.48.196
@@ -315,7 +321,7 @@ proxies:
   uuid: 0ed35629-919a-4891-ba0f-13cd198f863b
 - alterId: 0
   cipher: auto
-  name: 270,272,398|10|湾_121320011
+  name: 270,272,398|10|_121320011
   network: ''
   port: '19588'
   server: 152.32.167.166
@@ -527,6 +533,12 @@ proxies:
   sni: tls.yihaobao.xyz
   type: trojan
   udp: true
+- cipher: aes-128-gcm
+  name: 346|-TW-001
+  password: oiwym4ovI4Yb
+  port: 81
+  server: 61.224.91.182
+  type: ss
 - alterId: 0
   cipher: auto
   name: '377,378,473|这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使... #69'
@@ -571,10 +583,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 398,469|🇹🇼台湾 02
+  name: 398,469|🇹🇼台湾 01
   network: ws
-  port: '13080'
-  server: 182.160.14.145
+  port: '443'
+  server: cf.335570.xyz
   servername: tw.appleid.bf
   tls: true
   type: vmess
