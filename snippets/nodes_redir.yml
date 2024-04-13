@@ -169,7 +169,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '125,196,198,356,378,379,388,389,399|21|🇺🇸 _US_美国->🇩🇪_DE_德国 #12'
+  name: '125,196,198,356,378,379,388,389,399|21|🇺🇸 _US_美国->_DE_国 #12'
   network: ws
   port: '80'
   server: 104.21.230.30
@@ -449,7 +449,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 125,196,198,356,378,379,388,389,399|21|🇫🇷 _CN_中国->🇷_FR_法国
+  name: 125,196,198,356,378,379,388,389,399|21| _CN_国->🇷_FR_国
   network: ws
   port: '16645'
   server: yes.cnmjcn.net
@@ -643,15 +643,6 @@ proxies:
     headers:
       Host: a.prapt5.ir
     path: /?ed=2048
-- alterId: 2
-  cipher: aes-128-gcm
-  name: 156|中转节点-1.47MB/s
-  network: tcp
-  port: 1002
-  server: 183.236.48.169
-  tls: false
-  type: vmess
-  uuid: 229ccd44-c56c-3947-88de-849dd70c180d
 - alterId: 0
   cipher: auto
   name: 171|🇺🇸美国 01-中转
@@ -3523,9 +3514,11 @@ proxies:
     headers:
       host: admin.arzonhost.ir
     path: /
-- grpc-opts:
+- alterId: 0
+  cipher: auto
+  grpc-opts:
     grpc-service-name: 443trojan
-  name: 339|🇸_US_美国->🇺_RU_
+  name: 339,456|🇺🇸US美国8
   network: grpc
   password: qj1Dz1CJmFQRhWr1SP80aA
   port: 443
@@ -3535,6 +3528,21 @@ proxies:
   tls: true
   type: trojan
   udp: true
+- alterId: 0
+  cipher: auto
+  name: '339,414,447|V18-付费推荐:dlj.tf/ssrsub #1'
+  network: ws
+  port: '2086'
+  server: mizban.arzonhost.ir
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: e690ff9e-1676-4be3-d136-dcae586cb1e7
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
   name: 340|🇺🇸_US_美国->_DE_国
