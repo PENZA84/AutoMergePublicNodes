@@ -71,7 +71,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '125,197,199,357,379,380,389,390,400|21| _US_->_DE_国 #5'
+  name: '125,197,199,357,379,380,389,390,400|21|🇺🇸 _US_美国->🇩🇪_DE_德国 #5'
   network: ws
   port: '80'
   server: 104.21.225.123
@@ -323,7 +323,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '125,197,199,357,379,380,389,390,400|21|🇺🇸 _US_美国->🇩🇪_DE_德国 #23'
+  name: '125,197,199,357,379,380,389,390,400|21| _US_美国->_DE_国 #23'
   network: ws
   port: '80'
   server: 104.21.225.126
@@ -449,7 +449,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 125,197,199,357,379,380,389,390,400|21|🇫🇷 _CN_国->🇷_FR_法国
+  name: 125,197,199,357,379,380,389,390,400|21|🇷 _CN_国->🇫🇷_FR_法国
   network: ws
   port: '16645'
   server: yes.cnmjcn.net
@@ -3516,6 +3516,21 @@ proxies:
   ws-path: /videos
 - alterId: 0
   cipher: auto
+  name: 340,400,405,415|🇺🇸_US_美国->🇫🇷_FR_法国_1
+  network: ws
+  port: 2086
+  server: admin.arzonhost.ir
+  servername: admin.arzonhost.ir
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c
+  ws-opts:
+    headers:
+      host: admin.arzonhost.ir
+    path: /
+- alterId: 0
+  cipher: auto
   grpc-opts:
     grpc-service-name: 443trojan
   name: 340,457|🇺🇸US美国8
@@ -3528,23 +3543,6 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 340,415,448,551|Relay_-🇧GB_680 | 4.66Mb
-  network: ws
-  port: 2086
-  server: mizban.arzonhost.ir
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: e690ff9e-1676-4be3-d136-dcae586cb1e7
-  ws-opts:
-    headers:
-      host: mizban.arzonhost.ir
-    path: /
 - alterId: 0
   cipher: auto
   name: 341|🇺🇸_US_美国->_DE_国
