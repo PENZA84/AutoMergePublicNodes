@@ -1,19 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  country: ' TW'
-  h2-opts: {}
-  http-opts: {}
-  name: 17| TW_10
-  network: ws
-  port: 31945
-  server: 103.159.206.35
-  skip-cert-verify: true
-  type: vmess
-  uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
-  ws-path: /
-- alterId: 0
-  cipher: auto
   name: 45|台湾省 中华电信(HiNet)数据中心
   network: tcp
   port: 6122
@@ -407,7 +394,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 285,287,413|10|台湾_121320002
+  name: 285,287,413|10|湾_121320002
   network: ''
   port: '10001'
   server: 45.121.48.196
@@ -417,7 +404,7 @@ proxies:
   uuid: 0ed35629-919a-4891-ba0f-13cd198f863b
 - alterId: 0
   cipher: auto
-  name: 285,287,321,413|10|_121320006
+  name: 285,287,321,413|10|台湾_121320006
   network: ws
   port: '443'
   server: 123.58.197.70
@@ -431,7 +418,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 285,287,413|10|台湾_121320007
+  name: 285,287,413|10|_121320007
   network: tcp
   port: '19588'
   server: 152.32.167.166
@@ -451,7 +438,7 @@ proxies:
   uuid: 0ed35629-919a-4891-ba0f-13cd198f863b
 - alterId: 0
   cipher: auto
-  name: 285,287,413|10|台湾_121320011
+  name: 285,287,413|10|湾_121320011
   network: ''
   port: '19588'
   server: 152.32.167.166
@@ -713,17 +700,16 @@ proxies:
   server: 52.78.184.192
   tfo: false
   type: ss
-- cipher: chacha20-ietf
-  client-fingerprint: chrome
-  name: 413,425|🇹🇼 台湾2|@ripaojiedian
-  obfs: tls1.2_ticket_auth
-  obfs-param: 6f41b24.microsoft.com
-  password: Fhbe0z
-  port: 11428
-  protocol: auth_aes128_sha1
-  protocol-param: 24:SpYUtPeJYhRk4FWC
-  server: 120.232.240.1
-  type: ssr
+- alterId: 0
+  cipher: auto
+  name: 413,418,426|台湾|@ripaojiedian
+  network: tcp
+  port: '30055'
+  server: 183.240.179.207
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e456d54e-fb49-42c2-ace7-0dd141fee5a6
 - alterId: 0
   cipher: auto
   name: 413,484|🇹🇼台湾 02
@@ -738,6 +724,17 @@ proxies:
     headers:
       Host: tw.appleid.bf
     path: /ws?ed=2048
+- cipher: chacha20-ietf
+  client-fingerprint: chrome
+  name: 413,425|🇹🇼 台湾2|@ripaojiedian
+  obfs: tls1.2_ticket_auth
+  obfs-param: 6f41b24.microsoft.com
+  password: Fhbe0z
+  port: 11428
+  protocol: auth_aes128_sha1
+  protocol-param: 24:SpYUtPeJYhRk4FWC
+  server: 120.232.240.1
+  type: ssr
 - alterId: 0
   cipher: auto
   name: 413,484|🇹🇼台湾 01
