@@ -1,19 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  country: ' TW'
-  h2-opts: {}
-  http-opts: {}
-  name: 17,259|_48
-  network: ws
-  port: 31945
-  server: 103.159.206.35
-  skip-cert-verify: true
-  type: vmess
-  uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
-  ws-path: /
-- alterId: 0
-  cipher: auto
   name: 45|台湾省 中华电信(HiNet)数据中心
   network: tcp
   port: 6122
@@ -714,7 +701,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 289,291,417|10|台湾_121320002
+  name: 289,291,417|10|湾_121320002
   network: ''
   port: '10001'
   server: 45.121.48.196
@@ -738,7 +725,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 289,291,417|10|湾_121320007
+  name: 289,291,417|10|台湾_121320007
   network: tcp
   port: '19588'
   server: 152.32.167.166
@@ -758,7 +745,7 @@ proxies:
   uuid: 0ed35629-919a-4891-ba0f-13cd198f863b
 - alterId: 0
   cipher: auto
-  name: 289,291,417|10|台湾_121320011
+  name: 289,291,417|10|_121320011
   network: ''
   port: '19588'
   server: 152.32.167.166
@@ -949,16 +936,6 @@ proxies:
   server: 52.78.184.192
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 417,422,430|台湾|@ripaojiedian
-  network: tcp
-  port: '30059'
-  server: 183.232.170.21
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e456d54e-fb49-42c2-ace7-0dd141fee5a6
 - cipher: chacha20-ietf
   client-fingerprint: chrome
   name: 417,429|🇹🇼 台湾2|@ripaojiedian
@@ -978,6 +955,30 @@ proxies:
   server: 35.221.160.224
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 417,488|🇹🇼台湾 01
+  network: ws
+  port: '443'
+  server: cf.335570.xyz
+  servername: tw.appleid.bf
+  tls: true
+  type: vmess
+  uuid: 3960f128-1163-40a3-8dd7-7c91176e14a5
+  ws-opts:
+    headers:
+      Host: tw.appleid.bf
+    path: /ws?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 417,422,430|台湾|@ripaojiedian
+  network: tcp
+  port: '30059'
+  server: 183.232.170.21
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e456d54e-fb49-42c2-ace7-0dd141fee5a6
 - alterId: 0
   cipher: auto
   name: 417,488|🇹🇼台湾 02
@@ -1506,22 +1507,6 @@ proxies:
   protocol-param: NjE2MTA6RzVnZHlw
   server: 231103level4.unclemanco.com
   type: ssr
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 569|Relay_-🇹🇼TW_704 |11.38Mb
-  network: ws
-  port: 8080
-  server: 172.67.169.90
-  skip-cert-verify: true
-  type: vmess
-  udp: true
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: oiictw.yydsii.com
-    path: /
 - cipher: aes-256-cfb
   name: 604|畅行 台湾 1
   obfs: tls1.2_ticket_auth
