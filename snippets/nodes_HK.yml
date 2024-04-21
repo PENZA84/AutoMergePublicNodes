@@ -45,21 +45,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '91,146,412,413|🇭🇰HK-209.9.200.93-0724 #2'
-  network: ws
-  port: 8300
-  server: hk3.grpc.stream
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 6031b5c3-d8ba-5756-b708-f61084a2b678
-  ws-opts:
-    headers:
-      Host: hk3.grpc.stream
-    path: /
-- alterId: 0
-  cipher: auto
   name: 91,145,146,306,326,412,413,525|香港_0420007
   network: ws
   port: '2053'
@@ -77,7 +62,7 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   fingerprint: ''
-  name: 91,138,139,145,146,285,286,317,320,323,326,412,413,471,479,525|香港_0420008
+  name: 91,138,139,145,146,285,286,320,323,326,412,413,425,471,479,525|香港_0420008
   network: ws
   port: '28681'
   server: 47.242.22.171
@@ -93,18 +78,33 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '91,146,326,412,413,525|澳大利亚_0420003 #1'
+  name: 91,145,146,306,323,326,412,413,525,527|美国_0421006
   network: ws
-  port: '26639'
-  server: 91.149.236.44
+  port: '443'
+  server: n1710825489.aaigefm.cn
   servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 0dd3ac59-78e9-43d5-bd3f-53f2863cffd7
+  ws-opts:
+    headers:
+      Host: n1710825489.aaigefm.cn
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 91|🇭🇰HK-8.217.159.210-0141 | 1.50...
+  network: ws
+  port: 80
+  server: 8.217.159.210
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: 2cd01fcd-79f3-4ec4-8536-7802c6fcba08
+  uuid: 99376337-6500-40ae-8a3a-3d4eeccef4a1
   ws-opts:
     headers:
-      Host: ''
+      Host: needayhk1.renwox.xyz
     path: /
 - alterId: 0
   cipher: auto
@@ -975,7 +975,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 145,323|🇺🇸 US 540 → tg@nicevpn123
+  name: 145,323|🇺🇸 US 872 → tg@nicevpn123
   network: ws
   port: 443
   server: n1709457297.aaigefm.cn
@@ -991,7 +991,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 145,323|RO 4 → tg@nicevpn123
+  name: 145,323|RO 5 → tg@nicevpn123
   network: ws
   port: 8080
   server: 185.244.208.61
@@ -1053,6 +1053,20 @@ proxies:
     headers:
       Host: hk3.grpc.stream
     path: /event
+- alterId: 64
+  cipher: auto
+  name: 145|🔒 VM-WS-NA 🇭🇰 HK-182.16.1.194:...
+  network: ws
+  port: 80
+  server: 182.16.1.194
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
+  ws-opts:
+    headers:
+      Host: hrgdvpn.flycdnedc55.vip
+    path: /opt/video/images
 - alterId: 0
   cipher: auto
   name: '145,323,479|🔒 VM-WS-NA 🇭🇰 HK-91.149.236.44... #1'
@@ -1071,25 +1085,9 @@ proxies:
     path: /cctv13/hd.m3u8/
 - alterId: 0
   cipher: auto
-  name: 145,146,306,323,326,412,413,425,525,527|美国_0421006
+  name: '145,146,412,413|🇭🇰HK-8.217.159.210-0141 #2'
   network: ws
-  port: '443'
-  server: n1710825489.aaigefm.cn
-  servername: ''
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 0dd3ac59-78e9-43d5-bd3f-53f2863cffd7
-  ws-opts:
-    headers:
-      Host: n1710825489.aaigefm.cn
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '145,146,412,413,425|香港銅鑼灣⚡️1X #1'
-  network: ws
-  port: '80'
+  port: 80
   server: 8.217.159.210
   servername: ''
   skip-cert-verify: false
@@ -1100,6 +1098,36 @@ proxies:
     headers:
       Host: needayhk1.renwox.xyz
     path: /needay?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '146,412,413|🇭🇰HK-209.9.200.93-0724 #2'
+  network: ws
+  port: 8300
+  server: hk3.grpc.stream
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 6031b5c3-d8ba-5756-b708-f61084a2b678
+  ws-opts:
+    headers:
+      Host: hk3.grpc.stream
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '146,326,412,413,525|澳大利亚_0420003 #1'
+  network: ws
+  port: '26639'
+  server: 91.149.236.44
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 2cd01fcd-79f3-4ec4-8536-7802c6fcba08
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - name: 146|🇰HK-152.32.169.42-0958
   port: 21830
   server: www.chrome-helper.cc
@@ -1740,7 +1768,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: 146,323|🇺🇸 US 661 → tg@nicevpn123
+  name: 146,323|🇺🇸 US 213 → tg@nicevpn123
   password: a-wym4ovY4Yw
   plugin: v2ray-plugin
   plugin-opts:
@@ -2306,45 +2334,6 @@ proxies:
     headers:
       Host: 706dc7c0280181c5816781dea5ae3d87.mobgslb.tbcache.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: 243|香港迪士尼樂園⚡️1X
-  network: ws
-  port: '80'
-  server: 47.245.10.164
-  tls: false
-  type: vmess
-  uuid: 99376337-6500-40ae-8a3a-3d4eeccef4a1
-  ws-opts:
-    headers:
-      Host: needayhk1.renwox.xyz
-    path: /needay?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 243|香港蘭桂坊⚡️1X
-  network: ws
-  port: '80'
-  server: 47.245.55.94
-  tls: false
-  type: vmess
-  uuid: 99376337-6500-40ae-8a3a-3d4eeccef4a1
-  ws-opts:
-    headers:
-      Host: needayhk1.renwox.xyz
-    path: /needay?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 243|香港銅鑼灣⚡️1X
-  network: ws
-  port: '80'
-  server: 47.245.13.93
-  tls: false
-  type: vmess
-  uuid: 99376337-6500-40ae-8a3a-3d4eeccef4a1
-  ws-opts:
-    headers:
-      Host: needayhk1.renwox.xyz
-    path: /needay?ed=2048
 - cipher: aes-256-cfb
   country: 🇰 HK
   name: 271,275,306,496|[02-24]-🇸-欧洲-096-150.107.46.21
@@ -2358,10 +2347,10 @@ proxies:
   type: ssr
 - alterId: 0
   cipher: auto
-  country: 🇭🇰HK
+  country: 🇰HK
   h2-opts: {}
   http-opts: {}
-  name: 275|🇭🇰HK_134
+  name: 275|🇭🇰HK_133
   network: ws
   port: 80
   server: 182.16.1.194
@@ -2680,7 +2669,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 305,307,433|10|_121320022
+  name: 305,307,433|10|香港_121320022
   network: tcp
   port: '16399'
   server: 115.126.50.111
@@ -3531,7 +3520,7 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: '399,433,504,603|🇺🇸_US_美国 #65'
+  name: '399,433,504,603|🇺🇸_US_美国 #66'
   network: ws
   port: 2095
   server: 104.26.4.57
@@ -4114,6 +4103,84 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 425|香港 03 三网优化 1x
+  network: ws
+  port: '80'
+  server: freejc.test.freecarriertraffic.hongkong.133141.xyz
+  tls: false
+  type: vmess
+  uuid: 64835c9c-0f38-414f-a620-9b81fa900b28
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 425|香港迪士尼樂園⚡️1X
+  network: ws
+  port: '80'
+  server: 47.245.58.175
+  tls: false
+  type: vmess
+  uuid: 99376337-6500-40ae-8a3a-3d4eeccef4a1
+  ws-opts:
+    headers:
+      Host: needayhk1.renwox.xyz
+    path: /needay?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 425|香港蘭桂坊⚡️1X
+  network: ws
+  port: '80'
+  server: 47.245.9.99
+  tls: false
+  type: vmess
+  uuid: 99376337-6500-40ae-8a3a-3d4eeccef4a1
+  ws-opts:
+    headers:
+      Host: needayhk1.renwox.xyz
+    path: /needay?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 425|香港海洋世界⚡️1X
+  network: ws
+  port: '80'
+  server: 47.245.56.50
+  tls: false
+  type: vmess
+  uuid: 99376337-6500-40ae-8a3a-3d4eeccef4a1
+  ws-opts:
+    headers:
+      Host: needayhk1.renwox.xyz
+    path: /needay?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 425|香港銅鑼灣⚡️1X
+  network: ws
+  port: '80'
+  server: 47.245.56.29
+  tls: false
+  type: vmess
+  uuid: 99376337-6500-40ae-8a3a-3d4eeccef4a1
+  ws-opts:
+    headers:
+      Host: needayhk1.renwox.xyz
+    path: /needay?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 425|香港維多利亞港⚡️1X
+  network: ws
+  port: '80'
+  server: 47.245.10.164
+  tls: false
+  type: vmess
+  uuid: 99376337-6500-40ae-8a3a-3d4eeccef4a1
+  ws-opts:
+    headers:
+      Host: needayhk1.renwox.xyz
+    path: /needay?ed=2048
+- alterId: 0
+  cipher: auto
   name: 431|香港【YouTube @Play实验室】
   network: ws
   port: 63099
@@ -4142,16 +4209,16 @@ proxies:
     headers:
       Host: hkt3-cdn.tencent.best
     path: /
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: '433,504|香港2|@ripaojiedian #1'
+  name: '433,503,504|香港1|@ripaojiedian #1'
   network: tcp
-  port: '44805'
-  server: hkjcdn03.dorabbb.top
+  port: '54402'
+  server: 120.233.43.20
   servername: ''
   tls: false
   type: vmess
-  uuid: 1528295e-c497-43ac-a08d-c040662b9344
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 433|20|HK-8.217.49.34-190
@@ -4165,26 +4232,16 @@ proxies:
   ws-headers:
     Host: needayhk1.renwox.xyz
   ws-path: /needay?ed=2048
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: '433,504|香港|@ripaojiedian #1'
+  name: '433,504|香港2|@ripaojiedian #1'
   network: tcp
-  port: '41492'
-  server: 120.232.242.126
+  port: '44805'
+  server: hkjcdn03.dorabbb.top
   servername: ''
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: '433,503,504|香港1|@ripaojiedian #1'
-  network: tcp
-  port: '54402'
-  server: 120.233.43.20
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 1528295e-c497-43ac-a08d-c040662b9344
 - alterId: 64
   cipher: auto
   name: 436|youtube@资源分享师_香港_76
@@ -4213,20 +4270,6 @@ proxies:
     headers:
       host: doxinjiapo.5201314.cfd
     path: /0987ff95
-- alterId: 64
-  cipher: auto
-  name: '471,479|🔒 VM-WS-NA 🇭🇰 HK-182.16.1.194:... #1'
-  network: ws
-  port: 80
-  server: 182.16.1.194
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
-  ws-opts:
-    headers:
-      Host: hrgdvpn.flycdnedc55.vip
-    path: /opt/video/images
 - cipher: aes-256-cfb
   name: 489|TG频道@mfbpn-香港2
   obfs: tls1.2_ticket_auth
@@ -4703,7 +4746,7 @@ proxies:
     path: /qwe123321ewq
 - alterId: 0
   cipher: auto
-  name: '643,644|下载专用 | 香港1 x0.8倍率 #1'
+  name: 644|下载专用 | 香港1 x0.8倍率
   network: ws
   port: 443
   server: jsm-hk.lovehuawei.top
