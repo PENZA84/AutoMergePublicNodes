@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 145,146,224,226,390,412,413,422,423,433|21|🇺🇸 _US_美国->🇩🇪_DE_德国
+  name: 145,146,224,226,390,412,413,422,423,433|21|🇸 _US_美国->🇩🇪_DE_德国
   network: ws
   port: '80'
   server: 104.21.225.104
@@ -76,7 +76,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '145,146,224,226,390,412,413,422,423,433|21|🇺🇸 _US_美国->_DE_国 #5'
+  name: '145,146,224,226,390,412,413,422,423,433|21|🇺🇸 _US_美国->🇩🇪_DE_德国 #5'
   network: ws
   port: '80'
   server: 104.21.225.123
@@ -301,7 +301,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '145,146,224,226,390,412,413,422,423,433|21|🇺🇸 _US_美国->🇩🇪_DE_德国 #20'
+  name: '145,146,224,226,390,412,413,422,423,433|21|🇸 _US_美国->🇩🇪_DE_德国 #20'
   network: ws
   port: '80'
   server: 104.21.237.65
@@ -481,7 +481,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 145,146,224,226,390,412,413,422,423,433|21|🇷 _CN_中->🇷_FR_法国
+  name: 145,146,224,226,390,412,413,422,423,433|21|🇷 _CN_中->🇫🇷_FR_法国
   network: ws
   port: '16645'
   server: yes.cnmjcn.net
@@ -631,7 +631,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '145,146,224,226,390,412,413,422,423,433|21|🇸 _US_美国->🇩🇪_DE_德国 #41'
+  name: '145,146,224,226,390,412,413,422,423,433|21|🇺🇸 _US_美国->🇩🇪_DE_德国 #41'
   network: ws
   port: '80'
   server: 104.21.237.68
@@ -846,6 +846,19 @@ proxies:
   name: 198|🇭🇰 香港 02-中转
   network: ws
   port: '21031'
+  server: hk.lianjianode.cc
+  tls: false
+  type: vmess
+  uuid: 0d67f300-bfd2-4e63-bb61-20ed80f88ebb
+  ws-opts:
+    headers:
+      Host: hk1.luodi.xyz
+    path: /hongkong
+- alterId: 0
+  cipher: auto
+  name: 198|🇭🇰 香港 03-中转
+  network: ws
+  port: '21032'
   server: hk.lianjianode.cc
   tls: false
   type: vmess
@@ -3026,20 +3039,6 @@ proxies:
     path: /zh-cn
 - alterId: 0
   cipher: auto
-  name: 373,448|🇺🇸_US_美国->🇧🇷_BR_巴西_3
-  network: ws
-  port: 2082
-  server: c2.v2raybrasil.cloud
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 3d2944ae-a11c-46d8-9553-b9e83004d2dd
-  ws-opts:
-    headers:
-      host: s2.redbullplus.xyz
-    path: /t.me/xraybr
-- alterId: 0
-  cipher: auto
   name: '373,448,490|🇺🇸US美国5 #1'
   network: ws
   port: 2095
@@ -3054,20 +3053,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 373,448|🇺🇸_US_美国->🇨🇦_CA_加拿大_2
-  network: ws
-  port: 8080
-  server: yh5.dtku41.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a
-  ws-opts:
-    headers:
-      host: fantastic-doe-bids-ended.trycloudflare.com
-    path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
-- alterId: 0
-  cipher: auto
   name: 373,448|🇺🇸_US_美国->🇨🇦_CA_加拿大_3
   network: ws
   port: 8080
@@ -3080,6 +3065,20 @@ proxies:
     headers:
       host: booty-pensions-scheduling-blogging.trycloudflare.com
     path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
+- alterId: 0
+  cipher: auto
+  name: 373,448|🇺🇸_US_美国->🇫🇷_FR_法国_3
+  network: ws
+  port: 2086
+  server: vmess.diskstation.eu
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c
+  ws-opts:
+    headers:
+      host: admin.arzonhost.ir
+    path: /
 - alterId: 0
   cipher: auto
   name: 374|🇺🇸_US_美国->_DE_国
