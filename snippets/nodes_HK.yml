@@ -1,16 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 14|香港|徐州移动|Neko|1.5x
-  network: tcp
-  port: '13335'
-  server: jscm.r1u.cn
-  tls: false
-  type: vmess
-  uuid: f010dd01-c54a-3c03-95ce-0838214259c6
-- alterId: 0
-  cipher: auto
-  name: 67,393,455,456,701|HK-香港 01 | 游戏节点 | 免流10x
+  name: 67,336,337,385,393,455,456,701|HK-香港 01 | 游戏节点 | 免流10x
   network: ws
   port: '80'
   server: xgone.vbdf.lol
@@ -18,11 +9,27 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: vmess
+  udp: true
   uuid: 94e070a5-fc29-49bf-a1c3-11f3ef2df33d
   ws-opts:
     headers:
       Host: tms.dingtalk.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: 67,393,481|9|baipaovpn亚太地区
+  network: ws
+  port: '9126'
+  server: 103.169.126.238
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: d008ad27-8a5b-4c79-aca2-cd80e8a4db10
+  ws-opts:
+    headers:
+      Host: kcd.jiediandiqus.sbs
+    path: /awufgboawbf
 - alterId: 0
   cipher: auto
   name: 77|🇭🇰香港♾️|1x
@@ -137,11 +144,8 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  country: 🇭🇰HK
   fingerprint: ''
-  h2-opts: {}
-  http-opts: {}
-  name: '108,169,170,176,319,363,366,455,456,468,490,514,522|🔒 VM-WS-NA 🇭🇰 HK-47.242.22.171...
+  name: '108,169,170,176,363,366,455,456,468,490,514,522|🔒 VM-WS-NA 🇭🇰 HK-47.242.22.171...
     #3'
   network: ws
   port: 28681
@@ -158,7 +162,7 @@ proxies:
     path: /
 - cipher: aes-256-gcm
   country: US
-  name: 109,366|🇺🇸 US 1134 → tg@nicevpn123
+  name: 109,366|🇺🇸 US 443 → tg@nicevpn123
   password: iUB0923RBA
   port: 30067
   server: 154.3.8.151
@@ -227,11 +231,11 @@ proxies:
   tls: false
   type: vmess
   uuid: f6195be4-37bc-3cc8-917e-50c704e2f974
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: '167,360,490,554,562|رایگان | VMESS | @DeamNet_Prox... #8'
+  name: 167,360,490|HK_分享日记_15
   network: ws
-  port: '80'
+  port: 80
   server: hrgdvpn.flycdnedc55.vip
   skip-cert-verify: true
   tls: false
@@ -239,7 +243,7 @@ proxies:
   uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
   ws-opts:
     headers:
-      Host: ''
+      host: hrgdvpn.flycdnedc55.vip
     path: /opt/video/images
 - alterId: 0
   cipher: auto
@@ -1032,7 +1036,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 176,366|🇺🇸 US 1772 → tg@nicevpn123
+  name: 176,366|🇺🇸 US 780 → tg@nicevpn123
   network: ws
   port: 443
   server: n1709457297.aaigefm.cn
@@ -1048,7 +1052,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 176,366|RO 5 → tg@nicevpn123
+  name: 176,366|RO 4 → tg@nicevpn123
   network: ws
   port: 8080
   server: 185.244.208.61
@@ -1327,19 +1331,6 @@ proxies:
       Host: cn.bing.com
     path: /
   ws-path: /
-- alterId: 0
-  cipher: auto
-  country: 🇰 HK
-  h2-opts: {}
-  http-opts: {}
-  name: 313,318|🇰 HK_113
-  network: tcp
-  port: 443
-  server: kagoya.hkss.online
-  skip-cert-verify: true
-  type: vmess
-  uuid: 4664e760-f5f3-3cc2-8bb3-04f85aa7febb
-  ws-path: /
 - cipher: aes-256-cfb
   country: 🇰 HK
   name: 314,318,349,455,456,539|[02-24]-🇸-欧洲-096-150.107.46.21
@@ -1351,6 +1342,19 @@ proxies:
   protocol-param: ''
   server: 150.107.46.21
   type: ssr
+- alterId: 0
+  cipher: auto
+  country: 🇰 HK
+  h2-opts: {}
+  http-opts: {}
+  name: 318|🇰 HK_108
+  network: tcp
+  port: 443
+  server: kagoya.hkss.online
+  skip-cert-verify: true
+  type: vmess
+  uuid: 4664e760-f5f3-3cc2-8bb3-04f85aa7febb
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: '324|🇨🇳中国【YouTube-由零開始】 #7'
@@ -1734,7 +1738,7 @@ proxies:
   uuid: dfc2b2af-deb2-4acf-9e8d-e226ab9fd2cb
 - alterId: 0
   cipher: auto
-  name: 349,366|🇺🇸 US 679 → tg@nicevpn123
+  name: 349,366|🇺🇸 US 1780 → tg@nicevpn123
   network: ws
   port: 443
   server: n1710825489.aaigefm.cn
@@ -1764,22 +1768,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 366|🇭🇰 HK 1 → tg@nicevpn123
-  network: ws
-  port: 80
-  server: 182.16.1.194
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
-  ws-opts:
-    headers:
-      Host: 182.16.1.194
-    path: /opt/video/images
-- alterId: 0
-  cipher: auto
-  name: 366|🇭🇰 HK 10 → tg@nicevpn123
+  name: 366|🇭🇰 HK 11 → tg@nicevpn123
   network: ws
   port: 55576
   server: 202.81.231.30
@@ -1807,7 +1796,7 @@ proxies:
       Host: ''
     path: /opt/video/images
 - cipher: aes-128-gcm
-  name: 366|🇭🇰 HK 8 → tg@nicevpn123
+  name: 366|🇭🇰 HK 3 → tg@nicevpn123
   password: a-wym4ovY4Yw
   plugin: v2ray-plugin
   plugin-opts:
@@ -1821,8 +1810,23 @@ proxies:
   server: 1.65.223.223
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 366|🇭🇰 HK 4 → tg@nicevpn123
+  network: ws
+  port: 80
+  server: 182.16.1.194
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
+  ws-opts:
+    headers:
+      Host: 182.16.1.194
+    path: /opt/video/images
 - cipher: aes-128-gcm
-  name: 366|🇭🇰 HK 9 → tg@nicevpn123
+  name: 366|🇭🇰 HK 8 → tg@nicevpn123
   password: a-wym4ovY4Yw
   plugin: v2ray-plugin
   plugin-opts:
@@ -2839,7 +2843,7 @@ proxies:
     path: 55021a7c-bd6c-418e-be95-ceac8ba27b45-vm
 - alterId: 0
   cipher: auto
-  name: '442,547|美国 CloudFlare节点 #41'
+  name: '442,547|美国 CloudFlare节点 #47'
   network: ws
   port: '8080'
   server: yh1.freeh1.xyz
@@ -3847,19 +3851,6 @@ proxies:
     headers:
       Host: 430hkhk.fans8.xyz
     path: /ray
-- alterId: 0
-  cipher: auto
-  name: '468,717|🇭🇰香港3丨白嫖机场.com #1'
-  network: ws
-  port: '80'
-  server: 104.18.154.42
-  tls: false
-  type: vmess
-  uuid: c34d94d9-97d4-4496-9b7f-727dd678e1e0
-  ws-opts:
-    headers:
-      Host: hk3.visaapp.top
-    path: /
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 473|🇭🇰 HK,
@@ -3941,7 +3932,7 @@ proxies:
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 0
   cipher: auto
-  name: '514,522|🔒 VM-TCP-NA 🇭🇰 HK-141.11.90.11... #26'
+  name: '514,522|🔒 VM-TCP-NA 🇭🇰 HK-141.11.90.11... #20'
   network: tcp
   port: 47764
   server: 141.11.90.115
