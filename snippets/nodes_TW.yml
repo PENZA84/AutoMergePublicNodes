@@ -1,6 +1,19 @@
 proxies:
 - alterId: 0
   cipher: auto
+  country: ' TW'
+  h2-opts: {}
+  http-opts: {}
+  name: 18| TW_12
+  network: ws
+  port: 31945
+  server: 103.159.206.35
+  skip-cert-verify: true
+  type: vmess
+  uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
+  ws-path: /
+- alterId: 0
+  cipher: auto
   name: 59|台湾省 中华电信(HiNet)数据中心
   network: tcp
   port: 6122
@@ -9,33 +22,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 8907aeec-189d-48d9-b557-fb242a4d8127
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: '137,480|🇹🇼 Taiwan_1 #1'
-  password: 93ec2378-1151-4db5-9c56-d1387f36882d
-  port: 40006
-  server: tw01.mmyjiedian.com
-  tfo: false
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: '137,480|🇹🇼 Taiwan_2 #1'
-  password: 93ec2378-1151-4db5-9c56-d1387f36882d
-  port: 40007
-  server: tw02.mmyjiedian.com
-  tfo: false
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: '137,480|🇹🇼 Taiwan_3 #1'
-  password: 93ec2378-1151-4db5-9c56-d1387f36882d
-  port: 40008
-  server: tw03.mmyjiedian.com
-  tfo: false
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   name: 172|🆔@LuxyNet💎❖❖TW❖311
@@ -195,7 +181,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 287,356|台湾_050523018
+  name: 287,356|台湾_050604003
   network: tcp
   port: '80'
   server: 7a0add83-5270-1775-a87c-691656dba7c3.bugtik.ltd
@@ -205,7 +191,7 @@ proxies:
   uuid: 3ae2132f-bc69-4782-9a65-c7ad4002b5c2
 - alterId: 0
   cipher: auto
-  name: 287,356|台湾_050523019
+  name: 287,356|台湾_050604004
   network: tcp
   port: '80'
   server: 98ee7637-0cdb-3fe7-dd09-2f619134fb1c.bugtik.ltd
@@ -249,20 +235,21 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  country: 🏁ZZ
+  country: 🇼TW
   h2-opts: {}
   http-opts: {}
-  name: 320|Relay_🏁ZZ-🇼TW_262 | 2.02Mb
+  name: 320,356|台湾_050604005
   network: ws
-  port: 8080
-  server: kkyx.yydsii.com
-  servername: oiictw.yydsii.com
+  port: '443'
+  server: 61.227.176.105
+  servername: ''
   skip-cert-verify: true
+  tls: false
   type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  uuid: f38e9da6-731f-46c5-90c0-e10349cdfb16
   ws-opts:
     headers:
-      HOST: oiictw.yydsii.com
+      Host: ''
     path: /
 - alterId: 0
   cipher: auto
@@ -425,17 +412,17 @@ proxies:
   uuid: e160d0ba-5b1a-448c-fcfb-35bfc5c2b1b5
 - alterId: 0
   cipher: auto
-  name: 356|台湾_050523041
+  name: 356|台湾_050604022
   network: ws
-  port: '443'
-  server: 61.227.176.105
+  port: '80'
+  server: 1.162.144.124
   servername: ''
   tls: false
   type: vmess
-  uuid: f38e9da6-731f-46c5-90c0-e10349cdfb16
+  uuid: 3ae2132f-bc69-4782-9a65-c7ad4002b5c2
   ws-opts:
     headers:
-      Host: ''
+      Host: tms.dingtalk.com
     path: /
 - alterId: 1
   cipher: auto
@@ -733,6 +720,30 @@ proxies:
     path: /
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
+  name: 480|🇹🇼 Taiwan_1
+  password: 93ec2378-1151-4db5-9c56-d1387f36882d
+  port: 40006
+  server: tw01.mmyjiedian.com
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 480|🇹🇼 Taiwan_2
+  password: 93ec2378-1151-4db5-9c56-d1387f36882d
+  port: 40007
+  server: tw02.mmyjiedian.com
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 480|🇹🇼 Taiwan_3
+  password: 93ec2378-1151-4db5-9c56-d1387f36882d
+  port: 40008
+  server: tw03.mmyjiedian.com
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
   name: 480|🇹🇼 TW台湾-电信优化
   password: 1cce1062-972c-4ac0-a511-b9168e761512
   port: 27260
@@ -763,20 +774,6 @@ proxies:
   server: ununim.yangliq.com
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: '488|9|baipaovpn台湾省台南市 #1'
-  network: ws
-  port: '443'
-  server: 61.227.176.105
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f38e9da6-731f-46c5-90c0-e10349cdfb16
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 495|🇹🇼 台湾|@ripaojiedian
