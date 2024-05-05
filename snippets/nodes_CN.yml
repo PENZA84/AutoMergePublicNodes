@@ -1127,7 +1127,7 @@ proxies:
       Host: tms.dingtalk.com
     path: /
 - cipher: rc4-md5
-  name: 320|Relay_-CN_45 |202.00Mb
+  name: '320,321,327|Relay_-CN_02 #1'
   obfs: plain
   obfs-param: 64334105622.www.gov.hk
   password: di15PV
@@ -1320,17 +1320,13 @@ proxies:
   server: 14.29.124.168
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 344,374,392,472,473,488,496,497|CN_youtube@资源分享师_127
-  network: tcp
-  port: 15603
-  server: 183.232.199.61
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+- cipher: chacha20-ietf-poly1305
+  name: 343,373|🇨🇳 CN 447 → tg@nicevpn123
+  password: a501c82c72d790b8
+  port: 8474
+  server: 119.23.104.213
+  type: ss
+  udp: true
 - alterId: 4
   cipher: auto
   name: '345,402,462,463,472,473|亚洲(欢迎订阅Youtube破解资源君) #25'
@@ -4604,13 +4600,6 @@ proxies:
   server: rk.izoizoizo.top
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 373|🇨🇳 CN 447 → tg@nicevpn123
-  password: a501c82c72d790b8
-  port: 8474
-  server: 119.23.104.213
-  type: ss
-  udp: true
 - cipher: rc4-md5
   name: 373|🇨🇳 CN 448 → tg@nicevpn123
   password: dbEcUJ
@@ -7623,6 +7612,17 @@ proxies:
     headers:
       Host: 120.240.48.19
     path: /hls/cctv5phd.m3u8
+- alterId: 0
+  cipher: auto
+  name: 472,473,488,496,497|CN_youtube@资源分享师_127
+  network: tcp
+  port: 15603
+  server: 183.232.199.61
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - name: 477|3.35|CNyoutube155
   network: tcp
   origin: trojan://a3278882-3614-39cf-a3d6-faefa8c910ab@hnm.xiaohouzi.club:17113?type=tcp&security=tls&allowInsecure=1#CN_youtube%40%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB%E5%B8%88_155%0D
@@ -7909,7 +7909,7 @@ proxies:
       host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
     path: /
 - cipher: chacha20-ietf
-  name: 572|CN_speednode_0007
+  name: 572|CN_speednode_0008
   obfs: tls1.2_ticket_auth
   obfs-param: 6f41b24.microsoft.com
   password: Fhbe0z
@@ -7919,21 +7919,56 @@ proxies:
   server: 183.240.220.84
   type: ssr
   udp: true
-- alterId: 2
-  cipher: auto
-  name: 572|CN_speednode_0010
-  network: ws
-  port: 23619
-  server: 19.v2-ray.cyou
-  skip-cert-vertify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: fda5aa69-303c-3dce-bfc1-95b309f6301c
-  ws-opts:
-    headers:
-      host: 19.v2-ray.cyou
-    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 572|CN_speednode_0011
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)feec8af:29306
+    mode: tls
+  port: 2377
+  server: 120.241.46.106
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 572|CN_speednode_0013
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)feec8af:29306
+    mode: tls
+  port: 2377
+  server: 120.241.47.16
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 572|CN_speednode_0014
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)feec8af:29306
+    mode: tls
+  port: 2377
+  server: 120.241.47.20
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 572|CN_speednode_0015
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)feec8af:29306
+    mode: tls
+  port: 2377
+  server: 120.241.47.62
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 572|CN_speednode_0016
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)c68b799:50307
+    mode: tls
+  port: 2377
+  server: 120.241.47.8
+  type: ss
 - alterId: 0
   cipher: auto
   name: 575|中国_0504001
