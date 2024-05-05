@@ -1,19 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  country: ' TW'
-  h2-opts: {}
-  http-opts: {}
-  name: 18,325|_51
-  network: ws
-  port: 31945
-  server: 103.159.206.35
-  skip-cert-verify: true
-  type: vmess
-  uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
-  ws-path: /
-- alterId: 0
-  cipher: auto
   name: 59|台湾省 中华电信(HiNet)数据中心
   network: tcp
   port: 6122
@@ -181,19 +168,21 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '287,475|台湾 03 | tcp #1'
+  name: '287,356,475|台湾 03 | tcp #1'
   network: tcp
   port: '80'
   server: 7a0add83-5270-1775-a87c-691656dba7c3.bugtik.ltd
+  servername: ''
   tls: false
   type: vmess
   uuid: 3ae2132f-bc69-4782-9a65-c7ad4002b5c2
 - alterId: 0
   cipher: auto
-  name: '287,475|台湾 04 | tcp #1'
+  name: '287,356,475|台湾 04 | tcp #1'
   network: tcp
   port: '80'
   server: 98ee7637-0cdb-3fe7-dd09-2f619134fb1c.bugtik.ltd
+  servername: ''
   tls: false
   type: vmess
   uuid: 3ae2132f-bc69-4782-9a65-c7ad4002b5c2
@@ -390,6 +379,20 @@ proxies:
   tls: false
   type: vmess
   uuid: e160d0ba-5b1a-448c-fcfb-35bfc5c2b1b5
+- alterId: 0
+  cipher: auto
+  name: 356|台湾_050523041
+  network: ws
+  port: '443'
+  server: 61.227.176.105
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f38e9da6-731f-46c5-90c0-e10349cdfb16
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 1
   cipher: auto
   name: '389,462,463|🇹🇼TW-1.161.186.146-3194 #1'
@@ -756,6 +759,34 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
+  name: 488|9|baipaovpn台湾省台南市
+  network: ws
+  port: '443'
+  server: 61.227.176.105
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f38e9da6-731f-46c5-90c0-e10349cdfb16
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '488|9|baipaovpn台湾省台南市 #1'
+  network: ws
+  port: '443'
+  server: 61.227.176.105
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f38e9da6-731f-46c5-90c0-e10349cdfb16
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
   name: 488|9|baipaovpn台湾省桃园市
   network: ws
   port: '80'
@@ -864,6 +895,26 @@ proxies:
     headers:
       Host: tw.appleid.bf
     path: /ws?ed=2048
+- cipher: chacha20-ietf-poly1305
+  name: 572|TW_speednode_0122
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)feec8af:29306
+    mode: tls
+  port: 2377
+  server: 118.163.179.161
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 572|TW_speednode_0126
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)feec8af:29306
+    mode: tls
+  port: 2377
+  server: 125.227.83.24
+  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 572|TW_speednode_0129
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
