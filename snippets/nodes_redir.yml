@@ -31,15 +31,12 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,3,181,266,267,268,270,271,343,344,356,374,392,440,472,473,488|10|🇺🇸_US_美国->🇨🇦_CA_加拿大_23
+  name: 0,3,181,266,267,268,270,271,440,472,473,488|10|🇺🇸_US_美国->🇨🇦_CA_加拿大_23
   network: ws
   port: 8080
   server: yh4.dtku41.xyz
-  servername: ''
-  skip-cert-verify: true
   tls: false
   type: vmess
-  udp: true
   uuid: ef8c954e-014f-4b36-8273-9b5086afab34
   ws-opts:
     headers:
@@ -48,7 +45,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '0,3,175,181,266,267,268,270,271,356,370,376,396,397,440,462,463,472,473,488,529,541,575,577,653,667,712|美国【付费推荐：https://jdyvip.link/】1...
+  name: '0,3,175,181,266,267,268,270,271,356,370,376,396,440,462,463,472,473,488,529,575,577,653,667,712|美国【付费推荐：https://jdyvip.link/】1...
     #13'
   network: ws
   port: '2052'
@@ -66,15 +63,13 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: '0,3,112,175,181,266,267,268,270,271,335,336,369,370,440,462,463,472,473,488,495,496,715,716|🇮🇳
+  name: '0,3,112,175,181,266,267,268,270,271,335,336,369,370,440,462,463,472,473,488,715,716|🇮🇳
     印度3|cf #1'
   network: ws
   port: '2052'
   server: hk.wish.ml
   servername: ''
   skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: 543f15f1-96a8-4205-b4a2-1a1ae6766c12
@@ -84,16 +79,14 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,181,266,267,268,270,271,343,344,356,374,376,392,440,462,463,472,473,488,575,577,653,667,712|美国【付费推荐：https://jdyvip.link/】1...
+  name: '0,3,181,266,267,268,270,271,356,376,440,462,463,472,473,488,575,577,653,667,712|美国【付费推荐：https://jdyvip.link/】1...
     #10'
   network: ws
   port: '2052'
   server: 104.18.19.191
   servername: ''
-  skip-cert-verify: true
   tls: false
   type: vmess
-  udp: true
   uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
   ws-opts:
     headers:
@@ -145,13 +138,13 @@ proxies:
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
 - alterId: 0
   cipher: auto
-  name: '1,2,373,423,462,463,498,540|🇺🇸US美国13 #1'
+  name: '1,2,373,423,462,463,498|🇺🇸_US_美国->🇩🇪_DE_德国_3 #1'
   network: ws
   port: 2052
   server: 104.18.36.119
   servername: ''
   skip-cert-verify: true
-  tls: true
+  tls: false
   type: vmess
   udp: true
   uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
@@ -161,7 +154,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '1,2,423,497,498|🇺🇸_US_美国->🇮🇳_IN_印度 #7'
+  name: '1,2,423,498|🇺🇸_US_美国->🇮🇳_IN_印度 #7'
   network: ws
   port: 2052
   server: hk.wish.ml
@@ -189,12 +182,15 @@ proxies:
     headers:
       host: helanv6cf.inekokkk.top
     path: /
-- name: 1,2,423|🇳_CN_国->🇩🇪_DE_德国
+- alterId: 0
+  cipher: auto
+  name: 1,2,423,540|🇳
   network: tcp
   password: MyYoZhfX
   port: 40316
   server: 36.138.99.56
   skip-cert-verify: true
+  tls: true
   type: trojan
   udp: true
 - alterId: 0
@@ -225,13 +221,17 @@ proxies:
     path: /usa
 - alterId: 0
   cipher: auto
-  name: '22,23,241|🇨🇳台湾 01-中转 #2'
+  client-fingerprint: chrome
+  name: 22,23,241,488,495,496|台湾2|@ripaojiedian
   network: ws
   port: '21003'
   server: tw.lianjianode.cc
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: 0d67f300-bfd2-4e63-bb61-20ed80f88ebb
+  uuid: 4087c4c8-5c08-4dfe-8dd1-2dc20b6d9193
   ws-opts:
     headers:
       Host: hinet.luodi.xyz
