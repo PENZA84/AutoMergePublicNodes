@@ -1,10 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: '0,1,2,3,185,333,380,383,395,430,447,469,470,479,480,482,505,582,584|未知_0506051
+  name: '0,1,2,3,185,350,351,380,381,383,395,399,430,447,469,470,479,480,482,505,582,584|未知_0506051
     #2'
   network: ws
   port: '443'
@@ -537,7 +534,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '71,114,185,350,351,381,383,395,399,407,469,470,479,480,582|未知_0506223 #1'
+  name: '71,114,185,350,351,383,395,399,407,469,470,479,480,582|未知_0506223 #1'
   network: ws
   port: '2095'
   server: 104.19.45.17
@@ -920,7 +917,7 @@ proxies:
   delay: 1100
   h2-opts: {}
   http-opts: {}
-  name: '71,333,350,351,399,407|加拿大 056 #1'
+  name: '71,350,351,399,407|加拿大 056 #1'
   network: ws
   port: 80
   server: 172.67.204.84
@@ -1959,8 +1956,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  country: 🇦CA
-  name: 114,333,380|RW 50 → tg@nicevpn123
+  name: 114,380|RW 50 → tg@nicevpn123
   password: G!yBwPWH3Vao
   port: 811
   server: 134.195.196.178
@@ -1974,7 +1970,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '114,185,469,470|🇨🇦CA-23.162.200.227-0253 #1'
+  name: '114,469,470|🇨🇦CA-23.162.200.227-0253 #1'
   network: ws
   port: 443
   server: 23.162.200.227
@@ -1987,13 +1983,6 @@ proxies:
     headers:
       Host: ''
     path: /
-- cipher: aes-256-gcm
-  country: US
-  name: 115|netflix_CA
-  password: e4FCWrgpkji3QY
-  port: 9102
-  server: 23.154.136.149
-  type: ss
 - alterId: 0
   cipher: auto
   name: 128|🇨🇦 加拿大 | V1 | 01
@@ -2159,7 +2148,7 @@ proxies:
     path: /9sTFt5L554kPVWmuJ2k8baS4bEY83PZ66xb4twoBBtsiMPK2b
 - alterId: 0
   cipher: auto
-  name: '185,363,383,395,469,470,482,501,582|美国_0506114 #1'
+  name: '185,363,383,395,469,470,501,582|美国_0506114 #1'
   network: ws
   port: '2086'
   server: 172.67.229.38
@@ -2173,13 +2162,15 @@ proxies:
     path: /IOebhLMhl1CTbFHbL95myfRX2
 - alterId: 0
   cipher: auto
-  name: '185,363,395|United States #141'
+  name: '185,350,351,363,381,395,399|🇺🇸 美国 CloudFlare节点 #39'
   network: ws
   port: '2052'
   server: 104.17.229.133
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
+  udp: true
   uuid: 07a902d1-7c2d-47de-f2c5-c2236fc7cd46
   ws-opts:
     headers:
@@ -2187,15 +2178,11 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  country: 🇨🇦CA
-  h2-opts: {}
-  http-opts: {}
-  name: 185,333,482|CA_分享日记_2
+  name: 185,482|CA_分享日记_2
   network: ws
   port: 443
   server: ca-full.privateip.net
   servername: ''
-  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 8da41d0a-0454-4ced-a7e2-4de2a3dcc525
@@ -2205,14 +2192,16 @@ proxies:
     path: /RACEVPN
 - alterId: 0
   cipher: auto
-  name: '185,347,368,395,482,528,536|🔒 VM-TCP-NA 🇨🇦 CA-142.93.144.9... #3'
-  network: tcp
-  port: '3389'
-  server: 142.93.144.99
+  name: 185,395,479,480,482,495|0|-https://t.me/MrXbin-62
+  network: ws
+  port: 443
+  server: 158.51.121.36
   servername: ''
-  tls: false
+  tls: true
   type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /linkvws
 - alterId: 0
   cipher: auto
   name: '185,347,363,482,528,536|🔒 VM-TCP-NA 🇨🇦 CA-91.194.11.16... #3'
@@ -2225,16 +2214,14 @@ proxies:
   uuid: dbda54b7-b273-491b-86d6-64e88d955672
 - alterId: 0
   cipher: auto
-  grpc-opts:
-    grpc-service-name: 23.227.39.47
-  name: '185,528|🔒 VM-GRPC-TLS 🇨🇦 CA-23.227.39.... #1'
-  network: grpc
-  port: '2083'
-  server: 23.227.39.47
-  servername: behtarinfr.turkalphapro.ir
-  tls: true
+  name: '185,347,368,395,482,528,536|🔒 VM-TCP-NA 🇨🇦 CA-142.93.144.9... #3'
+  network: tcp
+  port: '3389'
+  server: 142.93.144.99
+  servername: ''
+  tls: false
   type: vmess
-  uuid: c24f822f-8233-4996-9183-8caad5a3d19e
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: '0'
   cipher: auto
   name: 198|[🇨🇦]23.227.38.39:443(4612618c-...
@@ -2279,6 +2266,21 @@ proxies:
     path: /ECTCJ0DF
 - alterId: 0
   cipher: auto
+  name: '273,274,275,277,278,363,383,469,470,495,582,584,660,674,720|美国【付费推荐：https://jdyvip.link/】7...
+    #6'
+  network: ws
+  port: '2052'
+  server: cfcdn1.sanfencdn9.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
+  ws-opts:
+    headers:
+      Host: helanv6cf.inekokkk.top
+    path: /
+- alterId: 0
+  cipher: auto
   name: 273,274,383,469,470,495,582,735|🇺🇸美国3-baipiaoyes.top
   network: ws
   port: '80'
@@ -2305,6 +2307,35 @@ proxies:
     headers:
       Host: us3.889611.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: '273,274,275,277,278,308,383,395,469,470,495,559,561,582,584,660,674,676,720|美国【付费推荐：https://jdyvip.link/】2...
+    #9'
+  network: ws
+  port: '2082'
+  server: 172.67.130.140
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  ws-opts:
+    headers:
+      Host: s1c.v2.v001sss.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '274,275,277,278,383,469,470,582,584|美国_0506058 #1'
+  network: ws
+  port: '8080'
+  server: yh4.dtku41.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
+  ws-opts:
+    headers:
+      Host: dual-nothing-prep-exit.trycloudflare.com
+    path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
 - alterId: 0
   cipher: auto
   name: 304|_CA_加拿大
@@ -2417,7 +2448,7 @@ proxies:
   country: 🇦CA
   h2-opts: {}
   http-opts: {}
-  name: 332,333,362,363,364,395,398,482|Toronto
+  name: 332,362,363,364,395,398,482|Toronto
   network: tcp
   port: 22324
   server: 198.57.27.212
@@ -2427,67 +2458,6 @@ proxies:
   type: vmess
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
   ws-path: /
-- cipher: chacha20-ietf-poly1305
-  country: 🇨🇦CA
-  name: 333,380|RW 68 → tg@nicevpn123
-  password: G!yBwPWH3Vao
-  port: 808
-  server: 134.195.196.178
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  country: 🇨🇦CA
-  h2-opts: {}
-  http-opts: {}
-  name: 333,350,351,381,395,399,479,480,482|加拿大 V2CROSS.COM_3
-  network: ws
-  port: 443
-  server: 158.51.121.36
-  servername: ''
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: ''
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  country: 🇨🇦CA
-  h2-opts: {}
-  http-opts: {}
-  name: 333|Relay_🇦CA-🇨🇦CA_17 | 8.91Mb
-  network: ws
-  port: 8080
-  server: 23.227.39.84
-  servername: dongtaiwang13.dtku47.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: 969f1909-c0d3-4c30-813d-3aec5c838b7d
-  ws-opts:
-    headers:
-      HOST: dongtaiwang13.dtku47.xyz
-    path: /1IKYjV0r/
-- alterId: 0
-  cipher: auto
-  country: 🇨🇦CA
-  h2-opts: {}
-  http-opts: {}
-  name: 333|🇨🇦CA_19 |319.04Mb
-  network: ws
-  port: 2052
-  server: 108.181.23.41
-  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-  skip-cert-verify: true
-  type: vmess
-  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
-  ws-opts:
-    headers:
-      HOST: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-    path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
 - alterId: 0
   cipher: auto
   name: 338,363|加拿大_050713004
@@ -2712,7 +2682,7 @@ proxies:
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
-  name: 363,383,469,470,482,582|加拿大_0506013
+  name: 363,383,469,470,582|加拿大_0506013
   network: ws
   port: '8080'
   server: 23.227.39.84
@@ -4101,7 +4071,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: '389,468,582,675|🇨🇦 _CA_加拿大 #4'
+  name: '389,468,582,675|🇨🇦 _CA_加拿大 #5'
   network: ws
   port: '443'
   server: 23.227.38.38
@@ -4113,6 +4083,15 @@ proxies:
     headers:
       Host: lg1.trump2023.us
     path: /ECTCJ0DF
+- alterId: 0
+  cipher: auto
+  name: '395|Canada #8'
+  network: tcp
+  port: 18117
+  server: 107.172.25.132
+  tls: false
+  type: vmess
+  uuid: e2cfd504-b51f-42a4-cc18-665f82f2549c
 - cipher: aes-256-cfb
   name: 396,469,470,483,484|1.59|httpsawkjcfky 注册体验流媒体机场yo...
   obfs: http_simple
@@ -4292,7 +4271,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f22f4bcf-f997-404a-89d1-4e2a52cfece2
+  uuid: ab045ada-5cc1-4023-8cea-a673d33c4198
 - cipher: aes-256-gcm
   name: 410|VIP0.加拿大1.ChatGPT
   password: f7126755-abb2-42ce-8c7b-a3c0dc111825
@@ -4492,7 +4471,7 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 57bacc70-dc0e-4eda-8107-2be574d0dbe1
+  uuid: 2ccb79dd-17cc-4ce8-83d0-983405f26d3f
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -4555,6 +4534,18 @@ proxies:
     headers:
       Host: Yu.com
     path: /vmess
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: 23.227.39.47
+  name: '528,536|🔒 VM-GRPC-TLS 🇨🇦 CA-23.227.39.... #1'
+  network: grpc
+  port: '2083'
+  server: 23.227.39.47
+  servername: behtarinfr.turkalphapro.ir
+  tls: true
+  type: vmess
+  uuid: c24f822f-8233-4996-9183-8caad5a3d19e
 - alterId: 64
   cipher: auto
   name: 543|_CA__182
