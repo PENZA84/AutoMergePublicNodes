@@ -1,10 +1,34 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 14|日本|徐州移动|纸盒|1x
+  network: tcp
+  port: '26179'
+  server: jscm.r1u.cn
+  tls: false
+  type: vmess
+  uuid: f010dd01-c54a-3c03-95ce-0838214259c6
+- alterId: 0
+  cipher: auto
+  country: ' JP'
+  h2-opts: {}
+  http-opts: {}
+  name: '18,188,373,405,408,538,546|🔒 VM-TCP-NA 🇯🇵 JP-167.179.111.... #2'
+  network: tcp
+  port: '14935'
+  server: 167.179.111.237
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: e961894f-8e90-472f-98d3-09402e4be453
+  ws-path: /
+- alterId: 0
+  cipher: auto
   country: 🇺🇸US
   h2-opts: {}
   http-opts: {}
-  name: '18,179,232,336,337,343,365,372,374,393,461,478,514,575,592|日本_0508002 #1'
+  name: '18,179,232,341,365,372,374,393,461,478,514,575,592|日本_0508002 #1'
   network: tcp
   port: '1069'
   server: 152.69.197.60
@@ -29,28 +53,13 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  country: ' JP'
-  h2-opts: {}
-  http-opts: {}
-  name: '18,188,373,405,408,538,546|🔒 VM-TCP-NA 🇯🇵 JP-167.179.111.... #2'
-  network: tcp
-  port: '14935'
-  server: 167.179.111.237
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: e961894f-8e90-472f-98d3-09402e4be453
-  ws-path: /
-- alterId: 0
-  cipher: auto
   client-fingerprint: chrome
   country: 🇺🇸US
   grpc-opts:
     grpc-service-name: 1654431
   h2-opts: {}
   http-opts: {}
-  name: '40,68,115,159,201,309,312,336,341,342,350,354,358,360,390,406,418,423,428,430,434,436,445,466,493,494,497,498,503,507,512,515,547,557,563,590,622,749,750|注:请定时更新订阅
+  name: '40,68,115,181,201,309,312,336,341,342,350,354,358,360,390,406,418,423,428,430,434,436,445,466,493,494,497,498,503,507,512,515,547,557,563,590,622,749,750|注:请定时更新订阅
     #1'
   network: grpc
   password: bbab60b8-779f-31e2-916e-571f7d7023c4
@@ -395,12 +404,15 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
+  client-fingerprint: chrome
   country: 🇺🇸US
+  fingerprint: ''
   h2-opts: {}
   http-opts: {}
-  name: 179,182,188,201,342,352,353,386,387,390,405,406,478,479,480,492,514,538,546,571|🇯🇵JP-152.69.197.74-3356
+  name: '179,181,182,188,201,342,352,353,386,387,390,405,406,478,479,480,492,514,538,546,571,578,586|رایگان
+    | VMESS | @Hope_Net | J... #1'
   network: ws
-  port: 12345
+  port: '12345'
   server: 152.69.197.74
   servername: ''
   skip-cert-verify: true
@@ -424,10 +436,10 @@ proxies:
   uuid: 323d8b87-345d-4065-b7df-2af764d2d1df
 - alterId: 64
   cipher: auto
-  country: 🇵JP
+  country: 🇯🇵JP
   h2-opts: {}
   http-opts: {}
-  name: 179,342,405,408,478,492,514|JP_分享日记_6
+  name: 179,341,342,405,408,478,492,514|JP_分享日记_6
   network: tcp
   port: 24445
   server: 140.83.63.38
@@ -435,6 +447,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 94c5ef37-4d82-49f9-c624-f01259374a17
+  ws-path: /
 - cipher: aes-256-cfb
   name: 179|🆔@LuxyNet💎❖❖JP❖1974
   password: f8f7aCzcPKbsF8p3
@@ -456,7 +469,10 @@ proxies:
     path: /RACEVPN
 - alterId: 0
   cipher: auto
-  name: '188,390,393,408,479,480,514,538,546,592|日本_0508005 #1'
+  country: 🇵JP
+  h2-opts: {}
+  http-opts: {}
+  name: '188,342,390,393,408,479,480,514,538,546,592|日本_0508005 #1'
   network: ws
   port: '41597'
   server: 183.181.36.194
@@ -768,7 +784,7 @@ proxies:
   country: 🇺🇸US
   h2-opts: {}
   http-opts: {}
-  name: 341|🇺🇸US_305
+  name: 341|🇺🇸US_293
   network: tcp
   port: 11773
   server: jp02-vm0.entry.srthdw.art
@@ -782,7 +798,7 @@ proxies:
   country: 🇸US
   h2-opts: {}
   http-opts: {}
-  name: 341|🇺🇸US_290
+  name: 341|🇺🇸US_296
   network: tcp
   port: 21581
   server: jp03-alt-vm0.entry.srthdw.art
@@ -1773,15 +1789,6 @@ proxies:
   password: amazonskr05
   port: 443
   server: 13.231.78.35
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 390,512|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 43.201.47.36
-  tfo: false
   type: ss
   udp: true
 - cipher: aes-256-cfb
@@ -3006,7 +3013,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: e0974437-0cdb-46df-b520-d647215dbd92
+  uuid: 6e08aabf-23a9-4fca-bed3-e5608c72f817
 - alterId: 0
   cipher: auto
   name: 495|【BGP】日本 05  | 1x JP
@@ -3016,7 +3023,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: e0974437-0cdb-46df-b520-d647215dbd92
+  uuid: 6e08aabf-23a9-4fca-bed3-e5608c72f817
 - alterId: 0
   cipher: auto
   name: 495|【BGP】日本 06  | 1x JP
@@ -3026,7 +3033,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: e0974437-0cdb-46df-b520-d647215dbd92
+  uuid: 6e08aabf-23a9-4fca-bed3-e5608c72f817
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -3330,16 +3337,6 @@ proxies:
   server: jp.securevpn.cc
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 505,513|日本2|@ripaojiedian
-  network: tcp
-  port: '61001'
-  server: 183.240.179.195
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 64
   cipher: auto
   name: 505,513|日本3|@ripaojiedian
@@ -4493,8 +4490,8 @@ proxies:
   cipher: auto
   name: 722|[vmess]🇯🇵Japan
   network: ws
-  port: '2096'
-  server: 47.76.94.15
+  port: '41473'
+  server: 103.234.53.204
   servername: jp.pddf.buzz
   tls: true
   type: vmess
@@ -4718,62 +4715,6 @@ proxies:
     headers:
       Host: ''
     path: /qwe123321ewq
-- cipher: aes-128-gcm
-  name: '747|🇯🇵 日本 01 #1'
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 20841
-  server: ss.jpnlink.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: '747|🇯🇵 日本 02 #1'
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 20842
-  server: ss.jpnlink.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: '747|🇯🇵 日本 03 #1'
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 20843
-  server: ss.jpnlink.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 747|🇯🇵 日本 04
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 20844
-  server: ss.jpnlink.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 747|🇯🇵 日本 05
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 20845
-  server: ss.jpnlink.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 747|🇯🇵 日本 06
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 20846
-  server: ss.jpnlink.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 747|🇯🇵 日本 07
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 20847
-  server: ss.jpnlink.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 747|🇯🇵 日本 08
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 20848
-  server: ss.jpnlink.xyz
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   name: 751|🇯🇵日本S丨电报群@bp520
