@@ -1,6 +1,21 @@
 proxies:
 - alterId: 0
   cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: '18,179,232,336,337,343,365,372,374,393,461,478,514,575,592|日本_0508002 #1'
+  network: tcp
+  port: '1069'
+  server: 152.69.197.60
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
+  ws-path: /
+- alterId: 0
+  cipher: auto
   country: ' JP'
   h2-opts: {}
   http-opts: {}
@@ -11,21 +26,6 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: 4a6eaa2d-5603-4c05-d967-fb6f42250a5a
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: '18,179,232,336,365,372,374,393,461,478,514,575,592|日本_0508002 #1'
-  network: tcp
-  port: '1069'
-  server: 152.69.197.60
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
   ws-path: /
 - alterId: 0
   cipher: auto
@@ -50,7 +50,7 @@ proxies:
     grpc-service-name: 1654431
   h2-opts: {}
   http-opts: {}
-  name: '40,68,115,159,181,201,309,312,336,341,342,350,354,358,360,390,406,418,423,428,430,434,436,445,466,493,494,497,498,503,507,512,515,547,557,563,590,622,749,750|注:请定时更新订阅
+  name: '40,68,115,159,201,309,312,336,341,342,350,354,358,360,390,406,418,423,428,430,434,436,445,466,493,494,497,498,503,507,512,515,547,557,563,590,622,749,750|注:请定时更新订阅
     #1'
   network: grpc
   password: bbab60b8-779f-31e2-916e-571f7d7023c4
@@ -148,15 +148,14 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 115,360,361,393,409,479,480,592|日本_0508004
+  name: 115,393,479,480,592|日本_0508004
   network: ws
   port: '57557'
   server: jp-tokyo-oracle-5a26da.ip1.shop
   servername: ''
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: false
   type: vmess
-  udp: true
   uuid: f1b91a7d-a5e2-4684-a183-d2d656400ca1
   ws-opts:
     headers:
@@ -396,12 +395,10 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
   country: 🇺🇸US
-  fingerprint: ''
   h2-opts: {}
   http-opts: {}
-  name: 179,181,182,188,201,342,352,353,386,387,390,405,406,478,479,480,492,514,538,546,571|🇯🇵JP-152.69.197.74-3356
+  name: 179,182,188,201,342,352,353,386,387,390,405,406,478,479,480,492,514,538,546,571|🇯🇵JP-152.69.197.74-3356
   network: ws
   port: 12345
   server: 152.69.197.74
@@ -490,7 +487,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 188,373,391,405,479,480,497|🇯🇵 ~WS~JPˣ⁰
+  name: 188,373,405,479,480,497|🇯🇵 ~WS~JPˣ⁰
   network: ws
   port: 57557
   server: jp-tokyo-oracle-5a26da.ip1.shop
@@ -753,6 +750,24 @@ proxies:
   country: 🇺🇸US
   h2-opts: {}
   http-opts: {}
+  name: '336,342,492,514|JP_分享日记_2 #1'
+  network: ws
+  port: 57557
+  server: jp-tokyo-oracle-5a26da.ip1.shop
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: f1b91a7d-a5e2-4684-a183-d2d656400ca1
+  ws-opts:
+    headers:
+      host: jp-tokyo-oracle-5a26da.ip1.shop
+    path: /rongseven?ed=2048
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
   name: 341|🇺🇸US_305
   network: tcp
   port: 11773
@@ -873,7 +888,7 @@ proxies:
     path: /azjp.pengui.xyz
 - alterId: 0
   cipher: auto
-  name: '365,419|未命名 #246'
+  name: '365,419|未命名 #240'
   network: ws
   port: 80
   server: v116.v2dns.bar
@@ -1758,6 +1773,15 @@ proxies:
   password: amazonskr05
   port: 443
   server: 13.231.78.35
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 390,512|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 43.201.47.36
+  tfo: false
   type: ss
   udp: true
 - cipher: aes-256-cfb
@@ -3306,6 +3330,16 @@ proxies:
   server: jp.securevpn.cc
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 505,513|日本2|@ripaojiedian
+  network: tcp
+  port: '61001'
+  server: 183.240.179.195
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 64
   cipher: auto
   name: 505,513|日本3|@ripaojiedian
@@ -4459,8 +4493,8 @@ proxies:
   cipher: auto
   name: 722|[vmess]🇯🇵Japan
   network: ws
-  port: '2083'
-  server: 8.217.159.210
+  port: '2096'
+  server: 47.76.94.15
   servername: jp.pddf.buzz
   tls: true
   type: vmess
