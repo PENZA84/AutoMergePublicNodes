@@ -62,7 +62,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '1,2,389,439,478,479,514|🇺🇸_US_美国->🇩🇪_DE_德国_2 #1'
+  name: 1,2,389,439,478,479,514|🇺🇸_US_美国->🇩🇪_DE_德国_2
   network: ws
   port: 2052
   server: 104.19.250.15
@@ -2926,14 +2926,20 @@ proxies:
   ws-headers:
     Host: usys.qiutan.pw
   ws-path: /videos
-- name: 439|_CN_国->🇪_DE_德国
-  network: tcp
-  password: MyYoZhfX
-  port: 40316
-  server: 36.138.99.56
+- alterId: 0
+  cipher: auto
+  name: '439,513,514,556|🇳 #1'
+  network: ws
+  port: 16632
+  server: yes.cnmjcn.net
   skip-cert-verify: true
-  type: trojan
-  udp: true
+  tls: true
+  type: vmess
+  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
+  ws-opts:
+    headers:
+      host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 440|🇺🇸_US_美国->_DE_国
