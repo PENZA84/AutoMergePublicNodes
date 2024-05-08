@@ -81,11 +81,31 @@ proxies:
   type: vmess
   uuid: 54de5bc2-fd5d-4aa1-adc8-6beb11e402b5
 - cipher: chacha20-ietf-poly1305
-  name: 115|🇭🇰HK-18.166.78.240-3133 | 9.67...
+  name: 115|🇭🇰HK-18.162.151.137-3179 | 9.5...
+  password: 2155145a-b1b5-443a-8977-670f6bd10f02
+  port: 50001
+  server: bgroup.node4.s.nodelist-gfwairport2.top
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 115|🇭🇰HK-18.167.72.238-0727 | 12.1...
   password: 6541d170-1507-45bc-9603-e8138a21b28c
   port: 50001
   server: cgroup.node4.s.nodelist-gfwairport2.top
   type: ss
+- alterId: 64
+  cipher: auto
+  name: 115|🇭🇰HK-182.16.1.194-9579 | 9.127...
+  network: ws
+  port: 80
+  server: hrgdvpn.flycdnedc55.vip
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
+  ws-opts:
+    headers:
+      Host: hrgdvpn.flycdnedc55.vip
+    path: /
 - alterId: 0
   cipher: auto
   name: 130|🇭🇰 香港 | V1 | 01
@@ -164,7 +184,10 @@ proxies:
     path: /?ed=2560
 - alterId: 64
   cipher: auto
-  name: 179,491|🇭🇰 HK_576 | 9.38Mb
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: 179,341,491|🇭🇰 HK_576 | 9.38Mb
   network: ws
   port: 80
   server: hrgdvpn.flycdnedc55.vip
@@ -982,16 +1005,19 @@ proxies:
     path: /hls/cctv5phd.m3u8
 - alterId: 0
   cipher: auto
-  name: '188,537,545|🔒 VM-TCP-NA 🇭🇰 HK-141.11.90.11... #21'
+  name: '188,537,545|🔒 VM-TCP-NA 🇭🇰 HK-141.11.90.11... #20'
   network: tcp
-  port: 13118
+  port: 48890
   server: 141.11.90.115
   tls: false
   type: vmess
   uuid: 54de5bc2-fd5d-4aa1-adc8-6beb11e402b5
 - alterId: 0
   cipher: auto
-  name: 188,389,392,404,478,479,491,537,545,591|香港_0508011
+  country: HK
+  h2-opts: {}
+  http-opts: {}
+  name: 188,341,389,392,404,478,479,491,537,545,591|香港_0508011
   network: ws
   port: '28681'
   server: 47.242.22.171
@@ -1007,60 +1033,9 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '188,537,545|🔒 VM-TCP-NA 🇭🇰 HK-141.11.90.11... #20'
+  name: '188,537,545|🔒 VM-TCP-NA 🇭🇰 HK-141.11.90.11... #21'
   network: tcp
-  port: 47765
-  server: 141.11.90.115
-  tls: false
-  type: vmess
-  uuid: 54de5bc2-fd5d-4aa1-adc8-6beb11e402b5
-- alterId: 0
-  cipher: auto
-  name: '188,537,545|🔒 VM-TCP-NA 🇭🇰 HK-141.11.90.11... #28'
-  network: tcp
-  port: 12002
-  server: 141.11.90.115
-  tls: false
-  type: vmess
-  uuid: 54de5bc2-fd5d-4aa1-adc8-6beb11e402b5
-- alterId: 0
-  cipher: auto
-  name: '188,537,545|🔒 VM-TCP-NA 🇭🇰 HK-141.11.90.11... #23'
-  network: tcp
-  port: 34241
-  server: 141.11.90.115
-  tls: false
-  type: vmess
-  uuid: 54de5bc2-fd5d-4aa1-adc8-6beb11e402b5
-- alterId: 0
-  cipher: auto
-  name: '188,537,545|🔒 VM-WS-TLS 🇭🇰 HK-152.32.190.2... #2'
-  network: ws
-  port: '4431'
-  server: 152.32.190.239
-  servername: cfhk.393930.xyz
-  tls: true
-  type: vmess
-  uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9
-  ws-opts:
-    headers:
-      Host: cfhk.393930.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '188,537,545|🔒 VM-TCP-NA 🇭🇰 HK-85.208.104.1... #2'
-  network: tcp
-  port: '1327'
-  server: 85.208.104.176
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: dfc2b2af-deb2-4acf-9e8d-e226ab9fd2cb
-- alterId: 0
-  cipher: auto
-  name: '188,537,545|🔒 VM-TCP-NA 🇭🇰 HK-141.11.90.11... #25'
-  network: tcp
-  port: 48890
+  port: 13118
   server: 141.11.90.115
   tls: false
   type: vmess
@@ -1069,16 +1044,16 @@ proxies:
   cipher: auto
   name: '188,537,545|🔒 VM-TCP-NA 🇭🇰 HK-141.11.90.11... #22'
   network: tcp
-  port: 48897
+  port: 47763
   server: 141.11.90.115
   tls: false
   type: vmess
   uuid: 54de5bc2-fd5d-4aa1-adc8-6beb11e402b5
 - alterId: 0
   cipher: auto
-  name: '188,537,545|🔒 VM-TCP-NA 🇭🇰 HK-141.11.90.11... #27'
+  name: '188,537,545|🔒 VM-TCP-NA 🇭🇰 HK-141.11.90.11... #23'
   network: tcp
-  port: 47763
+  port: 48894
   server: 141.11.90.115
   tls: false
   type: vmess
@@ -1087,7 +1062,25 @@ proxies:
   cipher: auto
   name: '188,537,545|🔒 VM-TCP-NA 🇭🇰 HK-141.11.90.11... #24'
   network: tcp
+  port: 12002
+  server: 141.11.90.115
+  tls: false
+  type: vmess
+  uuid: 54de5bc2-fd5d-4aa1-adc8-6beb11e402b5
+- alterId: 0
+  cipher: auto
+  name: '188,537,545|🔒 VM-TCP-NA 🇭🇰 HK-141.11.90.11... #25'
+  network: tcp
   port: 47764
+  server: 141.11.90.115
+  tls: false
+  type: vmess
+  uuid: 54de5bc2-fd5d-4aa1-adc8-6beb11e402b5
+- alterId: 0
+  cipher: auto
+  name: '188,537,545|🔒 VM-TCP-NA 🇭🇰 HK-141.11.90.11... #26'
+  network: tcp
+  port: 48897
   server: 141.11.90.115
   tls: false
   type: vmess
@@ -1108,22 +1101,55 @@ proxies:
     path: /akileipv6zhuyaoji
 - alterId: 0
   cipher: auto
-  name: '188,537,545|🔒 VM-TCP-NA 🇭🇰 HK-141.11.90.11... #26'
-  network: tcp
-  port: 48894
-  server: 141.11.90.115
-  tls: false
-  type: vmess
-  uuid: 54de5bc2-fd5d-4aa1-adc8-6beb11e402b5
-- alterId: 0
-  cipher: auto
-  name: '188,537,545|🔒 VM-TCP-NA 🇭🇰 HK-141.11.90.11... #29'
+  name: '188,537,545|🔒 VM-TCP-NA 🇭🇰 HK-141.11.90.11... #27'
   network: tcp
   port: 46781
   server: 141.11.90.115
   tls: false
   type: vmess
   uuid: 54de5bc2-fd5d-4aa1-adc8-6beb11e402b5
+- alterId: 0
+  cipher: auto
+  name: '188,537,545|🔒 VM-TCP-NA 🇭🇰 HK-141.11.90.11... #28'
+  network: tcp
+  port: 47765
+  server: 141.11.90.115
+  tls: false
+  type: vmess
+  uuid: 54de5bc2-fd5d-4aa1-adc8-6beb11e402b5
+- alterId: 0
+  cipher: auto
+  name: '188,537,545|🔒 VM-WS-TLS 🇭🇰 HK-152.32.190.2... #2'
+  network: ws
+  port: '4431'
+  server: 152.32.190.239
+  servername: cfhk.393930.xyz
+  tls: true
+  type: vmess
+  uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9
+  ws-opts:
+    headers:
+      Host: cfhk.393930.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '188,537,545|🔒 VM-TCP-NA 🇭🇰 HK-141.11.90.11... #29'
+  network: tcp
+  port: 34241
+  server: 141.11.90.115
+  tls: false
+  type: vmess
+  uuid: 54de5bc2-fd5d-4aa1-adc8-6beb11e402b5
+- alterId: 0
+  cipher: auto
+  name: '188,537,545|🔒 VM-TCP-NA 🇭🇰 HK-85.208.104.1... #2'
+  network: tcp
+  port: '1327'
+  server: 85.208.104.176
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: dfc2b2af-deb2-4acf-9e8d-e226ab9fd2cb
 - cipher: chacha20-ietf-poly1305
   name: 201|[🇭🇰]a4a09ce.h1.glados-config.n...
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
@@ -1459,7 +1485,7 @@ proxies:
   country: 🇰 HK
   h2-opts: {}
   http-opts: {}
-  name: 340|🇰 HK_116
+  name: 340|🇰 HK_114
   network: tcp
   port: 443
   server: kagoya.hkss.online
@@ -1467,19 +1493,6 @@ proxies:
   type: vmess
   uuid: 4664e760-f5f3-3cc2-8bb3-04f85aa7febb
   ws-path: /
-- alterId: 0
-  cipher: auto
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: 340|🇭🇰HK_125
-  network: ws
-  port: 80
-  server: 182.16.1.194
-  skip-cert-verify: true
-  type: vmess
-  uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
-  ws-path: /opt/video/images
 - alterId: 0
   cipher: auto
   name: '347|🇨🇳中国【YouTube-由零開始】 #7'
@@ -1895,22 +1908,6 @@ proxies:
   uuid: 32daf1ff-4b08-4c22-b997-1c24ff34c43a
   ws-opts:
     path: /
-- alterId: 0
-  cipher: auto
-  name: '389,491,537,545|🔒 VM-WS-NA 🇭🇰 HK-182.16.1.194:... #1'
-  network: ws
-  port: 80
-  server: 182.16.1.194
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
-  ws-opts:
-    headers:
-      Host: ''
-    path: /opt/video/images
 - alterId: 0
   cipher: auto
   name: 392,478,479,591|香港_0508093
@@ -2803,7 +2800,7 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: '465,570,686|🇺🇸_US_美国 #78'
+  name: '465,570,686|🇺🇸_US_美国 #74'
   network: ws
   port: 2095
   server: 104.26.4.57
@@ -2907,7 +2904,7 @@ proxies:
     path: 55021a7c-bd6c-418e-be95-ceac8ba27b45-vm
 - alterId: 0
   cipher: auto
-  name: '465,570|美国 CloudFlare节点 #96'
+  name: '465,570|美国 CloudFlare节点 #107'
   network: ws
   port: '8080'
   server: yh1.freeh1.xyz
@@ -4526,6 +4523,14 @@ proxies:
   server: 47.243.45.101
   tfo: false
   type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 511|🇭🇰 香港5|@ripaojiedian
+  password: 3567f27e-60aa-4494-8e5f-3b1328b83390
+  port: 33578
+  server: hk.4.thap.xyz
+  tfo: false
+  type: ss
 - cipher: aes-256-cfb
   name: 555|TG频道@mfbpn-香港2
   obfs: tls1.2_ticket_auth
@@ -4680,20 +4685,6 @@ proxies:
     headers:
       Host: cfhk.393930.xyz
     path: /
-- cipher: aes-128-gcm
-  name: 588|HK_speednode_0016
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: /
-    skip-cert-verify: true
-    tls: false
-  port: 443
-  server: 47.76.185.99
-  type: ss
 - alterId: 0
   cipher: auto
   name: 591|香港_0508001
@@ -5033,8 +5024,8 @@ proxies:
   cipher: auto
   name: 721|[vmess]🇭🇰Hong Kong
   network: ws
-  port: '22388'
-  server: 154.3.38.140
+  port: '443'
+  server: 178.173.237.173
   servername: hkt.pddf.buzz
   tls: true
   type: vmess
