@@ -484,7 +484,7 @@ proxies:
     path: /v2ray
 - alterId: 0
   cipher: auto
-  name: '193,497,498|🇨🇳 广东省汕头市 移动 #6'
+  name: '193|🇨🇳 广东省汕头市 移动 #1'
   network: tcp
   port: '61001'
   server: 183.240.179.195
@@ -493,13 +493,15 @@ proxies:
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 0
   cipher: auto
-  name: '193,368,369,398,399,417,422,487,488,497,498,579,680,694,745|中国【付费推荐：https://jdyvip.link/】7
+  client-fingerprint: chrome
+  name: '193,398,421,422,487,488,497,498,579,680,694,745|中国【付费推荐：https://jdyvip.link/】7
     #2'
   network: ws
   port: '20301'
   server: data-jp-v1.usabooks.com.cn
   servername: ''
-  skip-cert-verify: true
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
   udp: true
@@ -510,7 +512,7 @@ proxies:
     path: /debian
 - alterId: 64
   cipher: auto
-  name: 193,497,498,513,521|日本3|@ripaojiedian
+  name: 193,369,399,417,497,498,513,521|日本3|@ripaojiedian
   network: tcp
   port: '51707'
   server: 183.236.51.59
@@ -520,15 +522,13 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: '193,398,421,487,488,497,498,566,680,694,745|中国【付费推荐：https://jdyvip.link/】4...
+  name: '193,368,369,398,399,417,487,488,497,498,566,680,694,745|中国【付费推荐：https://jdyvip.link/】4...
     #5'
   network: ws
   port: '20206'
   server: data-hk-v1.usabooks.com.cn
   servername: ''
-  skip-cert-verify: false
-  tfo: false
+  skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
@@ -1130,7 +1130,7 @@ proxies:
       Host: tms.dingtalk.com
     path: /
 - cipher: rc4-md5
-  name: 344,345,351|Relay_-CN_03
+  name: '344,345,351|Relay_-CN_03 #1'
   obfs: plain
   obfs-param: 64334105622.www.gov.hk
   password: di15PV
@@ -2692,7 +2692,7 @@ proxies:
   ws-path: /aceamedv
 - alterId: 2
   cipher: auto
-  name: '375,427|未命名 #230'
+  name: '375,427|未命名 #221'
   network: tcp
   port: 53900
   server: jpgithub.edgehelper.com
@@ -4137,6 +4137,18 @@ proxies:
   password: dbEcUJ
   port: 24603
   server: 211.99.97.4
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 398,421,565|🇪DE国
+  password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
+  port: 20003
+  server: service.ouluyun9803.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -6805,21 +6817,6 @@ proxies:
     headers:
       Host: kh.sharecentre.online
     path: /shirker
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: hkvip103
-  name: 421,565|🇳CN国
-  network: grpc
-  password: dfeb4fd8-b9a6-341b-854b-da64d588b637
-  port: 21116
-  server: 8.218.144.57
-  skip-cert-verify: true
-  sni: hkvip103.qlgq.fun
-  tls: true
-  type: trojan
-  udp: true
 - cipher: aes-128-gcm
   name: 431|github.com/freefq-广东省移动28
   password: Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmNjY1YzVkMC03N2MwLTQxOTYtYmM4ZC1mMDQ1MGU5YzY2NWI
@@ -7816,16 +7813,6 @@ proxies:
   ws-headers:
     Host: apple.com
   ws-path: /Patti$Freud$4Clubs$spendable$lamar7$mollie7
-- alterId: 64
-  cipher: auto
-  name: 513|9|baipaovpn广东省江门市
-  network: tcp
-  port: '40002'
-  server: 120.238.122.239
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 522|CN_youtube@资源分享师_12
@@ -8030,6 +8017,18 @@ proxies:
     headers:
       host: data-hk-v1.usabooks.com.cn
     path: /debian
+- alterId: 0
+  cipher: auto
+  name: 565|🇳CN国
+  network: grpc
+  password: dfeb4fd8-b9a6-341b-854b-da64d588b637
+  port: 21116
+  server: 8.218.144.57
+  skip-cert-verify: true
+  sni: hkvip103.qlgq.fun
+  tls: true
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: 600|中国_0508001
