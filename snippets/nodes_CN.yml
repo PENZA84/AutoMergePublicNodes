@@ -449,7 +449,7 @@ proxies:
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaad
 - alterId: 64
   cipher: auto
-  name: 197|🇨🇳广东3
+  name: 197|🇨🇳CN | 🟢 | vmess | @mftizi | 8
   network: tcp
   port: '54437'
   server: 183.236.51.59
@@ -459,7 +459,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 197|🇨🇳CN | 🟢 | vmess | @mftizi | 1...
+  name: '197,373,403,421|河北省 中移铁通 #2'
   network: tcp
   port: '44805'
   server: hkscdn02.dorabbb.top
@@ -481,18 +481,9 @@ proxies:
     headers:
       Host: hk.lalayunssl.xyz
     path: /v2ray
-- alterId: 0
-  cipher: auto
-  name: 197|🇨🇳CN | 🟢 | vmess | @Hope_Net |...
-  network: tcp
-  port: '61001'
-  server: 183.240.179.195
-  tls: false
-  type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 64
   cipher: auto
-  name: 197,501,502,517,525|日本3|@ripaojiedian
+  name: 197,373,403,421,501,502,517,525|日本3|@ripaojiedian
   network: tcp
   port: '51707'
   server: 183.236.51.59
@@ -502,10 +493,10 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  country: 🇨🇳CN
+  country: 🇨CN
   h2-opts: {}
   http-opts: {}
-  name: '197,348,354,373,385,403,421,501,502,517|9|baipaovpn广东省江门市 #1'
+  name: '197,348,353,354,385,501,502,517|9|baipaovpn广东省江门市 #1'
   network: tcp
   port: '40002'
   server: 120.238.122.239
@@ -514,6 +505,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: '197,372,373,402,403,421,491,492,501,502,570,684,698,749|中国【付费推荐：https://jdyvip.link/】4...
@@ -1120,7 +1112,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 292,293,517,525,526|CN_youtube@资源分享师_84
+  name: 292,293,373,403,421,517,525,526|CN_youtube@资源分享师_84
   network: tcp
   port: 44001
   server: 183.240.255.91
@@ -1145,7 +1137,7 @@ proxies:
       Host: tms.dingtalk.com
     path: /
 - cipher: rc4-md5
-  name: 348,355|Relay_-CN_03
+  name: '348,349,355|Relay_-CN_03 #1'
   obfs: plain
   obfs-param: 64334105622.www.gov.hk
   password: di15PV
@@ -1338,34 +1330,6 @@ proxies:
   server: 14.29.124.168
   type: ss
   udp: true
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 372,402,524,569|🇨🇳
-  password: 798c4ab8-613f-468f-b3ff-daf43c88aad7
-  port: 38998
-  server: 98899.xef9wvmj31-gc3qil6-jp02.my777999.top
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 372,373,385,403,421,517,681|香港1
-  network: ws
-  port: '1094'
-  server: 43.248.96.173
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 12383be0-88d0-4f5b-b447-522502664882
-  ws-opts:
-    headers:
-      Host: taoyuan.love
-    path: /cctv15/hd.m3u8
 - alterId: 4
   cipher: auto
   name: '374|🇨🇳中国(绿头外网集团)(Public) #1'
@@ -2735,7 +2699,7 @@ proxies:
   ws-path: /aceamedv
 - alterId: 2
   cipher: auto
-  name: '379,431|未命名 #230'
+  name: '379,431|未命名 #232'
   network: tcp
   port: 53900
   server: jpgithub.edgehelper.com
@@ -3204,6 +3168,20 @@ proxies:
     path: /cctv15/hd.m3u8
 - alterId: 0
   cipher: auto
+  name: 385,517,681|香港1
+  network: ws
+  port: '1094'
+  server: 43.248.96.173
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 12383be0-88d0-4f5b-b447-522502664882
+  ws-opts:
+    headers:
+      Host: taoyuan.love
+    path: /cctv15/hd.m3u8
+- alterId: 0
+  cipher: auto
   name: 402|🇨🇳 CN 437 → tg@nicevpn123
   network: ws
   port: 27506
@@ -3628,6 +3606,18 @@ proxies:
   password: dbEcUJ
   port: 24603
   server: 211.99.97.16
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 402,524,569|🇨🇳
+  password: 798c4ab8-613f-468f-b3ff-daf43c88aad7
+  port: 38998
+  server: 98899.xef9wvmj31-gc3qil6-jp02.my777999.top
+  skip-cert-verify: true
+  tfo: false
+  tls: true
   type: ss
   udp: true
 - alterId: 0
