@@ -4,7 +4,7 @@ proxies:
   country: ' JP'
   h2-opts: {}
   http-opts: {}
-  name: '18,198,387,419,422,552,560|🔒 VM-TCP-NA 🇯🇵 JP-167.179.111.... #3'
+  name: '18,192,198,387,401,419,422,552,560|🔒 VM-TCP-NA 🇯🇵 JP-167.179.111.... #2'
   network: tcp
   port: '14935'
   server: 167.179.111.237
@@ -19,7 +19,7 @@ proxies:
   country: 🇺🇸US
   h2-opts: {}
   http-opts: {}
-  name: 18,189,245,351,357,379,386,388,407,475,492,589,606|日本_0510002
+  name: 18,189,245,350,355,379,386,388,407,475,492,589,606|日本_0510002
   network: tcp
   port: '1069'
   server: 152.69.197.60
@@ -34,7 +34,7 @@ proxies:
   country: ' JP'
   h2-opts: {}
   http-opts: {}
-  name: 18| JP_07
+  name: 18,355|_47
   network: ws
   port: 41597
   server: 183.181.36.194
@@ -45,9 +45,12 @@ proxies:
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
+  country: ZZ
   grpc-opts:
     grpc-service-name: 1654431
-  name: 41,121,191,211,323,326,364,368,372,374,404,420,427,432,437,442,444,446,450,459,480,507,508,511,512,517,521,526,529,561,571,577,603,604|Relay_🏁ZZ-🏁ZZ_1452
+  h2-opts: {}
+  http-opts: {}
+  name: 41,121,191,211,323,326,350,355,364,368,372,374,404,420,427,432,437,442,444,446,450,459,480,507,508,511,512,517,521,526,529,561,571,577,603,604|Relay_🏁ZZ-🏁ZZ_1452
   network: grpc
   password: bbab60b8-779f-31e2-916e-571f7d7023c4
   port: 35115
@@ -392,10 +395,9 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '189,198,211,398,404,419,420,492,493,494,506,552,560,571,572,585,592,600|رایگان
-    | VMESS | @v2Line | JP🇯... #3'
+  name: 189,198,211,398,404,419,420,492,493,494,506,552,560,571,572,585|🇯🇵JP-152.69.197.74-3356
   network: ws
-  port: '12345'
+  port: 12345
   server: 152.69.197.74
   servername: ''
   skip-cert-verify: true
@@ -710,6 +712,20 @@ proxies:
       Host: cn.bing.com
     path: /
   ws-path: /
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 355|🇺🇸US_292
+  network: tcp
+  port: 11773
+  server: jp02-vm0.entry.srthdw.art
+  servername: jp02-vm0.entry.srthdw.art
+  skip-cert-verify: true
+  type: vmess
+  uuid: c2365e4e-3700-323a-b889-fea7677ef8d1
+  ws-path: /path/040525210130
 - alterId: 0
   cipher: auto
   name: 373,493,494,507|0.55|JPhttpsawkjcfky 注册体验流媒体机场...
@@ -1429,13 +1445,6 @@ proxies:
   server: 54.249.1.223
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: 404,603|JP_speednode_0066
-  password: amazonskr05
-  port: 443
-  server: 13.231.229.48
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   name: 404|🇯🇵 JP 22 → tg@nicevpn123
@@ -1498,16 +1507,6 @@ proxies:
   server: 43.201.56.52
   type: ss
   udp: true
-- alterId: 0
-  cipher: aes-256-cfb
-  name: 404,571|未知155 419.1KB/s
-  password: amazonskr05
-  port: 443
-  server: 43.202.41.139
-  skip-cert-verify: true
-  tls: true
-  type: ss
-  udp: true
 - cipher: aes-256-cfb
   name: 404|🇯🇵 JP 31 → tg@nicevpn123
   password: amazonskr05
@@ -1537,13 +1536,6 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 404|🇯🇵 JP 35 → tg@nicevpn123
-  password: amazonskr05
-  port: 443
-  server: 43.203.201.192
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 404,511|🇰🇷 KR 15
   password: amazonskr05
@@ -1557,16 +1549,6 @@ proxies:
   password: amazonskr05
   port: 443
   server: 43.201.104.145
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: aes-256-cfb
-  name: 404,571|未知290
-  password: amazonskr05
-  port: 443
-  server: 3.112.218.182
-  skip-cert-verify: true
-  tls: true
   type: ss
   udp: true
 - cipher: aes-256-cfb
@@ -1702,13 +1684,6 @@ proxies:
   password: amazonskr05
   port: 443
   server: 13.231.78.35
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 404|🇯🇵 JP 63 → tg@nicevpn123
-  password: amazonskr05
-  port: 443
-  server: 43.201.47.36
   type: ss
   udp: true
 - cipher: aes-256-cfb
@@ -2961,7 +2936,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: a193c734-d2e8-4408-bca4-14bfcd888f16
+  uuid: 9267d2e1-a2a6-42d1-b42f-753c993300fc
 - alterId: 0
   cipher: auto
   name: 509|【BGP】日本 05  | 1x JP
@@ -2971,7 +2946,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: a193c734-d2e8-4408-bca4-14bfcd888f16
+  uuid: 9267d2e1-a2a6-42d1-b42f-753c993300fc
 - alterId: 0
   cipher: auto
   name: 509|【BGP】日本 06  | 1x JP
@@ -2981,7 +2956,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: a193c734-d2e8-4408-bca4-14bfcd888f16
+  uuid: 9267d2e1-a2a6-42d1-b42f-753c993300fc
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -3306,14 +3281,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 526|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 52.88.161.5
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   name: 537|github.com/Pawdroid - 日本  9
@@ -3566,16 +3533,6 @@ proxies:
     headers:
       Host: v6.583181.xyz
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: 603|JP_speednode_0065
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)c68b799:50307
-    mode: tls
-  port: 2377
-  server: 18.176.215.63
-  type: ss
 - alterId: 0
   cipher: auto
   name: 648|🇯🇵日本高速接入点-01
@@ -4013,7 +3970,7 @@ proxies:
   cipher: auto
   name: 737|[vmess]🇯🇵Japan
   network: ws
-  port: '2087'
+  port: '2083'
   server: 47.242.232.14
   servername: jp.pddf.buzz
   tls: true
