@@ -1,13 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 14|台湾|广州移动|Polo|1x
-  network: tcp
-  port: 39872
-  server: gdcm.r1u.cn
-  tls: false
+  country: ' TW'
+  h2-opts: {}
+  http-opts: {}
+  name: 18| TW_15
+  network: ws
+  port: 31945
+  server: 103.159.206.35
+  skip-cert-verify: true
   type: vmess
-  uuid: f010dd01-c54a-3c03-95ce-0838214259c6
+  uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: 63|台湾省 中华电信(HiNet)数据中心
@@ -164,6 +168,20 @@ proxies:
   port: 50701
   server: 61.220.130.70
   type: ss
+- alterId: 0
+  cipher: auto
+  name: '207,386,577|🔒 VM-WS-TLS 🇹🇼 TW-154.40.60.17... #1'
+  network: ws
+  port: '12945'
+  server: 154.40.60.172
+  servername: 55.lwdh.us
+  tls: true
+  type: vmess
+  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
 - alterId: '0'
   cipher: auto
   name: 220|[🇹🇼]103.131.189.212:56967(8110...
@@ -380,18 +398,21 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 386,577|🔒 VM-WS-TLS 🇹🇼 TW-154.40.60.17...
+  h2-opts: {}
+  http-opts: {}
+  name: '373,424,436,510,511,623,625,725,778|美国【付费推荐：https://jdyvip.link/】1... #5'
   network: ws
-  port: '12945'
-  server: 154.40.60.172
-  servername: 55.lwdh.us
-  tls: true
+  port: '8080'
+  server: 172.67.199.185
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+  udp: true
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
   ws-opts:
     headers:
-      Host: ''
-    path: ''
+      Host: oiictw.yydsii.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 389|🇹🇼_TW_台湾
@@ -877,10 +898,8 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  country: 🇨🇳CN
-  delay: 557
-  name: 528,620|CN_speednode_0008
-  password: 7ae76210-094e-4831-81aa-52c6d8c9fd70
+  name: 528|🇹🇼 Taiwan_3
+  password: 93ec2378-1151-4db5-9c56-d1387f36882d
   port: 40008
   server: tw03.mmyjiedian.com
   tfo: false
