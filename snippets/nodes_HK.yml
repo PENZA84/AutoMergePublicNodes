@@ -1,6 +1,15 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 14|香港|广州移动|Neko|1.5x
+  network: tcp
+  port: 13337
+  server: gdcm.r1u.cn
+  tls: false
+  type: vmess
+  uuid: f010dd01-c54a-3c03-95ce-0838214259c6
+- alterId: 0
+  cipher: auto
   name: '19,20,260,261,262,263|🇭🇰 香港0.2 #5'
   network: ws
   port: '8880'
@@ -165,9 +174,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  fingerprint: ''
-  name: 129,200,207,424,510,511,623|香港_0512021
+  name: 129,207,424,510,511,623|香港_0512021
   network: ws
   port: '12909'
   server: 210.3.159.224
@@ -175,7 +182,6 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: vmess
-  udp: false
   uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
   ws-opts:
     headers:
@@ -1609,8 +1615,8 @@ proxies:
     path: /
   ws-path: /
 - cipher: aes-256-cfb
-  country: 🇰HK
-  name: 368,404,594|[02-24]-🇸-欧洲-096-150.107.46.21
+  country: 🇰 HK
+  name: 372,404,594|[02-24]-🇸-欧洲-096-150.107.46.21
   obfs: tls1.2_ticket_auth
   obfs-param: ''
   password: iFqnzSscN
@@ -1619,6 +1625,19 @@ proxies:
   protocol-param: ''
   server: 150.107.46.21
   type: ssr
+- alterId: 0
+  cipher: auto
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: 372|🇭🇰HK_111
+  network: ws
+  port: 80
+  server: 182.16.1.194
+  skip-cert-verify: true
+  type: vmess
+  uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
+  ws-path: /opt/video/images
 - alterId: 0
   cipher: auto
   name: '379|🇨🇳中国【YouTube-由零開始】 #7'
@@ -1964,66 +1983,14 @@ proxies:
   uuid: 9fcec31d-40aa-4f98-8c47-0296084fe3ff
 - alterId: 0
   cipher: auto
-  name: 404|香港_051313013
-  network: ws
-  port: '80'
-  server: hk03.beautifulprimavera.online
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 35a409bd-433b-478c-bd5f-4b59c3a88690
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 404|香港_051313016
-  network: ws
-  port: '80'
-  server: 43.199.61.184
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 35a409bd-433b-478c-bd5f-4b59c3a88690
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 404|香港_051313066
+  name: 404|香港_051318081
   network: tcp
-  port: '10010'
-  server: xg3.tcity8.buzz
+  port: '41001'
+  server: 18.163.118.129
   servername: ''
   tls: false
   type: vmess
-  uuid: b1ab638d-22e8-4be1-bc80-37d2639efa31
-- alterId: 0
-  cipher: auto
-  name: 404|香港_051313067
-  network: tcp
-  port: '10010'
-  server: xg1.tcity8.buzz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b1ab638d-22e8-4be1-bc80-37d2639efa31
-- alterId: 0
-  cipher: auto
-  name: 404|香港_051313128
-  network: ws
-  port: '80'
-  server: 43.199.43.114
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 35a409bd-433b-478c-bd5f-4b59c3a88690
-  ws-opts:
-    headers:
-      Host: 43.199.43.114
-    path: /
+  uuid: 2155145a-b1b5-443a-8977-670f6bd10f02
 - alterId: 0
   cipher: auto
   name: 409|🇭🇰8.210.128.146
@@ -2772,7 +2739,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 465,588|HK2
+  name: '465,588|HK2 #1'
   network: ws
   port: 12909
   server: 210.3.159.224
@@ -3134,7 +3101,7 @@ proxies:
     path: 55021a7c-bd6c-418e-be95-ceac8ba27b45-vm
 - alterId: 0
   cipher: auto
-  name: '497,602|美国 CloudFlare节点 #74'
+  name: '497,602|美国 CloudFlare节点 #75'
   network: ws
   port: '8080'
   server: yh1.freeh1.xyz
@@ -4767,6 +4734,22 @@ proxies:
   tls: true
   type: vmess
   uuid: 39ef8f5d-7286-41b0-9c11-c976925d2931
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 543|🇭🇰 香港KT|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: h14.podds.store
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: false
+    tls: true
+  port: 443
+  server: 8.210.229.184
+  tfo: false
+  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 543|🇭🇰 香港|@ripaojiedian
@@ -4887,7 +4870,7 @@ proxies:
   uuid: 49933ab7-7ec2-3024-9f6e-b7ad9da24c8f
 - alterId: 0
   cipher: auto
-  name: '588|HK3 #1'
+  name: 588|HK3
   network: grpc
   password: dfeb4fd8-b9a6-341b-854b-da64d588b637
   port: 21116
@@ -5404,8 +5387,8 @@ proxies:
   cipher: auto
   name: 764|[vmess]🇭🇰Hong Kong
   network: ws
-  port: '2096'
-  server: 47.76.77.103
+  port: '2087'
+  server: 47.238.4.124
   servername: hkt.pddf.buzz
   tls: true
   type: vmess
