@@ -2,8 +2,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '16,212,414,434,454,455,520,521,530,531,546,553,554,599,635,798|🇭🇰 香港1| cf
-    #1'
+  name: '16,212,414,434,454,520,521,530,531,546,553,554,599,635,798|🇭🇰 香港1| cf #1'
   network: ws
   port: '2052'
   server: hk.wish.ml
@@ -181,7 +180,9 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 131,212,520,521,530,531,546,633|香港_0516008
+  client-fingerprint: chrome
+  fingerprint: ''
+  name: 131,205,212,520,521,530,531,546,633|香港_0516008
   network: ws
   port: '12909'
   server: 210.3.159.224
@@ -189,6 +190,7 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: vmess
+  udp: false
   uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
   ws-opts:
     headers:
@@ -196,7 +198,12 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 131,206,212,428,431,446,520,521,533,579,587,633|香港_0516007
+  client-fingerprint: chrome
+  country: 🇰HK
+  fingerprint: ''
+  h2-opts: {}
+  http-opts: {}
+  name: 131,205,206,212,383,428,431,446,520,521,533,579,587,633|香港_0516007
   network: ws
   port: '28681'
   server: 47.242.22.171
@@ -3200,7 +3207,7 @@ proxies:
     path: 55021a7c-bd6c-418e-be95-ceac8ba27b45-vm
 - alterId: 0
   cipher: auto
-  name: '507,612|美国 CloudFlare节点 #82'
+  name: '507,612|美国 CloudFlare节点 #69'
   network: ws
   port: '8080'
   server: yh1.freeh1.xyz
@@ -4823,6 +4830,16 @@ proxies:
   ws-headers:
     Host: vn3.thanhhaivpn.name.vn
   ws-path: /
+- alterId: 0
+  cipher: auto
+  name: '546,554,589|广东省广州市 移动 #2'
+  network: tcp
+  port: '8443'
+  server: 120.232.240.38
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 39ef8f5d-7286-41b0-9c11-c976925d2931
 - cipher: aes-256-cfb
   name: 597|TG频道@mfbpn-香港2
   obfs: tls1.2_ticket_auth
@@ -5067,20 +5084,6 @@ proxies:
     headers:
       Host: yvhnbevxhk1.yofnhkfc.xyz
     path: /video/34kKXbLM
-- alterId: 0
-  cipher: auto
-  name: '683,777|[vmess]🇭🇰Hong Kong #1'
-  network: ws
-  port: '2083'
-  server: 47.242.36.78
-  servername: hkt.pddf.buzz
-  tls: true
-  type: vmess
-  uuid: b3bb2518-1435-48e5-b01a-4f9f628baaf1
-  ws-opts:
-    headers:
-      Host: hkt.pddf.buzz
-    path: /pdd
 - alterId: 0
   cipher: auto
   name: 686|HK1 喵内
@@ -5406,6 +5409,20 @@ proxies:
   server: yd-07.paofunlink.com
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 777|[vmess]🇭🇰Hong Kong
+  network: ws
+  port: '8443'
+  server: 8.218.74.119
+  servername: hkt.pddf.buzz
+  tls: true
+  type: vmess
+  uuid: b3bb2518-1435-48e5-b01a-4f9f628baaf1
+  ws-opts:
+    headers:
+      Host: hkt.pddf.buzz
+    path: /pdd
 - grpc-opts:
     grpc-service-name: hkvip101
   name: '779,781|香港 101 #1'
