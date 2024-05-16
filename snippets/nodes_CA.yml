@@ -1,4 +1,11 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: '59,60|🇨🇦 加拿大 #1'
+  password: 9c2bf54f-5f13-4d71-b866-3a3f23c4d86b
+  port: 40717
+  server: ca01.jjjjjj.icu
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: '76,401,402,434,450,458,520,521,633|未知_0516137 #1'
@@ -145,7 +152,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '76,401,402,434,450,458,520,521,579,587,633|未知_0516146 #1'
+  name: '76,212,401,402,434,450,458,520,521,579,633|未知_0516146 #1'
   network: ws
   port: '2095'
   server: 104.19.45.117
@@ -817,7 +824,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '76,206,212,393,394,401,402,414,425,427,428,434,450,458,520,521,588,589,599,619,627,633|未知_0516107
+  name: '76,206,212,393,394,401,402,414,425,427,428,432,434,450,458,520,521,588,589,599,619,627,633|未知_0516107
     #1'
   network: ws
   port: '8080'
@@ -3873,9 +3880,18 @@ proxies:
     path: /cctv13.m3u8
 - alterId: 0
   cipher: chacha20-ietf-poly1305
-  name: 131,431,598|未知327 7.4MB/s
+  name: 131,598|未知73 7.9MB/s
   password: G!yBwPWH3Vao
-  port: 808
+  port: 803
+  server: 134.195.196.178
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 131,431,598|未知17 7.6MB/s
+  password: G!yBwPWH3Vao
+  port: 804
   server: 134.195.196.178
   skip-cert-verify: true
   tls: true
@@ -3883,9 +3899,9 @@ proxies:
   udp: true
 - alterId: 0
   cipher: chacha20-ietf-poly1305
-  name: 131,431,598|未知17 7.6MB/s
+  name: 131,431,598|未知327 7.4MB/s
   password: G!yBwPWH3Vao
-  port: 804
+  port: 808
   server: 134.195.196.178
   skip-cert-verify: true
   tls: true
@@ -3901,23 +3917,14 @@ proxies:
   tls: true
   type: ss
   udp: true
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 131,598|未知73 7.9MB/s
-  password: G!yBwPWH3Vao
-  port: 803
-  server: 134.195.196.178
-  skip-cert-verify: true
-  tls: true
-  type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 131|🇨🇦CA-142.4.216.225-0657 | 27.8...
+  name: 131|🇨🇦CA-142.4.216.225-0678 | 23.2...
   password: JIhN6rBKkaEboLNXVSv5rq
   port: 80
   server: ca225.vpnbook.com
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 131|🇨🇦CA-146.19.106.89-0677 | 6.16...
+  name: 131|🇨🇦CA-146.19.106.89-0767 | 6.51...
   password: ZjNmOGE0
   port: 8388
   server: ca1.ssproxy.xyz
@@ -4208,31 +4215,11 @@ proxies:
     path: /v118-fccxmxm35
 - alterId: 0
   cipher: auto
-  country: 🇦CA
-  h2-opts: {}
-  http-opts: {}
-  name: '212,382,383,413,414,415,446,449,533,579|🔒 VM-TCP-NA 🇨🇦 CA-198.57.27.21...
-    #2'
-  network: tcp
-  port: '22324'
-  server: 198.57.27.212
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  country: 🇨🇦CA
-  h2-opts: {}
-  http-opts: {}
-  name: 212,383,446,520,521,533|🇨🇦 加拿大
+  name: '212,446,520,521,533|🇨🇦 加拿大 #2'
   network: ws
   port: 443
   server: 158.51.121.36
   servername: ''
-  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
@@ -4243,10 +4230,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: '212,383,431,446,520,521,588,589|美国 V2CROSS.COM #1'
+  name: '212,431,446,520,521,588,589|美国 V2CROSS.COM #1'
   network: ws
   port: '443'
   server: 23.162.200.227
@@ -4817,21 +4801,19 @@ proxies:
   ws-path: /linkvws
 - alterId: 0
   cipher: auto
-  country: 🇨🇦CA
+  country: 🇦CA
   h2-opts: {}
   http-opts: {}
-  name: 383,431|🇨🇦 CA 4 → tg@nicevpn123
-  network: ws
-  port: 8080
-  server: 108.181.23.161
-  servername: internet.life.com.by
+  name: '382,413,414,415,446,449,533,579|🔒 VM-TCP-NA 🇨🇦 CA-198.57.27.21... #1'
+  network: tcp
+  port: '22324'
+  server: 198.57.27.212
+  servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
-  udp: true
-  uuid: 969f1909-c0d3-4c30-813d-3aec5c838b7d
-  ws-opts:
-    path: /1IKYjV0r/
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: 389|🇨🇦CA加拿大(youtube阿伟科技)
@@ -5428,6 +5410,22 @@ proxies:
   tls: true
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  name: '431,446,520,521|🇺🇸US-108.181.200.220-0754 #1'
+  network: ws
+  port: 50613
+  server: 108.181.200.220
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 09e81eaa-d298-432c-e7b6-17add32d14fc
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - name: 431|🇨🇦 CA 22 → tg@nicevpn123
   network: ws
   password: dGKXcHgs3P
@@ -5634,6 +5632,19 @@ proxies:
     headers:
       Host: syndication-statutes-wanted-logo.trycloudflare.com
     path: '%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252Fargox-tr'
+- alterId: 0
+  cipher: auto
+  name: 431|🇨🇦 CA 4 → tg@nicevpn123
+  network: ws
+  port: 8080
+  server: 108.181.23.161
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 969f1909-c0d3-4c30-813d-3aec5c838b7d
+  ws-opts:
+    path: /1IKYjV0r/
 - name: 431|🇨🇦 CA 40 → tg@nicevpn123
   network: ws
   password: b17fa17d-13a0-4e8a-a398-8e549ea8b208
@@ -6434,6 +6445,16 @@ proxies:
     headers:
       Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
     path: /awd
+- alterId: 0
+  cipher: auto
+  name: 446,533|US_分享日记_335
+  network: tcp
+  port: 18117
+  server: 107.172.25.132
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e2cfd504-b51f-42a4-cc18-665f82f2549c
 - cipher: aes-256-cfb
   name: 447,520,521,534,535|1.59|httpsawkjcfky 注册体验流媒体机场yo...
   obfs: http_simple
@@ -6613,7 +6634,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 3a5e02c5-e04d-4dfa-9d08-3a531f78d4a2
+  uuid: f10940ea-8041-41ba-99dd-392a95c6dccf
 - cipher: aes-256-gcm
   name: 461|VIP0.加拿大1.ChatGPT
   password: f7126755-abb2-42ce-8c7b-a3c0dc111825
@@ -6827,7 +6848,7 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: aae4955f-6674-471d-98ca-8fbeec3798f6
+  uuid: 14479536-a1b5-4448-9f12-7d7cc65b9840
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -6870,7 +6891,7 @@ proxies:
   type: ss
 - cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: '538|🇨🇦 加拿大 #1'
+  name: '538|🇨🇦 加拿大 #3'
   password: 030741c1-8706-41f6-93ae-f97585365627
   port: 27014
   server: ununim.yangliq.com
@@ -7057,3 +7078,24 @@ proxies:
   tls: false
   type: vmess
   uuid: d3a515b4-6fcb-38c8-93d3-2c17da360f89
+- cipher: aes-128-gcm
+  name: 810|🇨🇦 加拿大 01
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 20047
+  server: edge.node1link.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 810|🇨🇦 加拿大 02
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 20048
+  server: edge.node1link.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 810|🇨🇦 加拿大 03
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 20049
+  server: edge.node1link.xyz
+  type: ss
+  udp: true

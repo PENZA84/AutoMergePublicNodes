@@ -1139,7 +1139,7 @@ proxies:
       Host: tms.dingtalk.com
     path: /
 - cipher: rc4-md5
-  name: 377,378,384|Relay_-CN_01
+  name: '377,378,384|Relay_-CN_02 #1'
   obfs: plain
   obfs-param: 64334105622.www.gov.hk
   password: di15PV
@@ -1153,11 +1153,11 @@ proxies:
   name: 378|Relay_🇨🇳CN-🇨🇳CN_08
   obfs: http_simple
   obfs-param: d300c11275.microsoft.com
-  password: dajkdkjd2a&dj23gsa
-  port: 37866
+  password: dajkdkjda&dj23gsa
+  port: 19970
   protocol: auth_aes128_md5
   protocol-param: 11275:KWQHheqWo8
-  server: 231103levelx.unclemanco.com
+  server: 231103.level3.sdl-sz.com
   type: ssr
 - cipher: aes-256-cfb
   country: 🇨🇳CN
@@ -1165,7 +1165,7 @@ proxies:
   obfs: http_simple
   obfs-param: d300c11275.microsoft.com
   password: dajkdkjda&dj23gsa
-  port: 19970
+  port: 2212
   protocol: auth_aes128_md5
   protocol-param: 11275:KWQHheqWo8
   server: 231103.level3.sdl-sz.com
@@ -1175,11 +1175,11 @@ proxies:
   name: 378|Relay_🇨🇳CN-🇨🇳CN_10
   obfs: http_simple
   obfs-param: d300c11275.microsoft.com
-  password: dajkdkjda&dj23gsa
-  port: 2212
+  password: dajkdkjd2a&dj23gsa
+  port: 37866
   protocol: auth_aes128_md5
   protocol-param: 11275:KWQHheqWo8
-  server: 231103.level3.sdl-sz.com
+  server: 231103levelx.unclemanco.com
   type: ssr
 - alterId: 0
   cipher: auto
@@ -1365,25 +1365,15 @@ proxies:
   server: 14.29.124.168
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: '401,402,431,432,450,520,521,588,589,723,737,792|中国【付费推荐：https://jdyvip.link/】3
-    #2'
-  network: ws
-  port: '20206'
-  server: data-hk-v1.usabooks.com.cn
-  servername: ''
-  skip-cert-verify: false
+  name: 401,431,588|🇨🇳 广东省深圳市+阿里云
+  password: a501c82c72d790b8
+  port: 8474
+  server: 119.23.104.213
   tfo: false
-  tls: false
-  type: vmess
+  type: ss
   udp: true
-  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-  ws-opts:
-    headers:
-      Host: data-hk-v1.usabooks.com.cn
-    path: /debian
 - alterId: 4
   cipher: auto
   name: '403|🇨🇳中国(绿头外网集团)(Public) #1'
@@ -3305,6 +3295,24 @@ proxies:
   tfo: false
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: '431,520,521,588,589,723,737,792|中国【付费推荐：https://jdyvip.link/】3 #2'
+  network: ws
+  port: '20206'
+  server: data-hk-v1.usabooks.com.cn
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+  ws-opts:
+    headers:
+      Host: data-hk-v1.usabooks.com.cn
+    path: /debian
 - cipher: chacha20-ietf-poly1305
   name: 431|🇨🇳 CN 124 → tg@nicevpn123
   password: d3c7f55f-e2af-4114-b0a3-058d219e2992
@@ -4653,15 +4661,6 @@ proxies:
   password: 3bf7be43-e331-4dad-856c-8d312dedea90
   port: 31583
   server: rk.izoizoizo.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 431,588|🇨🇳 广东省深圳市+阿里云
-  password: a501c82c72d790b8
-  port: 8474
-  server: 119.23.104.213
-  tfo: false
   type: ss
   udp: true
 - cipher: rc4-md5

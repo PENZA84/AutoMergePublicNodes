@@ -63,6 +63,13 @@ proxies:
     headers:
       Host: s1c.v2.v001sss.xyz
     path: /
+- cipher: chacha20-ietf-poly1305
+  name: '59,60|🇫🇷 法国_住宅 #1'
+  password: 9c2bf54f-5f13-4d71-b866-3a3f23c4d86b
+  port: 40713
+  server: fr01.jjjjjj.icu
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 120|法国|cf优选
@@ -98,7 +105,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: aes-256-cfb
-  country: 🇷FR
+  country: 🇫🇷FR
   name: 131,378,382,598|未知354 3.3MB/s
   password: f8f7aCzcPKbsF8p3
   port: 989
@@ -108,7 +115,8 @@ proxies:
   type: ss
 - alterId: 0
   cipher: chacha20-ietf-poly1305
-  name: 131,598|未知453
+  country: 🇷🇺 RU
+  name: 131,382,598|未知453
   password: cGNYDN3mtfeQ42fBKDRuS6
   port: 45346
   server: 45.15.157.199
@@ -126,38 +134,11 @@ proxies:
   type: ss
 - alterId: 0
   cipher: aes-256-cfb
-  country: 🇫🇷FR
+  country: 🇷FR
   name: 131,378,382,431,598|未知212 3.3MB/s
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 51.159.111.208
-  skip-cert-verify: true
-  tls: true
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  country: FR
-  name: 132,431|🇫🇷 FR 27 → tg@nicevpn123
-  password: KixLvKzwjekG00rm
-  port: 5500
-  server: 149.202.82.172
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  country: 🇫🇷FR
-  name: 132,377,382,431|🇫🇷 FR 30 → tg@nicevpn123
-  password: KixLvKzwjekG00rm
-  port: 8000
-  server: 149.202.82.172
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: aes-256-gcm
-  country: 🇫🇷FR
-  name: 132,377,382,431,598|未知623 1.7MB/s
-  password: RexnBgU7EV5ADxG
-  port: 7002
-  server: 149.202.82.172
   skip-cert-verify: true
   tls: true
   type: ss
@@ -196,6 +177,64 @@ proxies:
   type: ss
   udp: true
 - alterId: 0
+  cipher: aes-256-gcm
+  country: 🇫🇷FR
+  name: 132,377,382,431,598|未知623 1.7MB/s
+  password: RexnBgU7EV5ADxG
+  port: 7002
+  server: 149.202.82.172
+  skip-cert-verify: true
+  tls: true
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  country: 🇫🇷FR
+  name: 132,377,382,431|🇫🇷 FR 30 → tg@nicevpn123
+  password: KixLvKzwjekG00rm
+  port: 8000
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  country: FR
+  name: 132,431|🇫🇷 FR 27 → tg@nicevpn123
+  password: KixLvKzwjekG00rm
+  port: 5500
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  country: FR
+  name: 132,598|未知604
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.38.252.86
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  country: NL
+  h2-opts: {}
+  http-opts: {}
+  name: '132|netflix_FR #2'
+  network: ws
+  port: 443
+  server: obdii.cfd
+  servername: obdii.cfd
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      HOST: obdii.cfd
+    path: /linkws
+- alterId: 0
   cipher: auto
   country: NL
   h2-opts: {}
@@ -214,28 +253,10 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 132,383|Relay_🏁ZZ-🇪DE_146 |93.01Mb
-  network: ws
-  port: 443
-  server: obdii.cfd
-  servername: obdii.cfd
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      HOST: obdii.cfd
-    path: /linkws
-- alterId: 0
-  cipher: auto
   country: NL
   h2-opts: {}
   http-opts: {}
-  name: '132|netflix_FR #3'
+  name: '132|netflix_FR #4'
   network: ws
   port: 443
   server: 188.114.97.79
@@ -253,7 +274,7 @@ proxies:
   country: NL
   h2-opts: {}
   http-opts: {}
-  name: '132|netflix_FR #4'
+  name: '132|netflix_FR #5'
   network: ws
   port: 443
   server: 188.114.99.205
@@ -268,12 +289,27 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
   country: US
-  fingerprint: ''
   h2-opts: {}
   http-opts: {}
-  name: '132,205,431,598|未知240 2.2MB/s #1'
+  name: 132,431|🇺🇸 US 478 → tg@nicevpn123
+  network: ws
+  port: 443
+  server: 172.67.174.42
+  servername: gwdef.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be
+  ws-opts:
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  country: US
+  h2-opts: {}
+  http-opts: {}
+  name: '132,431,598|未知240 2.2MB/s #1'
   network: ws
   port: 443
   server: 172.67.71.160
@@ -289,31 +325,10 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
   country: US
-  fingerprint: ''
   h2-opts: {}
   http-opts: {}
-  name: 132,205,431|🇺🇸 US 478 → tg@nicevpn123
-  network: ws
-  port: 443
-  server: 172.67.174.42
-  servername: gwdef.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be
-  ws-opts:
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🇺🇸US
-  fingerprint: ''
-  h2-opts: {}
-  http-opts: {}
-  name: 132,205,383,431|🇺🇸 US 1224 → tg@nicevpn123
+  name: 132,431|🇺🇸 US 1224 → tg@nicevpn123
   network: ws
   port: 443
   server: 172.67.161.77
@@ -327,12 +342,10 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  country: 🇺🇸US
-  fingerprint: ''
+  country: US
   h2-opts: {}
   http-opts: {}
-  name: '132,205,383,598|未知341 3.5MB/s #1'
+  name: '132,598|未知341 3.5MB/s #1'
   network: ws
   port: 443
   server: 172.67.74.4
@@ -340,7 +353,6 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: vmess
-  udp: false
   uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
   ws-opts:
     headers:
@@ -348,51 +360,27 @@ proxies:
     path: /ivideos.sbs/linkws
 - alterId: 0
   cipher: auto
-  country: ZZ
+  country: 🏁ZZ
   h2-opts: {}
   http-opts: {}
-  name: '132|netflix_FR #9'
+  name: 132,377,431|🇺🇸 US 1589 → tg@nicevpn123
   network: ws
   port: 443
-  server: 104.21.55.234
-  servername: gwdef.sbs
+  server: 104.21.44.106
+  servername: xmivideo.cfd
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be
+  udp: true
+  uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e
   ws-opts:
-    headers:
-      HOST: gwdef.sbs
     path: /linkws
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
   country: ZZ
-  fingerprint: ''
   h2-opts: {}
   http-opts: {}
-  name: 132,205|792820d37ebe4feca622184b4676f0...
-  network: ws
-  port: 443
-  server: caretaker.com
-  servername: mikasa.yaemiko.cloudns.org
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: false
-  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
-  ws-opts:
-    headers:
-      host: mikasa.yaemiko.cloudns.org
-    path: /ivideos.sbs/linkws
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🏁ZZ
-  fingerprint: ''
-  h2-opts: {}
-  http-opts: {}
-  name: '132,205,383,431,598|未知29 201.8KB/s #1'
+  name: '132,431,598|未知29 201.8KB/s #1'
   network: ws
   port: 443
   server: 104.21.15.36
@@ -425,12 +413,28 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  country: 🇺🇸US
-  fingerprint: ''
+  country: ZZ
   h2-opts: {}
   http-opts: {}
-  name: '132,205,383,598|未知473 200.9KB/s #1'
+  name: '132|netflix_FR #13'
+  network: ws
+  port: 443
+  server: caretaker.com
+  servername: mikasa.yaemiko.cloudns.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
+  ws-opts:
+    headers:
+      HOST: mikasa.yaemiko.cloudns.org
+    path: /ivideos.sbs/linkws
+- alterId: 0
+  cipher: auto
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: '132,598|未知473 200.9KB/s #1'
   network: ws
   port: 443
   server: 104.26.6.65
@@ -438,7 +442,6 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: vmess
-  udp: false
   uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
   ws-opts:
     headers:
@@ -446,31 +449,28 @@ proxies:
     path: /ivideos.sbs/linkws
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  country: 🏁ZZ
-  fingerprint: ''
+  country: ZZ
   h2-opts: {}
   http-opts: {}
-  name: 132,205,377,431|🇺🇸 US 1589 → tg@nicevpn123
+  name: '132|netflix_FR #15'
   network: ws
   port: 443
-  server: 104.21.44.106
-  servername: xmivideo.cfd
+  server: hms082.gwdef.sbs
+  servername: gwdef.sbs
   skip-cert-verify: true
   tls: true
   type: vmess
-  udp: true
-  uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e
+  uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be
   ws-opts:
+    headers:
+      HOST: gwdef.sbs
     path: /linkws
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
   country: ZZ
-  fingerprint: ''
   h2-opts: {}
   http-opts: {}
-  name: 132,205|1e401e2b438d48ad9331b6b1a03982...
+  name: '132|netflix_FR #16'
   network: ws
   port: 443
   server: 104.26.7.65
@@ -478,21 +478,20 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: vmess
-  udp: false
   uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
   ws-opts:
     headers:
-      host: mikasa.yaemiko.cloudns.org
+      HOST: mikasa.yaemiko.cloudns.org
     path: /ivideos.sbs/linkws
 - alterId: 0
   cipher: auto
-  country: 🏁ZZ
+  country: ZZ
   h2-opts: {}
   http-opts: {}
-  name: 132,383|Relay_🏁ZZ-🇺🇸US_142
+  name: '132|netflix_FR #17'
   network: ws
   port: 443
-  server: hms082.gwdef.sbs
+  server: 104.21.55.234
   servername: gwdef.sbs
   skip-cert-verify: true
   tls: true
@@ -1190,9 +1189,9 @@ proxies:
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - cipher: aes-256-gcm
   country: 🇷FR
-  name: 377,382,431|🇫🇷 FR 12 → tg@nicevpn123
-  password: e4FCWrgpkji3QY
-  port: 9102
+  name: 377,382,431|🇫🇷 FR 46 → tg@nicevpn123
+  password: faBAoD54k87UJG7
+  port: 2376
   server: 149.202.82.172
   type: ss
   udp: true
@@ -1221,66 +1220,9 @@ proxies:
 - alterId: 0
   cipher: aes-256-gcm
   country: 🇫🇷FR
-  name: 377,382,431,598|未知346 1.1MB/s
-  password: cdBIDV42DCwnfIN
-  port: 8118
-  server: 149.202.82.172
-  skip-cert-verify: true
-  tls: true
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  country: 🇫🇷FR
-  name: 377,382,431|🇫🇷 FR 46 → tg@nicevpn123
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 149.202.82.172
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  country: 🇫🇷FR
-  name: 377,382,431|🇫🇷 FR 41 → tg@nicevpn123
-  password: pKEW8JPByTVTLtM
-  port: 443
-  server: 149.202.82.172
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: aes-256-gcm
-  country: 🇫🇷FR
   name: 377,382,431,598|未知80 1.7MB/s
   password: RexnBgU7EV5ADxG
   port: 7001
-  server: 149.202.82.172
-  skip-cert-verify: true
-  tls: true
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  country: 🇫🇷FR
-  name: 377,382,431|🇫🇷 FR 47 → tg@nicevpn123
-  password: Y6R9pAtvxxzmGC
-  port: 5601
-  server: 149.202.82.172
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: aes-256-gcm
-  country: 🇫🇷FR
-  name: 377,382,431,598|未知226 1.7MB/s
-  password: e4FCWrgpkji3QY
-  port: 9101
-  server: 149.202.82.172
-  skip-cert-verify: true
-  tls: true
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: aes-256-gcm
-  country: 🇫🇷FR
-  name: 377,382,383,401,431,598|未知167 1.7MB/s
-  password: faBAoD54k87UJG7
-  port: 2375
   server: 149.202.82.172
   skip-cert-verify: true
   tls: true
@@ -1300,18 +1242,7 @@ proxies:
 - alterId: 0
   cipher: aes-256-gcm
   country: 🇫🇷FR
-  name: 377,382,431,598|未知385 1.4MB/s
-  password: kDWvXYZoTBcGkC4
-  port: 8881
-  server: 149.202.82.172
-  skip-cert-verify: true
-  tls: true
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: aes-256-gcm
-  country: 🇷FR
-  name: 377,382,383,401,431,598|未知703 1.7MB/s
+  name: 377,382,431,598|未知703 1.7MB/s
   password: zDNVedRFPQexG9v
   port: 6379
   server: 149.202.82.172
@@ -1321,9 +1252,102 @@ proxies:
   udp: true
 - cipher: aes-256-gcm
   country: 🇫🇷FR
-  name: 377,382,383,401,431|🇵🇱 PL 44 → tg@nicevpn123
+  name: 377,382,431|🇫🇷 FR 41 → tg@nicevpn123
+  password: pKEW8JPByTVTLtM
+  port: 443
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: aes-256-gcm
+  country: 🇫🇷FR
+  name: 377,382,431,598|未知226 1.7MB/s
+  password: e4FCWrgpkji3QY
+  port: 9101
+  server: 149.202.82.172
+  skip-cert-verify: true
+  tls: true
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  country: 🇫🇷 FR
+  name: 377,382,431|🇵🇱 PL 44 → tg@nicevpn123
   password: faBAoD54k87UJG7
   port: 2375
+  server: 54.36.174.181
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  country: 🇫🇷FR
+  name: 377,382,431|🇫🇷 FR 47 → tg@nicevpn123
+  password: Y6R9pAtvxxzmGC
+  port: 5601
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: aes-256-gcm
+  country: 🇫🇷FR
+  name: 377,382,431,598|未知346 1.1MB/s
+  password: cdBIDV42DCwnfIN
+  port: 8118
+  server: 149.202.82.172
+  skip-cert-verify: true
+  tls: true
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: aes-256-gcm
+  country: 🇫🇷FR
+  name: 377,382,431,598|未知167 1.7MB/s
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 149.202.82.172
+  skip-cert-verify: true
+  tls: true
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  country: 🇫🇷FR
+  name: 377,382,431|🇫🇷 FR 12 → tg@nicevpn123
+  password: e4FCWrgpkji3QY
+  port: 9102
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: aes-256-gcm
+  country: 🇫🇷FR
+  name: 377,382,431,598|未知385 1.4MB/s
+  password: kDWvXYZoTBcGkC4
+  port: 8881
+  server: 149.202.82.172
+  skip-cert-verify: true
+  tls: true
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 377,431|🇺🇸 US 810 → tg@nicevpn123
+  network: ws
+  port: 2082
+  server: 104.21.8.157
+  servername: s1c.v2.v001sss.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  ws-opts:
+    path: /
+- cipher: aes-256-gcm
+  country: 🇫🇷 FR
+  name: 378,382,431|🇵🇱 PL 42 → tg@nicevpn123
+  password: Y6R9pAtvxxzmGC
+  port: 5001
   server: 54.36.174.181
   type: ss
   udp: true
@@ -1339,14 +1363,6 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  country: 🇫🇷 FR
-  name: 378,382,431|🇵🇱 PL 42 → tg@nicevpn123
-  password: Y6R9pAtvxxzmGC
-  port: 5001
-  server: 54.36.174.181
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
   country: 🇫🇷FR
   name: 378,382,431|🇵🇱 PL 43 → tg@nicevpn123
   password: PCnnH6SQSnfoS27
@@ -1354,12 +1370,15 @@ proxies:
   server: 54.36.174.181
   type: ss
   udp: true
-- cipher: aes-256-gcm
+- alterId: 0
+  cipher: aes-256-gcm
   country: 🇷 FR
-  name: 382,431|🇵🇱 PL 40 → tg@nicevpn123
-  password: e4FCWrgpkji3QY
-  port: 9102
+  name: 382,431,499,598|未知290 1.1MB/s
+  password: g5MeD6Ft3CWlJId
+  port: 5003
   server: 54.36.174.181
+  skip-cert-verify: true
+  tls: true
   type: ss
   udp: true
 - cipher: aes-256-gcm
@@ -1372,9 +1391,17 @@ proxies:
   udp: true
 - cipher: aes-256-gcm
   country: 🇫🇷 FR
-  name: 382,431|🇵🇱 PL 26 → tg@nicevpn123
-  password: KixLvKzwjekG00rm
-  port: 5500
+  name: 382,431|🇵🇱 PL 41 → tg@nicevpn123
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 54.36.174.181
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  country: 🇫🇷 FR
+  name: 382,431|🇵🇱 PL 1 → tg@nicevpn123
+  password: e4FCWrgpkji3QY
+  port: 9101
   server: 54.36.174.181
   type: ss
   udp: true
@@ -1388,36 +1415,9 @@ proxies:
   udp: true
 - cipher: aes-256-gcm
   country: 🇫🇷 FR
-  name: 382,431|🇵🇱 PL 34 → tg@nicevpn123
-  password: kDWvXYZoTBcGkC4
-  port: 8881
-  server: 54.36.174.181
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  country: 🇫🇷 FR
-  name: 382,431|🇵🇱 PL 41 → tg@nicevpn123
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 54.36.174.181
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: aes-256-gcm
-  country: 🇫🇷 FR
-  name: 382,431,499,598|未知290 1.1MB/s
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 54.36.174.181
-  skip-cert-verify: true
-  tls: true
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  country: 🇫🇷 FR
-  name: 382,431|🇵🇱 PL 1 → tg@nicevpn123
+  name: 382,431|🇵🇱 PL 40 → tg@nicevpn123
   password: e4FCWrgpkji3QY
-  port: 9101
+  port: 9102
   server: 54.36.174.181
   type: ss
   udp: true
@@ -1428,6 +1428,71 @@ proxies:
   password: TEzjfAYq2IjtuoS
   port: 6697
   server: 54.36.174.181
+  skip-cert-verify: true
+  tls: true
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  country: 🇫🇷 FR
+  name: 382,431|🇵🇱 PL 26 → tg@nicevpn123
+  password: KixLvKzwjekG00rm
+  port: 5500
+  server: 54.36.174.181
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  country: 🇫🇷 FR
+  name: 382,431|🇵🇱 PL 34 → tg@nicevpn123
+  password: kDWvXYZoTBcGkC4
+  port: 8881
+  server: 54.36.174.181
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  country: 🇫🇷FR
+  name: 382,431|🇵🇱 PL 55 → tg@nicevpn123
+  password: Y6R9pAtvxxzmGC
+  port: 5600
+  server: 54.36.174.181
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: aes-256-gcm
+  country: 🇫🇷FR
+  name: 382,431,598|未知273 1.2MB/s
+  password: TEzjfAYq2IjtuoS
+  port: 6679
+  server: 54.36.174.181
+  skip-cert-verify: true
+  tls: true
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  country: 🇫🇷FR
+  name: 382,431|🇵🇱 PL 49 → tg@nicevpn123
+  password: cdBIDV42DCwnfIN
+  port: 8119
+  server: 54.36.174.181
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: aes-256-gcm
+  country: 🇫🇷FR
+  name: 382,431,598|未知426 1.1MB/s
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 54.36.174.181
+  skip-cert-verify: true
+  tls: true
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: aes-256-gcm
+  country: 🇫🇷FR
+  name: 382,431,598|未知196 1.6MB/s
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  server: 149.202.82.172
   skip-cert-verify: true
   tls: true
   type: ss
@@ -1445,6 +1510,14 @@ proxies:
   udp: true
 - cipher: aes-256-gcm
   country: 🇫🇷FR
+  name: 382,431|🇵🇱 PL 46 → tg@nicevpn123
+  password: Y6R9pAtvxxzmGC
+  port: 3389
+  server: 54.36.174.181
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  country: 🇫🇷FR
   name: 382,431|🇵🇱 PL 45 → tg@nicevpn123
   password: Y6R9pAtvxxzmGC
   port: 3306
@@ -1453,58 +1526,9 @@ proxies:
   udp: true
 - cipher: aes-256-gcm
   country: 🇫🇷FR
-  name: 382,431|🇵🇱 PL 46 → tg@nicevpn123
-  password: Y6R9pAtvxxzmGC
-  port: 3389
-  server: 54.36.174.181
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: aes-256-gcm
-  country: 🇫🇷FR
-  name: 382,431,598|未知196 1.6MB/s
-  password: FoOiGlkAA9yPEGP
-  port: 7306
-  server: 149.202.82.172
-  skip-cert-verify: true
-  tls: true
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: aes-256-gcm
-  country: 🇫🇷FR
-  name: 382,431,598|未知426 1.1MB/s
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 54.36.174.181
-  skip-cert-verify: true
-  tls: true
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  country: 🇫🇷FR
-  name: 382,431|🇵🇱 PL 49 → tg@nicevpn123
-  password: cdBIDV42DCwnfIN
-  port: 8119
-  server: 54.36.174.181
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: aes-256-gcm
-  country: 🇫🇷FR
-  name: 382,431,598|未知273 1.2MB/s
-  password: TEzjfAYq2IjtuoS
-  port: 6679
-  server: 54.36.174.181
-  skip-cert-verify: true
-  tls: true
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  country: 🇫🇷FR
-  name: 382,431|🇵🇱 PL 55 → tg@nicevpn123
-  password: Y6R9pAtvxxzmGC
-  port: 5600
+  name: 382,431|🇵🇱 PL 35 → tg@nicevpn123
+  password: kDWvXYZoTBcGkC4
+  port: 8882
   server: 54.36.174.181
   type: ss
   udp: true
@@ -1521,14 +1545,6 @@ proxies:
   name: 382,431,499|TG@极客分享_8
   password: XKFKl2rULjIp74
   port: 8009
-  server: 54.36.174.181
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  country: 🇫🇷FR
-  name: 382,431|🇵🇱 PL 28 → tg@nicevpn123
-  password: XKFKl2rULjIp74
-  port: 8008
   server: 54.36.174.181
   type: ss
   udp: true
@@ -1572,9 +1588,9 @@ proxies:
   udp: true
 - cipher: aes-256-gcm
   country: 🇫🇷FR
-  name: 382,431|🇵🇱 PL 35 → tg@nicevpn123
-  password: kDWvXYZoTBcGkC4
-  port: 8882
+  name: 382,431|🇵🇱 PL 28 → tg@nicevpn123
+  password: XKFKl2rULjIp74
+  port: 8008
   server: 54.36.174.181
   type: ss
   udp: true
@@ -1770,16 +1786,6 @@ proxies:
   password: pKEW8JPByTVTLtM
   port: 4444
   server: 149.202.82.172
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: aes-256-gcm
-  name: 431,598|未知145 3.4MB/s
-  password: KkDzY101Oe
-  port: 45816
-  server: 51.195.149.115
-  skip-cert-verify: true
-  tls: true
   type: ss
   udp: true
 - cipher: aes-256-gcm
@@ -2512,6 +2518,27 @@ proxies:
     headers:
       Host: ''
     path: /qwe123321ewq
+- cipher: aes-128-gcm
+  name: 810|🇫🇷 法国 01
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 20053
+  server: edge.node1link.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 810|🇫🇷 法国 02
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 20054
+  server: edge.node1link.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 810|🇫🇷 法国 03
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 20055
+  server: edge.node1link.xyz
+  type: ss
+  udp: true
 - alterId: 233
   cipher: auto
   name: '821|法国 #1'
