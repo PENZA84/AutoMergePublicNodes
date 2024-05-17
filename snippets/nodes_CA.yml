@@ -29,13 +29,6 @@ proxies:
   uuid: 786c0e71-c2d4-4bdc-913f-5c75dd54721f
   ws-opts:
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: '59,60|🇨🇦 加拿大 #1'
-  password: 9c2bf54f-5f13-4d71-b866-3a3f23c4d86b
-  port: 40717
-  server: ca01.jjjjjj.icu
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   name: '76,405,406,438,454,462,524,525,637|未知_0516137 #1'
@@ -2503,7 +2496,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '76,213,362,405,406,436,438,450,454,459,462,524,525,534,535,592,593,616,637,744|🇺🇸_US_美国->🇫🇷_FR_法国
+  name: '76,213,362,405,406,438,450,454,459,462,524,525,534,535,592,593,603,616,637,744|🇺🇸_US_美国->🇫🇷_FR_法国
     #6'
   network: ws
   port: 2082
@@ -2738,14 +2731,15 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '131,438,524,525,637|加拿大_0516006 #1'
+  name: '131,405,406,438,454,524,525,637|加拿大_0516006 #1'
   network: ws
   port: '443'
   server: 158.51.121.36
   servername: ''
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: false
   type: vmess
+  udp: true
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
@@ -2891,7 +2885,7 @@ proxies:
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
-  name: '207,213,397,398,431,432,603|未知501 82.8KB/s #2'
+  name: 207,213,397,398,431,432,603|未知560 40.9KB/s
   network: ws
   port: '80'
   server: 172.67.171.44
@@ -2906,7 +2900,7 @@ proxies:
 - alterId: 0
   cipher: auto
   name: '207,213,397,398,429,431,432,450,524,525,603,623,631|رایگان | VMESS | @oneclickvpnk...
-    #25'
+    #23'
   network: ws
   port: '443'
   server: 104.21.83.108
@@ -3010,7 +3004,7 @@ proxies:
     path: /MGNF44G
 - alterId: 0
   cipher: auto
-  name: '213,418,623,631|رایگان | VMESS | @oneclickvpnk... #23'
+  name: '213,418,429|رایگان | VMESS | @oneclickvpnk... #9'
   network: ws
   port: '2095'
   server: p1.v2raybrasil.cloud
@@ -3056,7 +3050,7 @@ proxies:
   cipher: auto
   grpc-opts:
     grpc-service-name: 23.227.39.47
-  name: '213,583,591,603|未知569 #2'
+  name: 213,583,591,603|未知421
   network: grpc
   port: '2083'
   server: 23.227.39.47
@@ -3084,11 +3078,15 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '213,450,524,525,537|🇨🇦 加拿大 #2'
+  country: 🇨🇦CA
+  h2-opts: {}
+  http-opts: {}
+  name: 213,381,436,450,524,525,537|🇨🇦 加拿大
   network: ws
   port: 443
   server: 158.51.121.36
   servername: ''
+  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
@@ -3266,7 +3264,7 @@ proxies:
   country: 🇦 CA
   h2-opts: {}
   http-opts: {}
-  name: 386|🇦 CA_53
+  name: 386|🇦 CA_52
   network: ws
   port: 443
   server: 158.51.121.36
@@ -5079,7 +5077,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: c66e39b4-f6ae-4dd8-8b5a-46623e92c567
+  uuid: 471d6a82-d58b-46f7-aafe-b3023bbf5396
 - cipher: aes-256-gcm
   name: 465|VIP0.加拿大1.ChatGPT
   password: f7126755-abb2-42ce-8c7b-a3c0dc111825
@@ -5293,7 +5291,7 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 57f7da1e-7bc5-40df-8a88-02412926cd91
+  uuid: 3f4f42ea-37df-4367-98f8-32afe2b7df36
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -5336,7 +5334,7 @@ proxies:
   type: ss
 - cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: '542|🇨🇦 加拿大 #3'
+  name: '542|🇨🇦 加拿大 #1'
   password: 030741c1-8706-41f6-93ae-f97585365627
   port: 27014
   server: ununim.yangliq.com
@@ -5532,94 +5530,3 @@ proxies:
   tls: false
   type: vmess
   uuid: d3a515b4-6fcb-38c8-93d3-2c17da360f89
-- alterId: 0
-  cipher: auto
-  name: 819|🇨🇦加拿大S丨电报群@bp520
-  network: ws
-  port: '80'
-  server: 104.19.173.68
-  tls: false
-  type: vmess
-  uuid: c34d94d9-97d4-4496-9b7f-727dd678e1e0
-  ws-opts:
-    headers:
-      Host: ca3.889611.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 819|🇨🇦加拿大1丨电报群@bp520
-  network: ws
-  port: '80'
-  server: 104.18.15.147
-  tls: false
-  type: vmess
-  uuid: c34d94d9-97d4-4496-9b7f-727dd678e1e0
-  ws-opts:
-    headers:
-      Host: ca3.889611.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 819|🇨🇦加拿大2丨电报群@bp520
-  network: ws
-  port: '80'
-  server: 104.18.15.148
-  tls: false
-  type: vmess
-  uuid: c34d94d9-97d4-4496-9b7f-727dd678e1e0
-  ws-opts:
-    headers:
-      Host: ca3.889611.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 819|🇨🇦加拿大3丨电报群@bp520
-  network: ws
-  port: '80'
-  server: 162.159.133.13
-  tls: false
-  type: vmess
-  uuid: c34d94d9-97d4-4496-9b7f-727dd678e1e0
-  ws-opts:
-    headers:
-      Host: ca3.visaapp.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 819|🇨🇦加拿大4丨电报群@bp520
-  network: ws
-  port: '80'
-  server: 162.159.133.14
-  tls: false
-  type: vmess
-  uuid: c34d94d9-97d4-4496-9b7f-727dd678e1e0
-  ws-opts:
-    headers:
-      Host: ca3.889611.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 819|🇨🇦加拿大5丨电报群@bp520
-  network: ws
-  port: '80'
-  server: 162.159.133.15
-  tls: false
-  type: vmess
-  uuid: c34d94d9-97d4-4496-9b7f-727dd678e1e0
-  ws-opts:
-    headers:
-      Host: ca3.889611.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 819|🇨🇦加拿大6丨电报群@bp520
-  network: ws
-  port: '80'
-  server: 162.159.133.16
-  tls: false
-  type: vmess
-  uuid: c34d94d9-97d4-4496-9b7f-727dd678e1e0
-  ws-opts:
-    headers:
-      Host: ca3.889611.com
-    path: /
