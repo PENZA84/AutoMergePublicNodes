@@ -1,13 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 14|新加坡|徐州移动|Linode|1x
-  network: tcp
-  port: 39226
-  server: jscm.r1u.cn
-  tls: false
+  name: 14|Singapore01
+  network: ws
+  port: 8443
+  server: polosg.9x.cx
+  tls: true
   type: vmess
-  uuid: f010dd01-c54a-3c03-95ce-0838214259c6
+  uuid: a6dfb50f-75bb-48e0-b56a-1edeb62b5a49
+  ws-opts:
+    headers:
+      Host: ''
+    path: /boluosg
 - alterId: 0
   cipher: auto
   name: '16,802|🇸🇬 新加坡1|cf #1'
@@ -40,6 +44,16 @@ proxies:
     path: /
 - alterId: 0
   cipher: aes-256-cfb
+  country: ZZ
+  name: 18,381,385,601|未知531 457.9KB/s
+  password: BwcAUZk8hUFAkDGN
+  port: 9031
+  server: 103.172.116.103
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: aes-256-cfb
   country: 🇸🇬 SG
   name: 18,381,385,601|未知395 405.3KB/s
   password: ueLXVkvh4hckhErQ
@@ -50,40 +64,10 @@ proxies:
   type: ss
 - alterId: 0
   cipher: aes-256-cfb
-  country: ZZ
-  name: 18,381,385,601|未知418 432.8KB/s
-  password: NvS8N4Vf8qAGPSCL
-  port: 9046
-  server: 103.172.116.103
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: 18,381,385,601|未知754
-  password: rNBfNuuANFCAk7KB
-  port: 9056
-  server: 103.172.116.103
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: 18,381,385,601|未知638 407.7KB/s
+  country: ' SG'
+  name: 18,601|未知638 407.7KB/s
   password: cp8pRSUAyLhTfVWH
   port: 9064
-  server: 103.172.116.103
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: 18,381,385,601|未知531 457.9KB/s
-  password: BwcAUZk8hUFAkDGN
-  port: 9031
   server: 103.172.116.103
   skip-cert-verify: true
   tls: true
@@ -149,20 +133,6 @@ proxies:
     headers:
       Host: ''
     path: /5gsieutocdo.club
-- alterId: 0
-  cipher: auto
-  name: 81|[vmess]🇸🇬 SG | 新加坡 LB
-  network: ws
-  port: '443'
-  server: sgcft01.xqc.best
-  servername: d1nal26v8jyfe2.cloudfront.net
-  tls: true
-  type: vmess
-  uuid: 9b57caed-da32-45cd-9b61-34b22a663ef5
-  ws-opts:
-    headers:
-      Host: d1nal26v8jyfe2.cloudfront.net
-    path: /stream
 - alterId: 0
   cipher: auto
   name: 88|🇸🇬新加坡01|1.5x
@@ -254,14 +224,13 @@ proxies:
 - alterId: 0
   cipher: aes-256-gcm
   country: 🇬SG
-  name: 131,380,404,601|未知515 627.3KB/s
+  name: 131,380,601|未知515 627.3KB/s
   password: zBjmmIMfquzriST1
   port: 21592
   server: 139.59.123.43
   skip-cert-verify: true
   tls: true
   type: ss
-  udp: true
 - alterId: 0
   cipher: aes-256-cfb
   name: '131,601|未命名 #334'
@@ -1229,24 +1198,17 @@ proxies:
   udp: true
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  name: 381,385|🏁ZZ_335
+  name: 381,385|🏁ZZ_325
   password: f8npKgNzdkss2ytn
   port: 9088
   server: 103.172.116.90
   type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: 381,385|🏁ZZ_422
-  password: bf7v334KKDV3YDhH
-  port: 9070
-  server: 103.172.116.103
-  type: ss
 - alterId: 0
   cipher: aes-256-cfb
   country: 🏁ZZ
-  name: 381,385,601|未知315 436.7KB/s
-  password: c3NtHJ5ujV2tGDfj
-  port: 9084
+  name: 381,385,601|未知421 457.4KB/s
+  password: TN2YqghxeFDKZfLU
+  port: 9037
   server: 103.172.116.103
   skip-cert-verify: true
   tls: true
@@ -1261,36 +1223,43 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: 381,385|🏁ZZ_410
+  password: bf7v334KKDV3YDhH
+  port: 9070
+  server: 103.172.116.103
+  type: ss
 - alterId: 0
   cipher: aes-256-cfb
   country: 🏁ZZ
-  name: 381,385,601|未知421 457.4KB/s
-  password: TN2YqghxeFDKZfLU
-  port: 9037
+  name: 381,385,601|未知315 436.7KB/s
+  password: c3NtHJ5ujV2tGDfj
+  port: 9084
   server: 103.172.116.103
   skip-cert-verify: true
   tls: true
   type: ss
 - cipher: aes-256-cfb
-  country: 🇬 SG
-  name: 381,385| SG_149
+  country: 🏁ZZ
+  name: 381,385|🏁ZZ_403
+  password: UWZQeLRWnkqgkseq
+  port: 9032
+  server: 103.172.116.103
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇸🇬 SG
+  name: 381,385|🇸🇬 SG_148
   password: BejrQvtu9sqUeNuZ
   port: 9024
   server: 103.172.116.94
   type: ss
 - cipher: aes-256-cfb
-  country: 🇸🇬 SG
-  name: 381,385|🇸🇬 SG_152
+  country: 🇬 SG
+  name: 381,385| SG_145
   password: fG2artUmHfNT2cX7
   port: 9018
   server: 103.172.116.94
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: 381,385|🏁ZZ_415
-  password: UWZQeLRWnkqgkseq
-  port: 9032
-  server: 103.172.116.103
   type: ss
 - alterId: 0
   cipher: auto
@@ -1938,6 +1907,20 @@ proxies:
     headers:
       Host: ''
     path: /chami
+- alterId: 0
+  cipher: auto
+  name: 417|新加坡_051718002
+  network: ws
+  port: '80'
+  server: sg4g.xn--vhq70hxyat50h6wk.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1f9b54af-3ab1-48c8-b58c-59d8d78277af
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - cipher: aes-256-cfb
   name: 434|🇸🇬 SG 10 → tg@nicevpn123
   password: amazonskr05
@@ -4204,8 +4187,8 @@ proxies:
   cipher: auto
   name: '660,781|[vmess]🇸🇬Singapore #1'
   network: ws
-  port: '2096'
-  server: 8.217.250.222
+  port: '2083'
+  server: 47.242.79.71
   servername: sg.pddf.buzz
   tls: true
   type: vmess
@@ -4596,3 +4579,55 @@ proxies:
     headers:
       Host: ''
     path: /qwe123321ewq
+- alterId: 0
+  cipher: auto
+  name: 818|🇸🇬新加坡S丨白嫖机场.com
+  network: ws
+  port: '80'
+  server: 104.19.173.68
+  tls: false
+  type: vmess
+  uuid: c34d94d9-97d4-4496-9b7f-727dd678e1e0
+  ws-opts:
+    headers:
+      Host: sg3.889611.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 818|🇸🇬新加坡1丨电报群@bp520
+  network: ws
+  port: '80'
+  server: 104.18.15.147
+  tls: false
+  type: vmess
+  uuid: c34d94d9-97d4-4496-9b7f-727dd678e1e0
+  ws-opts:
+    headers:
+      Host: sg3.889611.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 818|🇸🇬新加坡2丨电报群@bp520
+  network: ws
+  port: '80'
+  server: 104.18.15.148
+  tls: false
+  type: vmess
+  uuid: c34d94d9-97d4-4496-9b7f-727dd678e1e0
+  ws-opts:
+    headers:
+      Host: sg3.889611.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 818|🇸🇬新加坡3丨电报群@bp520
+  network: ws
+  port: '80'
+  server: 104.19.173.168
+  tls: false
+  type: vmess
+  uuid: c34d94d9-97d4-4496-9b7f-727dd678e1e0
+  ws-opts:
+    headers:
+      Host: sg3.889611.com
+    path: /
