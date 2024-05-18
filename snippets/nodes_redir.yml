@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '0,3,131,208,214,325,326,328,329,401,402,433,435,436,442,506,528,529,538,539,627,635,641,643|美国_0518050
+  name: '0,3,131,208,214,324,325,326,328,329,401,402,433,435,436,442,506,528,529,538,539,627,635,641,643|美国_0518050
     #1'
   network: ws
   port: '80'
@@ -18,7 +18,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '0,3,16,131,214,325,326,328,329,422,442,506,528,529,538,539,554,561,562,641,643,808|🇮🇳
+  name: '0,3,16,131,214,324,325,326,328,329,422,442,506,528,529,538,539,554,561,562,641,643,808|🇮🇳
     印度1|cf #1'
   network: ws
   port: '2052'
@@ -35,7 +35,9 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '1,2,489,528,529,564|🇺🇸_US_美国->🇺🇦_UA_乌克兰 #3'
+  client-fingerprint: chrome
+  fingerprint: ''
+  name: '1,2,207,489,528,529,564|🇺🇸_US_美国->🇺🇦_UA_乌克兰 #3'
   network: ws
   port: 80
   server: 172.67.166.192
@@ -43,6 +45,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: vmess
+  udp: false
   uuid: cd1db809-2de0-409c-aef5-861e95eff53e
   ws-opts:
     headers:
@@ -58,13 +61,16 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '1,2,489,563,564,606|US214 128.0KB/s #1'
+  client-fingerprint: chrome
+  fingerprint: ''
+  name: '1,2,207,489,563,564,606|US214 128.0KB/s #1'
   network: ws
   port: 2052
   server: hk.wish.ml
   skip-cert-verify: true
   tls: true
   type: vmess
+  udp: false
   uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8
   ws-opts:
     headers:
