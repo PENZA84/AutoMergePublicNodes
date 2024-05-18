@@ -2463,7 +2463,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '76,213,364,407,408,438,440,452,456,461,464,526,527,536,537,594,595,605,618,639,746|🇺🇸_US_美国->🇫🇷_FR_法国
+  name: '76,213,364,407,408,440,452,456,461,464,526,527,536,537,594,595,605,618,639,746|🇺🇸_US_美国->🇫🇷_FR_法国
     #6'
   network: ws
   port: 2082
@@ -2745,6 +2745,20 @@ proxies:
   tls: true
   type: ss
   udp: true
+- country: US
+  fingerprint: randomized
+  name: 132|disney_netflix_CA
+  network: ws
+  password: lrdxw
+  port: 443
+  server: trojan-lrdxw.ala1-f11.workers.dev
+  sni: trojan-lrdxw.ala1-f11.workers.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: trojan-lrdxw.ala1-f11.workers.dev
+    path: /?ed=2560
 - alpn:
   - h2
   grpc-opts:
@@ -2851,7 +2865,7 @@ proxies:
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
-  name: '207,213,399,400,433,434,585,593,605|未知560 40.9KB/s #2'
+  name: '207,213,399,400,433,434,585,605|未知560 40.9KB/s #2'
   network: ws
   port: '80'
   server: 172.67.171.44
@@ -3258,7 +3272,7 @@ proxies:
   country: 🇦 CA
   h2-opts: {}
   http-opts: {}
-  name: 388|🇦 CA_53
+  name: 388|🇦 CA_51
   network: ws
   port: 443
   server: 158.51.121.36
@@ -5071,7 +5085,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: ad6f1d13-e667-4eb7-9dd4-beca214f049d
+  uuid: 8f963b03-84f6-4543-9c05-2a4e486a5ff7
 - cipher: aes-256-gcm
   name: 467|VIP0.加拿大1.ChatGPT
   password: f7126755-abb2-42ce-8c7b-a3c0dc111825
@@ -5285,7 +5299,7 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 5f951baf-8cf0-42e6-ac17-a8c1eeb328f1
+  uuid: 76c2a6b1-fc5e-405a-ae6a-6bed9eac2c33
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -5527,3 +5541,24 @@ proxies:
   tls: false
   type: vmess
   uuid: d3a515b4-6fcb-38c8-93d3-2c17da360f89
+- cipher: aes-128-gcm
+  name: 817|🇨🇦 加拿大 01
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 20047
+  server: edge.node1link.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 817|🇨🇦 加拿大 02
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 20048
+  server: edge.node1link.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 817|🇨🇦 加拿大 03
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 20049
+  server: edge.node1link.xyz
+  type: ss
+  udp: true
