@@ -486,7 +486,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '214,330,409,410,439,440,458,462,463,528,529,538,539,596,597,607,620,733,747,802|中国【付费推荐：https://jdyvip.link/】1...
+  name: '214,330,439,462,463,528,529,538,539,596,597,607,620,733,747,802|中国【付费推荐：https://jdyvip.link/】1...
     #7'
   network: ws
   port: '20301'
@@ -504,7 +504,7 @@ proxies:
     path: /debian
 - alterId: 0
   cipher: auto
-  name: '214,463,538,539,554,562,597,606,607|🇨🇳广东4 #2'
+  name: '214,410,440,458,463,538,539,554,562,597,606,607|🇨🇳广东4 #2'
   network: tcp
   port: '8443'
   server: 120.232.240.38
@@ -1119,7 +1119,8 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '330,439,528,529,596,597,638,733,747,802|中国【付费推荐：https://jdyvip.link/】3 #2'
+  name: '330,409,410,439,440,458,528,529,596,597,638,733,747,802|中国【付费推荐：https://jdyvip.link/】3
+    #2'
   network: ws
   port: '20206'
   server: data-hk-v1.usabooks.com.cn
@@ -1150,7 +1151,7 @@ proxies:
       Host: tms.dingtalk.com
     path: /
 - cipher: rc4-md5
-  name: 385,386,392|Relay_-CN_01
+  name: 386,392|Relay_-CN_01
   obfs: plain
   obfs-param: 64334105622.www.gov.hk
   password: di15PV
@@ -1164,22 +1165,22 @@ proxies:
   name: 386|Relay_🇨🇳CN-🇨🇳CN_08
   obfs: http_simple
   obfs-param: d300c11275.microsoft.com
-  password: dajkdkjda&dj23gsa
-  port: 2212
+  password: dajkdkjd2a&dj23gsa
+  port: 37866
   protocol: auth_aes128_md5
   protocol-param: 11275:KWQHheqWo8
-  server: 231103.level3.sdl-sz.com
+  server: 231103levelx.unclemanco.com
   type: ssr
 - cipher: aes-256-cfb
   country: 🇨🇳CN
   name: 386|Relay_🇨🇳CN-🇨🇳CN_09
   obfs: http_simple
   obfs-param: d300c11275.microsoft.com
-  password: dajkdkjd2a&dj23gsa
-  port: 37866
+  password: dajkdkjda&dj23gsa
+  port: 2212
   protocol: auth_aes128_md5
   protocol-param: 11275:KWQHheqWo8
-  server: 231103levelx.unclemanco.com
+  server: 231103.level3.sdl-sz.com
   type: ssr
 - cipher: aes-256-cfb
   country: 🇨🇳CN
@@ -1376,24 +1377,15 @@ proxies:
   server: 14.29.124.168
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 409,410,440,458,528,529,554,561,562|韩国|@ripaojiedian
-  network: ws
-  port: '40396'
-  server: sui.forlive.live
-  servername: ''
-  skip-cert-verify: false
+  name: 409,439,596|🇨🇳 广东省深圳市+阿里云
+  password: a501c82c72d790b8
+  port: 8474
+  server: 119.23.104.213
   tfo: false
-  tls: false
-  type: vmess
+  type: ss
   udp: true
-  uuid: 3d9bbb25-d1a9-42dd-b5db-bbd1effaf8da
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
 - alterId: 4
   cipher: auto
   name: '411,468|未命名 #193'
@@ -4676,15 +4668,6 @@ proxies:
   server: rk.izoizoizo.top
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 439,596|🇨🇳 广东省深圳市+阿里云
-  password: a501c82c72d790b8
-  port: 8474
-  server: 119.23.104.213
-  tfo: false
-  type: ss
-  udp: true
 - cipher: rc4-md5
   name: 439|🇨🇳 CN 448 → tg@nicevpn123
   password: dbEcUJ
@@ -7617,6 +7600,23 @@ proxies:
     headers:
       Host: sh-cn-1.dnspro.icu
     path: /iso
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 528,529,554,561,562|韩国|@ripaojiedian
+  network: ws
+  port: '40396'
+  server: sui.forlive.live
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 3d9bbb25-d1a9-42dd-b5db-bbd1effaf8da
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
 - alterId: 4
   cipher: auto
   name: '528,529|🇨🇳CN-157.254.193.68-7498 #1'
@@ -7904,7 +7904,7 @@ proxies:
   type: ss
 - alterId: 64
   cipher: auto
-  name: '597|广东省广州市 移动 #8'
+  name: '597|广东省广州市 移动 #9'
   network: tcp
   port: '41492'
   server: 120.232.242.117
