@@ -11,13 +11,15 @@ proxies:
   uuid: 8907aeec-189d-48d9-b557-fb242a4d8127
 - alterId: 64
   cipher: auto
-  name: '80,471,533,534|🇹🇼TW-103.177.33.20-1066 #1'
+  name: '80,414,415,463,471,533,534|🇹🇼TW-103.177.33.20-1066 #1'
   network: ws
   port: 30000
   server: 103.177.33.20
   servername: ''
+  skip-cert-verify: true
   tls: true
   type: vmess
+  udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
@@ -171,20 +173,6 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '218,600,612|TW4 #2'
-  network: ws
-  port: '12945'
-  server: 154.40.60.172
-  servername: 55.lwdh.us
-  tls: true
-  type: vmess
-  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
   name: '218,592,600,612|TW #2'
   network: ws
   port: '30002'
@@ -197,6 +185,20 @@ proxies:
     headers:
       Host: free-node-tw.yunyiyi.top
     path: /akljhgdf
+- alterId: 0
+  cipher: auto
+  name: '218,600,612|TW4 #2'
+  network: ws
+  port: '12945'
+  server: 154.40.60.172
+  servername: 55.lwdh.us
+  tls: true
+  type: vmess
+  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
 - alterId: 0
   cipher: auto
   name: 218,447,459,462,533,534,611,612,625,646|台湾_0518003
@@ -428,6 +430,23 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
+  country: 🇼TW
+  h2-opts: {}
+  http-opts: {}
+  name: 390|Relay_TW-🇹🇼TW_48 | 1.96Mb
+  network: ws
+  port: 443
+  server: tw1g.forlive.live
+  servername: tms.dingtalk.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 4ccc923e-8452-418c-9222-87ee8f295e14
+  ws-opts:
+    headers:
+      HOST: tms.dingtalk.com
+    path: /
+- alterId: 0
+  cipher: auto
   name: 412|🇹🇼_TW_台湾
   network: ws
   port: 888
@@ -599,23 +618,6 @@ proxies:
     headers:
       Host: ''
     path: ''
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: '427,533,534,559,566,567,739,753,808|台湾【付费推荐：https://jdyvip.link/】4... #5'
-  network: ws
-  port: '443'
-  server: tw1g.forlive.live
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 4ccc923e-8452-418c-9222-87ee8f295e14
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
 - alterId: 0
   cipher: auto
   name: '459,533,534|🇹🇼TW-61.227.176.105-2625 #1'
