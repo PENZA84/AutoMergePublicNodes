@@ -1,6 +1,19 @@
 proxies:
 - alterId: 0
   cipher: auto
+  country: ' TW'
+  h2-opts: {}
+  http-opts: {}
+  name: 18,390|_44
+  network: ws
+  port: 31945
+  server: 103.159.206.35
+  skip-cert-verify: true
+  type: vmess
+  uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
+  ws-path: /
+- alterId: 0
+  cipher: auto
   name: 65|台湾省 中华电信(HiNet)数据中心
   network: tcp
   port: 6122
@@ -139,6 +152,47 @@ proxies:
   tls: true
   type: trojan
   udp: true
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: '162,546|🇹🇼 Taiwan_1 #1'
+  password: 93ec2378-1151-4db5-9c56-d1387f36882d
+  port: 40006
+  server: tw01.mmyjiedian.com
+  tfo: false
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: '162,546|🇹🇼 Taiwan_2 #1'
+  password: 93ec2378-1151-4db5-9c56-d1387f36882d
+  port: 40007
+  server: tw02.mmyjiedian.com
+  tfo: false
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: '162,546|🇹🇼 Taiwan_3 #1'
+  password: 93ec2378-1151-4db5-9c56-d1387f36882d
+  port: 40008
+  server: tw03.mmyjiedian.com
+  tfo: false
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 162|🇹🇼 Taiwan_4
+  password: 3b344977-0c22-4610-abd9-43eb53e81a85
+  port: 40009
+  server: tw04.mmyjiedian.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 162|🇹🇼 Taiwan_5
+  password: 3b344977-0c22-4610-abd9-43eb53e81a85
+  port: 40010
+  server: tw05.mmyjiedian.com
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 205|🆔@LuxyNet💎❖❖TW❖311
@@ -157,18 +211,22 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '214,587,595,607|TW #2'
+  country: 🇼TW
+  h2-opts: {}
+  http-opts: {}
+  name: 214,385,442,454,457,528,529,554,595,606,607,620,641|台湾_0518003
   network: ws
-  port: '12945'
-  server: 154.40.60.172
-  servername: 55.lwdh.us
-  tls: true
+  port: '31945'
+  server: 103.159.206.35
+  servername: ''
+  skip-cert-verify: true
+  tls: false
   type: vmess
-  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+  uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
   ws-opts:
     headers:
       Host: ''
-    path: ''
+    path: /
 - alterId: 0
   cipher: auto
   name: '214,587,595,607|TW2 #2'
@@ -185,21 +243,34 @@ proxies:
     path: /akljhgdf
 - alterId: 0
   cipher: auto
-  country: 🇼TW
-  h2-opts: {}
-  http-opts: {}
-  name: 214,385,442,454,457,528,529,554,595,620,641|台湾_0518003
+  name: '214,587,595,607|TW4 #2'
   network: ws
-  port: '31945'
-  server: 103.159.206.35
-  servername: ''
-  skip-cert-verify: true
-  tls: false
+  port: '12945'
+  server: 154.40.60.172
+  servername: 55.lwdh.us
+  tls: true
   type: vmess
-  uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
+  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
   ws-opts:
     headers:
       Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 214,528,529,554,561,562|台湾|@ripaojiedian
+  network: ws
+  port: '443'
+  server: tw1g.forlive.live
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 4ccc923e-8452-418c-9222-87ee8f295e14
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
     path: /
 - alterId: '0'
   cipher: auto
@@ -428,23 +499,6 @@ proxies:
       Host: cn.bing.com
     path: /
   ws-path: /
-- alterId: 0
-  cipher: auto
-  country: 🇹TW
-  h2-opts: {}
-  http-opts: {}
-  name: 391|Relay_🇼TW-🇹🇼TW_110 | 6.62Mb
-  network: ws
-  port: 443
-  server: tw1g.forlive.live
-  servername: tms.dingtalk.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 4ccc923e-8452-418c-9222-87ee8f295e14
-  ws-opts:
-    headers:
-      HOST: tms.dingtalk.com
-    path: /
 - alterId: 0
   cipher: auto
   name: 407|🇹🇼_TW_台湾
@@ -824,23 +878,6 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 528,529,554,561,562|台湾|@ripaojiedian
-  network: ws
-  port: '443'
-  server: tw1g.forlive.live
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 4ccc923e-8452-418c-9222-87ee8f295e14
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
-- alterId: 0
-  cipher: auto
   name: '528,529,624|这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使... #69'
   network: ws
   port: '80'
@@ -931,30 +968,6 @@ proxies:
     path: /
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 546|🇹🇼 Taiwan_1
-  password: 93ec2378-1151-4db5-9c56-d1387f36882d
-  port: 40006
-  server: tw01.mmyjiedian.com
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 546|🇹🇼 Taiwan_2
-  password: 93ec2378-1151-4db5-9c56-d1387f36882d
-  port: 40007
-  server: tw02.mmyjiedian.com
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 546|🇹🇼 Taiwan_3
-  password: 93ec2378-1151-4db5-9c56-d1387f36882d
-  port: 40008
-  server: tw03.mmyjiedian.com
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
   name: 546|🇹🇼 TW台湾-电信优化
   password: 1cce1062-972c-4ac0-a511-b9168e761512
   port: 27260
@@ -985,6 +998,20 @@ proxies:
   server: ununim.yangliq.com
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 554|9|baipaovpn台湾省高雄市
+  network: ws
+  port: '443'
+  server: 61.227.227.5
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4ccc923e-8452-418c-9222-87ee8f295e14
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 572|v2cross.com - 台湾省花莲县中华电信 4
@@ -1047,16 +1074,6 @@ proxies:
   uuid: 49933ab7-7ec2-3024-9f6e-b7ad9da24c8f
 - alterId: 0
   cipher: auto
-  name: '606|TW #1'
-  network: ws
-  port: 12945
-  server: 154.40.60.172
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
-- alterId: 0
-  cipher: auto
   name: '606|TW2 #1'
   network: ws
   port: 30002
@@ -1069,6 +1086,16 @@ proxies:
     headers:
       host: free-node-tw.yunyiyi.top
     path: /akljhgdf
+- alterId: 0
+  cipher: auto
+  name: '606|TW4 #1'
+  network: ws
+  port: 12945
+  server: 154.40.60.172
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
 - alterId: 0
   cipher: auto
   name: 620|🇹🇼台湾 01
