@@ -1,10 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 14|香港|徐州移动|Neko|1.5x
+  network: tcp
+  port: '13335'
+  server: jscm.r1u.cn
+  tls: false
+  type: vmess
+  uuid: f010dd01-c54a-3c03-95ce-0838214259c6
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  h2-opts: {}
-  http-opts: {}
-  name: '16,217,228,395,466,532,533,558,565,566,611,813|🇭🇰 香港1| cf #1'
+  name: '16,217,228,466,532,533,558,565,566,611,813|🇭🇰 香港1| cf #1'
   network: ws
   port: '2052'
   server: hk.wish.ml
@@ -21,46 +28,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '19,20|hk香港1 #1'
-  network: ws
-  port: '2086'
-  server: vip1.hpyjc.top
-  tls: false
-  type: vmess
-  uuid: 32c24a94-eb17-4081-aa57-48df2bc58342
-  ws-opts:
-    headers:
-      Host: hk1.hpyjc.top
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '19,20|hk香港2 #1'
-  network: ws
-  port: '2086'
-  server: vip2.hpyjc.top
-  tls: false
-  type: vmess
-  uuid: 32c24a94-eb17-4081-aa57-48df2bc58342
-  ws-opts:
-    headers:
-      Host: hk1.hpyjc.top
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '19,20|hk香港3 #1'
-  network: ws
-  port: '2086'
-  server: vip3.hpyjc.top
-  tls: false
-  type: vmess
-  uuid: 32c24a94-eb17-4081-aa57-48df2bc58342
-  ws-opts:
-    headers:
-      Host: hk1.hpyjc.top
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '79,134,413,414,462,470,532,533|🇭🇰HK-16.162.47.209-0740 #1'
+  name: '79,470,532,533|🇭🇰HK-16.162.47.209-0740 #1'
   network: ws
   port: 80
   server: hk03.thomasinaglorious.online
@@ -168,6 +136,12 @@ proxies:
     headers:
       Host: xg6.888553.xyz
     path: /cctv13.m3u8
+- cipher: chacha20-ietf-poly1305
+  name: 134|🇭🇰HK-16.163.52.40-2917 | 13.89...
+  password: 2155145a-b1b5-443a-8977-670f6bd10f02
+  port: 50001
+  server: bgroup.node4.s.nodelist-gfwairport2.top
+  type: ss
 - alterId: 64
   cipher: auto
   name: 134,446,532,533,645|香港_0518010
@@ -215,19 +189,217 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '134,532,533|🇭🇰HK-43.199.69.251-0718 #1'
+  name: 134,217,443,458,532,533,545,591,599,645|香港_0518007
   network: ws
-  port: 80
-  server: hk03.beautifuloctavia.fun
-  servername: hk03.victorialouisa.online
+  port: '28681'
+  server: 47.242.22.171
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 3b1072ce-d096-46c2-a3e7-08b4f58538f5
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 134,446,645|澳大利亚_0518002
+  network: ws
+  port: '26639'
+  server: 91.149.236.44
+  servername: ''
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: 25ea21e2-8455-4fca-85bf-4bfbc62646fc
+  uuid: 2cd01fcd-79f3-4ec4-8536-7802c6fcba08
   ws-opts:
     headers:
-      Host: hk03.beautifuloctavia.fun
+      Host: ''
     path: /
+- cipher: rc4-md5
+  name: '137,138|🇭🇰 IPLC｜冀港 [2.0][原生] #1'
+  obfs: http_simple
+  obfs-param: ajax.microsoft.com
+  obfsparam: ajax.microsoft.com
+  password: caomeijump.com
+  port: 768
+  protocol: auth_aes128_md5
+  protocol-param: 167153:5b4c3ff4-16c7-35f5-97e9-68eb9a053815
+  protocolparam: 167153:5b4c3ff4-16c7-35f5-97e9-68eb9a053815
+  server: iplc-ji.cmydns2.com
+  type: ssr
+  udp: true
+- cipher: rc4-md5
+  name: '137,138|🇭🇰 IPLC｜沪港 [2.0][原生] #1'
+  obfs: http_simple
+  obfs-param: ajax.microsoft.com
+  obfsparam: ajax.microsoft.com
+  password: caomeijump.com
+  port: 768
+  protocol: auth_aes128_md5
+  protocol-param: 167153:5b4c3ff4-16c7-35f5-97e9-68eb9a053815
+  protocolparam: 167153:5b4c3ff4-16c7-35f5-97e9-68eb9a053815
+  server: iplc-hu.cmydns2.com
+  type: ssr
+  udp: true
+- cipher: rc4-md5
+  name: '137,138|🇭🇰 IPLC｜浙港 [2.0][原生] #1'
+  obfs: http_simple
+  obfs-param: ajax.microsoft.com
+  obfsparam: ajax.microsoft.com
+  password: caomeijump.com
+  port: 768
+  protocol: auth_aes128_md5
+  protocol-param: 167153:5b4c3ff4-16c7-35f5-97e9-68eb9a053815
+  protocolparam: 167153:5b4c3ff4-16c7-35f5-97e9-68eb9a053815
+  server: iplc-zhe.cmydns2.com
+  type: ssr
+  udp: true
+- cipher: rc4-md5
+  name: '137,138|🇭🇰 IPLC｜深港 [2.0][原生] #1'
+  obfs: http_simple
+  obfs-param: ajax.microsoft.com
+  obfsparam: ajax.microsoft.com
+  password: caomeijump.com
+  port: 768
+  protocol: auth_aes128_md5
+  protocol-param: 167153:5b4c3ff4-16c7-35f5-97e9-68eb9a053815
+  protocolparam: 167153:5b4c3ff4-16c7-35f5-97e9-68eb9a053815
+  server: iplc-shen.cmydns2.com
+  type: ssr
+  udp: true
+- cipher: rc4-md5
+  name: '137,138|🇭🇰 IPLC｜湘港 [2.0][原生] #1'
+  obfs: http_simple
+  obfs-param: ajax.microsoft.com
+  obfsparam: ajax.microsoft.com
+  password: caomeijump.com
+  port: 768
+  protocol: auth_aes128_md5
+  protocol-param: 167153:5b4c3ff4-16c7-35f5-97e9-68eb9a053815
+  protocolparam: 167153:5b4c3ff4-16c7-35f5-97e9-68eb9a053815
+  server: iplc-xiang.cmydns2.com
+  type: ssr
+  udp: true
+- cipher: rc4-md5
+  name: '137,138|🇭🇰 IPLC｜珠港 [2.0][原生] #1'
+  obfs: http_simple
+  obfs-param: ajax.microsoft.com
+  obfsparam: ajax.microsoft.com
+  password: caomeijump.com
+  port: 768
+  protocol: auth_aes128_md5
+  protocol-param: 167153:5b4c3ff4-16c7-35f5-97e9-68eb9a053815
+  protocolparam: 167153:5b4c3ff4-16c7-35f5-97e9-68eb9a053815
+  server: iplc-zhu.cmydns2.com
+  type: ssr
+  udp: true
+- cipher: rc4-md5
+  name: '137,138|🇭🇰 IPLC｜苏港 [2.0][原生] #1'
+  obfs: http_simple
+  obfs-param: ajax.microsoft.com
+  obfsparam: ajax.microsoft.com
+  password: caomeijump.com
+  port: 768
+  protocol: auth_aes128_md5
+  protocol-param: 167153:5b4c3ff4-16c7-35f5-97e9-68eb9a053815
+  protocolparam: 167153:5b4c3ff4-16c7-35f5-97e9-68eb9a053815
+  server: iplc-su.cmydns2.com
+  type: ssr
+  udp: true
+- cipher: rc4-md5
+  name: '137,138|🇭🇰 IPLC｜闽港 [2.0][原生] #1'
+  obfs: http_simple
+  obfs-param: ajax.microsoft.com
+  obfsparam: ajax.microsoft.com
+  password: caomeijump.com
+  port: 768
+  protocol: auth_aes128_md5
+  protocol-param: 167153:5b4c3ff4-16c7-35f5-97e9-68eb9a053815
+  protocolparam: 167153:5b4c3ff4-16c7-35f5-97e9-68eb9a053815
+  server: iplc-min.cmydns2.com
+  type: ssr
+  udp: true
+- alpn:
+  - h2
+  grpc-opts:
+    grpc-service-name: mm_grpc
+  name: '137,138|🇭🇰 直连｜香港-01 [1.0][原生][gRPC] #1'
+  network: grpc
+  password: 5b4c3ff4-16c7-35f5-97e9-68eb9a053815cmynw
+  port: 443
+  server: kaizen-hk-1.cmydns2.com
+  sni: chimuni.com
+  tls: true
+  type: trojan
+  udp: true
+- alpn:
+  - h2
+  grpc-opts:
+    grpc-service-name: mm_grpc
+  name: '137,138|🇭🇰 直连｜香港-02 [1.0][gRPC] #1'
+  network: grpc
+  password: 5b4c3ff4-16c7-35f5-97e9-68eb9a053815cmynw
+  port: 443
+  server: kaizen-hk-2.cmydns2.com
+  sni: chimuni.com
+  tls: true
+  type: trojan
+  udp: true
+- alpn:
+  - h2
+  grpc-opts:
+    grpc-service-name: mm_grpc
+  name: '137,138|🇭🇰 直连｜香港-03 [1.0][gRPC] #1'
+  network: grpc
+  password: 5b4c3ff4-16c7-35f5-97e9-68eb9a053815cmynw
+  port: 443
+  server: kaizen-hk-3.cmydns2.com
+  sni: chimuni.com
+  tls: true
+  type: trojan
+  udp: true
+- alpn:
+  - h2
+  grpc-opts:
+    grpc-service-name: mm_grpc
+  name: '137,138|🇭🇰 直连｜香港-11 [1.5][试用][gRPC] #1'
+  network: grpc
+  password: 5b4c3ff4-16c7-35f5-97e9-68eb9a053815cmynw
+  port: 443
+  server: kaizen-hk-11.cmydns2.com
+  sni: chimuni.com
+  tls: true
+  type: trojan
+  udp: true
+- alpn:
+  - h2
+  grpc-opts:
+    grpc-service-name: mm_grpc
+  name: '137,138|🇭🇰 直连｜香港-12 [1.5][gRPC] #1'
+  network: grpc
+  password: 5b4c3ff4-16c7-35f5-97e9-68eb9a053815cmynw
+  port: 443
+  server: kaizen-hk-12.cmydns2.com
+  sni: chimuni.com
+  tls: true
+  type: trojan
+  udp: true
+- alpn:
+  - h2
+  grpc-opts:
+    grpc-service-name: mm_grpc
+  name: '137,138|🇭🇰 直连｜香港-13 [1.5][gRPC] #1'
+  network: grpc
+  password: 5b4c3ff4-16c7-35f5-97e9-68eb9a053815cmynw
+  port: 443
+  server: kaizen-hk-13.cmydns2.com
+  sni: chimuni.com
+  tls: true
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: 151|🇭🇰 香港 | V1 | 01
@@ -1204,39 +1376,6 @@ proxies:
     path: /v2ray
 - alterId: 0
   cipher: auto
-  name: '217,599,611|HK #2'
-  network: ws
-  port: '12909'
-  server: 210.3.159.224
-  servername: 19.lwdh.us
-  tls: true
-  type: vmess
-  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  country: 🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: 217,395,443,458,532,533,545,591,599,645|香港_0518007
-  network: ws
-  port: '28681'
-  server: 47.242.22.171
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 3b1072ce-d096-46c2-a3e7-08b4f58538f5
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
   name: '217,426,599|🔒 VM-WS-NA 🇭🇰 HK-209.9.201.118... #1'
   network: ws
   port: 8300
@@ -1249,6 +1388,20 @@ proxies:
     headers:
       Host: hk3.grpc.stream
     path: /event
+- alterId: 0
+  cipher: auto
+  name: '217,599,611|HK #2'
+  network: ws
+  port: '12909'
+  server: 210.3.159.224
+  servername: 19.lwdh.us
+  tls: true
+  type: vmess
+  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
 - alterId: 0
   cipher: auto
   name: '217,446,532,533,645|美国_0518700 #1'
@@ -3187,7 +3340,7 @@ proxies:
     path: 55021a7c-bd6c-418e-be95-ceac8ba27b45-vm
 - alterId: 0
   cipher: auto
-  name: '519,624|美国 CloudFlare节点 #85'
+  name: '519,624|美国 CloudFlare节点 #77'
   network: ws
   port: '8080'
   server: yh1.freeh1.xyz
@@ -3705,6 +3858,20 @@ proxies:
   ws-opts:
     headers:
       Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '532,533|🇭🇰HK-43.199.69.251-0718 #1'
+  network: ws
+  port: 80
+  server: hk03.beautifuloctavia.fun
+  servername: hk03.victorialouisa.online
+  tls: false
+  type: vmess
+  uuid: 25ea21e2-8455-4fca-85bf-4bfbc62646fc
+  ws-opts:
+    headers:
+      Host: hk03.beautifuloctavia.fun
     path: /
 - alterId: 0
   cipher: auto
@@ -5061,7 +5228,7 @@ proxies:
   name: '669,792|[vmess]🇭🇰Hong Kong #1'
   network: ws
   port: '2087'
-  server: 47.76.204.76
+  server: 47.242.54.157
   servername: hkt.pddf.buzz
   tls: true
   type: vmess
@@ -5721,3 +5888,42 @@ proxies:
     headers:
       Host: ''
     path: /qwe123321ewq
+- alterId: 0
+  cipher: auto
+  name: 829|🇭🇰香港1丨白嫖机场.com
+  network: ws
+  port: '80'
+  server: 104.19.173.68
+  tls: false
+  type: vmess
+  uuid: c34d94d9-97d4-4496-9b7f-727dd678e1e0
+  ws-opts:
+    headers:
+      Host: hk3.889611.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 829|🇭🇰香港2丨白嫖机场.com
+  network: ws
+  port: '80'
+  server: 104.19.173.61
+  tls: false
+  type: vmess
+  uuid: c34d94d9-97d4-4496-9b7f-727dd678e1e0
+  ws-opts:
+    headers:
+      Host: hk3.889611.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 829|🇭🇰香港3丨白嫖机场.com
+  network: ws
+  port: '80'
+  server: 104.18.154.42
+  tls: false
+  type: vmess
+  uuid: c34d94d9-97d4-4496-9b7f-727dd678e1e0
+  ws-opts:
+    headers:
+      Host: hk3.visaapp.top
+    path: /
