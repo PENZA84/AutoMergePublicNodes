@@ -2,7 +2,9 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '16,208,214,225,436,462,528,529,554,561,562,607,808|🇭🇰 香港1| cf #1'
+  h2-opts: {}
+  http-opts: {}
+  name: '16,208,214,225,391,436,462,528,529,554,561,562,607,808|🇭🇰 香港1| cf #1'
   network: ws
   port: '2052'
   server: hk.wish.ml
@@ -226,12 +228,15 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 131,214,442,528,529,554,641|香港_0518008
+  country: HK
+  h2-opts: {}
+  http-opts: {}
+  name: 131,214,385,442,528,529,554,641|香港_0518008
   network: ws
   port: '12909'
   server: 210.3.159.224
   servername: ''
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
@@ -241,7 +246,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 131,214,439,454,528,529,541,587,595,641|香港_0518007
+  country: 🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: 131,214,391,439,454,528,529,541,587,595,641|香港_0518007
   network: ws
   port: '28681'
   server: 47.242.22.171
@@ -1434,7 +1442,7 @@ proxies:
     path: ''
 - alterId: 0
   cipher: auto
-  name: '214,422,595|🔒 VM-WS-NA 🇭🇰 HK-209.9.201.118... #1'
+  name: '214,595|🔒 VM-WS-NA 🇭🇰 HK-209.9.201.118... #1'
   network: ws
   port: 8300
   server: 209.9.201.118
@@ -1822,13 +1830,11 @@ proxies:
   ws-path: /
 - cipher: aes-256-cfb
   country: 🇰 HK
-  name: 386,390,422,612|[02-24]-🇸-欧洲-096-150.107.46.21
+  name: 386,390,612|[02-24]-🇸-欧洲-096-150.107.46.21
   obfs: tls1.2_ticket_auth
-  obfs-param: ''
   password: iFqnzSscN
   port: 8083
   protocol: origin
-  protocol-param: ''
   server: 150.107.46.21
   type: ssr
 - alterId: 0
@@ -2187,20 +2193,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 9fcec31d-40aa-4f98-8c47-0296084fe3ff
-- alterId: 0
-  cipher: auto
-  name: 422,715|Hong Kong- 02
-  network: ws
-  port: '443'
-  server: v-cf.hk2.skynetworktunnel.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 0962143a-f5ad-4565-b84e-89d9fb00324f
-  ws-opts:
-    headers:
-      Host: ''
-    path: /skysinternet
 - alterId: 0
   cipher: auto
   name: 427|🇭🇰8.210.128.146
@@ -3384,7 +3376,7 @@ proxies:
     path: 55021a7c-bd6c-418e-be95-ceac8ba27b45-vm
 - alterId: 0
   cipher: auto
-  name: '515,620|美国 CloudFlare节点 #87'
+  name: '515,620|美国 CloudFlare节点 #77'
   network: ws
   port: '8080'
   server: yh1.freeh1.xyz
@@ -4481,8 +4473,8 @@ proxies:
   uuid: 5dd37d4f-7726-40e8-9405-f80c702073be
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 546,561|🇭🇰 香港9|@ripaojiedian
-  password: 62b9d2df-b7e4-3bad-88d0-59b2d3fb63dd
+  name: 546|🇭🇰 HK 02
+  password: d20ef6d0-1339-3970-9194-9726b5ee6224
   port: 50001
   server: iepl1.forlive.live
   tfo: false
@@ -5035,14 +5027,16 @@ proxies:
   ws-headers:
     Host: vn3.thanhhaivpn.name.vn
   ws-path: /
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 561|🇭🇰 香港1|@ripaojiedian
-  password: a-wym4ovY4Yw
-  port: 81
-  server: 47.242.87.55
-  tfo: false
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 554,562|香港9|@ripaojiedian
+  network: tcp
+  port: '44803'
+  server: hkgcdn01.dorabbb.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a6f3c8fb-259d-498e-b39d-4694bc38e32f
 - cipher: aes-256-cfb
   name: 605|TG频道@mfbpn-香港2
   obfs: tls1.2_ticket_auth
@@ -5274,7 +5268,7 @@ proxies:
   name: '665,787|[vmess]🇭🇰Hong Kong #1'
   network: ws
   port: '2087'
-  server: 8.218.3.12
+  server: 47.243.183.127
   servername: hkt.pddf.buzz
   tls: true
   type: vmess
@@ -5323,6 +5317,58 @@ proxies:
   tls: false
   type: vmess
   uuid: 3b40af01-e7e5-3cf2-807d-3f6df986f34b
+- alterId: 0
+  cipher: auto
+  name: 715|Hong Kong- 02
+  network: ws
+  port: '443'
+  server: v-cf.hk2.skynetworktunnel.com
+  tls: false
+  type: vmess
+  uuid: 0962143a-f5ad-4565-b84e-89d9fb00324f
+  ws-opts:
+    headers:
+      Host: ''
+    path: /skysinternet
+- alterId: 0
+  cipher: auto
+  name: 715|Hong Kong- 03
+  network: ws
+  port: '443'
+  server: v-cf.hk3.skynetworktunnel.com
+  tls: false
+  type: vmess
+  uuid: 0962143a-f5ad-4565-b84e-89d9fb00324f
+  ws-opts:
+    headers:
+      Host: ''
+    path: /skysinternet
+- alterId: 0
+  cipher: auto
+  name: 715|Hong Kong- 04
+  network: ws
+  port: '443'
+  server: v-cf.hk4.skynetworktunnel.com
+  tls: false
+  type: vmess
+  uuid: 0962143a-f5ad-4565-b84e-89d9fb00324f
+  ws-opts:
+    headers:
+      Host: ''
+    path: /skysinternet
+- alterId: 0
+  cipher: auto
+  name: 715|Hong Kong- 05
+  network: ws
+  port: '443'
+  server: v-cf.hk5.skynetworktunnel.com
+  tls: false
+  type: vmess
+  uuid: 0962143a-f5ad-4565-b84e-89d9fb00324f
+  ws-opts:
+    headers:
+      Host: ''
+    path: /skysinternet
 - cipher: aes-128-gcm
   name: 718|Manifold-香港01-原生
   password: a212d
