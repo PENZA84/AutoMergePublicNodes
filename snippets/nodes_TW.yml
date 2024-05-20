@@ -1,19 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  country: ' TW'
-  h2-opts: {}
-  http-opts: {}
-  name: 18,399|_44
-  network: ws
-  port: 31945
-  server: 103.159.206.35
-  skip-cert-verify: true
-  type: vmess
-  uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
-  ws-path: /
-- alterId: 0
-  cipher: auto
   name: 70|台湾省 中华电信(HiNet)数据中心
   network: tcp
   port: 6122
@@ -24,13 +11,15 @@ proxies:
   uuid: 8907aeec-189d-48d9-b557-fb242a4d8127
 - alterId: 64
   cipher: auto
-  name: '81,451,475,537,538,650|台湾_0520005 #1'
+  name: '81,418,419,451,467,475,537,538,650|台湾_0520005 #1'
   network: ws
   port: '30000'
   server: 103.177.33.20
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
+  udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
@@ -198,6 +187,22 @@ proxies:
     path: /akljhgdf
 - alterId: 0
   cipher: auto
+  name: 221,418,419,451,463,466,467,537,538,604,615,616,629|🇹🇼TW-103.159.206.35-0342
+  network: ws
+  port: 31945
+  server: 103.159.206.35
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
   name: '221,604,616|TW2 #2'
   network: ws
   port: '12945'
@@ -210,21 +215,6 @@ proxies:
     headers:
       Host: ''
     path: ''
-- alterId: 0
-  cipher: auto
-  name: 221,451,463,466,537,538,596,604,615,616,629|🇹🇼TW-103.159.206.35-0342
-  network: ws
-  port: 31945
-  server: 103.159.206.35
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
 - alterId: '0'
   cipher: auto
   name: 234|[🇹🇼]103.131.189.212:56967(8110...
@@ -600,7 +590,7 @@ proxies:
   uuid: e160d0ba-5b1a-448c-fcfb-35bfc5c2b1b5
 - alterId: 0
   cipher: auto
-  name: '451,650,743,757,812|台湾【付费推荐：https://jdyvip.link/】4... #4'
+  name: '451,650,652,743,757,812|台湾【付费推荐：https://jdyvip.link/】4... #4'
   network: ws
   port: '443'
   server: 61.227.234.222
