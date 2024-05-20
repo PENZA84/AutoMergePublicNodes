@@ -1,32 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 65|🇹🇼 台湾-1
-  password: 9c2bf54f-5f13-4d71-b866-3a3f23c4d86b
-  port: 20701
-  server: tw01.jjjjjj.icu
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 65|🇹🇼 台湾-2
-  password: 9c2bf54f-5f13-4d71-b866-3a3f23c4d86b
-  port: 20702
-  server: tw02.jjjjjj.icu
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 65|🇹🇼 台湾-3
-  password: 9c2bf54f-5f13-4d71-b866-3a3f23c4d86b
-  port: 30401
-  server: tw03.jjjjjj.icu
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 65|🇹🇼 台湾-4
-  password: 9c2bf54f-5f13-4d71-b866-3a3f23c4d86b
-  port: 30499
-  server: nn.auozzjs.lol
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   name: 70|台湾省 中华电信(HiNet)数据中心
@@ -183,47 +155,6 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: '165,179,557|🇹🇼 Taiwan_1 #2'
-  password: 93ec2378-1151-4db5-9c56-d1387f36882d
-  port: 40006
-  server: tw01.mmyjiedian.com
-  tfo: false
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: '165,179,557|🇹🇼 Taiwan_2 #2'
-  password: 93ec2378-1151-4db5-9c56-d1387f36882d
-  port: 40007
-  server: tw02.mmyjiedian.com
-  tfo: false
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: '165,179,557|🇹🇼 Taiwan_3 #2'
-  password: 93ec2378-1151-4db5-9c56-d1387f36882d
-  port: 40008
-  server: tw03.mmyjiedian.com
-  tfo: false
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '165,179|🇹🇼 Taiwan_4 #1'
-  password: c5efa49d-1c28-4cab-916f-07ef43e70b27
-  port: 40009
-  server: tw04.mmyjiedian.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '165,179|🇹🇼 Taiwan_5 #1'
-  password: c5efa49d-1c28-4cab-916f-07ef43e70b27
-  port: 40010
-  server: tw05.mmyjiedian.com
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   name: 214|🆔@LuxyNet💎❖❖TW❖311
@@ -242,20 +173,6 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '223,606,618|TW4 #2'
-  network: ws
-  port: '12945'
-  server: 154.40.60.172
-  servername: 55.lwdh.us
-  tls: true
-  type: vmess
-  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
   name: '223,598,606,618|TW #2'
   network: ws
   port: '30002'
@@ -270,7 +187,10 @@ proxies:
     path: /akljhgdf
 - alterId: 0
   cipher: auto
-  name: 223,234,453,465,468,539,540,606,617,618,631|🇹🇼TW-103.159.206.35-0342
+  country: 🇹🇼TW
+  h2-opts: {}
+  http-opts: {}
+  name: 223,234,396,453,465,468,539,540,617,618,631|🇹🇼TW-103.159.206.35-0342
   network: ws
   port: 31945
   server: 103.159.206.35
@@ -283,6 +203,20 @@ proxies:
     headers:
       Host: ''
     path: /
+- alterId: 0
+  cipher: auto
+  name: '223,606,618|TW4 #2'
+  network: ws
+  port: '12945'
+  server: 154.40.60.172
+  servername: 55.lwdh.us
+  tls: true
+  type: vmess
+  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
 - alterId: '0'
   cipher: auto
   name: 236|[🇹🇼]103.131.189.212:56967(8110...
@@ -497,6 +431,24 @@ proxies:
       Host: cn.bing.com
     path: /
   ws-path: /
+- alterId: 0
+  cipher: auto
+  country: 🇹TW
+  h2-opts: {}
+  http-opts: {}
+  name: '396,617|未知519 737.4KB/s #1'
+  network: ws
+  port: 443
+  server: tw1g.forlive.live
+  servername: tms.dingtalk.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 4ccc923e-8452-418c-9222-87ee8f295e14
+  ws-opts:
+    headers:
+      host: tms.dingtalk.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 418|🇹🇼_TW_台湾
@@ -978,6 +930,30 @@ proxies:
     headers:
       Host: tms.dingtalk.com
     path: /
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 557|🇹🇼 Taiwan_1
+  password: 93ec2378-1151-4db5-9c56-d1387f36882d
+  port: 40006
+  server: tw01.mmyjiedian.com
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 557|🇹🇼 Taiwan_2
+  password: 93ec2378-1151-4db5-9c56-d1387f36882d
+  port: 40007
+  server: tw02.mmyjiedian.com
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 557|🇹🇼 Taiwan_3
+  password: 93ec2378-1151-4db5-9c56-d1387f36882d
+  port: 40008
+  server: tw03.mmyjiedian.com
+  tfo: false
+  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 557|🇹🇼 TW台湾-电信优化
