@@ -453,33 +453,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 223|🇨🇳 广东省江门市 移动
-  network: tcp
-  port: '35601'
-  server: 120.238.122.243
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: '223,473,539,540,565,572,573,607,608,745,759,814|节点日期：05-19 #2'
-  network: ws
-  port: '16632'
-  server: yes.cnmjcn.net
+  name: '223,549,550,565,573,608|广东省广州市 移动 #2'
+  network: tcp
+  port: '8443'
+  server: 120.232.240.38
   servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
+  tls: true
   type: vmess
-  udp: true
-  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
-  ws-opts:
-    headers:
-      Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
-    path: /
+  uuid: 39ef8f5d-7286-41b0-9c11-c976925d2931
 - alterId: 0
   cipher: auto
   name: '223,474,549,550,608,617,618|🇨🇳广东2 #2'
@@ -501,6 +484,19 @@ proxies:
   tls: false
   type: vmess
   uuid: 0855b410-0e96-4d0a-9b6e-80830edec462
+- alterId: 0
+  cipher: auto
+  name: 223|🔒 VM-WS-NA 🇨🇳 CN-36.140.134.16...
+  network: ws
+  port: '10163'
+  server: 36.140.134.162
+  tls: false
+  type: vmess
+  uuid: b1553abe-6f1f-3288-bfc2-908b2f9fc4fc
+  ws-opts:
+    headers:
+      Host: hk.lalayunssl.xyz
+    path: /v2ray
 - alterId: 64
   cipher: auto
   name: '223,574,606,617,618|未知652 #2'
@@ -1087,7 +1083,7 @@ proxies:
       Host: tms.dingtalk.com
     path: /
 - cipher: rc4-md5
-  name: '396,397,403|Relay_-CN_02 #1'
+  name: '396,397,403|Relay_-CN_03 #1'
   obfs: plain
   obfs-param: 64334105622.www.gov.hk
   password: di15PV
@@ -1096,9 +1092,42 @@ proxies:
   protocol-param: 105622:5EF7C3661EBC
   server: video23.cdn.globalnetworktraffic.com
   type: ssr
-- cipher: aes-256-cfb
+- cipher: chacha20-ietf
   country: 🇨CN
   name: 397|Relay_🇨🇳CN-🇨🇳CN_08
+  obfs: plain
+  obfs-param: 5d3ee46961.microsoft.com
+  password: jFa4F1
+  port: 6703
+  protocol: auth_aes128_sha1
+  protocol-param: 46961:1210-Tha
+  server: cm03.newcome.xyz
+  type: ssr
+- cipher: aes-256-cfb
+  country: 🇨🇳CN
+  name: 397|Relay_🇨🇳CN-🇨🇳CN_09
+  obfs: http_simple
+  obfs-param: d300c11275.microsoft.com
+  password: dajkdkjda&dj23gsa
+  port: 2212
+  protocol: auth_aes128_md5
+  protocol-param: 11275:KWQHheqWo8
+  server: 231103.level3.sdl-sz.com
+  type: ssr
+- cipher: aes-256-cfb
+  country: 🇨🇳CN
+  name: 397|Relay_🇨🇳CN-🇨🇳CN_10
+  obfs: http_simple
+  obfs-param: d300c11275.microsoft.com
+  password: dajkdkjd2a&dj23gsa
+  port: 37866
+  protocol: auth_aes128_md5
+  protocol-param: 11275:KWQHheqWo8
+  server: 231103levelx.unclemanco.com
+  type: ssr
+- cipher: aes-256-cfb
+  country: 🇨🇳CN
+  name: 397|Relay_🇨🇳CN-🇨🇳CN_11
   obfs: http_simple
   obfs-param: d300c11275.microsoft.com
   password: dajkdkjda&dj23gsa
@@ -1109,47 +1138,14 @@ proxies:
   type: ssr
 - cipher: chacha20-ietf
   country: 🇨🇳CN
-  name: 397|Relay_🇨🇳CN-🇨🇳CN_09
-  obfs: plain
-  obfs-param: 511df45641.microsoft.com
-  password: jFa4F1
-  port: 2406
-  protocol: auth_aes128_sha1
-  protocol-param: 45641:1119_jE165t
-  server: zx02.endhigh.xyz
-  type: ssr
-- cipher: aes-256-cfb
-  country: 🇨🇳CN
-  name: 397|Relay_🇨🇳CN-🇨🇳CN_10
-  obfs: http_simple
-  obfs-param: d300c11275.microsoft.com
-  password: dajkdkjda&dj23gsa
-  port: 2212
-  protocol: auth_aes128_md5
-  protocol-param: 11275:KWQHheqWo8
-  server: 231103.level3.sdl-sz.com
-  type: ssr
-- cipher: chacha20-ietf
-  country: 🇨🇳CN
-  name: 397|Relay_🇨🇳CN-🇨🇳CN_11
+  name: 397|Relay_🇨🇳CN-🇨🇳CN_12
   obfs: plain
   obfs-param: 5d3ee46961.microsoft.com
   password: jFa4F1
-  port: 2408
+  port: 3701
   protocol: auth_aes128_sha1
   protocol-param: 46961:1210-Tha
-  server: zx02.endhigh.xyz
-  type: ssr
-- cipher: aes-256-cfb
-  country: 🇨🇳CN
-  name: 397|Relay_🇨🇳CN-🇨🇳CN_12
-  obfs: http_simple
-  obfs-param: d300c11275.microsoft.com
-  password: dajkdkjd2a&dj23gsa
-  port: 37866
-  protocol: auth_aes128_md5
-  protocol-param: 11275:KWQHheqWo8
-  server: 231103levelx.unclemanco.com
+  server: cm01.newcome.xyz
   type: ssr
 - alterId: 0
   cipher: auto
@@ -1335,31 +1331,9 @@ proxies:
   server: 14.29.124.168
   type: ss
   udp: true
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 420,450,572,617|🇨🇳广东4
-  password: dffc697a-2535-470c-bb6a-8157b6c157a7
-  port: 38999
-  server: 8980k6.ceova9qgbqsqmfdy-jp01.my777999.top
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: '421,451,469,549,550,565,573,608|广东省广州市 移动 #3'
-  network: tcp
-  port: '8443'
-  server: 120.232.240.38
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 39ef8f5d-7286-41b0-9c11-c976925d2931
 - alterId: 4
   cipher: auto
-  name: '422,479|未命名 #193'
+  name: '422,479|未命名 #198'
   network: ws
   port: '2164'
   server: sxqxj.cn
@@ -2740,7 +2714,7 @@ proxies:
   ws-path: /aceamedv
 - alterId: 2
   cipher: auto
-  name: '427,479|未命名 #230'
+  name: '427,479|未命名 #235'
   network: tcp
   port: 53900
   server: jpgithub.edgehelper.com
@@ -5017,6 +4991,18 @@ proxies:
   password: 0a808411-2e85-4b1f-9365-5cde5457dfb4
   port: 18872
   server: hgu.zhuanaz.icu
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 450,572,617|🇨🇳广东4
+  password: dffc697a-2535-470c-bb6a-8157b6c157a7
+  port: 38999
+  server: 8980k6.ceova9qgbqsqmfdy-jp01.my777999.top
+  skip-cert-verify: true
+  tfo: false
+  tls: true
   type: ss
   udp: true
 - cipher: aes-128-gcm
@@ -7593,6 +7579,20 @@ proxies:
     headers:
       Host: ''
     path: /
+- alterId: 0
+  cipher: auto
+  name: '539,540|🇨🇳CN-125.94.37.119-0015 #1'
+  network: ws
+  port: 2000
+  server: 125.94.37.119
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf
+  ws-opts:
+    headers:
+      Host: ''
+    path: /hls/cctv5phd.m3u8
 - name: 554|3.35|CNyoutube155
   network: tcp
   origin: trojan://a3278882-3614-39cf-a3d6-faefa8c910ab@hnm.xiaohouzi.club:17113?type=tcp&security=tls&allowInsecure=1#CN_youtube%40%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB%E5%B8%88_155%0D
@@ -8378,7 +8378,7 @@ proxies:
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 0
   cipher: auto
-  name: '574,608|广东省汕头市 移动 #1'
+  name: '574,608|广东省汕头市 移动 #4'
   network: tcp
   port: '61002'
   server: 183.240.179.195
@@ -8747,19 +8747,6 @@ proxies:
     headers:
       host: vip3.niuniupremium.xyz
     path: /v2ray
-- alterId: 0
-  cipher: auto
-  name: 606|🔒 VM-WS-NA 🇨🇳 CN-36.140.134.16...
-  network: ws
-  port: '10163'
-  server: 36.140.134.162
-  tls: false
-  type: vmess
-  uuid: b1553abe-6f1f-3288-bfc2-908b2f9fc4fc
-  ws-opts:
-    headers:
-      Host: hk.lalayunssl.xyz
-    path: /v2ray
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 607|🇨🇳 河北省+中移铁通 2
@@ -8770,7 +8757,7 @@ proxies:
   type: ss
 - alterId: 64
   cipher: auto
-  name: '608|广东省广州市 移动 #4'
+  name: '608|广东省广州市 移动 #3'
   network: tcp
   port: '41492'
   server: 120.232.242.117
