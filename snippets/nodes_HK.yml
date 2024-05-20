@@ -1370,20 +1370,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '223,606,618|HK6 #2'
-  network: ws
-  port: '12909'
-  server: 210.3.159.224
-  servername: 19.lwdh.us
-  tls: true
-  type: vmess
-  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
   name: '223,433,606|🔒 VM-WS-NA 🇭🇰 HK-209.9.201.118... #1'
   network: ws
   port: 8300
@@ -1396,6 +1382,20 @@ proxies:
     headers:
       Host: hk3.grpc.stream
     path: /event
+- alterId: 0
+  cipher: auto
+  name: '223,606,618|HK6 #2'
+  network: ws
+  port: '12909'
+  server: 210.3.159.224
+  servername: 19.lwdh.us
+  tls: true
+  type: vmess
+  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
 - alterId: 0
   cipher: auto
   name: '223,539,540|🇭🇰HK-209.9.201.118-6247 #2'
@@ -1704,14 +1704,27 @@ proxies:
     path: /
   ws-path: /
 - cipher: aes-256-cfb
-  country: 🇰HK
-  name: 397,623|[02-24]-🇸-欧洲-096-150.107.46.21
+  country: 🇰 HK
+  name: 397,401,623|[02-24]-🇸-欧洲-096-150.107.46.21
   obfs: tls1.2_ticket_auth
   password: iFqnzSscN
   port: 8083
   protocol: origin
   server: 150.107.46.21
   type: ssr
+- alterId: 0
+  cipher: auto
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: 401|🇭🇰HK_109
+  network: ws
+  port: 80
+  server: 182.16.1.194
+  skip-cert-verify: true
+  type: vmess
+  uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
+  ws-path: /opt/video/images
 - alterId: 0
   cipher: auto
   name: '408|🇨🇳中国【YouTube-由零開始】 #7'
@@ -3254,7 +3267,7 @@ proxies:
     path: 55021a7c-bd6c-418e-be95-ceac8ba27b45-vm
 - alterId: 0
   cipher: auto
-  name: '526,631|美国 CloudFlare节点 #92'
+  name: '526,631|美国 CloudFlare节点 #93'
   network: ws
   port: '8080'
   server: yh1.freeh1.xyz
@@ -4893,7 +4906,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '565,573,608|广东省广州市 移动 #4'
+  name: '565,573,608|广东省广州市 移动 #3'
   network: tcp
   port: '8443'
   server: 120.232.240.38
@@ -5206,8 +5219,8 @@ proxies:
   cipher: auto
   name: '676,799|[vmess]🇭🇰Hong Kong #1'
   network: ws
-  port: '8443'
-  server: 47.76.159.146
+  port: '2087'
+  server: 47.76.146.1
   servername: hkt.pddf.buzz
   tls: true
   type: vmess
