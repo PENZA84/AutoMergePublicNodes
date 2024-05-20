@@ -1,32 +1,17 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: '64,65|🇹🇼 台湾-1 #1'
-  password: 9c2bf54f-5f13-4d71-b866-3a3f23c4d86b
-  port: 20701
-  server: tw01.jjjjjj.icu
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '64,65|🇹🇼 台湾-2 #1'
-  password: 9c2bf54f-5f13-4d71-b866-3a3f23c4d86b
-  port: 20702
-  server: tw02.jjjjjj.icu
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '64,65|🇹🇼 台湾-3 #1'
-  password: 9c2bf54f-5f13-4d71-b866-3a3f23c4d86b
-  port: 30401
-  server: tw03.jjjjjj.icu
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '64,65|🇹🇼 台湾-4 #1'
-  password: 9c2bf54f-5f13-4d71-b866-3a3f23c4d86b
-  port: 30499
-  server: nn.auozzjs.lol
-  type: ss
-  udp: true
+- alterId: 0
+  cipher: auto
+  country: ' TW'
+  h2-opts: {}
+  http-opts: {}
+  name: 18,399|_44
+  network: ws
+  port: 31945
+  server: 103.159.206.35
+  skip-cert-verify: true
+  type: vmess
+  uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: 70|台湾省 中华电信(HiNet)数据中心
@@ -39,15 +24,13 @@ proxies:
   uuid: 8907aeec-189d-48d9-b557-fb242a4d8127
 - alterId: 64
   cipher: auto
-  name: '81,418,419,451,467,475,537,538,650|台湾_0520005 #1'
+  name: '81,451,475,537,538,650|台湾_0520005 #1'
   network: ws
   port: '30000'
   server: 103.177.33.20
   servername: ''
-  skip-cert-verify: true
   tls: false
   type: vmess
-  udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
@@ -183,47 +166,6 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: '165,177,555|🇹🇼 Taiwan_1 #2'
-  password: 93ec2378-1151-4db5-9c56-d1387f36882d
-  port: 40006
-  server: tw01.mmyjiedian.com
-  tfo: false
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: '165,177,555|🇹🇼 Taiwan_2 #2'
-  password: 93ec2378-1151-4db5-9c56-d1387f36882d
-  port: 40007
-  server: tw02.mmyjiedian.com
-  tfo: false
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: '165,177,555|🇹🇼 Taiwan_3 #2'
-  password: 93ec2378-1151-4db5-9c56-d1387f36882d
-  port: 40008
-  server: tw03.mmyjiedian.com
-  tfo: false
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '165,177|🇹🇼 Taiwan_4 #1'
-  password: bb28c007-61fc-45d8-9b91-24e62968c1af
-  port: 40009
-  server: tw04.mmyjiedian.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '165,177|🇹🇼 Taiwan_5 #1'
-  password: bb28c007-61fc-45d8-9b91-24e62968c1af
-  port: 40010
-  server: tw05.mmyjiedian.com
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   name: 212|🆔@LuxyNet💎❖❖TW❖311
@@ -270,7 +212,7 @@ proxies:
     path: ''
 - alterId: 0
   cipher: auto
-  name: 221,451,463,466,537,538,615,616,629|🇹🇼TW-103.159.206.35-0342
+  name: 221,451,463,466,537,538,596,604,615,616,629|🇹🇼TW-103.159.206.35-0342
   network: ws
   port: 31945
   server: 103.159.206.35
@@ -978,6 +920,30 @@ proxies:
     headers:
       Host: tms.dingtalk.com
     path: /
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 555|🇹🇼 Taiwan_1
+  password: 93ec2378-1151-4db5-9c56-d1387f36882d
+  port: 40006
+  server: tw01.mmyjiedian.com
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 555|🇹🇼 Taiwan_2
+  password: 93ec2378-1151-4db5-9c56-d1387f36882d
+  port: 40007
+  server: tw02.mmyjiedian.com
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 555|🇹🇼 Taiwan_3
+  password: 93ec2378-1151-4db5-9c56-d1387f36882d
+  port: 40008
+  server: tw03.mmyjiedian.com
+  tfo: false
+  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 555|🇹🇼 TW台湾-电信优化
