@@ -1,4 +1,11 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: '64,65|🇨🇦 加拿大 #1'
+  password: 9c2bf54f-5f13-4d71-b866-3a3f23c4d86b
+  port: 40717
+  server: ca01.jjjjjj.icu
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: '81,484|加拿大 001 #1'
@@ -795,13 +802,13 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 136|🇨🇦CA-142.4.216.225-0717 | 20.5...
+  name: 136|🇨🇦CA-142.4.216.225-0717 | 9.46...
   password: JIhN6rBKkaEboLNXVSv5rq
   port: 80
   server: ca225.vpnbook.com
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 136|🇨🇦CA-146.19.106.89-3639 | 8.27...
+  name: 136|🇨🇦CA-146.19.106.89-3639 | 1.18...
   password: ZjNmOGE0
   port: 8388
   server: ca1.ssproxy.xyz
@@ -959,6 +966,56 @@ proxies:
   tls: false
   type: vmess
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  fingerprint: ''
+  name: '220,624|未知496 #1'
+  network: grpc
+  port: 2096
+  server: 172.67.204.84
+  servername: fragment.mzolfaghari.homes
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: false
+  uuid: 02b3ec8f-f568-47c8-9746-fa9a24e547d6
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  fingerprint: ''
+  name: '220,546,547,624|未知98 #1'
+  network: ws
+  port: 443
+  server: 172.67.194.57
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: false
+  uuid: 9aaceca0-bc5b-49e6-a83f-088e14d94434
+  ws-opts:
+    headers:
+      host: no1-vmess.sshmax.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  fingerprint: ''
+  name: '220,624|未知780 50.6KB/s #1'
+  network: ws
+  port: 443
+  server: 188.114.97.3
+  servername: nl1-vmess.sshmax.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: false
+  uuid: c875aa67-e59f-4147-89c8-c0bf7b0e12bf
+  ws-opts:
+    headers:
+      host: nl1-vmess.sshmax.xyz
+    path: /
 - alterId: 0
   cipher: auto
   name: 221,227,424,440,454,457,460,472,546,547,559,636,638,659|未知_0520090
@@ -1243,7 +1300,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '339,340,383,440,460,472,546,547,572,614,615,638,659,661,769|🇺🇸_US_美国->🇫🇷_FR_法国
+  name: '339,340,383,427,428,440,458,460,472,476,546,547,572,614,615,638,659,661,769|🇺🇸_US_美国->🇫🇷_FR_法国
     #6'
   network: ws
   port: 2082
@@ -1253,6 +1310,7 @@ proxies:
   tfo: false
   tls: false
   type: vmess
+  udp: true
   uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
   ws-opts:
     headers:
@@ -1388,20 +1446,6 @@ proxies:
     headers:
       Host: uh-lawyers-instruments-kernel.trycloudflare.com
     path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
-- alterId: 0
-  cipher: auto
-  country: 🇦 CA
-  h2-opts: {}
-  http-opts: {}
-  name: 408|🇦 CA_52
-  network: ws
-  port: 443
-  server: 158.51.121.36
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-path: /linkvws
 - alterId: 0
   cipher: auto
   name: 415|🇨🇦CA加拿大(youtube阿伟科技)
@@ -3297,7 +3341,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: dbde8d7e-a833-49a8-9c9a-54ec8b427ab5
+  uuid: d75e9d6c-f0db-4732-a9da-0c70e4c163e6
 - cipher: aes-256-gcm
   name: 487|VIP0.加拿大1.ChatGPT
   password: f7126755-abb2-42ce-8c7b-a3c0dc111825
@@ -3511,7 +3555,7 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 8121159c-f2d2-4868-ae81-27c3080a28c9
+  uuid: 1608ccc9-844b-42ac-a8ca-1995698fcaa6
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -3554,7 +3598,7 @@ proxies:
   type: ss
 - cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: '564|🇨🇦 加拿大 #1'
+  name: '564|🇨🇦 加拿大 #3'
   password: 030741c1-8706-41f6-93ae-f97585365627
   port: 27014
   server: ununim.yangliq.com
@@ -3747,3 +3791,24 @@ proxies:
   tls: false
   type: vmess
   uuid: d3a515b4-6fcb-38c8-93d3-2c17da360f89
+- cipher: aes-128-gcm
+  name: 840|🇨🇦 加拿大 01
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 20047
+  server: edge.node1link.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 840|🇨🇦 加拿大 02
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 20048
+  server: edge.node1link.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 840|🇨🇦 加拿大 03
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 20049
+  server: edge.node1link.xyz
+  type: ss
+  udp: true

@@ -433,7 +433,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: '227,451,559,613,624,625,645,653|رایگان | VMESS | @ROMAX_VPN | ... #9'
+  name: '227,451,559,613,624,625,645,653|رایگان | VMESS | @ROMAX_VPN | ... #8'
   network: tcp
   port: '45017'
   server: 142.0.134.241
@@ -454,7 +454,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 227,481,556,557,581|636
+  name: 227,428,458,476,481,556,557,581|636
   network: tcp
   port: 54100
   server: 183.236.51.59
@@ -1068,16 +1068,16 @@ proxies:
   protocol-param: 105622:5EF7C3661EBC
   server: video23.cdn.globalnetworktraffic.com
   type: ssr
-- cipher: aes-256-cfb
+- cipher: chacha20-ietf
   country: 🇨CN
   name: 404|Relay_🇨🇳CN-🇨🇳CN_08
-  obfs: http_simple
-  obfs-param: d300c11275.microsoft.com
-  password: dajkdkjd2a&dj23gsa
-  port: 37866
-  protocol: auth_aes128_md5
-  protocol-param: 11275:KWQHheqWo8
-  server: 231103levelx.unclemanco.com
+  obfs: plain
+  obfs-param: 5d3ee46961.microsoft.com
+  password: jFa4F1
+  port: 2400
+  protocol: auth_aes128_sha1
+  protocol-param: 46961:1210-Tha
+  server: zx01.endhigh.xyz
   type: ssr
 - cipher: aes-256-cfb
   country: 🇨🇳CN
@@ -1085,7 +1085,7 @@ proxies:
   obfs: http_simple
   obfs-param: d300c11275.microsoft.com
   password: dajkdkjda&dj23gsa
-  port: 19970
+  port: 2212
   protocol: auth_aes128_md5
   protocol-param: 11275:KWQHheqWo8
   server: 231103.level3.sdl-sz.com
@@ -1096,10 +1096,21 @@ proxies:
   obfs: http_simple
   obfs-param: d300c11275.microsoft.com
   password: dajkdkjda&dj23gsa
-  port: 2212
+  port: 19970
   protocol: auth_aes128_md5
   protocol-param: 11275:KWQHheqWo8
   server: 231103.level3.sdl-sz.com
+  type: ssr
+- cipher: aes-256-cfb
+  country: 🇨🇳CN
+  name: 404|Relay_🇨🇳CN-🇨🇳CN_11
+  obfs: http_simple
+  obfs-param: d300c11275.microsoft.com
+  password: dajkdkjd2a&dj23gsa
+  port: 37866
+  protocol: auth_aes128_md5
+  protocol-param: 11275:KWQHheqWo8
+  server: 231103levelx.unclemanco.com
   type: ssr
 - alterId: 0
   cipher: auto
@@ -1285,6 +1296,16 @@ proxies:
   server: 14.29.124.168
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  name: '428,458,476,572,580,615|广东省广州市 移动 #10'
+  network: tcp
+  port: '8443'
+  server: 120.232.240.38
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 39ef8f5d-7286-41b0-9c11-c976925d2931
 - alterId: 4
   cipher: auto
   name: '429,486|未命名 #193'
@@ -7403,6 +7424,23 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  client-fingerprint: chrome
+  name: '546,547,572,579,580,614,615,753,767,822|节点日期：05-19 #2'
+  network: ws
+  port: '16632'
+  server: yes.cnmjcn.net
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
+  ws-opts:
+    headers:
+      Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
   name: '546,547|🇨🇳CN-120.195.184.94-3781 #1'
   network: ws
   port: 30023
@@ -8112,7 +8150,7 @@ proxies:
   type: ss
 - alterId: 64
   cipher: auto
-  name: '615|广东省广州市 移动 #9'
+  name: '615|广东省广州市 移动 #11'
   network: tcp
   port: '41492'
   server: 120.232.242.117
