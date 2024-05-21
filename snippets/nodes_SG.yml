@@ -1,8 +1,21 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 14|Singapore01
+  network: ws
+  port: 8443
+  server: polosg.9x.cx
+  tls: true
+  type: vmess
+  uuid: a6dfb50f-75bb-48e0-b56a-1edeb62b5a49
+  ws-opts:
+    headers:
+      Host: ''
+    path: /boluosg
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: '16,221,227,419,420,440,454,460,546,547,572,579,580,659,661,753,767,822,828|🇸🇬
+  name: '16,221,227,419,420,440,454,460,546,547,572,579,580,645,653,659,661,753,767,822,828|🇸🇬
     新加坡1|cf #1'
   network: ws
   port: '2052'
@@ -30,17 +43,20 @@ proxies:
     headers:
       Host: sg2.wish.ml
     path: /
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: 18,404,408|🏁ZZ_406
-  password: BwcAUZk8hUFAkDGN
-  port: 9031
+- alterId: 0
+  cipher: aes-256-cfb
+  country: 🇸🇬 SG
+  name: 18,404,408,624|未知600
+  password: ueLXVkvh4hckhErQ
+  port: 9060
   server: 103.172.116.103
+  skip-cert-verify: true
+  tls: true
   type: ss
 - alterId: 0
   cipher: aes-256-cfb
-  country: ' SG'
-  name: 18,624|未知782 498.4KB/s
+  country: 🏁ZZ
+  name: 18,404,408,624|未知782 498.4KB/s
   password: fG2artUmHfNT2cX7
   port: 9018
   server: 103.172.116.103
@@ -57,11 +73,28 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: ss
+- alterId: 0
+  cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: 18,136,408,624|未知703
+  password: cp8pRSUAyLhTfVWH
+  port: 9064
+  server: 103.172.116.103
+  skip-cert-verify: true
+  tls: true
+  type: ss
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  name: 18,404,408|🏁ZZ_405
+  name: 18,404,408|🏁ZZ_402
   password: KnJGad3FqTvjqbaX
   port: 9014
+  server: 103.172.116.103
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: 18,404,408|🏁ZZ_403
+  password: BwcAUZk8hUFAkDGN
+  port: 9031
   server: 103.172.116.103
   type: ss
 - alterId: 0
@@ -175,18 +208,10 @@ proxies:
   uuid: 54de5bc2-fd5d-4aa1-adc8-6beb11e402b5
 - alterId: 0
   cipher: aes-256-cfb
-  name: 136,624|未知333
+  country: 🏁ZZ
+  name: 136,404,408,624|未知333
   password: 4R3hUfZ2FHhDmNcP
   port: 9061
-  server: 103.172.116.103
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: aes-256-cfb
-  name: 136,624|未知703
-  password: cp8pRSUAyLhTfVWH
-  port: 9064
   server: 103.172.116.103
   skip-cert-verify: true
   tls: true
@@ -211,7 +236,8 @@ proxies:
   type: ss
 - alterId: 0
   cipher: aes-256-cfb
-  name: 136,624|未知440
+  country: 🏁ZZ
+  name: 136,408,624|未知440
   password: BwcAUZk8hUFAkDGN
   port: 9031
   server: 103.172.116.90
@@ -220,7 +246,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '136,227,546,547,556,557|🇸🇬 新加坡 DigitalOcean数据中心 #2'
+  name: '136,227,546,547,556,557,605,645,653|رایگان | VMESS | @Hope_Net | S... #1'
   network: ws
   port: '99'
   server: 128.199.161.230
@@ -277,7 +303,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: chacha20-ietf-poly1305
-  country: 🇷🇺 RU
+  country: 🇺 RU
   name: 136,408,457,624|未知214 820.6KB/s
   password: 1q7RNKaIk2wYO8fEPmEX0vWQ7Va+QRTA
   port: 8388
@@ -969,10 +995,7 @@ proxies:
     path: /path/080712342310
 - alterId: 0
   cipher: auto
-  country: 🇬SG
-  h2-opts: {}
-  http-opts: {}
-  name: '227,403,440,457,460,472,546,547,559,572,605,613,659|新加坡_0520008 #1'
+  name: '227,440,457,460,472,546,547,559,572,605,613,659|新加坡_0520008 #1'
   network: ws
   port: '99'
   server: 128.199.161.230
@@ -1323,60 +1346,43 @@ proxies:
   server: 13.250.35.165
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 403|Relay_🏁ZZ-🇬SG_175 |10.51Mb
-  network: ws
-  port: 2052
-  server: cfcdn2.sanfencdn9.com
-  servername: 7nAi74jJsg1.yofnhkfc.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: 1ed3f9fd-7adb-4971-b8c0-3d4916290982
-  ws-opts:
-    headers:
-      HOST: 7nAi74jJsg1.yofnhkfc.xyz
-    path: /video/c9efxRCi
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  name: 404,408|🏁ZZ_412
+  name: 404,408|🏁ZZ_368
+  password: f8npKgNzdkss2ytn
+  port: 9088
+  server: 103.172.116.90
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇸🇬 SG
+  name: 404,408|🇸🇬 SG_153
+  password: BejrQvtu9sqUeNuZ
+  port: 9024
+  server: 103.172.116.94
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: 404,408|🏁ZZ_408
   password: UWZQeLRWnkqgkseq
   port: 9032
   server: 103.172.116.103
   type: ss
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  name: 404,408|🏁ZZ_319
-  password: f8npKgNzdkss2ytn
-  port: 9088
-  server: 103.172.116.90
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: 404,408|🏁ZZ_418
+  name: 404,408|🏁ZZ_416
   password: bf7v334KKDV3YDhH
   port: 9070
   server: 103.172.116.103
   type: ss
 - alterId: 0
   cipher: aes-256-cfb
-  country: ZZ
+  country: 🏁ZZ
   name: 404,408,624|未知42 535.9KB/s
   password: TN2YqghxeFDKZfLU
   port: 9037
   server: 103.172.116.103
   skip-cert-verify: true
   tls: true
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇸🇬SG
-  name: 404|🇸🇬SG_37
-  password: BejrQvtu9sqUeNuZ
-  port: 9024
-  server: 103.172.116.94
   type: ss
 - alterId: 0
   cipher: aes-256-cfb
@@ -1390,7 +1396,7 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   country: 🇬 SG
-  name: 408| SG_153
+  name: 404,408| SG_151
   password: fG2artUmHfNT2cX7
   port: 9018
   server: 103.172.116.94
@@ -4285,6 +4291,18 @@ proxies:
     headers:
       Host: gw.alicdn.com
     path: /CAT
+- cipher: aes-256-cfb
+  name: 656|SG_speednode_0044
+  password: UWZQeLRWnkqgkseq
+  port: 9032
+  server: 103.172.116.94
+  type: ss
+- cipher: aes-256-cfb
+  name: 656|SG_speednode_0045
+  password: BNmAXXxAHYpTRdzu
+  port: 9020
+  server: 103.172.116.94
+  type: ss
 - cipher: rc4-md5
   name: 660|6auY6ZuESGluZXQtZGlwQHZwbmhhdA
   obfs: tls1.2_ticket_auth
@@ -4338,8 +4356,8 @@ proxies:
   cipher: auto
   name: '683,807|[vmess]🇸🇬Singapore #1'
   network: ws
-  port: '18936'
-  server: 45.11.104.211
+  port: '2087'
+  server: 47.76.178.146
   servername: sg.pddf.buzz
   tls: true
   type: vmess
@@ -4769,3 +4787,59 @@ proxies:
     headers:
       Host: ''
     path: /qwe123321ewq
+- cipher: aes-128-gcm
+  name: 840|🇸🇬 狮城 01
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 20641
+  server: ss.sgplink.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 840|🇸🇬 狮城 02
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 20642
+  server: ss.sgplink.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 840|🇸🇬 狮城 03
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 20643
+  server: ss.sgplink.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 840|🇸🇬 狮城 04
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 20644
+  server: ss.sgplink.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 840|🇸🇬 狮城 05
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 20645
+  server: ss.sgplink.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 840|🇸🇬 狮城 06
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 20646
+  server: ss.sgplink.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 840|🇸🇬 狮城 07
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 20647
+  server: ss.sgplink.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 840|🇸🇬 狮城 08
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 20648
+  server: ss.sgplink.xyz
+  type: ss
+  udp: true
