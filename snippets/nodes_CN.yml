@@ -433,7 +433,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: '227,451,559,613,624,625,645,653|رایگان | VMESS | @ROMAX_VPN | ... #8'
+  name: '227,451,559,613,624,625,645,653|رایگان | VMESS | @ROMAX_VPN | ... #6'
   network: tcp
   port: '45017'
   server: 142.0.134.241
@@ -444,7 +444,8 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: '227,481,556,557,615,753,767,822|中国【付费推荐：https://jdyvip.link/】3 #2'
+  name: '227,428,458,476,481,556,557,615,753,767,822|中国【付费推荐：https://jdyvip.link/】3
+    #2'
   network: tcp
   port: '51707'
   server: 183.236.51.59
@@ -1068,31 +1069,20 @@ proxies:
   protocol-param: 105622:5EF7C3661EBC
   server: video23.cdn.globalnetworktraffic.com
   type: ssr
-- cipher: chacha20-ietf
+- cipher: aes-256-cfb
   country: 🇨CN
   name: 404|Relay_🇨🇳CN-🇨🇳CN_08
-  obfs: plain
-  obfs-param: 5d3ee46961.microsoft.com
-  password: jFa4F1
-  port: 2400
-  protocol: auth_aes128_sha1
-  protocol-param: 46961:1210-Tha
-  server: zx01.endhigh.xyz
+  obfs: http_simple
+  obfs-param: d300c11275.microsoft.com
+  password: dajkdkjd2a&dj23gsa
+  port: 37866
+  protocol: auth_aes128_md5
+  protocol-param: 11275:KWQHheqWo8
+  server: 231103levelx.unclemanco.com
   type: ssr
 - cipher: aes-256-cfb
   country: 🇨🇳CN
   name: 404|Relay_🇨🇳CN-🇨🇳CN_09
-  obfs: http_simple
-  obfs-param: d300c11275.microsoft.com
-  password: dajkdkjda&dj23gsa
-  port: 2212
-  protocol: auth_aes128_md5
-  protocol-param: 11275:KWQHheqWo8
-  server: 231103.level3.sdl-sz.com
-  type: ssr
-- cipher: aes-256-cfb
-  country: 🇨🇳CN
-  name: 404|Relay_🇨🇳CN-🇨🇳CN_10
   obfs: http_simple
   obfs-param: d300c11275.microsoft.com
   password: dajkdkjda&dj23gsa
@@ -1103,14 +1093,14 @@ proxies:
   type: ssr
 - cipher: aes-256-cfb
   country: 🇨🇳CN
-  name: 404|Relay_🇨🇳CN-🇨🇳CN_11
+  name: 404|Relay_🇨🇳CN-🇨🇳CN_10
   obfs: http_simple
   obfs-param: d300c11275.microsoft.com
-  password: dajkdkjd2a&dj23gsa
-  port: 37866
+  password: dajkdkjda&dj23gsa
+  port: 2212
   protocol: auth_aes128_md5
   protocol-param: 11275:KWQHheqWo8
-  server: 231103levelx.unclemanco.com
+  server: 231103.level3.sdl-sz.com
   type: ssr
 - alterId: 0
   cipher: auto
@@ -1298,14 +1288,32 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '428,458,476,572,580,615|广东省广州市 移动 #10'
-  network: tcp
-  port: '8443'
-  server: 120.232.240.38
+  name: 427,428,458,476,572|9|baipaovpn广东省
+  network: ws
+  port: '16627'
+  server: 183.240.220.84
   servername: ''
-  tls: true
+  skip-cert-verify: true
+  tls: false
   type: vmess
-  uuid: 39ef8f5d-7286-41b0-9c11-c976925d2931
+  udp: true
+  uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973
+  ws-opts:
+    headers:
+      Host: 193.25.215.160
+    path: /niuniu
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 427,457,614,624|🇨🇳广东2
+  password: a501c82c72d790b8
+  port: 8474
+  server: 119.23.104.213
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: ss
+  udp: true
 - alterId: 4
   cipher: auto
   name: '429,486|未命名 #193'
@@ -4588,18 +4596,6 @@ proxies:
   server: rk.izoizoizo.top
   type: ss
   udp: true
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 457,614,624|🇨🇳广东2
-  password: a501c82c72d790b8
-  port: 8474
-  server: 119.23.104.213
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: ss
-  udp: true
 - cipher: rc4-md5
   name: 457|🇨🇳 CN 448 → tg@nicevpn123
   password: dbEcUJ
@@ -7802,20 +7798,6 @@ proxies:
   ws-path: /Patti$Freud$4Clubs$spendable$lamar7$mollie7
 - alterId: 0
   cipher: auto
-  name: 572|9|baipaovpn广东省
-  network: ws
-  port: '16627'
-  server: 183.240.220.84
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973
-  ws-opts:
-    headers:
-      Host: 193.25.215.160
-    path: /niuniu
-- alterId: 0
-  cipher: auto
   name: 581|Youtube顺丰资源  CN1483
   network: ''
   port: 15603
@@ -8150,7 +8132,7 @@ proxies:
   type: ss
 - alterId: 64
   cipher: auto
-  name: '615|广东省广州市 移动 #11'
+  name: '615|广东省广州市 移动 #12'
   network: tcp
   port: '41492'
   server: 120.232.242.117
