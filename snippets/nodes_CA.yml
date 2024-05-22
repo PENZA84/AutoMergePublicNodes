@@ -1,11 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: '66,67|🇨🇦 加拿大 #1'
-  password: 9c2bf54f-5f13-4d71-b866-3a3f23c4d86b
-  port: 40717
-  server: ca01.jjjjjj.icu
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   name: '83,490|加拿大 001 #1'
@@ -1026,7 +1019,7 @@ proxies:
     path: /dabai.in172.67.4.225
 - alterId: 0
   cipher: auto
-  name: 83,433,434,446,464,482,490,578|9|baipaovpn美国
+  name: 83,433,434,446,482,490,578|9|baipaovpn美国
   network: ws
   port: '80'
   server: 104.18.5.191
@@ -1867,12 +1860,14 @@ proxies:
     path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
 - alterId: 0
   cipher: auto
-  name: '383,642,644|🇨🇦_CA_加拿大 #11'
+  name: '383,433,434,464,482,642,644|🇨🇦_CA_加拿大 #11'
   network: ws
   port: 8080
   server: 108.181.23.161
+  skip-cert-verify: true
   tls: false
   type: vmess
+  udp: true
   uuid: 969f1909-c0d3-4c30-813d-3aec5c838b7d
   ws-opts:
     headers:
@@ -1906,20 +1901,6 @@ proxies:
     headers:
       Host: uh-lawyers-instruments-kernel.trycloudflare.com
     path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
-- alterId: 0
-  cipher: auto
-  country: 🇦 CA
-  h2-opts: {}
-  http-opts: {}
-  name: 414|🇦 CA_49
-  network: ws
-  port: 443
-  server: 158.51.121.36
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-path: /linkvws
 - alterId: 0
   cipher: auto
   name: 421|🇨🇦CA加拿大(youtube阿伟科技)
@@ -3801,7 +3782,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 9d5bd73e-c836-40c4-a7eb-6adb9a4844cd
+  uuid: 6f5d042e-8649-4734-a0a7-7642c91ff244
 - cipher: aes-256-gcm
   name: 493|VIP0.加拿大1.ChatGPT
   password: f7126755-abb2-42ce-8c7b-a3c0dc111825
@@ -4015,7 +3996,7 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 00476fc2-5c91-4796-b2aa-45006d30f78d
+  uuid: a6a27f5f-59a4-4a1c-8513-1ff7af285674
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -4058,7 +4039,7 @@ proxies:
   type: ss
 - cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: '570|🇨🇦 加拿大 #3'
+  name: '570|🇨🇦 加拿大 #1'
   password: 030741c1-8706-41f6-93ae-f97585365627
   port: 27014
   server: ununim.yangliq.com
@@ -4231,24 +4212,3 @@ proxies:
   tls: false
   type: vmess
   uuid: d3a515b4-6fcb-38c8-93d3-2c17da360f89
-- cipher: aes-128-gcm
-  name: 850|🇨🇦 加拿大 01
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 20047
-  server: edge.node1link.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 850|🇨🇦 加拿大 02
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 20048
-  server: edge.node1link.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 850|🇨🇦 加拿大 03
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 20049
-  server: edge.node1link.xyz
-  type: ss
-  udp: true
