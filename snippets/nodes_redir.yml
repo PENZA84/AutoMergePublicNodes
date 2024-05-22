@@ -49,14 +49,16 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,234,346,347,348,350,351,468,532,554,555,564,565,580,667,669|美国_0522059
+  name: '0,3,234,346,347,348,350,351,435,436,466,468,484,532,554,555,564,565,580,667,669|美国_0522059
     #1'
   network: ws
   port: '2052'
   server: 172.67.164.78
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
+  udp: true
   uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8
   ws-opts:
     headers:
@@ -81,7 +83,7 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   fingerprint: ''
-  name: '1,2,227,515,590,632|US143 103.9KB/s #1'
+  name: 1,2,227,515,590,632|US236
   network: ws
   port: 2052
   server: hk.wish.ml
@@ -99,7 +101,7 @@ proxies:
   country: 🇺🇸US
   h2-opts: {}
   http-opts: {}
-  name: '1,2,411,623,644,646|美国 CloudFlare节点 #86'
+  name: '1,2,411,623,644,646|美国 CloudFlare节点 #91'
   network: ws
   port: '2082'
   server: s1c.v2.v001sss.xyz
@@ -114,7 +116,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  country: 🇸US
+  country: 🇺🇸US
   h2-opts: {}
   http-opts: {}
   name: '1,2,411,465,515,554,555,590|🇺🇸_US_美国->🇮🇳_IN_印度_2 #2'
@@ -144,7 +146,7 @@ proxies:
   country: 🇺🇸US
   h2-opts: {}
   http-opts: {}
-  name: 1,2,411|Relay_🇺🇸US-🇦UA_189 | 1.34Mb
+  name: 1,2,411|Relay_🇺🇸US-🇦UA_193 | 1.34Mb
   network: ws
   port: 80
   server: 172.67.166.192
@@ -186,29 +188,21 @@ proxies:
 - alterId: 0
   cipher: auto
   name: '30,320|🇨🇳台湾 01-中转 #1'
-  network: ws
+  network: tcp
   port: '21003'
   server: tw.lianjianode.cc
   tls: false
   type: vmess
   uuid: 0d67f300-bfd2-4e63-bb61-20ed80f88ebb
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
 - alterId: 0
   cipher: auto
   name: '30,320|🇨🇳台湾 02-中转 #1'
-  network: ws
+  network: tcp
   port: '21004'
   server: tw.lianjianode.cc
   tls: false
   type: vmess
   uuid: 0d67f300-bfd2-4e63-bb61-20ed80f88ebb
-  ws-opts:
-    headers:
-      Host: hinet.luodi.xyz
-    path: /hinet
 - alterId: 0
   cipher: auto
   name: '30,320|🇯🇵 日本 01-中转 #1'
