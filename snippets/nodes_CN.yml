@@ -444,7 +444,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '227,428,458,476,481,556,557,615|广东省佛山市 移动 #16'
+  name: '227,428,458,476,481,556,557,615|广东省佛山市 移动 #15'
   network: tcp
   port: '61001'
   server: 183.232.199.61
@@ -465,7 +465,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: '227,556,557|🇨🇳 广东省广州市 移动 #11'
+  name: '227,428,458,476,556,557|🇨🇳 广东省广州市 移动 #13'
   network: tcp
   port: '54100'
   server: 183.236.51.59
@@ -494,6 +494,26 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: '227,481|广东省佛山市 移动 #10'
+  network: tcp
+  port: '34998'
+  server: 183.232.170.131
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: dffc697a-2535-470c-bb6a-8157b6c157a7
+- alterId: 0
+  cipher: auto
+  name: '227,428,458,476,481,572,580,615|广东省广州市 移动 #6'
+  network: tcp
+  port: '8443'
+  server: 120.232.240.38
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 39ef8f5d-7286-41b0-9c11-c976925d2931
 - cipher: rc4-md5
   name: 240|[🇨🇳]zx01.endhigh.xyz:2413(2vzh...
   password: 2vzho5
@@ -1058,7 +1078,7 @@ proxies:
       Host: tms.dingtalk.com
     path: /
 - cipher: rc4-md5
-  name: 403,404|Relay_-CN_02
+  name: 404,410|Relay_-CN_03
   obfs: plain
   obfs-param: 64334105622.www.gov.hk
   password: di15PV
@@ -1089,9 +1109,20 @@ proxies:
   protocol-param: 11275:KWQHheqWo8
   server: 231103.level3.sdl-sz.com
   type: ssr
-- cipher: aes-256-cfb
+- cipher: chacha20-ietf
   country: 🇨🇳CN
   name: 404|Relay_🇨🇳CN-🇨🇳CN_10
+  obfs: plain
+  obfs-param: 5d3ee46961.microsoft.com
+  password: jFa4F1
+  port: 3703
+  protocol: auth_aes128_sha1
+  protocol-param: 46961:1210-Tha
+  server: cm01.newcome.xyz
+  type: ssr
+- cipher: aes-256-cfb
+  country: 🇨🇳CN
+  name: 404|Relay_🇨🇳CN-🇨🇳CN_11
   obfs: http_simple
   obfs-param: d300c11275.microsoft.com
   password: dajkdkjda&dj23gsa
@@ -1099,17 +1130,6 @@ proxies:
   protocol: auth_aes128_md5
   protocol-param: 11275:KWQHheqWo8
   server: 231103.level3.sdl-sz.com
-  type: ssr
-- cipher: chacha20-ietf
-  country: 🇨🇳CN
-  name: 404|Relay_🇨🇳CN-🇨🇳CN_11
-  obfs: plain
-  obfs-param: TG@wangcai_1
-  password: jFa4F1
-  port: 7708
-  protocol: auth_aes128_sha1
-  protocol-param: 84263:3gj7aB
-  server: cm01.newcome.xyz
   type: ssr
 - alterId: 0
   cipher: auto
@@ -1295,26 +1315,13 @@ proxies:
   server: 14.29.124.168
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: '428,458,476,481|广东省佛山市 移动 #11'
-  network: tcp
-  port: '34998'
-  server: 183.232.170.131
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: dffc697a-2535-470c-bb6a-8157b6c157a7
-- alterId: 0
-  cipher: auto
-  name: '428,458,476,481,572,580,615|广东省广州市 移动 #7'
-  network: tcp
-  port: '8443'
-  server: 120.232.240.38
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 39ef8f5d-7286-41b0-9c11-c976925d2931
+- cipher: chacha20-ietf-poly1305
+  name: 427|[SS] 广东省江门市 移动
+  password: 99301d55-a41f-4919-986b-1435996533aa
+  port: 20003
+  server: deepf.hjkdsak2.com
+  type: ss
+  udp: true
 - alterId: 4
   cipher: auto
   name: '429,486|未命名 #193'
@@ -3809,6 +3816,15 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 457,480|🇨🇳 广东省江门市移动 12
+  password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
+  port: 20005
+  server: service.ouluyun9803.com
+  tfo: false
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
   name: 457|🇨🇳 CN 250 → tg@nicevpn123
   password: d3c7f55f-e2af-4114-b0a3-058d219e2992
   port: 27274
@@ -4105,6 +4121,18 @@ proxies:
   password: dbEcUJ
   port: 24603
   server: 211.99.97.4
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 457,480,624|🇮IT
+  password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
+  port: 20003
+  server: service.ouluyun9803.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -4838,6 +4866,15 @@ proxies:
   password: d3c7f55f-e2af-4114-b0a3-058d219e2992
   port: 27256
   server: 120.199.94.29
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 457,480|🇨🇳 广东省江门市移动 11
+  password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
+  port: 26667
+  server: service.ouluyun9803.com
+  tfo: false
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -6096,7 +6133,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '473,546,547|🇨🇳CN-106.55.187.139-4131 #1'
+  name: '473,546,547|🇨🇳CN-106.55.187.139-4135 #1'
   network: ws
   port: 8448
   server: 106.55.187.139
@@ -6246,7 +6283,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '473,546,547|🇨🇳CN-124.222.189.225-4199 #1'
+  name: '473,546,547|🇨🇳CN-124.222.189.225-4203 #1'
   network: ws
   port: 80
   server: 124.222.189.225
@@ -6270,7 +6307,7 @@ proxies:
   http-opts:
     path:
     - /
-  name: '473,546,547|🇨🇳CN-124.221.131.176-4225 #1'
+  name: '473,546,547|🇨🇳CN-124.221.131.176-4229 #1'
   network: http
   port: 50797
   server: 124.221.131.176
@@ -6486,7 +6523,7 @@ proxies:
   uuid: 08103798-414e-32b6-8748-2507732d2c51
 - alterId: 0
   cipher: auto
-  name: '474,492,519,546,547|🏁RELAY-185.162.228.229-6875 #1'
+  name: '474,492,519,546,547|🏁RELAY-185.162.228.229-6796 #1'
   network: ws
   port: 443
   server: 185.162.228.229
@@ -6500,7 +6537,7 @@ proxies:
     path: /5QNROSRV
 - alterId: 0
   cipher: auto
-  name: '474,492,529,546,547|🏁RELAY-162.159.135.103-6640 #1'
+  name: '474,492,529,546,547|🏁RELAY-162.159.138.195-6561 #1'
   network: ws
   port: 443
   server: cf-lt.sharecentre.online
@@ -6540,7 +6577,7 @@ proxies:
     path: /shirker
 - alterId: 0
   cipher: auto
-  name: '474,492,529,546,547|🏁RELAY-172.67.197.96-6639 #1'
+  name: '474,492,529,546,547|🏁RELAY-198.41.223.70-6560 #1'
   network: ws
   port: 443
   server: cf-lt.sharecentre.online
@@ -6580,7 +6617,7 @@ proxies:
     path: /speedtest
 - alterId: 0
   cipher: auto
-  name: '474,492,546,547|🏁RELAY-141.193.213.20-1314 #1'
+  name: '474,492,546,547|🏁RELAY-141.193.213.20-1273 #1'
   network: ws
   port: 443
   server: 141.193.213.20
@@ -6633,7 +6670,7 @@ proxies:
     path: /shirker
 - alterId: 0
   cipher: auto
-  name: '474,529,546,547|🏁RELAY-198.41.223.83-6642 #1'
+  name: '474,529,546,547|🏁RELAY-198.41.223.94-6563 #1'
   network: ws
   port: 443
   server: cf-lt.sharecentre.online
@@ -7420,7 +7457,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '546,547|🇨🇳CN-120.195.184.94-3781 #1'
+  name: '546,547|🇨🇳CN-120.195.184.94-3785 #1'
   network: ws
   port: 30023
   server: v01.gutingting.com
@@ -7434,7 +7471,7 @@ proxies:
     path: /aceamedv
 - alterId: 0
   cipher: auto
-  name: '546,547|🇨🇳CN-120.199.84.184-3782 #1'
+  name: '546,547|🇨🇳CN-120.199.84.184-3786 #1'
   network: ws
   port: 30015
   server: v02.gutingting.com
@@ -7448,7 +7485,7 @@ proxies:
     path: /aceamedv
 - alterId: 0
   cipher: auto
-  name: '546,547|🇨🇳CN-120.241.47.253-3832 #1'
+  name: '546,547|🇨🇳CN-120.241.47.253-3836 #1'
   network: ws
   port: 30009
   server: ns01.gutingting.com
@@ -7462,7 +7499,7 @@ proxies:
     path: /aceamedv
 - alterId: 0
   cipher: auto
-  name: '546,547|🇨🇳CN-120.241.47.253-3834 #1'
+  name: '546,547|🇨🇳CN-120.241.47.253-3838 #1'
   network: ws
   port: 30044
   server: ns01.gutingting.com
@@ -7476,7 +7513,7 @@ proxies:
     path: /aceamedv
 - alterId: 0
   cipher: auto
-  name: '546,547|🇨🇳CN-120.199.84.184-3835 #1'
+  name: '546,547|🇨🇳CN-120.199.84.184-3839 #1'
   network: ws
   port: 30041
   server: v02.gutingting.com
@@ -7490,7 +7527,7 @@ proxies:
     path: /aceamedv
 - alterId: 0
   cipher: auto
-  name: '546,547|🇨🇳CN-183.233.187.139-3876 #1'
+  name: '546,547|🇨🇳CN-183.233.187.139-3880 #1'
   network: ws
   port: 5001
   server: steam.dnspro.icu
@@ -7504,7 +7541,7 @@ proxies:
     path: /iso
 - alterId: 0
   cipher: auto
-  name: '546,547|🇨🇳CN-183.233.187.138-3901 #1'
+  name: '546,547|🇨🇳CN-183.233.187.138-3905 #1'
   network: ws
   port: 9111
   server: st-1.dnspro.icu
@@ -7518,7 +7555,7 @@ proxies:
     path: /iso
 - alterId: 0
   cipher: auto
-  name: '546,547|🇨🇳CN-183.233.187.137-3902 #1'
+  name: '546,547|🇨🇳CN-183.233.187.137-3906 #1'
   network: ws
   port: 5100
   server: st-2.dnspro.icu
@@ -7532,7 +7569,7 @@ proxies:
     path: /iso
 - alterId: 0
   cipher: auto
-  name: '546,547|🇨🇳CN-183.233.187.139-3906 #1'
+  name: '546,547|🇨🇳CN-183.233.187.139-3910 #1'
   network: ws
   port: 20025
   server: sh-cn-1.dnspro.icu
@@ -7544,23 +7581,9 @@ proxies:
     headers:
       Host: sh-cn-1.dnspro.icu
     path: /iso
-- alterId: 1
-  cipher: auto
-  name: '546,547|🇨🇳CN-111.6.78.248-0051 #1'
-  network: ws
-  port: 11402
-  server: 111.6.78.248
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 119f999c-2cf9-36cd-bf7b-08fdf66dbd45
-  ws-opts:
-    headers:
-      Host: xuexi.cn
-    path: /videos
 - alterId: 4
   cipher: auto
-  name: '546,547|🇨🇳CN-157.254.193.68-7389 #1'
+  name: '546,547|🇨🇳CN-157.254.193.68-7310 #1'
   network: ws
   port: 10020
   server: 157.254.193.68
@@ -7813,7 +7836,7 @@ proxies:
   type: ss
 - alterId: 64
   cipher: auto
-  name: '615|广东省广州市 移动 #8'
+  name: '615|广东省广州市 移动 #7'
   network: tcp
   port: '41492'
   server: 120.232.242.117
@@ -7823,7 +7846,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '615|广东省汕头市 移动 #5'
+  name: '615|广东省汕头市 移动 #3'
   network: tcp
   port: '61002'
   server: 183.240.179.195
