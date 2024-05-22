@@ -495,7 +495,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '232,486|广东省佛山市 移动 #4'
+  name: '232,486|广东省佛山市 移动 #7'
   network: tcp
   port: '34998'
   server: 183.232.170.131
@@ -505,7 +505,7 @@ proxies:
   uuid: dffc697a-2535-470c-bb6a-8157b6c157a7
 - alterId: 0
   cipher: auto
-  name: '232,433,463,481,486,577,585,620|广东省广州市 移动 #5'
+  name: '232,486,577,585,620|广东省广州市 移动 #5'
   network: tcp
   port: '8443'
   server: 120.232.240.38
@@ -1076,6 +1076,60 @@ proxies:
     headers:
       Host: tms.dingtalk.com
     path: /
+- cipher: rc4-md5
+  name: '408,409,415|Relay_-CN_03 #1'
+  obfs: plain
+  obfs-param: 64334105622.www.gov.hk
+  password: di15PV
+  port: 555
+  protocol: auth_aes128_md5
+  protocol-param: 105622:5EF7C3661EBC
+  server: video23.cdn.globalnetworktraffic.com
+  type: ssr
+- cipher: aes-256-cfb
+  country: 🇨CN
+  name: 409|Relay_🇨🇳CN-🇨🇳CN_08
+  obfs: http_simple
+  obfs-param: d300c11275.microsoft.com
+  password: dajkdkjda&dj23gsa
+  port: 19970
+  protocol: auth_aes128_md5
+  protocol-param: 11275:KWQHheqWo8
+  server: 231103.level3.sdl-sz.com
+  type: ssr
+- cipher: chacha20-ietf
+  country: 🇨🇳CN
+  name: 409|Relay_🇨🇳CN-🇨🇳CN_09
+  obfs: plain
+  obfs-param: cf48250916.microsoft.com
+  password: jFa4F1
+  port: 2409
+  protocol: auth_aes128_sha1
+  protocol-param: 50916:0104-W259_71
+  server: zx02.endhigh.xyz
+  type: ssr
+- cipher: aes-256-cfb
+  country: 🇨🇳CN
+  name: 409|Relay_🇨🇳CN-🇨🇳CN_10
+  obfs: http_simple
+  obfs-param: d300c11275.microsoft.com
+  password: dajkdkjda&dj23gsa
+  port: 2212
+  protocol: auth_aes128_md5
+  protocol-param: 11275:KWQHheqWo8
+  server: 231103.level3.sdl-sz.com
+  type: ssr
+- cipher: aes-256-cfb
+  country: 🇨🇳CN
+  name: 409|Relay_🇨🇳CN-🇨🇳CN_11
+  obfs: http_simple
+  obfs-param: d300c11275.microsoft.com
+  password: dajkdkjd2a&dj23gsa
+  port: 37866
+  protocol: auth_aes128_md5
+  protocol-param: 11275:KWQHheqWo8
+  server: 231103levelx.unclemanco.com
+  type: ssr
 - alterId: 0
   cipher: auto
   name: '420|🇨🇳中国【YouTube-由零開始】 #5'
@@ -1260,23 +1314,6 @@ proxies:
   server: 14.29.124.168
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 432|[SS] 广东省江门市 移动
-  password: 99301d55-a41f-4919-986b-1435996533aa
-  port: 20003
-  server: deepf.hjkdsak2.com
-  type: ss
-  udp: true
-- alterId: 64
-  cipher: auto
-  name: '433,463,481|广东省江门市 移动 #6'
-  network: tcp
-  port: '35601'
-  server: 120.238.122.243
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 4
   cipher: auto
   name: '434,491|未命名 #193'
@@ -4811,6 +4848,18 @@ proxies:
   server: 120.199.94.29
   type: ss
   udp: true
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 462,485,629|🇩🇪DE德国3
+  password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
+  port: 26667
+  server: service.ouluyun9803.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: ss
+  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 462|🇨🇳 CN 504 → tg@nicevpn123
   password: 3bf7be43-e331-4dad-856c-8d312dedea90
@@ -7764,6 +7813,153 @@ proxies:
     headers:
       Host: 193.25.215.160
     path: /niuniu
+- alterId: 0
+  cipher: auto
+  name: 586,661|CN_speednode_0009
+  network: tcp
+  port: 30053
+  server: 183.240.179.207
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 5bd5899a-4b78-4d75-8570-4d21b43422c4
+- alterId: 0
+  cipher: auto
+  name: 586|CN_youtube@资源分享师_13
+  network: ws
+  port: 16626
+  server: 116.162.172.161
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 53c7995d-ed14-470c-b288-065d2e68504e
+  ws-opts:
+    headers:
+      host: 9283f568d6328111cfa4575644501b6f.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 586|CN_youtube@资源分享师_17
+  network: ws
+  port: 16632
+  server: 116.162.172.161
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
+  ws-opts:
+    headers:
+      host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '586,629|未知396 #1'
+  network: ws
+  port: 16632
+  server: m.cnmjin.net
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
+  ws-opts:
+    headers:
+      host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 586|CN_youtube@资源分享师_100
+  network: ws
+  port: 16632
+  server: 120.233.204.126
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
+  ws-opts:
+    headers:
+      host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 586,661|CN_speednode_0024
+  network: tcp
+  port: 48001
+  server: 183.232.142.179
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+- alterId: 0
+  cipher: auto
+  name: '586,620|广东省汕头市 移动 #6'
+  network: tcp
+  port: '61002'
+  server: 183.240.179.195
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+- alterId: 0
+  cipher: auto
+  name: 586|CN_youtube@资源分享师_176
+  network: ws
+  port: 16632
+  server: 183.232.142.46
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
+  ws-opts:
+    headers:
+      host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 586|CN_youtube@资源分享师_237
+  network: ws
+  port: 16632
+  server: yes.cnmjcn.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
+  ws-opts:
+    headers:
+      host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 586,661|CN_speednode_0026
+  network: tcp
+  port: 40001
+  server: 183.232.199.28
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+- alterId: 0
+  cipher: auto
+  name: 586,661|CN_speednode_0007
+  network: tcp
+  port: 30112
+  server: 183.240.179.207
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 5bd5899a-4b78-4d75-8570-4d21b43422c4
+- alterId: 0
+  cipher: auto
+  name: 586|CN_youtube@资源分享师_284
+  network: tcp
+  port: 61001
+  server: 183.240.179.195
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 619|🇨🇳 河北省+中移铁通 2
@@ -7784,16 +7980,6 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '620|广东省汕头市 移动 #9'
-  network: tcp
-  port: '61002'
-  server: 183.240.179.195
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-- alterId: 0
-  cipher: auto
   name: '629|🇨🇳广东4 #1'
   network: ws
   port: 20206
@@ -7806,26 +7992,6 @@ proxies:
     headers:
       host: data-hk-v1.usabooks.com.cn
     path: /debian
-- alterId: 0
-  cipher: auto
-  name: 661|CN_speednode_0007
-  network: tcp
-  port: 30112
-  server: 183.240.179.207
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5bd5899a-4b78-4d75-8570-4d21b43422c4
-- alterId: 0
-  cipher: auto
-  name: 661|CN_speednode_0009
-  network: tcp
-  port: 30053
-  server: 183.240.179.207
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5bd5899a-4b78-4d75-8570-4d21b43422c4
 - alterId: 0
   cipher: auto
   name: 661|CN_speednode_0012
@@ -7871,24 +8037,6 @@ proxies:
   port: 42001
   server: 183.232.199.28
   servername: ''
-  tls: false
-  type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-- alterId: 0
-  cipher: auto
-  name: 661|CN_speednode_0024
-  network: tcp
-  port: 48001
-  server: 183.232.142.179
-  tls: false
-  type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-- alterId: 0
-  cipher: auto
-  name: 661|CN_speednode_0026
-  network: tcp
-  port: 40001
-  server: 183.232.199.28
   tls: false
   type: vmess
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
