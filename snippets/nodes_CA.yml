@@ -1,4 +1,11 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: '66,67|🇨🇦 加拿大 #1'
+  password: 9c2bf54f-5f13-4d71-b866-3a3f23c4d86b
+  port: 40717
+  server: ca01.jjjjjj.icu
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: '83,489|加拿大 001 #1'
@@ -1022,9 +1029,9 @@ proxies:
     path: /dabai.in172.67.4.225
 - alterId: 0
   cipher: auto
-  name: '83,432,433,481,489|加拿大 139 #1'
+  name: 83,432,433,481,489,577|9|baipaovpn美国
   network: ws
-  port: 80
+  port: '80'
   server: 104.18.5.191
   servername: ''
   skip-cert-verify: true
@@ -1164,20 +1171,6 @@ proxies:
   tls: true
   type: ss
   udp: true
-- country: US
-  fingerprint: randomized
-  name: 141|disney_netflix_CA
-  network: ws
-  password: lrdxw
-  port: 443
-  server: trojan-lrdxw.ala1-f11.workers.dev
-  sni: trojan-lrdxw.ala1-f11.workers.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: trojan-lrdxw.ala1-f11.workers.dev
-    path: /?ed=2560
 - alpn:
   - h2
   grpc-opts:
@@ -1488,7 +1481,7 @@ proxies:
     path: /v118-fccxmxm35
 - alterId: 0
   cipher: auto
-  name: '232,465,486|美国 CloudFlare节点 #30'
+  name: '232,465,486|美国 CloudFlare节点 #28'
   network: ws
   port: 80
   server: 172.66.40.173
@@ -1582,20 +1575,6 @@ proxies:
   uuid: 1348e9f7-405e-3030-9e0b-2e69050075e7
 - alterId: 0
   cipher: auto
-  name: '232,610|🔒 VM-WS-NA 🇨🇦 CA-193.203.203.4... #1'
-  network: ws
-  port: '2052'
-  server: 193.203.203.45
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f328f2e3-d8fe-4576-a79c-cd6d09505122
-  ws-opts:
-    headers:
-      Host: ca1-vmess.vpnhack.xyz
-    path: /vmess
-- alterId: 0
-  cipher: auto
   client-fingerprint: chrome
   name: '232,462,477,551,552,619,620|美国 V2CROSS.COM #1'
   network: ws
@@ -1657,24 +1636,6 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 344,345,432,433,463,465,477,481,551,552,561,562,577,619,620,664,666|未知_0521015
-  network: ws
-  port: '8880'
-  server: 104.19.40.237
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
-  ws-opts:
-    headers:
-      Host: uk.moss.network
-    path: /d/65dd503.TG.WangCai2.WangCai_8:107690
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
   name: '344,345,388,445,465,477,551,552,577,619,620,643,664,666,777|🇺🇸_US_美国->🇫🇷_FR_法国
     #9'
   network: ws
@@ -1693,7 +1654,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '344,345,388,445,465,477,551,552,577,619,620,641,643,664,666,761,775,777,830|美国【付费推荐：https://jdyvip.link/】1...
+  name: '344,345,388,432,433,445,463,465,477,481,551,552,577,619,620,641,643,664,666,761,775,777,830|美国【付费推荐：https://jdyvip.link/】1...
     #4'
   network: ws
   port: '2082'
@@ -1703,11 +1664,26 @@ proxies:
   tfo: false
   tls: false
   type: vmess
+  udp: true
   uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
   ws-opts:
     headers:
       Host: s1c.v2.v001sss.xyz
     path: /
+- alterId: 0
+  cipher: auto
+  name: '345,346,348,349,551,552|🏁RELAY-172.67.243.40-0319 #1'
+  network: ws
+  port: 8880
+  server: 172.67.243.40
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c74c2fd1-7e5b-4c20-be9f-f3c3b7fd6248
+  ws-opts:
+    headers:
+      Host: us6gzxQRrE4.fzbqfrse.xyz
+    path: /video/bYdJ7Vc2We
 - alterId: 0
   cipher: auto
   name: 380|_CA_加拿大
@@ -3602,6 +3578,21 @@ proxies:
   port: 800
   server: 51.161.118.38
   type: ss
+- alterId: 0
+  cipher: auto
+  name: '478,551,552|🇨🇦CA-132.145.99.228-3879 #1'
+  network: ws
+  port: 13724
+  server: 132.145.99.228
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 52768552-c2b2-4460-89f1-e740cc145b99
+  ws-opts:
+    headers:
+      Host: ''
+    path: /ws-path
 - name: 478|🇨🇦_CA_加拿大_1_7@1
   network: tcp
   password: telegram-id-directvpn
@@ -3667,7 +3658,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 5e7550ae-2914-4763-8f42-cff9c4365a4e
+  uuid: 00d8ed14-b8bc-49a5-b1e9-2343731c2a48
 - cipher: aes-256-gcm
   name: 492|VIP0.加拿大1.ChatGPT
   password: f7126755-abb2-42ce-8c7b-a3c0dc111825
@@ -3881,7 +3872,7 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2c8f1584-22d7-4ec1-be6e-d17196781c09
+  uuid: 1b0c3c98-4250-467f-8609-2fb4a0fae422
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -3924,7 +3915,7 @@ proxies:
   type: ss
 - cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: '569|🇨🇦 加拿大 #1'
+  name: '569|🇨🇦 加拿大 #3'
   password: 030741c1-8706-41f6-93ae-f97585365627
   port: 27014
   server: ununim.yangliq.com
@@ -3943,6 +3934,20 @@ proxies:
   ws-opts:
     headers:
       Host: Yu.com
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: '610,618|🔒 VM-WS-NA 🇨🇦 CA-193.203.203.4... #1'
+  network: ws
+  port: '2052'
+  server: 193.203.203.45
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f328f2e3-d8fe-4576-a79c-cd6d09505122
+  ws-opts:
+    headers:
+      Host: ca1-vmess.vpnhack.xyz
     path: /vmess
 - alterId: 64
   cipher: auto
