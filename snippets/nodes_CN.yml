@@ -2,7 +2,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '76,238,443,444,473,474,488,491,492,496,497,530,562,563,572,573,630,631,652,654,774,788,843|中国【付费推荐：https://jdyvip.link/】2...
+  name: '76,238,473,488,491,496,497,530,562,563,572,573,630,631,652,654,774,788,843|中国【付费推荐：https://jdyvip.link/】2...
     #6'
   network: ws
   port: '20401'
@@ -497,7 +497,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '238,443,444,467,473,474,492,562,563,572,573,630,631,774,788,843|中国【付费推荐：https://jdyvip.link/】7
+  name: '238,473,562,563,572,573,630,631,774,788,843|中国【付费推荐：https://jdyvip.link/】7
     #2'
   network: ws
   port: '20206'
@@ -1182,7 +1182,7 @@ proxies:
       Host: tms.dingtalk.com
     path: /
 - cipher: rc4-md5
-  name: '417,418,424|Relay_-CN_02 #1'
+  name: 418,424|Relay_-CN_01
   obfs: plain
   obfs-param: 64334105622.www.gov.hk
   password: di15PV
@@ -1202,9 +1202,20 @@ proxies:
   protocol-param: 11275:KWQHheqWo8
   server: 231103levelx.unclemanco.com
   type: ssr
-- cipher: aes-256-cfb
+- cipher: chacha20-ietf
   country: 🇨🇳CN
   name: 418|Relay_🇨🇳CN-🇨🇳CN_09
+  obfs: plain
+  obfs-param: cf48250916.microsoft.com
+  password: jFa4F1
+  port: 3703
+  protocol: auth_aes128_sha1
+  protocol-param: 50916:0104-W259_71
+  server: cm01.newcome.xyz
+  type: ssr
+- cipher: aes-256-cfb
+  country: 🇨🇳CN
+  name: 418|Relay_🇨🇳CN-🇨🇳CN_10
   obfs: http_simple
   obfs-param: d300c11275.microsoft.com
   password: dajkdkjda&dj23gsa
@@ -1215,7 +1226,7 @@ proxies:
   type: ssr
 - cipher: aes-256-cfb
   country: 🇨🇳CN
-  name: 418|Relay_🇨🇳CN-🇨🇳CN_10
+  name: 418|Relay_🇨🇳CN-🇨🇳CN_11
   obfs: http_simple
   obfs-param: d300c11275.microsoft.com
   password: dajkdkjda&dj23gsa
@@ -1408,17 +1419,20 @@ proxies:
   server: 14.29.124.168
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: '444,474,492,597,774,788,843|中国【付费推荐：https://jdyvip.link/】1... #2'
-  network: tcp
-  port: '30127'
-  server: 183.240.179.207
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 5bd5899a-4b78-4d75-8570-4d21b43422c4
+- client-fingerprint: chrome
+  name: 443,496|🇨🇳 中国 阿里云
+  network: ws
+  password: NISHIKUITAN222
+  port: 2053
+  server: 8.219.198.139
+  skip-cert-verify: false
+  sni: t226.ylks.link
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: t226.ylks.link
+    path: /
 - alterId: 4
   cipher: auto
   name: '445,502|未命名 #193'
@@ -6825,20 +6839,6 @@ proxies:
     headers:
       Host: kh.sharecentre.online
     path: /shirker
-- client-fingerprint: chrome
-  name: 496|🇨🇳 中国 阿里云
-  network: ws
-  password: NISHIKUITAN222
-  port: 2053
-  server: 8.219.198.139
-  skip-cert-verify: false
-  sni: t226.ylks.link
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: t226.ylks.link
-    path: /
 - cipher: aes-128-gcm
   name: 506|github.com/freefq-广东省移动28
   password: Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmNjY1YzVkMC03N2MwLTQxOTYtYmM4ZC1mMDQ1MGU5YzY2NWI
@@ -7973,6 +7973,31 @@ proxies:
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 0
   cipher: auto
+  name: 597|CN_youtube@资源分享师_80
+  network: ws
+  port: 16632
+  server: 120.233.204.126
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
+  ws-opts:
+    headers:
+      host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '597,774,788,843|中国【付费推荐：https://jdyvip.link/】1... #2'
+  network: tcp
+  port: '30127'
+  server: 183.240.179.207
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 5bd5899a-4b78-4d75-8570-4d21b43422c4
+- alterId: 0
+  cipher: auto
   name: 597|CN_youtube@资源分享师_97
   network: tcp
   port: 43002
@@ -8011,7 +8036,7 @@ proxies:
   uuid: 39ef8f5d-7286-41b0-9c11-c976925d2931
 - alterId: 0
   cipher: auto
-  name: '631|广东省汕头市 移动 #5'
+  name: '631|广东省汕头市 移动 #2'
   network: tcp
   port: '15601'
   server: 183.240.179.195
@@ -8031,7 +8056,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '631|广东省汕头市 移动 #6'
+  name: '631|广东省汕头市 移动 #3'
   network: tcp
   port: '61002'
   server: 183.240.179.195
