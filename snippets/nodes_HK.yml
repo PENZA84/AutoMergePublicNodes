@@ -1,15 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 14|香港|广州移动|Neko|1.5x
-  network: tcp
-  port: 13337
-  server: gdcm.r1u.cn
-  tls: false
-  type: vmess
-  uuid: f010dd01-c54a-3c03-95ce-0838214259c6
-- alterId: 0
-  cipher: auto
   client-fingerprint: chrome
   name: '16,242,567,568,593,600,601,646,857|🇭🇰 香港1| cf #1'
   network: ws
@@ -209,7 +200,7 @@ proxies:
     path: /ssv
 - alterId: 64
   cipher: auto
-  name: 91,505,567,568,677|HK_speednode_0062
+  name: 91,448,449,497,505,567,568,677|HK_speednode_0062
   network: ws
   port: 443
   server: 118.107.245.22
@@ -217,6 +208,7 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: vmess
+  udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
@@ -224,13 +216,15 @@ proxies:
     path: /path/182320181512
 - alterId: 64
   cipher: auto
-  name: 91,505,567,568,677|SG_speednode_0091
+  name: 91,448,449,497,505,567,568,677|SG_speednode_0091
   network: ws
   port: 443
   server: 14.128.63.197
   servername: ''
+  skip-cert-verify: true
   tls: true
   type: vmess
+  udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
@@ -347,14 +341,15 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 149,242,479,481,567,568,577,578,680|香港_0524008
+  name: 149,242,448,449,479,481,497,567,568,577,578,680|香港_0524008
   network: ws
   port: '12909'
   server: 210.3.159.224
   servername: ''
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: false
   type: vmess
+  udp: true
   uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
   ws-opts:
     headers:
@@ -1623,20 +1618,6 @@ proxies:
     path: /ray
 - alterId: 0
   cipher: auto
-  name: '242,634|🔒 VM-WS-TLS 🇭🇰 HK-210.3.159.22... #1'
-  network: ws
-  port: '12909'
-  server: 210.3.159.224
-  servername: 19.lwdh.us
-  tls: true
-  type: vmess
-  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
   name: '242,478,493,567,568,634|🔒 VM-WS-NA 🇭🇰 HK-91.149.236.44... #1'
   network: ws
   port: 26639
@@ -1651,6 +1632,20 @@ proxies:
     headers:
       Host: ''
     path: /cctv13/hd.m3u8/
+- alterId: 0
+  cipher: auto
+  name: '242,634|🔒 VM-WS-TLS 🇭🇰 HK-210.3.159.22... #1'
+  network: ws
+  port: '12909'
+  server: 210.3.159.224
+  servername: 19.lwdh.us
+  tls: true
+  type: vmess
+  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
 - alterId: 64
   cipher: auto
   name: 242,478,493,567,568,659|🇭🇰HK-182.16.1.194-8978
@@ -2128,6 +2123,57 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
+  name: 390|香港—E3
+  network: ws
+  port: 30015
+  server: entrance3-104.jjsagcajvv.xyz
+  servername: cn.bing.com
+  type: vmess
+  udp: true
+  uuid: 93d95104-5892-352a-8093-982d983f6a4a
+  ws-headers:
+    Host: cn.bing.com
+  ws-opts:
+    headers:
+      Host: cn.bing.com
+    path: /
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 390|香港—E2
+  network: ws
+  port: 30015
+  server: entrance2-105.jjsagcajvv.xyz
+  servername: cn.bing.com
+  type: vmess
+  udp: true
+  uuid: 93d95104-5892-352a-8093-982d983f6a4a
+  ws-headers:
+    Host: cn.bing.com
+  ws-opts:
+    headers:
+      Host: cn.bing.com
+    path: /
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 390|香港—E1
+  network: ws
+  port: 30015
+  server: entrance1-103.jjsagcajvv.xyz
+  servername: cn.bing.com
+  type: vmess
+  udp: true
+  uuid: 93d95104-5892-352a-8093-982d983f6a4a
+  ws-headers:
+    Host: cn.bing.com
+  ws-opts:
+    headers:
+      Host: cn.bing.com
+    path: /
+  ws-path: /
+- alterId: 0
+  cipher: auto
   name: 397|Lv1 香港
   network: tcp
   port: '60049'
@@ -2200,7 +2246,7 @@ proxies:
   uuid: 4770d44f-e799-4b4e-988d-b5ce56c4c3a0
 - cipher: aes-256-cfb
   country: 🇰 HK
-  name: 427,461,651|[02-24]-🇸-欧洲-096-150.107.46.21
+  name: 423,427,461,651|[02-24]-🇸-欧洲-096-150.107.46.21
   obfs: tls1.2_ticket_auth
   obfs-param: ''
   password: iFqnzSscN
@@ -3633,7 +3679,7 @@ proxies:
     path: 55021a7c-bd6c-418e-be95-ceac8ba27b45-vm
 - alterId: 0
   cipher: auto
-  name: '554,659|美国 CloudFlare节点 #90'
+  name: '554,659|美国 CloudFlare节点 #87'
   network: ws
   port: '8080'
   server: yh1.freeh1.xyz
@@ -5560,27 +5606,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 3b40af01-e7e5-3cf2-807d-3f6df986f34b
-- cipher: aes-256-gcm
-  name: 757|🇭🇰原生家庭✈香港[1][协议二]
-  password: 491eba1b-3a08-459d-a9da-2bf339398b13
-  port: 39401
-  server: RELAY.HUY.0.SRL
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 757|🇭🇰原生家庭✈香港[2][协议二]
-  password: 491eba1b-3a08-459d-a9da-2bf339398b13
-  port: 39402
-  server: RELAY.HUY.0.SRL
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 757|🇭🇰原生家庭✈香港[3][协议二]
-  password: 491eba1b-3a08-459d-a9da-2bf339398b13
-  port: 39403
-  server: RELAY.HUY.0.SRL
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   name: 764|Hong Kong- 01
@@ -6117,87 +6142,3 @@ proxies:
     headers:
       Host: ''
     path: /qwe123321ewq
-- cipher: aes-128-gcm
-  name: 870|🇭🇰 香港 01 SS
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 11001
-  server: ss.hkglink.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 870|🇭🇰 香港 02 SS
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 11002
-  server: ss.hkglink.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 870|🇭🇰 香港 03 SS
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 11003
-  server: ss.hkglink.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 870|🇭🇰 香港 04 SS
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 11004
-  server: ss.hkglink.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 870|🇭🇰 香港 05 SS
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 11005
-  server: ss.hkglink.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 870|🇭🇰 香港 06 SS
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 11006
-  server: ss.hkglink.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 870|🇭🇰 香港 07 SS
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 11007
-  server: ss.hkglink.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 870|🇭🇰 香港 08 SS
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 11008
-  server: ss.hkglink.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 870|🇭🇰 香港 IPLC 限速10Mbps
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 1024
-  server: 222909df61922934.cdn.jiashule.com
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 870|🇭🇰 香港实验节点 NetflixAB 01
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 11009
-  server: nf.hkglink.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 870|🇭🇰 香港实验节点 NetflixB 02
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 11012
-  server: nf.hkglink.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 870|🇭🇰 香港实验节点 Xvideos
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 11013
-  server: nf.hkglink.xyz
-  type: ss
-  udp: true
