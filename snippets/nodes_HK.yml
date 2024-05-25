@@ -341,15 +341,14 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 149,242,448,449,479,481,497,567,568,577,578,680|香港_0524008
+  name: 149,242,481,567,568,577,578,680|香港_0524008
   network: ws
   port: '12909'
   server: 210.3.159.224
   servername: ''
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: false
   type: vmess
-  udp: true
   uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
   ws-opts:
     headers:
@@ -1618,6 +1617,20 @@ proxies:
     path: /ray
 - alterId: 0
   cipher: auto
+  name: '242,634|🔒 VM-WS-TLS 🇭🇰 HK-210.3.159.22... #1'
+  network: ws
+  port: '12909'
+  server: 210.3.159.224
+  servername: 19.lwdh.us
+  tls: true
+  type: vmess
+  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
   name: '242,478,493,567,568,634|🔒 VM-WS-NA 🇭🇰 HK-91.149.236.44... #1'
   network: ws
   port: 26639
@@ -1632,20 +1645,6 @@ proxies:
     headers:
       Host: ''
     path: /cctv13/hd.m3u8/
-- alterId: 0
-  cipher: auto
-  name: '242,634|🔒 VM-WS-TLS 🇭🇰 HK-210.3.159.22... #1'
-  network: ws
-  port: '12909'
-  server: 210.3.159.224
-  servername: 19.lwdh.us
-  tls: true
-  type: vmess
-  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
 - alterId: 64
   cipher: auto
   name: 242,478,493,567,568,659|🇭🇰HK-182.16.1.194-8978
@@ -2246,13 +2245,11 @@ proxies:
   uuid: 4770d44f-e799-4b4e-988d-b5ce56c4c3a0
 - cipher: aes-256-cfb
   country: 🇰 HK
-  name: 423,427,461,651|[02-24]-🇸-欧洲-096-150.107.46.21
+  name: 423,427,651|[02-24]-🇸-欧洲-096-150.107.46.21
   obfs: tls1.2_ticket_auth
-  obfs-param: ''
   password: iFqnzSscN
   port: 8083
   protocol: origin
-  protocol-param: ''
   server: 150.107.46.21
   type: ssr
 - alterId: 0
@@ -3679,7 +3676,7 @@ proxies:
     path: 55021a7c-bd6c-418e-be95-ceac8ba27b45-vm
 - alterId: 0
   cipher: auto
-  name: '554,659|美国 CloudFlare节点 #87'
+  name: '554,659|美国 CloudFlare节点 #90'
   network: ws
   port: '8080'
   server: yh1.freeh1.xyz
