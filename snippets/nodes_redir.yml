@@ -2,7 +2,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '0,3,236,242,356,357,358,360,361,475,481,501,502,545,567,568,577,578,646,680,682,782,796,851|美国【付费推荐：https://jdyvip.link/】6...
+  name: '0,3,236,242,356,357,358,360,361,448,449,475,479,481,497,501,502,545,567,568,577,578,646,680,682,782,796,851|美国【付费推荐：https://jdyvip.link/】6...
     #6'
   network: ws
   port: '2052'
@@ -21,7 +21,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '0,3,236,242,357,358,360,361,402,475,481,493,545,567,568,577,578,635,636,657,659,680,682,782,796,798,851|美国【付费推荐：https://jdyvip.link/】1...
+  name: '0,3,236,242,357,358,360,361,402,448,449,475,479,481,493,497,545,567,568,577,578,635,636,657,659,680,682,782,796,798,851|美国【付费推荐：https://jdyvip.link/】1...
     #4'
   network: ws
   port: '2082'
@@ -31,6 +31,7 @@ proxies:
   tfo: false
   tls: false
   type: vmess
+  udp: true
   uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
   ws-opts:
     headers:
@@ -38,7 +39,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,1,2,3,242,356,357,358,360,361,528,545,577,578,602,603,782,796,851|中国【付费推荐：https://jdyvip.link/】5...
+  name: '0,1,2,3,242,356,357,358,360,361,449,479,497,528,545,577,578,602,603,782,796,851|中国【付费推荐：https://jdyvip.link/】5...
     #6'
   network: tcp
   port: '30013'
@@ -51,7 +52,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '0,3,42,236,242,357,358,360,361,362,448,449,461,475,478,481,497,545,567,568,577,578,635,680,682,782,796,851|美国【付费推荐：https://jdyvip.link/】2
+  name: '0,3,42,236,242,357,358,360,361,362,440,441,461,474,475,478,481,545,567,568,577,578,635,680,682,782,796,851|美国【付费推荐：https://jdyvip.link/】2
     #2'
   network: ws
   port: '2082'
@@ -84,7 +85,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '0,3,78,242,357,358,360,361,448,449,478,479,493,496,497,501,502,535,545,567,568,577,578,635,636,657,659,782,796,851|中国【付费推荐：https://jdyvip.link/】2...
+  name: '0,3,78,242,357,358,360,361,478,493,496,501,502,535,545,567,568,577,578,635,636,657,659,782,796,851|中国【付费推荐：https://jdyvip.link/】2...
     #6'
   network: ws
   port: '20401'
@@ -102,10 +103,9 @@ proxies:
     path: /debian
 - alterId: 0
   cipher: auto
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: 1,2,422,478,528,567,568,603|🇺🇸_US_美国->🇮🇳_IN_印度_1
+  client-fingerprint: chrome
+  fingerprint: ''
+  name: 1,2,235,478,528,567,568,603|🇺🇸_US_美国->🇮🇳_IN_印度_1
   network: ws
   port: 2052
   server: 172.67.164.78
@@ -129,10 +129,9 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: 1,2,422,478,528,567,568,603|🇺🇸_US_美国->🇫🇷_FR_法国_1
+  client-fingerprint: chrome
+  fingerprint: ''
+  name: 1,2,235,478,528,567,568,603|🇺🇸_US_美国->🇫🇷_FR_法国_1
   network: ws
   port: 2082
   server: 172.67.130.140
@@ -148,10 +147,12 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  country: 🇺🇸US
+  client-fingerprint: chrome
+  country: US
+  fingerprint: ''
   h2-opts: {}
   http-opts: {}
-  name: '1,2,150,422,479,636,657,659|美国 CloudFlare节点 #97'
+  name: '1,2,150,235,636,657,659|美国 CloudFlare节点 #96'
   network: ws
   port: '2082'
   server: s1c.v2.v001sss.xyz
@@ -159,6 +160,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: vmess
+  udp: false
   uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
   ws-opts:
     headers:
@@ -166,17 +168,20 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  country: 🏁ZZ
+  client-fingerprint: chrome
+  country: US
+  fingerprint: ''
   h2-opts: {}
   http-opts: {}
-  name: '1,2,150,422,528,603|🇺🇸_US_美国->🇮🇳_IN_印度_2 #1'
+  name: '1,2,150,235,528,603|🇺🇸_US_美国->🇮🇳_IN_印度_2 #1'
   network: ws
   port: 2052
   server: hk.wish.ml
-  servername: in3.wish.ml
+  servername: sg1.wish.ml
   skip-cert-verify: true
   tls: false
   type: vmess
+  udp: false
   uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8
   ws-opts:
     headers:
