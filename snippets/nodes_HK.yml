@@ -200,7 +200,7 @@ proxies:
     path: /ssv
 - alterId: 64
   cipher: auto
-  name: 92,487,511,573,574,686|香港_0526011
+  name: 92,454,455,487,503,511,573,574,686|香港_0526011
   network: ws
   port: '443'
   server: 118.107.245.22
@@ -208,6 +208,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: vmess
+  udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
@@ -215,13 +216,15 @@ proxies:
     path: /path/182320181512
 - alterId: 64
   cipher: auto
-  name: 92,487,511,573,574,686|新加坡_0526011
+  name: 92,454,455,487,503,511,573,574,686|新加坡_0526011
   network: ws
   port: '443'
   server: 14.128.63.197
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
+  udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
@@ -229,13 +232,15 @@ proxies:
     path: /path/182320181512
 - alterId: 64
   cipher: auto
-  name: 92,245,487,511,573,574,686|香港_0526012
+  name: 92,245,454,455,487,503,511,573,574,686|香港_0526012
   network: ws
   port: '443'
   server: 118.107.244.83
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
+  udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
@@ -352,15 +357,12 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  country: HK
-  h2-opts: {}
-  http-opts: {}
-  name: 150,245,428,487,573,574,583,584,599,686|香港_0526009
+  name: 150,245,487,573,574,583,584,599,686|香港_0526009
   network: ws
   port: '12909'
   server: 210.3.159.224
   servername: ''
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: false
   type: vmess
   uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
@@ -2242,8 +2244,8 @@ proxies:
   type: vmess
   uuid: 4770d44f-e799-4b4e-988d-b5ce56c4c3a0
 - cipher: aes-256-cfb
-  country: 🇰HK
-  name: 429,467,657|[02-24]-🇸-欧洲-096-150.107.46.21
+  country: 🇰 HK
+  name: 429,433,467,657|[02-24]-🇸-欧洲-096-150.107.46.21
   obfs: tls1.2_ticket_auth
   obfs-param: ''
   password: iFqnzSscN
@@ -3676,7 +3678,7 @@ proxies:
     path: 55021a7c-bd6c-418e-be95-ceac8ba27b45-vm
 - alterId: 0
   cipher: auto
-  name: '560,665|美国 CloudFlare节点 #80'
+  name: '560,665|美国 CloudFlare节点 #78'
   network: ws
   port: '8080'
   server: yh1.freeh1.xyz
