@@ -2,7 +2,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '16,239,245,478,481,573,574,599,606,607,652,863|🇭🇰 香港1| cf #1'
+  name: '16,239,245,454,455,481,485,503,573,574,599,606,607,652,863|🇭🇰 香港1| cf #1'
   network: ws
   port: '2052'
   server: hk.wish.ml
@@ -11,6 +11,7 @@ proxies:
   tfo: false
   tls: false
   type: vmess
+  udp: true
   uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8
   ws-opts:
     headers:
@@ -106,6 +107,33 @@ proxies:
     headers:
       Host: pqhk.xsjhl.xyz
     path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 64|香港02
+  network: tcp
+  port: '60102'
+  server: iepl.hongxing.pro
+  tls: false
+  type: vmess
+  uuid: f5daaaea-8f52-4b8b-a1da-2a2005bccd13
+- alterId: 0
+  cipher: auto
+  name: 64|香港03
+  network: tcp
+  port: '60103'
+  server: iepl.hongxing.pro
+  tls: false
+  type: vmess
+  uuid: f5daaaea-8f52-4b8b-a1da-2a2005bccd13
+- alterId: 0
+  cipher: auto
+  name: 64|香港04
+  network: tcp
+  port: '60104'
+  server: iepl.hongxing.pro
+  tls: false
+  type: vmess
+  uuid: f5daaaea-8f52-4b8b-a1da-2a2005bccd13
 - alterId: 0
   cipher: auto
   name: 73|🇭🇰 香港Gcore-01
@@ -330,12 +358,15 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 150,245,487,573,574,583,584,686|香港_0526009
+  country: 🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: 150,245,428,487,573,574,583,584,599,686|香港_0526009
   network: ws
   port: '12909'
   server: 210.3.159.224
   servername: ''
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
@@ -1615,20 +1646,6 @@ proxies:
     headers:
       Host: ''
     path: /
-- alterId: 0
-  cipher: auto
-  name: '245,652|HK24 #2'
-  network: ws
-  port: '12909'
-  server: 210.3.159.224
-  servername: 19.lwdh.us
-  tls: true
-  type: vmess
-  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
 - alterId: 64
   cipher: auto
   name: 245,484,499,573,574,665|🇭🇰HK-182.16.1.194-8978
@@ -2230,17 +2247,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 4770d44f-e799-4b4e-988d-b5ce56c4c3a0
-- cipher: aes-256-cfb
-  country: 🇰HK
-  name: 429,467,657|[02-24]-🇸-欧洲-096-150.107.46.21
-  obfs: tls1.2_ticket_auth
-  obfs-param: ''
-  password: iFqnzSscN
-  port: 8083
-  protocol: origin
-  protocol-param: ''
-  server: 150.107.46.21
-  type: ssr
 - alterId: 0
   cipher: auto
   name: '442|🇨🇳中国【YouTube-由零開始】 #7'
@@ -3665,7 +3671,7 @@ proxies:
     path: 55021a7c-bd6c-418e-be95-ceac8ba27b45-vm
 - alterId: 0
   cipher: auto
-  name: '560,665|美国 CloudFlare节点 #75'
+  name: '560,665|美国 CloudFlare节点 #79'
   network: ws
   port: '8080'
   server: yh1.freeh1.xyz
@@ -5288,6 +5294,27 @@ proxies:
   ws-headers:
     Host: vn3.thanhhaivpn.name.vn
   ws-path: /
+- alterId: 0
+  cipher: auto
+  name: '599,607,608,642,788,802,857|中国【付费推荐：https://jdyvip.link/】5... #14'
+  network: tcp
+  port: '15603'
+  server: 183.232.199.61
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+- alterId: 0
+  cipher: auto
+  name: 599|9|baipaovpn香港
+  network: tcp
+  port: '41001'
+  server: 18.167.121.6
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2155145a-b1b5-443a-8977-670f6bd10f02
 - cipher: aes-256-cfb
   name: 650|TG频道@mfbpn-香港2
   obfs: tls1.2_ticket_auth
@@ -5398,130 +5425,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 49933ab7-7ec2-3024-9f6e-b7ad9da24c8f
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 651|HK
-  password: AHyDyR
-  port: 56012
-  server: 38.150.12.188
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 651|HK5
-  password: AHyDyR
-  port: 56047
-  server: 38.150.12.187
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 651|HK6
-  network: tcp
-  password: 918eba0d3ff04abc803fb00e18d0fcb5
-  port: 443
-  server: 202.64.1.143
-  skip-cert-verify: true
-  sni: www.gpt123.one
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: aes-128-gcm
-  name: 651|HK8
-  password: a-wym4ovY4Yw
-  port: 443
-  server: 8.210.33.152
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 651|HK10
-  password: AHyDyR
-  port: 56032
-  server: 38.150.12.188
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 651|HK11
-  password: AHyDyR
-  port: 56026
-  server: 38.150.12.188
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 651|HK17
-  password: AHyDyR
-  port: 56026
-  server: 38.150.12.187
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 651|HK18
-  password: AHyDyR
-  port: 56012
-  server: 38.150.12.187
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: aes-128-gcm
-  name: 651|HK19
-  password: a-wym4ovY4Yw
-  port: 443
-  server: 8.218.71.80
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 651|HK20
-  password: AHyDyR
-  port: 56032
-  server: 38.150.12.187
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 651|HK23
-  network: ws
-  password: NISHIKUITAN222
-  port: 443
-  server: 47.76.178.146
-  skip-cert-verify: true
-  sni: t116.ylks.link
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: '651|HK24 #1'
-  network: ws
-  port: 12909
-  server: 210.3.159.224
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 651|HK27
-  password: AHyDyR
-  port: 56047
-  server: 38.150.12.188
-  skip-cert-verify: true
-  tls: true
-  type: ss
 - alterId: 64
   cipher: auto
   name: '664,665|香港1|@ripaojiedian #1'
