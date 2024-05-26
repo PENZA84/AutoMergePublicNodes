@@ -1,7 +1,10 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '0,1,2,3,245,362,363,365,366,487,499,551,573,574,583,584,586,599,608,609,683,686,688|加拿大_0526002
+  country: 🇨🇦CA
+  h2-opts: {}
+  http-opts: {}
+  name: '0,1,2,3,245,362,363,365,366,428,487,499,551,573,574,583,584,586,599,608,609,683,686,688|加拿大_0526002
     #2'
   network: ws
   port: '443'
@@ -952,6 +955,17 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: ss
+- alterId: 0
+  cipher: aes-256-gcm
+  country: CA
+  name: 151,484,651|未知24 1.7MB/s
+  password: Y6R9pAtvxxzmGC
+  port: 3389
+  server: 23.162.200.28
+  skip-cert-verify: true
+  tls: true
+  type: ss
+  udp: true
 - alpn:
   - h2
   grpc-opts:
@@ -1189,7 +1203,7 @@ proxies:
   country: 🇦 CA
   h2-opts: {}
   http-opts: {}
-  name: '245,433,467,487,632,640,651,652,688|加拿大_0526001 #2'
+  name: '245,428,433,467,487,632,640,651,652,688|加拿大_0526001 #2'
   network: tcp
   port: '50577'
   server: 167.114.90.198
@@ -1201,13 +1215,15 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 245,487,499,573,574,686|未知_0526302
+  name: 245,454,455,485,487,499,503,573,574,686|未知_0526302
   network: ws
   port: '2095'
   server: 104.19.45.253
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
+  udp: true
   uuid: 7a737f41-b792-4260-94ff-3d864da67b80
   ws-opts:
     headers:
@@ -1271,7 +1287,7 @@ proxies:
     path: /IOebhLMhl1CTbFHbL95myfRX2
 - alterId: 0
   cipher: auto
-  name: '245,449,467,478,499,573,574,672,680|رایگان | VMESS | @ROMAX_VPN | ... #16'
+  name: '245,449,467,478,499,573,574,672,680|رایگان | VMESS | @ROMAX_VPN | ... #14'
   network: ws
   port: '80'
   server: 104.21.71.88
@@ -1343,6 +1359,19 @@ proxies:
     headers:
       Host: ''
     path: /ECTCJ0DF
+- alterId: 0
+  cipher: auto
+  name: 361|加拿大_多伦多
+  network: ws
+  port: 80
+  server: speed.cloudflare.com
+  tls: false
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: 4868-poetry-4868.napora7003.workers.dev
+    path: /obdii.cfd/linkws
 - alterId: 0
   cipher: auto
   name: 399|_CA_加拿大
@@ -3038,20 +3067,6 @@ proxies:
     path: /AUIKN8AU
 - alterId: 0
   cipher: auto
-  name: '487,499,573,574,686|加拿大_0526029 #1'
-  network: ws
-  port: '2052'
-  server: 108.181.23.41
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
-  ws-opts:
-    headers:
-      Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-    path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
-- alterId: 0
-  cipher: auto
   name: '487,519,573,574|🏁RELAY-23.227.38.33-6922 #1'
   network: ws
   port: 2086
@@ -3295,7 +3310,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 83199eeb-f66e-4992-b5e3-45828910d834
+  uuid: 1d0c3346-6170-40d8-963b-48f62c0d44b9
 - cipher: aes-256-gcm
   name: 514|VIP0.加拿大1.ChatGPT
   password: f7126755-abb2-42ce-8c7b-a3c0dc111825
@@ -3509,7 +3524,7 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: f05d0416-267a-401e-a094-50856c02b2a9
+  uuid: 78a841ca-981c-42cf-9bc4-5bdc5db064b6
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -3741,3 +3756,24 @@ proxies:
   tls: false
   type: vmess
   uuid: d3a515b4-6fcb-38c8-93d3-2c17da360f89
+- cipher: aes-128-gcm
+  name: 876|🇨🇦 加拿大 01
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 20047
+  server: edge.node1link.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 876|🇨🇦 加拿大 02
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 20048
+  server: edge.node1link.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 876|🇨🇦 加拿大 03
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 20049
+  server: edge.node1link.xyz
+  type: ss
+  udp: true
