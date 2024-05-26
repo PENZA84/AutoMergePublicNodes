@@ -1,6 +1,15 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 14|香港|徐州移动|Neko|1.5x
+  network: tcp
+  port: '13335'
+  server: jscm.r1u.cn
+  tls: false
+  type: vmess
+  uuid: f010dd01-c54a-3c03-95ce-0838214259c6
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
   name: '16,239,245,481,573,574,599,606,607,652,863|🇭🇰 香港1| cf #1'
   network: ws
@@ -357,14 +366,15 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 150,245,487,573,574,583,584,599,686|香港_0526009
+  name: 150,245,454,455,485,487,503,573,574,583,584,599,686|香港_0526009
   network: ws
   port: '12909'
   server: 210.3.159.224
   servername: ''
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: false
   type: vmess
+  udp: true
   uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
   ws-opts:
     headers:
@@ -449,7 +459,7 @@ proxies:
       Host: pqhk.chinayyds.xyz
     path: /?ed=2048
 - cipher: rc4-md5
-  name: '155,786|未命名 #942'
+  name: 155|🇭🇰 IPLC｜冀港 [2.0][原生]
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -462,7 +472,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: '155,786|未命名 #931'
+  name: 155|🇭🇰 IPLC｜沪港 [2.0][原生]
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -475,7 +485,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: '155,786|未命名 #927'
+  name: 155|🇭🇰 IPLC｜浙港 [2.0][原生]
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -501,7 +511,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: '155,786|未命名 #939'
+  name: 155|🇭🇰 IPLC｜湘港 [2.0][原生]
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -514,7 +524,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: '155,786|未命名 #937'
+  name: 155|🇭🇰 IPLC｜珠港 [2.0][原生]
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -527,7 +537,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: '155,786|未命名 #953'
+  name: 155|🇭🇰 IPLC｜苏港 [2.0][原生]
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -540,7 +550,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: '155,786|未命名 #967'
+  name: 155|🇭🇰 IPLC｜闽港 [2.0][原生]
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -693,45 +703,6 @@ proxies:
   tls: false
   type: vmess
   uuid: f6195be4-37bc-3cc8-917e-50c704e2f974
-- alterId: 0
-  cipher: auto
-  name: 172|香港 1 | CF优选
-  network: ws
-  port: '80'
-  server: hk-mg-1.cdn-yx.buzz
-  tls: false
-  type: vmess
-  uuid: 937436bc-3feb-40e9-8dda-1ec3bb958ef6
-  ws-opts:
-    headers:
-      Host: hk-mg-vl.sublam.lol
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 172|香港 2 | CF优选
-  network: ws
-  port: '80'
-  server: hk-mg-2.cdn-yx.buzz
-  tls: false
-  type: vmess
-  uuid: 937436bc-3feb-40e9-8dda-1ec3bb958ef6
-  ws-opts:
-    headers:
-      Host: hk-mg-vl.sublam.lol
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 172|香港 3 | CF优选
-  network: ws
-  port: '80'
-  server: hk-mg-3.cdn-yx.buzz
-  tls: false
-  type: vmess
-  uuid: 937436bc-3feb-40e9-8dda-1ec3bb958ef6
-  ws-opts:
-    headers:
-      Host: hk-mg-vl.sublam.lol
-    path: /
 - alterId: 0
   cipher: auto
   name: 181|🇭🇰HK香港-t.me/Hikarimiko
@@ -2639,10 +2610,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: '484,786|未命名 #1296'
+  name: 484|🇭🇰 HK 6 → tg@nicevpn123
   network: ws
   port: 80
   server: 182.16.1.194
@@ -3649,7 +3617,7 @@ proxies:
     path: 55021a7c-bd6c-418e-be95-ceac8ba27b45-vm
 - alterId: 0
   cipher: auto
-  name: '560,665|美国 CloudFlare节点 #80'
+  name: '560,665|美国 CloudFlare节点 #81'
   network: ws
   port: '8080'
   server: yh1.freeh1.xyz
@@ -4967,9 +4935,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  h2-opts: {}
-  http-opts: {}
-  name: '591,786|未命名 #977'
+  name: 591|HKLite
   network: ws
   port: 80
   server: cf1.go-relay.top
@@ -4985,9 +4951,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  h2-opts: {}
-  http-opts: {}
-  name: '591,786|未命名 #975'
+  name: 591|HKLite2
   network: ws
   port: 80
   server: cf2.go-relay.top
@@ -5003,9 +4967,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  h2-opts: {}
-  http-opts: {}
-  name: '591,786|未命名 #976'
+  name: 591|HKLite3
   network: ws
   port: 80
   server: cf3.go-relay.top
@@ -6041,87 +6003,3 @@ proxies:
     headers:
       Host: ''
     path: /qwe123321ewq
-- cipher: aes-128-gcm
-  name: 876|🇭🇰 香港 01 SS
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 11001
-  server: ss.hkglink.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 876|🇭🇰 香港 02 SS
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 11002
-  server: ss.hkglink.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 876|🇭🇰 香港 03 SS
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 11003
-  server: ss.hkglink.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 876|🇭🇰 香港 04 SS
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 11004
-  server: ss.hkglink.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 876|🇭🇰 香港 05 SS
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 11005
-  server: ss.hkglink.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 876|🇭🇰 香港 06 SS
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 11006
-  server: ss.hkglink.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 876|🇭🇰 香港 07 SS
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 11007
-  server: ss.hkglink.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 876|🇭🇰 香港 08 SS
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 11008
-  server: ss.hkglink.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 876|🇭🇰 香港 IPLC 限速10Mbps
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 1024
-  server: 222909df61922934.cdn.jiashule.com
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 876|🇭🇰 香港实验节点 NetflixAB 01
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 11009
-  server: nf.hkglink.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 876|🇭🇰 香港实验节点 NetflixB 02
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 11012
-  server: nf.hkglink.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 876|🇭🇰 香港实验节点 Xvideos
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 11013
-  server: nf.hkglink.xyz
-  type: ss
-  udp: true
