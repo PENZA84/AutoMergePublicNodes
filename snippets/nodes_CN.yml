@@ -2,8 +2,8 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '78,245,454,455,484,485,499,502,503,507,508,541,573,574,583,584,641,642,663,665,788,802,857|中国【付费推荐：https://jdyvip.link/】2...
-    #6'
+  name: '78,245,484,499,502,507,508,541,573,574,583,584,641,642,663,665,788,802,857|中国【付费推荐：https://jdyvip.link/】5...
+    #17'
   network: ws
   port: '20401'
   server: data-us-v1.shwjfkw.cn
@@ -439,7 +439,8 @@ proxies:
     path: /blue
 - alterId: 0
   cipher: auto
-  name: '245,599,607,608,651,652,788,802,857|中国【付费推荐：https://jdyvip.link/】4... #8'
+  name: '245,455,485,503,599,607,608,651,652,788,802,857|中国【付费推荐：https://jdyvip.link/】2...
+    #7'
   network: tcp
   port: '15605'
   server: 183.232.199.28
@@ -450,7 +451,7 @@ proxies:
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 0
   cipher: auto
-  name: '245,651,652|未知472 #2'
+  name: '245,651,652|未知655 #1'
   network: tcp
   port: '15603'
   server: 183.240.179.195
@@ -461,7 +462,7 @@ proxies:
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 64
   cipher: auto
-  name: '245,455,485,503,508,583,584,642,651,652|🇨🇳广东2 #1'
+  name: '245,508,583,584,642,651,652|🇨🇳广东 #1'
   network: tcp
   port: '40259'
   server: 120.238.122.243
@@ -485,7 +486,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: '245,508,583,584,642,651,652|🇨🇳广东 #1'
+  name: 245,508,583,584,642,651,652|🇨🇳广东5
   network: tcp
   port: '54437'
   server: 183.236.51.59
@@ -496,7 +497,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: '245,640,651,652|未知428 #2'
+  name: '245,640,651,652|未知324 #1'
   network: tcp
   port: '50002'
   server: 120.210.205.82
@@ -1104,7 +1105,7 @@ proxies:
       Host: tms.dingtalk.com
     path: /
 - cipher: rc4-md5
-  name: 429|Relay_-CN_02
+  name: '429,435|Relay_-CN_02 #1'
   obfs: plain
   obfs-param: 64334105622.www.gov.hk
   password: di15PV
@@ -1297,19 +1298,26 @@ proxies:
   server: 14.29.124.168
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 454|[SS] 广东省江门市 移动
-  password: 99301d55-a41f-4919-986b-1435996533aa
-  port: 20003
-  server: deepf.hjkdsak2.com
-  type: ss
+- name: 454|[Trojan] 🇨🇳 中国 阿里云
+  network: ws
+  password: NISHIKUITAN222
+  port: 2083
+  server: 8.219.77.222
+  skip-cert-verify: true
+  sni: t306.ylks.link
+  type: trojan
   udp: true
+  ws-opts:
+    headers:
+      Host: t306.ylks.link
+    path: /
 - alterId: 64
   cipher: auto
-  name: 455,485,503,599,607|美国3|@ripaojiedian
+  delay: 839
+  name: 455,467,485,503,599,683|CN_speednode_0038
   network: tcp
-  port: '34414'
-  server: 120.238.122.250
+  port: 40002
+  server: 120.238.122.238
   servername: ''
   tls: false
   type: vmess
@@ -3140,17 +3148,6 @@ proxies:
   ws-headers:
     host: uk01-cdn.airport-v2.com
   ws-path: /
-- alterId: 64
-  cipher: auto
-  delay: 839
-  name: 467,599,683|CN_speednode_0038
-  network: tcp
-  port: 40002
-  server: 120.238.122.238
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 484|🇨🇳 CN 437 → tg@nicevpn123
@@ -3263,7 +3260,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '484,573,574,641,642,788,802,857|中国【付费推荐：https://jdyvip.link/】7 #2'
+  name: '484,573,574,641,642,788,802,857|中国【付费推荐：https://jdyvip.link/】2... #6'
   network: ws
   port: '20206'
   server: data-hk-v1.usabooks.com.cn
@@ -3836,13 +3833,16 @@ proxies:
   server: 9s5g01.a3b5wy.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 484,507|🇨🇳 广东省江门市移动 12
+  name: 484,507,651|DE国
   password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
   port: 20005
   server: service.ouluyun9803.com
+  skip-cert-verify: true
   tfo: false
+  tls: true
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -3978,7 +3978,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '484,573,574,641,642,665,788,802,857|节点日期：05-24 #2'
+  name: '484,573,574,641,642,665,788,802,857|中国【付费推荐：https://jdyvip.link/】6... #2'
   network: ws
   port: '20301'
   server: data-jp-v1.usabooks.com.cn
@@ -4160,6 +4160,18 @@ proxies:
   password: dbEcUJ
   port: 24603
   server: 211.99.97.4
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 484,507,651|🇩🇪DE德国3
+  password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
+  port: 20003
+  server: service.ouluyun9803.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -7465,8 +7477,8 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '573,574,599,606,607,641,642,788,802,857|中国【付费推荐：https://jdyvip.link/】6...
-    #5'
+  name: '573,574,599,606,607,641,642,788,802,857|中国【付费推荐：https://jdyvip.link/】4...
+    #4'
   network: ws
   port: '16632'
   server: yes.cnmjcn.net
@@ -8298,7 +8310,7 @@ proxies:
   uuid: 8ae7874d-7616-37e7-bfbd-cb3ae0828688
 - alterId: 0
   cipher: auto
-  name: '608,651|未知16 #1'
+  name: 608,651|未知623
   network: ws
   port: 16632
   server: m.cnmjin.net
@@ -8612,7 +8624,7 @@ proxies:
   uuid: 39ef8f5d-7286-41b0-9c11-c976925d2931
 - alterId: 0
   cipher: auto
-  name: '642|广东省汕头市 移动 #5'
+  name: '642|广东省汕头市 移动 #2'
   network: tcp
   port: '15601'
   server: 183.240.179.195
@@ -8632,7 +8644,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '642|广东省汕头市 移动 #6'
+  name: '642|广东省汕头市 移动 #3'
   network: tcp
   port: '61002'
   server: 183.240.179.195
@@ -8642,21 +8654,23 @@ proxies:
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 64
   cipher: auto
-  name: '642|广东省广州市 移动 #6'
+  name: '642,651,652|🇨🇳广东4 #1'
   network: tcp
   port: '51707'
   server: 183.236.51.59
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '642,788,802,857|中国【付费推荐：https://jdyvip.link/】3... #2'
+  name: '642,651,652,788,802,857|中国【付费推荐：https://jdyvip.link/】9... #4'
   network: tcp
   port: '61001'
   server: 183.232.199.61
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
@@ -9494,26 +9508,6 @@ proxies:
   port: 49955
   server: 223.111.154.118
   type: ss
-- alterId: 0
-  cipher: auto
-  name: '788,802,857|中国【付费推荐：https://jdyvip.link/】2... #8'
-  network: tcp
-  port: '50004'
-  server: 14.18.76.37
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1d8963ab-0cd8-4091-93ca-4c6a7dbcd1f2
-- alterId: 0
-  cipher: auto
-  name: '788,802,857|中国【付费推荐：https://jdyvip.link/】4... #9'
-  network: tcp
-  port: '30038'
-  server: 183.240.179.207
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5bd5899a-4b78-4d75-8570-4d21b43422c4
 - alterId: 0
   cipher: auto
   name: 848|中国-国外回国内-v2ray
