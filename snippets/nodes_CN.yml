@@ -461,7 +461,7 @@ proxies:
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 64
   cipher: auto
-  name: '245,508,583,584,642,651,652|🇨🇳广东 #1'
+  name: '245,583,584,642,651,652|🇨🇳广东 #1'
   network: tcp
   port: '40259'
   server: 120.238.122.243
@@ -496,7 +496,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: '245,508,583,584,642,651,652|🇨🇳广东5 #1'
+  name: '245,583,584,642,651,652|🇨🇳广东5 #1'
   network: tcp
   port: '54437'
   server: 183.236.51.59
@@ -518,7 +518,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '245,455,485,503,651,652,788,802,857|中国【付费推荐：https://jdyvip.link/】5... #15'
+  name: '245,651,652,788,802,857|中国【付费推荐：https://jdyvip.link/】5... #15'
   network: tcp
   port: '30038'
   server: 183.240.179.207
@@ -552,8 +552,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '245,455,485,503,642,651,652,788,802,857|中国【付费推荐：https://jdyvip.link/】9...
-    #4'
+  name: '245,642,651,652,788,802,857|中国【付费推荐：https://jdyvip.link/】9... #4'
   network: tcp
   port: '61001'
   server: 183.232.199.61
@@ -1160,6 +1159,16 @@ proxies:
     headers:
       Host: tms.dingtalk.com
     path: /
+- cipher: rc4-md5
+  name: 429,435|Relay_-CN_03
+  obfs: plain
+  obfs-param: 64334105622.www.gov.hk
+  password: di15PV
+  port: 555
+  protocol: auth_aes128_md5
+  protocol-param: 105622:5EF7C3661EBC
+  server: video23.cdn.globalnetworktraffic.com
+  type: ssr
 - alterId: 0
   cipher: auto
   name: '442|🇨🇳中国【YouTube-由零開始】 #5'
@@ -1344,13 +1353,38 @@ proxies:
   server: 14.29.124.168
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 454|[SS] 广东省江门市 移动
-  password: 99301d55-a41f-4919-986b-1435996533aa
-  port: 20003
-  server: deepf.hjkdsak2.com
-  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: '454,455,484,485,503,508,573,574,641,642,665,788,802,857|中国【付费推荐：https://jdyvip.link/】6...
+    #2'
+  network: ws
+  port: '20301'
+  server: data-jp-v1.usabooks.com.cn
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
   udp: true
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+  ws-opts:
+    headers:
+      Host: data-jp-v1.usabooks.com.cn
+    path: /debian
+- name: 454|[Trojan] 🇨🇳 中国 阿里云
+  network: ws
+  password: NISHIKUITAN222
+  port: 2053
+  server: 8.219.177.205
+  skip-cert-verify: true
+  sni: t306.ylks.link
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: t306.ylks.link
+    path: /
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 454,484,641|🇨🇳 广东省深圳市+阿里云
@@ -3186,6 +3220,17 @@ proxies:
   ws-headers:
     host: uk01-cdn.airport-v2.com
   ws-path: /
+- alterId: 64
+  cipher: auto
+  delay: 839
+  name: 467,683|CN_speednode_0038
+  network: tcp
+  port: 40002
+  server: 120.238.122.238
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 484|🇨🇳 CN 437 → tg@nicevpn123
@@ -4013,24 +4058,6 @@ proxies:
     headers:
       Host: mmsg16.micloud.buzz
     path: /zh-cn
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: '484,573,574,641,642,665,788,802,857|中国【付费推荐：https://jdyvip.link/】6... #2'
-  network: ws
-  port: '20301'
-  server: data-jp-v1.usabooks.com.cn
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-  ws-opts:
-    headers:
-      Host: data-jp-v1.usabooks.com.cn
-    path: /debian
 - cipher: chacha20-ietf-poly1305
   name: 484|🇨🇳 CN 281 → tg@nicevpn123
   password: d3c7f55f-e2af-4114-b0a3-058d219e2992
@@ -8657,7 +8684,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '642|广东省广州市 移动 #4'
+  name: '642|广东省广州市 移动 #3'
   network: tcp
   port: '8443'
   server: 120.232.240.38
@@ -8667,7 +8694,7 @@ proxies:
   uuid: 39ef8f5d-7286-41b0-9c11-c976925d2931
 - alterId: 0
   cipher: auto
-  name: '642|广东省汕头市 移动 #5'
+  name: '642|广东省汕头市 移动 #1'
   network: tcp
   port: '15601'
   server: 183.240.179.195
@@ -8677,7 +8704,7 @@ proxies:
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 64
   cipher: auto
-  name: '642|广东省广州市 移动 #5'
+  name: '642|广东省广州市 移动 #4'
   network: tcp
   port: '41492'
   server: 120.232.242.117
@@ -8687,7 +8714,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '642|广东省汕头市 移动 #6'
+  name: '642|广东省汕头市 移动 #2'
   network: tcp
   port: '61002'
   server: 183.240.179.195
