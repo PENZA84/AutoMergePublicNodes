@@ -93,6 +93,15 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
+  name: 64|香港01
+  network: tcp
+  port: '60101'
+  server: iepl.hongxing.pro
+  tls: false
+  type: vmess
+  uuid: f5daaaea-8f52-4b8b-a1da-2a2005bccd13
+- alterId: 0
+  cipher: auto
   name: 64|香港02
   network: tcp
   port: '60102'
@@ -294,7 +303,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 150,250,493,579,580,605,692|香港_0526009
+  name: 150,250,493,579,580,692|香港_0526009
   network: ws
   port: '12909'
   server: 210.3.159.224
@@ -1597,7 +1606,10 @@ proxies:
     path: /cctv13/hd.m3u8/
 - alterId: 0
   cipher: auto
-  name: 250,460,461,490,491,505,509,579,580,592,646,692|香港_0526008
+  country: 🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: 250,434,490,505,579,580,592,646,692|香港_0526008
   network: ws
   port: '28681'
   server: 47.242.22.171
@@ -3618,7 +3630,7 @@ proxies:
     path: 55021a7c-bd6c-418e-be95-ceac8ba27b45-vm
 - alterId: 0
   cipher: auto
-  name: '566,671|美国 CloudFlare节点 #80'
+  name: '566,671|美国 CloudFlare节点 #78'
   network: ws
   port: '8080'
   server: yh1.freeh1.xyz
@@ -4701,14 +4713,6 @@ proxies:
   uuid: 5dd37d4f-7726-40e8-9405-f80c702073be
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 597,689|CN_speednode_0018
-  password: a7f938d7-792b-4d3e-a677-6118e15b7422
-  port: 50001
-  server: iepl1.forlive.live
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
   name: 597|🇭🇰 HK 00
   password: a2014791-2c9c-4fcd-9359-80b3f2bb2e2e
   port: 42010
@@ -5233,6 +5237,20 @@ proxies:
   tls: false
   type: vmess
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+- alterId: 0
+  cipher: auto
+  name: 605|9|baipaovpn香港
+  network: ws
+  port: '12909'
+  server: 210.3.159.224
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
 - cipher: aes-256-cfb
   name: 656|TG频道@mfbpn-香港2
   obfs: tls1.2_ticket_auth
