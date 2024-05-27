@@ -1,6 +1,15 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 14|香港|徐州移动|Neko|1.5x
+  network: tcp
+  port: '13335'
+  server: jscm.r1u.cn
+  tls: false
+  type: vmess
+  uuid: f010dd01-c54a-3c03-95ce-0838214259c6
+- alterId: 0
+  cipher: auto
   name: '16,250,658,875|🇭🇰 香港1| cf #1'
   network: ws
   port: '2052'
@@ -294,15 +303,12 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: 150,250,434,493,579,580,605,692|香港_0526009
+  name: 150,250,493,579,580,605,692|香港_0526009
   network: ws
   port: '12909'
   server: 210.3.159.224
   servername: ''
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: false
   type: vmess
   uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
@@ -416,7 +422,7 @@ proxies:
       Host: pqhk.chinayyds.xyz
     path: /?ed=2048
 - cipher: rc4-md5
-  name: 155,795|Relay_-🇨🇳CN_1085 |122.00Mb
+  name: 155|🇭🇰 IPLC｜冀港 [2.0][原生]
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -429,7 +435,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 155,795|Relay_-🇨🇳CN_1091 |86.00Mb
+  name: 155,795|Relay_-🇨🇳CN_1056 |86.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -442,7 +448,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 155,795|Relay_-🇨🇳CN_1079 |117.00Mb
+  name: 155,795|Relay_-🇨🇳CN_1053 |117.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -455,7 +461,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 155,795|Relay_-🇨🇳CN_1087 |104.00Mb
+  name: 155,795|Relay_-🇨🇳CN_1066 |104.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -468,7 +474,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 155,795|Relay_-🇨🇳CN_1070 |95.00Mb
+  name: 155,795|Relay_-🇨🇳CN_1067 |95.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -481,7 +487,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 155,795|Relay_-🇨🇳CN_1080 |98.00Mb
+  name: 155,795|Relay_-🇨🇳CN_1047 |98.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -494,7 +500,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 155,795|Relay_-🇨🇳CN_1063 |60.00Mb
+  name: 155,795|Relay_-🇨🇳CN_1038 |60.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -507,7 +513,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 155,795|Relay_-🇨🇳CN_1067 |94.00Mb
+  name: 155,795|Relay_-🇨🇳CN_1034 |94.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -1584,10 +1590,9 @@ proxies:
     path: /ray
 - alterId: 0
   cipher: auto
-  country: 🇰HK
   h2-opts: {}
   http-opts: {}
-  name: 250,434,490,505,579,580,592,646,692,795|_1177 |17.30Mb
+  name: 250,490,505,579,580,592,646,692,795|_1166 | 6.73Mb
   network: ws
   port: 28681
   server: 47.242.22.171
@@ -1742,29 +1747,42 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 311|[vmess]香港7
+  name: 311|[vmess]香港5
   network: ws
-  port: '8443'
+  port: '2052'
   server: jx.jixingnetwork.sbs
-  tls: true
+  tls: false
   type: vmess
   uuid: b835b05d-f9d1-4ba5-9c83-d80ac4e19f43
   ws-opts:
     headers:
-      Host: hk07.jixingwangluo.top
+      Host: hk005.jixingwangluo.top
+    path: /a
+- alterId: 0
+  cipher: auto
+  name: 311|[vmess]香港7
+  network: ws
+  port: '2052'
+  server: jx.jixingnetwork.sbs
+  tls: false
+  type: vmess
+  uuid: b835b05d-f9d1-4ba5-9c83-d80ac4e19f43
+  ws-opts:
+    headers:
+      Host: hk007.jixingwangluo.top
     path: /
 - alterId: 0
   cipher: auto
   name: 311|[vmess]香港家宽
   network: ws
-  port: '8443'
+  port: '2052'
   server: jx.jixingnetwork.sbs
-  tls: true
+  tls: false
   type: vmess
   uuid: b835b05d-f9d1-4ba5-9c83-d80ac4e19f43
   ws-opts:
     headers:
-      Host: hk01.jixingnetwork.sbs
+      Host: hk001.jixingnetwork.sbs
     path: /
 - alterId: 0
   cipher: auto
@@ -2569,7 +2587,7 @@ proxies:
   country: 🇭🇰HK
   h2-opts: {}
   http-opts: {}
-  name: 490,795|🇭🇰HK_1431 |43.86Mb
+  name: 490,795|🇭🇰HK_1411 |19.58Mb
   network: ws
   port: 80
   server: 182.16.1.194
@@ -3604,7 +3622,7 @@ proxies:
     path: 55021a7c-bd6c-418e-be95-ceac8ba27b45-vm
 - alterId: 0
   cipher: auto
-  name: '566,671|美国 CloudFlare节点 #75'
+  name: '566,671|美国 CloudFlare节点 #77'
   network: ws
   port: '8080'
   server: yh1.freeh1.xyz
@@ -4751,8 +4769,9 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 597|🇭🇰 Hong Kong_3
-  password: 93ec2378-1151-4db5-9c56-d1387f36882d
+  country: 🇨🇳CN
+  name: 597,795|🇨CN_1271
+  password: 5a4c9426-0dfe-4797-a24a-e7cd4f0beb20
   port: 10003
   server: hk03.mmyjiedian.com
   tfo: false
@@ -4938,7 +4957,7 @@ proxies:
   client-fingerprint: chrome
   h2-opts: {}
   http-opts: {}
-  name: 597,795|Pool__1119 |58.16Mb
+  name: 597,795|Pool__1096 |58.16Mb
   network: ws
   port: 80
   server: cf1.go-relay.top
@@ -5211,16 +5230,6 @@ proxies:
   ws-headers:
     Host: vn3.thanhhaivpn.name.vn
   ws-path: /
-- alterId: 0
-  cipher: auto
-  name: '605,613,648,797,811,869|中国【付费推荐：https://jdyvip.link/】5... #14'
-  network: tcp
-  port: '15603'
-  server: 183.232.199.61
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - cipher: aes-256-cfb
   name: 656|TG频道@mfbpn-香港2
   obfs: tls1.2_ticket_auth
@@ -5489,20 +5498,6 @@ proxies:
     headers:
       Host: cfhk.393930.xyz
     path: /
-- alterId: 64
-  cipher: auto
-  name: 689|HK_speednode_0046
-  network: ws
-  port: 443
-  server: 134.122.135.236
-  servername: www.60991390.xyz
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.60991390.xyz
-    path: /path/341901080027
 - alterId: 0
   cipher: auto
   name: '692|香港_0526001 #1'
@@ -6024,16 +6019,6 @@ proxies:
   uuid: d3a515b4-6fcb-38c8-93d3-2c17da360f89
 - alterId: 0
   cipher: auto
-  name: 863|🇭🇰 香港A丨HKBN丨流媒体
-  network: tcp
-  port: '62016'
-  server: gy.zztannel.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d3a515b4-6fcb-38c8-93d3-2c17da360f89
-- alterId: 0
-  cipher: auto
   name: 863|🇭🇰 香港B丨BGP丨流媒体
   network: tcp
   port: '62003'
@@ -6140,3 +6125,66 @@ proxies:
     headers:
       Host: ''
     path: /qwe123321ewq
+- cipher: aes-128-gcm
+  name: 889|🇭🇰 香港 01 SS
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 11001
+  server: ss.hkglink.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 889|🇭🇰 香港 02 SS
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 11002
+  server: ss.hkglink.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 889|🇭🇰 香港 03 SS
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 11003
+  server: ss.hkglink.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 889|🇭🇰 香港 04 SS
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 11004
+  server: ss.hkglink.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 889|🇭🇰 香港 05 SS
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 11005
+  server: ss.hkglink.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 889|🇭🇰 香港 06 SS
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 11006
+  server: ss.hkglink.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 889|🇭🇰 香港 07 SS
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 11007
+  server: ss.hkglink.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 889|🇭🇰 香港 08 SS
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 11008
+  server: ss.hkglink.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 889|🇭🇰 香港 IPLC 限速10Mbps
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 1024
+  server: 222909df61922934.cdn.jiashule.com
+  type: ss
+  udp: true
