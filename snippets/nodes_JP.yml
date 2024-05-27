@@ -1,6 +1,15 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 14|日本|徐州移动|纸盒|1x
+  network: tcp
+  port: '26179'
+  server: jscm.r1u.cn
+  tls: false
+  type: vmess
+  uuid: f010dd01-c54a-3c03-95ce-0838214259c6
+- alterId: 0
+  cipher: auto
   name: 17|JP-日本A1
   network: ws
   port: '8880'
@@ -43,7 +52,7 @@ proxies:
   country: 🇺🇸US
   h2-opts: {}
   http-opts: {}
-  name: 19,236,301,428,429,433,435,459,466,468,487,555,572,669,686|日本_0526002
+  name: 19,236,301,428,433,435,459,466,468,487,555,572,669,686|日本_0526002
   network: tcp
   port: '1069'
   server: 152.69.197.60
@@ -58,7 +67,7 @@ proxies:
   country: ' JP'
   h2-opts: {}
   http-opts: {}
-  name: 19| JP_06
+  name: 19,433|_43
   network: ws
   port: 41597
   server: 183.181.36.194
@@ -68,21 +77,17 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '20,21,23,528|jp日本3 #3'
+  name: '20,21,23|jp日本3 #2'
   network: ws
-  port: 2086
+  port: '2086'
   server: vip3.hpyjc.top
   tls: false
   type: vmess
-  udp: true
   uuid: 3f8dd6c6-c8ad-49f0-a102-31769b1efb77
-  ws-headers:
-    Host: jp1.hpyjc.top
   ws-opts:
     headers:
       Host: jp1.hpyjc.top
     path: /?ed=2048
-  ws-path: /?ed=2048
 - alterId: 0
   cipher: auto
   name: '47,873|pq日本1-解锁 #2'
@@ -125,7 +130,7 @@ proxies:
 - alterId: 1
   cipher: auto
   client-fingerprint: chrome
-  country: ZZ
+  country: 🏁ZZ
   grpc-opts:
     grpc-service-name: 1654431
   h2-opts: {}
@@ -135,7 +140,7 @@ proxies:
   network: grpc
   password: bbab60b8-779f-31e2-916e-571f7d7023c4
   port: 28785
-  server: d8lzm-g03.jp06-7c5a-vm0.entry.fr0307a.art
+  server: lpc3c-g03.jp06-7c5a-vm0.entry.fr0307a.art
   servername: 45.144.2.113
   skip-cert-verify: false
   sni: jd5.zahuopu.top
@@ -641,6 +646,26 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
+  name: 163|AWS 日本 01
+  network: tcp
+  port: '443'
+  server: 3.112.152.7
+  servername: awsjp01.ftclashcloud.online
+  tls: true
+  type: vmess
+  uuid: 14391250-ec2a-4f8c-992a-9a0d6a30bb6f
+- alterId: 0
+  cipher: auto
+  name: 163|AWS 日本 02
+  network: tcp
+  port: '443'
+  server: 13.115.121.250
+  servername: awsjp02.ftclashcloud.online
+  tls: true
+  type: vmess
+  uuid: 14391250-ec2a-4f8c-992a-9a0d6a30bb6f
+- alterId: 0
+  cipher: auto
   name: 163|日本【免费 03】
   network: ws
   port: '80'
@@ -953,10 +978,7 @@ proxies:
   uuid: 323d8b87-345d-4065-b7df-2af764d2d1df
 - alterId: 64
   cipher: auto
-  country: 🇦AU
-  h2-opts: {}
-  http-opts: {}
-  name: 236,433,499,502,572,586|🇯🇵_电报https://t.me/chykj_83
+  name: 236,499,502,572,586|🇯🇵_电报https://t.me/chykj_83
   network: tcp
   port: 24445
   server: 140.83.63.38
@@ -964,7 +986,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 94c5ef37-4d82-49f9-c624-f01259374a17
-  ws-path: /
 - cipher: aes-256-cfb
   name: 236|🆔@LuxyNet💎❖❖JP❖1974
   password: f8f7aCzcPKbsF8p3
@@ -984,16 +1005,6 @@ proxies:
     headers:
       Host: ''
     path: /RACEVPN
-- alterId: 0
-  cipher: auto
-  name: '245,467,632,640,652|未知162 55.7KB/s #1'
-  network: tcp
-  port: '32365'
-  server: 158.51.111.114
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f956a5d9-1f30-4f89-adc8-4286f4a3eb16
 - alterId: 2
   cipher: auto
   name: '245,632,640,652|未知437 #1'
@@ -1005,11 +1016,21 @@ proxies:
   type: vmess
   uuid: 40bc7b65-ec8a-3201-a646-c9d1b71091c6
 - alterId: 0
+  cipher: auto
+  name: '245,467,632,640,652|未知162 55.7KB/s #1'
+  network: tcp
+  port: '32365'
+  server: 158.51.111.114
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f956a5d9-1f30-4f89-adc8-4286f4a3eb16
+- alterId: 0
   cipher: chacha20-poly1305
-  country: 🇵 JP
+  country: 🇵JP
   h2-opts: {}
   http-opts: {}
-  name: '245,428,433,455,467,503,599,652|🇯🇵JP日本2 4.9MB/s #1'
+  name: '245,428,455,467,485,503,599,652|🇯🇵JP日本2 4.9MB/s #1'
   network: tcp
   port: '39777'
   server: 210.230.206.18
@@ -1018,7 +1039,6 @@ proxies:
   tls: false
   type: vmess
   uuid: fc78cd01-99ac-a085-cb84-69a60920129d
-  ws-path: /
 - alterId: '0'
   cipher: auto
   name: 258|[🇯🇵]192.51.188.63:28494(26ae22...
@@ -1052,7 +1072,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '258,500,501,573,574|🇯🇵JP-138.2.39.67-4236 #1'
+  name: '258,500,501,573,574|🇯🇵JP-138.2.39.67-4184 #1'
   network: ws
   port: 80
   server: 138.2.39.67
@@ -1328,7 +1348,7 @@ proxies:
   country: 🇸US
   h2-opts: {}
   http-opts: {}
-  name: 433|🇺🇸US_293
+  name: 433|🇺🇸US_294
   network: tcp
   port: 21581
   server: jp03-alt-vm0.entry.srthdw.art
@@ -1384,7 +1404,7 @@ proxies:
     path: /mugua
 - alterId: 0
   cipher: auto
-  name: '459,573,574|🇯🇵JP-172.105.223.136-7027 #1'
+  name: '459,573,574|🇯🇵JP-172.105.223.136-6953 #1'
   network: ws
   port: 443
   server: 172.105.223.136
@@ -2534,7 +2554,7 @@ proxies:
   uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
 - alterId: 0
   cipher: auto
-  name: '500,572,573,574|🇯🇵JP-140.83.84.209-3805 #1'
+  name: '500,572,573,574|🇯🇵JP-140.83.84.209-3753 #1'
   network: ws
   port: 1234
   server: 140.83.84.209
@@ -2731,7 +2751,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '500,573,574|🇯🇵JP-138.2.45.89-4187 #1'
+  name: '500,573,574|🇯🇵JP-138.2.45.89-4135 #1'
   network: ws
   port: 4430
   server: 138.2.45.89
@@ -2752,7 +2772,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '500,572,573,574|🇯🇵JP-43.128.225.220-4217 #1'
+  name: '500,572,573,574|🇯🇵JP-43.128.225.220-4165 #1'
   network: ws
   port: 80
   server: 43.128.225.220
@@ -2767,7 +2787,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '500,573,574|🇯🇵JP-141.147.181.219-4239 #1'
+  name: '500,573,574|🇯🇵JP-141.147.181.219-4187 #1'
   network: ws
   port: 443
   server: 141.147.181.219
@@ -2929,7 +2949,7 @@ proxies:
     path: /a79f2127-3ba4-4af8-96d5-2db3a0e186a7
 - alterId: 0
   cipher: auto
-  name: '501,573,574|🇯🇵JP-140.83.35.62-4282 #1'
+  name: '501,573,574|🇯🇵JP-140.83.35.62-4230 #1'
   network: ws
   port: 443
   server: jp-amd1.018999.xyz
@@ -3194,6 +3214,34 @@ proxies:
   server: proxy1.fanqiecloud.top
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  name: '528|l日本-1 #1'
+  network: ws
+  port: 2052
+  server: yx1.gyyun.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 92956f18-b72f-474e-9ed4-233a637ca657
+  ws-headers:
+    Host: lrb1.gyyun.top
+  ws-path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '528|l日本-3 #1'
+  network: ws
+  port: 2052
+  server: yx3.gyyun.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 92956f18-b72f-474e-9ed4-233a637ca657
+  ws-headers:
+    Host: lrb1.gyyun.top
+  ws-path: /?ed=2048
 - cipher: aes-256-gcm
   name: 545|🇯🇵_JP_日本
   password: XKFKl2rULjIp74
@@ -3320,7 +3368,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '572|🇯🇵 日本 007 #2'
+  name: 572|🇯🇵 日本 007
   network: ws
   port: '80'
   server: jp25.baf1.sbs
@@ -3394,35 +3442,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '573,574|🇯🇵JP-138.2.52.176-1396 #1'
-  network: ws
-  port: 24429
-  server: 138.2.52.176
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 8d5ca59e-8e3e-4a10-e023-53cfcd87a72b
-  ws-opts:
-    headers:
-      Host: 138.2.52.176
-    path: /
-- alterId: 64
-  cipher: auto
-  name: '573,574|🇯🇵JP-152.70.103.195-1391 #1'
-  network: ws
-  port: 37206
-  server: 152.70.103.195
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ff3fd078-99b5-46b6-8cd5-d48ff271719a
-  ws-opts:
-    headers:
-      Host: 152.70.103.195
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '573,574|🇯🇵JP-139.162.117.173-1217 #1'
+  name: '573,574|🇯🇵JP-139.162.117.173-1192 #1'
   network: ws
   port: 443
   server: 139.162.117.173
@@ -3436,7 +3456,7 @@ proxies:
     path: /chat
 - alterId: 0
   cipher: auto
-  name: '573,574|🇯🇵JP-172.105.219.18-1031 #1'
+  name: '573,574|🇯🇵JP-172.105.219.18-1020 #1'
   network: ws
   port: 443
   server: 172.105.219.18
@@ -3447,6 +3467,34 @@ proxies:
   ws-opts:
     headers:
       Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '573,574|🇯🇵JP-138.2.52.176-1371 #1'
+  network: ws
+  port: 24429
+  server: 138.2.52.176
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 8d5ca59e-8e3e-4a10-e023-53cfcd87a72b
+  ws-opts:
+    headers:
+      Host: 138.2.52.176
+    path: /
+- alterId: 64
+  cipher: auto
+  name: '573,574|🇯🇵JP-152.70.103.195-1366 #1'
+  network: ws
+  port: 37206
+  server: 152.70.103.195
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ff3fd078-99b5-46b6-8cd5-d48ff271719a
+  ws-opts:
+    headers:
+      Host: 152.70.103.195
     path: /
 - alterId: 0
   cipher: auto
@@ -3464,7 +3512,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '573,574|🇯🇵JP-52.196.144.61-3940 #1'
+  name: '573,574|🇯🇵JP-52.196.144.61-3888 #1'
   network: ws
   port: 3331
   server: f1f3227.u1.glados-config.net
@@ -3478,7 +3526,7 @@ proxies:
     path: /s/f1f3227.fm.apple.com:111548
 - alterId: 0
   cipher: auto
-  name: '573,574|🇯🇵JP-35.72.161.88-3996 #1'
+  name: '573,574|🇯🇵JP-35.72.161.88-3944 #1'
   network: ws
   port: 22356
   server: 001.AP.POP.node-for-smallairport.win
@@ -3492,7 +3540,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '573,574|🇯🇵JP-3.112.210.227-4243 #1'
+  name: '573,574|🇯🇵JP-3.112.210.227-4191 #1'
   network: ws
   port: 23245
   server: jp04.170203.xyz
@@ -3506,7 +3554,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: '573,574|🇯🇵JP-153.122.173.53-4960 #1'
+  name: '573,574|🇯🇵JP-153.122.173.53-4886 #1'
   network: ws
   port: 32407
   server: 153.122.173.53
@@ -3520,7 +3568,7 @@ proxies:
     path: /v2ray
 - alterId: 0
   cipher: auto
-  name: '573,574|🇯🇵JP-138.2.49.230-5261 #1'
+  name: '573,574|🇯🇵JP-138.2.49.230-5187 #1'
   network: ws
   port: 10021
   server: 138.2.49.230
@@ -3534,7 +3582,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '573,574|🇯🇵JP-147.78.244.7-7189 #1'
+  name: '573,574|🇯🇵JP-147.78.244.7-7115 #1'
   network: ws
   port: 443
   server: 147.78.244.7
@@ -3548,7 +3596,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '573,574|🇯🇵JP-124.156.225.184-7218 #1'
+  name: '573,574|🇯🇵JP-124.156.225.184-7144 #1'
   network: ws
   port: 443
   server: 124.156.225.184
@@ -3562,7 +3610,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '573,574|🇯🇵JP-138.2.52.244-9374 #1'
+  name: '573,574|🇯🇵JP-138.2.52.244-9300 #1'
   network: ws
   port: 443
   server: 138.2.52.244
@@ -3574,34 +3622,6 @@ proxies:
     headers:
       Host: ''
     path: /ray
-- alterId: 0
-  cipher: auto
-  name: '573,574|🇯🇵JP-3.112.42.139-0027 #1'
-  network: ws
-  port: 19096
-  server: ddns.shcn2.paolu.icu
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a7bf7513-c9de-3d77-9a03-644389baf14b
-  ws-opts:
-    headers:
-      Host: ddns.shcn2.paolu.icu
-    path: /soda
-- alterId: 0
-  cipher: auto
-  name: '573,574|🇯🇵JP-18.183.245.68-0025 #1'
-  network: ws
-  port: 20038
-  server: ddns.cscncu.paolu.icu
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a7bf7513-c9de-3d77-9a03-644389baf14b
-  ws-opts:
-    headers:
-      Host: ddns.cscncu.paolu.icu
-    path: /soda
 - alterId: 0
   cipher: auto
   name: 586|JP_分享日记_2
@@ -3643,7 +3663,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: a2f39f86-9b3f-4d99-b24e-983b6bcd90e8
+  uuid: ce684ae1-b253-45cb-baff-51a891bd16be
 - alterId: 0
   cipher: auto
   name: 589|【BGP】日本 05  | 1x JP
@@ -3653,7 +3673,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: a2f39f86-9b3f-4d99-b24e-983b6bcd90e8
+  uuid: ce684ae1-b253-45cb-baff-51a891bd16be
 - alterId: 0
   cipher: auto
   name: 589|【BGP】日本 06  | 1x JP
@@ -3663,7 +3683,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: a2f39f86-9b3f-4d99-b24e-983b6bcd90e8
+  uuid: ce684ae1-b253-45cb-baff-51a891bd16be
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -4750,68 +4770,59 @@ proxies:
   tls: false
   type: vmess
   uuid: d3a515b4-6fcb-38c8-93d3-2c17da360f89
-- alterId: 0
-  cipher: auto
-  name: 859|🇯🇵日本01| ✨全流媒体
-  network: ws
-  port: '42001'
-  server: 36.33.149.53
-  tls: false
-  type: vmess
-  uuid: 2e8034f5-7893-4338-b987-78e21a34ac24
-  ws-opts:
-    headers:
-      Host: ''
-    path: /qwe123321ewq
-- alterId: 0
-  cipher: auto
-  name: 859|🇯🇵日本02| ✨全流媒体
-  network: ws
-  port: '42002'
-  server: 36.33.149.53
-  tls: false
-  type: vmess
-  uuid: 2e8034f5-7893-4338-b987-78e21a34ac24
-  ws-opts:
-    headers:
-      Host: ''
-    path: /qwe123321ewq
-- alterId: 0
-  cipher: auto
-  name: 859|🇯🇵日本03| ✨全流媒体
-  network: ws
-  port: '42003'
-  server: 36.33.149.53
-  tls: false
-  type: vmess
-  uuid: 2e8034f5-7893-4338-b987-78e21a34ac24
-  ws-opts:
-    headers:
-      Host: ''
-    path: /qwe123321ewq
-- alterId: 0
-  cipher: auto
-  name: 859|🇯🇵日本04| ✨全流媒体
-  network: ws
-  port: '42004'
-  server: 36.33.149.53
-  tls: false
-  type: vmess
-  uuid: 2e8034f5-7893-4338-b987-78e21a34ac24
-  ws-opts:
-    headers:
-      Host: ''
-    path: /qwe123321ewq
-- alterId: 0
-  cipher: auto
-  name: 859|🇯🇵日本-Netflix专线
-  network: ws
-  port: '37102'
-  server: 36.33.149.53
-  tls: false
-  type: vmess
-  uuid: 2e8034f5-7893-4338-b987-78e21a34ac24
-  ws-opts:
-    headers:
-      Host: ''
-    path: /qwe123321ewq
+- cipher: aes-128-gcm
+  name: '876|🇯🇵 日本 01 #1'
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 20841
+  server: ss.jpnlink.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: '876|🇯🇵 日本 02 #1'
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 20842
+  server: ss.jpnlink.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: '876|🇯🇵 日本 03 #1'
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 20843
+  server: ss.jpnlink.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 876|🇯🇵 日本 04
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 20844
+  server: ss.jpnlink.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 876|🇯🇵 日本 05
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 20845
+  server: ss.jpnlink.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 876|🇯🇵 日本 06
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 20846
+  server: ss.jpnlink.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 876|🇯🇵 日本 07
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 20847
+  server: ss.jpnlink.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 876|🇯🇵 日本 08
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 20848
+  server: ss.jpnlink.xyz
+  type: ss
+  udp: true
