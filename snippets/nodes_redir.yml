@@ -2,7 +2,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '0,3,16,42,150,245,251,369,372,488,514,515,558,580,581,590,591,606,613,614,876|🇮🇳
+  name: '0,3,16,42,150,245,251,369,372,461,462,488,492,510,514,515,558,580,581,590,591,606,613,614,876|🇮🇳
     印度1|cf #1'
   network: ws
   port: '2052'
@@ -20,14 +20,16 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,251,368,369,370,372,494,558,580,581,590,591,639,693,695,798,812,870|美国【付费推荐：https://jdyvip.link/】8...
+  name: '0,3,251,368,369,370,372,461,462,492,494,510,558,580,581,590,591,639,693,695,798,812,870|美国【付费推荐：https://jdyvip.link/】8...
     #5'
   network: ws
   port: '2052'
   server: 172.67.164.78
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
+  udp: true
   uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8
   ws-opts:
     headers:
@@ -36,7 +38,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '0,3,251,514,515,558,580,581,590,591,606,613,614,648,649,659,798,812,870|中国【付费推荐：https://jdyvip.link/】4...
+  name: '0,3,251,461,462,492,510,514,515,558,580,581,590,591,606,613,614,648,649,659,798,812,870|中国【付费推荐：https://jdyvip.link/】4...
     #4'
   network: ws
   port: '16632'
@@ -54,12 +56,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
   country: US
-  fingerprint: ''
   h2-opts: {}
   http-opts: {}
-  name: '1,2,151,244,541,616,658|US342 357.1KB/s #1'
+  name: '1,2,151,541,616,658|US342 357.1KB/s #1'
   network: ws
   port: 2052
   server: hk.wish.ml
@@ -67,7 +67,6 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: vmess
-  udp: false
   uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8
   ws-opts:
     headers:
@@ -3404,6 +3403,20 @@ proxies:
     headers:
       host: V104.bgpnet.top
     path: /admin
+- alterId: 0
+  cipher: auto
+  name: '616|🇺🇸_US_美国->🇮🇳_IN_印度_3 #1'
+  network: ws
+  port: 2052
+  server: 104.17.156.224
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8
+  ws-opts:
+    headers:
+      host: in4.wish.ml
+    path: /
 - alterId: 0
   cipher: auto
   name: 656|:美国-vmess-arm.ptuu.gq:443-可用-中...
