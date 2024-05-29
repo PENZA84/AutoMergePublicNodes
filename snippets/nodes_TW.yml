@@ -1,6 +1,15 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 14|台湾|广州移动|Polo|1x
+  network: tcp
+  port: 39872
+  server: gdcm.r1u.cn
+  tls: false
+  type: vmess
+  uuid: f010dd01-c54a-3c03-95ce-0838214259c6
+- alterId: 0
+  cipher: auto
   name: 64|🇹🇼台湾1国际专用x1
   network: ws
   port: '2096'
@@ -73,7 +82,7 @@ proxies:
   type: vmess
   uuid: 8907aeec-189d-48d9-b557-fb242a4d8127
 - cipher: rc4-md5
-  name: 159|🇼🇸 IPLC｜冀台 [2.0][原生]
+  name: 159,810|Relay_ |67.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -86,7 +95,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 159|🇼🇸 IPLC｜台湾媒体专线-1 [2.0][NF][Dis...
+  name: 159,810|Relay_ |148.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -99,7 +108,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 159|🇼🇸 IPLC｜沪台 [2.0][原生]
+  name: 159,810|Relay_ |132.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -112,7 +121,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 159|🇼🇸 IPLC｜浙台 [2.0][原生]
+  name: '159,810|Relay_ |93.00Mb #2'
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -125,7 +134,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 159|🇼🇸 IPLC｜深台 [2.0][原生]
+  name: 159,810|Relay_ |94.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -151,7 +160,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 159|🇼🇸 IPLC｜珠台 [2.0][原生]
+  name: 159,810|Relay_ |98.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -164,7 +173,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 159|🇼🇸 IPLC｜苏台 [2.0][原生]
+  name: 159,810|Relay_ |172.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -177,7 +186,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 159|🇼🇸 IPLC｜闽台 [2.0][原生]
+  name: 159,810|Relay_ |69.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -220,36 +229,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 258,506,518,521,592,593,659,670,671,684|🇹🇼TW-103.159.206.35-0342
-  network: ws
-  port: 31945
-  server: 103.159.206.35
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '258,651|🔒 VM-WS-TLS 🇹🇼 TW-154.40.60.17... #1'
-  network: ws
-  port: '12945'
-  server: 154.40.60.172
-  servername: 55.lwdh.us
-  tls: true
-  type: vmess
-  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '258,651,659,671|TW #3'
+  name: '258,651,659,671|TW2 #1'
   network: ws
   port: '37902'
   server: 36.232.31.135
@@ -263,7 +243,7 @@ proxies:
     path: /index?ed=2560
 - alterId: 0
   cipher: auto
-  name: '258,659,671|TW4 #2'
+  name: 258|TW4
   network: ws
   port: '12945'
   server: 154.40.60.172
@@ -275,6 +255,21 @@ proxies:
     headers:
       Host: ''
     path: ''
+- alterId: 0
+  cipher: auto
+  name: 258,506,518,521,592,593,670,671,684|🇹🇼TW-103.159.206.35-0342
+  network: ws
+  port: 31945
+  server: 103.159.206.35
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: '0'
   cipher: auto
   name: 271|[🇹🇼]103.131.189.212:56967(8110...
@@ -528,10 +523,61 @@ proxies:
   uuid: 4770d44f-e799-4b4e-988d-b5ce56c4c3a0
 - alterId: 0
   cipher: auto
+  country: 🇼TW
+  h2-opts: {}
+  http-opts: {}
+  name: 447|Relay_TW-🇹🇼TW_108 | 1.49Mb
+  network: ws
+  port: 80
+  server: tw1g.forlive.live
+  servername: tms.dingtalk.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: bb7d0ae0-85bd-4d9f-8391-b3d927ccb497
+  ws-opts:
+    headers:
+      HOST: tms.dingtalk.com
+    path: /
+- alterId: 0
+  cipher: auto
+  country: TW
+  h2-opts: {}
+  http-opts: {}
+  name: '447,810| | 3.53Mb #1'
+  network: ws
+  port: 80
+  server: 61.227.217.177
+  servername: tms.dingtalk.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: bb7d0ae0-85bd-4d9f-8391-b3d927ccb497
+  ws-opts:
+    headers:
+      HOST: tms.dingtalk.com
+    path: /
+- alterId: 0
+  cipher: auto
   country: 🏁ZZ
   h2-opts: {}
   http-opts: {}
-  name: 447|Relay_🏁ZZ-🇹🇼TW_247 | 1.67Mb
+  name: 447|Relay_🏁ZZ-🇼TW_244 | 3.41Mb
+  network: ws
+  port: 80
+  server: 162.159.9.55
+  servername: hinet.alipay.ovh
+  skip-cert-verify: true
+  type: vmess
+  uuid: 9133af1b-72e3-40b2-c811-45acaabd0ff0
+  ws-opts:
+    headers:
+      HOST: hinet.alipay.ovh
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 447|Relay_🏁ZZ-🇹🇼TW_252 | 1.67Mb
   network: ws
   port: 8080
   server: 104.19.172.136
@@ -704,7 +750,7 @@ proxies:
   uuid: e160d0ba-5b1a-448c-fcfb-35bfc5c2b1b5
 - alterId: 0
   cipher: auto
-  name: 486|台湾_052923002
+  name: 486,618|9|baipaovpn台湾省高雄市
   network: ws
   port: '80'
   server: 61.227.217.177
@@ -1113,6 +1159,20 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
+  name: '618|9|baipaovpn台湾省高雄市 #1'
+  network: ws
+  port: '80'
+  server: 61.227.217.177
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: bb7d0ae0-85bd-4d9f-8391-b3d927ccb497
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
   name: 636|v2cross.com - 台湾省花莲县中华电信 4
   network: tcp
   port: '39999'
@@ -1121,6 +1181,22 @@ proxies:
   tls: true
   type: vmess
   uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 651,659,810|Relay_ |56.84Mb
+  network: ws
+  port: 12945
+  server: 154.40.60.172
+  servername: 55.lwdh.us
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+  ws-opts:
+    path: /
 - cipher: aes-256-cfb
   name: 669|TG频道@mfbpn-台湾3
   obfs: tls1.2_ticket_auth
@@ -1173,7 +1249,7 @@ proxies:
   uuid: 49933ab7-7ec2-3024-9f6e-b7ad9da24c8f
 - alterId: 0
   cipher: auto
-  name: '670|TW #1'
+  name: 670|TW2
   network: ws
   port: 37902
   server: 36.232.31.135
@@ -1187,7 +1263,7 @@ proxies:
     path: /index?ed=2560
 - alterId: 0
   cipher: auto
-  name: 670|TW3
+  name: '670|TW4 #1'
   network: ws
   password: auto
   port: 443
@@ -1197,16 +1273,6 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: '670|TW4 #1'
-  network: ws
-  port: 12945
-  server: 154.40.60.172
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
 - alterId: 0
   cipher: auto
   name: 684|🇹🇼台湾 01
