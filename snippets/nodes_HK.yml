@@ -425,9 +425,9 @@ proxies:
   country: 🇰HK
   h2-opts: {}
   http-opts: {}
-  name: 154,259,448,504,519,593,594,606,660,706,811| |22.85Mb
+  name: 154,259,448,504,519,593,594,606,660,706|香港_0530012
   network: ws
-  port: 28681
+  port: '28681'
   server: 47.242.22.171
   servername: ''
   skip-cert-verify: true
@@ -436,6 +436,8 @@ proxies:
   udp: true
   uuid: 3b1072ce-d096-46c2-a3e7-08b4f58538f5
   ws-opts:
+    headers:
+      Host: ''
     path: /
 - alterId: 0
   cipher: auto
@@ -454,10 +456,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  country: 🏁ZZ
+  country: ZZ
   h2-opts: {}
   http-opts: {}
-  name: 155,448,504|🇺🇸 US 787 → tg@nicevpn123
+  name: 155,504|🇺🇸 US 787 → tg@nicevpn123
   network: ws
   port: 2095
   server: 104.19.45.17
@@ -548,7 +550,7 @@ proxies:
       Host: pqhk.chinayyds.xyz
     path: /?ed=2048
 - cipher: rc4-md5
-  name: 159,811|Relay_ |508.00Mb
+  name: 159|🇭🇰 IPLC｜冀港 [2.0][原生]
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -574,7 +576,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 159,811|Relay_ |92.00Mb
+  name: 159|🇭🇰 IPLC｜浙港 [2.0][原生]
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -600,7 +602,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 159,811|Relay_ |290.00Mb
+  name: 159|🇭🇰 IPLC｜湘港 [2.0][原生]
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -613,7 +615,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 159,811|Relay_ |198.00Mb
+  name: 159|🇭🇰 IPLC｜珠港 [2.0][原生]
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -626,7 +628,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 159,811|Relay_ |99.00Mb
+  name: 159|🇭🇰 IPLC｜苏港 [2.0][原生]
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -2112,9 +2114,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 4770d44f-e799-4b4e-988d-b5ce56c4c3a0
-- cipher: aes-256-cfb
+- cipher: chacha20-ietf-poly1305
   country: 🇰HK
-  name: 449,487,677|[02-24]-🇸-欧洲-096-150.107.46.21
+  name: 448|Relay_HK-🇭🇰HK_71 | 8.95Mb
+  password: 2155145a-b1b5-443a-8977-670f6bd10f02
+  port: 50001
+  server: bgroup.node4.s.nodelist-gfwairport2.top
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇰 HK
+  name: 449,453,487,677|[02-24]-🇸-欧洲-096-150.107.46.21
   obfs: tls1.2_ticket_auth
   obfs-param: ''
   password: iFqnzSscN
@@ -2468,29 +2477,21 @@ proxies:
   uuid: 9fcec31d-40aa-4f98-8c47-0296084fe3ff
 - alterId: 0
   cipher: auto
-  country: HK
-  h2-opts: {}
-  http-opts: {}
-  name: 487,811| |88.32Mb
+  name: 487|香港_053013043
   network: tcp
-  port: 10010
+  port: '10010'
   server: xg1.tcity8.buzz
-  servername: xg1.tcity8.buzz
-  skip-cert-verify: true
+  servername: ''
   tls: false
   type: vmess
   uuid: 33e16778-0194-4063-b160-95b63a432688
 - alterId: 0
   cipher: auto
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: 487,811| |38.41Mb
+  name: 487|香港_053013044
   network: tcp
-  port: 10010
+  port: '10010'
   server: xg3.tcity8.buzz
-  servername: xg3.tcity8.buzz
-  skip-cert-verify: true
+  servername: ''
   tls: false
   type: vmess
   uuid: 33e16778-0194-4063-b160-95b63a432688
@@ -2568,10 +2569,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: 504,811| |10.19Mb
+  name: 504|🇭🇰 HK 6 → tg@nicevpn123
   network: ws
   port: 80
   server: 182.16.1.194
@@ -3731,7 +3729,7 @@ proxies:
     path: 55021a7c-bd6c-418e-be95-ceac8ba27b45-vm
 - alterId: 0
   cipher: auto
-  name: '580,685|美国 CloudFlare节点 #79'
+  name: '580,685|美国 CloudFlare节点 #70'
   network: ws
   port: '8080'
   server: yh1.freeh1.xyz
@@ -5629,138 +5627,6 @@ proxies:
     headers:
       Host: ''
     path: /skysinternet
-- cipher: aes-128-gcm
-  name: 797|Manifold-香港01-原生
-  password: a212d
-  plugin: obfs
-  plugin-opts:
-    host: 68e7b61610.download.windowsupdate.com
-    mode: http
-  port: '2120'
-  server: 231103level4.unclemanco.com
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 797|Game 香港01-标准
-  password: ayu1245
-  plugin: obfs
-  plugin-opts:
-    host: 68e7b61610.download.windowsupdate.com
-    mode: http
-  port: '824'
-  server: 231103level3.unclemanco.com
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 797|Game 香港02-标准
-  password: QHPy2u
-  plugin: obfs
-  plugin-opts:
-    host: 68e7b61610.download.windowsupdate.com
-    mode: http
-  port: '9054'
-  server: 231103level3.unclemanco.com
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 797|Game 香港03-标准
-  password: QHPy2u
-  plugin: obfs
-  plugin-opts:
-    host: 68e7b61610.download.windowsupdate.com
-    mode: http
-  port: '9063'
-  server: 231103level3.unclemanco.com
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 797|Game 香港04-国际
-  password: QHPy2u
-  plugin: obfs
-  plugin-opts:
-    host: 68e7b61610.download.windowsupdate.com
-    mode: http
-  port: '20012'
-  server: 231103level3.unclemanco.com
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 797|Game 香港05-标准
-  password: ayucles1
-  plugin: obfs
-  plugin-opts:
-    host: 68e7b61610.download.windowsupdate.com
-    mode: http
-  port: '907'
-  server: 231103level3.unclemanco.com
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 797|Game 香港06-标准
-  password: ayucloud1
-  plugin: obfs
-  plugin-opts:
-    host: 68e7b61610.download.windowsupdate.com
-    mode: http
-  port: '823'
-  server: 231103level3.unclemanco.com
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 797|Video 香港A-解锁
-  password: ayucloud1
-  plugin: obfs
-  plugin-opts:
-    host: 68e7b61610.download.windowsupdate.com
-    mode: http
-  port: '9053'
-  server: 231103level2.unclemanco.com
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 797|Video 香港B-标准
-  password: QHPy2u
-  plugin: obfs
-  plugin-opts:
-    host: 68e7b61610.download.windowsupdate.com
-    mode: http
-  port: '8001'
-  server: 231103level2.unclemanco.com
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 797|Video 香港C-标准
-  password: ayucloud1
-  plugin: obfs
-  plugin-opts:
-    host: 68e7b61610.download.windowsupdate.com
-    mode: http
-  port: '9052'
-  server: 231103level2.unclemanco.com
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 797|Web 香港I-标准
-  password: QHPy2u
-  plugin: obfs
-  plugin-opts:
-    host: 68e7b61610.download.windowsupdate.com
-    mode: http
-  port: '912'
-  server: 231103level1.unclemanco.com
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 797|Web 香港II-标准
-  password: QHPy2u
-  plugin: obfs
-  plugin-opts:
-    host: 68e7b61610.download.windowsupdate.com
-    mode: http
-  port: '840'
-  server: 231103level1.unclemanco.com
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   name: 805|香港高速|最新官网https://sulian.life
