@@ -72,7 +72,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 162|🇼🇸 IPLC｜台湾媒体专线-1 [2.0][NF][Dis...
+  name: 162,822|Relay_-🇨🇳CN_1042 |102.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -85,7 +85,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 162,822|Relay_-🇨🇳CN_1006 |193.00Mb
+  name: 162,822|Relay_ |193.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -98,7 +98,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 162,822|Relay_-🇨🇳CN_1043 |105.00Mb
+  name: '162,822|Relay_ |105.00Mb #1'
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -111,7 +111,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 162,822|Relay_-🇨🇳CN_1040 |198.00Mb
+  name: 162,822|Relay_ |198.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -137,7 +137,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 162,822|Relay_-🇨🇳CN_1016 |195.00Mb
+  name: 162,822|Relay_ |195.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -150,7 +150,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 162,822|Relay_-🇨🇳CN_1020 |153.00Mb
+  name: 162,822|Relay_ |153.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -163,7 +163,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 162,822|Relay_-🇨🇳CN_1009 |120.00Mb
+  name: 162,822|Relay_ |120.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -209,7 +209,7 @@ proxies:
   country: 🇺🇸US
   h2-opts: {}
   http-opts: {}
-  name: 265,668,822|Relay_🇺🇸US-🏁ZZ_1550 |49.51Mb
+  name: 265,668,822|Relay_ |49.51Mb
   network: ws
   port: 12945
   server: 154.40.60.172
@@ -1052,6 +1052,40 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
+  name: 636|TWN 01
+  network: ''
+  port: 65531
+  server: hinet.mmmmmmmmmm.cfd
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: a83fccdb-eeec-4dab-a8c9-a105acbd89e5
+- alterId: 0
+  cipher: auto
+  name: 636|🇹🇼 Taiwan HiNet
+  network: ws
+  port: 80
+  server: twx.n.optage.moe
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 755ec159-20c2-4fd3-8fdf-f59489018608
+  ws-opts:
+    path: /aln/17?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 636|🇹🇼 [CDNMix]Taiwan HiNet
+  network: ws
+  port: 80
+  server: mixx.alidns.moe233.org
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 755ec159-20c2-4fd3-8fdf-f59489018608
+  ws-opts:
+    path: /aln/17?ed=2048
+- alterId: 0
+  cipher: auto
   name: 645|v2cross.com - 台湾省花莲县中华电信 4
   network: tcp
   port: '39999'
@@ -1060,6 +1094,19 @@ proxies:
   tls: true
   type: vmess
   uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b
+- client-fingerprint: chrome
+  name: 669|🇹🇼 台湾省+中华电信(HiNet)数据中心
+  network: ws
+  password: moist
+  port: 13688
+  server: 118.163.128.81
+  skip-cert-verify: false
+  sni: trojan.freenods.sbs
+  type: trojan
+  ws-opts:
+    headers:
+      Host: trojan.freenods.sbs
+    path: /
 - cipher: aes-256-cfb
   name: 678|TG频道@mfbpn-台湾3
   obfs: tls1.2_ticket_auth
@@ -1685,30 +1732,6 @@ proxies:
   ws-opts:
     headers:
       Host: tw02.sulink.one
-    path: /
-- cipher: aes-256-gcm
-  country: 🇼TW
-  name: 822|Pool_TW_1419 |47.52Mb
-  password: ac1309ef-d132-423c-a698-86a61fb050df
-  port: 37070
-  server: hinet-wap.myddns.me
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: 🇹TW
-  h2-opts: {}
-  http-opts: {}
-  name: 822|🇼TW_1421 |26.70Mb
-  network: ws
-  port: 80
-  server: 61.227.164.69
-  servername: tms.dingtalk.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: bb7d0ae0-85bd-4d9f-8391-b3d927ccb497
-  ws-opts:
-    headers:
-      HOST: tms.dingtalk.com
     path: /
 - cipher: aes-256-cfb
   name: 872|畅行 台湾 1
