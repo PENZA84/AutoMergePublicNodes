@@ -72,7 +72,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 163,824|Relay_ |242.00Mb
+  name: 163,824|Relay_ |566.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -85,7 +85,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 163,824|Relay_ |636.00Mb
+  name: 163,824|Relay_ |319.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -188,6 +188,47 @@ proxies:
   tls: true
   type: trojan
   udp: true
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: '200,621|🇹🇼 Taiwan_1 #1'
+  password: 93ec2378-1151-4db5-9c56-d1387f36882d
+  port: 40006
+  server: tw01.mmyjiedian.com
+  tfo: false
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: '200,621|🇹🇼 Taiwan_2 #1'
+  password: 93ec2378-1151-4db5-9c56-d1387f36882d
+  port: 40007
+  server: tw02.mmyjiedian.com
+  tfo: false
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: '200,621|🇹🇼 Taiwan_3 #1'
+  password: 93ec2378-1151-4db5-9c56-d1387f36882d
+  port: 40008
+  server: tw03.mmyjiedian.com
+  tfo: false
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 200|🇹🇼 Taiwan_4
+  password: c6f7a1eb-c4b7-4cd8-87ba-b234c98bec5f
+  port: 40009
+  server: tw04.mmyjiedian.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 200|🇹🇼 Taiwan_5
+  password: c6f7a1eb-c4b7-4cd8-87ba-b234c98bec5f
+  port: 40010
+  server: tw05.mmyjiedian.com
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 258|🆔@LuxyNet💎❖❖TW❖311
@@ -206,7 +247,38 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '267,670,682|TW2 #2'
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 267,529,670,824|Relay_ |41.73Mb
+  network: ws
+  port: 12945
+  server: 154.40.60.172
+  servername: 55.lwdh.us
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 267,517,529,532,603,604,670,681,682,695|🇹🇼TW-103.159.206.35-0342
+  network: ws
+  port: 31945
+  server: 103.159.206.35
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '267,670,682|TW2 #3'
   network: ws
   port: '37902'
   server: 36.233.66.195
@@ -218,36 +290,6 @@ proxies:
     headers:
       Host: hinet-wap.myddns.me
     path: /index?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 267,517,529,532,603,604,670,695|🇹🇼TW-103.159.206.35-0342
-  network: ws
-  port: 31945
-  server: 103.159.206.35
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: 267,529,670,824|Relay_ |35.77Mb
-  network: ws
-  port: 12945
-  server: 154.40.60.172
-  servername: 55.lwdh.us
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
-  ws-opts:
-    path: /
 - alterId: '0'
   cipher: auto
   name: 280|[🇹🇼]103.131.189.212:56967(8110...
@@ -1009,30 +1051,6 @@ proxies:
     path: /
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 621|🇹🇼 Taiwan_1
-  password: 93ec2378-1151-4db5-9c56-d1387f36882d
-  port: 40006
-  server: tw01.mmyjiedian.com
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 621|🇹🇼 Taiwan_2
-  password: 93ec2378-1151-4db5-9c56-d1387f36882d
-  port: 40007
-  server: tw02.mmyjiedian.com
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 621|🇹🇼 Taiwan_3
-  password: 93ec2378-1151-4db5-9c56-d1387f36882d
-  port: 40008
-  server: tw03.mmyjiedian.com
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
   name: 621|🇹🇼 TW台湾-电信优化
   password: 1cce1062-972c-4ac0-a511-b9168e761512
   port: 27260
@@ -1160,18 +1178,6 @@ proxies:
   uuid: 49933ab7-7ec2-3024-9f6e-b7ad9da24c8f
 - alterId: 0
   cipher: auto
-  name: 681|TW
-  network: ws
-  password: auto
-  port: 443
-  server: 35.201.203.106
-  skip-cert-verify: true
-  sni: vip.123789.pp.ua
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
   name: '681|TW2 #1'
   network: ws
   port: 37902
@@ -1184,6 +1190,18 @@ proxies:
     headers:
       host: hinet-wap.myddns.me
     path: /index?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 681|TW3
+  network: ws
+  password: auto
+  port: 443
+  server: 35.201.203.106
+  skip-cert-verify: true
+  sni: vip.123789.pp.ua
+  tls: true
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: 695|🇹🇼台湾 01
@@ -1736,7 +1754,7 @@ proxies:
     path: /
 - cipher: aes-256-gcm
   country: 🇼TW
-  name: 824|Pool_🇹TW_1458 |21.50Mb
+  name: 824|Pool_🇹TW_1458 |43.51Mb
   password: ac1309ef-d132-423c-a698-86a61fb050df
   port: 37070
   server: hinet-wap.myddns.me
