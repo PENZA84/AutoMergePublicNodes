@@ -2,7 +2,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '82,265,512,527,530,536,569,601,602,611,612,669,670,691,693,735,736|「网络收集」美国vmess
+  name: '82,265,512,527,530,535,536,569,601,602,611,612,669,670,691,693,735,736|「网络收集」美国vmess
     #1'
   network: ws
   port: '20401'
@@ -492,10 +492,11 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '265,611,612|🇺🇸 _CN_中国->🇺🇸_US_美国 #2'
+  name: '265,601,602,611,612|🇺🇸 _CN_中国->🇺🇸_US_美国 #2'
   network: ws
   port: '16928'
   server: vip3.niuniupremium.xyz
+  servername: ''
   tls: false
   type: vmess
   uuid: 2ab54438-8af9-3711-bf1a-676fcc144586
@@ -505,7 +506,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 265,611,612,627,635|香港5|@ripaojiedian
+  name: 265,627,635|香港5|@ripaojiedian
   network: tcp
   port: '15606'
   server: 183.232.170.47
@@ -515,7 +516,18 @@ proxies:
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 64
   cipher: auto
-  name: '265,611,612,670|广东省广州市 移动 #2'
+  name: '265,581,614,660,668,679,680|US505 N/A/s #2'
+  network: tcp
+  port: '45017'
+  server: 142.0.134.241
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 265,670|广东省广州市 移动
   network: tcp
   port: '54437'
   server: 183.236.51.59
@@ -525,7 +537,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: '265,611,612,670,679,680|🇨🇳广东 #1'
+  name: '265,670,679,680|🇨🇳广东 #1'
   network: tcp
   port: '51707'
   server: 183.236.51.59
@@ -537,7 +549,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '265,601,602,611,612,669,670,680|🇨🇳广东3 #1'
+  name: '265,482,483,513,531,601,602,611,612,669,670,680|🇨🇳广东3 #1'
   network: ws
   port: '16632'
   server: 183.232.142.47
@@ -546,6 +558,7 @@ proxies:
   tfo: false
   tls: false
   type: vmess
+  udp: true
   uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
   ws-opts:
     headers:
@@ -1171,7 +1184,7 @@ proxies:
       Host: tms.dingtalk.com
     path: /
 - cipher: rc4-md5
-  name: '457,463|Relay_-CN_02 #1'
+  name: '456,457,463|Relay_-CN_02 #1'
   obfs: plain
   obfs-param: 64334105622.www.gov.hk
   password: di15PV
@@ -1180,13 +1193,6 @@ proxies:
   protocol-param: 105622:5EF7C3661EBC
   server: video23.cdn.globalnetworktraffic.com
   type: ssr
-- cipher: chacha20-ietf-poly1305
-  country: 🇨CN
-  name: 461,822|Relay_🇳CN-🇸SE_1257 | 2.84Mb
-  password: 99301d55-a41f-4919-986b-1435996533aa
-  port: 20003
-  server: deepf.hjkdsak2.com
-  type: ss
 - alterId: 0
   cipher: auto
   name: '470|🇨🇳中国【YouTube-由零開始】 #5'
@@ -3881,7 +3887,7 @@ proxies:
   udp: true
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 512,669|🇰🇷 韩国+KT电信 2
+  name: 512,535,669|🇰🇷 韩国+KT电信 2
   password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
   port: 20005
   server: service.ouluyun9803.com
@@ -4201,6 +4207,18 @@ proxies:
   password: dbEcUJ
   port: 24603
   server: 211.99.97.4
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 512,535,669,679|KR
+  password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
+  port: 20003
+  server: service.ouluyun9803.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -4935,7 +4953,7 @@ proxies:
   udp: true
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 512,669|🇰🇷 韩国+KT电信
+  name: 512,535,669|🇰🇷 韩国+KT电信
   password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
   port: 26667
   server: service.ouluyun9803.com
@@ -6197,7 +6215,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '528,601,602|🇨🇳CN-106.55.187.139-4457 #1'
+  name: '528,601,602|🇨🇳CN-106.55.187.139-4365 #1'
   network: ws
   port: 8448
   server: 106.55.187.139
@@ -6347,7 +6365,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '528,601,602|🇨🇳CN-124.222.189.225-4525 #1'
+  name: '528,601,602|🇨🇳CN-124.222.189.225-4433 #1'
   network: ws
   port: 80
   server: 124.222.189.225
@@ -6371,7 +6389,7 @@ proxies:
   http-opts:
     path:
     - /
-  name: '528,601,602|🇨🇳CN-124.221.131.176-4551 #1'
+  name: '528,601,602|🇨🇳CN-124.221.131.176-4459 #1'
   network: http
   port: 50797
   server: 124.221.131.176
@@ -6587,7 +6605,7 @@ proxies:
   uuid: 08103798-414e-32b6-8748-2507732d2c51
 - alterId: 0
   cipher: auto
-  name: '529,547,574,601,602|🏁RELAY-185.162.228.229-7122 #1'
+  name: '529,547,574,601,602|🏁RELAY-185.162.228.229-7021 #1'
   network: ws
   port: 443
   server: 185.162.228.229
@@ -6601,7 +6619,7 @@ proxies:
     path: /5QNROSRV
 - alterId: 0
   cipher: auto
-  name: '529,547,584,601,602|🏁RELAY-172.64.198.105-6887 #1'
+  name: '529,547,584,601,602|🏁RELAY-172.67.72.51-6786 #1'
   network: ws
   port: 443
   server: cf-lt.sharecentre.online
@@ -6641,7 +6659,7 @@ proxies:
     path: /shirker
 - alterId: 0
   cipher: auto
-  name: '529,547,584,601,602|🏁RELAY-172.64.100.65-6886 #1'
+  name: '529,547,584,601,602|🏁RELAY-172.67.79.237-6785 #1'
   network: ws
   port: 443
   server: cf-lt.sharecentre.online
@@ -6681,7 +6699,7 @@ proxies:
     path: /speedtest
 - alterId: 0
   cipher: auto
-  name: '529,547,601,602|🏁RELAY-141.193.213.20-1525 #1'
+  name: '529,547,601,602|🏁RELAY-141.193.213.20-1474 #1'
   network: ws
   port: 443
   server: 141.193.213.20
@@ -6734,7 +6752,7 @@ proxies:
     path: /shirker
 - alterId: 0
   cipher: auto
-  name: '529,584,601,602|🏁RELAY-172.64.198.105-6889 #1'
+  name: '529,584,601,602|🏁RELAY-172.67.72.51-6788 #1'
   network: ws
   port: 443
   server: cf-lt.sharecentre.online
@@ -7538,7 +7556,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '601,602|🇨🇳CN-120.195.184.94-4107 #1'
+  name: '601,602|🇨🇳CN-120.195.184.94-4015 #1'
   network: ws
   port: 30023
   server: v01.gutingting.com
@@ -7552,7 +7570,7 @@ proxies:
     path: /aceamedv
 - alterId: 0
   cipher: auto
-  name: '601,602|🇨🇳CN-120.199.84.189-4108 #1'
+  name: '601,602|🇨🇳CN-120.199.84.189-4016 #1'
   network: ws
   port: 30015
   server: v02.gutingting.com
@@ -7566,7 +7584,7 @@ proxies:
     path: /aceamedv
 - alterId: 0
   cipher: auto
-  name: '601,602|🇨🇳CN-120.241.47.253-4158 #1'
+  name: '601,602|🇨🇳CN-120.241.47.253-4066 #1'
   network: ws
   port: 30009
   server: ns01.gutingting.com
@@ -7580,7 +7598,7 @@ proxies:
     path: /aceamedv
 - alterId: 0
   cipher: auto
-  name: '601,602|🇨🇳CN-120.241.47.253-4160 #1'
+  name: '601,602|🇨🇳CN-120.241.47.253-4068 #1'
   network: ws
   port: 30044
   server: ns01.gutingting.com
@@ -7594,7 +7612,7 @@ proxies:
     path: /aceamedv
 - alterId: 0
   cipher: auto
-  name: '601,602|🇨🇳CN-120.199.84.189-4161 #1'
+  name: '601,602|🇨🇳CN-120.199.84.189-4069 #1'
   network: ws
   port: 30041
   server: v02.gutingting.com
@@ -7608,7 +7626,7 @@ proxies:
     path: /aceamedv
 - alterId: 0
   cipher: auto
-  name: '601,602|🇨🇳CN-183.233.187.138-4202 #1'
+  name: '601,602|🇨🇳CN-183.233.187.138-4110 #1'
   network: ws
   port: 5001
   server: steam.dnspro.icu
@@ -7622,7 +7640,7 @@ proxies:
     path: /iso
 - alterId: 0
   cipher: auto
-  name: '601,602|🇨🇳CN-183.233.187.138-4227 #1'
+  name: '601,602|🇨🇳CN-183.233.187.138-4135 #1'
   network: ws
   port: 9111
   server: st-1.dnspro.icu
@@ -7636,7 +7654,7 @@ proxies:
     path: /iso
 - alterId: 0
   cipher: auto
-  name: '601,602|🇨🇳CN-183.233.187.137-4228 #1'
+  name: '601,602|🇨🇳CN-183.233.187.137-4136 #1'
   network: ws
   port: 5100
   server: st-2.dnspro.icu
@@ -7650,7 +7668,7 @@ proxies:
     path: /iso
 - alterId: 0
   cipher: auto
-  name: '601,602|🇨🇳CN-183.233.187.139-4232 #1'
+  name: '601,602|🇨🇳CN-183.233.187.139-4140 #1'
   network: ws
   port: 20025
   server: sh-cn-1.dnspro.icu
@@ -7662,23 +7680,9 @@ proxies:
     headers:
       Host: sh-cn-1.dnspro.icu
     path: /iso
-- alterId: 0
-  cipher: auto
-  name: '601,602|🇨🇳CN-120.241.146.21-0089 #1'
-  network: ws
-  port: 35055
-  server: cmbe3-vdn.zhs.company
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 1196c95e-16b4-3a86-b12a-33b8c3417dda
-  ws-opts:
-    headers:
-      Host: hktkj9.zhs.company
-    path: /zhs
 - alterId: 4
   cipher: auto
-  name: '601,602|🇨🇳CN-157.254.193.68-7636 #1'
+  name: '601,602|🇨🇳CN-157.254.193.68-7535 #1'
   network: ws
   port: 10020
   server: 157.254.193.68
@@ -8237,6 +8241,13 @@ proxies:
     headers:
       Host: www.22103619.xyz
     path: /path/1714306882216
+- cipher: chacha20-ietf-poly1305
+  country: 🇨CN
+  name: 822|Relay_🇳CN-🇸SE_1257 | 2.84Mb
+  password: 99301d55-a41f-4919-986b-1435996533aa
+  port: 20003
+  server: deepf.hjkdsak2.com
+  type: ss
 - cipher: aes-256-cfb
   country: 🇨🇳CN
   name: 822|Relay_🇨🇳CN-🇳CN_1258 |92.00Mb
