@@ -2,7 +2,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 0,3,258,264,387,388,390,391,505,508,514,535,578,600,601,610,611,626,633,634,636,668,669,679,713,769|🇸🇬新加坡高速接入点-02
+  name: 0,3,258,264,387,388,390,391,508,514,535,578,600,601,610,611,626,633,634,636,668,669,679,713,769|🇸🇬新加坡高速接入点-02
   network: ws
   port: '2052'
   server: cfcdn2.sanfencdn9.com
@@ -18,9 +18,12 @@ proxies:
     path: /video/3YKfzGw4
 - alterId: 0
   cipher: auto
-  name: '0,3,157,264,387,388,390,391,494,578,600,601,610,611,713|未知_0530051 #1'
+  h2-opts: {}
+  http-opts: {}
+  name: 0,3,157,264,387,388,390,391,494,578,600,601,610,611,713,821|Relay_-🇺AU_1125
+    |33.50Mb
   network: ws
-  port: '2052'
+  port: 2052
   server: 104.17.156.224
   servername: ''
   skip-cert-verify: false
@@ -59,14 +62,18 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '0,3,264,387,388,390,391,435,494,514,526,535,578,600,601,610,611,679,692,713,839|🇺🇸_US_美国->🇫🇷_FR_法国
+  h2-opts: {}
+  http-opts: {}
+  name: '0,3,264,387,388,390,391,435,494,514,526,535,578,600,601,610,611,679,692,713,821,839|🇺🇸_US_美国->🇫🇷_FR_法国
     #9'
   network: ws
   port: 2082
   server: 104.21.8.157
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
+  udp: true
   uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
   ws-opts:
     headers:
@@ -120,7 +127,7 @@ proxies:
   country: US
   h2-opts: {}
   http-opts: {}
-  name: 1,2,158,511,561,600,601,636|🇺🇸_US_美国->🇮🇳_IN_印度_1
+  name: 1,2,158,511,561,600,601,636,821|Relay_-🇳IN_1146 |12.24Mb
   network: ws
   port: 2052
   server: 172.67.164.78
@@ -144,10 +151,14 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '1,2,511,561,636,678|🇺🇸US美国36 30.4KB/s #1'
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: '1,2,455,511,561,636,678|🇺🇸US美国36 30.4KB/s #1'
   network: ws
   port: 2082
   server: 104.21.8.157
+  servername: s1c.v2.v001sss.xyz
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -2983,21 +2994,6 @@ proxies:
   ws-headers:
     Host: usys.qiutan.pw
   ws-path: /videos
-- alterId: 0
-  cipher: auto
-  name: '561,636,690,692|美国 CloudFlare节点 #67'
-  network: ws
-  port: '2082'
-  server: s1c.v2.v001sss.xyz
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
 - alterId: 0
   cipher: auto
   name: 562|🇺🇸_US_美国->_DE_国
