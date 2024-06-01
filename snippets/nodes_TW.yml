@@ -59,7 +59,7 @@ proxies:
   type: vmess
   uuid: 8907aeec-189d-48d9-b557-fb242a4d8127
 - cipher: rc4-md5
-  name: 163|🇼🇸 IPLC｜冀台 [2.0][原生]
+  name: 163,824|Relay_-🇨🇳CN_1051
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -72,7 +72,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 163|🇼🇸 IPLC｜台湾媒体专线-1 [2.0][NF][Dis...
+  name: 163,824|Relay_-CN_1037
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -98,7 +98,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 163|🇼🇸 IPLC｜浙台 [2.0][原生]
+  name: 163,824|Relay_-🇨🇳CN_1069
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -111,7 +111,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 163|🇼🇸 IPLC｜深台 [2.0][原生]
+  name: 163,824|Relay_-🇨🇳CN_1058
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -124,7 +124,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 163|🇼🇸 IPLC｜湘台 [2.0][原生]
+  name: 163,824|_1083
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -137,7 +137,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 163|🇼🇸 IPLC｜珠台 [2.0][原生]
+  name: 163,824|Relay_-🇨🇳CN_1050
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -150,7 +150,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 163|🇼🇸 IPLC｜苏台 [2.0][原生]
+  name: 163,824|_1076
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -163,7 +163,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 163|🇼🇸 IPLC｜闽台 [2.0][原生]
+  name: 163,824|Relay_-🇨🇳CN_1077
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -206,17 +206,37 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '267,529,670|🔒 VM-WS-TLS 🇹🇼 TW-154.40.60.17... #1'
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 267,529,670,824|Relay_🇸US-ZZ_1581
   network: ws
-  port: '12945'
+  port: 12945
   server: 154.40.60.172
   servername: 55.lwdh.us
+  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
   ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  country: 🇼TW
+  h2-opts: {}
+  http-opts: {}
+  name: 267,517,529,532,603,604,670,681,682,695,824|🇹TW_1470
+  network: ws
+  port: 31945
+  server: 103.159.206.35
+  servername: 103.159.206.35
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
+  ws-opts:
     headers:
-      Host: ''
+      HOST: 103.159.206.35
     path: /
 - alterId: 0
   cipher: auto
@@ -232,21 +252,6 @@ proxies:
     headers:
       Host: hinet-wap.myddns.me
     path: /index?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 267,517,529,532,603,604,670,681,682,695|🇹🇼TW-103.159.206.35-0342
-  network: ws
-  port: 31945
-  server: 103.159.206.35
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
 - alterId: '0'
   cipher: auto
   name: 280|[🇹🇼]103.131.189.212:56967(8110...
@@ -1094,6 +1099,19 @@ proxies:
   tls: true
   type: vmess
   uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b
+- client-fingerprint: chrome
+  name: 671|🇹🇼 台湾省+中华电信(HiNet)数据中心
+  network: ws
+  password: moist
+  port: 13688
+  server: 118.163.128.81
+  skip-cert-verify: false
+  sni: trojan.freenods.sbs
+  type: trojan
+  ws-opts:
+    headers:
+      Host: trojan.freenods.sbs
+    path: /
 - cipher: aes-256-cfb
   name: 680|TG频道@mfbpn-台湾3
   obfs: tls1.2_ticket_auth
@@ -1719,6 +1737,22 @@ proxies:
   ws-opts:
     headers:
       Host: tw02.sulink.one
+    path: /
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 824|Relay_-🇼TW_1154
+  network: ws
+  port: 8080
+  server: 104.18.6.141
+  skip-cert-verify: true
+  type: vmess
+  udp: true
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      Host: oiictw.yydsii.com
     path: /
 - cipher: aes-256-cfb
   name: 874|畅行 台湾 1
