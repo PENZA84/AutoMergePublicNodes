@@ -1,15 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 14|台湾|广州移动|Polo|1x
-  network: tcp
-  port: 39872
-  server: gdcm.r1u.cn
-  tls: false
-  type: vmess
-  uuid: f010dd01-c54a-3c03-95ce-0838214259c6
-- alterId: 0
-  cipher: auto
   name: 69|台湾01
   network: tcp
   port: '60201'
@@ -94,7 +85,7 @@ proxies:
   type: vmess
   uuid: 8907aeec-189d-48d9-b557-fb242a4d8127
 - cipher: rc4-md5
-  name: 164|🇼🇸 IPLC｜冀台 [2.0][原生]
+  name: 164,829|Relay_-🇨🇳CN_791
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -107,7 +98,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 164|🇼🇸 IPLC｜台湾媒体专线-1 [2.0][NF][Dis...
+  name: 164,829|_758
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -120,7 +111,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 164|🇼🇸 IPLC｜沪台 [2.0][原生]
+  name: 164,829|Relay_-🇨🇳CN_772
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -133,7 +124,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 164|🇼🇸 IPLC｜浙台 [2.0][原生]
+  name: 164,829|_773
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -146,7 +137,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 164|🇼🇸 IPLC｜深台 [2.0][原生]
+  name: 164,829|Relay_-🇨🇳CN_778
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -159,7 +150,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 164|🇼🇸 IPLC｜湘台 [2.0][原生]
+  name: 164,829|_776
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -172,7 +163,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 164|🇼🇸 IPLC｜珠台 [2.0][原生]
+  name: 164,829|Relay_-🇨🇳CN_794
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -185,7 +176,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 164|🇼🇸 IPLC｜苏台 [2.0][原生]
+  name: 164,829|_765
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -198,7 +189,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 164|🇼🇸 IPLC｜闽台 [2.0][原生]
+  name: 164,829|_753
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -256,9 +247,11 @@ proxies:
     path: /24714522
 - alterId: 0
   cipher: auto
-  name: 269,499,519,531,605,606,684,718|台湾_0602004
+  h2-opts: {}
+  http-opts: {}
+  name: 269,499,519,531,605,606,684,718,829|Relay_-🇼TW_923
   network: ws
-  port: '80'
+  port: 80
   server: tw1g.forlive.live
   servername: ''
   tls: false
@@ -284,21 +277,10 @@ proxies:
     path: /index?ed=2560
 - alterId: 0
   cipher: auto
-  name: '269,531,672|🔒 VM-WS-TLS 🇹🇼 TW-154.40.60.17... #1'
-  network: ws
-  port: '12945'
-  server: 154.40.60.172
-  servername: 55.lwdh.us
-  tls: true
-  type: vmess
-  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 269,531,534,672,683,684,697|🇹🇼TW-103.159.206.35-0342
+  country: 🇼TW
+  h2-opts: {}
+  http-opts: {}
+  name: 269,531,534,672,683,684,697,829|TW_1221
   network: ws
   port: 31945
   server: 103.159.206.35
@@ -308,8 +290,22 @@ proxies:
   type: vmess
   uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
   ws-opts:
-    headers:
-      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 269,531,672,829|Relay_🇺🇸US-🏁ZZ_1579
+  network: ws
+  port: 12945
+  server: 154.40.60.172
+  servername: 55.lwdh.us
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+  ws-opts:
     path: /
 - alterId: '0'
   cipher: auto
@@ -1115,6 +1111,16 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
+  name: 631,639|台湾|@ripaojiedian
+  network: tcp
+  port: '34998'
+  server: 879xhl1.hsspr5bu1-tw02.my777999.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 33aefd89-3285-4347-9083-6249711f02e9
+- alterId: 0
+  cipher: auto
   name: 649|v2cross.com - 台湾省花莲县中华电信 4
   network: tcp
   port: '39999'
@@ -1733,6 +1739,22 @@ proxies:
   ws-opts:
     headers:
       Host: tw02.sulink.one
+    path: /
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 829|Relay_-TW_806
+  network: ws
+  port: 8080
+  server: 104.18.6.141
+  skip-cert-verify: true
+  type: vmess
+  udp: true
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      Host: oiictw.yydsii.com
     path: /
 - cipher: aes-256-cfb
   name: 879|畅行 台湾 1
