@@ -12,15 +12,18 @@ proxies:
   uuid: f730a0a8-437d-455a-b898-f5c9ff9f8d16
 - alterId: 0
   cipher: auto
-  name: '0,3,269,270,392,393,395,396,519,531,583,605,606,615,616,718,720|未知_0602039
-    #2'
+  h2-opts: {}
+  http-opts: {}
+  name: 0,3,269,270,392,393,395,396,519,531,583,605,606,615,616,718,720,829|Relay_
+    | 5.25Mb
   network: ws
-  port: '8880'
+  port: 8880
   server: 104.19.40.237
   servername: ''
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: false
   type: vmess
+  udp: true
   uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
   ws-opts:
     headers:
@@ -44,10 +47,12 @@ proxies:
     path: /d/65dd503.TG.WangCai2.WangCai_8:107690
 - alterId: 0
   cipher: auto
-  name: '0,3,269,270,392,393,395,396,519,531,583,605,606,615,616,718,720|未知_0602043
-    #2'
+  h2-opts: {}
+  http-opts: {}
+  name: 0,3,269,270,392,393,395,396,519,531,583,605,606,615,616,718,720,829|Relay_
+    | 9.17Mb
   network: ws
-  port: '8880'
+  port: 8880
   server: 104.19.40.211
   servername: ''
   skip-cert-verify: false
@@ -76,7 +81,7 @@ proxies:
     path: /d/65dd503.TG.WangCai2.WangCai_8:107690
 - alterId: 0
   cipher: none
-  name: '0,3,263,269,270,392,393,395,396,499,510,513,519,531,583,605,606,615,616,704,712,718,720|荷兰_0602001
+  name: '0,3,263,269,270,392,393,395,396,499,510,513,519,531,583,605,606,615,616,664,672,704,712,718,720|荷兰_0602001
     #2'
   network: ws
   port: '80'
@@ -169,7 +174,7 @@ proxies:
 - alterId: 0
   cipher: none
   name: '0,3,263,269,270,392,393,395,396,499,513,531,583,605,606,615,616,684|未知823
-    20.1MB/s #1'
+    20.1MB/s #2'
   network: ws
   port: '80'
   server: 190.93.247.155
@@ -200,7 +205,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 1,2,270,566,605,606,640|🇺🇸_US_美国->🇬🇧_GB_英国_1
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 1,2,270,460,566,605,606,640|🇺🇸_US_美国->🇬🇧_GB_英国_1
   network: ws
   port: 8880
   server: 104.19.40.237
@@ -271,12 +279,15 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
+  country: 🇨CO
   fingerprint: ''
-  name: '1,2,262,270,519,566,605,606,718|荷兰_0602018 #1'
+  h2-opts: {}
+  http-opts: {}
+  name: 1,2,262,270,460,519,566,605,606,718,829|Relay_ | 6.31Mb
   network: ws
-  port: '80'
+  port: 80
   server: 188.114.97.3
-  servername: ''
+  servername: De1.vmess.site.
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -284,7 +295,7 @@ proxies:
   uuid: b25f8da6-54a2-49b3-bacf-8403b4c36556
   ws-opts:
     headers:
-      Host: ''
+      HOST: De1.vmess.site.
     path: /vmess#DONT-FORGET-TO-SUPPORT-SSHMAX.NET-TO-KEEP-THIS-SERVER-ALIVE
 - alterId: 0
   cipher: auto
@@ -303,25 +314,34 @@ proxies:
       Host: ''
     path: /d/65dd503.TG.WangCai2.WangCai_8:107690
 - alterId: 0
-  cipher: none
+  cipher: auto
   client-fingerprint: chrome
+  country: 🏁ZZ
   fingerprint: ''
-  name: 1,2,262|d04a21d9ebf44aa2a2fe4f7e019a68...
+  h2-opts: {}
+  http-opts: {}
+  name: 1,2,262,829|Relay_ | 3.72Mb
   network: ws
   port: 80
   server: www.speedtest.net
+  servername: Se2.vmess.site.
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: false
   uuid: 31488365-7b6a-434a-8b7b-8f35012c6a22
   ws-opts:
+    headers:
+      HOST: Se2.vmess.site.
     path: /vmess#DONT-FORGET-TO-SUPPORT-SSHMAX.NET-TO-KEEP-THIS-SERVER-ALIVE
 - alterId: 0
   cipher: auto
-  name: '1,2,566,641,695,697|美国 CloudFlare节点 #46'
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 1,2,460,566,641,695,697,829|Relay_-🇫🇷FR_1204
   network: ws
-  port: '2082'
+  port: 2082
   server: s1c.v2.v001sss.xyz
   servername: ''
   skip-cert-verify: true
@@ -330,11 +350,13 @@ proxies:
   uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
   ws-opts:
     headers:
-      Host: ''
+      host: s1c.v2.v001sss.xyz
     path: /
 - alterId: 0
   cipher: auto
-  name: '1,2,270,516,566,605,606,640,641|🇺🇸_US_美国->🇫🇷_FR_法国_2 #1'
+  h2-opts: {}
+  http-opts: {}
+  name: 1,2,270,516,566,605,606,640,641,829|Relay_-🇫🇷FR_1201
   network: ws
   port: 2082
   server: 172.67.130.140
@@ -349,14 +371,17 @@ proxies:
       host: s1c.v2.v001sss.xyz
     path: /
 - alterId: 0
-  cipher: none
+  cipher: auto
   client-fingerprint: chrome
+  country: 🏁ZZ
   fingerprint: ''
-  name: 1,2,262,270,605,606,683|未知823 20.1MB/s
+  h2-opts: {}
+  http-opts: {}
+  name: 1,2,262,270,460,605,606,683,829|Relay_ | 6.44Mb
   network: ws
   port: 80
   server: 190.93.247.155
-  servername: ''
+  servername: Uk2.vmess.site.
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -364,11 +389,14 @@ proxies:
   uuid: d9aaf6f8-0ef7-499c-830a-c7e5e56f3bd8
   ws-opts:
     headers:
-      host: Uk2.vmess.site.
+      HOST: Uk2.vmess.site.
     path: /vmess#DONT-FORGET-TO-SUPPORT-SSHMAX.NET-TO-KEEP-THIS-SERVER-ALIVE
 - alterId: 0
   cipher: auto
-  name: 1,2,270,516,566,605,606,641,683|未知72
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 1,2,270,460,516,566,605,606,641,683,829|Relay_-🇫🇷FR_1231
   network: ws
   port: 2082
   server: 104.21.8.157
