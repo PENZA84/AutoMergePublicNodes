@@ -299,7 +299,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 158,267,268,517,529,603,604,629,716|香港_0602008
+  name: 158,267,268,517,529,603,604,716|香港_0602008
   network: ws
   port: '12909'
   server: 210.3.159.224
@@ -314,9 +314,11 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 158,267,268,514,529,603,604,616,670,716|香港_0602007
+  h2-opts: {}
+  http-opts: {}
+  name: 158,267,268,514,529,603,604,616,670,716,824|_1143 |29.39Mb
   network: ws
-  port: '28681'
+  port: 28681
   server: 47.242.22.171
   servername: ''
   skip-cert-verify: true
@@ -325,8 +327,6 @@ proxies:
   udp: true
   uuid: 3b1072ce-d096-46c2-a3e7-08b4f58538f5
   ws-opts:
-    headers:
-      Host: ''
     path: /
 - alterId: 0
   cipher: auto
@@ -439,7 +439,7 @@ proxies:
       Host: pqhk.chinayyds.xyz
     path: /?ed=2048
 - cipher: rc4-md5
-  name: 163|🇭🇰 IPLC｜冀港 [2.0][原生]
+  name: 163,824|Relay_-🇨🇳CN_1080 |116.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -452,7 +452,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 163|🇭🇰 IPLC｜沪港 [2.0][原生]
+  name: 163,824|Relay_-🇨🇳CN_1048 |97.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -465,7 +465,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 163|🇭🇰 IPLC｜浙港 [2.0][原生]
+  name: 163,824|Relay_-🇨🇳CN_1083 |195.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -478,7 +478,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 163|🇭🇰 IPLC｜深港 [2.0][原生]
+  name: 163,824|Relay_-🇨🇳CN_1066 |732.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -491,7 +491,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 163|🇭🇰 IPLC｜湘港 [2.0][原生]
+  name: 163,824|Relay_-🇨🇳CN_1055 |102.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -504,7 +504,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 163|🇭🇰 IPLC｜珠港 [2.0][原生]
+  name: 163,824|Relay_-🇨🇳CN_1051 |188.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -517,7 +517,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 163|🇭🇰 IPLC｜苏港 [2.0][原生]
+  name: 163,824|Relay_-🇨🇳CN_1076 |79.60Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -3343,21 +3343,29 @@ proxies:
     path: /aln/12?ed=2048
 - alterId: 0
   cipher: auto
-  name: 497|香港_060213031
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: 497,824|Pool_🇭🇰HK_1388 |65.73Mb
   network: tcp
-  port: '10010'
+  port: 10010
   server: xg3.tcity8.buzz
-  servername: ''
+  servername: xg3.tcity8.buzz
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 84e276ba-821a-463d-88fa-4a50218ae263
 - alterId: 0
   cipher: auto
-  name: 497|香港_060213033
+  country: 🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: 497,824|Pool_HK_1385 |46.10Mb
   network: tcp
-  port: '10010'
+  port: 10010
   server: xg1.tcity8.buzz
-  servername: ''
+  servername: xg1.tcity8.buzz
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 84e276ba-821a-463d-88fa-4a50218ae263
@@ -3405,7 +3413,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 514|🇭🇰 HK 6 → tg@nicevpn123
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: 514,824|🇰HK_1386 |26.89Mb
   network: ws
   port: 80
   server: 182.16.1.194
@@ -4224,7 +4235,7 @@ proxies:
     path: 55021a7c-bd6c-418e-be95-ceac8ba27b45-vm
 - alterId: 0
   cipher: auto
-  name: '590,695|美国 CloudFlare节点 #62'
+  name: '590,695|美国 CloudFlare节点 #58'
   network: ws
   port: '8080'
   server: yh1.freeh1.xyz
@@ -5329,6 +5340,17 @@ proxies:
   ws-headers:
     Host: vn3.thanhhaivpn.name.vn
   ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 629,637,638|CN_youtube@资源分享师_233
+  network: tcp
+  port: 15606
+  server: 183.232.170.47
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - cipher: aes-256-cfb
   name: 680|TG频道@mfbpn-香港2
   obfs: tls1.2_ticket_auth
@@ -5914,6 +5936,19 @@ proxies:
     headers:
       Host: hk06.susulian.top
     path: /
+- alterId: 0
+  cipher: auto
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: 824|Pool_🇰HK_1387 |39.32Mb
+  network: tcp
+  port: 19901
+  server: xg.dashuai.cyou
+  servername: xg.dashuai.cyou
+  skip-cert-verify: true
+  type: vmess
+  uuid: c60a35cc-6a67-486d-82ed-3a072bb46f22
 - cipher: aes-256-cfb
   name: 874|专线 香港 1
   obfs: tls1.2_ticket_auth
