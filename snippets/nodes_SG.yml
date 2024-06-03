@@ -196,14 +196,19 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '67,536|Singapore #6'
+  country: 🇺🇸 US
+  h2-opts: {}
+  http-opts: {}
+  name: '67,470,536|Singapore #6'
   network: tcp
   port: '41001'
   server: bgroup.node3.v.nodelist-gfwairport2.top
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 2155145a-b1b5-443a-8977-670f6bd10f02
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: 71|新加坡01
@@ -427,7 +432,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '161,271,272,610,611,669,677|🔒 VM-WS-NA 🇸🇬 SG-128.199.161.2... #2'
+  name: '161,272,610,611,669|🔒 VM-WS-NA 🇸🇬 SG-128.199.161.2... #1'
   network: ws
   port: '99'
   server: 128.199.161.230
@@ -1260,7 +1265,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '271,272,504,521,524,536,610,611,723|新加坡_0602008 #1'
+  name: '271,272,504,521,524,536,610,611,669,677,723|新加坡_0602008 #1'
   network: ws
   port: '99'
   server: 128.199.161.230
@@ -1316,26 +1321,21 @@ proxies:
     path: /RACEVPN
 - alterId: 0
   cipher: auto
-  name: '271,623|%F0%9F%87%B8%F0%9F%87%AC%20Sin... #5'
+  country: 🇬SG
+  h2-opts: {}
+  http-opts: {}
+  name: '271,465,623|%F0%9F%87%B8%F0%9F%87%AC%20Sin... #5'
   network: tcp
   port: '2083'
   server: sg2-v2ray.ipracevpn.com
   servername: ''
+  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 7cc6a250-f767-4d4b-9421-03b1bbf23f88
 - alterId: 0
   cipher: auto
-  name: '271|🇸🇬 新加坡(欢迎订阅Youtube破解资源君) #1'
-  network: tcp
-  port: '43613'
-  server: 129.226.215.95
-  tls: false
-  type: vmess
-  uuid: 9e1be3ad-911d-4dcc-822f-f8f8e79f62e2
-- alterId: 0
-  cipher: auto
-  name: '271,620,621|🇸🇬 新加坡(欢迎订阅Youtube破解资源君) #7'
+  name: '271,620,621|🇸🇬 新加坡(欢迎订阅Youtube破解资源君) #5'
   network: ws
   port: '443'
   server: v2ray3.bonds.id
@@ -1346,6 +1346,20 @@ proxies:
     headers:
       Host: v2ray3.bonds.id
     path: /howdy
+- alterId: 0
+  cipher: auto
+  name: '271,504,623,669,677|🔒 VM-WS-NONE 🇸🇬 SG-152.42.164.... #2'
+  network: ws
+  port: 29320
+  server: 152.42.164.199
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7fef9dc9-d6c2-459f-b60b-2bb2186081e4
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
   name: '271,669,677,689|未知972 #2'
@@ -1384,20 +1398,6 @@ proxies:
     headers:
       Host: ''
     path: /free
-- alterId: 0
-  cipher: auto
-  name: '271,504,623,669,677|🔒 VM-WS-NONE 🇸🇬 SG-152.42.164.... #2'
-  network: ws
-  port: 29320
-  server: 152.42.164.199
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7fef9dc9-d6c2-459f-b60b-2bb2186081e4
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
 - cipher: aes-256-cfb
   name: 272|🇬SG-103.172.116.79-0115
   password: NvS8N4Vf8qAGPSCL
@@ -1496,7 +1496,8 @@ proxies:
   type: ss
 - alterId: 0
   cipher: aes-256-cfb
-  name: 272,688|未知72
+  country: 🏁ZZ
+  name: 272,470,688|未知72
   password: a3GFYt36Sm82Vys9
   port: 9000
   server: 103.172.116.79
@@ -2977,6 +2978,27 @@ proxies:
   tls: false
   type: vmess
   uuid: 4770d44f-e799-4b4e-988d-b5ce56c4c3a0
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: 466,470|🏁ZZ_363
+  password: bf7v334KKDV3YDhH
+  port: 9070
+  server: 103.172.116.103
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: 466,470|🏁ZZ_359
+  password: UWZQeLRWnkqgkseq
+  port: 9032
+  server: 103.172.116.103
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇬 SG
+  name: 466,470| SG_181
+  password: BejrQvtu9sqUeNuZ
+  port: 9024
+  server: 103.172.116.94
+  type: ss
 - alterId: 0
   cipher: auto
   name: 479|SG_youtube@资源分享师_38
@@ -4982,6 +5004,16 @@ proxies:
     headers:
       Host: namava.ir
     path: /JAGOANSSH/
+- alterId: 0
+  cipher: auto
+  name: 669|🔒 VM-TCP-TLS 🇸🇬 SG-51.79.156.1...
+  network: tcp
+  port: 2086
+  server: 51.79.156.184
+  servername: top.varzeshimedia.com
+  tls: true
+  type: vmess
+  uuid: bad1b827-f580-4e69-8012-dfade7c59c07
 - client-fingerprint: chrome
   name: 678|🇸🇬 新加坡+Amazon数据中心 2
   network: ws
