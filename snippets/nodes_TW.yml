@@ -85,7 +85,7 @@ proxies:
   type: vmess
   uuid: 8907aeec-189d-48d9-b557-fb242a4d8127
 - cipher: rc4-md5
-  name: 164|🇼🇸 IPLC｜冀台 [2.0][原生]
+  name: 164,830|Relay_-🇨🇳CN_821 |199.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -98,7 +98,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 164|🇼🇸 IPLC｜台湾媒体专线-1 [2.0][NF][Dis...
+  name: 164,830|Relay_-🇨🇳CN_790 |98.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -111,7 +111,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 164|🇼🇸 IPLC｜沪台 [2.0][原生]
+  name: 164,830|Relay_-🇨🇳CN_829 |90.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -137,7 +137,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 164|🇼🇸 IPLC｜深台 [2.0][原生]
+  name: 164,830|Relay_ |248.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -150,7 +150,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 164|🇼🇸 IPLC｜湘台 [2.0][原生]
+  name: 164,830|Relay_-🇨🇳CN_824 |117.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -163,7 +163,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 164|🇼🇸 IPLC｜珠台 [2.0][原生]
+  name: 164,830|Relay_-🇨🇳CN_803 |99.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -176,7 +176,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 164|🇼🇸 IPLC｜苏台 [2.0][原生]
+  name: 164,830|_815 |105.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -189,7 +189,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 164|🇼🇸 IPLC｜闽台 [2.0][原生]
+  name: 164,830|Relay_-🇨🇳CN_798 |176.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -232,7 +232,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '269,684,685|TW #2'
+  name: '269,684,685|TW5 #2'
   network: ws
   port: '38873'
   server: 34.81.192.70
@@ -247,9 +247,11 @@ proxies:
     path: /24714522
 - alterId: 0
   cipher: auto
-  name: 269,500,511,520,532,685,705,719|台湾_0602004
+  h2-opts: {}
+  http-opts: {}
+  name: 269,500,511,520,532,685,705,719,830|Relay_-TW_853 | 6.12Mb
   network: ws
-  port: '80'
+  port: 80
   server: tw1g.forlive.live
   servername: ''
   tls: false
@@ -261,18 +263,34 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '269,532,673|🔒 VM-WS-TLS 🇹🇼 TW-154.40.60.17... #1'
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 269,532,673,830|Relay_🇺🇸US-ZZ_1634 |32.44Mb
   network: ws
-  port: '12945'
+  port: 12945
   server: 154.40.60.172
   servername: 55.lwdh.us
+  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
   ws-opts:
-    headers:
-      Host: ''
     path: /
+- alterId: 0
+  cipher: auto
+  name: '269,673,685|TW2 #1'
+  network: ws
+  port: '37902'
+  server: 36.233.66.195
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1057c0f5-8662-4902-8d2f-eb6e3ecdf5c5
+  ws-opts:
+    headers:
+      Host: hinet-wap.myddns.me
+    path: /index?ed=2560
 - alterId: 0
   cipher: auto
   name: 269,532,535,673,684,685,698|🇹🇼TW-103.159.206.35-0342
@@ -288,20 +306,6 @@ proxies:
     headers:
       Host: ''
     path: /
-- alterId: 0
-  cipher: auto
-  name: '269,673,685|TW6 #2'
-  network: ws
-  port: '37902'
-  server: 36.233.66.195
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1057c0f5-8662-4902-8d2f-eb6e3ecdf5c5
-  ws-opts:
-    headers:
-      Host: hinet-wap.myddns.me
-    path: /index?ed=2560
 - alterId: '0'
   cipher: auto
   http-opts:
@@ -1441,18 +1445,18 @@ proxies:
   uuid: 49933ab7-7ec2-3024-9f6e-b7ad9da24c8f
 - alterId: 0
   cipher: auto
-  name: '684|TW3 160.3KB/s #1'
+  name: 684|TW2
   network: ws
-  port: 80
-  server: tw1g.forlive.live
+  port: 37902
+  server: 36.233.66.195
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: bb7d0ae0-85bd-4d9f-8391-b3d927ccb497
+  uuid: 1057c0f5-8662-4902-8d2f-eb6e3ecdf5c5
   ws-opts:
     headers:
-      host: tms.dingtalk.com
-    path: /
+      host: hinet-wap.myddns.me
+    path: /index?ed=2560
 - alterId: 0
   cipher: auto
   name: 684|TW4
@@ -1467,18 +1471,18 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '684|TW6 #1'
+  name: 684|TW7 410.1KB/s
   network: ws
-  port: 37902
-  server: 36.233.66.195
+  port: 80
+  server: tw1g.forlive.live
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 1057c0f5-8662-4902-8d2f-eb6e3ecdf5c5
+  uuid: bb7d0ae0-85bd-4d9f-8391-b3d927ccb497
   ws-opts:
     headers:
-      host: hinet-wap.myddns.me
-    path: /index?ed=2560
+      host: tms.dingtalk.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 698|🇹🇼台湾 01
@@ -1987,6 +1991,46 @@ proxies:
     headers:
       Host: tw02.sulink.one
     path: /
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 830|Relay_-🇼TW_967 | 0.38Mb
+  network: ws
+  port: 8080
+  server: 172.67.172.219
+  skip-cert-verify: true
+  type: vmess
+  udp: true
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      Host: oiictw.yydsii.com
+    path: /
+- cipher: aes-256-gcm
+  country: 🇼TW
+  name: 830|Pool_TW_1256 |81.52Mb
+  password: f2eebeee-7af0-4bc5-a306-e08d84f22734
+  port: 37070
+  server: hinet-wap.myddns.me
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 830|Relay_🏁ZZ-TW_1713
+  network: ws
+  port: 8080
+  server: 104.19.47.199
+  servername: oiictw.yydsii.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      HOST: oiictw.yydsii.com
+    path: /?ed=2048&Telegram🇨 @WangCai2
 - cipher: aes-256-cfb
   name: 880|畅行 台湾 1
   obfs: tls1.2_ticket_auth
