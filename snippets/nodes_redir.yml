@@ -1,9 +1,9 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '0,3,159,269,270,500,532,584,606,607|🏁RELAY-104.17.156.224-2054 #3'
+  name: '0,3,159,269,270,532,584,606,607,616,617|🇺🇸 _US_美国->🇮🇳_IN_印度 #1'
   network: ws
-  port: 2052
+  port: '2052'
   server: 104.17.156.224
   servername: ''
   skip-cert-verify: false
@@ -16,9 +16,9 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,193,197,270,500,584,606,607|🏁RELAY-172.67.144.155-2057 #2'
+  name: '0,3,193,197,270,584,606,607,616,617|🇺🇸 _US_美国->🇨🇦_CA_加拿大 #1'
   network: ws
-  port: 2052
+  port: '2052'
   server: cdncdncdncdn.784654.xyz
   servername: ''
   skip-cert-verify: false
@@ -57,9 +57,11 @@ proxies:
     path: /apple
 - alterId: 0
   cipher: auto
-  name: '1,2,270,520,606,607,642,719|未知_0602069 #1'
+  h2-opts: {}
+  http-opts: {}
+  name: 1,2,270,520,606,607,642,719,830|Relay_ |33.16Mb
   network: ws
-  port: '2052'
+  port: 2052
   server: 104.17.156.224
   servername: ''
   skip-cert-verify: true
@@ -68,16 +70,20 @@ proxies:
   uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8
   ws-opts:
     headers:
-      Host: ''
+      host: in4.wish.ml
     path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
+  country: 🇺🇸US
   fingerprint: ''
-  name: '1,2,262,642|🇺🇸_US_美国->🇨🇦_CA_加拿大 #8'
+  h2-opts: {}
+  http-opts: {}
+  name: 1,2,262,642,830|Relay_ |14.32Mb
   network: ws
   port: 2052
   server: cdncdncdncdn.784654.xyz
+  servername: ca-cfcdn.aikunapp.com
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -85,7 +91,7 @@ proxies:
   uuid: 8c8dabbc-93a6-44ad-b878-0d980fa249d1
   ws-opts:
     headers:
-      host: ca-cfcdn.aikunapp.com
+      HOST: ca-cfcdn.aikunapp.com
     path: /index?ed=2048
 - name: '1,2|_US_->_AU__3 #1'
   network: ws
@@ -302,7 +308,7 @@ proxies:
     path: /hongkong
 - alterId: 0
   cipher: auto
-  name: 269,393,394,396,397,616,617,665,673|🔒 VM-TCP-NONE 🇮🇷 IR-188.213.19...
+  name: '269,393,394,396,397,665,673|🔒 VM-TCP-NONE 🇮🇷 IR-188.213.19... #1'
   network: tcp
   port: 22452
   server: 188.213.197.27
@@ -311,7 +317,7 @@ proxies:
   uuid: f730a0a8-437d-455a-b898-f5c9ff9f8d16
 - alterId: 0
   cipher: auto
-  name: '269,270,393,394,396,397,500,520,532,606,607,616,617,719,721|未知_0602039 #2'
+  name: '269,270,393,394,396,397,520,532,606,607,719,721|未知_0602039 #2'
   network: ws
   port: '8880'
   server: 104.19.40.237
@@ -326,7 +332,7 @@ proxies:
     path: /d/65dd503.TG.WangCai2.WangCai_8:107690
 - alterId: 0
   cipher: auto
-  name: '269,270,393,394,396,397,500,520,532,606,607,616,617,719,721|未知_0602045 #2'
+  name: '269,270,393,394,396,397,520,532,606,607,719,721|未知_0602045 #2'
   network: ws
   port: '8880'
   server: 104.19.40.99
@@ -341,7 +347,7 @@ proxies:
     path: /d/65dd503.TG.WangCai2.WangCai_8:107690
 - alterId: 0
   cipher: auto
-  name: '269,270,393,394,396,397,500,520,532,606,607,616,617,719,721|未知_0602043 #2'
+  name: '269,270,393,394,396,397,520,532,606,607,719,721|未知_0602043 #2'
   network: ws
   port: '8880'
   server: 104.19.40.211
@@ -356,7 +362,7 @@ proxies:
     path: /d/65dd503.TG.WangCai2.WangCai_8:107690
 - alterId: 0
   cipher: auto
-  name: '269,270,393,394,396,397,500,520,532,606,607,616,617,719,721|未知_0602040 #2'
+  name: '269,270,393,394,396,397,520,532,606,607,719,721|未知_0602040 #2'
   network: ws
   port: '8880'
   server: 104.19.40.48
@@ -370,24 +376,8 @@ proxies:
       Host: uk.moss.network
     path: /d/65dd503.TG.WangCai2.WangCai_8:107690
 - alterId: 0
-  cipher: none
-  name: '269,270,393,394,396,397,500,511,520,532,606,607,616,617,665,705,713,719,721|荷兰_0602001
-    #2'
-  network: ws
-  port: '80'
-  server: 188.114.97.3
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: b25f8da6-54a2-49b3-bacf-8403b4c36556
-  ws-opts:
-    headers:
-      Host: De1.vmess.site.
-    path: /vmess#DONT-FORGET-TO-SUPPORT-SSHMAX.NET-TO-KEEP-THIS-SERVER-ALIVE
-- alterId: 0
   cipher: auto
-  name: '269,270,393,394,396,397,500,520,532,606,607,616,617,719,721|未知_0602038 #2'
+  name: '269,270,393,394,396,397,520,532,606,607,719,721|未知_0602038 #2'
   network: ws
   port: '8880'
   server: 104.19.40.58
@@ -402,9 +392,9 @@ proxies:
     path: /d/65dd503.TG.WangCai2.WangCai_8:107690
 - alterId: 0
   cipher: auto
-  name: '269,270,606,607,616,617|🇺🇸 _CN_中国->🇺🇸_US_美国 #2'
+  name: '269,270,606,607|🇨🇳CN-120.232.240.56-0076 #1'
   network: ws
-  port: '16928'
+  port: 16928
   server: vip3.niuniupremium.xyz
   servername: ''
   skip-cert-verify: false
@@ -417,7 +407,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '269,270,393,394,396,397,441,500,520,532,606,607,616,617,698,719,721,848|🇺🇸_US_美国->🇫🇷_FR_法国
+  name: '269,270,393,394,396,397,441,520,532,606,607,698,719,721,848|🇺🇸_US_美国->🇫🇷_FR_法国
     #6'
   network: ws
   port: 2082
@@ -2905,9 +2895,11 @@ proxies:
     path: /admin
 - alterId: 0
   cipher: auto
-  name: '642,696,698|美国 CloudFlare节点 #58'
+  h2-opts: {}
+  http-opts: {}
+  name: 642,696,698,830|Relay_-🇫🇷FR_884
   network: ws
-  port: '2082'
+  port: 2082
   server: s1c.v2.v001sss.xyz
   servername: ''
   skip-cert-verify: true
@@ -2916,7 +2908,7 @@ proxies:
   uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
   ws-opts:
     headers:
-      Host: ''
+      host: s1c.v2.v001sss.xyz
     path: /
 - alterId: 0
   cipher: auto
@@ -2943,7 +2935,7 @@ proxies:
   uuid: fb1645f7-068a-3b40-a9bf-5c49bb1bf4e1
 - alterId: 0
   cipher: auto
-  name: 847|🇺🇸 _US_美国->🇮🇳_IN_印度
+  name: '847|🇺🇸 _US_美国->🇮🇳_IN_印度 #2'
   network: ws
   port: '443'
   server: 172.64.167.170

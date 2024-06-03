@@ -284,15 +284,12 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  country: 🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: 159,269,270,461,520,532,541,606,607,719|香港_0602008
+  name: 159,269,270,520,532,541,606,607,616,617,719|香港_0602008
   network: ws
   port: '12909'
   server: 210.3.159.224
   servername: ''
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: false
   type: vmess
   uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
@@ -302,9 +299,11 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 159,269,270,517,532,606,607,619,673,719|香港_0602007
+  h2-opts: {}
+  http-opts: {}
+  name: 159,269,270,517,532,606,607,619,673,719,830| |13.50Mb
   network: ws
-  port: '28681'
+  port: 28681
   server: 47.242.22.171
   servername: ''
   skip-cert-verify: true
@@ -313,8 +312,23 @@ proxies:
   udp: true
   uuid: 3b1072ce-d096-46c2-a3e7-08b4f58538f5
   ws-opts:
-    headers:
-      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 160,517|🇺🇸 US 787 → tg@nicevpn123
+  network: ws
+  port: 2095
+  server: 104.19.45.17
+  servername: onea.flha.ru
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
     path: /
 - alterId: 0
   cipher: auto
@@ -395,7 +409,7 @@ proxies:
       Host: pqhk.chinayyds.xyz
     path: /?ed=2048
 - cipher: rc4-md5
-  name: 164|🇭🇰 IPLC｜冀港 [2.0][原生]
+  name: 164,830|Relay_ |80.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -421,7 +435,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 164|🇭🇰 IPLC｜浙港 [2.0][原生]
+  name: 164,830|Relay_ |93.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -434,7 +448,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 164|🇭🇰 IPLC｜深港 [2.0][原生]
+  name: 164,830|Relay_ |100.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -447,7 +461,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 164|🇭🇰 IPLC｜湘港 [2.0][原生]
+  name: 164,830|Relay_ |102.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -460,7 +474,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 164|🇭🇰 IPLC｜珠港 [2.0][原生]
+  name: 164,830|Relay_ |192.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -473,7 +487,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 164|🇭🇰 IPLC｜苏港 [2.0][原生]
+  name: 164,830| |148.40Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -486,7 +500,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 164|🇭🇰 IPLC｜闽港 [2.0][原生]
+  name: 164,830|Relay_ |63.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -1534,22 +1548,6 @@ proxies:
   tls: false
   type: vmess
   uuid: b76e8ec5-f6ce-34d4-8416-99b9c1cb0b8f
-- alterId: 32
-  cipher: auto
-  name: '269,270,517,532,606,607,698,719|香港_0602035 #1'
-  network: ws
-  port: '80'
-  server: hrgdvpn.flycdnedc55.vip
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
-  ws-opts:
-    headers:
-      Host: hrgdvpn.flycdnedc55.vip
-    path: /opt/video/images
 - alterId: 0
   cipher: auto
   name: '270,606,607|🇭🇰HK-194.246.114.54-0324 #1'
@@ -2558,25 +2556,28 @@ proxies:
   uuid: 508e3be6-3872-4a45-8a5f-0d6e42579eee
 - cipher: chacha20-ietf-poly1305
   name: '387,388,389|香港-南方入口 #2'
-  password: 594bfac3-25bf-426e-bac6-f7b16e12e815
+  password: 14f5f897-d719-4a5b-9ade-635578527f6f
   port: 30000
   server: hk1.zzjq.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: '387,388,389|香港-北方入口 #2'
-  password: 594bfac3-25bf-426e-bac6-f7b16e12e815
+  password: 14f5f897-d719-4a5b-9ade-635578527f6f
   port: 30000
   server: b-hk1.zzjq.xyz
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: 398|香港_中環
+  h2-opts: {}
+  http-opts: {}
+  name: 398,830|Relay_ |14.85Mb
   network: ws
-  port: '80'
+  port: 80
   server: hktx.n.optage.moe
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 755ec159-20c2-4fd3-8fdf-f59489018608
@@ -2939,7 +2940,7 @@ proxies:
   uuid: 4770d44f-e799-4b4e-988d-b5ce56c4c3a0
 - cipher: aes-256-cfb
   country: 🇰 HK
-  name: 462,466,500,690|[02-24]-🇸-欧洲-096-150.107.46.21
+  name: 466,500,690|[02-24]-🇸-欧洲-096-150.107.46.21
   obfs: tls1.2_ticket_auth
   obfs-param: ''
   password: iFqnzSscN
@@ -3279,7 +3280,7 @@ proxies:
   uuid: 9fcec31d-40aa-4f98-8c47-0296084fe3ff
 - alterId: 0
   cipher: auto
-  name: 500|香港_060308007
+  name: 500|香港_060313007
   network: ws
   port: '80'
   server: hktx.n.optage.moe
@@ -3293,18 +3294,32 @@ proxies:
     path: /aln/12?ed=2048
 - alterId: 0
   cipher: auto
-  name: 500|香港_060308008
-  network: ws
-  port: '80'
-  server: hk5g.forlive.live
-  servername: ''
+  country: 🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: 500,830|Pool_ |54.56Mb
+  network: tcp
+  port: 10010
+  server: xg1.tcity8.buzz
+  servername: xg1.tcity8.buzz
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 5e48ff00-5af2-4d7d-8c7d-57ed72ad5a1a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
+  uuid: de22e9b4-488e-4d95-882d-88bfc830b7e5
+- alterId: 0
+  cipher: auto
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: 500,830|Pool_ |92.65Mb
+  network: tcp
+  port: 10010
+  server: xg3.tcity8.buzz
+  servername: xg3.tcity8.buzz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: de22e9b4-488e-4d95-882d-88bfc830b7e5
 - alterId: 0
   cipher: auto
   name: 505|🇭🇰8.210.128.146
