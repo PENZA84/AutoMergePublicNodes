@@ -322,10 +322,11 @@ proxies:
     method: GET
     path:
     - /
-  name: '102,272,492,540,548|新加坡 008 #1'
+  name: '102,272,492,524,540,548,723|美国_0604231 #1'
   network: http
-  port: 54185
+  port: '54185'
   server: 152.42.208.82
+  servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -429,9 +430,9 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '161,272,610,611|🇸🇬SG-128.199.161.230-0914 #1'
+  name: '161,272,524,610,611,723|新加坡_0604007 #1'
   network: ws
-  port: 99
+  port: '99'
   server: 128.199.161.230
   servername: ''
   skip-cert-verify: false
@@ -463,6 +464,20 @@ proxies:
   port: 443
   server: 54.151.219.143
   type: ss
+- alterId: 0
+  cipher: auto
+  country: US
+  h2-opts: {}
+  http-opts: {}
+  name: '162,271,488,536,623,669,677,688,689|US532 367.5KB/s #2'
+  network: tcp
+  port: '31433'
+  server: 205.234.231.35
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 50e82581-bd14-4527-f7d6-e7824cd26f57
 - alterId: 0
   cipher: auto
   name: 164|l新加坡-1
@@ -779,7 +794,7 @@ proxies:
   uuid: f6195be4-37bc-3cc8-917e-50c704e2f974
 - alterId: 0
   cipher: auto
-  name: 190|新加坡 1 | CF优选
+  name: 190|新加坡 1 - CF优选 0.1x
   network: ws
   port: '80'
   server: sg-ld-1.cdn-yx.buzz
@@ -792,7 +807,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 190|新加坡 2 | CF优选
+  name: 190|新加坡 2 - CF优选 0.1x
   network: ws
   port: '80'
   server: sg-ld-2.cdn-yx.buzz
@@ -805,7 +820,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 190|新加坡 3 | CF优选
+  name: 190|新加坡 3 - CF优选 0.1x
   network: ws
   port: '80'
   server: sg-ld-3.cdn-yx.buzz
@@ -940,7 +955,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 262,272,524,610,611,723|新加坡_0602022
+  name: '262,272,524,610,611,723|新加坡_0604019 #1'
   network: ws
   port: '80'
   server: 8.222.222.64
@@ -1204,7 +1219,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '271,521,524,536,610,611,669,677,723|新加坡_0602008 #1'
+  name: '271,521,536,610,611,669,677|🔒 VM-WS-NA 🇸🇬 SG-128.199.161.2... #2'
   network: ws
   port: '99'
   server: 128.199.161.230
@@ -1260,11 +1275,15 @@ proxies:
     path: /RACEVPN
 - alterId: 0
   cipher: auto
-  name: '271,623|%F0%9F%87%B8%F0%9F%87%AC%20Sin... #7'
+  country: 🇬SG
+  h2-opts: {}
+  http-opts: {}
+  name: '271,465,492,522,540,623|%F0%9F%87%B8%F0%9F%87%AC%20Sin... #7'
   network: tcp
   port: '2083'
   server: sg2-v2ray.ipracevpn.com
   servername: ''
+  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 7cc6a250-f767-4d4b-9421-03b1bbf23f88
@@ -1283,43 +1302,6 @@ proxies:
     path: /howdy
 - alterId: 0
   cipher: auto
-  name: '271,536,669,677|🔒 VM-WS-NA 🇸🇬 SG-138.2.90.147:... #2'
-  network: ws
-  port: 23006
-  server: 138.2.90.147
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5eea50d8-a816-48c7-bc35-0fde39e277b5
-  ws-opts:
-    headers:
-      Host: ''
-    path: /free
-- alterId: 0
-  cipher: auto
-  name: '271,272,623,669,677|🔒 VM-WS-NONE 🇸🇬 SG-152.42.164.... #2'
-  network: ws
-  port: 29320
-  server: 152.42.164.199
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 7fef9dc9-d6c2-459f-b60b-2bb2186081e4
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '271,545,669,677|🔒 VM-TCP-NONE 🇸🇬 SG-152.42.208... #2'
-  network: tcp
-  port: 54185
-  server: 152.42.208.82
-  tls: false
-  type: vmess
-  uuid: ed5efa57-2ab8-4323-8ba4-7f383ae24ba1
-- alterId: 0
-  cipher: auto
   name: '271,669,677,689|未知972 #2'
   network: ws
   port: '56029'
@@ -1334,27 +1316,71 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 272,521|🇺🇸 US 773 → tg@nicevpn123
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: '271,272,465,524,623,669,677,723|美国_0604093 #1'
   network: ws
-  port: 443
-  server: sg-full.privateip.net
+  port: '29320'
+  server: 152.42.164.199
+  servername: ''
   skip-cert-verify: true
-  tls: true
+  tls: false
+  type: vmess
+  uuid: 7fef9dc9-d6c2-459f-b60b-2bb2186081e4
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '271,524,545,669,677|🔒 VM-TCP-NONE 🇸🇬 SG-152.42.208... #2'
+  network: tcp
+  port: 54185
+  server: 152.42.208.82
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ed5efa57-2ab8-4323-8ba4-7f383ae24ba1
+- alterId: 0
+  cipher: auto
+  name: '271,536,669,677|🔒 VM-WS-NA 🇸🇬 SG-138.2.90.147:... #2'
+  network: ws
+  port: 23006
+  server: 138.2.90.147
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5eea50d8-a816-48c7-bc35-0fde39e277b5
+  ws-opts:
+    headers:
+      Host: ''
+    path: /free
+- alterId: 0
+  cipher: auto
+  name: '272,521,524,723|新加坡_0604002 #1'
+  network: ws
+  port: '443'
+  server: sg-full.privateip.net
+  servername: ''
+  skip-cert-verify: true
+  tls: false
   type: vmess
   udp: true
-  uuid: b220d0b0-575d-43d4-b88b-896ddd151532
+  uuid: 41632df1-92bc-40af-8382-5d46f7725a9a
   ws-opts:
     headers:
       Host: sg-full.privateip.net
     path: /RACEVPN
 - alterId: 0
   cipher: auto
-  name: 272|🇬SG-170.187.231.189-0127
+  name: '272,524,723|新加坡_0604004 #1'
   network: ws
-  port: 443
+  port: '443'
   server: sg2-full.privateip.net
+  servername: ''
   skip-cert-verify: false
-  tls: true
+  tls: false
   type: vmess
   uuid: 3a545c46-3e0b-40b8-bacc-dbebf79f23f1
   ws-opts:
@@ -1884,7 +1910,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: '272,524,537,610,611,723|新加坡_0602014 #1'
+  name: '272,524,537,610,611,723|新加坡_0604008 #1'
   network: ws
   port: '443'
   server: 202.79.172.53
@@ -1992,7 +2018,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '272,524,610,611,723|新加坡_0602015 #1'
+  name: '272,524,610,611,723|新加坡_0604009 #1'
   network: ws
   port: '443'
   server: sg2.safepn.net
@@ -2007,7 +2033,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '272,524,610,611,723|新加坡_0602016 #1'
+  name: '272,524,610,611,723|新加坡_0604010 #1'
   network: ws
   port: '80'
   server: sg2.safepn.net
@@ -2172,9 +2198,9 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '272,524,610,611,723|新加坡_0602017 #1'
+  name: '272,610,611|🇸🇬SG-15.235.192.196-3274 #1'
   network: ws
-  port: '80'
+  port: 80
   server: 15.235.192.196
   servername: ''
   skip-cert-verify: false
@@ -2588,14 +2614,14 @@ proxies:
   uuid: d58f81a7-083a-4ff2-e50a-7078c58bbccf
 - cipher: chacha20-ietf-poly1305
   name: '391,392,393|新加坡-南方入口 #2'
-  password: 0c08ef50-be60-4084-adb5-9929f91abbd7
+  password: 55c07b1d-b632-40d6-bca9-91103a9a5205
   port: 30002
   server: sg1.zzjq.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: '391,392,393|新加坡-北方入口 #2'
-  password: 0c08ef50-be60-4084-adb5-9929f91abbd7
+  password: 55c07b1d-b632-40d6-bca9-91103a9a5205
   port: 30002
   server: b-sg1.zzjq.xyz
   type: ss
@@ -2858,23 +2884,37 @@ proxies:
   uuid: 4770d44f-e799-4b4e-988d-b5ce56c4c3a0
 - cipher: aes-256-cfb
   country: 🇬SG
-  name: 466|🇬SG_81
-  password: UWZQeLRWnkqgkseq
-  port: 9032
-  server: 103.172.116.103
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇬SG
-  name: 466|🇬SG_82
+  name: 466|🇬SG_79
   password: BejrQvtu9sqUeNuZ
   port: 9024
   server: 103.172.116.94
   type: ss
 - cipher: aes-256-cfb
   country: 🇸🇬SG
-  name: 466|🇸🇬SG_83
+  name: 466|🇬SG_80
   password: bf7v334KKDV3YDhH
   port: 9070
+  server: 103.172.116.103
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇸🇬SG
+  name: 466|🇸🇬SG_81
+  password: UWZQeLRWnkqgkseq
+  port: 9032
+  server: 103.172.116.103
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇸🇬SG
+  name: 466|🇸🇬SG_82
+  password: TN2YqghxeFDKZfLU
+  port: 9037
+  server: 103.172.116.103
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇸🇬SG
+  name: 466|🇸🇬SG_83
+  password: 4R3hUfZ2FHhDmNcP
+  port: 9061
   server: 103.172.116.103
   type: ss
 - alterId: 0
@@ -2947,6 +2987,20 @@ proxies:
     headers:
       Host: ''
     path: /anti13.zingfast.vn
+- client-fingerprint: chrome
+  name: 491,678|🇬🇧 英国+V2CROSS.COM
+  network: ws
+  password: b84d16a244460e09
+  port: 3306
+  server: 5.44.249.44
+  skip-cert-verify: false
+  sni: n2.gladns.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: n2.gladns.com
+    path: /gateway/connect
 - alterId: 0
   cipher: auto
   name: 493|🇸🇬新加坡(绿头外网集团)(Public)
@@ -3649,20 +3703,6 @@ proxies:
   tls: true
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: '524,723|新加坡_0602009 #1'
-  network: ws
-  port: '23006'
-  server: 138.2.90.147
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5eea50d8-a816-48c7-bc35-0fde39e277b5
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
 - alterId: 0
   cipher: auto
   name: 530|🇸🇬新加坡(欢迎订阅Youtube元亨利贞)
