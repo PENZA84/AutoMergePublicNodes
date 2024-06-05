@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '0,1,2,272,530,626,627,629,729,731|加拿大_0604006 #2'
+  name: '0,1,2,272,402,403,405,406,407,530,626,627,629,729,731|加拿大_0604006 #2'
   network: tcp
   port: '443'
   server: ca-v2ray.ipracevpn.com
@@ -13,7 +13,9 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '0,1,2,272,273,530,542,616,617,626,627,629,642,684,685,726,729,731|加拿大_0604007
+  h2-opts: {}
+  http-opts: {}
+  name: '0,1,2,272,273,402,403,405,406,471,530,542,616,617,626,627,629,684,685,726,729,731|加拿大_0604007
     #2'
   network: ws
   port: '443'
@@ -694,7 +696,7 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   name: '102,162,272,273,497,498,546,550,551,554,616,617,626,627|🇺🇸 美国 CloudFlare节点
-    #38'
+    #33'
   network: ws
   port: '2052'
   server: web.com
@@ -1149,7 +1151,7 @@ proxies:
     path: /afrhms16v.bestxray.buzz/linkws
 - alterId: 0
   cipher: auto
-  name: '272,273,521,530,542,675,715,723,729|未知_0604109 #1'
+  name: '272,273,521,530,542,715,723,729|未知_0604109 #1'
   network: ws
   port: '80'
   server: 104.21.71.88
@@ -1346,21 +1348,6 @@ proxies:
   port: 2376
   server: 85.208.108.90
   type: ss
-- alterId: 0
-  cipher: auto
-  name: '273,543,616,617|🇨🇦CA-132.145.99.228-2229 #1'
-  network: ws
-  port: 13724
-  server: 132.145.99.228
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 52768552-c2b2-4460-89f1-e740cc145b99
-  ws-opts:
-    headers:
-      Host: ''
-    path: /ws-path
 - alterId: 0
   cipher: auto
   name: '273,616,617|🇨🇦CA-192.99.8.99-2329 #1'
@@ -2183,6 +2170,33 @@ proxies:
     headers:
       host: opfr1.v2rayfree1.xyz
     path: /IYKLD53M
+- alterId: 0
+  cipher: auto
+  name: 401,530,729|美国_0604158
+  network: ws
+  port: '2052'
+  server: 172.67.164.78
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8
+  ws-opts:
+    headers:
+      Host: in3.wish.ml
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '401|加拿大_多伦多 #4'
+  network: ws
+  port: 80
+  server: 172.67.204.84
+  tls: false
+  type: vmess
+  uuid: 753d0d83-3f5b-4821-860e-082f0b3db609
+  ws-opts:
+    headers:
+      Host: no1-vmess.sshmax.xyz
+    path: /
 - alterId: 0
   cipher: auto
   name: 440|_CA_加拿大
