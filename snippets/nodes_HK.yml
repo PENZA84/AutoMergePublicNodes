@@ -1,18 +1,21 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 3,163,275,276,405,408,533,545,597,619,620,732|香港_0604009
+  country: 🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: 3,163,275,276,405,408,474,500,501,531,533,545,549,597,619,620,732,849|_859
+    |34.68Mb
   network: ws
-  port: '12909'
+  port: 12909
   server: 210.3.159.224
   servername: ''
-  skip-cert-verify: false
-  tls: false
+  skip-cert-verify: true
+  tls: true
   type: vmess
+  udp: true
   uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
   ws-opts:
-    headers:
-      Host: ''
     path: /
 - alterId: 0
   cipher: auto
@@ -296,11 +299,30 @@ proxies:
     headers:
       Host: xg6.888553.xyz
     path: /cctv13.m3u8
+- alterId: 64
+  cipher: auto
+  name: 163,276,533,732|香港_0604012
+  network: ws
+  port: '80'
+  server: hrgdvpn.flycdnedc55.vip
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
+  ws-opts:
+    headers:
+      Host: hrgdvpn.flycdnedc55.vip
+    path: /
 - alterId: 0
   cipher: auto
-  name: 163,275,276,530,533,545,619,620,686,697,698,732|香港_0604011
+  client-fingerprint: chrome
+  fingerprint: ''
+  h2-opts: {}
+  http-opts: {}
+  name: 163,268,275,276,530,533,545,619,620,686,697,698,732,849|_751 |17.42Mb
   network: ws
-  port: '28681'
+  port: 28681
   server: 47.242.22.171
   servername: ''
   skip-cert-verify: true
@@ -309,8 +331,6 @@ proxies:
   udp: true
   uuid: 3b1072ce-d096-46c2-a3e7-08b4f58538f5
   ws-opts:
-    headers:
-      Host: ''
     path: /
 - alterId: 0
   cipher: auto
@@ -430,7 +450,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 169,849|Relay_ |124.00Mb
+  name: 169|🇭🇰 IPLC｜沪港 [2.0][原生]
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -456,7 +476,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 169,849|Relay_ |135.00Mb
+  name: 169|🇭🇰 IPLC｜深港 [2.0][原生]
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -469,7 +489,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: '169,849|Relay_ |95.00Mb #2'
+  name: 169,849|Relay_ |95.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -482,7 +502,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 169,849|Relay_ |109.00Mb
+  name: 169|🇭🇰 IPLC｜珠港 [2.0][原生]
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -1520,7 +1540,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '275,619,620|🇭🇰HK-210.3.159.224-0159 #2'
+  name: '275,619,620,632|🇭🇰HK-210.3.159.224-0159 #3'
   network: ws
   port: 12909
   server: 210.3.159.224
@@ -1541,21 +1561,6 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: ss
-- alterId: 64
-  cipher: auto
-  name: 276,533,732|香港_0604012
-  network: ws
-  port: '80'
-  server: hrgdvpn.flycdnedc55.vip
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
-  ws-opts:
-    headers:
-      Host: hrgdvpn.flycdnedc55.vip
-    path: /
 - name: 276|🇰HK-152.32.169.42-1056
   port: 21830
   server: www.chrome-helper.cc
@@ -2866,10 +2871,14 @@ proxies:
   uuid: 4770d44f-e799-4b4e-988d-b5ce56c4c3a0
 - alterId: 0
   cipher: auto
-  name: 447|Lv2 香港
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: 447,849|Relay_🇨🇳CN-HK_932
   network: tcp
-  port: '60049'
+  port: 60049
   server: hk0172.alibabaokz.com
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 4770d44f-e799-4b4e-988d-b5ce56c4c3a0
@@ -2893,10 +2902,14 @@ proxies:
   uuid: 4770d44f-e799-4b4e-988d-b5ce56c4c3a0
 - alterId: 0
   cipher: auto
-  name: 447|Lv1 香港4
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: 447,849|🇨🇳CN_931
   network: tcp
-  port: '60066'
+  port: 60066
   server: hk0067.alibabaokz.com
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 4770d44f-e799-4b4e-988d-b5ce56c4c3a0
@@ -2928,8 +2941,8 @@ proxies:
   type: vmess
   uuid: 4770d44f-e799-4b4e-988d-b5ce56c4c3a0
 - cipher: aes-256-cfb
-  country: 🇰HK
-  name: 475,513,703|[02-24]-🇸-欧洲-096-150.107.46.21
+  country: 🇰 HK
+  name: 475,479,513,703|[02-24]-🇸-欧洲-096-150.107.46.21
   obfs: tls1.2_ticket_auth
   obfs-param: ''
   password: iFqnzSscN
@@ -2938,6 +2951,19 @@ proxies:
   protocol-param: ''
   server: 150.107.46.21
   type: ssr
+- alterId: 0
+  cipher: auto
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: 479|🇭🇰HK_126
+  network: ws
+  port: 80
+  server: 182.16.1.194
+  skip-cert-verify: true
+  type: vmess
+  uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
+  ws-path: /opt/video/images
 - alterId: 0
   cipher: auto
   name: '488|🇨🇳中国【YouTube-由零開始】 #7'
@@ -3328,7 +3354,7 @@ proxies:
   country: 🇰HK
   h2-opts: {}
   http-opts: {}
-  name: '530,545,678,849| |12.78Mb #1'
+  name: 530,545,849| | 6.19Mb
   network: ws
   port: 80
   server: 182.16.1.194
@@ -4162,7 +4188,7 @@ proxies:
     path: 55021a7c-bd6c-418e-be95-ceac8ba27b45-vm
 - alterId: 0
   cipher: auto
-  name: '606,711|美国 CloudFlare节点 #51'
+  name: '606,711|美国 CloudFlare节点 #49'
   network: ws
   port: '8080'
   server: yh1.freeh1.xyz
