@@ -483,14 +483,15 @@ proxies:
     path: /cctv13.m3u8
 - alterId: 0
   cipher: auto
-  name: 167,281,539,625,626,738|香港_0606008
+  name: 167,281,506,507,537,539,555,625,626,738|香港_0606008
   network: ws
   port: '12909'
   server: 210.3.159.224
   servername: ''
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: false
   type: vmess
+  udp: true
   uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
   ws-opts:
     headers:
@@ -513,11 +514,9 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   fingerprint: ''
-  h2-opts: {}
-  http-opts: {}
-  name: 167,274,281,536,625,626,692,738,856|_815 | 1.59Mb
+  name: 167,274,281,536,625,626,692,738|香港_0606009
   network: ws
-  port: 28681
+  port: '28681'
   server: 47.242.22.171
   servername: ''
   skip-cert-verify: true
@@ -526,11 +525,12 @@ proxies:
   udp: true
   uuid: 3b1072ce-d096-46c2-a3e7-08b4f58538f5
   ws-opts:
+    headers:
+      Host: ''
     path: /
 - alterId: 0
   cipher: aes-128-gcm
-  country: 🇰HK
-  name: 167,703,856|HK_1069 |16.57Mb
+  name: 167,703|HK4 626.4KB/s
   password: a-wym4ovY4Yw
   port: 81
   server: 47.243.45.101
@@ -950,7 +950,7 @@ proxies:
       Host: pqhk.chinayyds.xyz
     path: /?ed=2048
 - cipher: rc4-md5
-  name: 173,856| |128.00Mb
+  name: 173|🇭🇰 IPLC｜冀港 [2.0][原生]
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -963,7 +963,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 173,856|Relay_-🇨🇳CN_764 |108.00Mb
+  name: 173|🇭🇰 IPLC｜沪港 [2.0][原生]
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -976,7 +976,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 173,856|Relay_-🇨🇳CN_774 |551.00Mb
+  name: 173|🇭🇰 IPLC｜浙港 [2.0][原生]
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -989,7 +989,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 173,856|Relay_-🇨🇳CN_761 |110.00Mb
+  name: 173|🇭🇰 IPLC｜深港 [2.0][原生]
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -1002,7 +1002,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 173,856|Relay_-🇨🇳CN_767 |96.00Mb
+  name: 173|🇭🇰 IPLC｜湘港 [2.0][原生]
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -1015,7 +1015,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 173,856|Relay_-🇨🇳CN_754 |94.00Mb
+  name: 173|🇭🇰 IPLC｜珠港 [2.0][原生]
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -3121,14 +3121,14 @@ proxies:
     path: /itdog?ed=2560
 - cipher: chacha20-ietf-poly1305
   name: '405,406,407|香港-南方入口 #2'
-  password: bec3bbd1-e62c-4909-9625-32c79553d7a4
+  password: 662f8a3d-73d5-4f82-88e4-c1065a9f627d
   port: 30000
   server: hk1.zzjq.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: '405,406,407|香港-北方入口 #2'
-  password: bec3bbd1-e62c-4909-9625-32c79553d7a4
+  password: 662f8a3d-73d5-4f82-88e4-c1065a9f627d
   port: 30000
   server: b-hk1.zzjq.xyz
   type: ss
@@ -3488,7 +3488,7 @@ proxies:
   uuid: 4770d44f-e799-4b4e-988d-b5ce56c4c3a0
 - cipher: aes-256-cfb
   country: 🇰 HK
-  name: 481,485,519,709,856|Pool__786 |290.00Mb
+  name: 481,485,519,709|[02-24]-🇸-欧洲-096-150.107.46.21
   obfs: tls1.2_ticket_auth
   obfs-param: ''
   password: iFqnzSscN
@@ -3497,7 +3497,19 @@ proxies:
   protocol-param: ''
   server: 150.107.46.21
   type: ssr
-  udp: true
+- alterId: 0
+  cipher: auto
+  country: 🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: 485|🇭🇰HK_127
+  network: ws
+  port: 80
+  server: 182.16.1.194
+  skip-cert-verify: true
+  type: vmess
+  uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
+  ws-path: /opt/video/images
 - alterId: 0
   cipher: auto
   name: '494|🇨🇳中国【YouTube-由零開始】 #7'
