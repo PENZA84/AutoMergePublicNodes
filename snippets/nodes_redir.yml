@@ -16,8 +16,7 @@ proxies:
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
 - alterId: 0
   cipher: auto
-  name: '0,3,294,295,431,432,434,435,553,626,648,649,658,659|🇺🇸 _US_美国->🇨🇦_CA_加拿大
-    #5'
+  name: '0,3,294,295,431,432,434,435,626,648,649,658,659|🇺🇸 _US_美国->🇨🇦_CA_加拿大 #5'
   network: ws
   port: '8080'
   server: 172.64.97.235
@@ -75,36 +74,35 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '1,2,295,648,649|🏁RELAY-172.64.97.235-0038 #2'
+  h2-opts: {}
+  http-opts: {}
+  name: 1,2,295,648,649,883|_800 |13.20Mb
   network: ws
   port: 8080
   server: 172.64.97.235
-  servername: ''
-  skip-cert-verify: false
+  servername: dual-nothing-prep-exit.trycloudflare.com
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: ef8c954e-014f-4b36-8273-9b5086afab34
   ws-opts:
     headers:
-      Host: ''
+      host: dual-nothing-prep-exit.trycloudflare.com
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
 - alterId: 0
   cipher: auto
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: 1,2,295,503,648,649,883| | 1.13Mb
+  name: '1,2,295,648,649|🏁RELAY-104.26.3.120-0039 #2'
   network: ws
   port: 80
   server: 104.26.3.120
-  servername: dl3.mrarsha..iron..dog..suonycars.buzz.
-  skip-cert-verify: true
+  servername: ''
+  skip-cert-verify: false
   tls: false
   type: vmess
   uuid: f94c274d-f9c5-4c47-a3f5-fa839d80bfb1
   ws-opts:
     headers:
-      HOST: dl3.mrarsha.邁達安.iron.鐵面具.dog垃圾場狗.巴黎之下.suonycars.buzz.
+      Host: ''
     path: /etc
 - grpc-opts:
     grpc-service-name: 2pxF1YL0obWgOVYsTfLJX3ihXJUp
