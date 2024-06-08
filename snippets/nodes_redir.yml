@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '0,3,296,297,433,434,436,437,628,650,651,660,661|🇺🇸 _US_美国->🇨🇦_CA_加拿大 #4'
+  name: '0,3,296,297,628,650,651,660,661|🇺🇸 _US_美国->🇨🇦_CA_加拿大 #4'
   network: ws
   port: '8080'
   server: 104.26.9.22
@@ -16,7 +16,7 @@ proxies:
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
 - alterId: 0
   cipher: auto
-  name: '0,3,296,297,433,434,436,437,628,650,651,660,661|🇺🇸 _US_美国->🇨🇦_CA_加拿大 #5'
+  name: '0,3,296,297,628,650,651,660,661|🇺🇸 _US_美国->🇨🇦_CA_加拿大 #5'
   network: ws
   port: '8080'
   server: 172.64.97.235
@@ -31,7 +31,7 @@ proxies:
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
 - alterId: 0
   cipher: auto
-  name: 0,3,296,433,434,436,437,544,628,650,651,660,661,663|VPN招代理电报联系@litata2022
+  name: 0,3,296,544,628,650,651,660,661,663|VPN招代理电报联系@litata2022
   network: ws
   port: 80
   server: 104.26.3.120
@@ -89,15 +89,12 @@ proxies:
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
 - alterId: 0
   cipher: auto
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: '1,2,297,505,650,651|🏁RELAY-104.26.3.120-0039 #2'
+  name: '1,2,297,650,651|🏁RELAY-104.26.3.120-0039 #2'
   network: ws
   port: 80
   server: 104.26.3.120
   servername: ''
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: false
   type: vmess
   uuid: f94c274d-f9c5-4c47-a3f5-fa839d80bfb1
@@ -369,7 +366,8 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: '483,544,564,742,763,765,887,901,903,961|美国【付费推荐：https://a0a.xyz/】155 #2'
+  name: '483,544,564,709,742,763,765,887,901,903,961|美国【付费推荐：https://a0a.xyz/】155
+    #2'
   network: ws
   port: '2082'
   server: 104.21.8.157
@@ -2633,18 +2631,39 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '686|🇺🇸_US_美国->🇨🇦_CA_加拿大 #11'
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 686,885|Relay_🇺🇸US-🇦CA_1758
   network: ws
   port: 2052
   server: cdncdncdncdn.784654.xyz
+  servername: ca-cfcdn.aikunapp.com
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 8c8dabbc-93a6-44ad-b878-0d980fa249d1
+  uuid: 1b600cbc-5417-41cb-a109-f02f1b70e853
   ws-opts:
     headers:
-      host: ca-cfcdn.aikunapp.com
+      HOST: ca-cfcdn.aikunapp.com
     path: /index?ed=2048
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 686,740,742,885|_876
+  network: ws
+  port: 2082
+  server: s1c.v2.v001sss.xyz
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  ws-opts:
+    headers:
+      host: s1c.v2.v001sss.xyz
+    path: /
 - alterId: 0
   cipher: auto
   name: 726|:美国-vmess-arm.ptuu.gq:443-可用-中...
