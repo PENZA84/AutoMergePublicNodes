@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '0,1,2,3,293,430,431,433,434,625,657,658|🇨🇳 _TW_台湾 #2'
+  name: '0,1,2,3,293,430,431,433,434,608,625,657,658|🇨🇳 _TW_台湾 #2'
   network: ws
   port: '12345'
   server: 35.229.236.201
@@ -203,7 +203,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 180|🇼🇸 IPLC｜浙台 [2.0][原生]
+  name: 180,882|Relay_-🇨🇳CN_734 |122.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -298,7 +298,7 @@ proxies:
   name: 267|🇹🇼台湾区域2-三网优化-解锁Netflix
   network: tcp
   port: '40180'
-  server: ngKURq.gov.goldliond.top
+  server: CPgnTI.gov.goldliond.top
   tls: false
   type: vmess
   uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f
@@ -307,7 +307,7 @@ proxies:
   name: 267|🇹🇼台湾区域3-三网优化-解锁Netflix
   network: tcp
   port: '40180'
-  server: 2SCklp.gov.goldliond.top
+  server: uhRnmP.gov.goldliond.top
   tls: false
   type: vmess
   uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f
@@ -322,11 +322,39 @@ proxies:
   type: vmess
   uuid: 0913b1ac-1f6c-436b-99b4-a5d6e343d025
 - cipher: aes-256-cfb
-  name: 284,294|TW-61.220.130.70-8122
+  name: 284,294|TW-61.220.130.70-8120
   password: qwerREWQ@@
   port: 50701
   server: 61.220.130.70
   type: ss
+- alterId: 0
+  cipher: auto
+  name: '293,714,726|TW2 #2'
+  network: ws
+  port: '37902'
+  server: 36.232.62.250
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1057c0f5-8662-4902-8d2f-eb6e3ecdf5c5
+  ws-opts:
+    headers:
+      Host: hinet-wap.myddns.me
+    path: /index?ed=2560
+- alterId: 0
+  cipher: auto
+  country: 🇼TW
+  h2-opts: {}
+  http-opts: {}
+  name: 293,541,660,882|Relay_🇼TW-🇹🇼TW_1198 |14.33Mb
+  network: tcp
+  port: 61017
+  server: 61.224.103.79
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 9eac8830-5da5-3ee2-a4b2-b49598275623
 - alterId: 0
   cipher: auto
   name: 293,576,714,725,726,739|🇹🇼TW-103.159.206.35-0342
@@ -344,42 +372,20 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '293,714|🔒 VM-WS-TLS 🇹🇼 TW-154.40.60.17... #1'
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 293,714,882|Relay_🇺🇸US-ZZ_1575 |46.47Mb
   network: ws
-  port: '12945'
+  port: 12945
   server: 154.40.60.172
   servername: 55.lwdh.us
+  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
   ws-opts:
-    headers:
-      Host: ''
     path: /
-- alterId: 0
-  cipher: auto
-  name: '293,714,726|TW2 #2'
-  network: ws
-  port: '37902'
-  server: 36.232.62.250
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1057c0f5-8662-4902-8d2f-eb6e3ecdf5c5
-  ws-opts:
-    headers:
-      Host: hinet-wap.myddns.me
-    path: /index?ed=2560
-- alterId: 0
-  cipher: auto
-  name: '293,541,660,714|🔒 VM-TCP-NA 🇹🇼 TW-61.224.103.7... #2'
-  network: tcp
-  port: 61017
-  server: 61.224.103.79
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9eac8830-5da5-3ee2-a4b2-b49598275623
 - alterId: '0'
   cipher: auto
   http-opts:
@@ -472,8 +478,20 @@ proxies:
     headers:
       Host: emea-ru-mow-01-edgecast.qdns.live
     path: /
+- cipher: chacha20-ietf-poly1305
+  name: 294|🇹🇼TW-118.163.179.161-2809
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  port: 2377
+  server: 118.163.179.161
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 294|🇹🇼TW-118.163.179.162-2810
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  port: 2377
+  server: 118.163.179.162
+  type: ss
 - cipher: aes-128-gcm
-  name: 294|🇼TW-118.170.99.195-2825
+  name: 294|🇼TW-118.170.99.195-2824
   password: a-wym4ovY4Yw
   port: 443
   server: 118.170.99.195
@@ -544,7 +562,7 @@ proxies:
     path: /nishikata
 - alterId: 0
   cipher: auto
-  name: '294,613,647,648|🇹🇼TW-211.72.35.110-5164 #1'
+  name: '294,613,647,648|🇹🇼TW-211.72.35.110-5164 #2'
   network: ws
   port: 443
   server: 211.72.35.110
@@ -560,7 +578,7 @@ proxies:
     path: /nishikata3
 - alterId: 0
   cipher: auto
-  name: '294,613,647,648|🇹🇼TW-211.72.35.110-5165 #1'
+  name: '294,613,647,648|🇹🇼TW-211.72.35.110-5165 #2'
   network: ws
   port: 443
   server: 211.72.35.110
@@ -947,7 +965,7 @@ proxies:
   country: 🇨 CN
   h2-opts: {}
   http-opts: {}
-  name: 502,507,529,559,577,660|-0980-TW【ccbaohe.com〗 永久免费节点机场
+  name: 502,507,660|-0980-TW【ccbaohe.com〗 永久免费节点机场
   network: tcp
   port: 61017
   server: in06.dns2024.org
@@ -957,387 +975,6 @@ proxies:
   type: vmess
   uuid: 9eac8830-5da5-3ee2-a4b2-b49598275623
   ws-path: /
-- alterId: 0
-  cipher: auto
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: '502,725|🇺🇸US美国18 #1'
-  network: ws
-  port: 8080
-  server: 104.19.47.0
-  servername: oiictw.yydsii.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      host: oiictw.yydsii.com
-    path: /?ed=2048&Telegram🇨🇳 @WangCai2
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 502|Relay_ZZ-🇹🇼TW_171
-  network: ws
-  port: 8080
-  server: 104.19.47.223
-  servername: oiictw.yydsii.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      HOST: oiictw.yydsii.com
-    path: /?ed=2048&Telegram🇨🇳 @WangCai2
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: '502,725|未知942 #1'
-  network: ws
-  port: 8080
-  server: 104.19.47.207
-  servername: oiictw.yydsii.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      host: oiictw.yydsii.com
-    path: /?ed=2048&Telegram🇨🇳 @WangCai2
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: '502,725|🇺🇸US美国39 214.4KB/s #1'
-  network: ws
-  port: 8080
-  server: 104.19.47.136
-  servername: oiictw.yydsii.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      host: oiictw.yydsii.com
-    path: /?ed=2048&Telegram🇨🇳 @WangCai2
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 502|Relay_🏁ZZ-🇹🇼TW_174
-  network: ws
-  port: 8080
-  server: 104.19.47.145
-  servername: oiictw.yydsii.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      HOST: oiictw.yydsii.com
-    path: /?ed=2048&Telegram🇨🇳 @WangCai2
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 502|Relay_🏁ZZ-🇹🇼TW_175
-  network: ws
-  port: 8080
-  server: 104.19.47.149
-  servername: oiictw.yydsii.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      HOST: oiictw.yydsii.com
-    path: /?ed=2048&Telegram🇨🇳 @WangCai2
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 502|Relay_🏁ZZ-🇹🇼TW_176 | 2.51Mb
-  network: ws
-  port: 8080
-  server: 104.19.47.171
-  servername: oiictw.yydsii.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      HOST: oiictw.yydsii.com
-    path: /?ed=2048&Telegram🇨🇳 @WangCai2
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: '502,725|🇺🇸US美国33 #1'
-  network: ws
-  port: 8080
-  server: 104.19.47.229
-  servername: oiictw.yydsii.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      host: oiictw.yydsii.com
-    path: /?ed=2048&Telegram🇨🇳 @WangCai2
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 502|Relay_🏁ZZ-🇹🇼TW_178 | 2.86Mb
-  network: ws
-  port: 8080
-  server: 104.19.47.238
-  servername: oiictw.yydsii.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      HOST: oiictw.yydsii.com
-    path: /?ed=2048&Telegram🇨🇳 @WangCai2
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 502|Relay_🏁ZZ-🇹🇼TW_182 | 3.93Mb
-  network: ws
-  port: 8080
-  server: 104.19.47.53
-  servername: oiictw.yydsii.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      HOST: oiictw.yydsii.com
-    path: /?ed=2048&Telegram🇨🇳 @WangCai2
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 502|Relay_🏁ZZ-🇹🇼TW_183
-  network: ws
-  port: 8080
-  server: 104.19.47.34
-  servername: oiictw.yydsii.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      HOST: oiictw.yydsii.com
-    path: /?ed=2048&Telegram🇨🇳 @WangCai2
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: '502,725|未知1172 #1'
-  network: ws
-  port: 8080
-  server: 104.19.47.211
-  servername: oiictw.yydsii.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      host: oiictw.yydsii.com
-    path: /?ed=2048&Telegram🇨🇳 @WangCai2
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 502|Relay_🏁ZZ-🇹🇼TW_186
-  network: ws
-  port: 8080
-  server: 104.19.47.98
-  servername: oiictw.yydsii.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      HOST: oiictw.yydsii.com
-    path: /?ed=2048&Telegram🇨🇳 @WangCai2
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: '502,725|🇺🇸US美国22 #1'
-  network: ws
-  port: 8080
-  server: 104.19.47.214
-  servername: oiictw.yydsii.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      host: oiictw.yydsii.com
-    path: /?ed=2048&Telegram🇨🇳 @WangCai2
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 502|Relay_🏁ZZ-🇹🇼TW_188
-  network: ws
-  port: 8080
-  server: 104.19.47.91
-  servername: oiictw.yydsii.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      HOST: oiictw.yydsii.com
-    path: /?ed=2048&Telegram🇨🇳 @WangCai2
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 502|Relay_🏁ZZ-🇹🇼TW_189
-  network: ws
-  port: 8080
-  server: 104.19.47.226
-  servername: oiictw.yydsii.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      HOST: oiictw.yydsii.com
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 502|Relay_🏁ZZ-🇹🇼TW_190
-  network: ws
-  port: 8080
-  server: 104.19.47.36
-  servername: oiictw.yydsii.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      HOST: oiictw.yydsii.com
-    path: /?ed=2048&Telegram🇨🇳 @WangCai2
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: '502,725|未知738 221.0KB/s #1'
-  network: ws
-  port: 8080
-  server: 104.19.47.46
-  servername: oiictw.yydsii.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      host: oiictw.yydsii.com
-    path: /?ed=2048&Telegram🇨🇳 @WangCai2
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 502|Relay_🏁ZZ-🇹🇼TW_192
-  network: ws
-  port: 8080
-  server: 104.19.47.13
-  servername: oiictw.yydsii.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      HOST: oiictw.yydsii.com
-    path: /?ed=2048&Telegram🇨🇳 @WangCai2
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 502|Relay_🏁ZZ-🇹🇼TW_195 | 1.07Mb
-  network: ws
-  port: 8080
-  server: 104.19.47.153
-  servername: oiictw.yydsii.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      HOST: oiictw.yydsii.com
-    path: /?ed=2048&Telegram🇨🇳 @WangCai2
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 502|Relay_🏁ZZ-🇹🇼TW_197 | 2.93Mb
-  network: ws
-  port: 8080
-  server: 104.19.47.150
-  servername: oiictw.yydsii.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      HOST: oiictw.yydsii.com
-    path: /
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 502|Relay_🏁ZZ-🇹🇼TW_199 | 1.43Mb
-  network: ws
-  port: 8080
-  server: 104.19.47.106
-  servername: oiictw.yydsii.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      HOST: oiictw.yydsii.com
-    path: /?ed=2048&Telegram🇨🇳 @WangCai2
 - alterId: 0
   cipher: auto
   name: '526|🇹🇼_TW_台湾 #2'
@@ -1705,14 +1342,17 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 665|🇹🇼 TW 00
+  h2-opts: {}
+  http-opts: {}
+  name: 665,882|Relay_-🇼TW_868 |17.94Mb
   network: ws
   port: 443
   server: tw1g.xn--vhq70hxyat50h6wk.com
-  skip-cert-verify: false
+  skip-cert-verify: true
   tfo: false
   tls: false
   type: vmess
+  udp: true
   uuid: f38e9da6-731f-46c5-90c0-e10349cdfb16
   ws-opts:
     headers:
@@ -1784,6 +1424,15 @@ proxies:
   tls: true
   type: vmess
   uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b
+- alterId: 0
+  cipher: auto
+  name: 714|🔒 VM-TCP-NA 🇹🇼 TW-122.118.167....
+  network: tcp
+  port: 61017
+  server: 122.118.167.39
+  tls: false
+  type: vmess
+  uuid: 9eac8830-5da5-3ee2-a4b2-b49598275623
 - client-fingerprint: chrome
   name: 715|🇹🇼 台湾省+中华电信(HiNet)数据中心
   network: ws
@@ -1979,6 +1628,71 @@ proxies:
   ws-opts:
     headers:
       Host: tw01.susulian.cyou
+    path: /
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 882|Relay_-🇹🇼TW_821 | 6.81Mb
+  network: ws
+  port: 8080
+  server: 172.67.172.219
+  skip-cert-verify: true
+  type: vmess
+  udp: true
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      Host: oiictw.yydsii.com
+    path: /
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 882|Relay_-🇹🇼TW_832 | 4.38Mb
+  network: ws
+  port: 8080
+  server: 104.18.6.141
+  skip-cert-verify: true
+  type: vmess
+  udp: true
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      Host: oiictw.yydsii.com
+    path: /
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 882|Relay_-🇹🇼TW_835 | 3.15Mb
+  network: ws
+  port: 8080
+  server: 104.19.47.178
+  skip-cert-verify: true
+  type: vmess
+  udp: true
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      Host: oiictw.yydsii.com
+    path: /
+- alterId: 0
+  cipher: auto
+  country: 🇼TW
+  h2-opts: {}
+  http-opts: {}
+  name: 882|Relay_🇼TW-🇹🇼TW_1199 |12.69Mb
+  network: ws
+  port: 80
+  server: tw1g.forlive.live
+  servername: tms.dingtalk.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: bb7d0ae0-85bd-4d9f-8391-b3d927ccb497
+  ws-opts:
+    headers:
+      HOST: tms.dingtalk.com
     path: /
 - cipher: aes-256-cfb
   name: 932|畅行 台湾 1

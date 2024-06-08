@@ -1,10 +1,11 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '0,3,293,430,431,433,434,625,657,658,660|🇺🇸 _US_美国->🇨🇦_CA_加拿大 #7'
+  name: '0,3,293,294,430,431,433,434,625,657,658,660|🇺🇸 _US_美国->🇨🇦_CA_加拿大 #7'
   network: ws
   port: '8080'
   server: 104.26.9.22
+  skip-cert-verify: false
   tls: false
   type: vmess
   uuid: ef8c954e-014f-4b36-8273-9b5086afab34
@@ -14,10 +15,12 @@ proxies:
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
 - alterId: 0
   cipher: auto
-  name: '0,3,293,430,431,433,434,625,657,658,660|🇺🇸 _US_美国->🇨🇦_CA_加拿大 #6'
+  name: '0,3,293,294,430,431,433,434,625,657,658,660,746,754|رایگان | VMESS | @Hope_Net
+    | U... #18'
   network: ws
   port: '8080'
   server: 172.64.97.235
+  skip-cert-verify: false
   tls: false
   type: vmess
   uuid: ef8c954e-014f-4b36-8273-9b5086afab34
@@ -41,61 +44,63 @@ proxies:
     path: /etc
 - alterId: 0
   cipher: auto
-  name: '1,2|_US_->_CA__1 #1'
+  name: 1,2,294|🏁RELAY-104.26.9.22-0032
   network: ws
   port: 8080
   server: 104.26.9.22
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: false
   type: vmess
   uuid: ef8c954e-014f-4b36-8273-9b5086afab34
   ws-opts:
-    headers:
-      host: dual-nothing-prep-exit.trycloudflare.com
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
-- grpc-opts:
+- alpn:
+  - h2
+  grpc-opts:
     grpc-service-name: 2pxF1YL0obWgOVYsTfLJX3ihXJUp
-  name: '1,2|_US_->_DE__1 #1'
+  name: 1,2,294,608|_US_->_DE_国
   network: grpc
   password: f91f38bb-72d5-4f3e-8311-1788986293f5
   port: 443
   server: 104.21.43.13
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpnc.iran-mehr14.ir
   tls: true
   type: trojan
   udp: true
 - alterId: 0
   cipher: auto
-  name: '1,2|_US_->_CA__2 #1'
+  name: 1,2,294|🏁RELAY-172.64.97.235-0038
   network: ws
   port: 8080
   server: 172.64.97.235
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: false
   type: vmess
   uuid: ef8c954e-014f-4b36-8273-9b5086afab34
   ws-opts:
-    headers:
-      host: dual-nothing-prep-exit.trycloudflare.com
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
 - alterId: 0
   cipher: auto
-  name: '1,2|_US_->_PT_ #1'
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 1,2,294,882|Relay_🇺🇸US-🇺RU_1589 | 1.13Mb
   network: ws
   port: 80
   server: 104.26.3.120
+  servername: dl3.mrarsha..iron..dog..suonycars.buzz.
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: f94c274d-f9c5-4c47-a3f5-fa839d80bfb1
   ws-opts:
     headers:
-      host: dl3.mrarsha..iron..dog..suonycars.buzz.
+      HOST: dl3.mrarsha.邁達安.iron.鐵面具.dog垃圾場狗.巴黎之下.suonycars.buzz.
     path: /etc
 - grpc-opts:
     grpc-service-name: 2pxF1YL0obWgOVYsTfLJX3ihXJUp
-  name: '1,2|_US_->_DE__2 #1'
+  name: 1,2,294|🏁RELAY-172.67.215.180-0041
   network: grpc
   password: f91f38bb-72d5-4f3e-8311-1788986293f5
   port: 443
