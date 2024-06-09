@@ -32,15 +32,13 @@ proxies:
 - alterId: 0
   cipher: auto
   delay: 921
-  h2-opts: {}
-  http-opts: {}
-  name: 0,3,112,300,301,439,440,442,443,537,538,586,594,634,656,657,666,667,894|Relay_-🇨🇦CA_895
-    |23.69Mb
+  name: '0,3,112,300,301,439,440,442,443,537,538,550,568,586,594,634,656,657,666,667|🇺🇸
+    _US_美国->🇨🇦_CA_加拿大 #2'
   network: ws
-  port: 8880
+  port: '8880'
   server: 104.19.38.28
   servername: ''
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
@@ -120,10 +118,14 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 1,2,301,617|🇸_US_美国->_CA__1
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 1,2,301,511,617|🇸_US_美国->_CA__1
   network: ws
   port: 8880
   server: 104.19.38.28
+  servername: funk-england-indirect-gospel.trycloudflare.com
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -134,7 +136,10 @@ proxies:
     path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
 - alterId: 0
   cipher: auto
-  name: 1,2,617|🇺🇸_US_美国->🇩🇪_DE_德国_2
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 1,2,511,617|🇺🇸_US_美国->🇩🇪_DE_德国_2
   network: ws
   port: 443
   server: cdnjs.com
@@ -2649,21 +2654,17 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: 692,894| |10.62Mb
+  name: '692|🇺🇸_US_美国->🇨🇦_CA_加拿大 #8'
   network: ws
   port: 2052
   server: cdncdncdncdn.784654.xyz
-  servername: ca-cfcdn.aikunapp.com
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 1b600cbc-5417-41cb-a109-f02f1b70e853
+  uuid: 8c8dabbc-93a6-44ad-b878-0d980fa249d1
   ws-opts:
     headers:
-      HOST: ca-cfcdn.aikunapp.com
+      host: ca-cfcdn.aikunapp.com
     path: /index?ed=2048
 - alterId: 0
   cipher: auto
