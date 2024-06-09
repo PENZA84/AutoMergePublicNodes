@@ -49,7 +49,7 @@ proxies:
     path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
 - alterId: 0
   cipher: auto
-  name: '0,3,112,296,297,433,434,436,437,438,531,532,544,564,580,588,628,650,651,660,661,763|美国_0608227
+  name: '0,3,112,296,297,433,434,436,437,438,531,532,564,580,588,628,650,651,660,661,763|美国_0608227
     #1'
   network: ws
   port: '443'
@@ -122,18 +122,17 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  fingerprint: ''
-  name: 1,2,289|427e9b64695046c2812380db7ee282...
+  name: '1,2|_US_->_CA_ #1'
   network: ws
   port: 8880
   server: 104.19.38.28
   skip-cert-verify: true
   tls: false
   type: vmess
-  udp: false
   uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
   ws-opts:
+    headers:
+      host: funk-england-indirect-gospel.trycloudflare.com
     path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
 - alterId: 0
   cipher: auto
@@ -415,10 +414,11 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '483,740,742,904|🇺🇸_US_美国->🇫🇷_FR_法国 #5'
+  name: '483,544,740,742,904|🇺🇸_US_美国->🇫🇷_FR_法国 #5'
   network: ws
   port: 2082
   server: 172.67.130.140
+  servername: ''
   tls: false
   type: vmess
   uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
@@ -2232,6 +2232,20 @@ proxies:
   ws-path: /videos
 - alterId: 0
   cipher: auto
+  name: 611|🇺🇸_US_美国->🇬_SG_加
+  network: ws
+  port: 2052
+  server: cfcdn2.sanfencdn9.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: bf475e6c-a607-415e-a7f7-45c889320633
+  ws-opts:
+    headers:
+      host: 7nAi74jJsg1.yofnhkfc.xyz
+    path: /video/c9efxRCi
+- alterId: 0
+  cipher: auto
   name: 612|🇺🇸_US_美国->_DE_国
   network: ws
   port: 80
@@ -2667,7 +2681,7 @@ proxies:
   country: 🇺🇸US
   h2-opts: {}
   http-opts: {}
-  name: 686,886|Relay_🇺🇸US-🇨🇦CA_1631 |10.62Mb
+  name: 686,886| |10.62Mb
   network: ws
   port: 2052
   server: cdncdncdncdn.784654.xyz
@@ -2684,7 +2698,7 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 686,740,742,886|Relay_-🇷FR_857
+  name: '686,740,742,886|未命名 #360'
   network: ws
   port: 2082
   server: s1c.v2.v001sss.xyz

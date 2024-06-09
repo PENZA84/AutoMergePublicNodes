@@ -439,7 +439,7 @@ proxies:
     path: /blue
 - alterId: 64
   cipher: auto
-  name: '296,660,661,676,684,728,729|未知1000 #2'
+  name: '296,660,661,676,684,728,729|未知518 #1'
   network: tcp
   port: '51193'
   server: 183.238.202.173
@@ -450,7 +450,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '296,728,729|未知1327 #2'
+  name: '296,728,729|未知618 #1'
   network: tcp
   port: '15607'
   server: 183.232.199.61
@@ -461,7 +461,7 @@ proxies:
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 0
   cipher: auto
-  name: '296,719,728,729|未知1084 #2'
+  name: '296,719,728,729|未知326 #1'
   network: tcp
   port: '15605'
   server: 183.232.199.28
@@ -472,7 +472,7 @@ proxies:
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 0
   cipher: auto
-  name: '296,728,729|未知358 #2'
+  name: '296,728,729|未知458 #1'
   network: tcp
   port: '15603'
   server: 183.240.179.195
@@ -496,7 +496,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: '296,717,728,729|未知1067 #2'
+  name: '296,717,728,729|未知1378 #1'
   network: tcp
   port: '50002'
   server: 120.210.205.82
@@ -635,13 +635,16 @@ proxies:
   tfo: false
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 297,561,584,718|🇰🇷 韩国+KT电信 2
+  name: 297,561,584,718,728|🇺🇸US美国13
   password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
   port: 20005
   server: service.ouluyun9803.com
+  skip-cert-verify: true
   tfo: false
+  tls: true
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -653,13 +656,16 @@ proxies:
   tfo: false
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 297,561,584,718|🇺🇸 美国科罗拉多州布隆菲尔德市+Level3
+  name: 297,561,584,718,728|🇺🇸US美国47
   password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
   port: 20003
   server: service.ouluyun9803.com
+  skip-cert-verify: true
   tfo: false
+  tls: true
   type: ss
   udp: true
 - cipher: rc4-md5
@@ -2809,7 +2815,7 @@ proxies:
       Host: tms.dingtalk.com
     path: /
 - cipher: rc4-md5
-  name: 505,506,512|Relay_-CN_03
+  name: 512|Relay_-CN_02
   obfs: plain
   obfs-param: 64334105622.www.gov.hk
   password: di15PV
@@ -2995,6 +3001,19 @@ proxies:
   server: 14.29.124.168
   type: ss
   udp: true
+- name: 531|[Trojan] 🇨🇳 中国 阿里云
+  network: ws
+  password: NISHIKUITAN222
+  port: 8443
+  server: 8.219.122.55
+  skip-cert-verify: true
+  sni: t009.ylks.link
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: t009.ylks.link
+    path: /
 - alterId: 4
   cipher: auto
   name: '533,590|未命名 #193'
@@ -4796,22 +4815,12 @@ proxies:
   country: 🇨CN
   h2-opts: {}
   http-opts: {}
-  name: 544,886|Relay_🇨CN-🇺🇸US_1021 |14.65Mb
+  name: 544,886|Relay_🇨🇳CN-🇺🇸US_1007 |14.65Mb
   network: tcp
   port: 42055
   server: 120.232.153.36
   servername: ''
   skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 544|中国_060913098
-  network: tcp
-  port: '34002'
-  server: 120.232.153.27
-  servername: ''
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -8985,7 +8994,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '685,728|未命名 #333'
+  name: 685,728|🇨2
   network: ws
   port: 16632
   server: m.cnmjin.net
@@ -9224,7 +9233,7 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 886|Relay_-🇨🇳CN_835 |30.56Mb
+  name: 886|Relay_-🇨🇳CN_811 |30.56Mb
   network: ws
   port: 38001
   server: 38.165.72.151
