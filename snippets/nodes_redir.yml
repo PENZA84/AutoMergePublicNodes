@@ -16,7 +16,7 @@ proxies:
     path: /ivideos.sbs/linkws
 - alterId: 0
   cipher: auto
-  name: '0,3,300,301,439,440,442,443,570,634,656,657,666,667,715,769|未知_0608064 #1'
+  name: '0,3,300,301,439,440,442,443,570,634,656,657,666,667,769|未知_0608064 #1'
   network: ws
   port: '2086'
   server: 104.16.60.8
@@ -32,13 +32,15 @@ proxies:
 - alterId: 0
   cipher: auto
   delay: 921
-  name: '0,3,112,300,301,439,440,442,443,537,538,586,594,634,656,657,666,667|🇺🇸 _US_美国->🇨🇦_CA_加拿大
-    #2'
+  h2-opts: {}
+  http-opts: {}
+  name: 0,3,112,300,301,439,440,442,443,537,538,586,594,634,656,657,666,667,894|Relay_-🇨🇦CA_895
+    |23.69Mb
   network: ws
-  port: '8880'
+  port: 8880
   server: 104.19.38.28
   servername: ''
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
@@ -132,10 +134,7 @@ proxies:
     path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
 - alterId: 0
   cipher: auto
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: 1,2,511,617|🇺🇸_US_美国->🇩🇪_DE_德国_2
+  name: 1,2,617|🇺🇸_US_美国->🇩🇪_DE_德国_2
   network: ws
   port: 443
   server: cdnjs.com
@@ -2650,17 +2649,21 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '692|🇺🇸_US_美国->🇨🇦_CA_加拿大 #8'
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 692,894| |10.62Mb
   network: ws
   port: 2052
   server: cdncdncdncdn.784654.xyz
+  servername: ca-cfcdn.aikunapp.com
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 8c8dabbc-93a6-44ad-b878-0d980fa249d1
+  uuid: 1b600cbc-5417-41cb-a109-f02f1b70e853
   ws-opts:
     headers:
-      host: ca-cfcdn.aikunapp.com
+      HOST: ca-cfcdn.aikunapp.com
     path: /index?ed=2048
 - alterId: 0
   cipher: auto

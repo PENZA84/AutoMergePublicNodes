@@ -1,15 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 14|新加坡|广州移动|Polo|1x
-  network: tcp
-  port: '17162'
-  server: gdcm.r1u.cn
-  tls: false
-  type: vmess
-  uuid: f010dd01-c54a-3c03-95ce-0838214259c6
-- alterId: 0
-  cipher: auto
   name: '17,120|🇸🇬 新加坡1|cf #1'
   network: ws
   port: '2052'
@@ -35,26 +26,29 @@ proxies:
       Host: sg2.wish.ml
     path: /
 - cipher: aes-256-cfb
-  country: 🇬SG
-  name: 20,301,512|🇬SG_73
-  password: cp8pRSUAyLhTfVWH
-  port: 9064
-  server: 103.172.116.103
-  type: ss
-- cipher: aes-256-cfb
   country: 🇸🇬SG
-  name: 20,301,512|🇬SG_74
+  name: 20,301,512,894|_05 |18.07Mb
   password: BwcAUZk8hUFAkDGN
   port: 9031
   server: 103.172.116.103
   type: ss
+  udp: true
 - cipher: aes-256-cfb
   country: 🇸🇬SG
-  name: 20,301,512|🇸🇬SG_78
+  name: 20,301,512,894|_06 |17.00Mb
+  password: cp8pRSUAyLhTfVWH
+  port: 9064
+  server: 103.172.116.103
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  country: 🇸🇬SG
+  name: 20,301,512,894|_07 |16.14Mb
   password: fG2artUmHfNT2cX7
   port: 9018
   server: 103.172.116.103
   type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: '21,22,26,28|sg新加坡1 #3'
@@ -562,20 +556,7 @@ proxies:
       Host: sg2-full.privateip.net
     path: /
 - country: SG
-  name: 181|Relay_SG-SG_163
-  network: ws
-  password: NISHIKUITAN222
-  port: 8443
-  server: 8.219.122.55
-  sni: t009.ylks.link
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: t009.ylks.link
-    path: /
-- country: SG
-  name: 181|Relay_SG-SG_164
+  name: 181|Relay_SG-SG_159
   network: ws
   password: NISHIKUITAN222
   port: 8443
@@ -588,11 +569,12 @@ proxies:
       Host: t009.ylks.link
     path: /
 - country: SG
-  name: 181|Relay_SG-SG_166
+  name: 181,537|[Trojan] 🇨🇳 中国 阿里云 10
   network: ws
   password: NISHIKUITAN222
   port: 8443
-  server: 8.219.67.133
+  server: 8.219.122.55
+  skip-cert-verify: true
   sni: t009.ylks.link
   type: trojan
   udp: true
@@ -601,11 +583,24 @@ proxies:
       Host: t009.ylks.link
     path: /
 - country: SG
-  name: 181|Relay_SG-SG_167
+  name: 181|Relay_SG-SG_161
   network: ws
   password: NISHIKUITAN222
   port: 8443
   server: 47.237.84.173
+  sni: t009.ylks.link
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: t009.ylks.link
+    path: /
+- country: SG
+  name: 181|Relay_SG-SG_162
+  network: ws
+  password: NISHIKUITAN222
+  port: 8443
+  server: 8.219.67.133
   sni: t009.ylks.link
   type: trojan
   udp: true
@@ -618,7 +613,7 @@ proxies:
   country: US
   h2-opts: {}
   http-opts: {}
-  name: '181,300,534,669,734,735|US408 3.3MB/s #1'
+  name: '181,300,534,669,734,735|US408 3.3MB/s #2'
   network: tcp
   port: '31433'
   server: 205.234.231.35
@@ -771,7 +766,7 @@ proxies:
       Host: sg1.chinayyds.xyz
     path: /?ed=2048
 - cipher: rc4-md5
-  name: 186|🇸🇬 IPLC｜冀新 [2.0][UDP][ChatGPT]
+  name: 186,894|Relay_-🇨🇳CN_735 |137.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -797,7 +792,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 186|🇸🇬 IPLC｜沪新 [2.0][UDP][ChatGPT]
+  name: 186,894|Relay_-🇨🇳CN_752 |85.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -810,7 +805,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 186|🇸🇬 IPLC｜浙新 [2.0][UDP][ChatGPT]
+  name: 186,894|Relay_-🇨🇳CN_713 |118.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -823,7 +818,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 186|🇸🇬 IPLC｜深新 [2.0][UDP][ChatGPT]
+  name: 186,894|Relay_-🇨🇳CN_721 |94.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -836,7 +831,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 186|🇸🇬 IPLC｜湘新 [2.0][UDP][ChatGPT]
+  name: 186,894|Relay_-🇨🇳CN_727 |184.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -849,7 +844,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 186|🇸🇬 IPLC｜珠新 [2.0][UDP][ChatGPT]
+  name: 186,894|Relay_-🇨🇳CN_731 |84.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -862,7 +857,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 186|🇸🇬 IPLC｜苏新 [2.0][UDP][ChatGPT]
+  name: 186,894| |313.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -875,7 +870,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 186|🇸🇬 IPLC｜闽新 [2.0][UDP][ChatGPT]
+  name: 186,894|Relay_-🇨🇳CN_746 |704.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -1059,7 +1054,7 @@ proxies:
   name: 274|🇸🇬狮城区域1自动运维节点
   network: tcp
   port: '20182'
-  server: FaMQXz.gov.goldliond.top
+  server: 3z45fE.gov.goldliond.top
   tls: false
   type: vmess
   uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f
@@ -1068,7 +1063,7 @@ proxies:
   name: 274|🇸🇬狮城区域2自动运维节点
   network: tcp
   port: '20182'
-  server: fGW90w.gov.goldliond.top
+  server: WD4xE8.gov.goldliond.top
   tls: false
   type: vmess
   uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f
@@ -1077,7 +1072,7 @@ proxies:
   name: 274|🇸🇬狮城区域3自动运维节点
   network: tcp
   port: '20182'
-  server: InjkTn.gov.goldliond.top
+  server: ICC8C7.gov.goldliond.top
   tls: false
   type: vmess
   uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f
@@ -1086,7 +1081,7 @@ proxies:
   name: 274|🇸🇬狮城区域1-三网优化-解锁Netflix
   network: tcp
   port: '40184'
-  server: 6mumSB.gov.goldliond.top
+  server: 6lGlmG.gov.goldliond.top
   tls: false
   type: vmess
   uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f
@@ -1492,23 +1487,11 @@ proxies:
     path: /RACEVPN
 - alterId: 0
   cipher: auto
-  name: '300,669,715,723|🔒 VM-WS-NA 🇸🇬 SG-138.2.90.147:... #3'
+  h2-opts: {}
+  http-opts: {}
+  name: 300,567,570,656,657,715,723,734,735,769,894|_762 |53.95Mb
   network: ws
-  port: 23006
-  server: 138.2.90.147
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5eea50d8-a816-48c7-bc35-0fde39e277b5
-  ws-opts:
-    headers:
-      Host: ''
-    path: /free
-- alterId: 0
-  cipher: auto
-  name: '300,567,570,656,657,715,723,734,735,769|新加坡_0608003 #1'
-  network: ws
-  port: '99'
+  port: 99
   server: 128.199.161.230
   servername: ''
   skip-cert-verify: true
@@ -1517,21 +1500,10 @@ proxies:
   udp: true
   uuid: befd085a-91f7-4608-bc45-f40c1ac2f4b7
   ws-opts:
-    headers:
-      Host: ''
     path: /v2ray
 - alterId: 0
   cipher: auto
-  name: '300,715,723|🔒 VM-TCP-NONE 🇸🇬 SG-152.42.208... #2'
-  network: tcp
-  port: 54185
-  server: 152.42.208.82
-  tls: false
-  type: vmess
-  uuid: ed5efa57-2ab8-4323-8ba4-7f383ae24ba1
-- alterId: 0
-  cipher: auto
-  name: '300,715,723,735|未知252 #1'
+  name: '300,715,723,735|未知252 #2'
   network: ws
   port: '56029'
   server: 18.142.251.50
@@ -1545,13 +1517,42 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '300,656,657|🇸🇬SG-172.104.184.110-0111 #2'
+  name: '300,715,723|🔒 VM-TCP-NONE 🇸🇬 SG-152.42.208... #2'
+  network: tcp
+  port: 54185
+  server: 152.42.208.82
+  tls: false
+  type: vmess
+  uuid: ed5efa57-2ab8-4323-8ba4-7f383ae24ba1
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 300,669,715,723,894|Relay_🇺🇸US-🇺🇸US_1627 |46.45Mb
+  network: ws
+  port: 23006
+  server: 138.2.90.147
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 5eea50d8-a816-48c7-bc35-0fde39e277b5
+  ws-opts:
+    path: /free
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 300,656,657,894|Pool__836 |50.46Mb
   network: ws
   port: 443
   server: sg2-full.privateip.net
   servername: ''
+  skip-cert-verify: true
   tls: true
   type: vmess
+  udp: true
   uuid: 7d2d2794-ccdd-4333-9e15-8643b93b2a9b
   ws-opts:
     headers:
@@ -2908,41 +2909,6 @@ proxies:
     headers:
       Host: ee1683cb66f83a1d45e5fdf2e7bdc7dd.mobgslb.tbcache.com
     path: /
-- cipher: aes-128-gcm
-  name: 455|🇸🇬 Singapore01
-  password: a4ada9c4-7c5d-5e4c-864e-9a6399ee0a82
-  port: 47121
-  server: sgm1.cdn.housenetworkmp3.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 455|🇸🇬 Singapore02
-  password: a4ada9c4-7c5d-5e4c-864e-9a6399ee0a82
-  port: 47122
-  server: sgm1.cdn.housenetworkmp3.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 455|🇸🇬 Singapore03
-  password: a4ada9c4-7c5d-5e4c-864e-9a6399ee0a82
-  port: 47123
-  server: sgm1.cdn.housenetworkmp3.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 455|🇸🇬 Singapore04
-  password: a4ada9c4-7c5d-5e4c-864e-9a6399ee0a82
-  port: 47124
-  server: sgm1.cdn.housenetworkmp3.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 455|🇸🇬 Singapore05
-  password: a4ada9c4-7c5d-5e4c-864e-9a6399ee0a82
-  port: 47125
-  server: sgm1.cdn.housenetworkmp3.xyz
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   name: 476|新加坡1—E1
@@ -3004,21 +2970,21 @@ proxies:
   udp: true
 - cipher: aes-256-cfb
   country: 🇸🇬SG
-  name: 512|🇸🇬SG_75
-  password: bf7v334KKDV3YDhH
-  port: 9070
-  server: 103.172.116.103
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇬SG
-  name: 512|🇸🇬SG_76
+  name: 512,894|🇸🇬SG_1196 | 1.82Mb
   password: fG2artUmHfNT2cX7
   port: 9018
   server: 103.172.116.94
   type: ss
 - cipher: aes-256-cfb
   country: 🇸🇬SG
-  name: 512|🇸🇬SG_77
+  name: 512,894|🇸🇬SG_1207 |15.47Mb
+  password: bf7v334KKDV3YDhH
+  port: 9070
+  server: 103.172.116.103
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇸🇬SG
+  name: 512,894|_31 |16.28Mb
   password: UWZQeLRWnkqgkseq
   port: 9032
   server: 103.172.116.103
@@ -5357,6 +5323,143 @@ proxies:
     headers:
       Host: sg10.susulian.top
     path: /adfd
+- cipher: aes-256-cfb
+  country: 🇬SG
+  name: 894|🇸SG_1208 |16.77Mb
+  password: HSZuyJQcWe8dxNdF
+  port: 9043
+  server: 103.172.116.103
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇬SG
+  name: 894|Pool_🇬SG_1193 | 5.37Mb
+  password: 386b1330-2feb-4704-b2f0-4fdc9eff2b13
+  port: 8443
+  server: sg-full.privateip.net
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇬SG
+  name: 894|🇬SG_1194 |25.22Mb
+  password: UTJA57ypk2XKQpnm
+  port: 9033
+  server: 103.172.116.79
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇸🇬SG
+  name: 894|🇬SG_1195 |23.16Mb
+  password: SBM7R883jBmnqe6C
+  port: 9053
+  server: 103.172.116.79
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇸🇬SG
+  name: 894|🇸🇬SG_1205 | 3.65Mb
+  password: ZpNDDKRu9MagNvaf
+  port: 9015
+  server: 103.172.116.94
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇸🇬SG
+  name: 894|🇸🇬SG_1212 |16.38Mb
+  password: QWDDvVE9npNurQfA
+  port: 9026
+  server: 103.172.116.103
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇸🇬SG
+  name: 894|🇸🇬SG_1198 |14.90Mb
+  password: UTJA57ypk2XKQpnm
+  port: 9033
+  server: 103.172.116.103
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇸🇬SG
+  name: 894|🇸🇬SG_1190 |23.60Mb
+  password: 4R3hUfZ2FHhDmNcP
+  port: 9061
+  server: 103.172.116.79
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇸🇬SG
+  name: 894|🇸🇬SG_1210 |21.59Mb
+  password: FAdUvMJUq5vDgKEq
+  port: 9006
+  server: 103.172.116.79
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇸🇬SG
+  name: 894|🇸🇬SG_1211 |21.10Mb
+  password: GA9KzeEgvfxNrgmM
+  port: 9019
+  server: 103.172.116.79
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇸🇬SG
+  name: 894|🇸🇬SG_1197 |16.45Mb
+  password: VP8ZPxQpJtZRCjfZ
+  port: 9080
+  server: 103.172.116.103
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇸🇬SG
+  name: 894|🇬SG_1202 |21.64Mb
+  password: HSZuyJQcWe8dxNdF
+  port: 9043
+  server: 103.172.116.79
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇸🇬SG
+  name: 894|🇸🇬SG_1209 |23.11Mb
+  password: UkXRsXvR6buDMG2Y
+  port: 9001
+  server: 103.172.116.79
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇸🇬SG
+  name: 894|🇸🇬SG_1206 |15.49Mb
+  password: aLpQtfEZe445QyHk
+  port: 9098
+  server: 103.172.116.103
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇸🇬SG
+  name: 894|🇸🇬SG_1191 | 1.88Mb
+  password: VP8ZPxQpJtZRCjfZ
+  port: 9080
+  server: 103.172.116.94
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇸🇬SG
+  name: 894|🇸🇬SG_1200 |17.96Mb
+  password: UWZQeLRWnkqgkseq
+  port: 9032
+  server: 103.172.116.79
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇸🇬SG
+  name: 894|🇸🇬SG_1204 |20.59Mb
+  password: BwcAUZk8hUFAkDGN
+  port: 9031
+  server: 103.172.116.79
+  type: ss
+- alterId: 64
+  cipher: auto
+  country: 🇸🇬SG
+  h2-opts: {}
+  http-opts: {}
+  name: 894|🇸SG_1215 |58.44Mb
+  network: ws
+  port: 443
+  server: 209.58.174.246
+  servername: www.40587333.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      HOST: www.40587333.xyz
+    path: /path/191019072927
 - cipher: aes-256-cfb
   name: 946|基础 新加坡 1
   obfs: tls1.2_ticket_auth
