@@ -1,9 +1,10 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '0,3,300,301,439,440,442,443,634,656,657,666,667|🇺🇸 _US_美国->🇩🇪_DE_德国 #6'
+  name: '0,3,300,301,439,440,442,443,550,634,656,657,666,667,669|🇺🇸_US_美国->🇩🇪_DE_德国
+    #11'
   network: ws
-  port: '2086'
+  port: 2086
   server: 104.16.61.8
   servername: ''
   skip-cert-verify: false
@@ -16,7 +17,7 @@ proxies:
     path: /ivideos.sbs/linkws
 - alterId: 0
   cipher: auto
-  name: '0,3,300,301,439,440,442,443,570,634,656,657,666,667,769|未知_0608064 #1'
+  name: '0,3,300,301,439,440,442,443,570,634,656,657,666,667,669,769|未知_0608064 #1'
   network: ws
   port: '2086'
   server: 104.16.60.8
@@ -32,10 +33,9 @@ proxies:
 - alterId: 0
   cipher: auto
   delay: 921
-  name: '0,3,112,300,301,439,440,442,443,537,538,550,586,594,634,656,657,666,667|🇺🇸
-    _US_美国->🇨🇦_CA_加拿大 #2'
+  name: 0,3,112,300,301,439,440,442,443,537,538,550,568,586,594,634,656,657,666,667,669|美国【TG：@ccbaohe】定时更新节点订阅
   network: ws
-  port: '8880'
+  port: 8880
   server: 104.19.38.28
   servername: ''
   skip-cert-verify: false
@@ -49,7 +49,7 @@ proxies:
     path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
 - alterId: 0
   cipher: auto
-  name: '0,3,112,300,301,439,440,442,443,444,537,538,570,586,594,634,656,657,666,667,769|美国_0608227
+  name: '0,3,112,300,301,439,440,442,443,444,537,538,550,570,586,594,634,656,657,666,667,669,769|美国_0608227
     #1'
   network: ws
   port: '443'
@@ -66,7 +66,7 @@ proxies:
     path: /QvtvPdDXXIlSdZMqnuxG
 - alterId: 0
   cipher: auto
-  name: 1,2,301|🏁RELAY-104.16.61.8-0055
+  name: 1,2,301|🏁RELAY-104.16.61.8-0048
   network: ws
   port: 2086
   server: 104.16.61.8
@@ -118,14 +118,12 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  country: ZZ
   h2-opts: {}
   http-opts: {}
-  name: 1,2,301,511,617,894|Relay_-🇨🇦CA_829 |40.55Mb
+  name: 1,2,301,617,894|Relay_-🇨🇦CA_920 |11.46Mb
   network: ws
   port: 8880
   server: 104.19.38.28
-  servername: funk-england-indirect-gospel.trycloudflare.com
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -136,10 +134,9 @@ proxies:
     path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
 - alterId: 0
   cipher: auto
-  country: 🇺🇸US
   h2-opts: {}
   http-opts: {}
-  name: 1,2,511,617,894|Relay_-🇺🇸US_834 | 9.87Mb
+  name: 1,2,894|Relay_-🇸US_939 |10.76Mb
   network: ws
   port: 443
   server: cdnjs.com
@@ -336,7 +333,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '481,643,748,912|🇺🇸_US_美国 #66'
+  name: '481,643,748,912|🇺🇸_US_美国 #67'
   network: ws
   port: 8080
   server: 162.159.1.33
@@ -378,7 +375,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '481,489,643,747,748,912|🇺🇸_US_美国 #65'
+  name: '481,489,643,747,748,912|🇺🇸_US_美国 #66'
   network: ws
   port: 8080
   server: yh3.freeh1.xyz
@@ -391,7 +388,7 @@ proxies:
     path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
 - alterId: 0
   cipher: auto
-  name: '481,489,746,747,748|🇺🇸_US_美国 #59'
+  name: '481,489,746,747,748|🇺🇸_US_美国 #60'
   network: ws
   port: 8080
   server: 162.159.5.6
@@ -404,11 +401,10 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: '489,550,746,748,912|🇺🇸_US_美国->🇫🇷_FR_法国 #5'
+  name: '489,746,748,912|🇺🇸_US_美国->🇫🇷_FR_法国 #5'
   network: ws
   port: 2082
   server: 172.67.130.140
-  servername: ''
   tls: false
   type: vmess
   uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
@@ -2220,6 +2216,14 @@ proxies:
   ws-headers:
     Host: usys.qiutan.pw
   ws-path: /videos
+- name: 617|🇨_CN_国->🇸_US_美国
+  network: tcp
+  password: gkviEOYc
+  port: 23223
+  server: 223.113.54.160
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: 618|🇺🇸_US_美国->_DE_国
@@ -2657,7 +2661,7 @@ proxies:
   country: 🇺🇸US
   h2-opts: {}
   http-opts: {}
-  name: 692,894|Relay_🇺🇸US-🇨🇦CA_1643 |26.90Mb
+  name: 692,894| | 9.82Mb
   network: ws
   port: 2052
   server: cdncdncdncdn.784654.xyz
@@ -2665,11 +2669,28 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 1b600cbc-5417-41cb-a109-f02f1b70e853
+  uuid: 99f495e8-87b6-4940-8339-2bc05af379ff
   ws-opts:
     headers:
       HOST: ca-cfcdn.aikunapp.com
     path: /index?ed=2048
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 692,746,748,894|Relay_-🇷FR_944
+  network: ws
+  port: 2082
+  server: s1c.v2.v001sss.xyz
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  ws-opts:
+    headers:
+      host: s1c.v2.v001sss.xyz
+    path: /
 - alterId: 0
   cipher: auto
   name: 732|:美国-vmess-arm.ptuu.gq:443-可用-中...
