@@ -1,13 +1,12 @@
 proxies:
 - alterId: 0
   cipher: auto
-  country: 🇷🇺RU
+  country: 🇺RU
   h2-opts: {}
   http-opts: {}
-  name: 0,1,2,3,302,513,540,570,588,619,636,668,669,671,684,692,717,725,736,737,771,896|Relay_
-    |12.47Mb
+  name: 0,1,2,3,302,513,540,570,588,619,636,668,669,671,684,692,717,725,736,737,771|俄罗斯联邦_0610003
   network: tcp
-  port: 12307
+  port: '12307'
   server: 5.182.86.28
   servername: ''
   skip-cert-verify: true
@@ -16,13 +15,15 @@ proxies:
   uuid: 9ad4e318-03fc-4e3b-e0ab-d86d2017de71
 - alterId: 0
   cipher: auto
-  name: '0,3,302,572,636,658,659,668,669,671,771|美国_0610056 #1'
+  name: '0,3,302,539,540,570,572,588,636,658,659,668,669,671,771|美国_0610056 #1'
   network: ws
   port: '80'
   server: 104.26.3.120
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
+  udp: true
   uuid: f94c274d-f9c5-4c47-a3f5-fa839d80bfb1
   ws-opts:
     headers:
@@ -30,15 +31,16 @@ proxies:
     path: /etc
 - alterId: 0
   cipher: auto
-  name: '0,3,303,491,552,572,636,658,659,668,669,717,750,771,914|🇺🇸_US_美国->🇫🇷_FR_法国
+  name: '0,3,302,303,491,539,540,552,570,572,588,636,658,659,668,669,717,750,771,914|🇺🇸_US_美国->🇫🇷_FR_法国
     #9'
   network: ws
   port: 2082
   server: 104.21.8.157
   servername: ''
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: false
   type: vmess
+  udp: true
   uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
   ws-opts:
     headers:
@@ -62,12 +64,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  country: 🇺🇸US
-  fingerprint: ''
-  h2-opts: {}
-  http-opts: {}
-  name: 1,2,295,303,513,619,658,659,896|Relay_ | 2.43Mb
+  name: '1,2,303,619,658,659|🏁RELAY-104.26.3.120-1063 #1'
   network: ws
   port: 80
   server: 104.26.3.120
@@ -75,11 +72,10 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: vmess
-  udp: false
   uuid: f94c274d-f9c5-4c47-a3f5-fa839d80bfb1
   ws-opts:
     headers:
-      host: dl3.mrarsha..iron..dog..suonycars.buzz.
+      Host: ''
     path: /etc
 - grpc-opts:
     grpc-service-name: 2pxF1YL0obWgOVYsTfLJX3ihXJUp
@@ -121,12 +117,10 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
   country: 🏁ZZ
-  fingerprint: ''
   h2-opts: {}
   http-opts: {}
-  name: 1,2,295,303,513,569,619,658,659,694,896|Relay_-🇫🇷FR_911
+  name: 1,2,303,513,569,619,658,659,694|🇺🇸_US_美国->🇫🇷_FR_法国_2
   network: ws
   port: 2082
   server: 104.21.8.157
@@ -148,36 +142,6 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: '302,303,441,442,444,445,658,659|🏁RELAY-104.16.61.8-0194 #2'
-  network: ws
-  port: 2086
-  server: 104.16.61.8
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
-  ws-opts:
-    headers:
-      Host: ury-unit-c030ehei8.poget71138.workers.dev
-    path: /ivideos.sbs/linkws
-- alterId: 0
-  cipher: auto
-  name: '302,303,441,442,444,445,658,659|🏁RELAY-104.16.60.8-0195 #2'
-  network: ws
-  port: 2086
-  server: 104.16.60.8
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
-  ws-opts:
-    headers:
-      Host: y-old-mode-9c0diab.wiriy73548.workers.dev
-    path: /afrhms16v.bestxray.buzz/linkws
 - alterId: 2
   cipher: aes-128-gcm
   name: 362|中转节点-1.47MB/s
@@ -2680,21 +2644,17 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: 694,896|Relay_🇺🇸US-🇨🇦CA_1751 |19.81Mb
+  name: '694|🇺🇸_US_美国->🇨🇦_CA_加拿大 #5'
   network: ws
   port: 2052
   server: cdncdncdncdn.784654.xyz
-  servername: ca-cfcdn.aikunapp.com
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 99f495e8-87b6-4940-8339-2bc05af379ff
+  uuid: 8c8dabbc-93a6-44ad-b878-0d980fa249d1
   ws-opts:
     headers:
-      HOST: ca-cfcdn.aikunapp.com
+      host: ca-cfcdn.aikunapp.com
     path: /index?ed=2048
 - alterId: 0
   cipher: auto
