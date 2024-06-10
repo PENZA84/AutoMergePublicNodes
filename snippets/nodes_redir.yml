@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0,1,2,3,302,541,571,589,620,637,669,670,672,685,693,718,726,737,738,772|俄罗斯联邦_0610003
+  name: 0,1,2,3,302,442,443,445,446,620,637,669,670,685,693,737,738,772|俄罗斯联邦_0610003
   network: tcp
   port: '12307'
   server: 5.182.86.28
@@ -12,15 +12,13 @@ proxies:
   uuid: 9ad4e318-03fc-4e3b-e0ab-d86d2017de71
 - alterId: 0
   cipher: auto
-  name: '0,3,302,540,541,571,573,589,637,659,660,669,670,672,772|美国_0610056 #1'
+  name: '0,3,302,442,443,445,446,573,637,659,660,669,670,672,772,774|美国_0610046 #2'
   network: ws
   port: '80'
   server: 104.26.3.120
   servername: ''
-  skip-cert-verify: true
   tls: false
   type: vmess
-  udp: true
   uuid: f94c274d-f9c5-4c47-a3f5-fa839d80bfb1
   ws-opts:
     headers:
@@ -28,7 +26,7 @@ proxies:
     path: /etc
 - alterId: 0
   cipher: auto
-  name: '0,3,302,303,492,553,573,637,659,660,669,670,718,751,772,915|🇺🇸_US_美国->🇫🇷_FR_法国
+  name: '0,3,302,303,442,443,445,446,492,553,573,637,659,660,669,670,718,726,751,772,774,915|🇺🇸_US_美国->🇫🇷_FR_法国
     #9'
   network: ws
   port: 2082
@@ -60,12 +58,9 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  country: 🇺🇸US
-  fingerprint: ''
   h2-opts: {}
   http-opts: {}
-  name: '1,2,295,303,514,620,659,660|🏁RELAY-104.26.3.120-1063 #1'
+  name: 1,2,303,620,659,660,897|Relay_-🇺RU_821 | 0.03Mb
   network: ws
   port: 80
   server: 104.26.3.120
@@ -73,11 +68,10 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: vmess
-  udp: false
   uuid: f94c274d-f9c5-4c47-a3f5-fa839d80bfb1
   ws-opts:
     headers:
-      Host: ''
+      host: dl3.mrarsha..iron..dog..suonycars.buzz.
     path: /etc
 - grpc-opts:
     grpc-service-name: 2pxF1YL0obWgOVYsTfLJX3ihXJUp
@@ -119,12 +113,10 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
   country: 🏁ZZ
-  fingerprint: ''
   h2-opts: {}
   http-opts: {}
-  name: 1,2,295,303,514,570,620,659,660,695|🇺🇸_US_美国->🇫🇷_FR_法国_2
+  name: 1,2,303,514,570,620,659,660,695,897|Relay_-🇷FR_854
   network: ws
   port: 2082
   server: 104.21.8.157
@@ -398,13 +390,15 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: '492,553,749,751,915|🇺🇸_US_美国->🇫🇷_FR_法国 #8'
+  name: '492,540,541,553,571,589,749,751,915|🇺🇸_US_美国->🇫🇷_FR_法国 #8'
   network: ws
   port: 2082
   server: 172.67.130.140
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
+  udp: true
   uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
   ws-opts:
     headers:
