@@ -4,7 +4,7 @@ proxies:
   country: 🇷🇺RU
   h2-opts: {}
   http-opts: {}
-  name: 0,1,2,3,302,513,619,636,668,669,671,684,692,717,725,736,737,771,896|Relay_
+  name: 0,1,2,3,302,513,540,570,588,619,636,668,669,671,684,692,717,725,736,737,771,896|Relay_
     |12.47Mb
   network: tcp
   port: 12307
@@ -16,7 +16,7 @@ proxies:
   uuid: 9ad4e318-03fc-4e3b-e0ab-d86d2017de71
 - alterId: 0
   cipher: auto
-  name: '0,3,302,572,636,658,659,671,771|美国_0610056 #1'
+  name: '0,3,302,572,636,658,659,668,669,671,771|美国_0610056 #1'
   network: ws
   port: '80'
   server: 104.26.3.120
@@ -30,7 +30,8 @@ proxies:
     path: /etc
 - alterId: 0
   cipher: auto
-  name: '0,3,303,491,552,572,636,658,659,717,750,771,914|🇺🇸_US_美国->🇫🇷_FR_法国 #9'
+  name: '0,3,303,491,552,572,636,658,659,668,669,717,750,771,914|🇺🇸_US_美国->🇫🇷_FR_法国
+    #9'
   network: ws
   port: 2082
   server: 104.21.8.157
@@ -61,10 +62,12 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
+  client-fingerprint: chrome
   country: 🇺🇸US
+  fingerprint: ''
   h2-opts: {}
   http-opts: {}
-  name: 1,2,303,513,619,658,659,896|Relay_ |10.44Mb
+  name: 1,2,295,303,513,619,658,659,896|Relay_ | 2.43Mb
   network: ws
   port: 80
   server: 104.26.3.120
@@ -72,6 +75,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: vmess
+  udp: false
   uuid: f94c274d-f9c5-4c47-a3f5-fa839d80bfb1
   ws-opts:
     headers:
@@ -117,9 +121,12 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
+  client-fingerprint: chrome
+  country: 🏁ZZ
+  fingerprint: ''
   h2-opts: {}
   http-opts: {}
-  name: 1,2,303,569,619,658,659,694,896|Relay_-🇫🇷FR_911
+  name: 1,2,295,303,513,569,619,658,659,694,896|Relay_-🇫🇷FR_911
   network: ws
   port: 2082
   server: 104.21.8.157
@@ -143,17 +150,14 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 302,303,441,442,444,445,539,540,552,570,588,658,659,668,669,671,896| |10.45Mb
+  name: '302,303,441,442,444,445,658,659|🏁RELAY-104.16.61.8-0194 #2'
   network: ws
   port: 2086
   server: 104.16.61.8
   servername: ''
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: false
   type: vmess
-  udp: true
   uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
   ws-opts:
     headers:
@@ -161,7 +165,7 @@ proxies:
     path: /ivideos.sbs/linkws
 - alterId: 0
   cipher: auto
-  name: 302,303,441,442,444,445,658,659,668,669,671|VPN招代理电报联系@litata2022
+  name: '302,303,441,442,444,445,658,659|🏁RELAY-104.16.60.8-0195 #2'
   network: ws
   port: 2086
   server: 104.16.60.8
@@ -426,10 +430,11 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: '491,748,750,914|🇺🇸_US_美国->🇫🇷_FR_法国 #8'
+  name: '491,552,748,750,914|🇺🇸_US_美国->🇫🇷_FR_法国 #8'
   network: ws
   port: 2082
   server: 172.67.130.140
+  servername: ''
   tls: false
   type: vmess
   uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
@@ -2675,35 +2680,22 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '694|🇺🇸_US_美国->🇨🇦_CA_加拿大 #5'
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 694,896|Relay_🇺🇸US-🇨🇦CA_1751 |19.81Mb
   network: ws
   port: 2052
   server: cdncdncdncdn.784654.xyz
+  servername: ca-cfcdn.aikunapp.com
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 8c8dabbc-93a6-44ad-b878-0d980fa249d1
+  uuid: 99f495e8-87b6-4940-8339-2bc05af379ff
   ws-opts:
     headers:
-      host: ca-cfcdn.aikunapp.com
+      HOST: ca-cfcdn.aikunapp.com
     path: /index?ed=2048
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 694,748,750,896|Relay_-🇷FR_898
-  network: ws
-  port: 2082
-  server: s1c.v2.v001sss.xyz
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-  ws-opts:
-    headers:
-      host: s1c.v2.v001sss.xyz
-    path: /
 - alterId: 0
   cipher: auto
   name: 734|:美国-vmess-arm.ptuu.gq:443-可用-中...
