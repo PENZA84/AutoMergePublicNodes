@@ -14,7 +14,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '89,303,304,574,592,597,598,631,663,664,673,674,731,732,753,755|github.com/freefq
+  name: '89,303,304,544,545,574,575,592,593,597,598,631,663,664,673,674,731,732,753,755|github.com/freefq
     - 广东省移动 7 #2'
   network: ws
   port: '20401'
@@ -603,7 +603,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '304,663,664,731,732|广东省 移动 #3'
+  name: '304,663,664,731,732|广东省 移动 #6'
   network: ws
   port: '16632'
   server: 120.233.204.126
@@ -627,7 +627,7 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 304,544,574,597,731|🇰🇷 韩国+KT电信
+  name: 304,574,597,731|🇰🇷 韩国+KT电信
   password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
   port: 26667
   server: service.ouluyun9803.com
@@ -654,7 +654,7 @@ proxies:
   udp: true
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 304,574,597,731|🇺🇸 美国科罗拉多州布隆菲尔德市+Level3
+  name: 304,544,574,597,731|🇺🇸 美国科罗拉多州布隆菲尔德市+Level3
   password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
   port: 20003
   server: service.ouluyun9803.com
@@ -2454,7 +2454,7 @@ proxies:
       Host: tms.dingtalk.com
     path: /
 - cipher: rc4-md5
-  name: 518,519,525|Relay_-CN_02
+  name: 518|Relay_-CN_03 |377.00Mb
   obfs: plain
   obfs-param: 64334105622.www.gov.hk
   password: di15PV
@@ -2462,28 +2462,6 @@ proxies:
   protocol: auth_aes128_md5
   protocol-param: 105622:5EF7C3661EBC
   server: video23.cdn.globalnetworktraffic.com
-  type: ssr
-- cipher: aes-256-cfb
-  country: 🇨CN
-  name: 519|Relay_🇨🇳CN-🇨🇳CN_08
-  obfs: http_simple
-  obfs-param: d300c11275.microsoft.com
-  password: dajkdkjda&dj23gsa
-  port: 2212
-  protocol: auth_aes128_md5
-  protocol-param: 11275:KWQHheqWo8
-  server: 231103.level3.sdl-sz.com
-  type: ssr
-- cipher: aes-256-cfb
-  country: 🇨🇳CN
-  name: 519|Relay_🇨🇳CN-🇨🇳CN_09
-  obfs: http_simple
-  obfs-param: d300c11275.microsoft.com
-  password: dajkdkjda&dj23gsa
-  port: 19970
-  protocol: auth_aes128_md5
-  protocol-param: 11275:KWQHheqWo8
-  server: 231103.level3.sdl-sz.com
   type: ssr
 - alterId: 0
   cipher: auto
@@ -4460,11 +4438,15 @@ proxies:
   ws-path: /
 - alterId: 64
   cipher: auto
-  name: 557|中国_061113005
+  country: 🇨CN
+  h2-opts: {}
+  http-opts: {}
+  name: 557,903|Relay_🇨CN-🇺🇸US_979 |18.57Mb
   network: tcp
-  port: '42055'
+  port: 42055
   server: 120.232.153.36
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -9230,6 +9212,23 @@ proxies:
   tls: true
   type: trojan
   udp: true
+- alterId: 64
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 903|Relay_-🇨🇳CN_818 |23.55Mb
+  network: ws
+  port: 38001
+  server: 38.165.72.151
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.22103619.xyz
+    path: /path/1714306882216
 - alterId: 0
   cipher: auto
   name: 974|中国-国外回国内-v2ray
