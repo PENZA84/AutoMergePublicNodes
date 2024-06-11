@@ -1,8 +1,10 @@
 proxies:
-- client-fingerprint: chrome
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: 2pxF1YL0obWgOVYsTfLJX3ihXJUp
-  name: 1,2,304,597,624|_US_->_DE_国_1
+  name: 1,2,304,597,624,741|US国
   network: grpc
   password: f91f38bb-72d5-4f3e-8311-1788986293f5
   port: 443
@@ -22,74 +24,65 @@ proxies:
   udp: true
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: '1,2,233,681|🇺🇸 United States_1 #1'
+  name: 1,2,681|🇺🇸 United States_1
   password: 93ec2378-1151-4db5-9c56-d1387f36882d
   port: 50001
   server: us01.mmyjiedian.com
   tfo: false
   type: ss
-  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1,2,233|🇬🇧 英国
+  name: '1,2|_CN_->_GB__1 #1'
   password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
   port: 40021
   server: gb01.mmyjiedian.com
   type: ss
-  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1,2,233|🇺🇸 United States_2
+  name: '1,2|_CN_->_CA__2 #1'
   password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
   port: 50002
   server: us02.mmyjiedian.com
   type: ss
-  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1,2,233|🇩🇪 德国
+  name: '1,2|_CN_->_FI__1 #1'
   password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
   port: 40022
   server: de01.mmyjiedian.com
   type: ss
-  udp: true
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: '1,2,233,681|🇺🇸 United States_6 #1'
+  name: 1,2,681|🇺🇸 United States_6
   password: 93ec2378-1151-4db5-9c56-d1387f36882d
   port: 50006
   server: us06.mmyjiedian.com
   tfo: false
   type: ss
-  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1,2,233|🇳🇱 荷兰
+  name: '1,2|_CN_->_GB__2 #1'
   password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
   port: 40024
   server: nl01.mmyjiedian.com
   type: ss
-  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1,2,233|🇸🇪 瑞典
+  name: '1,2|_CN_->_US__2 #1'
   password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
   port: 40050
   server: se01.mmyjiedian.com
   type: ss
-  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1,2,233|🇪🇸 西班牙
+  name: '1,2|_CN_->_US__3 #1'
   password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
   port: 40026
   server: es01.mmyjiedian.com
   type: ss
-  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1,2,233|🇮🇹 意大利
+  name: '1,2|_CN_->_FI__2 #1'
   password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
   port: 40025
   server: it01.mmyjiedian.com
   type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 303,445,446,448,449,641,673,674,776|俄罗斯联邦_0610003
+  name: 303,445,446,448,449,673,674,776|俄罗斯联邦_0610003
   network: tcp
   port: '12307'
   server: 5.182.86.28
@@ -99,13 +92,16 @@ proxies:
   uuid: 9ad4e318-03fc-4e3b-e0ab-d86d2017de71
 - alterId: 0
   cipher: auto
-  name: '303,445,446,448,449,577,641,663,664,673,674,676,776,778|美国_0610046 #2'
+  name: '303,445,446,448,449,544,545,575,577,593,663,664,673,674,676,776,778|美国_0610046
+    #2'
   network: ws
   port: '80'
   server: 104.26.3.120
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
+  udp: true
   uuid: f94c274d-f9c5-4c47-a3f5-fa839d80bfb1
   ws-opts:
     headers:
@@ -113,8 +109,8 @@ proxies:
     path: /etc
 - alterId: 0
   cipher: auto
-  name: '303,304,445,446,448,449,496,557,577,641,663,664,673,674,676,722,755,776,778,921|🇺🇸_US_美国->🇫🇷_FR_法国
-    #7'
+  name: '303,304,445,446,448,449,496,557,577,663,664,673,674,676,722,755,776,778,921|🇺🇸_US_美国->🇫🇷_FR_法国
+    #6'
   network: ws
   port: 2082
   server: 104.21.8.157
@@ -2639,7 +2635,7 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 699,753,755,903|Relay_-🇷FR_909
+  name: 699,753,755,903|Relay_-🇷FR_878
   network: ws
   port: 2082
   server: s1c.v2.v001sss.xyz
