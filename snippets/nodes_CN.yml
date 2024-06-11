@@ -745,7 +745,7 @@ proxies:
   server: 183.240.220.84
   type: ssr
 - cipher: chacha20-ietf
-  name: 305|🇨🇳CN-120.232.234.246-2334
+  name: 305,905|_726
   obfs: tls1.2_ticket_auth
   obfs-param: e0e3524.microsoft.com
   password: Fhbe0z
@@ -2727,7 +2727,7 @@ proxies:
       Host: tms.dingtalk.com
     path: /
 - cipher: rc4-md5
-  name: 520,521|Relay_-CN_02
+  name: 520,521,527|Relay_-CN_01
   obfs: plain
   obfs-param: 64334105622.www.gov.hk
   password: di15PV
@@ -4711,17 +4711,21 @@ proxies:
   ws-path: /
 - alterId: 64
   cipher: auto
-  name: 559|中国_061118004
+  country: 🇨CN
+  h2-opts: {}
+  http-opts: {}
+  name: 559,905|Relay_🇨CN-🇺🇸US_943 |17.92Mb
   network: tcp
-  port: '42055'
+  port: 42055
   server: 120.232.153.36
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 559|中国_061118005
+  name: 559|中国_061123007
   network: tcp
   port: '53942'
   server: 120.232.153.39
@@ -4731,7 +4735,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 559|中国_061118006
+  name: 559|中国_061123008
   network: ''
   port: '42055'
   server: 120.232.153.36
@@ -4741,11 +4745,39 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 559|中国_061118007
+  name: 559|中国_061123009
   network: ''
   port: '53942'
   server: 120.232.153.39
   servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: 559,905|Relay_🇨🇳CN-🇺🇸US_944 |38.42Mb
+  network: tcp
+  port: 44602
+  server: 183.240.235.169
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: 559,905|Relay_🇨🇳CN-🇺🇸US_946
+  network: tcp
+  port: 39041
+  server: 183.240.235.163
+  servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -9369,30 +9401,38 @@ proxies:
   tls: true
   type: trojan
   udp: true
+- cipher: chacha20-ietf-poly1305
+  country: 🇨CN
+  name: 905|🇨CN_941
+  password: ff97a869-bc4c-46e9-8d46-33dd9fd74c12
+  port: 48805
+  server: jp05.network-cdn-gw.cc
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇨🇳CN
+  name: 905|🇨CN_942
+  password: ff97a869-bc4c-46e9-8d46-33dd9fd74c12
+  port: 20001
+  server: vn01.network-cdn-gw.cc
+  type: ss
 - alterId: 64
   cipher: auto
+  country: 🇨🇳CN
   h2-opts: {}
   http-opts: {}
-  name: 905|Relay_-🇨CN_855 |31.95Mb
+  name: 905|🇨🇳CN_947 |23.46Mb
   network: ws
-  port: 38001
-  server: 38.165.72.151
+  port: 443
+  server: 23.225.41.74
+  servername: www.98725996.xyz
   skip-cert-verify: true
   tls: true
   type: vmess
-  udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: www.22103619.xyz
-    path: /path/1714306882216
-- cipher: chacha20-ietf-poly1305
-  country: 🇨CN
-  name: 905|🇨🇳CN_964
-  password: ff97a869-bc4c-46e9-8d46-33dd9fd74c12
-  port: 43305
-  server: mas.network-cdn-gw.cc
-  type: ss
+      HOST: www.98725996.xyz
+    path: /path/191019072927
 - alterId: 0
   cipher: auto
   name: 976|中国-国外回国内-v2ray
