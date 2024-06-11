@@ -451,7 +451,7 @@ proxies:
     path: /blue
 - alterId: 64
   cipher: auto
-  name: '304,547,577,595,691,699,743,744|未知528 #2'
+  name: '304,691,699,743,744|未知528 #2'
   network: tcp
   port: '51193'
   server: 183.238.202.173
@@ -508,11 +508,14 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 304,600,675,676,691,699|台湾2|@ripaojiedian
+  h2-opts: {}
+  http-opts: {}
+  name: 304,600,675,676,691,699,905|_866
   network: tcp
-  port: '32012'
+  port: 32012
   server: alm2.the-galgo.top
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 3a988367-5daa-4beb-be62-aaba3e79534a
@@ -1472,7 +1475,7 @@ proxies:
   uuid: fa4b6f8f-1264-45ec-9651-6160c12cabc5
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 305,698,905|Relay_-🇺🇸US_195 | 6.07Mb
+  name: 305,698,905|Relay_-HK_264 | 6.07Mb
   password: hGkQ6915tD
   port: 15001
   server: 59.56.77.178
@@ -1481,8 +1484,8 @@ proxies:
   udp: true
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  country: 🇨CN
-  name: 305,698,905|Relay_🇨CN-🇯🇵JP_1022
+  country: 🇨🇳CN
+  name: 305,698,905|Relay_🇨🇳CN-🇵JP_1056 |15.02Mb
   password: hGkQ6915tD
   port: 15084
   server: 59.56.77.178
@@ -1499,7 +1502,7 @@ proxies:
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   country: 🇨🇳CN
-  name: 305,698,905|Relay_🇨🇳CN-🇸US_1025
+  name: 305,698,905|Relay_🇨CN-🇺🇸US_1054 | 5.71Mb
   password: hGkQ6915tD
   port: 16058
   server: 59.56.77.178
@@ -1507,7 +1510,7 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 305,698,905|_171 | 2.22Mb
+  name: 305,698,905|Relay_-ZZ_123 | 2.22Mb
   password: hGkQ6915tD
   port: 15083
   server: 59.56.77.178
@@ -2728,7 +2731,7 @@ proxies:
       Host: tms.dingtalk.com
     path: /
 - cipher: rc4-md5
-  name: 520,521|Relay_-CN_02
+  name: 520,527|Relay_-CN_03
   obfs: plain
   obfs-param: 64334105622.www.gov.hk
   password: di15PV
@@ -2918,7 +2921,20 @@ proxies:
   network: ws
   password: NISHIKUITAN222
   port: 8443
-  server: 8.222.156.242
+  server: 8.222.134.170
+  skip-cert-verify: true
+  sni: t010.ylks.link
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: t010.ylks.link
+    path: /
+- name: 546|[Trojan] 🇨🇳 中国 阿里云 2
+  network: ws
+  password: NISHIKUITAN222
+  port: 8443
+  server: 8.219.49.65
   skip-cert-verify: true
   sni: t010.ylks.link
   type: trojan
@@ -2931,7 +2947,7 @@ proxies:
   network: ws
   password: NISHIKUITAN222
   port: 8443
-  server: 8.222.193.65
+  server: 8.222.183.242
   skip-cert-verify: true
   sni: t010.ylks.link
   type: trojan
@@ -2940,12 +2956,13 @@ proxies:
     headers:
       Host: t010.ylks.link
     path: /
-- name: 546|[Trojan] 🇨🇳 中国 阿里云 4
+- client-fingerprint: chrome
+  name: 546,599|🇨🇳 中国 阿里云 2
   network: ws
   password: NISHIKUITAN222
   port: 8443
-  server: 8.219.248.47
-  skip-cert-verify: true
+  server: 8.219.142.191
+  skip-cert-verify: false
   sni: t010.ylks.link
   type: trojan
   udp: true
@@ -2953,58 +2970,6 @@ proxies:
     headers:
       Host: t010.ylks.link
     path: /
-- name: 546|[Trojan] 🇨🇳 中国 阿里云 5
-  network: ws
-  password: NISHIKUITAN222
-  port: 8443
-  server: 8.222.169.222
-  skip-cert-verify: true
-  sni: t010.ylks.link
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: t010.ylks.link
-    path: /
-- name: 546|[Trojan] 🇨🇳 中国 阿里云 6
-  network: ws
-  password: NISHIKUITAN222
-  port: 8443
-  server: 8.219.117.198
-  skip-cert-verify: true
-  sni: t010.ylks.link
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: t010.ylks.link
-    path: /
-- name: 546|[Trojan] 🇨🇳 中国 阿里云 7
-  network: ws
-  password: NISHIKUITAN222
-  port: 8443
-  server: 8.219.6.150
-  skip-cert-verify: true
-  sni: t010.ylks.link
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: t010.ylks.link
-    path: /
-- name: 546|[Trojan] 🇨🇳 中国 阿里云 8
-  network: ws
-  password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 2053
-  server: 8.218.98.75
-  skip-cert-verify: true
-  sni: mfjd.591haoka.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: mfjd.591haoka.com
-    path: ''
 - alterId: 4
   cipher: auto
   name: '548,605|未命名 #198'
@@ -8097,20 +8062,6 @@ proxies:
       Host: t010.ylks.link
     path: /
 - client-fingerprint: chrome
-  name: 599|🇨🇳 中国 阿里云 2
-  network: ws
-  password: NISHIKUITAN222
-  port: 8443
-  server: 8.219.142.191
-  skip-cert-verify: false
-  sni: t010.ylks.link
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: t010.ylks.link
-    path: /
-- client-fingerprint: chrome
   name: 599|🇨🇳 中国 阿里云 3
   network: ws
   password: NISHIKUITAN222
@@ -9355,7 +9306,7 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 905|Relay_-🇳CN_791
+  name: 905|Relay_-🇳CN_872 |37.43Mb
   network: ws
   port: 38001
   server: 38.165.72.151
@@ -9370,38 +9321,17 @@ proxies:
     path: /path/1714306882216
 - cipher: chacha20-ietf-poly1305
   country: 🇨🇳CN
-  name: 905|🇨🇳CN_1023
-  password: ff97a869-bc4c-46e9-8d46-33dd9fd74c12
-  port: 49903
-  server: hkp3.network-cdn-gw.cc
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇨🇳CN
-  name: 905|🇨CN_1024
+  name: 905|🇨CN_1055
   password: ff97a869-bc4c-46e9-8d46-33dd9fd74c12
   port: 20004
   server: fr.network-cdn-gw.cc
   type: ss
-- alterId: 0
+- alterId: 64
   cipher: auto
   country: 🇨CN
   h2-opts: {}
   http-opts: {}
-  name: 905,979|🇸🇬 新加坡A丨Wap丨流媒体
-  network: tcp
-  port: '62033'
-  server: gy.zztannel.com
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: d3a515b4-6fcb-38c8-93d3-2c17da360f89
-- alterId: 64
-  cipher: auto
-  country: 🇨🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: 905|Relay_🇨CN-🇳CN_1027
+  name: 905|Relay_🇨🇳CN-🇳CN_1057
   network: ws
   port: 49997
   server: 107.148.255.229
