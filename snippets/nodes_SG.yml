@@ -1,6 +1,15 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 14|新加坡|湖南移动|Linode|1x
+  network: tcp
+  port: 39288
+  server: cs.guanguan.club
+  tls: false
+  type: vmess
+  uuid: f010dd01-c54a-3c03-95ce-0838214259c6
+- alterId: 0
+  cipher: auto
   name: '17,120|🇸🇬 新加坡1|cf #1'
   network: ws
   port: '2052'
@@ -1124,7 +1133,7 @@ proxies:
   name: 278|🇸🇬狮城区域1自动运维节点
   network: tcp
   port: '20182'
-  server: w9cqFQ.gov.goldliond.top
+  server: IhYwHR.gov.goldliond.top
   tls: false
   type: vmess
   uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f
@@ -1133,7 +1142,7 @@ proxies:
   name: 278|🇸🇬狮城区域2自动运维节点
   network: tcp
   port: '20182'
-  server: qOdyCi.gov.goldliond.top
+  server: 3qcpTT.gov.goldliond.top
   tls: false
   type: vmess
   uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f
@@ -1142,7 +1151,7 @@ proxies:
   name: 278|🇸🇬狮城区域3自动运维节点
   network: tcp
   port: '20182'
-  server: prxiXc.gov.goldliond.top
+  server: s8Hk7s.gov.goldliond.top
   tls: false
   type: vmess
   uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f
@@ -1151,7 +1160,7 @@ proxies:
   name: 278|🇸🇬狮城区域1-三网优化-解锁Netflix
   network: tcp
   port: '40184'
-  server: 0lgTRv.gov.goldliond.top
+  server: HmTDJn.gov.goldliond.top
   tls: false
   type: vmess
   uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f
@@ -1550,19 +1559,20 @@ proxies:
     path: /RACEVPN
 - alterId: 0
   cipher: auto
-  name: '304,305,665,666|🇸🇬SG-172.104.48.151-0008 #2'
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 304,559,678,724,732,905|Relay_🇺🇸US-🇺🇸US_1619
   network: ws
-  port: 8080
-  server: 172.104.48.151
+  port: 23006
+  server: 138.2.90.147
   servername: ''
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: c8bab0e9-fad7-46ef-e74a-9cb2022ed9c9
+  uuid: 5eea50d8-a816-48c7-bc35-0fde39e277b5
   ws-opts:
-    headers:
-      Host: ''
-    path: /
+    path: /free
 - alterId: 0
   cipher: auto
   h2-opts: {}
@@ -1604,22 +1614,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: 304,559,678,724,732,905|Relay_🇺🇸US-🇺🇸US_1619
-  network: ws
-  port: 23006
-  server: 138.2.90.147
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 5eea50d8-a816-48c7-bc35-0fde39e277b5
-  ws-opts:
-    path: /free
-- alterId: 0
-  cipher: auto
   name: 304,305,665,666,678|新加坡_华伪云专线_知更鸟的无毛粉色白虎大批
   network: ws
   port: 8080
@@ -1633,6 +1627,21 @@ proxies:
     headers:
       Host: oci-sg.968968.xyz
     path: /index?ed=2560
+- alterId: 0
+  cipher: auto
+  name: '305,665,666|🇸🇬SG-172.104.48.151-0008 #2'
+  network: ws
+  port: 8080
+  server: 172.104.48.151
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: c8bab0e9-fad7-46ef-e74a-9cb2022ed9c9
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
   h2-opts: {}
@@ -1972,8 +1981,7 @@ proxies:
   server: 103.172.116.103
   type: ss
 - cipher: aes-256-cfb
-  country: 🇸🇬SG
-  name: 305,521|🇸🇬SG_82
+  name: 305|🇬SG-103.172.116.103-0893
   password: KnJGad3FqTvjqbaX
   port: 9014
   server: 103.172.116.103
@@ -2389,7 +2397,8 @@ proxies:
   server: 103.172.116.103
   type: ss
 - cipher: aes-256-cfb
-  name: 305|🇬SG-103.172.116.103-2960
+  country: 🇸🇬SG
+  name: 305,521|🇸🇬SG_81
   password: cp8pRSUAyLhTfVWH
   port: 9064
   server: 103.172.116.103
@@ -3174,28 +3183,38 @@ proxies:
   server: 13.250.35.165
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 520|Relay_ZZ-SG_173 |17.91Mb
+  network: ws
+  port: 2052
+  server: cfcdn2.sanfencdn9.com
+  servername: rpmlybgzsg2.yofnhkfc.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: a91c3fbf-0a68-474b-ac24-bf801db981f6
+  ws-opts:
+    headers:
+      HOST: rpmlybgzsg2.yofnhkfc.xyz
+    path: /video/3YKfzGw4
 - cipher: aes-256-cfb
-  country: 🇸🇬SG
-  name: 521,905|🇸🇬SG_1193
-  password: fG2artUmHfNT2cX7
-  port: 9018
-  server: 103.172.116.94
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇸🇬SG
-  name: 521,905|_176
-  password: UWZQeLRWnkqgkseq
-  port: 9032
-  server: 103.172.116.103
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇸🇬SG
+  country: 🇬SG
   name: 521,905|_121
   password: BejrQvtu9sqUeNuZ
   port: 9024
   server: 103.172.116.94
   type: ss
   udp: true
+- cipher: aes-256-cfb
+  country: 🇸🇬SG
+  name: 521,905|_176 |13.79Mb
+  password: UWZQeLRWnkqgkseq
+  port: 9032
+  server: 103.172.116.103
+  type: ss
 - alterId: 0
   cipher: auto
   name: 534|SG_youtube@资源分享师_38
@@ -5531,6 +5550,13 @@ proxies:
   password: rpgbNnU9rDDU4aWZ
   port: 9094
   server: 103.172.116.79
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇸🇬SG
+  name: 905|🇸🇬SG_1193
+  password: fG2artUmHfNT2cX7
+  port: 9018
+  server: 103.172.116.94
   type: ss
 - cipher: aes-256-cfb
   country: 🇸🇬SG
