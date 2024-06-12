@@ -1,7 +1,16 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '17,121,306,572,746,766,774|رایگان | VMESS | @mftizi | HK🇭... #3'
+  name: 14|香港|徐州移动|Neko|1.5x
+  network: tcp
+  port: '13335'
+  server: jscm.r1u.cn
+  tls: false
+  type: vmess
+  uuid: f010dd01-c54a-3c03-95ce-0838214259c6
+- alterId: 0
+  cipher: auto
+  name: '17,121,306,572,746|US384 #2'
   network: ws
   port: '2052'
   server: hk.wish.ml
@@ -238,11 +247,12 @@ proxies:
 - country: HK
   delay: 869
   fingerprint: chrome
-  name: '113,185|netflix_HK #24'
+  name: '113,185,548,605|香港 021 #1'
   network: ws
   password: 0fd9b883-0551-4ed1-b978-528183b459a2
   port: 2053
   server: 8.210.164.75
+  skip-cert-verify: true
   sni: mfjd.591haoka.com
   type: trojan
   udp: true
@@ -250,13 +260,15 @@ proxies:
     headers:
       Host: mfjd.591haoka.com
     path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
-- delay: 973
+- country: HK
+  delay: 973
   fingerprint: chrome
-  name: 113|香港 022
+  name: '113,185,548,605|香港 022 #1'
   network: ws
   password: 0fd9b883-0551-4ed1-b978-528183b459a2
   port: 2083
   server: 8.210.164.75
+  skip-cert-verify: true
   sni: mfjd.591haoka.com
   type: trojan
   udp: true
@@ -264,13 +276,15 @@ proxies:
     headers:
       Host: mfjd.591haoka.com
     path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
-- delay: 551
+- country: HK
+  delay: 551
   fingerprint: chrome
-  name: 113|香港 023
+  name: '113,185,548,605|香港 023 #1'
   network: ws
   password: 0fd9b883-0551-4ed1-b978-528183b459a2
   port: 2087
   server: 8.210.164.75
+  skip-cert-verify: true
   sni: mfjd.591haoka.com
   type: trojan
   udp: true
@@ -283,7 +297,7 @@ proxies:
   delay: 970
   h2-opts: {}
   http-opts: {}
-  name: 113|香港 025
+  name: 113,548,549,597,605,907|Relay_ | 8.87Mb
   network: ws
   port: 443
   server: hk1.connectnaif.xyz
@@ -302,7 +316,7 @@ proxies:
   delay: 1161
   h2-opts: {}
   http-opts: {}
-  name: 113|香港 026
+  name: '113,548,549,597,605|香港 026 #1'
   network: ws
   port: 443
   server: 27.124.12.88
@@ -310,6 +324,7 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: vmess
+  udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
@@ -418,7 +433,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: aes-128-gcm
-  name: 184,307,745|HK4 858.4KB/s
+  name: '184,307,745,907| | 8.52Mb #4'
   password: a-wym4ovY4Yw
   port: 81
   server: 47.243.45.101
@@ -442,6 +457,20 @@ proxies:
     path: /
 - country: HK
   fingerprint: chrome
+  name: 185|netflix_HK
+  network: ws
+  password: 0fd9b883-0551-4ed1-b978-528183b459a2
+  port: 2053
+  server: 8.217.66.3
+  sni: mfjd.591haoka.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: mfjd.591haoka.com
+    path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
+- country: HK
+  fingerprint: chrome
   name: 185|Relay_HK-HK_08
   network: ws
   password: 0fd9b883-0551-4ed1-b978-528183b459a2
@@ -459,63 +488,7 @@ proxies:
   name: 185|Relay_HK-HK_09
   network: ws
   password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 2053
-  server: 47.243.243.14
-  sni: mfjd.591haoka.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: mfjd.591haoka.com
-    path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
-- country: HK
-  fingerprint: chrome
-  name: 185|netflix_HK
-  network: ws
-  password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 2083
-  server: 47.243.206.150
-  sni: mfjd.591haoka.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: mfjd.591haoka.com
-    path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
-- country: HK
-  fingerprint: chrome
-  name: 185|Relay_HK-HK_11
-  network: ws
-  password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 2083
-  server: 47.243.186.171
-  sni: mfjd.591haoka.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: mfjd.591haoka.com
-    path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
-- country: HK
-  fingerprint: chrome
-  name: 185|Relay_HK-HK_12
-  network: ws
-  password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 2096
-  server: 47.242.174.27
-  sni: mfjd.591haoka.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: mfjd.591haoka.com
-    path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
-- country: HK
-  fingerprint: chrome
-  name: 185|Relay_HK-HK_13
-  network: ws
-  password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 2053
+  port: 8443
   server: 47.76.178.146
   sni: mfjd.591haoka.com
   type: trojan
@@ -529,8 +502,22 @@ proxies:
   name: '185|netflix_HK #1'
   network: ws
   password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 2083
-  server: 47.243.234.9
+  port: 443
+  server: 43.154.96.33
+  sni: mfjd.591haoka.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: mfjd.591haoka.com
+    path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
+- country: HK
+  fingerprint: chrome
+  name: 185|Relay_HK-HK_11
+  network: ws
+  password: 0fd9b883-0551-4ed1-b978-528183b459a2
+  port: 8443
+  server: 47.243.204.32
   sni: mfjd.591haoka.com
   type: trojan
   udp: true
@@ -541,62 +528,6 @@ proxies:
 - country: HK
   fingerprint: chrome
   name: '185|netflix_HK #2'
-  network: ws
-  password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 2083
-  server: 8.210.21.65
-  sni: mfjd.591haoka.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: mfjd.591haoka.com
-    path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
-- country: HK
-  fingerprint: chrome
-  name: '185|netflix_HK #3'
-  network: ws
-  password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 2087
-  server: 47.243.139.85
-  sni: mfjd.591haoka.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: mfjd.591haoka.com
-    path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
-- country: HK
-  fingerprint: chrome
-  name: '185|netflix_HK #4'
-  network: ws
-  password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 2087
-  server: 8.218.142.253
-  sni: mfjd.591haoka.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: mfjd.591haoka.com
-    path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
-- country: HK
-  fingerprint: chrome
-  name: 185|Relay_HK-HK_19
-  network: ws
-  password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 2053
-  server: 8.217.164.10
-  sni: mfjd.591haoka.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: mfjd.591haoka.com
-    path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
-- country: HK
-  fingerprint: chrome
-  name: '185|netflix_HK #5'
   network: ws
   password: 0fd9b883-0551-4ed1-b978-528183b459a2
   port: 2096
@@ -610,11 +541,81 @@ proxies:
     path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
 - country: HK
   fingerprint: chrome
-  name: 185|Relay_HK-HK_21
+  name: 185|Relay_HK-HK_13
   network: ws
   password: 0fd9b883-0551-4ed1-b978-528183b459a2
   port: 2053
-  server: 8.210.89.245
+  server: 47.243.243.14
+  sni: mfjd.591haoka.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: mfjd.591haoka.com
+    path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
+- country: HK
+  fingerprint: chrome
+  name: 185|Relay_HK-HK_15
+  network: ws
+  password: 0fd9b883-0551-4ed1-b978-528183b459a2
+  port: 2053
+  server: 47.243.206.150
+  sni: mfjd.591haoka.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: mfjd.591haoka.com
+    path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
+- country: HK
+  fingerprint: chrome
+  name: '185|netflix_HK #3'
+  network: ws
+  password: 0fd9b883-0551-4ed1-b978-528183b459a2
+  port: 8443
+  server: 8.210.21.65
+  sni: mfjd.591haoka.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: mfjd.591haoka.com
+    path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
+- country: HK
+  fingerprint: chrome
+  name: '185|netflix_HK #4'
+  network: ws
+  password: 0fd9b883-0551-4ed1-b978-528183b459a2
+  port: 443
+  server: 45.8.186.188
+  sni: mfjd.591haoka.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: mfjd.591haoka.com
+    path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
+- country: HK
+  fingerprint: chrome
+  name: 185|Relay_HK-HK_19
+  network: ws
+  password: 0fd9b883-0551-4ed1-b978-528183b459a2
+  port: 443
+  server: 159.138.131.240
+  sni: mfjd.591haoka.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: mfjd.591haoka.com
+    path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
+- country: HK
+  fingerprint: chrome
+  name: '185|netflix_HK #5'
+  network: ws
+  password: 0fd9b883-0551-4ed1-b978-528183b459a2
+  port: 36799
+  server: 43.224.50.213
   sni: mfjd.591haoka.com
   type: trojan
   udp: true
@@ -627,8 +628,8 @@ proxies:
   name: '185|netflix_HK #6'
   network: ws
   password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 2053
-  server: 8.218.142.253
+  port: 443
+  server: 16.162.10.198
   sni: mfjd.591haoka.com
   type: trojan
   udp: true
@@ -641,50 +642,8 @@ proxies:
   name: '185|netflix_HK #7'
   network: ws
   password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 2053
-  server: 8.217.72.0
-  sni: mfjd.591haoka.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: mfjd.591haoka.com
-    path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
-- country: HK
-  fingerprint: chrome
-  name: 185|Relay_HK-HK_24
-  network: ws
-  password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 2053
-  server: 47.76.77.103
-  sni: mfjd.591haoka.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: mfjd.591haoka.com
-    path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
-- country: HK
-  fingerprint: chrome
-  name: 185|Relay_HK-HK_25
-  network: ws
-  password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 2083
-  server: 47.76.77.103
-  sni: mfjd.591haoka.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: mfjd.591haoka.com
-    path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
-- country: HK
-  fingerprint: chrome
-  name: 185|Relay_HK-HK_26
-  network: ws
-  password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 2053
-  server: 47.242.59.216
+  port: 2087
+  server: 47.243.186.171
   sni: mfjd.591haoka.com
   type: trojan
   udp: true
@@ -697,8 +656,22 @@ proxies:
   name: '185|netflix_HK #8'
   network: ws
   password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 2053
-  server: 8.217.66.3
+  port: 443
+  server: 16.162.37.167
+  sni: mfjd.591haoka.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: mfjd.591haoka.com
+    path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
+- country: HK
+  fingerprint: chrome
+  name: 185|Relay_HK-HK_24
+  network: ws
+  password: 0fd9b883-0551-4ed1-b978-528183b459a2
+  port: 29876
+  server: 154.204.60.218
   sni: mfjd.591haoka.com
   type: trojan
   udp: true
@@ -711,8 +684,8 @@ proxies:
   name: '185|netflix_HK #9'
   network: ws
   password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 2053
-  server: 8.210.107.246
+  port: 443
+  server: 18.167.208.181
   sni: mfjd.591haoka.com
   type: trojan
   udp: true
@@ -722,11 +695,53 @@ proxies:
     path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
 - country: HK
   fingerprint: chrome
-  name: '185|netflix_HK #10'
+  name: 185|Relay_HK-HK_26
   network: ws
   password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 2083
-  server: 47.243.67.28
+  port: 443
+  server: 18.167.194.154
+  sni: mfjd.591haoka.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: mfjd.591haoka.com
+    path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
+- country: HK
+  fingerprint: chrome
+  name: 185|Relay_HK-HK_27
+  network: ws
+  password: 0fd9b883-0551-4ed1-b978-528183b459a2
+  port: 443
+  server: 16.162.56.233
+  sni: mfjd.591haoka.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: mfjd.591haoka.com
+    path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
+- country: HK
+  fingerprint: chrome
+  name: 185|Relay_HK-HK_28
+  network: ws
+  password: 0fd9b883-0551-4ed1-b978-528183b459a2
+  port: 3443
+  server: 47.75.101.0
+  sni: mfjd.591haoka.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: mfjd.591haoka.com
+    path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
+- country: HK
+  fingerprint: chrome
+  name: 185|Relay_HK-HK_29
+  network: ws
+  password: 0fd9b883-0551-4ed1-b978-528183b459a2
+  port: 2053
+  server: 47.243.234.9
   sni: mfjd.591haoka.com
   type: trojan
   udp: true
@@ -739,8 +754,8 @@ proxies:
   name: 185|Relay_HK-HK_30
   network: ws
   password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 2087
-  server: 47.76.77.103
+  port: 2083
+  server: 8.210.21.65
   sni: mfjd.591haoka.com
   type: trojan
   udp: true
@@ -750,11 +765,11 @@ proxies:
     path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
 - country: HK
   fingerprint: chrome
-  name: '185|netflix_HK #11'
+  name: '185|netflix_HK #10'
   network: ws
   password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 8443
-  server: 8.218.98.75
+  port: 443
+  server: 16.162.37.123
   sni: mfjd.591haoka.com
   type: trojan
   udp: true
@@ -767,8 +782,22 @@ proxies:
   name: 185|Relay_HK-HK_32
   network: ws
   password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 2053
-  server: 47.242.36.78
+  port: 8443
+  server: 47.243.234.9
+  sni: mfjd.591haoka.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: mfjd.591haoka.com
+    path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
+- country: HK
+  fingerprint: chrome
+  name: 185|Relay_HK-HK_34
+  network: ws
+  password: 0fd9b883-0551-4ed1-b978-528183b459a2
+  port: 2083
+  server: 8.217.164.10
   sni: mfjd.591haoka.com
   type: trojan
   udp: true
@@ -781,8 +810,8 @@ proxies:
   name: '185|netflix_HK #12'
   network: ws
   password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 3443
-  server: 47.75.101.0
+  port: 2087
+  server: 47.243.139.85
   sni: mfjd.591haoka.com
   type: trojan
   udp: true
@@ -809,36 +838,8 @@ proxies:
   name: '185|netflix_HK #14'
   network: ws
   password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 2087
-  server: 8.217.164.10
-  sni: mfjd.591haoka.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: mfjd.591haoka.com
-    path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
-- country: HK
-  fingerprint: chrome
-  name: 185|Relay_HK-HK_36
-  network: ws
-  password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 443
-  server: 16.162.37.167
-  sni: mfjd.591haoka.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: mfjd.591haoka.com
-    path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
-- country: HK
-  fingerprint: chrome
-  name: 185|Relay_HK-HK_37
-  network: ws
-  password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 443
-  server: 45.8.186.188
+  port: 2083
+  server: 8.217.221.165
   sni: mfjd.591haoka.com
   type: trojan
   udp: true
@@ -851,8 +852,8 @@ proxies:
   name: 185|Relay_HK-HK_38
   network: ws
   password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 2083
-  server: 47.243.86.79
+  port: 8443
+  server: 8.218.204.128
   sni: mfjd.591haoka.com
   type: trojan
   udp: true
@@ -865,8 +866,8 @@ proxies:
   name: 185|Relay_HK-HK_39
   network: ws
   password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 38768
-  server: 8.210.38.199
+  port: 2053
+  server: 47.76.146.1
   sni: mfjd.591haoka.com
   type: trojan
   udp: true
@@ -880,21 +881,7 @@ proxies:
   network: ws
   password: 0fd9b883-0551-4ed1-b978-528183b459a2
   port: 2083
-  server: 8.210.107.246
-  sni: mfjd.591haoka.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: mfjd.591haoka.com
-    path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
-- country: HK
-  fingerprint: chrome
-  name: 185|Relay_HK-HK_41
-  network: ws
-  password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 443
-  server: 43.154.96.33
+  server: 47.243.186.171
   sni: mfjd.591haoka.com
   type: trojan
   udp: true
@@ -907,8 +894,8 @@ proxies:
   name: '185|netflix_HK #15'
   network: ws
   password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 2053
-  server: 8.218.173.78
+  port: 8443
+  server: 8.218.98.75
   sni: mfjd.591haoka.com
   type: trojan
   udp: true
@@ -921,8 +908,8 @@ proxies:
   name: 185|Relay_HK-HK_43
   network: ws
   password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 443
-  server: 18.167.208.181
+  port: 2053
+  server: 47.242.36.78
   sni: mfjd.591haoka.com
   type: trojan
   udp: true
@@ -932,11 +919,11 @@ proxies:
     path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
 - country: HK
   fingerprint: chrome
-  name: 185|Relay_HK-HK_44
+  name: '185|netflix_HK #16'
   network: ws
   password: 0fd9b883-0551-4ed1-b978-528183b459a2
   port: 2053
-  server: 47.76.203.101
+  server: 8.217.164.10
   sni: mfjd.591haoka.com
   type: trojan
   udp: true
@@ -946,11 +933,11 @@ proxies:
     path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
 - country: HK
   fingerprint: chrome
-  name: 185|Relay_HK-HK_45
+  name: '185|netflix_HK #17'
   network: ws
   password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 8443
-  server: 47.243.86.79
+  port: 2096
+  server: 47.242.174.27
   sni: mfjd.591haoka.com
   type: trojan
   udp: true
@@ -960,39 +947,25 @@ proxies:
     path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
 - country: HK
   fingerprint: chrome
-  name: 185|Relay_HK-HK_46
+  name: '185|netflix_HK #18'
   network: ws
   password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 443
-  server: 16.162.37.123
+  port: 2096
+  server: 47.76.178.146
   sni: mfjd.591haoka.com
   type: trojan
   udp: true
   ws-opts:
     headers:
       Host: mfjd.591haoka.com
-    path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
-- country: HK
-  fingerprint: chrome
-  name: 185|Relay_HK-HK_47
-  network: ws
-  password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 443
-  server: 16.162.10.198
-  sni: mfjd.591haoka.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: mfjd.591haoka.com
-    path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
+    path: /?ed=2560&proxyIP=proxyip.vultr.fxxk.dedyn.io
 - country: HK
   fingerprint: chrome
   name: 185|Relay_HK-HK_48
   network: ws
   password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 443
-  server: 18.167.194.154
+  port: 2087
+  server: 8.217.164.10
   sni: mfjd.591haoka.com
   type: trojan
   udp: true
@@ -1006,119 +979,7 @@ proxies:
   network: ws
   password: 0fd9b883-0551-4ed1-b978-528183b459a2
   port: 2053
-  server: 8.218.204.128
-  sni: mfjd.591haoka.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: mfjd.591haoka.com
-    path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
-- country: HK
-  fingerprint: chrome
-  name: 185|Relay_HK-HK_50
-  network: ws
-  password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 2083
-  server: 8.217.164.10
-  sni: mfjd.591haoka.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: mfjd.591haoka.com
-    path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
-- country: HK
-  fingerprint: chrome
-  name: 185|Relay_HK-HK_52
-  network: ws
-  password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 2053
-  server: 47.76.37.57
-  sni: mfjd.591haoka.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: mfjd.591haoka.com
-    path: /?ed=2560&proxyIP=proxyip.vultr.fxxk.dedyn.io
-- country: HK
-  fingerprint: chrome
-  name: '185|netflix_HK #16'
-  network: ws
-  password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 2053
-  server: 47.242.119.104
-  sni: mfjd.591haoka.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: mfjd.591haoka.com
-    path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
-- country: HK
-  fingerprint: chrome
-  name: '185|netflix_HK #17'
-  network: ws
-  password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 443
-  server: 47.242.60.161
-  sni: mfjd.591haoka.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: mfjd.591haoka.com
-    path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
-- country: HK
-  fingerprint: chrome
-  name: 185|Relay_HK-HK_55
-  network: ws
-  password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 8443
-  server: 8.218.204.128
-  sni: mfjd.591haoka.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: mfjd.591haoka.com
-    path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
-- country: HK
-  fingerprint: chrome
-  name: '185|netflix_HK #18'
-  network: ws
-  password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 2053
-  server: 47.243.206.150
-  sni: mfjd.591haoka.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: mfjd.591haoka.com
-    path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
-- country: HK
-  fingerprint: chrome
-  name: 185|Relay_HK-HK_57
-  network: ws
-  password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 443
-  server: 43.155.22.176
-  sni: mfjd.591haoka.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: mfjd.591haoka.com
-    path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
-- country: HK
-  fingerprint: chrome
-  name: '185|netflix_HK #19'
-  network: ws
-  password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 8443
-  server: 8.210.21.65
+  server: 47.242.59.216
   sni: mfjd.591haoka.com
   type: trojan
   udp: true
@@ -1131,43 +992,15 @@ proxies:
   name: '185|netflix_HK #20'
   network: ws
   password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 2096
-  server: 47.243.91.58
+  port: 2053
+  server: 47.76.37.57
   sni: mfjd.591haoka.com
   type: trojan
   udp: true
   ws-opts:
     headers:
       Host: mfjd.591haoka.com
-    path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
-- country: HK
-  fingerprint: chrome
-  name: 185|Relay_HK-HK_60
-  network: ws
-  password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 443
-  server: 16.162.56.233
-  sni: mfjd.591haoka.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: mfjd.591haoka.com
-    path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
-- country: HK
-  fingerprint: chrome
-  name: 185|Relay_HK-HK_61
-  network: ws
-  password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 8443
-  server: 8.210.85.222
-  sni: mfjd.591haoka.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: mfjd.591haoka.com
-    path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
+    path: /?ed=2560&proxyIP=proxyip.vultr.fxxk.dedyn.io
 - country: HK
   fingerprint: chrome
   name: '185|netflix_HK #21'
@@ -1184,11 +1017,25 @@ proxies:
     path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
 - country: HK
   fingerprint: chrome
+  name: 185|Relay_HK-HK_52
+  network: ws
+  password: 0fd9b883-0551-4ed1-b978-528183b459a2
+  port: 2053
+  server: 8.218.142.253
+  sni: mfjd.591haoka.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: mfjd.591haoka.com
+    path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
+- country: HK
+  fingerprint: chrome
   name: '185|netflix_HK #22'
   network: ws
   password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 36799
-  server: 43.224.50.213
+  port: 443
+  server: 43.155.22.176
   sni: mfjd.591haoka.com
   type: trojan
   udp: true
@@ -1198,11 +1045,11 @@ proxies:
     path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
 - country: HK
   fingerprint: chrome
-  name: 185|Relay_HK-HK_65
+  name: 185|Relay_HK-HK_54
   network: ws
   password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 8443
-  server: 47.243.204.32
+  port: 2087
+  server: 47.243.234.9
   sni: mfjd.591haoka.com
   type: trojan
   udp: true
@@ -1210,27 +1057,13 @@ proxies:
     headers:
       Host: mfjd.591haoka.com
     path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
-- country: HK
-  fingerprint: chrome
-  name: 185|Relay_HK-HK_66
-  network: ws
-  password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 2096
-  server: 47.76.178.146
-  sni: mfjd.591haoka.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: mfjd.591haoka.com
-    path: /?ed=2560&proxyIP=proxyip.vultr.fxxk.dedyn.io
 - country: HK
   fingerprint: chrome
   name: '185|netflix_HK #23'
   network: ws
   password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 2087
-  server: 8.210.21.65
+  port: 2053
+  server: 8.210.89.245
   sni: mfjd.591haoka.com
   type: trojan
   udp: true
@@ -1240,11 +1073,11 @@ proxies:
     path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
 - country: HK
   fingerprint: chrome
-  name: 185|Relay_HK-HK_68
+  name: '185|netflix_HK #24'
   network: ws
   password: 0fd9b883-0551-4ed1-b978-528183b459a2
   port: 2083
-  server: 8.218.65.171
+  server: 47.243.234.9
   sni: mfjd.591haoka.com
   type: trojan
   udp: true
@@ -1258,7 +1091,35 @@ proxies:
   network: ws
   password: 0fd9b883-0551-4ed1-b978-528183b459a2
   port: 2087
-  server: 47.243.186.171
+  server: 47.243.86.79
+  sni: mfjd.591haoka.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: mfjd.591haoka.com
+    path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
+- country: HK
+  fingerprint: chrome
+  name: 185|Relay_HK-HK_58
+  network: ws
+  password: 0fd9b883-0551-4ed1-b978-528183b459a2
+  port: 443
+  server: 47.242.60.161
+  sni: mfjd.591haoka.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: mfjd.591haoka.com
+    path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
+- country: HK
+  fingerprint: chrome
+  name: 185|Relay_HK-HK_59
+  network: ws
+  password: 0fd9b883-0551-4ed1-b978-528183b459a2
+  port: 2087
+  server: 47.76.77.103
   sni: mfjd.591haoka.com
   type: trojan
   udp: true
@@ -1271,8 +1132,8 @@ proxies:
   name: '185|netflix_HK #26'
   network: ws
   password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 2053
-  server: 8.217.123.243
+  port: 8443
+  server: 47.243.86.79
   sni: mfjd.591haoka.com
   type: trojan
   udp: true
@@ -1282,11 +1143,39 @@ proxies:
     path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
 - country: HK
   fingerprint: chrome
-  name: '185|netflix_HK #27'
+  name: 185|Relay_HK-HK_61
   network: ws
   password: 0fd9b883-0551-4ed1-b978-528183b459a2
   port: 2053
-  server: 47.243.234.9
+  server: 47.76.178.146
+  sni: mfjd.591haoka.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: mfjd.591haoka.com
+    path: /?ed=2560&proxyIP=proxyip.vultr.fxxk.dedyn.io
+- country: HK
+  fingerprint: chrome
+  name: '185|netflix_HK #27'
+  network: ws
+  password: 0fd9b883-0551-4ed1-b978-528183b459a2
+  port: 2087
+  server: 47.76.178.146
+  sni: mfjd.591haoka.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: mfjd.591haoka.com
+    path: /?ed=2560&proxyIP=proxyip.vultr.fxxk.dedyn.io
+- country: HK
+  fingerprint: chrome
+  name: 185|Relay_HK-HK_63
+  network: ws
+  password: 0fd9b883-0551-4ed1-b978-528183b459a2
+  port: 2083
+  server: 47.243.67.28
   sni: mfjd.591haoka.com
   type: trojan
   udp: true
@@ -1299,8 +1188,22 @@ proxies:
   name: '185|netflix_HK #28'
   network: ws
   password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 2087
-  server: 47.243.234.9
+  port: 2083
+  server: 47.243.86.79
+  sni: mfjd.591haoka.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: mfjd.591haoka.com
+    path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
+- country: HK
+  fingerprint: chrome
+  name: 185|Relay_HK-HK_65
+  network: ws
+  password: 0fd9b883-0551-4ed1-b978-528183b459a2
+  port: 2053
+  server: 47.76.77.103
   sni: mfjd.591haoka.com
   type: trojan
   udp: true
@@ -1313,8 +1216,36 @@ proxies:
   name: '185|netflix_HK #29'
   network: ws
   password: 0fd9b883-0551-4ed1-b978-528183b459a2
+  port: 2083
+  server: 8.218.65.171
+  sni: mfjd.591haoka.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: mfjd.591haoka.com
+    path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
+- country: HK
+  fingerprint: chrome
+  name: 185|Relay_HK-HK_67
+  network: ws
+  password: 0fd9b883-0551-4ed1-b978-528183b459a2
+  port: 2053
+  server: 47.242.119.104
+  sni: mfjd.591haoka.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: mfjd.591haoka.com
+    path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
+- country: HK
+  fingerprint: chrome
+  name: 185|Relay_HK-HK_68
+  network: ws
+  password: 0fd9b883-0551-4ed1-b978-528183b459a2
   port: 2087
-  server: 8.210.43.213
+  server: 8.218.142.253
   sni: mfjd.591haoka.com
   type: trojan
   udp: true
@@ -1327,8 +1258,8 @@ proxies:
   name: '185|netflix_HK #30'
   network: ws
   password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 8443
-  server: 47.243.234.9
+  port: 2083
+  server: 8.210.107.246
   sni: mfjd.591haoka.com
   type: trojan
   udp: true
@@ -1338,7 +1269,7 @@ proxies:
     path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
 - country: HK
   fingerprint: chrome
-  name: '185|netflix_HK #31'
+  name: 185|Relay_HK-HK_71
   network: ws
   password: 0fd9b883-0551-4ed1-b978-528183b459a2
   port: 2096
@@ -1352,11 +1283,207 @@ proxies:
     path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
 - country: HK
   fingerprint: chrome
-  name: 185|Relay_HK-HK_77
+  name: 185|Relay_HK-HK_72
   network: ws
   password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 443
-  server: 159.138.131.240
+  port: 38768
+  server: 8.210.38.199
+  sni: mfjd.591haoka.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: mfjd.591haoka.com
+    path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
+- country: HK
+  fingerprint: chrome
+  name: '185|netflix_HK #31'
+  network: ws
+  password: 0fd9b883-0551-4ed1-b978-528183b459a2
+  port: 2053
+  server: 8.217.123.243
+  sni: mfjd.591haoka.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: mfjd.591haoka.com
+    path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
+- country: HK
+  fingerprint: chrome
+  name: '185|netflix_HK #32'
+  network: ws
+  password: 0fd9b883-0551-4ed1-b978-528183b459a2
+  port: 2096
+  server: 47.243.91.58
+  sni: mfjd.591haoka.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: mfjd.591haoka.com
+    path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
+- country: HK
+  fingerprint: chrome
+  name: 185|Relay_HK-HK_75
+  network: ws
+  password: 0fd9b883-0551-4ed1-b978-528183b459a2
+  port: 2053
+  server: 47.243.86.79
+  sni: mfjd.591haoka.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: mfjd.591haoka.com
+    path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
+- country: HK
+  fingerprint: chrome
+  name: '185|netflix_HK #33'
+  network: ws
+  password: 0fd9b883-0551-4ed1-b978-528183b459a2
+  port: 2087
+  server: 8.210.43.213
+  sni: mfjd.591haoka.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: mfjd.591haoka.com
+    path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
+- country: HK
+  fingerprint: chrome
+  name: '185|netflix_HK #34'
+  network: ws
+  password: 0fd9b883-0551-4ed1-b978-528183b459a2
+  port: 2083
+  server: 47.76.77.103
+  sni: mfjd.591haoka.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: mfjd.591haoka.com
+    path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
+- country: HK
+  fingerprint: chrome
+  name: '185|netflix_HK #35'
+  network: ws
+  password: 0fd9b883-0551-4ed1-b978-528183b459a2
+  port: 2087
+  server: 8.210.21.65
+  sni: mfjd.591haoka.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: mfjd.591haoka.com
+    path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
+- country: HK
+  fingerprint: chrome
+  name: '185|netflix_HK #36'
+  network: ws
+  password: 0fd9b883-0551-4ed1-b978-528183b459a2
+  port: 2053
+  server: 8.218.204.128
+  sni: mfjd.591haoka.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: mfjd.591haoka.com
+    path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
+- country: HK
+  fingerprint: chrome
+  name: '185|netflix_HK #37'
+  network: ws
+  password: 0fd9b883-0551-4ed1-b978-528183b459a2
+  port: 8443
+  server: 8.210.85.222
+  sni: mfjd.591haoka.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: mfjd.591haoka.com
+    path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
+- country: HK
+  fingerprint: chrome
+  name: 185|Relay_HK-HK_81
+  network: ws
+  password: 0fd9b883-0551-4ed1-b978-528183b459a2
+  port: 2053
+  server: 47.76.94.15
+  sni: mfjd.591haoka.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: mfjd.591haoka.com
+    path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
+- country: HK
+  fingerprint: chrome
+  name: '185|netflix_HK #38'
+  network: ws
+  password: 0fd9b883-0551-4ed1-b978-528183b459a2
+  port: 2053
+  server: 8.217.72.0
+  sni: mfjd.591haoka.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: mfjd.591haoka.com
+    path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
+- country: HK
+  fingerprint: chrome
+  name: 185|Relay_HK-HK_83
+  network: ws
+  password: 0fd9b883-0551-4ed1-b978-528183b459a2
+  port: 2053
+  server: 47.76.203.101
+  sni: mfjd.591haoka.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: mfjd.591haoka.com
+    path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
+- country: HK
+  fingerprint: chrome
+  name: '185|netflix_HK #39'
+  network: ws
+  password: 0fd9b883-0551-4ed1-b978-528183b459a2
+  port: 2083
+  server: 47.243.206.150
+  sni: mfjd.591haoka.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: mfjd.591haoka.com
+    path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
+- country: HK
+  fingerprint: chrome
+  name: '185|netflix_HK #40'
+  network: ws
+  password: 0fd9b883-0551-4ed1-b978-528183b459a2
+  port: 2053
+  server: 8.210.107.246
+  sni: mfjd.591haoka.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: mfjd.591haoka.com
+    path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
+- country: HK
+  fingerprint: chrome
+  name: 185|Relay_HK-HK_86
+  network: ws
+  password: 0fd9b883-0551-4ed1-b978-528183b459a2
+  port: 2053
+  server: 8.218.173.78
   sni: mfjd.591haoka.com
   type: trojan
   udp: true
@@ -1443,7 +1570,7 @@ proxies:
       Host: pqhk.chinayyds.xyz
     path: /?ed=2048
 - cipher: rc4-md5
-  name: 190|🇭🇰 IPLC｜冀港 [2.0][原生]
+  name: '190,907|Relay_ |174.00Mb #1'
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -1469,7 +1596,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 190|🇭🇰 IPLC｜浙港 [2.0][原生]
+  name: 190,907|Relay_ |576.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -1482,7 +1609,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 190|🇭🇰 IPLC｜深港 [2.0][原生]
+  name: 190,907|Relay_ |105.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -1495,7 +1622,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 190|🇭🇰 IPLC｜湘港 [2.0][原生]
+  name: 190,907|Relay_ |117.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -1521,7 +1648,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 190|🇭🇰 IPLC｜苏港 [2.0][原生]
+  name: 190,907|Relay_ |110.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -1534,7 +1661,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 190|🇭🇰 IPLC｜闽港 [2.0][原生]
+  name: 190,907|Relay_ |320.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -1705,7 +1832,7 @@ proxies:
   name: 280|🇭🇰香港区域1-三网优化
   network: tcp
   port: '40181'
-  server: ObQAFZ.gov.goldliond.top
+  server: 3kavwd.gov.goldliond.top
   tls: false
   type: vmess
   uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f
@@ -1714,7 +1841,7 @@ proxies:
   name: 280|🇭🇰香港区域2-三网优化
   network: tcp
   port: '40181'
-  server: DRDVGK.gov.goldliond.top
+  server: bPTfOB.gov.goldliond.top
   tls: false
   type: vmess
   uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f
@@ -1723,7 +1850,7 @@ proxies:
   name: 280|🇭🇰香港区域3-三网优化
   network: tcp
   port: '40181'
-  server: ukdNRM.gov.goldliond.top
+  server: qdMbnK.gov.goldliond.top
   tls: false
   type: vmess
   uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f
@@ -2569,9 +2696,11 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '306,307,578,667,668,680,734,745,746|HK21 1.3MB/s #2'
+  h2-opts: {}
+  http-opts: {}
+  name: 306,307,578,667,668,680,734,745,746,907| |14.75Mb
   network: ws
-  port: '28681'
+  port: 28681
   server: 47.242.22.171
   servername: ''
   skip-cert-verify: true
@@ -2580,9 +2709,21 @@ proxies:
   udp: true
   uuid: 3b1072ce-d096-46c2-a3e7-08b4f58538f5
   ws-opts:
-    headers:
-      Host: ''
     path: /
+- alterId: 0
+  cipher: auto
+  name: '306,726,746|HK91 #2'
+  network: ws
+  port: '2087'
+  server: 47.242.79.71
+  servername: sg.baijia.cfd
+  tls: true
+  type: vmess
+  uuid: b35a9c68-8406-4c6f-bb0d-2671d53e55eb
+  ws-opts:
+    headers:
+      Host: sg.baijia.cfd
+    path: /fdsffgfdgdfgdf
 - alterId: 0
   cipher: auto
   name: 306,307,581,667,668,780|澳大利亚_0612002
@@ -2634,8 +2775,7 @@ proxies:
     headers:
       Host: ''
     path: /
-- delay: 1248
-  name: '307,548,605|香港 014 #1'
+- name: 307|🇰HK-8.210.43.213-1194
   network: ws
   password: 0fd9b883-0551-4ed1-b978-528183b459a2
   port: 8443
@@ -2643,20 +2783,18 @@ proxies:
   skip-cert-verify: false
   sni: mfjd.591haoka.com
   type: trojan
-  udp: true
   ws-opts:
     headers:
       Host: mfjd.591haoka.com
     path: /?ed=2560&proxyIP=proxyip.hk.fxxk.dedyn.io
-- name: '307,548,605|香港 022 #1'
+- name: 307|🇰HK-8.217.123.243-1219
   network: ws
   password: 0fd9b883-0551-4ed1-b978-528183b459a2
   port: 2087
   server: 8.217.123.243
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: mfjd.591haoka.com
   type: trojan
-  udp: true
   ws-opts:
     headers:
       Host: mfjd.591haoka.com
@@ -4332,7 +4470,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 578|🇭🇰 HK 6 → tg@nicevpn123
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: 578,907| | 3.97Mb
   network: ws
   port: 80
   server: 182.16.1.194
@@ -5151,7 +5292,7 @@ proxies:
     path: 55021a7c-bd6c-418e-be95-ceac8ba27b45-vm
 - alterId: 0
   cipher: auto
-  name: '654,759|美国 CloudFlare节点 #59'
+  name: '654,759|美国 CloudFlare节点 #64'
   network: ws
   port: '8080'
   server: yh1.freeh1.xyz
@@ -5702,8 +5843,9 @@ proxies:
   uuid: 5dd37d4f-7726-40e8-9405-f80c702073be
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 685|🇭🇰 HK 02
-  password: d20ef6d0-1339-3970-9194-9726b5ee6224
+  country: 🇺🇸US
+  name: 685,907|Relay_ |50.61Mb
+  password: 841ff23d-7e10-4556-957f-fb28cff32dc0
   port: 50001
   server: iepl1.forlive.live
   tfo: false
@@ -6306,20 +6448,6 @@ proxies:
     headers:
       host: hktx.n.optage.moe
     path: /aln/12?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 726|🔒 VM-WS-TLS 🇭🇰 HK-47.242.79.71...
-  network: ws
-  port: '2087'
-  server: 47.242.79.71
-  servername: sg.baijia.cfd
-  tls: true
-  type: vmess
-  uuid: b35a9c68-8406-4c6f-bb0d-2671d53e55eb
-  ws-opts:
-    headers:
-      Host: sg.baijia.cfd
-    path: /fdsffgfdgdfgdf
 - cipher: aes-256-cfb
   name: 744|TG频道@mfbpn-香港2
   obfs: tls1.2_ticket_auth
@@ -6431,89 +6559,8 @@ proxies:
   type: vmess
   uuid: 49933ab7-7ec2-3024-9f6e-b7ad9da24c8f
 - alterId: 0
-  cipher: auto
+  cipher: chacha20-ietf-poly1305
   name: 745|HK
-  network: ws
-  password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 2053
-  server: 8.217.232.246
-  skip-cert-verify: true
-  sni: mfjd.591haoka.com
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 745|HK2
-  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 10015
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 745|HK5
-  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 30011
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 745|HK6
-  password: AHyDyR
-  port: 56047
-  server: 38.150.12.187
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 745|HK7
-  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 30005
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 745|HK8
-  network: ws
-  password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 2087
-  server: 8.217.50.252
-  skip-cert-verify: true
-  sni: mfjd.591haoka.com
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 745|HK9
-  network: tcp
-  password: 10f87a8e-a6f6-319d-a895-8310d326ecce
-  port: 20897
-  server: 8.217.193.174
-  skip-cert-verify: true
-  sni: hkhe02.bcloudv.cyou
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 745|HK10
-  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 20011
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 745|HK12
   password: AHyDyR
   port: 56026
   server: 38.150.12.187
@@ -6522,106 +6569,112 @@ proxies:
   type: ss
 - alterId: 0
   cipher: chacha20-ietf-poly1305
-  name: 745|HK13
+  name: 745|HK4
   password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 10017
+  port: 10016
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 745|HK5
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 40001
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: aes-128-gcm
+  name: 745|HK6
+  password: 0bf41810-5477-4940-9064-e37055cda6b1
+  port: 11004
+  server: 203.218.240.98
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 745|HK7
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 30017
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 745|HK8
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 10008
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 745|HK9
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 40020
   server: 46.232.123.37
   skip-cert-verify: true
   tls: true
   type: ss
 - alterId: 0
   cipher: auto
-  name: 745|HK14
+  name: 745|HK10
+  network: ws
+  password: 0fd9b883-0551-4ed1-b978-528183b459a2
+  port: 8443
+  server: 47.242.107.109
+  skip-cert-verify: true
+  sni: mfjd.591haoka.com
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: aes-128-gcm
+  name: 745|HK11
+  password: 0bf41810-5477-4940-9064-e37055cda6b1
+  port: 11005
+  server: 203.218.240.98
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 745|HK12
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 30012
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 745|HK13
   network: ws
   password: 0fd9b883-0551-4ed1-b978-528183b459a2
   port: 2087
-  server: 47.243.70.186
+  server: 8.217.181.213
   skip-cert-verify: true
   sni: mfjd.591haoka.com
   tls: true
   type: trojan
   udp: true
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 745|HK14
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 30009
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
 - alterId: 0
   cipher: auto
   name: 745|HK15
-  network: ws
-  password: moist
-  port: 2083
-  server: 47.243.67.28
-  skip-cert-verify: true
-  sni: trojan.freenods.sbs
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 745|HK16
-  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 10101
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 745|HK17
-  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 10014
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 745|HK18
-  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 40051
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 745|HK19
-  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 30002
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 745|HK20
-  network: ws
-  password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 2053
-  server: 47.242.183.7
-  skip-cert-verify: true
-  sni: mfjd.591haoka.com
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 745|HK22
-  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 30010
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 745|HK23
-  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 10012
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 745|HK25
   network: tcp
   password: 918eba0d3ff04abc803fb00e18d0fcb5
   port: 443
@@ -6632,95 +6685,38 @@ proxies:
   type: trojan
   udp: true
 - alterId: 0
+  cipher: auto
+  name: 745|HK16
+  network: ws
+  password: 0fd9b883-0551-4ed1-b978-528183b459a2
+  port: 2053
+  server: 47.76.49.246
+  skip-cert-verify: true
+  sni: mfjd.591haoka.com
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
   cipher: chacha20-ietf-poly1305
-  name: 745|HK26
+  name: 745|HK18
   password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 40023
+  port: 30002
   server: 46.232.123.37
   skip-cert-verify: true
   tls: true
   type: ss
 - alterId: 0
   cipher: chacha20-ietf-poly1305
-  name: 745|HK27
-  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 40033
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 745|HK28
-  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 10011
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 745|HK29
-  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 50004
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 745|HK31
-  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 50005
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 745|HK32
+  name: 745|HK19
   password: AHyDyR
-  port: 56012
-  server: 38.150.12.187
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 745|HK33
-  network: ws
-  password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 2083
-  server: 8.218.173.78
-  skip-cert-verify: true
-  sni: mfjd.591haoka.com
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 745|HK34
-  network: ws
-  password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 2096
-  server: 8.218.228.152
-  skip-cert-verify: true
-  sni: mfjd.591haoka.com
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 745|HK35
-  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 30016
-  server: 46.232.123.37
+  port: 56026
+  server: 38.150.12.188
   skip-cert-verify: true
   tls: true
   type: ss
 - alterId: 0
   cipher: chacha20-ietf-poly1305
-  name: 745|HK36
+  name: 745|HK20
   password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
   port: 50001
   server: 46.232.123.37
@@ -6729,52 +6725,151 @@ proxies:
   type: ss
 - alterId: 0
   cipher: chacha20-ietf-poly1305
-  name: 745|HK37
+  name: 745|HK21
   password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 50002
+  port: 40028
   server: 46.232.123.37
   skip-cert-verify: true
   tls: true
   type: ss
 - alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 745|HK38
-  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 20006
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 745|HK39
-  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 10016
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 745|HK40
-  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 30013
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 745|HK41
-  password: AHyDyR
-  port: 56047
-  server: 38.150.12.188
+  cipher: aes-128-gcm
+  name: 745|HK22
+  password: 0bf41810-5477-4940-9064-e37055cda6b1
+  port: 11002
+  server: 203.218.240.98
   skip-cert-verify: true
   tls: true
   type: ss
 - alterId: 0
   cipher: auto
-  name: '745|HK #1'
+  name: 745|HK23
+  network: ws
+  password: moist
+  port: 2087
+  server: 8.210.203.7
+  skip-cert-verify: true
+  sni: trojan.freenods.sbs
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: aes-128-gcm
+  name: 745|HK26
+  password: 0bf41810-5477-4940-9064-e37055cda6b1
+  port: 20648
+  server: 203.218.240.98
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 745|HK27
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 10101
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 745|HK28
+  network: ws
+  password: 0fd9b883-0551-4ed1-b978-528183b459a2
+  port: 2053
+  server: 47.243.51.171
+  skip-cert-verify: true
+  sni: mfjd.591haoka.com
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 745|HK29
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 50005
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 745|HK31
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 10014
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 745|HK32
+  network: ws
+  password: 0fd9b883-0551-4ed1-b978-528183b459a2
+  port: 2083
+  server: 8.217.154.218
+  skip-cert-verify: true
+  sni: mfjd.591haoka.com
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 745|HK33
+  network: ws
+  password: 0fd9b883-0551-4ed1-b978-528183b459a2
+  port: 2096
+  server: 8.218.3.198
+  skip-cert-verify: true
+  sni: mfjd.591haoka.com
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 745|HK34
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 10017
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 745|HK35
+  network: ws
+  password: 0fd9b883-0551-4ed1-b978-528183b459a2
+  port: 2087
+  server: 47.243.26.83
+  skip-cert-verify: true
+  sni: mfjd.591haoka.com
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 745|HK36
+  network: ws
+  password: 0fd9b883-0551-4ed1-b978-528183b459a2
+  port: 2053
+  server: 47.243.18.199
+  skip-cert-verify: true
+  sni: mfjd.591haoka.com
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 745|HK37
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 50004
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 745|HK38
   network: ws
   password: 0fd9b883-0551-4ed1-b978-528183b459a2
   port: 8443
@@ -6786,40 +6881,64 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 745|HK44
+  name: 745|HK39
   network: ws
-  password: moist
-  port: 2096
-  server: 8.210.100.23
+  password: 182228812d1e0f23
+  port: 3306
+  server: 45.11.104.94
   skip-cert-verify: true
-  sni: trojan.freenods.sbs
+  sni: n2.gladns.com
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 745|HK40
+  network: ws
+  password: 0fd9b883-0551-4ed1-b978-528183b459a2
+  port: 2087
+  server: 8.217.123.243
+  skip-cert-verify: true
+  sni: mfjd.591haoka.com
   tls: true
   type: trojan
   udp: true
 - alterId: 0
   cipher: chacha20-ietf-poly1305
-  name: 745|HK45
+  name: 745|HK41
   password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 30008
+  port: 40026
   server: 46.232.123.37
   skip-cert-verify: true
   tls: true
   type: ss
 - alterId: 0
   cipher: chacha20-ietf-poly1305
-  name: 745|HK46
+  name: 745|HK44
   password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 40007
+  port: 10005
   server: 46.232.123.37
   skip-cert-verify: true
   tls: true
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 745|HK45
+  network: tcp
+  password: 10f87a8e-a6f6-319d-a895-8310d326ecce
+  port: 20897
+  server: 8.217.193.174
+  skip-cert-verify: true
+  sni: hkhe02.bcloudv.cyou
+  tls: true
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: chacha20-ietf-poly1305
   name: 745|HK47
-  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 30017
-  server: 46.232.123.37
+  password: AHyDyR
+  port: 56012
+  server: 38.150.12.188
   skip-cert-verify: true
   tls: true
   type: ss
@@ -6833,11 +6952,11 @@ proxies:
   tls: true
   type: ss
 - alterId: 0
-  cipher: chacha20-ietf-poly1305
+  cipher: aes-128-gcm
   name: 745|HK50
-  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 10005
-  server: 46.232.123.37
+  password: 0bf41810-5477-4940-9064-e37055cda6b1
+  port: 20644
+  server: 203.218.240.98
   skip-cert-verify: true
   tls: true
   type: ss
@@ -6845,29 +6964,26 @@ proxies:
   cipher: chacha20-ietf-poly1305
   name: 745|HK51
   password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 30012
+  port: 30008
   server: 46.232.123.37
   skip-cert-verify: true
   tls: true
   type: ss
 - alterId: 0
-  cipher: auto
+  cipher: chacha20-ietf-poly1305
   name: 745|HK52
-  network: ws
-  password: 182228812d1e0f23
-  port: 3306
-  server: 45.11.104.94
+  password: AHyDyR
+  port: 56047
+  server: 38.150.12.188
   skip-cert-verify: true
-  sni: n2.gladns.com
   tls: true
-  type: trojan
-  udp: true
+  type: ss
 - alterId: 0
   cipher: chacha20-ietf-poly1305
   name: 745|HK53
-  password: AHyDyR
-  port: 56012
-  server: 38.150.12.188
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 50002
+  server: 46.232.123.37
   skip-cert-verify: true
   tls: true
   type: ss
@@ -6875,20 +6991,20 @@ proxies:
   cipher: auto
   name: 745|HK55
   network: ws
-  password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 2053
-  server: 47.243.18.199
+  password: moist
+  port: 2096
+  server: 8.210.100.23
   skip-cert-verify: true
-  sni: mfjd.591haoka.com
+  sni: trojan.freenods.sbs
   tls: true
   type: trojan
   udp: true
 - alterId: 0
-  cipher: chacha20-ietf-poly1305
+  cipher: aes-128-gcm
   name: 745|HK56
-  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 10008
-  server: 46.232.123.37
+  password: 0bf41810-5477-4940-9064-e37055cda6b1
+  port: 20641
+  server: 203.218.240.98
   skip-cert-verify: true
   tls: true
   type: ss
@@ -6910,7 +7026,16 @@ proxies:
   cipher: chacha20-ietf-poly1305
   name: 745|HK58
   password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 20002
+  port: 40004
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 745|HK59
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 40023
   server: 46.232.123.37
   skip-cert-verify: true
   tls: true
@@ -6919,7 +7044,28 @@ proxies:
   cipher: chacha20-ietf-poly1305
   name: 745|HK60
   password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 40001
+  port: 40033
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 745|HK61
+  network: ws
+  password: 0fd9b883-0551-4ed1-b978-528183b459a2
+  port: 2053
+  server: 8.218.98.75
+  skip-cert-verify: true
+  sni: mfjd.591haoka.com
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 745|HK63
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 40007
   server: 46.232.123.37
   skip-cert-verify: true
   tls: true
@@ -6928,16 +7074,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   name: 745|HK64
   password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 40026
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 745|HK65
-  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 20003
+  port: 20004
   server: 46.232.123.37
   skip-cert-verify: true
   tls: true
@@ -6947,32 +7084,29 @@ proxies:
   name: 745|HK66
   network: ws
   password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 2083
-  server: 8.217.154.218
+  port: 2053
+  server: 8.217.232.246
   skip-cert-verify: true
   sni: mfjd.591haoka.com
   tls: true
   type: trojan
   udp: true
 - alterId: 0
-  cipher: auto
-  name: 745|HK67
-  network: ws
-  password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 2096
-  server: 8.218.3.198
+  cipher: chacha20-ietf-poly1305
+  name: 745|HK68
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 30016
+  server: 46.232.123.37
   skip-cert-verify: true
-  sni: mfjd.591haoka.com
   tls: true
-  type: trojan
-  udp: true
+  type: ss
 - alterId: 0
   cipher: auto
   name: 745|HK69
   network: ws
   password: moist
-  port: 2087
-  server: 8.210.203.7
+  port: 2083
+  server: 47.243.67.28
   skip-cert-verify: true
   sni: trojan.freenods.sbs
   tls: true
@@ -6980,9 +7114,9 @@ proxies:
   udp: true
 - alterId: 0
   cipher: chacha20-ietf-poly1305
-  name: 745|HK71
+  name: 745|HK70
   password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 40004
+  port: 20003
   server: 46.232.123.37
   skip-cert-verify: true
   tls: true
@@ -6991,27 +7125,39 @@ proxies:
   cipher: chacha20-ietf-poly1305
   name: 745|HK72
   password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 40020
+  port: 10011
   server: 46.232.123.37
   skip-cert-verify: true
   tls: true
   type: ss
 - alterId: 0
   cipher: chacha20-ietf-poly1305
-  name: 745|HK74
-  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 40028
-  server: 46.232.123.37
+  name: 745|HK73
+  password: AHyDyR
+  port: 56012
+  server: 38.150.12.187
   skip-cert-verify: true
   tls: true
   type: ss
 - alterId: 0
   cipher: auto
-  name: 745|HK75
+  name: 745|HK74
   network: ws
   password: 0fd9b883-0551-4ed1-b978-528183b459a2
   port: 2087
-  server: 47.243.26.83
+  server: 47.243.70.186
+  skip-cert-verify: true
+  sni: mfjd.591haoka.com
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 745|HK75
+  network: ws
+  password: 0fd9b883-0551-4ed1-b978-528183b459a2
+  port: 2083
+  server: 8.218.173.78
   skip-cert-verify: true
   sni: mfjd.591haoka.com
   tls: true
@@ -7021,7 +7167,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   name: 745|HK76
   password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 20004
+  port: 30010
   server: 46.232.123.37
   skip-cert-verify: true
   tls: true
@@ -7030,14 +7176,35 @@ proxies:
   cipher: chacha20-ietf-poly1305
   name: 745|HK77
   password: AHyDyR
-  port: 56032
-  server: 38.150.12.188
+  port: 56047
+  server: 38.150.12.187
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 745|HK78
+  network: ws
+  password: 0fd9b883-0551-4ed1-b978-528183b459a2
+  port: 2053
+  server: 47.242.183.7
+  skip-cert-verify: true
+  sni: mfjd.591haoka.com
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 745|HK79
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 10015
+  server: 46.232.123.37
   skip-cert-verify: true
   tls: true
   type: ss
 - alterId: 0
   cipher: chacha20-ietf-poly1305
-  name: 745|HK78
+  name: 745|HK80
   password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
   port: 20005
   server: 46.232.123.37
@@ -7046,7 +7213,34 @@ proxies:
   type: ss
 - alterId: 0
   cipher: chacha20-ietf-poly1305
-  name: 745|HK79
+  name: 745|HK81
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 40051
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 745|HK83
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 10012
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 745|HK85
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 40005
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 745|HK86
   password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
   port: 40030
   server: 46.232.123.37
@@ -7054,24 +7248,53 @@ proxies:
   tls: true
   type: ss
 - alterId: 0
-  cipher: auto
-  name: 745|HK80
-  network: ws
-  password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 2087
-  server: 8.217.181.213
+  cipher: chacha20-ietf-poly1305
+  name: 745|HK88
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 20002
+  server: 46.232.123.37
   skip-cert-verify: true
-  sni: mfjd.591haoka.com
   tls: true
-  type: trojan
-  udp: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 745|HK89
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 30013
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 745|HK90
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 30011
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 745|HK82
+  name: '745|HK91 #1'
+  network: ws
+  port: 2087
+  server: 47.242.79.71
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: b35a9c68-8406-4c6f-bb0d-2671d53e55eb
+  ws-opts:
+    headers:
+      host: sg.baijia.cfd
+    path: /fdsffgfdgdfgdf
+- alterId: 0
+  cipher: auto
+  name: 745|HK92
   network: ws
   password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 8443
-  server: 47.242.107.109
+  port: 2096
+  server: 8.218.228.152
   skip-cert-verify: true
   sni: mfjd.591haoka.com
   tls: true
@@ -7079,7 +7302,25 @@ proxies:
   udp: true
 - alterId: 0
   cipher: chacha20-ietf-poly1305
-  name: 745|HK83
+  name: 745|HK93
+  password: AHyDyR
+  port: 56032
+  server: 38.150.12.188
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 745|HK94
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 20006
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 745|HK95
   password: AHyDyR
   port: 56032
   server: 38.150.12.187
@@ -7088,31 +7329,43 @@ proxies:
   type: ss
 - alterId: 0
   cipher: chacha20-ietf-poly1305
-  name: 745|HK85
+  name: 745|HK96
   password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 30009
+  port: 30005
   server: 46.232.123.37
   skip-cert-verify: true
   tls: true
   type: ss
 - alterId: 0
   cipher: chacha20-ietf-poly1305
-  name: 745|HK86
-  password: AHyDyR
-  port: 56026
-  server: 38.150.12.188
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 745|HK88
+  name: 745|HK99
   password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 40005
+  port: 20011
   server: 46.232.123.37
   skip-cert-verify: true
   tls: true
   type: ss
+- alterId: 0
+  cipher: aes-128-gcm
+  name: 745|HK100
+  password: 0bf41810-5477-4940-9064-e37055cda6b1
+  port: 11001
+  server: 203.218.240.98
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 745|HK102
+  network: ws
+  password: 0fd9b883-0551-4ed1-b978-528183b459a2
+  port: 2087
+  server: 8.217.50.252
+  skip-cert-verify: true
+  sni: mfjd.591haoka.com
+  tls: true
+  type: trojan
+  udp: true
 - alterId: 64
   cipher: auto
   name: '758,759|香港1|@ripaojiedian #1'
