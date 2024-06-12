@@ -496,7 +496,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 305,676,677,692,700|台湾2|@ripaojiedian
+  name: 305,548,578,596,676,677,692,700|台湾2|@ripaojiedian
   network: tcp
   port: '32012'
   server: alm2.the-galgo.top
@@ -601,7 +601,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '306,666,667,734,735|广东省 移动 #9'
+  name: '306,666,667,734,735|广东省 移动 #6'
   network: ws
   port: '16632'
   server: 120.233.204.126
@@ -667,8 +667,8 @@ proxies:
   udp: true
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  country: 🇨CN
-  name: 306,627,699,906|Relay_🇨CN-🇺🇸US_1064 | 5.71Mb
+  country: 🇨🇳CN
+  name: 306,627,699,906|Relay_🇨🇳CN-🇸US_1059 | 5.71Mb
   password: hGkQ6915tD
   port: 16058
   server: 59.56.77.178
@@ -715,7 +715,7 @@ proxies:
   server: 183.240.220.84
   type: ssr
 - cipher: chacha20-ietf
-  name: 306,906|_772
+  name: 306|🇨🇳CN-120.232.234.246-2405
   obfs: tls1.2_ticket_auth
   obfs-param: e0e3524.microsoft.com
   password: Fhbe0z
@@ -925,7 +925,7 @@ proxies:
   server: 120.232.234.246
   type: ssr
 - cipher: chacha20-ietf
-  name: 306,906|_776
+  name: 306|🇨🇳CN-120.232.234.246-2426
   obfs: tls1.2_ticket_auth
   obfs-param: e0e3524.microsoft.com
   password: Fhbe0z
@@ -1475,17 +1475,16 @@ proxies:
   uuid: fa4b6f8f-1264-45ec-9651-6160c12cabc5
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 306,699,906|Relay_ | 6.07Mb
+  name: 306,699|🇭🇰 香港R|@ripaojiedian
   password: hGkQ6915tD
   port: 15001
   server: 59.56.77.178
   tfo: false
   type: ss
-  udp: true
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  country: 🇨🇳CN
-  name: 306,699,906|Relay_🇨🇳CN-JP_1065 |15.02Mb
+  country: 🇨CN
+  name: 306,699,906|Relay_🇨CN-JP_1058 |15.02Mb
   password: hGkQ6915tD
   port: 15084
   server: 59.56.77.178
@@ -2919,31 +2918,17 @@ proxies:
   udp: true
 - name: 547|[Trojan] 🇨🇳 中国 阿里云
   network: ws
-  password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 2087
-  server: 8.217.123.243
+  password: NISHIKUITAN222
+  port: 443
+  server: 8.219.144.168
   skip-cert-verify: true
-  sni: mfjd.591haoka.com
+  sni: t222.ylks.link
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: mfjd.591haoka.com
-    path: ''
-- alterId: 64
-  cipher: auto
-  country: 🇨CN
-  h2-opts: {}
-  http-opts: {}
-  name: 548,560,578,596,679,692,700,906|Relay_🇨CN-🇺🇸US_1067 |20.57Mb
-  network: tcp
-  port: 55908
-  server: 183.240.235.164
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+      Host: t222.ylks.link
+    path: /
 - alterId: 4
   cipher: auto
   name: '549,606|未命名 #198'
@@ -4776,6 +4761,16 @@ proxies:
   network: ''
   port: '53942'
   server: 120.232.153.39
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 560,679,692,700|香港|@ripaojiedian
+  network: tcp
+  port: '55908'
+  server: 183.240.235.164
   servername: ''
   tls: false
   type: vmess
@@ -9445,13 +9440,20 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  country: 🇨🇳CN
-  name: 906|🇨🇳CN_1066
-  password: ff97a869-bc4c-46e9-8d46-33dd9fd74c12
-  port: 43305
-  server: mas.network-cdn-gw.cc
-  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇨CN
+  h2-opts: {}
+  http-opts: {}
+  name: 906,980|🇨🇦 加拿大丨多伦多
+  network: tcp
+  port: '62038'
+  server: gy.zztannel.com
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: d3a515b4-6fcb-38c8-93d3-2c17da360f89
 - alterId: 0
   cipher: auto
   name: 977|中国-国外回国内-v2ray
