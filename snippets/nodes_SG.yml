@@ -1,10 +1,10 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 14|新加坡|徐州移动|Linode|1x
+  name: 14|新加坡|湖南移动|Linode|1x
   network: tcp
-  port: 39226
-  server: jscm.r1u.cn
+  port: 39288
+  server: cs.guanguan.club
   tls: false
   type: vmess
   uuid: f010dd01-c54a-3c03-95ce-0838214259c6
@@ -43,6 +43,20 @@ proxies:
   server: 103.172.116.103
   skip-cert-verify: true
   tls: true
+  type: ss
+- cipher: aes-256-cfb
+  country: ' SG'
+  name: 20,184,307|🇬SG-103.172.116.103-0900
+  password: cp8pRSUAyLhTfVWH
+  port: 9064
+  server: 103.172.116.103
+  type: ss
+- cipher: aes-256-cfb
+  country: ' SG'
+  name: 20,307|🇸🇬SG-103.172.116.103-2917
+  password: fG2artUmHfNT2cX7
+  port: 9018
+  server: 103.172.116.103
   type: ss
 - alterId: 0
   cipher: auto
@@ -573,12 +587,6 @@ proxies:
   server: 103.172.116.103
   type: ss
 - cipher: aes-256-cfb
-  name: 184,307|🇬SG-103.172.116.103-0900
-  password: cp8pRSUAyLhTfVWH
-  port: 9064
-  server: 103.172.116.103
-  type: ss
-- cipher: aes-256-cfb
   name: 184,297,307,907|_595 | 4.91Mb
   password: KBGjZYcy4SyRShmA
   port: 9044
@@ -744,7 +752,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 190,907| |102.00Mb
+  name: 190|🇸🇬 IPLC｜新加坡媒体专线-1 [2.0][NF]
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -1006,7 +1014,7 @@ proxies:
   name: 280|🇸🇬狮城区域1自动运维节点
   network: tcp
   port: '20182'
-  server: 93p9T6.gov.goldliond.top
+  server: 2ApiCf.gov.goldliond.top
   tls: false
   type: vmess
   uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f
@@ -1015,7 +1023,7 @@ proxies:
   name: 280|🇸🇬狮城区域2自动运维节点
   network: tcp
   port: '20182'
-  server: Zajia9.gov.goldliond.top
+  server: mztyCd.gov.goldliond.top
   tls: false
   type: vmess
   uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f
@@ -1024,7 +1032,7 @@ proxies:
   name: 280|🇸🇬狮城区域3自动运维节点
   network: tcp
   port: '20182'
-  server: lGHltG.gov.goldliond.top
+  server: secT97.gov.goldliond.top
   tls: false
   type: vmess
   uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f
@@ -1033,7 +1041,7 @@ proxies:
   name: 280|🇸🇬狮城区域1-三网优化-解锁Netflix
   network: tcp
   port: '40184'
-  server: jvNfEb.gov.goldliond.top
+  server: kmBkwZ.gov.goldliond.top
   tls: false
   type: vmess
   uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f
@@ -1387,7 +1395,7 @@ proxies:
   country: 🇸SG
   h2-opts: {}
   http-opts: {}
-  name: 306,307,522,561,578,581,667,668,680,726,734,745,746,780,907|_795
+  name: 306,307,522,561,578,581,667,668,680,726,734,745,746,780,907|_795 |22.82Mb
   network: ws
   port: 99
   server: 128.199.161.230
@@ -1440,11 +1448,15 @@ proxies:
     path: /RACEVPN
 - alterId: 0
   cipher: auto
-  name: '306|%F0%9F%87%B8%F0%9F%87%AC%20Sin... #5'
+  country: 🇬SG
+  h2-opts: {}
+  http-opts: {}
+  name: 306,907|🇬SG_1274 | 3.21Mb
   network: tcp
-  port: '2083'
+  port: 2083
   server: sg2-v2ray.ipracevpn.com
   servername: ''
+  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 8b4a8393-bc84-4087-8ad0-f7b4517b389a
@@ -1479,7 +1491,7 @@ proxies:
   country: 🇺🇸US
   h2-opts: {}
   http-opts: {}
-  name: 306,561,680,726,734,907|Relay_🇺🇸US-🇺🇸US_1662
+  name: 306,561,680,726,734,907|Relay_🇺🇸US-🇺🇸US_1662 |16.83Mb
   network: ws
   port: 23006
   server: 138.2.90.147
@@ -1490,6 +1502,15 @@ proxies:
   uuid: 5eea50d8-a816-48c7-bc35-0fde39e277b5
   ws-opts:
     path: /free
+- alterId: 0
+  cipher: auto
+  name: '306,726,734|🔒 VM-TCP-NONE 🇸🇬 SG-152.42.208... #2'
+  network: tcp
+  port: 54185
+  server: 152.42.208.82
+  tls: false
+  type: vmess
+  uuid: ed5efa57-2ab8-4323-8ba4-7f383ae24ba1
 - alterId: 0
   cipher: auto
   name: '306,726,734,746|未知1221 #2'
@@ -1506,18 +1527,9 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '306,726,734|🔒 VM-TCP-NONE 🇸🇬 SG-152.42.208... #2'
-  network: tcp
-  port: 54185
-  server: 152.42.208.82
-  tls: false
-  type: vmess
-  uuid: ed5efa57-2ab8-4323-8ba4-7f383ae24ba1
-- alterId: 0
-  cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 307,578,581,667,668,780,907|Pool__847 | 2.51Mb
+  name: 307,578,581,667,668,780,907|Pool__847 | 0.05Mb
   network: ws
   port: 443
   server: sg-full.privateip.net
@@ -2222,8 +2234,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: aes-256-cfb
-  country: 🇬SG
-  name: 307,523,745,907| | 2.93Mb
+  name: 307,745,907| | 2.93Mb
   password: c3NtHJ5ujV2tGDfj
   port: 9084
   server: 103.172.116.103
@@ -2258,13 +2269,6 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     path: /path/191019072927
-- cipher: aes-256-cfb
-  name: 307,907| | 8.20Mb
-  password: fG2artUmHfNT2cX7
-  port: 9018
-  server: 103.172.116.103
-  type: ss
-  udp: true
 - cipher: aes-256-cfb
   name: 307|🇬SG-13.214.212.124-3043
   password: amazonskr05
@@ -3059,48 +3063,20 @@ proxies:
   server: 13.250.35.165
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  country: 🇬SG
+  name: 522|Relay_🇸SG-🇸🇬SG_109
+  password: 2155145a-b1b5-443a-8977-670f6bd10f02
+  port: 50001
+  server: bgroup.node3.s.nodelist-gfwairport2.top
+  type: ss
 - cipher: aes-256-gcm
   country: 🇬SG
-  name: 522,907|Pool_🇬SG_1259
+  name: 522,907|Pool_🇬SG_1259 |23.19Mb
   password: cbd5280c-2bd7-4f8b-a21f-b7f63fdd626b
   port: 8443
   server: sg-full.privateip.net
   type: ss
-- alterId: 0
-  cipher: aes-256-cfb
-  country: 🇸🇬SG
-  name: 523,745,907| | 5.02Mb
-  password: 4R3hUfZ2FHhDmNcP
-  port: 9061
-  server: 103.172.116.103
-  skip-cert-verify: true
-  tls: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  country: 🇸🇬SG
-  name: 523,907| | 7.63Mb
-  password: UWZQeLRWnkqgkseq
-  port: 9032
-  server: 103.172.116.103
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  country: 🇸🇬SG
-  name: 523,907|_169 | 7.19Mb
-  password: bf7v334KKDV3YDhH
-  port: 9070
-  server: 103.172.116.103
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  country: 🇬SG
-  name: 523,907| | 3.22Mb
-  password: fG2artUmHfNT2cX7
-  port: 9018
-  server: 103.172.116.94
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   name: 536|SG_youtube@资源分享师_38
@@ -4613,14 +4589,6 @@ proxies:
     headers:
       Host: dosg-cdn.ztt.icu
     path: /cctv5/hd.m3u8
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 685,907| |67.44Mb
-  password: cb8bd04c-3e95-472c-bb3b-d0313def9d75
-  port: 50006
-  server: iepl2.forlive.live
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -5366,7 +5334,7 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 907|Relay_-🇬SG_913 |136.04Mb
+  name: 907|Relay_-🇬SG_913 |89.32Mb
   network: ws
   port: 2052
   server: 104.19.35.240
@@ -5378,158 +5346,98 @@ proxies:
     path: /?ed=2048
 - cipher: aes-256-cfb
   country: 🇬SG
-  name: 907|🇸SG_1255
-  password: cp8pRSUAyLhTfVWH
-  port: 9064
-  server: 103.172.116.79
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇸🇬SG
-  name: 907|🇬SG_1252
-  password: 4R3hUfZ2FHhDmNcP
-  port: 9061
-  server: 103.172.116.79
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇸🇬SG
-  name: 907|🇸🇬SG_1260
-  password: TPqX8edgbAURcAMb
-  port: 9079
-  server: 103.172.116.79
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇸🇬SG
-  name: 907|🇸🇬SG_1266
-  password: BNmAXXxAHYpTRdzu
-  port: 9020
-  server: 103.172.116.94
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇸🇬SG
-  name: 907|🇸🇬SG_1267
-  password: HSZuyJQcWe8dxNdF
-  port: 9043
-  server: 103.172.116.94
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇸🇬SG
-  name: 907|🇸🇬SG_1271
-  password: JdmRK9gMEqFgs8nP
-  port: 9003
-  server: 103.172.116.94
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇸🇬SG
-  name: 907|🇬SG_1268
-  password: Lp27rqyJq72bZsqX
-  port: 9045
-  server: 103.172.116.94
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇸🇬SG
-  name: 907|🇬SG_1251
-  password: UWZQeLRWnkqgkseq
-  port: 9032
-  server: 103.172.116.79
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇸🇬SG
-  name: 907|🇸🇬SG_1249
-  password: UkXRsXvR6buDMG2Y
-  port: 9001
-  server: 103.172.116.79
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇸🇬SG
-  name: 907|🇸🇬SG_1263
-  password: UTJA57ypk2XKQpnm
-  port: 9033
-  server: 103.172.116.103
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇸🇬SG
-  name: 907|🇸🇬SG_1262
-  password: p9z5BVADH2YFs3MN
-  port: 9040
-  server: 103.172.116.79
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇸🇬SG
-  name: 907|🇸🇬SG_1272
-  password: UTJA57ypk2XKQpnm
-  port: 9033
-  server: 103.172.116.79
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇸🇬SG
-  name: 907|🇸🇬SG_1250
+  name: 907|SG_1250 | 2.62Mb
   password: BejrQvtu9sqUeNuZ
   port: 9024
   server: 103.172.116.79
   type: ss
 - cipher: aes-256-cfb
   country: 🇸🇬SG
-  name: 907|🇸🇬SG_1254
-  password: Sn5B7jTqr76aCJT8
-  port: 9097
+  name: 907|🇬SG_1252 | 2.94Mb
+  password: 4R3hUfZ2FHhDmNcP
+  port: 9061
   server: 103.172.116.79
   type: ss
 - cipher: aes-256-cfb
   country: 🇸🇬SG
-  name: 907|🇸🇬SG_1256
+  name: 907|🇸🇬SG_1255 | 1.75Mb
+  password: cp8pRSUAyLhTfVWH
+  port: 9064
+  server: 103.172.116.79
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇸🇬SG
+  name: 907|🇸🇬SG_1256 | 6.92Mb
   password: f63gg8EruDnUrmz4
   port: 9010
   server: 103.172.116.79
   type: ss
 - cipher: aes-256-cfb
   country: 🇸🇬SG
-  name: 907|🇬SG_1269
-  password: SBM7R883jBmnqe6C
-  port: 9053
-  server: 103.172.116.79
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇸🇬SG
-  name: 907|🇸🇬SG_1257
-  password: rNBfNuuANFCAk7KB
-  port: 9056
-  server: 103.172.116.79
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇸🇬SG
-  name: 907|🇸🇬SG_1265
-  password: JdmRK9gMEqFgs8nP
-  port: 9003
-  server: 103.172.116.79
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇸🇬SG
-  name: 907|🇸🇬SG_1253
-  password: Lp27rqyJq72bZsqX
-  port: 9045
-  server: 103.172.116.79
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇸🇬SG
-  name: 907|🇸🇬SG_1258
-  password: VP8ZPxQpJtZRCjfZ
-  port: 9080
-  server: 103.172.116.79
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇸🇬SG
-  name: 907|🇬SG_1261
+  name: 907|🇬SG_1261 | 5.81Mb
   password: HSZuyJQcWe8dxNdF
   port: 9043
   server: 103.172.116.79
   type: ss
 - cipher: aes-256-cfb
   country: 🇸🇬SG
-  name: 907|🇸🇬SG_1270
+  name: 907|🇸🇬SG_1262 | 5.10Mb
+  password: p9z5BVADH2YFs3MN
+  port: 9040
+  server: 103.172.116.79
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇸🇬SG
+  name: 907|🇸🇬SG_1263 | 4.64Mb
+  password: UTJA57ypk2XKQpnm
+  port: 9033
+  server: 103.172.116.103
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇸🇬SG
+  name: 907|🇸🇬SG_1266 | 0.01Mb
+  password: BNmAXXxAHYpTRdzu
+  port: 9020
+  server: 103.172.116.94
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇸🇬SG
+  name: 907|🇸🇬SG_1267 | 2.07Mb
+  password: HSZuyJQcWe8dxNdF
+  port: 9043
+  server: 103.172.116.94
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇸🇬SG
+  name: 907|🇸🇬SG_1269 | 0.79Mb
+  password: SBM7R883jBmnqe6C
+  port: 9053
+  server: 103.172.116.79
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇸🇬SG
+  name: 907|🇸🇬SG_1270 | 2.42Mb
   password: c3NtHJ5ujV2tGDfj
   port: 9084
   server: 103.172.116.79
   type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇬SG
+  h2-opts: {}
+  http-opts: {}
+  name: 907|🇸🇬SG_1273
+  network: ws
+  port: 2082
+  server: 8.222.174.108
+  servername: s1c.v2.v001sss.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  ws-opts:
+    headers:
+      HOST: s1c.v2.v001sss.xyz
+    path: /
 - cipher: aes-256-cfb
   name: 960|基础 新加坡 1
   obfs: tls1.2_ticket_auth
