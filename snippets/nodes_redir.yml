@@ -1,16 +1,14 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '0,3,306,307,449,450,452,453,548,549,579,581,597,645,667,668,677,678,680,780,782|未知_0612032
-    #1'
+  name: '0,3,306,307,449,450,452,453,581,645,667,668,677,678,780,782|未知_0612032 #1'
   network: ws
   port: '80'
   server: 104.18.54.24
   servername: ''
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: false
   type: vmess
-  udp: true
   uuid: 831201cc-07fb-44dd-a1cb-e70beee00268
   ws-opts:
     headers:
@@ -18,13 +16,15 @@ proxies:
     path: /etc
 - alterId: 0
   cipher: auto
-  name: 0,3,306,449,450,452,453,581,645,667,668,677,678,680,746,780,782|美国_0612055
+  name: 0,3,306,449,450,452,453,548,549,579,581,597,645,667,668,677,678,680,746,780,782|美国_0612055
   network: ws
   port: '80'
   server: 104.26.3.120
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
+  udp: true
   uuid: f94c274d-f9c5-4c47-a3f5-fa839d80bfb1
   ws-opts:
     headers:
@@ -47,7 +47,7 @@ proxies:
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
 - alterId: 0
   cipher: auto
-  name: '0,3,300,306,307,449,450,452,453,454,561,572,575,581,645,667,668,677,678,680,726,746,766,774,780,782|瑞典_0612002
+  name: '0,3,306,307,449,450,452,453,454,561,572,581,645,667,668,677,678,726,746,766,774,780,782|瑞典_0612002
     #2'
   network: ws
   port: '2052'
@@ -166,7 +166,9 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '1,2,307,628,667,668,745|未知9 #1'
+  client-fingerprint: chrome
+  fingerprint: ''
+  name: '1,2,299,307,628,667,668,745|未知9 #1'
   network: ws
   port: 2052
   server: 185.146.173.185
@@ -174,6 +176,7 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: vmess
+  udp: false
   uuid: 99f8410f-4f46-4f64-adc7-aa6a41dc9da4
   ws-opts:
     headers:
@@ -2667,21 +2670,25 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '703|🇺🇸_US_美国->🇨🇦_CA_加拿大 #8'
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 703,907| | 2.36Mb
   network: ws
   port: 2052
   server: cdncdncdncdn.784654.xyz
+  servername: ca-cfcdn.aikunapp.com
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 8c8dabbc-93a6-44ad-b878-0d980fa249d1
+  uuid: 71b1d697-732e-4350-b83b-3531a0ad49ff
   ws-opts:
     headers:
-      host: ca-cfcdn.aikunapp.com
+      HOST: ca-cfcdn.aikunapp.com
     path: /index?ed=2048
 - alterId: 0
   cipher: auto
-  name: '703,757,759|美国 CloudFlare节点 #67'
+  name: '703,757,759|美国 CloudFlare节点 #64'
   network: ws
   port: '2082'
   server: s1c.v2.v001sss.xyz
