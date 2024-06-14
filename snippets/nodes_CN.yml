@@ -2722,22 +2722,21 @@ proxies:
     headers:
       Host: tms.dingtalk.com
     path: /
-- cipher: rc4-md5
-  name: 537,538,545|Relay_-CN_03
-  obfs: plain
-  obfs-param: 64334105622.www.gov.hk
-  password: di15PV
-  port: 555
-  protocol: auth_aes128_md5
-  protocol-param: 105622:5EF7C3661EBC
-  server: video23.cdn.globalnetworktraffic.com
-  type: ssr
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  country: 🇨CN
-  name: 537,701|🇵🇭 PH菲律宾-电信优化
+  country: 🇨🇳CN
+  name: 537,701|🇹🇭 TH泰国-电信优化
   password: 1cce1062-972c-4ac0-a511-b9168e761512
-  port: 27274
+  port: 27275
+  server: gtm1.ktmwan.com
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  country: 🇨🇳CN
+  name: 537,701|🇮🇳 IN印度-电信优化
+  password: 1cce1062-972c-4ac0-a511-b9168e761512
+  port: 27252
   server: gtm1.ktmwan.com
   tfo: false
   type: ss
@@ -2916,6 +2915,15 @@ proxies:
   password: QazEdcTgb159@$*
   port: 24001
   server: 14.29.124.168
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 564,594,701|🇸🇬 SG 01
+  password: a4ac2592-28e7-4927-94b3-277edae0869a
+  port: 50105
+  server: iepl2.forlive.live
+  tfo: false
   type: ss
   udp: true
 - alterId: 4
@@ -9166,23 +9174,6 @@ proxies:
   tls: false
   type: vmess
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-- alterId: 64
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 928|Relay_-🇨🇳CN_837 |34.18Mb
-  network: ws
-  port: 38001
-  server: 38.165.72.151
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.22103619.xyz
-    path: /path/1714306882216
 - alterId: 0
   cipher: auto
   name: 1001|中国-国外回国内-v2ray
