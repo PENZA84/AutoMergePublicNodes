@@ -2861,16 +2861,15 @@ proxies:
   server: 14.29.124.168
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: '569,599,617,713,721,756|北京市 移动 #1'
-  network: tcp
-  port: '48821'
-  server: dxcdn02.dorabbb.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 404dea84-58af-4e6b-a11b-cbc10e97cf34
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 568,598,705,755|🇨🇳 广东省广州市+移动 2
+  password: a4ac2592-28e7-4927-94b3-277edae0869a
+  port: 50105
+  server: iepl2.forlive.live
+  tfo: false
+  type: ss
+  udp: true
 - alterId: 4
   cipher: auto
   name: '570,627|未命名 #198'
@@ -4699,11 +4698,15 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 581|中国_061604014
+  country: 🇨CN
+  h2-opts: {}
+  http-opts: {}
+  name: 581,932|Relay_🇨🇳CN-🇺🇸US_1014
   network: tcp
-  port: '41015'
+  port: 41015
   server: 120.232.153.36
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -9047,6 +9050,23 @@ proxies:
   tls: false
   type: vmess
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+- alterId: 64
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 932|Relay_-🇨CN_814
+  network: ws
+  port: 38001
+  server: 38.165.72.151
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.22103619.xyz
+    path: /path/1714306882216
 - alterId: 0
   cipher: auto
   name: 1005|中国-国外回国内-v2ray
