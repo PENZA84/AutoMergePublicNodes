@@ -47,15 +47,13 @@ proxies:
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
 - alterId: 0
   cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 0,3,196,321,322,467,468,470,471,581,592,665,687,688,697,698,700,932|Relay_-🇷🇺RU_822
-    | 7.58Mb
+  name: '0,3,196,321,322,467,468,470,471,581,665,687,688,697,698,700|🇺🇸 _US_美国->🇬🇧_GB_英国
+    #3'
   network: ws
-  port: 80
+  port: '80'
   server: zula.ir
   servername: ''
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: false
   type: vmess
   uuid: da62a137-3611-4dd7-8523-b5266afe6fe5
@@ -112,8 +110,11 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
+  country: 🇺🇸US
   fingerprint: ''
-  name: '1,2,314,322,648,687,688|🏁RELAY-104.26.9.22-1148 #1'
+  h2-opts: {}
+  http-opts: {}
+  name: '1,2,314,322,541,648,687,688|🏁RELAY-104.26.9.22-1148 #1'
   network: ws
   port: 8080
   server: 104.26.9.22
@@ -129,25 +130,30 @@ proxies:
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
 - alterId: 0
   cipher: auto
-  name: '1,2|_US_->_GB_ #1'
+  country: 🇨CO
+  h2-opts: {}
+  http-opts: {}
+  name: 1,2,541|Relay_🇨CO-RU_26 |25.17Mb
   network: ws
   port: 80
   server: zula.ir
+  servername: Uk2.vmess.site.
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: da62a137-3611-4dd7-8523-b5266afe6fe5
   ws-opts:
     headers:
-      host: Uk2.vmess.site.
+      HOST: Uk2.vmess.site.
     path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
+  country: 🇺🇸US
   fingerprint: ''
   h2-opts: {}
   http-opts: {}
-  name: 1,2,314,322,648,687,688,932|Relay_-RO_806
+  name: '1,2,314,322,541,648,687,688|🏁RELAY-172.67.193.67-0107 #1'
   network: ws
   port: 80
   server: 172.67.193.67
@@ -159,12 +165,12 @@ proxies:
   uuid: 408438b0-fe40-44de-af19-0e5e6bb750ce
   ws-opts:
     headers:
-      host: gulasch.online
+      Host: ''
     path: /
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: '1,2,322,598,648,705,932|未命名 #359'
-  password: d77d4bdd-49d7-34c6-adfa-7fda9967d1d7
+  name: 1,2,322,598,648,705|🇺🇸 US 05
+  password: 30a8576f-0e33-4715-bb9c-b2bde0d2742e
   port: 60033
   server: 5.forlive.live
   tfo: false
