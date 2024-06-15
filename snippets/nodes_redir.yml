@@ -1,5 +1,5 @@
 proxies:
-- name: 1,2,644|🇨🇳_CN_中国->🇸_US_美国_1
+- name: 1,2,644|🇨🇳_CN_中国->🇺🇸_US_美国_2
   network: tcp
   password: gkviEOYc
   port: 50611
@@ -9,12 +9,12 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '1,2,319,644,683,684|🏁RELAY-104.26.14.85-1095 #1'
+  name: '1,2,319,683,684|🏁RELAY-104.26.14.85-1095 #1'
   network: ws
   port: 2095
   server: 104.26.14.85
   servername: ''
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: false
   type: vmess
   uuid: 3e540874-0730-452a-8b2e-e719b5d34470
@@ -22,16 +22,14 @@ proxies:
     headers:
       Host: ''
     path: /@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za
-- alpn:
-  - h2http/1.1
-  grpc-opts:
+- grpc-opts:
     grpc-service-name: trojan
-  name: 1,2,319,644|🇺🇸_US_美国->_DE_国_1
+  name: 1,2,319|🏁RELAY-104.21.34.77-0106
   network: grpc
   password: A9l6_eMgylRZu0YiSqunsQ
   port: 2096
   server: 104.21.34.77
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: usa.iwontletgo.cloud
   tls: true
   type: trojan
@@ -43,21 +41,23 @@ proxies:
   fingerprint: ''
   h2-opts: {}
   http-opts: {}
-  name: 1,2,311,319,537,644,683,684,709|0|-https://t.me/MrXbin-191
+  name: 1,2,311,319,537,644,683,684,928|Relay_ | 9.04Mb
   network: ws
   port: 80
   server: 172.67.193.67
-  servername: gulasch.online
+  servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: false
   uuid: 408438b0-fe40-44de-af19-0e5e6bb750ce
   ws-opts:
+    headers:
+      host: gulasch.online
     path: /
 - alterId: 0
   cipher: auto
-  name: 1,2,644|🇺🇸_US_美国->🇩🇪_DE_德国_2
+  name: '1,2|_US_->_DE__3 #1'
   network: ws
   port: 2095
   server: zula.ir
@@ -71,8 +71,8 @@ proxies:
     path: /@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 1,2,319,594,701|🇺🇸 US 05
-  password: 30a8576f-0e33-4715-bb9c-b2bde0d2742e
+  name: '1,2,319,594,644,701,928|未命名 #348'
+  password: 54d73e4b-054d-4148-bab6-22646f4431a9
   port: 60033
   server: 5.forlive.live
   tfo: false
@@ -88,7 +88,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '318,319,515,683,684,693,694,775,946|🇺🇸_US_美国->🇫🇷_FR_法国 #6'
+  name: '318,319,515,577,683,684,693,694,775,946|🇺🇸_US_美国->🇫🇷_FR_法国 #6'
   network: ws
   port: 2082
   server: 104.21.8.157
@@ -298,6 +298,19 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
+  name: '506,670,775,946|🇺🇸_US_美国->🇨🇦_CA_加拿大 #14'
+  network: ws
+  port: 8080
+  server: 162.159.137.249
+  tls: false
+  type: vmess
+  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
+  ws-opts:
+    headers:
+      Host: nest-emily-healing-h.trycloudflare.com
+    path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
+- alterId: 0
+  cipher: auto
   name: '506,515,594,670,774,775,946|🇦🇪_AE_阿联酋->🇬🇧_GB_英国 #3'
   network: ws
   port: 8880
@@ -338,6 +351,20 @@ proxies:
     headers:
       Host: pcs-referenced-camera-concerns.trycloudflare.com
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
+- alterId: 0
+  cipher: auto
+  name: '515,577,683,684,773,775,946|🇺🇸_US_美国->🇫🇷_FR_法国 #5'
+  network: ws
+  port: 2082
+  server: 172.67.130.140
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  ws-opts:
+    headers:
+      Host: s1c.v2.v001sss.xyz
+    path: /
 - alterId: 0
   cipher: auto
   name: 563,702|台湾【YouTube @Play实验室】
@@ -2214,7 +2241,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '645,700|🇺🇸_US_美国_3 #3'
+  name: '645,700|🇺🇸_US_美国_3 #2'
   network: ws
   port: 80
   server: mm3.shabijichang.com
@@ -2573,35 +2600,6 @@ proxies:
   ws-opts:
     headers:
       host: in4.wish.ml
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '719|🇺🇸_US_美国->🇨🇦_CA_加拿大 #6'
-  network: ws
-  port: 2052
-  server: cdncdncdncdn.784654.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 8c8dabbc-93a6-44ad-b878-0d980fa249d1
-  ws-opts:
-    headers:
-      host: ca-cfcdn.aikunapp.com
-    path: /index?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '719,773,775|美国 CloudFlare节点 #55'
-  network: ws
-  port: '2082'
-  server: s1c.v2.v001sss.xyz
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-  ws-opts:
-    headers:
-      Host: ''
     path: /
 - alterId: 0
   cipher: auto
