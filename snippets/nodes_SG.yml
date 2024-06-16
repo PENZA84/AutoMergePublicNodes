@@ -1,14 +1,15 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 16|新加坡|徐州移动|Linode|1x
+  network: tcp
+  port: 39226
+  server: jscm.r1u.cn
+  tls: false
+  type: vmess
+  uuid: f010dd01-c54a-3c03-95ce-0838214259c6
 - cipher: aes-256-cfb
-  country: 🇸🇬SG
-  name: 23,323,543,935| | 1.90Mb
-  password: cp8pRSUAyLhTfVWH
-  port: 9064
-  server: 103.172.116.103
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  country: 🇸🇬SG
+  country: 🇬SG
   name: 23,323,543,935| | 2.00Mb
   password: ueLXVkvh4hckhErQ
   port: 9060
@@ -17,11 +18,12 @@ proxies:
   udp: true
 - cipher: aes-256-cfb
   country: 🇸🇬SG
-  name: 23,197,323,543|🇸🇬SG_96
-  password: BwcAUZk8hUFAkDGN
-  port: 9031
+  name: 23,323,543,935| | 2.19Mb
+  password: cp8pRSUAyLhTfVWH
+  port: 9064
   server: 103.172.116.103
   type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: '24,32|sg新加坡1 #1'
@@ -63,7 +65,33 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '26,27,63|普通1|新加坡|vmess|解锁 #2'
+  name: 61|优化1|新加坡|vmess
+  network: ws
+  port: '2052'
+  server: 1yvip1.xyyjc.top
+  tls: false
+  type: vmess
+  uuid: 33f0a763-428a-4779-b21f-51307a7d4527
+  ws-opts:
+    headers:
+      Host: jdxjp.xyyjc.top
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 61|优化2|新加坡|vmess
+  network: ws
+  port: '2052'
+  server: 1yvip2.xyyjc.top
+  tls: false
+  type: vmess
+  uuid: 33f0a763-428a-4779-b21f-51307a7d4527
+  ws-opts:
+    headers:
+      Host: jdxjp.xyyjc.top
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '61,63|普通1|新加坡|vmess|解锁 #1'
   network: ws
   port: '2052'
   server: pt1.xyyjc.top
@@ -76,7 +104,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '26,27,63|普通2|新加坡|vmess|解锁 #2'
+  name: '61,63|普通2|新加坡|vmess|解锁 #1'
   network: ws
   port: '2052'
   server: pt2.xyyjc.top
@@ -89,13 +117,39 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '26,27,63|普通3|新加坡|vmess|解锁 #2'
+  name: '61,63|普通3|新加坡|vmess|解锁 #1'
   network: ws
   port: '2052'
   server: pt3.xyyjc.top
   tls: false
   type: vmess
   uuid: 8507e32c-2b63-49df-ab46-4f75fd73cb0f
+  ws-opts:
+    headers:
+      Host: ptdxjp.xyyjc.top
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 61|优化1|新加坡|vmess|解锁
+  network: ws
+  port: '2052'
+  server: 1yvip1.xyyjc.top
+  tls: false
+  type: vmess
+  uuid: 33f0a763-428a-4779-b21f-51307a7d4527
+  ws-opts:
+    headers:
+      Host: ptdxjp.xyyjc.top
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 61|优化2|新加坡|vmess|解锁
+  network: ws
+  port: '2052'
+  server: 1yvip2.xyyjc.top
+  tls: false
+  type: vmess
+  uuid: 33f0a763-428a-4779-b21f-51307a7d4527
   ws-opts:
     headers:
       Host: ptdxjp.xyyjc.top
@@ -311,15 +365,28 @@ proxies:
     headers:
       Host: dxjp.chaozhijc.xyz
     path: /?ed=2048
-- cipher: aes-256-cfb
-  name: 197,323|🇸🇬SG-103.172.116.103-2952
+- alterId: 0
+  cipher: aes-256-cfb
+  name: 197,323,766|未知647
   password: fG2artUmHfNT2cX7
   port: 9018
   server: 103.172.116.103
+  skip-cert-verify: true
+  tls: true
   type: ss
 - alterId: 0
   cipher: aes-256-cfb
-  name: 197,323,766|未知1269 1.0MB/s
+  name: 197,323,766,935|_08 | 4.36Mb
+  password: BwcAUZk8hUFAkDGN
+  port: 9031
+  server: 103.172.116.103
+  skip-cert-verify: true
+  tls: true
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: aes-256-cfb
+  name: 197,323,766|未知1346
   password: KnJGad3FqTvjqbaX
   port: 9014
   server: 103.172.116.103
@@ -342,14 +409,14 @@ proxies:
       Host: ''
     path: /
 - cipher: aes-256-gcm
-  name: 197,323,935|Pool_ |34.73Mb
+  name: 197,323,935|Pool_ | 8.88Mb
   password: cbd5280c-2bd7-4f8b-a21f-b7f63fdd626b
   port: 8443
   server: sg-full.privateip.net
   type: ss
 - alterId: 0
   cipher: aes-256-cfb
-  name: 197,323,599,766,935| | 7.73Mb
+  name: 197,323,599,766|未知480 160.0KB/s
   password: amazonskr05
   port: 443
   server: 47.129.9.69
@@ -480,7 +547,7 @@ proxies:
       Host: sg1.chinayyds.xyz
     path: /?ed=2048
 - cipher: rc4-md5
-  name: 203|🇸🇬 IPLC｜冀新 [2.0][UDP][ChatGPT]
+  name: 203,935|Relay_-🇨🇳CN_718 |207.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -493,7 +560,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 203|🇸🇬 IPLC｜新加坡媒体专线-1 [2.0][NF]
+  name: 203,935|Relay_-🇨🇳CN_708 |98.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -506,7 +573,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 203|🇸🇬 IPLC｜沪新 [2.0][UDP][ChatGPT]
+  name: 203,935|Relay_-🇨🇳CN_678 |657.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -519,7 +586,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 203|🇸🇬 IPLC｜浙新 [2.0][UDP][ChatGPT]
+  name: 203,935|Relay_-🇨🇳CN_716 |97.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -532,7 +599,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 203,935|Relay_-🇨🇳CN_694 |94.00Mb
+  name: 203,935|Relay_-🇨🇳CN_694 |100.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -545,7 +612,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 203,935|Relay_-🇨🇳CN_687 |119.00Mb
+  name: 203,935|Relay_-🇨🇳CN_687 |93.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -558,7 +625,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 203|🇸🇬 IPLC｜珠新 [2.0][UDP][ChatGPT]
+  name: 203,935|Relay_-🇨🇳CN_702 |94.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -571,7 +638,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 203|🇸🇬 IPLC｜苏新 [2.0][UDP][ChatGPT]
+  name: 203,935|Relay_-🇨🇳CN_710 |100.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -584,7 +651,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 203|🇸🇬 IPLC｜闽新 [2.0][UDP][ChatGPT]
+  name: 203,935|Relay_-🇨🇳CN_688 |377.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -743,7 +810,7 @@ proxies:
   name: 282|🇸🇬狮城区域1自动运维节点
   network: tcp
   port: '20182'
-  server: 9mH6GT.gov.goldliond.top
+  server: OZPYoc.gov.goldliond.top
   tls: false
   type: vmess
   uuid: dff90a14-6c25-4181-9791-0be9131da5a3
@@ -752,7 +819,7 @@ proxies:
   name: 282|🇸🇬狮城区域2自动运维节点
   network: tcp
   port: '20182'
-  server: n4Wrs2.gov.goldliond.top
+  server: YoTxam.gov.goldliond.top
   tls: false
   type: vmess
   uuid: dff90a14-6c25-4181-9791-0be9131da5a3
@@ -761,7 +828,7 @@ proxies:
   name: 282|🇸🇬狮城区域3自动运维节点
   network: tcp
   port: '20182'
-  server: Tc6hjU.gov.goldliond.top
+  server: LQNDqL.gov.goldliond.top
   tls: false
   type: vmess
   uuid: dff90a14-6c25-4181-9791-0be9131da5a3
@@ -770,7 +837,7 @@ proxies:
   name: 282|🇸🇬狮城区域1-三网优化-解锁Netflix
   network: tcp
   port: '60184'
-  server: f4g6cS.gov.goldliond.top
+  server: 6172oO.gov.goldliond.top
   tls: false
   type: vmess
   uuid: dff90a14-6c25-4181-9791-0be9131da5a3
@@ -779,7 +846,7 @@ proxies:
   name: '295|🇸🇬狮城区域1自动运维节点 #1'
   network: tcp
   port: '20182'
-  server: vLEJRI.gov.goldliond.top
+  server: JLdSmM.gov.goldliond.top
   tls: false
   type: vmess
   uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f
@@ -788,7 +855,7 @@ proxies:
   name: '295|🇸🇬狮城区域2自动运维节点 #1'
   network: tcp
   port: '20182'
-  server: v4bYC4.gov.goldliond.top
+  server: daOGp1.gov.goldliond.top
   tls: false
   type: vmess
   uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f
@@ -797,7 +864,7 @@ proxies:
   name: '295|🇸🇬狮城区域3自动运维节点 #1'
   network: tcp
   port: '20182'
-  server: 1s4AjC.gov.goldliond.top
+  server: n2VPm3.gov.goldliond.top
   tls: false
   type: vmess
   uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f
@@ -806,7 +873,7 @@ proxies:
   name: '295|🇸🇬狮城区域1-三网优化-解锁Netflix #1'
   network: tcp
   port: '40184'
-  server: eW24VA.gov.goldliond.top
+  server: quvJyv.gov.goldliond.top
   tls: false
   type: vmess
   uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f
@@ -1165,7 +1232,7 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 322,582,599,688,689,701,747,755,766,767,935|_829 |30.03Mb
+  name: 322,582,599,688,689,701,747,755,766,767,935|_829 |27.62Mb
   network: ws
   port: 99
   server: 128.199.161.230
@@ -1195,7 +1262,7 @@ proxies:
   country: 🇬SG
   h2-opts: {}
   http-opts: {}
-  name: 322,935|Pool_🇬SG_1171 |39.72Mb
+  name: 322,935|Pool_🇬SG_1171 |26.68Mb
   network: ws
   port: 443
   server: sg2-full.privateip.net
@@ -1223,7 +1290,7 @@ proxies:
   country: 🇬SG
   h2-opts: {}
   http-opts: {}
-  name: 322,701,935|Relay_🇸🇬SG-🇸🇬SG_1170 |18.57Mb
+  name: 322,701,935|Relay_🇸🇬SG-🇸🇬SG_1170 | 4.87Mb
   network: tcp
   port: 2083
   server: sg2-v2ray.ipracevpn.com
@@ -1248,7 +1315,7 @@ proxies:
     path: /ray
 - alterId: 0
   cipher: auto
-  name: '322,747,755,767|未知225 #2'
+  name: '322,747,755,767|未知88 #2'
   network: ws
   port: '56029'
   server: 18.142.251.50
@@ -1276,10 +1343,19 @@ proxies:
   uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
 - alterId: 0
   cipher: auto
+  name: '322,747,755|🔒 VM-TCP-NONE 🇸🇬 SG-152.42.208... #2'
+  network: tcp
+  port: 54185
+  server: 152.42.208.82
+  tls: false
+  type: vmess
+  uuid: ed5efa57-2ab8-4323-8ba4-7f383ae24ba1
+- alterId: 0
+  cipher: auto
   country: 🇺🇸US
   h2-opts: {}
   http-opts: {}
-  name: 322,582,747,755,935|Relay_🇺🇸US-🇺🇸US_1582 |45.29Mb
+  name: 322,582,747,755,935|Relay_🇺🇸US-🇺🇸US_1582 |30.74Mb
   network: ws
   port: 23006
   server: 138.2.90.147
@@ -1290,15 +1366,6 @@ proxies:
   uuid: 5eea50d8-a816-48c7-bc35-0fde39e277b5
   ws-opts:
     path: /free
-- alterId: 0
-  cipher: auto
-  name: '322,747,755|🔒 VM-TCP-NONE 🇸🇬 SG-152.42.208... #2'
-  network: tcp
-  port: 54185
-  server: 152.42.208.82
-  tls: false
-  type: vmess
-  uuid: ed5efa57-2ab8-4323-8ba4-7f383ae24ba1
 - alterId: 0
   cipher: auto
   name: 323|🇬SG-172.104.184.110-0136
@@ -1670,7 +1737,8 @@ proxies:
     path: /
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 323,756|🇺🇸 美国+华盛顿Cogent通信公司
+  country: 🇺🇸US
+  name: 323,543,756|🇺🇸 美国+华盛顿Cogent通信公司
   password: 3pURuTUf-lFgg5qWg8euFA
   port: 1080
   server: 38.180.106.52
@@ -2055,14 +2123,11 @@ proxies:
   port: 9046
   server: 103.172.116.103
   type: ss
-- alterId: 0
-  cipher: aes-256-cfb
-  name: 323,766|未知1526 737.4KB/s
+- cipher: aes-256-cfb
+  name: 323|🇬SG-103.172.116.103-2968
   password: rNBfNuuANFCAk7KB
   port: 9056
   server: 103.172.116.103
-  skip-cert-verify: true
-  tls: true
   type: ss
 - cipher: aes-256-cfb
   name: 323|🇸🇬SG-13.214.212.124-3078
@@ -2878,34 +2943,24 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  country: 🇬SG
-  name: 543,935| | 2.82Mb
+  country: 🇸🇬SG
+  name: 543,935| | 3.28Mb
   password: UWZQeLRWnkqgkseq
   port: 9032
   server: 103.172.116.103
   type: ss
 - cipher: aes-256-cfb
   country: 🇸🇬SG
-  name: 543|🇸🇬SG_95
-  password: 4R3hUfZ2FHhDmNcP
-  port: 9061
+  name: 543|🇸🇬SG_88
+  password: bf7v334KKDV3YDhH
+  port: 9070
   server: 103.172.116.103
-  type: ss
-- alterId: 0
-  cipher: aes-256-cfb
-  country: 🇸🇬SG
-  name: 543,766,935| | 1.44Mb
-  password: TN2YqghxeFDKZfLU
-  port: 9037
-  server: 103.172.116.103
-  skip-cert-verify: true
-  tls: true
   type: ss
 - cipher: aes-256-cfb
   country: 🇸🇬SG
-  name: 543,935| | 6.32Mb
-  password: bf7v334KKDV3YDhH
-  port: 9070
+  name: 543,935| | 3.33Mb
+  password: TN2YqghxeFDKZfLU
+  port: 9037
   server: 103.172.116.103
   type: ss
 - alterId: 0
@@ -3465,7 +3520,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: chacha20-ietf-poly1305
-  name: 599,766|未知1609
+  name: 599,766|未知1693
   password: df30da54-317f-4726-98bd-8bc8ec8140c9
   port: 20177
   server: 139.59.119.251
@@ -3518,7 +3573,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: chacha20-ietf-poly1305
-  name: 599,766|未知274
+  name: 599,766|未知339
   password: df30da54-317f-4726-98bd-8bc8ec8140c9
   port: 20175
   server: 139.59.119.251
@@ -3555,7 +3610,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: chacha20-ietf-poly1305
-  name: 599,766|未知75
+  name: 599,766|未知1151
   password: df30da54-317f-4726-98bd-8bc8ec8140c9
   port: 20181
   server: 139.59.119.251
@@ -3585,7 +3640,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: chacha20-ietf-poly1305
-  name: 599,766|未知1524
+  name: 599,766|未知337
   password: df30da54-317f-4726-98bd-8bc8ec8140c9
   port: 20180
   server: 139.59.119.251
@@ -3629,7 +3684,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: chacha20-ietf-poly1305
-  name: 599,766|未知724
+  name: 599,766|未知173
   password: df30da54-317f-4726-98bd-8bc8ec8140c9
   port: 20182
   server: 139.59.119.251
@@ -3700,7 +3755,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: chacha20-ietf-poly1305
-  name: 599,766|未知1489
+  name: 599,766|未知1353
   password: df30da54-317f-4726-98bd-8bc8ec8140c9
   port: 20172
   server: 139.59.119.251
