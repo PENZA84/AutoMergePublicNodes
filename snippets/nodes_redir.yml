@@ -1,14 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '0,3,321,322,467,468,470,471,601,665,687,688,697,698,800|未知_0614191 #1'
+  h2-opts: {}
+  http-opts: {}
+  name: 0,3,321,322,467,468,470,471,568,569,599,601,617,665,687,688,697,698,800,934|_899
   network: ws
-  port: '2086'
+  port: 2086
   server: 104.16.60.8
   servername: ''
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: false
   type: vmess
+  udp: true
   uuid: a1655f51-1e20-4a92-8a11-b7ca30a7a353
   ws-opts:
     headers:
@@ -47,13 +50,15 @@ proxies:
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
 - alterId: 0
   cipher: auto
-  name: '0,3,196,321,322,467,468,470,471,581,665,687,688,697,698,700|🇺🇸_US_美国->🇬🇧_GB_英国
-    #5'
+  h2-opts: {}
+  http-opts: {}
+  name: 0,3,196,321,322,467,468,470,471,472,581,665,687,688,697,698,700,934|Relay_-🇺RU_856
+    |10.48Mb
   network: ws
   port: 80
   server: zula.ir
   servername: ''
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: da62a137-3611-4dd7-8523-b5266afe6fe5
@@ -64,7 +69,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 0,3,321,322,467,468,470,471,581,601,665,687,688,697,698,700,755,756,800,802|美国_0615058
+  name: 0,3,321,322,467,468,470,471,568,569,581,599,601,617,665,687,688,697,698,700,755,756,800,802|美国_0615058
   network: ws
   port: '80'
   server: 172.67.193.67
@@ -73,6 +78,7 @@ proxies:
   tfo: false
   tls: false
   type: vmess
+  udp: true
   uuid: 408438b0-fe40-44de-af19-0e5e6bb750ce
   ws-opts:
     headers:
@@ -81,17 +87,23 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
+  country: 🏁ZZ
   fingerprint: ''
-  name: 1,2,314,322|🏁RELAY-104.16.60.8-0070
+  h2-opts: {}
+  http-opts: {}
+  name: '1,2,314,322,541,687,688|🏁RELAY-104.16.60.8-0103 #1'
   network: ws
   port: 2086
   server: 104.16.60.8
-  skip-cert-verify: false
+  servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   udp: false
   uuid: a1655f51-1e20-4a92-8a11-b7ca30a7a353
   ws-opts:
+    headers:
+      Host: ''
     path: /afrhms07.xfixedfloat.cfd/linkws
 - alterId: 0
   cipher: auto
@@ -111,7 +123,7 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   fingerprint: ''
-  name: '1,2,314,322,648,687,688|🏁RELAY-104.26.9.22-1148 #1'
+  name: '1,2,314,322,648,687,688|🏁RELAY-104.26.9.22-0117 #1'
   network: ws
   port: 8080
   server: 104.26.9.22
@@ -150,7 +162,7 @@ proxies:
   fingerprint: ''
   h2-opts: {}
   http-opts: {}
-  name: '1,2,314,322,541,648,687,688|🏁RELAY-172.67.193.67-0107 #1'
+  name: 1,2,314,322,541,648,687,688,934|Relay_-🇷RO_872 | 7.26Mb
   network: ws
   port: 80
   server: 172.67.193.67
@@ -162,12 +174,13 @@ proxies:
   uuid: 408438b0-fe40-44de-af19-0e5e6bb750ce
   ws-opts:
     headers:
-      Host: ''
+      host: gulasch.online
     path: /
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 1,2,322,598,648,705|🇺🇸 US 05
-  password: 30a8576f-0e33-4715-bb9c-b2bde0d2742e
+  country: 🇺🇸US
+  name: 1,2,322,598,648,705,934|Relay_🇺🇸US-🇩🇪DE_1434
+  password: 54d73e4b-054d-4148-bab6-22646f4431a9
   port: 60033
   server: 5.forlive.live
   tfo: false
