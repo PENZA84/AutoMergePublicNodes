@@ -1,6 +1,15 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 16|香港|广州移动|Neko|1.5x
+  network: tcp
+  port: 13337
+  server: gdcm.r1u.cn
+  tls: false
+  type: vmess
+  uuid: f010dd01-c54a-3c03-95ce-0838214259c6
+- alterId: 0
+  cipher: auto
   name: '28,36|hk香港1 #1'
   network: ws
   port: '2086'
@@ -40,29 +49,18 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 54|🇭🇰 HongKong B - Unlocked
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: 54,957|Relay_🇭🇰HK-🇭🇰HK_1120 |63.87Mb
   network: ws
-  port: '80'
-  server: hk02.rosemarytrustworthy.icu
-  tls: false
-  type: vmess
-  uuid: 4022f6b4-ab73-4147-9a00-ff0b4c4a09cb
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 54|🇭🇰 HongKong D - Unlocked
-  network: ws
-  port: '80'
+  port: 80
   server: hk04.rosemarytrustworthy.icu
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 4022f6b4-ab73-4147-9a00-ff0b4c4a09cb
   ws-opts:
-    headers:
-      Host: ''
     path: /
 - alterId: 0
   cipher: auto
@@ -275,7 +273,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '136,336,784,804,812|رایگان | VMESS | @mftizi | HK🇭... #1'
+  name: '136,336,610,784,804,812|رایگان | VMESS | @mftizi | HK🇭... #3'
   network: ws
   port: '2052'
   server: hk.wish.ml
@@ -388,9 +386,11 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '206,336,337,616,705,706,718,772,783,784|HK72 558.4KB/s #2'
+  h2-opts: {}
+  http-opts: {}
+  name: 206,336,337,616,705,706,718,772,783,784,957|_789 |21.15Mb
   network: ws
-  port: '28681'
+  port: 28681
   server: 47.242.22.171
   servername: ''
   skip-cert-verify: true
@@ -399,8 +399,6 @@ proxies:
   udp: true
   uuid: 3b1072ce-d096-46c2-a3e7-08b4f58538f5
   ws-opts:
-    headers:
-      Host: ''
     path: /
 - alterId: 0
   cipher: auto
@@ -481,7 +479,7 @@ proxies:
       Host: pqhk.chinayyds.xyz
     path: /?ed=2048
 - cipher: rc4-md5
-  name: 212,957|Relay_ |147.00Mb
+  name: 212|🇭🇰 IPLC｜香港<-河北 [2.0][原生]
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -494,7 +492,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: '212,957|Relay_ |97.00Mb #1'
+  name: 212,957|Relay_-🇨🇳CN_739 |207.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -507,7 +505,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: '212,957|Relay_ |95.00Mb #2'
+  name: 212,957|Relay_-🇨🇳CN_726 |96.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -520,7 +518,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: '212,957|Relay_ |98.00Mb #1'
+  name: 212|🇭🇰 IPLC｜香港<-福建 [2.0][原生]
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -533,7 +531,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 212,957|Relay_ |290.00Mb
+  name: 212|🇭🇰 IPLC｜香港<-苏州 [2.0][原生]
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -679,10 +677,14 @@ proxies:
   uuid: f6195be4-37bc-3cc8-917e-50c704e2f974
 - alterId: 0
   cipher: auto
-  name: 235|🇭🇰 香港 | V1 | 直连
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 235,957|Relay_🇺🇸US-🇺🇸US_1641
   network: tcp
   port: 39589
   server: line.acetace.com
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: f6195be4-37bc-3cc8-917e-50c704e2f974
@@ -719,7 +721,7 @@ proxies:
   name: 296|🇭🇰香港区域1-三网优化
   network: tcp
   port: '60181'
-  server: HCmII0.gov.goldliond.top
+  server: QWnsnM.gov.goldliond.top
   tls: false
   type: vmess
   uuid: dff90a14-6c25-4181-9791-0be9131da5a3
@@ -728,7 +730,7 @@ proxies:
   name: 296|🇭🇰香港区域2-三网优化
   network: tcp
   port: '60181'
-  server: kPdWVr.gov.goldliond.top
+  server: e0z3Oa.gov.goldliond.top
   tls: false
   type: vmess
   uuid: dff90a14-6c25-4181-9791-0be9131da5a3
@@ -737,7 +739,7 @@ proxies:
   name: 296|🇭🇰香港区域3-三网优化
   network: tcp
   port: '60181'
-  server: OElAB2.gov.goldliond.top
+  server: mq22v2.gov.goldliond.top
   tls: false
   type: vmess
   uuid: dff90a14-6c25-4181-9791-0be9131da5a3
@@ -746,7 +748,7 @@ proxies:
   name: '309|🇭🇰香港区域1-三网优化 #1'
   network: tcp
   port: '40181'
-  server: Imumja.gov.goldliond.top
+  server: 5A33su.gov.goldliond.top
   tls: false
   type: vmess
   uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f
@@ -755,7 +757,7 @@ proxies:
   name: '309|🇭🇰香港区域2-三网优化 #1'
   network: tcp
   port: '40181'
-  server: IRQRcL.gov.goldliond.top
+  server: 5KagwF.gov.goldliond.top
   tls: false
   type: vmess
   uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f
@@ -764,7 +766,7 @@ proxies:
   name: '309|🇭🇰香港区域3-三网优化 #1'
   network: tcp
   port: '40181'
-  server: KX4aJo.gov.goldliond.top
+  server: 9I0L7e.gov.goldliond.top
   tls: false
   type: vmess
   uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f
@@ -3065,6 +3067,15 @@ proxies:
       Host: cn.bing.com
     path: /
   ws-path: /
+- cipher: aes-256-cfb
+  country: 🇰HK
+  name: 560,789|[02-24]-🇸-欧洲-096-150.107.46.21
+  obfs: tls1.2_ticket_auth
+  password: iFqnzSscN
+  port: 8083
+  protocol: origin
+  server: 150.107.46.21
+  type: ssr
 - alterId: 0
   cipher: auto
   name: '574|🇨🇳中国【YouTube-由零開始】 #7'
@@ -3450,22 +3461,6 @@ proxies:
   uuid: 32daf1ff-4b08-4c22-b997-1c24ff34c43a
   ws-opts:
     path: /
-- alterId: 0
-  cipher: auto
-  country: HK
-  h2-opts: {}
-  http-opts: {}
-  name: '616,957| | 7.58Mb #1'
-  network: ws
-  port: 80
-  server: 182.16.1.194
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
-  ws-opts:
-    path: /opt/video/images
 - alterId: 0
   cipher: auto
   name: 632|🇭🇰_HK_香港_2@54
@@ -4261,7 +4256,7 @@ proxies:
     path: 55021a7c-bd6c-418e-be95-ceac8ba27b45-vm
 - alterId: 0
   cipher: auto
-  name: '692,797|美国 CloudFlare节点 #76'
+  name: '692,797|美国 CloudFlare节点 #75'
   network: ws
   port: '8080'
   server: yh1.freeh1.xyz
@@ -4738,6 +4733,19 @@ proxies:
     headers:
       Host: hkt.gotochinatown.net
     path: /
+- alterId: 0
+  cipher: auto
+  name: '718,905,906,907|公测|香港 02 1x #3'
+  network: ws
+  port: '8080'
+  server: baobaojichang.bbjc.xyz
+  tls: false
+  type: vmess
+  uuid: c3572b9c-db66-4656-91b2-853750a422ef
+  ws-opts:
+    headers:
+      Host: xianggang.mojc.xyz
+    path: /?ed=2048
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 723|🇭🇰 ~ZF~HKˣ⁰˙¹
@@ -5908,7 +5916,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: aes-128-gcm
-  name: 783,957| |31.92Mb
+  name: 783,957|_175 | 9.95Mb
   password: a-wym4ovY4Yw
   port: 81
   server: 47.243.45.101
@@ -6496,19 +6504,6 @@ proxies:
   uuid: a01b5e27-ece5-4675-866f-36b23a65d2a8
 - alterId: 0
   cipher: auto
-  name: '905,906,907|公测|香港 02 1x #2'
-  network: ws
-  port: '8080'
-  server: baobaojichang.bbjc.xyz
-  tls: false
-  type: vmess
-  uuid: c3572b9c-db66-4656-91b2-853750a422ef
-  ws-opts:
-    headers:
-      Host: xianggang.mojc.xyz
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
   name: '905,906,907|公测|香港 03 1x #2'
   network: ws
   port: '8880'
@@ -6629,13 +6624,6 @@ proxies:
     headers:
       Host: hk006.susulian.top
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: 957|Relay_-HK_287
-  password: 2155145a-b1b5-443a-8977-670f6bd10f02
-  port: 50001
-  server: bgroup.node4.s.nodelist-gfwairport2.top
-  type: ss
-  udp: true
 - cipher: aes-256-cfb
   name: 1011|专线 香港 1
   obfs: tls1.2_ticket_auth
@@ -7001,3 +6989,66 @@ proxies:
   tls: false
   type: vmess
   uuid: d3a515b4-6fcb-38c8-93d3-2c17da360f89
+- cipher: aes-128-gcm
+  name: 1063|🇭🇰 香港 01 SS
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 11001
+  server: ss.hkglink.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 1063|🇭🇰 香港 02 SS
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 11002
+  server: ss.hkglink.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 1063|🇭🇰 香港 03 SS
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 11003
+  server: ss.hkglink.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 1063|🇭🇰 香港 04 SS
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 11004
+  server: ss.hkglink.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 1063|🇭🇰 香港 05 SS
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 11005
+  server: ss.hkglink.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 1063|🇭🇰 香港 06 SS
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 11006
+  server: ss.hkglink.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 1063|🇭🇰 香港 07 SS
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 11007
+  server: ss.hkglink.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 1063|🇭🇰 香港 08 SS
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 11008
+  server: ss.hkglink.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 1063|🇭🇰 香港 IPLC 限速10Mbps
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 1024
+  server: 222909df61922934.cdn.jiashule.com
+  type: ss
+  udp: true

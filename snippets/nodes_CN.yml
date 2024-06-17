@@ -507,16 +507,6 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '336,772|🔒 VM-TCP-NA 🇨🇳 CN-112.17.33.5:... #1'
-  network: tcp
-  port: '37996'
-  server: 112.17.33.5
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 33aefd89-3285-4347-9083-6249711f02e9
-- alterId: 0
-  cipher: auto
   name: '336,774,783,784|🇨🇳北京 #1'
   network: tcp
   port: '48821'
@@ -2681,7 +2671,7 @@ proxies:
       Host: tms.dingtalk.com
     path: /
 - cipher: rc4-md5
-  name: 560,567|Relay_-CN_03
+  name: '559,560,567|Relay_-CN_02 #1'
   obfs: plain
   obfs-param: 64334105622.www.gov.hk
   password: di15PV
@@ -2690,6 +2680,20 @@ proxies:
   protocol-param: 105622:5EF7C3661EBC
   server: video23.cdn.globalnetworktraffic.com
   type: ssr
+- alterId: 64
+  cipher: auto
+  country: 🇨CN
+  h2-opts: {}
+  http-opts: {}
+  name: 559,587,599,617,635,731,957|🇨CN_1004 |186.42Mb
+  network: tcp
+  port: 41911
+  server: 107.148.192.149
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: '574|🇨🇳中国【YouTube-由零開始】 #5'
@@ -9026,31 +9030,23 @@ proxies:
   tls: false
   type: vmess
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 783|🇨🇳
+  h2-opts: {}
+  http-opts: {}
+  name: 957|Relay_-🇨CN_772 |10.19Mb
   network: ws
-  port: 16632
-  server: yes.cnmjcn.net
+  port: 38001
+  server: 38.165.72.151
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
-    path: /
-- cipher: rc4-md5
-  name: 957|Relay_-🇨🇳CN_758 |88.00Mb
-  obfs: http_simple
-  obfs-param: ajax.microsoft.com
-  password: caomeijump.com
-  port: 760
-  protocol: auth_aes128_md5
-  protocol-param: 167153:5b4c3ff4-16c7-35f5-97e9-68eb9a053815
-  server: iplc-nf-1.cmydns2.com
-  type: ssr
-  udp: true
+      Host: www.22103619.xyz
+    path: /path/1714306882216
 - alterId: 0
   cipher: auto
   name: 1030|中国-国外回国内-v2ray
