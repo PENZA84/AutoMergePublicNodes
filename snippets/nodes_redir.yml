@@ -2,7 +2,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '0,3,63,336,337,586,587,617,635,683,705,706,715,716,731,738,739,959,973,1040|中国【付费推荐：https://a0a.xyz】2
+  name: '0,3,63,336,337,683,705,706,715,716,731,738,739,959,973,1040|中国【付费推荐：https://a0a.xyz】2
     #2'
   network: ws
   port: '16928'
@@ -12,7 +12,6 @@ proxies:
   tfo: false
   tls: false
   type: vmess
-  udp: true
   uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973
   ws-opts:
     headers:
@@ -20,15 +19,16 @@ proxies:
     path: /v2ray
 - alterId: 0
   cipher: auto
-  name: '0,3,63,336,337,483,484,486,487,488,595,599,610,619,683,705,706,715,716,718,804,812,818|未知_0616057
+  name: '0,3,63,336,337,483,484,486,487,488,586,587,599,610,617,619,635,683,705,706,715,716,718,804,812,818|未知_0616057
     #1'
   network: ws
   port: '80'
   server: zula.ir
   servername: ''
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: false
   type: vmess
+  udp: true
   uuid: da62a137-3611-4dd7-8523-b5266afe6fe5
   ws-opts:
     headers:
@@ -76,7 +76,9 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   fingerprint: ''
-  name: 1,2,329|31987bb708d3433fa0000f17f4ad48...
+  h2-opts: {}
+  http-opts: {}
+  name: 1,2,329,957|Relay_-🇺RU_868 | 0.34Mb
   network: ws
   port: 80
   server: zula.ir
@@ -86,10 +88,12 @@ proxies:
   udp: false
   uuid: da62a137-3611-4dd7-8523-b5266afe6fe5
   ws-opts:
+    headers:
+      host: Uk2.vmess.site.
     path: /
 - alterId: 2
   cipher: aes-128-gcm
-  name: '397,595|中转节点-1.47MB/s #1'
+  name: 397|中转节点-1.47MB/s
   network: tcp
   port: 1002
   server: 183.236.48.169
@@ -398,11 +402,10 @@ proxies:
     path: /tg@hkaa0
 - alterId: 0
   cipher: auto
-  name: '586,587,595,635,668|🇺🇸_US_美国->🇩🇪_DE_德国 #1'
+  name: '586,587,635,668|🇺🇸_US_美国->🇩🇪_DE_德国 #1'
   network: ws
   port: 80
   server: flkf2.shabijichang.com
-  servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -2588,6 +2591,23 @@ proxies:
     headers:
       host: ca-cfcdn.aikunapp.com
     path: /index?ed=2048
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 741,795,797,957|Relay_-🇫🇷FR_809
+  network: ws
+  port: 2082
+  server: s1c.v2.v001sss.xyz
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  ws-opts:
+    headers:
+      host: s1c.v2.v001sss.xyz
+    path: /
 - alterId: 0
   cipher: auto
   name: 781|:美国-vmess-arm.ptuu.gq:443-可用-中...
