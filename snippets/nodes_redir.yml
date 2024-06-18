@@ -28,13 +28,14 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,63,339,340,492,493,495,496,497,609,693,715,716,725,726,728|🇺🇸 美国 CloudFlare节点
-    #92'
+  h2-opts: {}
+  http-opts: {}
+  name: '0,3,63,339,340,492,493,495,496,497,609,693,715,716,725,726,728,972|未命名 #849'
   network: ws
-  port: '80'
+  port: 80
   server: zula.ir
   servername: ''
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: da62a137-3611-4dd7-8523-b5266afe6fe5
@@ -78,12 +79,14 @@ proxies:
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
 - alterId: 0
   cipher: auto
-  name: '0,3,339,340,492,493,495,496,609,629,693,715,716,725,726,828|未知_0618070 #1'
+  h2-opts: {}
+  http-opts: {}
+  name: '0,3,339,340,492,493,495,496,609,629,693,715,716,725,726,828,972|未命名 #842'
   network: ws
-  port: '80'
+  port: 80
   server: 104.21.69.44
   servername: ''
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: da62a137-3611-4dd7-8523-b5266afe6fe5
@@ -93,25 +96,23 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  country: 🇨CO
-  h2-opts: {}
-  http-opts: {}
-  name: 1,2,569|Relay_CO-🇺RU_11 |24.43Mb
+  name: '1,2|_US_->_GB__1 #1'
   network: ws
   port: 80
   server: zula.ir
-  servername: Uk2.vmess.site.
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: da62a137-3611-4dd7-8523-b5266afe6fe5
   ws-opts:
     headers:
-      HOST: Uk2.vmess.site.
+      host: Uk2.vmess.site.
     path: /
 - alterId: 0
   cipher: auto
-  name: '1,2,340,676,715,716|🇨🇳CN-120.232.240.56-0089 #2'
+  client-fingerprint: chrome
+  fingerprint: ''
+  name: '1,2,332,340,676,715,716|🇨🇳CN-120.232.240.56-0089 #2'
   network: ws
   port: 16928
   server: 120.232.240.56
@@ -119,6 +120,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: vmess
+  udp: false
   uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973
   ws-opts:
     headers:
@@ -126,7 +128,9 @@ proxies:
     path: /v2ray
 - alterId: 0
   cipher: auto
-  name: '1,2,340,676,715,716|🏁RELAY-172.64.97.235-0094 #1'
+  h2-opts: {}
+  http-opts: {}
+  name: '1,2,340,676,715,716,972|未命名 #828'
   network: ws
   port: 8080
   server: 172.64.97.235
@@ -137,7 +141,7 @@ proxies:
   uuid: ef8c954e-014f-4b36-8273-9b5086afab34
   ws-opts:
     headers:
-      Host: ''
+      host: luther-soon-uploaded-anxiety.trycloudflare.com
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
 - grpc-opts:
     grpc-service-name: 443trojan
@@ -153,17 +157,17 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: '1,2,340,569,715,716|🏁RELAY-104.21.69.44-0108 #2'
+  client-fingerprint: chrome
+  fingerprint: ''
+  name: '1,2,332,340,715,716|🏁RELAY-104.21.69.44-0108 #2'
   network: ws
   port: 80
   server: 104.21.69.44
   servername: ''
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: false
   type: vmess
+  udp: false
   uuid: da62a137-3611-4dd7-8523-b5266afe6fe5
   ws-opts:
     headers:
@@ -2701,7 +2705,7 @@ proxies:
     path: /index?ed=2048
 - alterId: 0
   cipher: auto
-  name: '751,805,807|美国 CloudFlare节点 #86'
+  name: '751,805,807|美国 CloudFlare节点 #85'
   network: ws
   port: '2082'
   server: s1c.v2.v001sss.xyz
