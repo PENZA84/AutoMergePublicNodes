@@ -29,7 +29,7 @@ proxies:
 - alterId: 0
   cipher: auto
   name: '0,3,63,339,340,492,493,495,496,497,596,597,609,627,645,693,715,716,725,726,728|🇺🇸
-    美国 CloudFlare节点 #90'
+    美国 CloudFlare节点 #98'
   network: ws
   port: '80'
   server: zula.ir
@@ -64,14 +64,15 @@ proxies:
     path: /v2ray
 - alterId: 0
   cipher: auto
-  name: 0,3,339,340,492,493,495,496,609,629,693,715,716,725,726,828,830|美国_0618061
+  name: 0,3,339,340,492,493,495,496,596,597,609,627,629,645,693,715,716,725,726,828,830|美国_0618061
   network: ws
   port: '8080'
   server: 172.64.97.235
   servername: ''
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: false
   type: vmess
+  udp: true
   uuid: ef8c954e-014f-4b36-8273-9b5086afab34
   ws-opts:
     headers:
@@ -79,15 +80,16 @@ proxies:
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
 - alterId: 0
   cipher: auto
-  name: '0,3,339,340,492,493,495,496,609,620,629,693,715,716,725,726,814,822,828|未知_0618070
+  name: '0,3,339,340,492,493,495,496,596,597,609,620,627,629,645,693,715,716,725,726,774,782,828|未知_0618070
     #1'
   network: ws
   port: '80'
   server: 104.21.69.44
   servername: ''
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: false
   type: vmess
+  udp: true
   uuid: da62a137-3611-4dd7-8523-b5266afe6fe5
   ws-opts:
     headers:
@@ -95,17 +97,21 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '1,2|_US_->_GB__1 #1'
+  country: 🇨CO
+  h2-opts: {}
+  http-opts: {}
+  name: 1,2,569|Relay_🇨CO-RU_09 | 5.62Mb
   network: ws
   port: 80
   server: zula.ir
+  servername: Uk2.vmess.site.
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: da62a137-3611-4dd7-8523-b5266afe6fe5
   ws-opts:
     headers:
-      host: Uk2.vmess.site.
+      HOST: Uk2.vmess.site.
     path: /
 - alterId: 0
   cipher: auto
@@ -151,12 +157,15 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '1,2,340,715,716|🏁RELAY-104.21.69.44-0108 #2'
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: '1,2,340,569,715,716|🏁RELAY-104.21.69.44-0108 #2'
   network: ws
   port: 80
   server: 104.21.69.44
   servername: ''
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: da62a137-3611-4dd7-8523-b5266afe6fe5
@@ -2696,7 +2705,7 @@ proxies:
     path: /index?ed=2048
 - alterId: 0
   cipher: auto
-  name: '751,805,807|美国 CloudFlare节点 #83'
+  name: '751,805,807|美国 CloudFlare节点 #87'
   network: ws
   port: '2082'
   server: s1c.v2.v001sss.xyz
