@@ -2,7 +2,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '0,3,64,343,344,497,498,500,501,502,631,634,646,654,655,698,720,721,730,731,833,835|未知_0620045
+  name: '0,3,64,343,344,497,498,500,501,502,610,631,634,646,654,655,698,720,721,730,731,833,835|未知_0620045
     #2'
   network: ws
   port: '2082'
@@ -20,7 +20,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,3,343,344,497,498,500,501,614,634,646,698,720,721,730,731,733,779,833|芬兰_0620003
+  name: 0,3,343,344,497,498,500,501,614,634,646,698,720,721,730,731,733,779,787,833|芬兰_0620003
   network: ws
   port: '2053'
   server: 65.109.226.6
@@ -49,7 +49,7 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   fingerprint: ''
-  name: '1,2,336,681,756,810,812|美国 CloudFlare节点 #89'
+  name: '1,2,336,681,756,810,812|美国 CloudFlare节点 #90'
   network: ws
   port: '2082'
   server: s1c.v2.v001sss.xyz
@@ -65,15 +65,21 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 1,2,344|🇫🇮FI-65.109.226.6-0080
+  country: 🇪DE
+  h2-opts: {}
+  http-opts: {}
+  name: 1,2,344,574|DE_10 |19.48Mb
   network: ws
   port: 2053
   server: 65.109.226.6
-  skip-cert-verify: false
+  servername: divar.ir
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: d862cdd6-3dd6-4adc-83ca-99bf0ce86bee
   ws-opts:
+    headers:
+      HOST: divar.ir
     path: /@V2RayyNGvpn
 - name: 1,2,681|_CN_国->🇺🇸_US_美国_1
   network: tcp
@@ -85,7 +91,7 @@ proxies:
   udp: true
 - alterId: 2
   cipher: aes-128-gcm
-  name: 404|中转节点-1.47MB/s
+  name: '404,610|中转节点-1.47MB/s #1'
   network: tcp
   port: 1002
   server: 183.236.48.169
@@ -267,7 +273,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '542,707,812,1004|🇺🇸_US_美国 #88'
+  name: '542,707,812,1004|🇺🇸_US_美国 #86'
   network: ws
   port: 8080
   server: 162.159.1.33
@@ -280,7 +286,7 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: '542,707,812,1004|🇺🇸_US_美国->🇨🇦_CA_加拿大 #13'
+  name: '542,707,812,1004|🇺🇸_US_美国->🇨🇦_CA_加拿大 #14'
   network: ws
   port: 8080
   server: 162.159.137.249
@@ -309,7 +315,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '542,551,707,811,812,1004|🇺🇸_US_美国 #87'
+  name: '542,551,707,811,812,1004|🇺🇸_US_美国 #85'
   network: ws
   port: 8080
   server: yh3.freeh1.xyz
@@ -322,7 +328,7 @@ proxies:
     path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
 - alterId: 0
   cipher: auto
-  name: '542,551,810,811,812|🇺🇸_US_美国 #81'
+  name: '542,551,810,811,812|🇺🇸_US_美国 #79'
   network: ws
   port: 8080
   server: 162.159.5.6
@@ -394,10 +400,11 @@ proxies:
     path: /tg@hkaa0
 - alterId: 0
   cipher: auto
-  name: '601,602,650,683|🇺🇸_US_美国->🇩🇪_DE_德国 #1'
+  name: '601,602,610,650,683|🇺🇸_US_美国->🇩🇪_DE_德国 #1'
   network: ws
   port: 80
   server: flkf2.shabijichang.com
+  servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -2571,7 +2578,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '756|🇺🇸_US_美国->🇨🇦_CA_加拿大 #5'
+  name: '756|🇺🇸_US_美国->🇨🇦_CA_加拿大 #6'
   network: ws
   port: 2052
   server: cdncdncdncdn.784654.xyz
