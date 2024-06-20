@@ -1,6 +1,15 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 16|香港|徐州移动|Neko|1.5x
+  network: tcp
+  port: '13335'
+  server: jscm.r1u.cn
+  tls: false
+  type: vmess
+  uuid: f010dd01-c54a-3c03-95ce-0838214259c6
+- alterId: 0
+  cipher: auto
   name: '19,20,21,23|🇭🇰 香港1 #3'
   network: ws
   port: '80'
@@ -158,7 +167,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '137,138,344,345,647,734,800|US375 #2'
+  name: 137,138,344,345,647,734,800,820|رایگان | VMESS | @mftizi | HK🇭...
   network: ws
   port: '2052'
   server: hk.wish.ml
@@ -374,7 +383,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 215|🇭🇰 IPLC｜香港<-珠海 [2.0][原生]
+  name: 215,986|Relay_-🇨🇳CN_836 |319.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -387,7 +396,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 215|🇭🇰 IPLC｜香港<-福建 [2.0][原生]
+  name: 215,986| |283.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -400,7 +409,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 215|🇭🇰 IPLC｜香港<-苏州 [2.0][原生]
+  name: 215,986|Relay_-🇨🇳CN_826 |104.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -546,11 +555,15 @@ proxies:
   uuid: f6195be4-37bc-3cc8-917e-50c704e2f974
 - alterId: 0
   cipher: auto
-  name: '240,615,647|Japan #2'
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: '240,615,647,986|未命名 #387'
   network: tcp
-  port: '39589'
+  port: 39589
   server: line.acetace.com
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: f6195be4-37bc-3cc8-917e-50c704e2f974
@@ -601,7 +614,7 @@ proxies:
   name: 304|🇭🇰香港区域1-三网优化
   network: tcp
   port: '60181'
-  server: PERDch.gov.goldliond.top
+  server: 1CjbLT.gov.goldliond.top
   tls: false
   type: vmess
   uuid: dff90a14-6c25-4181-9791-0be9131da5a3
@@ -610,7 +623,7 @@ proxies:
   name: 304|🇭🇰香港区域2-三网优化
   network: tcp
   port: '60181'
-  server: hGEBkU.gov.goldliond.top
+  server: XfDRIu.gov.goldliond.top
   tls: false
   type: vmess
   uuid: dff90a14-6c25-4181-9791-0be9131da5a3
@@ -619,7 +632,7 @@ proxies:
   name: 304|🇭🇰香港区域3-三网优化
   network: tcp
   port: '60181'
-  server: Zx6rly.gov.goldliond.top
+  server: na4tXl.gov.goldliond.top
   tls: false
   type: vmess
   uuid: dff90a14-6c25-4181-9791-0be9131da5a3
@@ -628,7 +641,7 @@ proxies:
   name: '317|🇭🇰香港区域1-三网优化 #1'
   network: tcp
   port: '40181'
-  server: eZhBch.gov.goldliond.top
+  server: oaOz43.gov.goldliond.top
   tls: false
   type: vmess
   uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f
@@ -637,7 +650,7 @@ proxies:
   name: '317|🇭🇰香港区域2-三网优化 #1'
   network: tcp
   port: '40181'
-  server: uSbINX.gov.goldliond.top
+  server: UV6kHh.gov.goldliond.top
   tls: false
   type: vmess
   uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f
@@ -646,7 +659,7 @@ proxies:
   name: '317|🇭🇰香港区域3-三网优化 #1'
   network: tcp
   port: '40181'
-  server: O5TdxE.gov.goldliond.top
+  server: d98Hab.gov.goldliond.top
   tls: false
   type: vmess
   uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f
@@ -1455,20 +1468,6 @@ proxies:
     path: /
 - alterId: 1
   cipher: auto
-  name: '344,647,705,731,732|🇭🇰 香港(油管:破解资源君2.0) #7'
-  network: ws
-  port: '38101'
-  server: ingress-i2.onebox6.org
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
-  ws-opts:
-    headers:
-      Host: www.ivpnpro.net
-    path: /hls/cctv5phd.m3u8
-- alterId: 1
-  cipher: auto
   name: '344,647,731,732|🇭🇰 香港(油管:破解资源君2.0) #6'
   network: ws
   port: '38101'
@@ -1480,6 +1479,20 @@ proxies:
   ws-opts:
     headers:
       Host: ingress-i2.onebox6.org
+    path: /hls/cctv5phd.m3u8
+- alterId: 1
+  cipher: auto
+  name: '344,647,705,731,732|🇭🇰 香港(油管:破解资源君2.0) #7'
+  network: ws
+  port: '38101'
+  server: ingress-i2.onebox6.org
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
+  ws-opts:
+    headers:
+      Host: www.ivpnpro.net
     path: /hls/cctv5phd.m3u8
 - alterId: 0
   cipher: auto
@@ -2944,6 +2957,15 @@ proxies:
       Host: cn.bing.com
     path: /
   ws-path: /
+- cipher: aes-256-cfb
+  country: 🇰HK
+  name: 576,805|[02-24]-🇸-欧洲-096-150.107.46.21
+  obfs: tls1.2_ticket_auth
+  password: iFqnzSscN
+  port: 8083
+  protocol: origin
+  server: 150.107.46.21
+  type: ssr
 - alterId: 0
   cipher: auto
   name: '590|🇨🇳中国【YouTube-由零開始】 #7'
@@ -3317,9 +3339,12 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 632,647|(S2) - E•A 84
+  country: 🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: 632,647,986|HK_1295
   network: ws
-  port: '80'
+  port: 80
   server: 182.16.1.194
   servername: ''
   skip-cert-verify: true
@@ -3328,8 +3353,6 @@ proxies:
   udp: true
   uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
   ws-opts:
-    headers:
-      Host: ''
     path: /opt/video/images
 - alterId: 0
   cipher: auto
@@ -4139,7 +4162,7 @@ proxies:
     path: 55021a7c-bd6c-418e-be95-ceac8ba27b45-vm
 - alterId: 0
   cipher: auto
-  name: '708,813|美国 CloudFlare节点 #84'
+  name: '708,813|美国 CloudFlare节点 #87'
   network: ws
   port: '8080'
   server: yh1.freeh1.xyz
@@ -5672,7 +5695,8 @@ proxies:
   type: ss
 - alterId: 0
   cipher: chacha20-ietf-poly1305
-  name: 799|HK34 1.1MB/s
+  country: 🇷🇺RU
+  name: 799,986|🇷🇺RU_1368
   password: 3pURuTUf-lFgg5qWg8euFA
   port: 1080
   server: 141.98.234.8
@@ -6770,6 +6794,24 @@ proxies:
   ws-opts:
     headers:
       Host: hk006.susulian.top
+    path: /
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 986|Relay_-🇰HK_982
+  network: ws
+  port: 443
+  server: hk1.connectnaif.xyz
+  servername: aa.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 84f26e45-bbad-4fe0-86cf-1683ef79730d
+  ws-opts:
+    headers:
+      Host: hk1.connectnaif.xyz
     path: /
 - cipher: aes-256-cfb
   name: 1041|专线 香港 1
