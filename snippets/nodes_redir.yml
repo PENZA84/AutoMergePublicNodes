@@ -1,14 +1,12 @@
 proxies:
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 0,3,64,354,355,508,509,511,512,513,621,642,645,657,665,709,731,732,741,742,844,846|未知_0621010
+  name: 0,3,64,354,355,508,509,511,512,513,642,645,657,709,731,732,741,742,844,846|未知_0621010
   network: ws
   port: '2082'
   server: s1c.v2.v001sss.xyz
   servername: ''
-  skip-cert-verify: false
-  tfo: false
+  skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
@@ -35,7 +33,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '0,3,354,355,508,509,511,512,562,612,613,621,643,645,657,661,666,709,731,732,741,742,790,799,800,821,823,844,846,1016|🇺🇸_US_美国->🇫🇷_FR_法国
+  name: '0,3,354,355,508,509,511,512,562,645,657,665,666,709,731,732,741,742,790,799,800,821,823,844,846,1016|🇺🇸_US_美国->🇫🇷_FR_法国
     #14'
   network: ws
   port: 2082
@@ -53,7 +51,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,3,128,354,508,509,511,512,612,613,645,661,669,709,741,742,744,844,846|美国_0621054
+  name: 0,3,128,354,508,509,511,512,612,613,645,661,669,709,731,732,741,742,744,844,846|美国_0621054
   network: ws
   port: '80'
   server: 104.25.77.191
@@ -70,7 +68,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '0,3,64,354,355,508,509,511,512,513,612,613,621,643,657,661,666,709,731,732,741,742,757,764,765,841,1000,1014,1082|中国【付费推荐：https://a0a.xyz】16
+  name: '0,3,64,354,355,508,509,511,512,513,657,665,666,709,731,732,741,742,757,764,765,841,1000,1014,1082|中国【付费推荐：https://a0a.xyz】16
     #2'
   network: ws
   port: '16928'
@@ -89,7 +87,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '0,3,128,354,355,508,509,511,512,562,612,613,621,643,645,657,661,666,669,709,731,732,741,742,799,800,823,844,846,1000,1014,1016,1082|美国【付费推荐：https://a0a.xyz】35
+  name: '0,3,128,354,355,508,509,511,512,562,612,613,645,657,661,665,666,669,709,731,732,741,742,799,800,823,844,846,1000,1014,1016,1082|美国【付费推荐：https://a0a.xyz】35
     #2'
   network: ws
   port: '2082'
@@ -107,7 +105,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,3,128,354,355,508,509,511,512,612,613,645,661,669,709,741,742,744,844,846|未知_0621046
+  name: 0,3,128,354,355,508,509,511,512,612,613,643,645,661,669,709,731,732,741,742,744,844,846|未知_0621046
   network: ws
   port: '80'
   server: 104.23.97.11
@@ -149,7 +147,7 @@ proxies:
     path: /id
 - alterId: 0
   cipher: auto
-  name: '1,2,692,767,821,823|美国 CloudFlare节点 #85'
+  name: '1,2,692,767,821,823|美国 CloudFlare节点 #89'
   network: ws
   port: '2082'
   server: s1c.v2.v001sss.xyz
@@ -164,7 +162,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '1,2,355,692,731,732|🏁RELAY-172.64.97.235-1108 #1'
+  name: '1,2,355,692,731,732|🏁RELAY-172.64.97.235-1163 #1'
   network: ws
   port: 8080
   server: 172.64.97.235
@@ -206,17 +204,18 @@ proxies:
     path: /id
 - alterId: 0
   cipher: auto
-  name: 1,2,355,692|🇺🇸_US_美国->_DE_国_1
+  name: '1,2,355,692,731,732|🏁RELAY-104.25.77.191-1188 #1'
   network: ws
   port: 80
   server: 104.25.77.191
+  servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 0880c19f-f253-4298-8573-42fb83bf3006
   ws-opts:
     headers:
-      host: dl3.hа1..wick3d.suonycars.buzz.
+      Host: ''
     path: /other
 - alterId: 0
   cipher: none
@@ -233,7 +232,10 @@ proxies:
     path: /v2ray
 - alterId: 0
   cipher: auto
-  name: 1,2,355,642,692,731,732,767|🇺🇸_US_美国->🇫🇷_FR_法国_2
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 1,2,355,585,642,692,731,732,767|🇺🇸_US_美国->🇫🇷_FR_法国_2
   network: ws
   port: 2082
   server: 104.21.8.157
@@ -249,17 +251,18 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 1,2,355,692|🇺🇸_US_美国->🇩🇪_DE_德国_2
+  name: '1,2,355,692,731,732|🏁RELAY-104.23.97.11-1189 #1'
   network: ws
   port: 80
   server: 104.23.97.11
+  servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 0880c19f-f253-4298-8573-42fb83bf3006
   ws-opts:
     headers:
-      host: dl3.hезнакомцыглава1.劊子手.wick3d邪惡的小字母.suonycars.buzz.
+      Host: ''
     path: /other
 - name: 1,2,692|🇳_CN_中国->🇺🇸_US_美国_2
   network: tcp
@@ -271,7 +274,7 @@ proxies:
   udp: true
 - alterId: 2
   cipher: aes-128-gcm
-  name: '415,621|中转节点-1.47MB/s #1'
+  name: 415|中转节点-1.47MB/s
   network: tcp
   port: 1002
   server: 183.236.48.169
@@ -580,11 +583,10 @@ proxies:
     path: /tg@hkaa0
 - alterId: 0
   cipher: auto
-  name: '612,613,621,661,694|🇺🇸_US_美国->🇩🇪_DE_德国 #5'
+  name: '612,613,661,694|🇺🇸_US_美国->🇩🇪_DE_德国 #5'
   network: ws
   port: 80
   server: flkf2.shabijichang.com
-  servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
