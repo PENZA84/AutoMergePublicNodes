@@ -2,7 +2,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '0,3,64,344,345,498,499,501,502,503,611,632,635,647,655,656,699,721,722,731,732,734,834,836|未知_0620045
+  name: '0,3,64,344,345,498,499,501,502,503,632,635,647,655,656,699,721,722,731,732,734,834,836|未知_0620045
     #2'
   network: ws
   port: '2082'
@@ -20,15 +20,14 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,344,345,602,603,615,633,635,647,651,721,722,734,834,836|美国_0620057 #1'
+  name: '0,3,344,345,615,635,647,699,721,722,734,834,836|美国_0620057 #1'
   network: ws
   port: '8080'
   server: 172.64.97.235
   servername: ''
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: false
   type: vmess
-  udp: true
   uuid: ef8c954e-014f-4b36-8273-9b5086afab34
   ws-opts:
     headers:
@@ -37,8 +36,8 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '0,3,344,345,552,602,603,611,615,633,635,647,651,721,722,731,732,780,789,790,811,813,834,836,1005|🇺🇸_US_美国->🇫🇷_FR_法国
-    #12'
+  name: '0,3,344,345,552,615,635,647,699,721,722,731,732,780,789,790,811,813,834,836,1005|🇺🇸_US_美国->🇫🇷_FR_法国
+    #14'
   network: ws
   port: 2082
   server: 172.67.130.140
@@ -47,7 +46,6 @@ proxies:
   tfo: false
   tls: false
   type: vmess
-  udp: true
   uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
   ws-opts:
     headers:
@@ -55,7 +53,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,127,602,603,615,635,651,659,734,834|美国_0620078 #1'
+  name: '0,3,127,602,603,615,635,651,659,699,734,834|美国_0620078 #1'
   network: ws
   port: '80'
   server: 104.25.77.191
@@ -72,7 +70,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '0,3,64,345,503,611,647,721,722,747,754,755,831,989,1003,1071|中国【付费推荐：https://a0a.xyz】16
+  name: '0,3,64,345,503,647,699,721,722,747,754,755,831,989,1003,1071|中国【付费推荐：https://a0a.xyz】16
     #2'
   network: ws
   port: '16928'
@@ -91,7 +89,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '0,3,127,344,345,498,499,501,502,552,602,603,611,635,647,651,659,699,721,722,731,732,789,790,813,834,836,989,1003,1005,1071|美国【付费推荐：https://a0a.xyz】35
+  name: '0,3,127,344,345,498,499,501,502,552,602,603,635,647,651,659,699,721,722,731,732,789,790,813,834,836,989,1003,1005,1071|美国【付费推荐：https://a0a.xyz】35
     #2'
   network: ws
   port: '2082'
@@ -109,7 +107,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,127,602,603,615,635,651,659,734,834|未知_0620090 #1'
+  name: '0,3,127,602,603,615,635,651,659,699,734,834|未知_0620090 #1'
   network: ws
   port: '80'
   server: 104.23.97.11
@@ -123,10 +121,12 @@ proxies:
     headers:
       Host: dl3.hезнакомцыглава1.劊子手.wick3d邪惡的小字母.suonycars.buzz.
     path: /other
-- client-fingerprint: chrome
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: 443trojan
-  name: 1,2,345,655,682|🇺🇸_US_美国->🇺_RU_
+  name: 1,2,345,655,682,799|🇺🇸US美国13
   network: grpc
   password: qj1Dz1CJmFQRhWr1SP80aA
   port: 443
@@ -149,10 +149,10 @@ proxies:
     path: /id
 - alterId: 0
   cipher: auto
-  country: 🏁ZZ
+  country: 🇺🇸US
   h2-opts: {}
   http-opts: {}
-  name: '1,2,575,615,682,757,811,813|美国 CloudFlare节点 #79'
+  name: '1,2,575,615,682,757,811,813|美国 CloudFlare节点 #87'
   network: ws
   port: '2082'
   server: s1c.v2.v001sss.xyz
@@ -215,14 +215,10 @@ proxies:
     path: /id
 - alterId: 0
   cipher: auto
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: 1,2,345,575,682|🇺🇸_US_美国->_DE_国_1
+  name: 1,2,345,682|🇺🇸_US_美国->_DE_国_1
   network: ws
   port: 80
   server: 104.25.77.191
-  servername: dl3.h1..wick3d的.suonycars.buzz.
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -246,10 +242,7 @@ proxies:
     path: /v2ray
 - alterId: 0
   cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 1,2,345,575,632,682,721,722,757|🇺🇸_US_美国->🇫🇷_FR_法国_2
+  name: 1,2,345,632,682,721,722,757|🇺🇸_US_美国->🇫🇷_FR_法国_2
   network: ws
   port: 2082
   server: 104.21.8.157
@@ -277,20 +270,17 @@ proxies:
     headers:
       host: dl3.hезнакомцыглава1.劊子手.wick3d邪惡的小字母.suonycars.buzz.
     path: /other
-- alterId: 0
-  cipher: auto
-  name: 1,2,682,799|3
+- name: 1,2,682|🇳_CN_中国->🇺🇸_US_美国_2
   network: tcp
   password: gkviEOYc
   port: 50611
   server: 183.232.139.22
   skip-cert-verify: true
-  tls: true
   type: trojan
   udp: true
 - alterId: 2
   cipher: aes-128-gcm
-  name: '405,611|中转节点-1.47MB/s #1'
+  name: 405|中转节点-1.47MB/s
   network: tcp
   port: 1002
   server: 183.236.48.169
@@ -472,7 +462,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '543,708,813,1005|🇺🇸_US_美国 #82'
+  name: '543,708,813,1005|🇺🇸_US_美国 #81'
   network: ws
   port: 8080
   server: 162.159.1.33
@@ -485,7 +475,7 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: '543,708,813,1005|🇺🇸_US_美国->🇨🇦_CA_加拿大 #15'
+  name: '543,708,813,1005|🇺🇸_US_美国->🇨🇦_CA_加拿大 #16'
   network: ws
   port: 8080
   server: 162.159.137.249
@@ -514,7 +504,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '543,552,708,812,813,1005|🇺🇸_US_美国 #81'
+  name: '543,552,708,812,813,1005|🇺🇸_US_美国 #80'
   network: ws
   port: 8080
   server: yh3.freeh1.xyz
@@ -527,7 +517,7 @@ proxies:
     path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
 - alterId: 0
   cipher: auto
-  name: '543,552,811,812,813|🇺🇸_US_美国 #75'
+  name: '543,552,811,812,813|🇺🇸_US_美国 #74'
   network: ws
   port: 8080
   server: 162.159.5.6
@@ -599,11 +589,10 @@ proxies:
     path: /tg@hkaa0
 - alterId: 0
   cipher: auto
-  name: '602,603,611,651,684|🇺🇸_US_美国->🇩🇪_DE_德国 #5'
+  name: '602,603,651,684|🇺🇸_US_美国->🇩🇪_DE_德国 #5'
   network: ws
   port: 80
   server: flkf2.shabijichang.com
-  servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -2777,7 +2766,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '757|🇺🇸_US_美国->🇨🇦_CA_加拿大 #7'
+  name: '757|🇺🇸_US_美国->🇨🇦_CA_加拿大 #8'
   network: ws
   port: 2052
   server: cdncdncdncdn.784654.xyz
