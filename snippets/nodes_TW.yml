@@ -1,6 +1,38 @@
 proxies:
 - alterId: 0
   cipher: auto
+  delay: 2192
+  h2-opts: {}
+  http-opts: {}
+  name: '69,128,355,612,613,645,661,669,731,732,844|未知_0620167 #1'
+  network: ws
+  port: '2052'
+  server: 1yvip1.xyyjc.top
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 33f0a763-428a-4779-b21f-51307a7d4527
+  ws-opts:
+    headers:
+      Host: jdtw.xyyjc.top
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 69|优化2|台湾|vmess
+  network: ws
+  port: '2052'
+  server: 1yvip2.xyyjc.top
+  tls: false
+  type: vmess
+  uuid: 33f0a763-428a-4779-b21f-51307a7d4527
+  ws-opts:
+    headers:
+      Host: jdtw.xyyjc.top
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
   name: 89|台湾01
   network: tcp
   port: '60201'
@@ -45,97 +77,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 8907aeec-189d-48d9-b557-fb242a4d8127
-- cipher: rc4-md5
-  name: 225|🇼🇸 IPLC｜台湾<-河北 [2.0][原生]
-  obfs: http_simple
-  obfs-param: ajax.microsoft.com
-  obfsparam: ajax.microsoft.com
-  password: caomeijump.com
-  port: 767
-  protocol: auth_aes128_md5
-  protocol-param: 167153:5b4c3ff4-16c7-35f5-97e9-68eb9a053815
-  protocolparam: 167153:5b4c3ff4-16c7-35f5-97e9-68eb9a053815
-  server: iplc-ji.cmydns2.com
-  type: ssr
-  udp: true
-- cipher: rc4-md5
-  name: 225|🇼🇸 IPLC｜台湾<-湖南 [2.0][原生]
-  obfs: http_simple
-  obfs-param: ajax.microsoft.com
-  obfsparam: ajax.microsoft.com
-  password: caomeijump.com
-  port: 767
-  protocol: auth_aes128_md5
-  protocol-param: 167153:5b4c3ff4-16c7-35f5-97e9-68eb9a053815
-  protocolparam: 167153:5b4c3ff4-16c7-35f5-97e9-68eb9a053815
-  server: iplc-xiang.cmydns2.com
-  type: ssr
-  udp: true
-- cipher: rc4-md5
-  name: 225|🇼🇸 IPLC｜台湾<-珠海 [2.0][原生]
-  obfs: http_simple
-  obfs-param: ajax.microsoft.com
-  obfsparam: ajax.microsoft.com
-  password: caomeijump.com
-  port: 767
-  protocol: auth_aes128_md5
-  protocol-param: 167153:5b4c3ff4-16c7-35f5-97e9-68eb9a053815
-  protocolparam: 167153:5b4c3ff4-16c7-35f5-97e9-68eb9a053815
-  server: iplc-zhu.cmydns2.com
-  type: ssr
-  udp: true
-- cipher: rc4-md5
-  name: 225|🇼🇸 IPLC｜台湾<-福建 [2.0][原生]
-  obfs: http_simple
-  obfs-param: ajax.microsoft.com
-  obfsparam: ajax.microsoft.com
-  password: caomeijump.com
-  port: 767
-  protocol: auth_aes128_md5
-  protocol-param: 167153:5b4c3ff4-16c7-35f5-97e9-68eb9a053815
-  protocolparam: 167153:5b4c3ff4-16c7-35f5-97e9-68eb9a053815
-  server: iplc-min.cmydns2.com
-  type: ssr
-  udp: true
-- cipher: rc4-md5
-  name: 225|🇼🇸 IPLC｜台湾<-苏州 [2.0][原生]
-  obfs: http_simple
-  obfs-param: ajax.microsoft.com
-  obfsparam: ajax.microsoft.com
-  password: caomeijump.com
-  port: 767
-  protocol: auth_aes128_md5
-  protocol-param: 167153:5b4c3ff4-16c7-35f5-97e9-68eb9a053815
-  protocolparam: 167153:5b4c3ff4-16c7-35f5-97e9-68eb9a053815
-  server: iplc-su.cmydns2.com
-  type: ssr
-  udp: true
-- cipher: rc4-md5
-  name: 225|🇼🇸 IPLC｜台湾媒体专线-1 [2.0][NF][Dis...
-  obfs: http_simple
-  obfs-param: ajax.microsoft.com
-  obfsparam: ajax.microsoft.com
-  password: caomeijump.com
-  port: 765
-  protocol: auth_aes128_md5
-  protocol-param: 167153:5b4c3ff4-16c7-35f5-97e9-68eb9a053815
-  protocolparam: 167153:5b4c3ff4-16c7-35f5-97e9-68eb9a053815
-  server: iplc-nf-1.cmydns2.com
-  type: ssr
-  udp: true
-- alpn:
-  - h2
-  grpc-opts:
-    grpc-service-name: mm_grpc
-  name: 225|🇼🇸 直连｜台湾-07 [1.0][原生][gRPC]
-  network: grpc
-  password: 5b4c3ff4-16c7-35f5-97e9-68eb9a053815cmynw
-  port: 667
-  server: kaizen-tw-7.cmydns2.com
-  sni: chimuni.com
-  tls: true
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: 309|白羊座总线路:84个/TWA
@@ -155,7 +96,7 @@ proxies:
   name: 314|🇹🇼台湾区域2-三网优化-解锁Netflix
   network: tcp
   port: '60180'
-  server: C1MFHJ.gov.goldliond.top
+  server: S2A9ae.gov.goldliond.top
   tls: false
   type: vmess
   uuid: dff90a14-6c25-4181-9791-0be9131da5a3
@@ -164,7 +105,7 @@ proxies:
   name: 314|🇹🇼台湾区域3-三网优化-解锁Netflix
   network: tcp
   port: '60180'
-  server: Vlmmeh.gov.goldliond.top
+  server: V36EjN.gov.goldliond.top
   tls: false
   type: vmess
   uuid: dff90a14-6c25-4181-9791-0be9131da5a3
@@ -173,7 +114,7 @@ proxies:
   name: '327|🇹🇼台湾区域2-三网优化-解锁Netflix #1'
   network: tcp
   port: '40180'
-  server: 31l9qZ.gov.goldliond.top
+  server: IvrUaR.gov.goldliond.top
   tls: false
   type: vmess
   uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f
@@ -182,7 +123,7 @@ proxies:
   name: '327|🇹🇼台湾区域3-三网优化-解锁Netflix #1'
   network: tcp
   port: '40180'
-  server: TcjbfX.gov.goldliond.top
+  server: YaC84e.gov.goldliond.top
   tls: false
   type: vmess
   uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f
@@ -197,7 +138,7 @@ proxies:
   type: vmess
   uuid: 0913b1ac-1f6c-436b-99b4-a5d6e343d025
 - cipher: aes-256-cfb
-  name: 345,355|TW-61.220.130.70-8397
+  name: 345,355|TW-61.220.130.70-8281
   password: qwerREWQ@@
   port: 50701
   server: 61.220.130.70
@@ -1291,6 +1232,19 @@ proxies:
   server: ununim.yangliq.com
   tfo: false
   type: ss
+- client-fingerprint: chrome
+  name: 764|🇹🇼 台湾2|@ripaojiedian
+  network: ws
+  password: moist
+  port: 23555
+  server: 211.72.156.17
+  skip-cert-verify: false
+  sni: trojan.freenods.sbs
+  type: trojan
+  ws-opts:
+    headers:
+      Host: trojan.freenods.sbs
+    path: /?ed=2560
 - alterId: 0
   cipher: auto
   name: 775|v2cross.com - 台湾省花莲县中华电信 4
