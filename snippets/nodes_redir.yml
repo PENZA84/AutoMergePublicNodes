@@ -2,7 +2,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '0,3,64,344,345,498,499,501,502,503,632,635,647,655,656,699,721,722,731,732,834,836|未知_0620045
+  name: '0,3,64,344,345,498,499,501,502,503,602,603,632,633,635,647,651,655,656,699,721,722,731,732,734,834,836|未知_0620045
     #2'
   network: ws
   port: '2082'
@@ -20,15 +20,12 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 0,3,344,345,498,499,501,502,615,635,647,699,721,722,731,732,734,780,834,986|Relay_-DE_1028
-    | 9.46Mb
+  name: 0,3,344,345,498,499,501,502,615,635,647,699,721,722,731,732,734,780,788,834|芬兰_0620003
   network: ws
-  port: 2053
+  port: '2053'
   server: 65.109.226.6
   servername: ''
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: false
   type: vmess
   uuid: d862cdd6-3dd6-4adc-83ca-99bf0ce86bee
@@ -50,11 +47,12 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
+  country: 🏁ZZ
   h2-opts: {}
   http-opts: {}
-  name: 1,2,682,757,811,813,986|Relay_-🇷FR_974
+  name: '1,2,575,615,682,757,811,813|美国 CloudFlare节点 #82'
   network: ws
-  port: 2082
+  port: '2082'
   server: s1c.v2.v001sss.xyz
   servername: ''
   skip-cert-verify: true
@@ -63,19 +61,25 @@ proxies:
   uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
   ws-opts:
     headers:
-      host: s1c.v2.v001sss.xyz
+      Host: ''
     path: /
 - alterId: 0
   cipher: auto
-  name: 1,2,345|🇫🇮FI-65.109.226.6-0080
+  country: 🇪DE
+  h2-opts: {}
+  http-opts: {}
+  name: 1,2,345,575|DE_13 |42.59Mb
   network: ws
   port: 2053
   server: 65.109.226.6
-  skip-cert-verify: false
+  servername: divar.ir
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: d862cdd6-3dd6-4adc-83ca-99bf0ce86bee
   ws-opts:
+    headers:
+      HOST: divar.ir
     path: /@V2RayyNGvpn
 - alterId: 0
   cipher: auto
@@ -272,7 +276,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '543,708,813,1005|🇺🇸_US_美国 #86'
+  name: '543,708,813,1005|🇺🇸_US_美国 #84'
   network: ws
   port: 8080
   server: 162.159.1.33
@@ -285,7 +289,7 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: '543,708,813,1005|🇺🇸_US_美国->🇨🇦_CA_加拿大 #14'
+  name: '543,708,813,1005|🇺🇸_US_美国->🇨🇦_CA_加拿大 #13'
   network: ws
   port: 8080
   server: 162.159.137.249
@@ -314,7 +318,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '543,552,708,812,813,1005|🇺🇸_US_美国 #85'
+  name: '543,552,708,812,813,1005|🇺🇸_US_美国 #83'
   network: ws
   port: 8080
   server: yh3.freeh1.xyz
@@ -327,7 +331,7 @@ proxies:
     path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
 - alterId: 0
   cipher: auto
-  name: '543,552,811,812,813|🇺🇸_US_美国 #79'
+  name: '543,552,811,812,813|🇺🇸_US_美国 #77'
   network: ws
   port: 8080
   server: 162.159.5.6
@@ -2142,6 +2146,28 @@ proxies:
   ws-headers:
     Host: usys.qiutan.pw
   ws-path: /videos
+- name: 682|🇺🇸_US_美国->_AT__1
+  network: ws
+  password: BO7e2KO_KlAjuJY-HYoabQ
+  port: 443
+  server: 104.21.3.201
+  skip-cert-verify: true
+  sni: n37-at.netzrun.com
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /id
+- name: 682|🇺🇸_US_美国->🇹_AT_奥地利_2
+  network: ws
+  password: BO7e2KO_KlAjuJY-HYoabQ
+  port: 443
+  server: 172.67.131.41
+  skip-cert-verify: true
+  sni: n21-at.netzrun.com
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /id
 - alterId: 0
   cipher: auto
   name: 683|🇺🇸_US_美国->_DE_国
@@ -2576,7 +2602,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '757|🇺🇸_US_美国->🇨🇦_CA_加拿大 #6'
+  name: '757|🇺🇸_US_美国->🇨🇦_CA_加拿大 #5'
   network: ws
   port: 2052
   server: cdncdncdncdn.784654.xyz
