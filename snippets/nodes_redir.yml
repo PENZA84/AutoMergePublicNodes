@@ -152,7 +152,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 356,357,510,511,513,514,647,659,711,733,734,743,744,746,846,848|美国_0621050
+  name: 356,357,510,511,513,514,659,711,733,734,743,744,746,848|美国_0621050
   network: ws
   port: '8080'
   server: 172.64.97.235
@@ -168,7 +168,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '356,357,510,511,513,514,564,614,615,627,645,647,659,663,711,733,734,743,744,792,800,801,802,812,823,825,846,848,1018|🇺🇸_US_美国->🇫🇷_FR_法国
+  name: '356,357,510,511,513,514,564,623,627,659,711,733,734,743,744,792,800,801,802,812,823,825,848,1018|🇺🇸_US_美国->🇫🇷_FR_法国
     #8'
   network: ws
   port: 2082
@@ -178,7 +178,6 @@ proxies:
   tfo: false
   tls: false
   type: vmess
-  udp: true
   uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
   ws-opts:
     headers:
@@ -186,7 +185,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: aes-128-gcm
-  name: 417|中转节点-1.47MB/s
+  name: '417,623|中转节点-1.47MB/s #1'
   network: tcp
   port: 1002
   server: 183.236.48.169
@@ -495,10 +494,11 @@ proxies:
     path: /tg@hkaa0
 - alterId: 0
   cipher: auto
-  name: '614,615,663,696|🇺🇸_US_美国->🇩🇪_DE_德国 #1'
+  name: '614,615,623,663,696|🇺🇸_US_美国->🇩🇪_DE_德国 #1'
   network: ws
   port: 80
   server: flkf2.shabijichang.com
+  servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -2282,6 +2282,16 @@ proxies:
   uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f
 - alterId: 0
   cipher: auto
+  name: 694|🇨🇳_CN_中国->🇺_AU_大利_1
+  network: tcp
+  port: 20184
+  server: OgbDOM.gov.goldliond.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f
+- alterId: 0
+  cipher: auto
   name: 694|🇨🇳_CN_中国->🇦🇺_AU_澳大利亚_2
   network: tcp
   port: 20184
@@ -2296,6 +2306,16 @@ proxies:
   network: tcp
   port: 20185
   server: goYrnu.gov.goldliond.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f
+- alterId: 0
+  cipher: auto
+  name: 694|🇨🇳_CN_中国->🇦_CA_加拿大_4
+  network: tcp
+  port: 20185
+  server: bni3Ze.gov.goldliond.top
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -2346,6 +2366,26 @@ proxies:
   network: tcp
   port: 20185
   server: SuitEn.gov.goldliond.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f
+- alterId: 0
+  cipher: auto
+  name: 694|🇨🇳_CN_中国->🇺_AU_澳大利亚_3
+  network: tcp
+  port: 20184
+  server: fpaBua.gov.goldliond.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f
+- alterId: 0
+  cipher: auto
+  name: 694|🇨🇳_CN_中国->🇸_US_美国_5
+  network: tcp
+  port: 20183
+  server: RFN07a.gov.goldliond.top
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -2896,6 +2936,21 @@ proxies:
     headers:
       host: ca-cfcdn.aikunapp.com
     path: /index?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '769,823,825|美国 CloudFlare节点 #76'
+  network: ws
+  port: '2082'
+  server: s1c.v2.v001sss.xyz
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
   name: 809|:美国-vmess-arm.ptuu.gq:443-可用-中...
