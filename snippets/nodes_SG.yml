@@ -4,7 +4,7 @@ proxies:
   delay: 439
   h2-opts: {}
   http-opts: {}
-  name: '14,15,17,32,128,357,647,671,733,734,846|新加坡_0622007 #1'
+  name: '14,15,17,32,128,357,614,615,647,663,671,733,734,846|新加坡_0622007 #1'
   network: ws
   port: '443'
   server: sg03.poke-mon.xyz
@@ -12,11 +12,21 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: vmess
+  udp: true
   uuid: 03bfcbaa-2cb5-42dc-9d8c-7a70dfffb451
   ws-opts:
     headers:
       Host: sg03.poke-mon.xyz
     path: /52pokemon?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 16|新加坡|广州移动|Polo|1x
+  network: tcp
+  port: '17162'
+  server: gdcm.r1u.cn
+  tls: false
+  type: vmess
+  uuid: f010dd01-c54a-3c03-95ce-0838214259c6
 - alterId: 0
   cipher: auto
   name: '19,20,21,23|🇸🇬 新加坡1 #3'
@@ -69,27 +79,6 @@ proxies:
     headers:
       Host: ''
     path: ''
-- cipher: aes-256-cfb
-  country: 🇸🇬SG
-  name: 27,357,588|🇬SG_95
-  password: ueLXVkvh4hckhErQ
-  port: 9060
-  server: 103.172.116.103
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇬SG
-  name: 27,357,588|🇬SG_94
-  password: fG2artUmHfNT2cX7
-  port: 9018
-  server: 103.172.116.103
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇸🇬SG
-  name: 27,357,588|🇸🇬SG_101
-  password: BwcAUZk8hUFAkDGN
-  port: 9031
-  server: 103.172.116.103
-  type: ss
 - alterId: 0
   cipher: auto
   name: '30,31,69,71|普通1|新加坡|vmess|解锁 #3'
@@ -183,7 +172,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '85,128,671|美国 055 #1'
+  name: '85,128,615,663,671|美国 055 #1'
   network: tcp
   port: 41001
   server: bgroup.node3.v.nodelist-gfwairport2.top
@@ -322,7 +311,7 @@ proxies:
   delay: 1092
   h2-opts: {}
   http-opts: {}
-  name: '128,357,647,671,733,734,846|美国_0622161 #1'
+  name: '128,357,614,615,647,663,671,733,734,846|美国_0622161 #1'
   network: ws
   port: '2096'
   server: 47.236.237.90
@@ -330,6 +319,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: vmess
+  udp: true
   uuid: f62c5668-ef76-47fd-8f91-86eed7ccd81b
   ws-opts:
     headers:
@@ -463,8 +453,7 @@ proxies:
       Host: dxjp.chaozhijc.xyz
     path: /?ed=2048
 - cipher: aes-256-cfb
-  country: 🇸🇬SG
-  name: 220,357,588|🇸🇬SG_100
+  name: 220,357|🇬SG-103.172.116.103-0971
   password: NvS8N4Vf8qAGPSCL
   port: 9046
   server: 103.172.116.103
@@ -835,7 +824,7 @@ proxies:
   name: 316|🇸🇬狮城区域1自动运维节点
   network: tcp
   port: '20182'
-  server: pdS8h9.gov.goldliond.top
+  server: 5ZSWfD.gov.goldliond.top
   tls: false
   type: vmess
   uuid: dff90a14-6c25-4181-9791-0be9131da5a3
@@ -844,7 +833,7 @@ proxies:
   name: 316|🇸🇬狮城区域2自动运维节点
   network: tcp
   port: '20182'
-  server: IW8CQA.gov.goldliond.top
+  server: xixGNo.gov.goldliond.top
   tls: false
   type: vmess
   uuid: dff90a14-6c25-4181-9791-0be9131da5a3
@@ -853,7 +842,7 @@ proxies:
   name: 316|🇸🇬狮城区域3自动运维节点
   network: tcp
   port: '20182'
-  server: hUnQjZ.gov.goldliond.top
+  server: UTrPEk.gov.goldliond.top
   tls: false
   type: vmess
   uuid: dff90a14-6c25-4181-9791-0be9131da5a3
@@ -862,7 +851,7 @@ proxies:
   name: 316|🇸🇬狮城区域1-三网优化-解锁Netflix
   network: tcp
   port: '60184'
-  server: 4YFLjk.gov.goldliond.top
+  server: 3AFs15.gov.goldliond.top
   tls: false
   type: vmess
   uuid: dff90a14-6c25-4181-9791-0be9131da5a3
@@ -871,7 +860,7 @@ proxies:
   name: '329|🇸🇬狮城区域1自动运维节点 #1'
   network: tcp
   port: '20182'
-  server: Pvb1Vj.gov.goldliond.top
+  server: UHq64C.gov.goldliond.top
   tls: false
   type: vmess
   uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f
@@ -880,7 +869,7 @@ proxies:
   name: '329|🇸🇬狮城区域2自动运维节点 #1'
   network: tcp
   port: '20182'
-  server: REAiU5.gov.goldliond.top
+  server: vEKfCt.gov.goldliond.top
   tls: false
   type: vmess
   uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f
@@ -889,7 +878,7 @@ proxies:
   name: '329|🇸🇬狮城区域3自动运维节点 #1'
   network: tcp
   port: '20182'
-  server: 4g8SnY.gov.goldliond.top
+  server: PqmeQO.gov.goldliond.top
   tls: false
   type: vmess
   uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f
@@ -898,7 +887,7 @@ proxies:
   name: '329|🇸🇬狮城区域1-三网优化-解锁Netflix #1'
   network: tcp
   port: '40184'
-  server: XIHW3m.gov.goldliond.top
+  server: ElSpsC.gov.goldliond.top
   tls: false
   type: vmess
   uuid: 0dbf5048-e89c-4295-859c-71dc8bf71d1f
@@ -1249,7 +1238,7 @@ proxies:
     path: /path/080712342310
 - alterId: 0
   cipher: auto
-  name: '356,659|%F0%9F%87%B8%F0%9F%87%AC%20Sin... #14'
+  name: '356,659,746|%F0%9F%87%B8%F0%9F%87%AC%20Sin... #17'
   network: ws
   port: '443'
   server: sg2-full.privateip.net
@@ -1263,7 +1252,7 @@ proxies:
     path: /RACEVPN
 - alterId: 0
   cipher: auto
-  name: '356,746|%F0%9F%87%B8%F0%9F%87%AC%20Sin... #17'
+  name: '356,746|%F0%9F%87%B8%F0%9F%87%AC%20Sin... #18'
   network: tcp
   port: '2083'
   server: sg2-v2ray.ipracevpn.com
@@ -1331,16 +1320,6 @@ proxies:
     path: /RACEVPN
 - alterId: 0
   cipher: auto
-  name: '356,627,746,792,800|🔒 VM-TCP-NONE 🇸🇬 SG-152.42.190... #7'
-  network: tcp
-  port: 45102
-  server: 152.42.190.204
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6b0c3ac5-66ba-4cea-8f61-3217800a8f6b
-- alterId: 0
-  cipher: auto
   name: '356,746,792,800,848,1002,1016,1084|美国【付费推荐：https://a0a.xyz】30 #2'
   network: tcp
   port: '31808'
@@ -1349,20 +1328,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 7de08a91-416d-4f0b-d81a-e802b012f5ba
-- alterId: 0
-  cipher: auto
-  name: '356,623,627,659,792,800|🔒 VM-WS-NA 🇸🇬 SG-138.2.90.147:... #4'
-  network: ws
-  port: 23006
-  server: 138.2.90.147
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5eea50d8-a816-48c7-bc35-0fde39e277b5
-  ws-opts:
-    headers:
-      Host: ''
-    path: /free
 - alterId: 0
   cipher: auto
   name: '356,659,800,812|未知1257 #2'
@@ -1377,6 +1342,30 @@ proxies:
     headers:
       Host: store.steampowered.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: '356,623,627,659,746,792,800|🔒 VM-WS-NA 🇸🇬 SG-138.2.90.147:... #5'
+  network: ws
+  port: 23006
+  server: 138.2.90.147
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5eea50d8-a816-48c7-bc35-0fde39e277b5
+  ws-opts:
+    headers:
+      Host: ''
+    path: /free
+- alterId: 0
+  cipher: auto
+  name: '356,627,792,800|🔒 VM-TCP-NONE 🇸🇬 SG-152.42.190... #6'
+  network: tcp
+  port: 45102
+  server: 152.42.190.204
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6b0c3ac5-66ba-4cea-8f61-3217800a8f6b
 - alterId: 0
   cipher: auto
   name: '356,357,733,734|🇸🇬SG-172.104.184.110-0198 #3'
@@ -2113,6 +2102,27 @@ proxies:
   password: UWZQeLRWnkqgkseq
   port: 9032
   server: 103.172.116.94
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇸🇬SG
+  name: 357,588|🇬SG_95
+  password: ueLXVkvh4hckhErQ
+  port: 9060
+  server: 103.172.116.103
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇸🇬SG
+  name: 357,588|🇸🇬SG_96
+  password: fG2artUmHfNT2cX7
+  port: 9018
+  server: 103.172.116.103
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇬SG
+  name: 357,588|🇬SG_94
+  password: BwcAUZk8hUFAkDGN
+  port: 9031
+  server: 103.172.116.103
   type: ss
 - cipher: aes-256-cfb
   name: 357|🇬SG-103.172.116.103-2946
@@ -3029,13 +3039,6 @@ proxies:
   server: 13.250.35.165
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  country: 🇬SG
-  name: 588|🇸🇬SG_96
-  password: fG2artUmHfNT2cX7
-  port: 9018
-  server: 103.172.116.94
-  type: ss
 - alterId: 0
   cipher: aes-256-cfb
   country: 🇸🇬SG
@@ -3049,23 +3052,23 @@ proxies:
 - cipher: aes-256-cfb
   country: 🇸🇬SG
   name: 588|🇸🇬SG_98
-  password: UWZQeLRWnkqgkseq
-  port: 9032
-  server: 103.172.116.103
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇸🇬SG
-  name: 588|🇸🇬SG_99
   password: bf7v334KKDV3YDhH
   port: 9070
   server: 103.172.116.103
   type: ss
 - cipher: aes-256-cfb
-  country: 🇸🇬SG
-  name: 588|🇸🇬SG_102
-  password: BejrQvtu9sqUeNuZ
-  port: 9024
+  country: 🇬SG
+  name: 588|🇸🇬SG_99
+  password: fG2artUmHfNT2cX7
+  port: 9018
   server: 103.172.116.94
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇸🇬SG
+  name: 588|🇸🇬SG_100
+  password: UWZQeLRWnkqgkseq
+  port: 9032
+  server: 103.172.116.103
   type: ss
 - alterId: 0
   cipher: auto
@@ -3851,7 +3854,7 @@ proxies:
     path: /cctv?ed=2048&Telegram🇨🇳 @WangCai2
 - alterId: 0
   cipher: auto
-  name: '623,659|🇺🇸 美国 CloudFlare节点 #15'
+  name: '623,659|🇺🇸 美国 CloudFlare节点 #21'
   network: ws
   port: '2082'
   server: 104.19.50.33
@@ -3977,7 +3980,7 @@ proxies:
     path: /cctv?ed=2048&Telegram🇨🇳 @WangCai2
 - alterId: 0
   cipher: auto
-  name: '623,659|🇺🇸 美国 CloudFlare节点 #14'
+  name: '623,659|🇺🇸 美国 CloudFlare节点 #20'
   network: ws
   port: '2082'
   server: 104.19.50.50
@@ -4523,7 +4526,7 @@ proxies:
     path: /cctv?ed=2048&Telegram🇨🇳 @WangCai2
 - alterId: 0
   cipher: auto
-  name: '623,659|🇺🇸 美国 CloudFlare节点 #17'
+  name: '623,659|🇺🇸 美国 CloudFlare节点 #23'
   network: ws
   port: '2082'
   server: 104.19.50.100
