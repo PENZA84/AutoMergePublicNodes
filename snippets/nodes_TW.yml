@@ -253,7 +253,7 @@ proxies:
   name: 318|🇹🇼台湾区域2-三网优化-解锁Netflix
   network: tcp
   port: '60180'
-  server: ROxfmE.gov.goldliond.top
+  server: OEzWxl.gov.goldliond.top
   tls: false
   type: vmess
   uuid: dff90a14-6c25-4181-9791-0be9131da5a3
@@ -262,7 +262,7 @@ proxies:
   name: 318|🇹🇼台湾区域3-三网优化-解锁Netflix
   network: tcp
   port: '60180'
-  server: k7MjjW.gov.goldliond.top
+  server: 9jbSXp.gov.goldliond.top
   tls: false
   type: vmess
   uuid: dff90a14-6c25-4181-9791-0be9131da5a3
@@ -284,7 +284,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '358,806,818|TW2 #2'
+  name: '358,806,818|TW5 #1'
   network: ws
   port: '37902'
   server: 36.232.0.230
@@ -1403,21 +1403,7 @@ proxies:
   uuid: 49933ab7-7ec2-3024-9f6e-b7ad9da24c8f
 - alterId: 0
   cipher: auto
-  name: '817|TW2 #1'
-  network: ws
-  port: 37902
-  server: 36.232.0.230
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 1057c0f5-8662-4902-8d2f-eb6e3ecdf5c5
-  ws-opts:
-    headers:
-      host: hinet-wap.myddns.me
-    path: /index?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 817|TW4
+  name: '817|TW #1'
   network: ws
   password: auto
   port: 443
@@ -1433,12 +1419,38 @@ proxies:
   network: ws
   password: moist
   port: 23555
+  server: 61.222.202.100
+  skip-cert-verify: true
+  sni: trojan.freenods.sbs
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: '817|TW2 #1'
+  network: ws
+  password: moist
+  port: 23555
   server: 211.72.156.17
   skip-cert-verify: true
   sni: trojan.freenods.sbs
   tls: true
   type: trojan
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 817|TW5
+  network: ws
+  port: 37902
+  server: 36.232.0.230
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 1057c0f5-8662-4902-8d2f-eb6e3ecdf5c5
+  ws-opts:
+    headers:
+      host: hinet-wap.myddns.me
+    path: /index?ed=2560
 - alterId: 0
   cipher: auto
   name: 831|🇹🇼台湾 01
