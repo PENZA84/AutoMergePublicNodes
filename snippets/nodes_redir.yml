@@ -1,16 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '0,1,2,3,512,513,515,516,713|🇺🇸_US_美国->🇨🇦_CA_加拿大 #7'
-  network: ws
-  port: 8080
-  server: 172.64.97.235
-  tls: false
-  type: vmess
-  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
   name: '0,1,2,3,512,513,515,516,713|🇨🇳_CN_中国->🇺🇸_US_美国 #5'
   network: ws
   port: 16928
@@ -19,31 +9,17 @@ proxies:
   type: vmess
   uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973
   ws-opts: {}
-- name: '1,2|_US_->_AT__1 #1'
+- alterId: 0
+  cipher: auto
+  name: '0,1,2,3|🇺🇸_US_美国->🇩🇪_DE_德国 #1'
   network: ws
-  password: BO7e2KO_KlAjuJY-HYoabQ
   port: 443
-  server: 172.67.131.41
-  sni: n21-at.netzrun.com
-  type: trojan
-  udp: true
-- name: '1,2|_US_->_AT__2 #1'
-  network: ws
-  password: BO7e2KO_KlAjuJY-HYoabQ
-  port: 443
-  server: 104.21.3.201
-  sni: n37-at.netzrun.com
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 1,2,357,646,753|🇺🇸 US 05
-  password: 30a8576f-0e33-4715-bb9c-b2bde0d2742e
-  port: 60033
-  server: 5.forlive.live
-  tfo: false
-  type: ss
-  udp: true
+  server: hdfy1sub1.achaemenidempireofpersia.uk
+  servername: hdfy1sub1.achaemenidempireofpersia.uk
+  tls: true
+  type: vmess
+  uuid: 6b880b07-e952-4c0b-b4a3-6c9ac4cf9d3f
+  ws-opts: {}
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: 443trojan
@@ -314,7 +290,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 556|🇺🇸_US_美国->🇩🇪_DE_德国
+  name: '556|🇺🇸_US_美国->🇩🇪_DE_德国 #2'
   network: ws
   port: 80
   server: 104.21.91.52
@@ -362,7 +338,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '557,722,827,1021|🇺🇸_US_美国->🇨🇦_CA_加拿大 #16'
+  name: '557,722,827,1021|🇺🇸_US_美国->🇨🇦_CA_加拿大 #14'
   network: ws
   port: 8080
   server: 162.159.137.249
@@ -391,7 +367,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '557,566,722,826,827,1021|🇺🇸_US_美国 #94'
+  name: '557,566,722,826,827,1021|🇺🇸_US_美国 #78'
   network: ws
   port: 8080
   server: yh3.freeh1.xyz
@@ -463,7 +439,7 @@ proxies:
     path: /tg@hkaa0
 - alterId: 0
   cipher: auto
-  name: '616,617,665,698|🇺🇸_US_美国->🇩🇪_DE_德国 #1'
+  name: '616,617,665,698|🇺🇸_US_美国->🇩🇪_DE_德国 #3'
   network: ws
   port: 80
   server: flkf2.shabijichang.com
@@ -2640,7 +2616,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '771|🇺🇸_US_美国->🇨🇦_CA_加拿大 #8'
+  name: '771|🇺🇸_US_美国->🇨🇦_CA_加拿大 #6'
   network: ws
   port: 2052
   server: cdncdncdncdn.784654.xyz
@@ -2652,6 +2628,21 @@ proxies:
     headers:
       host: ca-cfcdn.aikunapp.com
     path: /index?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '771,825,827|美国 CloudFlare节点 #54'
+  network: ws
+  port: '2082'
+  server: s1c.v2.v001sss.xyz
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
   name: 811|:美国-vmess-arm.ptuu.gq:443-可用-中...
