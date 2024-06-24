@@ -1,14 +1,22 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '0,1,2,3,518,519,521,720|🇺🇸_US_美国 #47'
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: '0,1,2,3,325,518,519,521,720|🇺🇸_US_美国 #47'
   network: ws
   port: 80
   server: 162.159.136.98
+  servername: ccs2.hostmjj.com
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: f1b6bc05-40dd-4180-ca18-b05288fd33bb
+  ws-headers:
+    HOST: ccs2.hostmjj.com
   ws-opts: {}
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: '0,1,2,3,518,519,521,720|🇺🇸_US_美国 #49'
@@ -50,7 +58,8 @@ proxies:
   udp: true
 - alterId: 0
   cipher: aes-256-gcm
-  name: 1,2,362,820|US32 1.7MB/s
+  country: 🇺🇸US
+  name: 1,2,362,596,820|US32 1.7MB/s
   password: Y6R9pAtvxxzmGC
   port: 5000
   server: 23.157.40.10
@@ -59,7 +68,8 @@ proxies:
   type: ss
 - alterId: 0
   cipher: aes-256-gcm
-  name: 1,2,362,703,723,820|🇺🇸US3 1.7MB/s
+  country: 🇺🇸US
+  name: 1,2,362,596,703,723,820|🇺🇸US3 1.7MB/s
   password: cdBIDV42DCwnfIN
   port: 8118
   server: 23.157.40.53
@@ -77,7 +87,8 @@ proxies:
   type: ss
 - alterId: 0
   cipher: aes-256-gcm
-  name: 1,2,362,820|US143
+  country: 🇺🇸US
+  name: 1,2,362,596,820|US143
   password: Y6R9pAtvxxzmGC
   port: 9090
   server: 23.157.40.53
@@ -104,7 +115,8 @@ proxies:
   type: ss
 - alterId: 0
   cipher: aes-256-gcm
-  name: 1,2,362,703,723,820|US228 578.8KB/s
+  country: 🇺🇸US
+  name: 1,2,362,596,703,723,820|US228 578.8KB/s
   password: XKFKl2rULjIp74
   port: 8009
   server: 23.157.40.53
@@ -113,7 +125,8 @@ proxies:
   type: ss
 - alterId: 0
   cipher: aes-256-gcm
-  name: 1,2,362,703,723,820|🇺🇸US美国40 1.7MB/s
+  country: 🇺🇸US
+  name: 1,2,362,596,703,723,820|🇺🇸US美国40 1.7MB/s
   password: PCnnH6SQSnfoS27
   port: 8091
   server: 23.157.40.53
@@ -140,7 +153,8 @@ proxies:
   type: ss
 - alterId: 0
   cipher: aes-256-gcm
-  name: 1,2,362,703,723,820|🇺🇸US美 1.0MB/s
+  country: 🇺🇸US
+  name: 1,2,362,596,703,723,820|🇺🇸US美 1.0MB/s
   password: PCnnH6SQSnfoS27
   port: 8090
   server: 23.157.40.53
@@ -158,7 +172,8 @@ proxies:
   type: ss
 - alterId: 0
   cipher: aes-256-gcm
-  name: 1,2,362,820|🇺🇸US美国32 1.7MB/s
+  country: 🇺🇸US
+  name: 1,2,362,596,820|🇺🇸US美国32 1.7MB/s
   password: pKEW8JPByTVTLtM
   port: 4444
   server: 23.157.40.10
@@ -167,7 +182,10 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 3,65,129,361,518,521,523,624,656,668,672,680,703,720,723,752,753,755,811,855,857|直布罗陀_0624001
+  country: 🇮GI
+  h2-opts: {}
+  http-opts: {}
+  name: 3,65,129,361,518,521,523,596,624,656,668,672,680,703,720,723,752,753,755,811,855,857|直布罗陀_0624001
   network: tcp
   port: '2083'
   server: kz-v2ray.ipracevpn.com
@@ -208,11 +226,15 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '3,361,518,521,636,720,755,801,809|🔒 VM-TCP-NONE 🇬🇧 GB-91.149.203... #2'
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 3,361,518,521,596,636,720,755,801,809|🔒 VM-TCP-NA 🇬🇧 GB-91.149.203.2...
   network: tcp
   port: 33505
   server: 91.149.203.23
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: b63e1f02-51f3-4cd4-9d13-d15fcd07f598
@@ -285,135 +307,9 @@ proxies:
 - alterId: 0
   cipher: aes-256-gcm
   country: 🇺🇸US
-  name: 28,362,597,604,653,820|US89 1.9MB/s
-  password: PCnnH6SQSnfoS27
-  port: 8091
-  server: 38.121.43.71
-  skip-cert-verify: true
-  tls: true
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 28,597,604,820|US337 1.9MB/s
-  password: e4FCWrgpkji3QY
-  port: 9102
-  server: 38.121.43.71
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: aes-256-gcm
-  country: ' US'
-  name: 28,362,653,820|US11 1.9MB/s
-  password: KixLvKzwjekG00rm
-  port: 8080
-  server: 167.88.62.62
-  skip-cert-verify: true
-  tls: true
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  country: 🇦AO
-  name: 28,224,362,597,604,653,820|US565
-  password: afa22bb1050134b8
-  port: 57456
-  server: 104.167.197.23
-  skip-cert-verify: true
-  tls: true
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: aes-256-gcm
-  country: ' US'
-  name: 28,653,820|US473 1.5MB/s
-  password: RexnBgU7EV5ADxG
-  port: 7002
-  server: 169.197.142.216
-  skip-cert-verify: true
-  tls: true
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  country: ' US'
-  name: 28| US_115
-  password: PCnnH6SQSnfoS27
-  port: 8091
-  server: 38.75.137.71
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  country: 🇺🇸US
-  name: 28,224,362,597,604,820|US163 4.5MB/s
-  password: H5S0hvcxRi#YLmgU
-  port: 1230
-  server: 38.107.226.146
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: aes-256-gcm
-  client-fingerprint: chrome
-  country: 🇸US
-  name: 28,362,597,604,653,810,820|US133 1.9MB/s
-  password: Y6R9pAtvxxzmGC
-  port: 9090
-  server: 15.204.87.225
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 28,362,597,604,653,820|US378 1.9MB/s
+  name: 28,362,597,604,820|US488 1.9MB/s
   password: faBAoD54k87UJG7
-  port: 2375
-  server: 38.121.43.71
-  skip-cert-verify: true
-  tls: true
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 28,597,604,820|US61 1.8MB/s
-  password: XKFKl2rULjIp74
-  port: 8009
-  server: 38.121.43.71
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  country: 🇺🇸US
-  name: 28,224,362,597,604,820|US139 1.3MB/s
-  password: a8bt9fY0QsLS6eLnXUe0Ym
-  port: 8080
-  server: 45.158.171.148
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 28,597,604,653,820|US256 2.0MB/s
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 38.121.43.248
-  skip-cert-verify: true
-  tls: true
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 28,362,597,604,820|US653 1.9MB/s
-  password: XKFKl2rULjIp74
-  port: 8008
+  port: 2376
   server: 38.121.43.71
   skip-cert-verify: true
   tls: true
@@ -421,30 +317,10 @@ proxies:
 - alterId: 0
   cipher: aes-256-gcm
   country: 🇸US
-  name: 28,597,604,820|US430 1.9MB/s
-  password: cdBIDV42DCwnfIN
-  port: 8119
-  server: 38.121.43.97
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 28,597,604,820|US2 1.9MB/s
-  password: zDNVedRFPQexG9v
-  port: 6379
-  server: 38.121.43.71
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 28,362,597,604,653,820|US503 1.9MB/s
-  password: Y6R9pAtvxxzmGC
-  port: 5001
-  server: 38.121.43.71
+  name: 28,362,596,597,604,653,820|US57 1.9MB/s
+  password: KixLvKzwjekG00rm
+  port: 5500
+  server: 38.68.135.18
   skip-cert-verify: true
   tls: true
   type: ss
@@ -461,31 +337,31 @@ proxies:
   type: ss
 - alterId: 0
   cipher: aes-256-gcm
-  country: ' US'
-  name: 28,820|US418 1.6MB/s
-  password: Y6R9pAtvxxzmGC
-  port: 5601
-  server: 38.75.137.71
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 28,597,604,653,820|US327 1.9MB/s
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 38.110.1.201
+  country: 🇸US
+  name: 28,362,597,604,653,820|US89 1.9MB/s
+  password: PCnnH6SQSnfoS27
+  port: 8091
+  server: 38.121.43.71
   skip-cert-verify: true
   tls: true
   type: ss
   udp: true
 - alterId: 0
+  cipher: chacha20-ietf-poly1305
+  country: 🇺🇸US
+  name: 28,224,325,362,597,604,820|US486 4.5MB/s
+  password: lWaGPVFjmnag
+  port: 443
+  server: 205.134.180.139
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
   cipher: aes-256-gcm
   country: 🇺🇸US
-  name: 28,362,597,604,820|US488 1.9MB/s
-  password: faBAoD54k87UJG7
-  port: 2376
+  name: 28,597,604,820|US337 1.9MB/s
+  password: e4FCWrgpkji3QY
+  port: 9102
   server: 38.121.43.71
   skip-cert-verify: true
   tls: true
@@ -513,23 +389,22 @@ proxies:
 - alterId: 0
   cipher: aes-256-gcm
   country: 🇺🇸US
+  name: 28,597,604,653,820|US327 1.9MB/s
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 38.110.1.201
+  skip-cert-verify: true
+  tls: true
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: aes-256-gcm
+  country: 🇺🇸US
   name: 28,597,604,820|US391 1.7MB/s
   password: KixLvKzwjekG00rm
   port: 8000
   server: 38.75.137.71
   skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: aes-128-gcm
-  client-fingerprint: chrome
-  country: 🇺🇸US
-  name: 28,224,362,597,604,810,820|US562 8.6MB/s
-  password: Yc2CtrIz8L
-  port: 30128
-  server: 107.173.114.6
-  skip-cert-verify: true
-  tfo: false
   tls: true
   type: ss
 - alterId: 0
@@ -545,60 +420,49 @@ proxies:
 - alterId: 0
   cipher: aes-256-gcm
   country: ' US'
-  name: 28,820|US159 1.6MB/s
-  password: FoOiGlkAA9yPEGP
-  port: 7306
-  server: 38.75.136.49
+  name: 28,362,653,820|US11 1.9MB/s
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 167.88.62.62
   skip-cert-verify: true
   tls: true
   type: ss
+  udp: true
 - alterId: 0
   cipher: aes-256-gcm
   country: ' US'
-  name: 28,820|US90 1.7MB/s
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 38.75.137.71
+  name: 28,653,820|US473 1.5MB/s
+  password: RexnBgU7EV5ADxG
+  port: 7002
+  server: 169.197.142.216
   skip-cert-verify: true
   tls: true
   type: ss
+  udp: true
 - alterId: 0
   cipher: chacha20-ietf-poly1305
   country: 🇺🇸US
-  name: 28,224,362,597,604,820|US486 4.5MB/s
-  password: lWaGPVFjmnag
-  port: 443
-  server: 205.134.180.139
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 28,597,604,820|US394 1.9MB/s
-  password: kDWvXYZoTBcGkC4
-  port: 8881
-  server: 38.121.43.71
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: aes-256-gcm
-  country: ' US'
-  name: 28,820|US145 1.6MB/s
-  password: KixLvKzwjekG00rm
+  name: 28,224,362,597,604,820|US139 1.3MB/s
+  password: a8bt9fY0QsLS6eLnXUe0Ym
   port: 8080
-  server: 38.75.137.71
+  server: 45.158.171.148
   skip-cert-verify: true
   tls: true
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇸US
+  name: 28,597,604|Relay_🇸US-🇱NL_135
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 45.158.171.66
   type: ss
 - alterId: 0
   cipher: aes-256-gcm
   country: 🇺🇸US
-  name: 28,362,597,604,653,820|US57 1.9MB/s
-  password: KixLvKzwjekG00rm
-  port: 5500
-  server: 38.68.135.18
+  name: 28,325,597,604,653,820|US256 2.0MB/s
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 38.121.43.248
   skip-cert-verify: true
   tls: true
   type: ss
@@ -606,7 +470,132 @@ proxies:
 - alterId: 0
   cipher: aes-256-gcm
   country: 🇺🇸US
-  name: 28,362,597,604,653,820|US270 1.9MB/s
+  name: 28,362,597,604,820|US653 1.9MB/s
+  password: XKFKl2rULjIp74
+  port: 8008
+  server: 38.121.43.71
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: aes-256-gcm
+  country: 🇸US
+  name: 28,596,597,604,820|US430 1.9MB/s
+  password: cdBIDV42DCwnfIN
+  port: 8119
+  server: 38.121.43.97
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  country: 🇺🇸US
+  name: 28,224,362,597,604,820|US163 4.5MB/s
+  password: H5S0hvcxRi#YLmgU
+  port: 1230
+  server: 38.107.226.146
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  country: 🇦🇴AO
+  name: 28,224,362,597,604,653,820|US565
+  password: afa22bb1050134b8
+  port: 57456
+  server: 104.167.197.23
+  skip-cert-verify: true
+  tls: true
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: aes-256-gcm
+  client-fingerprint: chrome
+  country: 🇸US
+  name: 28,362,596,597,604,653,810,820|US133 1.9MB/s
+  password: Y6R9pAtvxxzmGC
+  port: 9090
+  server: 15.204.87.225
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 28,362,597,604,653,820|US503 1.9MB/s
+  password: Y6R9pAtvxxzmGC
+  port: 5001
+  server: 38.121.43.71
+  skip-cert-verify: true
+  tls: true
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  country: ' US'
+  name: 28| US_129
+  password: PCnnH6SQSnfoS27
+  port: 8091
+  server: 38.75.137.71
+  type: ss
+- alterId: 0
+  cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 28,597,604,820|US2 1.9MB/s
+  password: zDNVedRFPQexG9v
+  port: 6379
+  server: 38.121.43.71
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 28,597,604,820|US61 1.8MB/s
+  password: XKFKl2rULjIp74
+  port: 8009
+  server: 38.121.43.71
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: aes-256-gcm
+  country: ' US'
+  name: 28,820|US418 1.6MB/s
+  password: Y6R9pAtvxxzmGC
+  port: 5601
+  server: 38.75.137.71
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 28,362,597,604,653,820|US378 1.9MB/s
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 38.121.43.71
+  skip-cert-verify: true
+  tls: true
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: aes-128-gcm
+  client-fingerprint: chrome
+  country: 🇺🇸US
+  name: 28,224,362,596,597,604,810,820|US562 8.6MB/s
+  password: Yc2CtrIz8L
+  port: 30128
+  server: 107.173.114.6
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 28,362,596,597,604,653,820|US270 1.9MB/s
   password: kDWvXYZoTBcGkC4
   port: 8882
   server: 38.121.43.71
@@ -617,7 +606,7 @@ proxies:
 - alterId: 0
   cipher: aes-256-gcm
   country: 🇺🇸US
-  name: 28,362,597,604,653,820|US551 1.9MB/s
+  name: 28,362,596,597,604,653,820|US551 1.9MB/s
   password: cdBIDV42DCwnfIN
   port: 8119
   server: 38.121.43.71
@@ -628,7 +617,7 @@ proxies:
 - alterId: 0
   cipher: aes-256-gcm
   country: 🇺🇸US
-  name: 28,362,597,604,653,820|US6 1.6MB/s
+  name: 28,362,596,597,604,653,820|US6 1.6MB/s
   password: g5MeD6Ft3CWlJId
   port: 5003
   server: 38.75.136.21
@@ -639,7 +628,7 @@ proxies:
 - alterId: 0
   cipher: aes-256-gcm
   country: 🇺🇸US
-  name: 28,362,597,604,820|US71 1.6MB/s
+  name: 28,362,596,597,604,820|US71 1.6MB/s
   password: Y6R9pAtvxxzmGC
   port: 5001
   server: 38.75.136.21
@@ -649,7 +638,7 @@ proxies:
 - alterId: 0
   cipher: aes-256-gcm
   country: 🇺🇸US
-  name: 28,362,597,604,653,820|US106 1.6MB/s
+  name: 28,362,596,597,604,653,820|US106 1.6MB/s
   password: KixLvKzwjekG00rm
   port: 8080
   server: 38.75.136.21
@@ -680,22 +669,10 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   country: ' US'
-  name: 28| US_148
+  name: 28| US_142
   password: TEzjfAYq2IjtuoS
   port: 6679
   server: 38.75.137.71
-  type: ss
-- alterId: 0
-  cipher: aes-128-gcm
-  client-fingerprint: chrome
-  country: 🇺🇸US
-  name: 28,224,362,597,604,810,820|US491 12.9MB/s
-  password: Yc2CtrIz8L
-  port: 30127
-  server: 107.173.114.6
-  skip-cert-verify: true
-  tfo: false
-  tls: true
   type: ss
 - alterId: 0
   cipher: aes-256-gcm
@@ -720,25 +697,63 @@ proxies:
   udp: true
 - cipher: aes-256-gcm
   country: ' US'
-  name: 28| US_152
+  name: 28| US_145
   password: Y6R9pAtvxxzmGC
   port: 3389
   server: 142.202.48.105
   type: ss
-- alterId: 64
-  cipher: auto
+- alterId: 0
+  cipher: aes-256-gcm
   country: ' US'
-  h2-opts: {}
-  http-opts: {}
-  name: 28| US_153
-  network: ws
-  port: 37000
-  server: 38.33.46.89
+  name: 28,820|US145 1.6MB/s
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 38.75.137.71
   skip-cert-verify: true
   tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-path: /path/191019072927
+  type: ss
+- alterId: 0
+  cipher: aes-256-gcm
+  country: ' US'
+  name: 28,820|US90 1.7MB/s
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 38.75.137.71
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: aes-128-gcm
+  client-fingerprint: chrome
+  country: 🇺🇸US
+  name: 28,224,362,596,597,604,810,820|US491 12.9MB/s
+  password: Yc2CtrIz8L
+  port: 30127
+  server: 107.173.114.6
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: aes-256-gcm
+  country: ' US'
+  name: 28,820|US159 1.6MB/s
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  server: 38.75.136.49
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 28,597,604,820|US394 1.9MB/s
+  password: kDWvXYZoTBcGkC4
+  port: 8881
+  server: 38.121.43.71
+  skip-cert-verify: true
+  tls: true
+  type: ss
 - alterId: 0
   cipher: auto
   name: '56,57,58,236,237,238,239,240,241|[vmess]美国(旧金山)-01 #8'
@@ -1372,7 +1387,8 @@ proxies:
   udp: true
 - alterId: 0
   cipher: aes-128-gcm
-  name: 224,362,820|🇺🇸US2 14.6MB/s
+  country: 🇺🇸US
+  name: 224,362,596,820|🇺🇸US2 14.6MB/s
   password: Yc2CtrIz8L
   port: 30129
   server: 107.173.114.6
@@ -1397,7 +1413,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '224,361,362,668,742,743,755,801,809|🔒 VM-WS-NA 🇺🇸 US-155.138.242.2... #6'
+  name: '224,361,362,668,742,743,755,801,809|🔒 VM-WS-NA 🇺🇸 US-155.138.242.2... #5'
   network: ws
   port: 54316
   server: 155.138.242.207
@@ -1412,7 +1428,8 @@ proxies:
     path: /
 - alterId: 0
   cipher: aes-128-cfb
-  name: 224,362,820|US59 7.1MB/s
+  country: 🇺🇸US
+  name: 224,362,596,820|US59 7.1MB/s
   password: shadowsocks
   port: 443
   server: 184.170.241.194
@@ -1466,7 +1483,8 @@ proxies:
   udp: true
 - alterId: 0
   cipher: chacha20-ietf-poly1305
-  name: 224,352,362,653,820|US586 1.2MB/s
+  country: 🇺🇸US
+  name: 224,352,362,596,653,820|US586 1.2MB/s
   password: 5cp9Z3iWnJZ2
   port: 443
   server: 205.134.180.151
@@ -1537,6 +1555,167 @@ proxies:
     headers:
       Host: cold-dawn-9246.fly.dev
     path: /
+- alterId: 0
+  cipher: auto
+  country: US
+  h2-opts: {}
+  http-opts: {}
+  name: '225,635,636,637,668,671|PP|@Zyw_Channel #13'
+  network: tcp
+  port: 22324
+  server: 162.251.62.115
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: chacha20-poly1305
+  country: US
+  h2-opts: {}
+  http-opts: {}
+  name: '225,820|US202 1016.2KB/s #2'
+  network: ws
+  port: 80
+  server: us.eaxeg.be
+  servername: us.eaxeg.be
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: bded6b7a-efe3-4164-badd-0d9cfab6a072
+  ws-opts:
+    headers:
+      host: us.eaxeg.be
+    path: /XC3c53DiSQ9N70H4Y2aW
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  country: US
+  fingerprint: ''
+  h2-opts: {}
+  http-opts: {}
+  name: '225,354,653,820|未知512 635.0KB/s #1'
+  network: ws
+  port: 443
+  server: 172.67.164.164
+  servername: afrhms07.xfixedfloat.cfd
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: a1655f51-1e20-4a92-8a11-b7ca30a7a353
+  ws-opts:
+    headers:
+      host: afrhms07.xfixedfloat.cfd
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  country: US
+  h2-opts: {}
+  http-opts: {}
+  name: '225,653,820|未知622 3.7MB/s #1'
+  network: ws
+  port: 443
+  server: 172.67.175.56
+  servername: obdii.cfd
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      host: obdii.cfd
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  country: US
+  fingerprint: ''
+  h2-opts: {}
+  http-opts: {}
+  name: 225,354,653|🇺🇸 US 68 → tg@nicevpn123
+  network: ws
+  port: 443
+  server: 172.67.170.13
+  servername: glweidf.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
+  ws-opts:
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  country: US
+  h2-opts: {}
+  http-opts: {}
+  name: '225,653,820|未知599 1.5MB/s #1'
+  network: ws
+  port: 443
+  server: 172.67.71.160
+  servername: obdii.cfd
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      host: obdii.cfd
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  country: US
+  h2-opts: {}
+  http-opts: {}
+  name: '225,361,620,668,755,801,809,820,821|US347 21.8KB/s #2'
+  network: tcp
+  port: '39027'
+  server: 174.136.205.46
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 26419143-8a06-43ab-d58c-bea7b7da8203
+- alterId: 0
+  cipher: auto
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: '225,653,820|未知75 3.7MB/s #1'
+  network: ws
+  port: 443
+  server: 104.21.83.108
+  servername: hms02.fxiaomi.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
+  ws-opts:
+    headers:
+      host: hms02.fxiaomi.sbs
+    path: /link
+- alterId: 0
+  cipher: auto
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: '225|netflix_US #6'
+  network: ws
+  port: 443
+  server: 104.19.32.0
+  servername: xmivideo.cfd
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e
+  ws-opts:
+    headers:
+      HOST: xmivideo.cfd
+    path: /linkws
 - alterId: 0
   cipher: auto
   name: 229|美国3-解锁
@@ -2129,7 +2308,7 @@ proxies:
   name: 321|🇺🇸美国区域1自动运维节点
   network: tcp
   port: '20183'
-  server: QFJVMw.gov.goldliond.top
+  server: LYmlRp.gov.goldliond.top
   tls: false
   type: vmess
   uuid: dff90a14-6c25-4181-9791-0be9131da5a3
@@ -2138,7 +2317,7 @@ proxies:
   name: 321|🇺🇸美国区域2自动运维节点
   network: tcp
   port: '20183'
-  server: ZQqpA7.gov.goldliond.top
+  server: JE0I2q.gov.goldliond.top
   tls: false
   type: vmess
   uuid: dff90a14-6c25-4181-9791-0be9131da5a3
@@ -2147,7 +2326,7 @@ proxies:
   name: 321|🇺🇸美国区域3自动运维节点
   network: tcp
   port: '20183'
-  server: SO4VVY.gov.goldliond.top
+  server: Soa4S1.gov.goldliond.top
   tls: false
   type: vmess
   uuid: dff90a14-6c25-4181-9791-0be9131da5a3
@@ -2156,10 +2335,47 @@ proxies:
   name: 321|🇺🇸美国区域1-三网优化-解锁Netflix/DisneyP...
   network: tcp
   port: '60185'
-  server: eMS15n.gov.goldliond.top
+  server: dpfKpw.gov.goldliond.top
   tls: false
   type: vmess
   uuid: dff90a14-6c25-4181-9791-0be9131da5a3
+- alterId: 0
+  cipher: aes-256-gcm
+  country: 🇸US
+  name: 325,820|US684 1.7MB/s
+  password: g5MeD6Ft3CWlJId
+  port: 5004
+  server: 38.114.114.207
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 325|🇺🇸US_06
+  network: ws
+  port: 443
+  server: 141.147.174.244
+  skip-cert-verify: true
+  type: vmess
+  uuid: 3c5d5534-4b08-4f1a-f8da-f1f9134554f6
+  ws-path: /
+- alterId: 64
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 325|Relay_🇺🇸US-🇺🇸US_07
+  network: ws
+  port: 36000
+  server: 38.33.34.37
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-path: /path/191019072927
 - alterId: 0
   cipher: auto
   name: 352|🆔@LuxyNet💎❖❖US❖7
@@ -7058,7 +7274,7 @@ proxies:
   cipher: auto
   name: '352,361,635,637,668,671,755,801,809|🔒 VM-TCP-NA 🇺🇸 US-129.146.46.1... #5'
   network: tcp
-  port: '52408'
+  port: 52408
   server: 129.146.46.181
   servername: ''
   skip-cert-verify: true
@@ -9178,21 +9394,6 @@ proxies:
     path: /video/GQ2qE5Us9g
 - alterId: 0
   cipher: auto
-  name: '361,362,636,647,656,668,742,743,755,821,855|美国_0624108 #1'
-  network: ws
-  port: '80'
-  server: us.eaxeg.be
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: bded6b7a-efe3-4164-badd-0d9cfab6a072
-  ws-opts:
-    headers:
-      Host: us.eaxeg.be
-    path: /XC3c53DiSQ9N70H4Y2aW
-- alterId: 0
-  cipher: auto
   name: '361,647,656,742,743,755,821,841,849,855|未知_0624128 #1'
   network: ws
   port: '443'
@@ -9220,6 +9421,20 @@ proxies:
     headers:
       Host: sareikela.com
     path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: '361,636,647,656,668,742,743,755,821,841,849,855|美国_0624120 #1'
+  network: ws
+  port: '443'
+  server: zula.ir
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
+  ws-opts:
+    headers:
+      Host: jahfkjha.cfd
+    path: /linkws
 - alterId: 64
   cipher: auto
   name: '361,668|🇺🇸US | 🟢 | vmess | @yaney_01 |... #2'
@@ -9269,7 +9484,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '361,647,668,821,841,849|رایگان | VMESS | @v2Line | NL🇳... #4'
+  name: '361,647,668,821,841,849|رایگان | VMESS | @v2Line | NL🇳... #6'
   network: ws
   port: '443'
   server: caretaker.com
@@ -9311,20 +9526,6 @@ proxies:
     headers:
       Host: hdfy1c1.cpiforpersia.uk
     path: /QvtvPdDXXIlSdZMqnuxG
-- alterId: 0
-  cipher: auto
-  name: '361,636,647,656,668,742,743,755,821,841,849,855|美国_0624120 #1'
-  network: ws
-  port: '443'
-  server: zula.ir
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
-  ws-opts:
-    headers:
-      Host: jahfkjha.cfd
-    path: /linkws
 - alterId: 0
   cipher: auto
   name: '361,372,656,668,742,743,821,855|未知_0624104 #1'
@@ -9537,7 +9738,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 361,362,656,742,743,752,753,801,855,857|未知_0624067
+  name: 361,362,656,742,743,752,753,801,809,855,857|未知_0624067
   network: ws
   port: '80'
   server: 104.19.38.10
@@ -9642,26 +9843,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '361,755,801,809|🔒 VM-TCP-NA 🇺🇸 US-193.238.153.... #3'
-  network: tcp
-  port: '2082'
-  server: 193.238.153.22
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f26beb20-9278-49bc-b72e-7841bc240cf2
-- alterId: 64
-  cipher: auto
-  name: '361,668,755,801|🔒 VM-TCP-NA 🇺🇸 US-107.148.192.... #4'
-  network: tcp
-  port: '41911'
-  server: 107.148.192.148
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
   name: '361,809|🔒 VM-TCP-NA 🇺🇸 US-108.181.200.... #1'
   network: ''
   port: 17163
@@ -9669,89 +9850,6 @@ proxies:
   tls: false
   type: vmess
   uuid: d54814a1-7a93-45f8-9117-db317a25d100
-- alterId: 0
-  cipher: auto
-  name: '361,635,636,637,668,671,755,801,809,820,821|US303 9.9MB/s #3'
-  network: tcp
-  port: '22324'
-  server: 38.75.137.27
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: '361,668,809,820,821|US129 #2'
-  network: ws
-  port: '20043'
-  server: 40.233.82.187
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: d14c6c23-b8f6-48ef-b03b-a557533e344d
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '361,668,755,801,809,820,821|US165 2.1MB/s #2'
-  network: tcp
-  port: '43834'
-  server: 50.114.243.61
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b246e34d-bbd1-4016-8f74-ea461c37e411
-- alterId: 0
-  cipher: auto
-  name: '361,618,636,668,809|🔒 VM-TCP-NA 🇺🇸 US-66.135.3.168... #1'
-  network: tcp
-  port: '44990'
-  server: 66.135.3.168
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 88623615-0713-497a-9233-755a33cc7080
-- alterId: 64
-  cipher: auto
-  name: '361,668,755,809,820,821|US290 N/A/s #2'
-  network: tcp
-  port: '45017'
-  server: 142.0.134.241
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: '361,668,801,809|🔒 VM-WS-TLS 🇺🇸 US-192.3.150.23... #4'
-  network: ws
-  port: 8443
-  server: 192.3.150.233
-  servername: US-150-233.shoptunnel.live
-  tls: true
-  type: vmess
-  uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
-  ws-opts:
-    headers:
-      Host: US-150-233.shoptunnel.live
-    path: /8cda48b3
-- alterId: 0
-  cipher: auto
-  name: '361,635,637,668,755,801,809,820,821|US124 #2'
-  network: tcp
-  port: '42598'
-  server: 129.146.247.135
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 1773b226-0bdb-43c5-87d8-270d26211dda
 - alterId: 64
   cipher: auto
   name: '361,668,801,809|🔒 VM-WS-TLS 🇺🇸 US-38.33.46.89:... #4'
@@ -9764,17 +9862,6 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     path: /path/191019072927
-- alterId: 2
-  cipher: auto
-  name: '361,620,668,809,820,821|US442 #2'
-  network: tcp
-  port: '1233'
-  server: 154.17.2.168
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 40bc7b65-ec8a-3201-a646-c9d1b71091c6
 - alterId: 0
   cipher: auto
   name: '361,620,668,755,809,820,821|US628 1.0MB/s #3'
@@ -9803,6 +9890,20 @@ proxies:
     path: /canada
 - alterId: 0
   cipher: auto
+  name: '361,668,801,809|🔒 VM-WS-TLS 🇺🇸 US-192.3.150.23... #4'
+  network: ws
+  port: 8443
+  server: 192.3.150.233
+  servername: US-150-233.shoptunnel.live
+  tls: true
+  type: vmess
+  uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
+  ws-opts:
+    headers:
+      Host: US-150-233.shoptunnel.live
+    path: /8cda48b3
+- alterId: 0
+  cipher: auto
   name: '361,801,809|🔒 VM-TCP-NONE 🇺🇸 US-62.60.178.... #2'
   network: tcp
   port: 53710
@@ -9810,6 +9911,113 @@ proxies:
   tls: false
   type: vmess
   uuid: eed8159e-38f4-4bf9-f95b-604a1cb20d4a
+- alterId: 0
+  cipher: auto
+  name: '361,668,809,820,821|US129 #2'
+  network: ws
+  port: '20043'
+  server: 40.233.82.187
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: d14c6c23-b8f6-48ef-b03b-a557533e344d
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '361,635,637,668,755,801,809,820,821|US124 #2'
+  network: tcp
+  port: '42598'
+  server: 129.146.247.135
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 1773b226-0bdb-43c5-87d8-270d26211dda
+- alterId: 64
+  cipher: auto
+  country: 🇨CN
+  h2-opts: {}
+  http-opts: {}
+  name: '361,596,636,668,755,820,821|US252 73.6MB/s #3'
+  network: tcp
+  port: '41911'
+  server: 107.148.192.156
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: '361,596,635,636,637,668,671,755,801,809,820,821|US303 9.9MB/s #3'
+  network: tcp
+  port: '22324'
+  server: 38.75.137.27
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 2
+  cipher: auto
+  name: '361,620,668,809,820,821|US442 #2'
+  network: tcp
+  port: '1233'
+  server: 154.17.2.168
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 40bc7b65-ec8a-3201-a646-c9d1b71091c6
+- alterId: 0
+  cipher: auto
+  name: '361,618,636,668,809|🔒 VM-TCP-NA 🇺🇸 US-66.135.3.168... #1'
+  network: tcp
+  port: '44990'
+  server: 66.135.3.168
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 88623615-0713-497a-9233-755a33cc7080
+- alterId: 0
+  cipher: auto
+  name: '361,755,801,809|🔒 VM-TCP-NA 🇺🇸 US-193.238.153.... #3'
+  network: tcp
+  port: '2082'
+  server: 193.238.153.22
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f26beb20-9278-49bc-b72e-7841bc240cf2
+- alterId: 0
+  cipher: auto
+  name: '361,668,755,801,809,820,821|US165 2.1MB/s #2'
+  network: tcp
+  port: '43834'
+  server: 50.114.243.61
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b246e34d-bbd1-4016-8f74-ea461c37e411
+- alterId: 64
+  cipher: auto
+  name: '361,668,755,809,820,821|US290 N/A/s #2'
+  network: tcp
+  port: '45017'
+  server: 142.0.134.241
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: '361,820,821|US215 #2'
@@ -9821,17 +10029,6 @@ proxies:
   tls: false
   type: vmess
   uuid: de08ac99-1f40-4fd5-e2a4-58705f978e73
-- alterId: 64
-  cipher: auto
-  name: '361,636,668,755,809,820,821|US252 73.6MB/s #3'
-  network: tcp
-  port: '41911'
-  server: 107.148.192.156
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: chacha20-poly1305
   grpc-opts:
@@ -9920,7 +10117,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '361,372,636,647,668,841,849|رایگان | VMESS | @ROMAX_VPN | ... #32'
+  name: '361,372,636,647,668,841,849|رایگان | VMESS | @ROMAX_VPN | ... #31'
   network: ws
   port: '80'
   server: speed.cloudflare.com
@@ -9950,7 +10147,7 @@ proxies:
     path: /RACEVPN
 - alterId: 0
   cipher: auto
-  name: 362,656,742,743,855|美国_0624090
+  name: 362,656,742,743,801,855|美国_0624090
   network: ws
   port: '80'
   server: 144.126.145.43
@@ -9979,7 +10176,8 @@ proxies:
     path: /
 - alterId: 0
   cipher: aes-256-gcm
-  name: 362,703,723,820|US367 1.9MB/s
+  country: 🇺🇸US
+  name: 362,596,703,723,820|US367 1.9MB/s
   password: TEzjfAYq2IjtuoS
   port: 6679
   server: 69.50.93.111
@@ -9988,7 +10186,8 @@ proxies:
   type: ss
 - alterId: 0
   cipher: aes-256-gcm
-  name: 362,703,723,820|US557 1.8MB/s
+  country: 🇺🇸US
+  name: 362,596,703,723,820|US557 1.8MB/s
   password: FoOiGlkAA9yPEGP
   port: 7307
   server: 23.157.40.101
@@ -9997,7 +10196,8 @@ proxies:
   type: ss
 - alterId: 0
   cipher: aes-256-gcm
-  name: 362,703,723,820|US325 1.7MB/s
+  country: 🇺🇸US
+  name: 362,596,703,723,820|US325 1.7MB/s
   password: XKFKl2rULjIp74
   port: 8009
   server: 23.157.40.101
@@ -10006,7 +10206,8 @@ proxies:
   type: ss
 - alterId: 0
   cipher: aes-256-gcm
-  name: 362,703,723,820|US182 1.7MB/s
+  country: 🇺🇸US
+  name: 362,596,703,723,820|US182 1.7MB/s
   password: KixLvKzwjekG00rm
   port: 8000
   server: 23.157.40.101
@@ -10015,7 +10216,8 @@ proxies:
   type: ss
 - alterId: 0
   cipher: aes-256-gcm
-  name: 362,703,723,820|US599 1.7MB/s
+  country: 🇺🇸US
+  name: 362,596,703,723,820|US599 1.7MB/s
   password: XKFKl2rULjIp74
   port: 8008
   server: 23.157.40.101
@@ -10344,7 +10546,7 @@ proxies:
     path: /
 - cipher: aes-256-gcm
   country: 🇺🇸US
-  name: 362,597,653|🇺🇸 US 1049 → tg@nicevpn123
+  name: 362,596,597,653|🇺🇸 US 1049 → tg@nicevpn123
   password: kDWvXYZoTBcGkC4
   port: 8882
   server: 38.75.137.42
@@ -10352,7 +10554,8 @@ proxies:
   udp: true
 - alterId: 0
   cipher: aes-256-gcm
-  name: 362,820|US102 1.9MB/s
+  country: 🇺🇸US
+  name: 362,596,820|US102 1.9MB/s
   password: PCnnH6SQSnfoS27
   port: 8091
   server: 38.110.1.51
@@ -10540,7 +10743,8 @@ proxies:
   udp: true
 - alterId: 0
   cipher: aes-256-gcm
-  name: 362,653,820|US545 1.9MB/s
+  country: 🇺🇸US
+  name: 362,596,653,820|US545 1.9MB/s
   password: e4FCWrgpkji3QY
   port: 9101
   server: 38.121.43.142
@@ -10561,7 +10765,7 @@ proxies:
 - alterId: 0
   cipher: aes-256-gcm
   country: 🇺🇸US
-  name: 362,597,653,820|US455 1.9MB/s
+  name: 362,596,597,653,820|US455 1.9MB/s
   password: faBAoD54k87UJG7
   port: 2375
   server: 38.121.43.65
@@ -10821,7 +11025,8 @@ proxies:
   type: ss
 - alterId: 0
   cipher: aes-256-gcm
-  name: 362,820|US597 1.9MB/s
+  country: 🇺🇸US
+  name: 362,596,820|US597 1.9MB/s
   password: Y6R9pAtvxxzmGC
   port: 8888
   server: 38.68.135.18
@@ -10870,7 +11075,8 @@ proxies:
   udp: true
 - alterId: 0
   cipher: aes-256-gcm
-  name: 362,820|US293 1.9MB/s
+  country: 🇺🇸US
+  name: 362,596,820|US293 1.9MB/s
   password: RexnBgU7EV5ADxG
   port: 7002
   server: 38.68.135.18
@@ -10897,7 +11103,8 @@ proxies:
   tls: true
   type: ss
 - cipher: aes-256-gcm
-  name: 362|🇸US-38.114.114.225-1946
+  country: 🇺🇸US
+  name: 362,596|🇺🇸US_87 |62.06Mb
   password: e4FCWrgpkji3QY
   port: 9102
   server: 38.114.114.225
@@ -13026,7 +13233,8 @@ proxies:
   udp: true
 - alterId: 0
   cipher: aes-256-gcm
-  name: 362,653,820|US602 1.9MB/s
+  country: 🇺🇸US
+  name: 362,596,653,820|US602 1.9MB/s
   password: Y6R9pAtvxxzmGC
   port: 3306
   server: 38.68.134.9
@@ -16560,7 +16768,8 @@ proxies:
   type: ss
 - alterId: 0
   cipher: aes-256-gcm
-  name: 362,653,820|US663 1.9MB/s
+  country: 🇺🇸US
+  name: 362,596,653,820|US663 1.9MB/s
   password: RexnBgU7EV5ADxG
   port: 7002
   server: 38.75.136.21
@@ -17141,7 +17350,8 @@ proxies:
   type: ss
 - alterId: 0
   cipher: aes-256-gcm
-  name: 362,653,820|US447 1.9MB/s
+  country: 🇺🇸US
+  name: 362,596,653,820|US447 1.9MB/s
   password: TEzjfAYq2IjtuoS
   port: 6697
   server: 38.143.66.87
@@ -18424,6 +18634,41 @@ proxies:
     headers:
       Host: 01b23063ec8171adee9193aa64ab2560.mobgslb.tbcache.com
     path: /
+- cipher: aes-128-gcm
+  name: 536|🇺🇸 United States01
+  password: a4ada9c4-7c5d-5e4c-864e-9a6399ee0a82
+  port: 47161
+  server: usm1.cdn.housenetworkmp3.xyz
+  type: ss
+  udp: false
+- cipher: aes-128-gcm
+  name: 536|🇺🇸 United States02
+  password: a4ada9c4-7c5d-5e4c-864e-9a6399ee0a82
+  port: 47162
+  server: usm1.cdn.housenetworkmp3.xyz
+  type: ss
+  udp: false
+- cipher: aes-128-gcm
+  name: 536|🇺🇸 United States03
+  password: a4ada9c4-7c5d-5e4c-864e-9a6399ee0a82
+  port: 47163
+  server: usm1.cdn.housenetworkmp3.xyz
+  type: ss
+  udp: false
+- cipher: aes-128-gcm
+  name: 536|🇺🇸 United States04
+  password: a4ada9c4-7c5d-5e4c-864e-9a6399ee0a82
+  port: 47164
+  server: usm1.cdn.housenetworkmp3.xyz
+  type: ss
+  udp: false
+- cipher: aes-128-gcm
+  name: 536|🇺🇸 United States05
+  password: a4ada9c4-7c5d-5e4c-864e-9a6399ee0a82
+  port: 47165
+  server: usm1.cdn.housenetworkmp3.xyz
+  type: ss
+  udp: false
 - alterId: 0
   cipher: auto
   name: 552|🇺🇸 美国龙虾 03-CF
@@ -19021,13 +19266,463 @@ proxies:
     headers:
       Host: hxgmnz.freefly.pp.ua
     path: /
+- alterId: 0
+  cipher: aes-256-gcm
+  country: 🇸US
+  name: 596,653,820|US670 1.8MB/s
+  password: TEzjfAYq2IjtuoS
+  port: 6697
+  server: 38.86.135.225
+  skip-cert-verify: true
+  tls: true
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 596,820|US614 1.6MB/s
+  password: Y6R9pAtvxxzmGC
+  port: 3389
+  server: 38.75.137.139
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 596,653|🇺🇸 US 1344 → tg@nicevpn123
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  server: 38.114.114.208
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 596,653|🇺🇸 US 890 → tg@nicevpn123
+  password: PCnnH6SQSnfoS27
+  port: 8091
+  server: 38.114.114.208
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 596|🇸US_74 |62.48Mb
+  password: e4FCWrgpkji3QY
+  port: 9102
+  server: 38.114.114.208
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 596,653|🇺🇸 US 779 → tg@nicevpn123
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 38.114.114.208
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 596,653|🇺🇸 US 501 → tg@nicevpn123
+  password: Y6R9pAtvxxzmGC
+  port: 9090
+  server: 38.114.114.208
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 596|🇺🇸US_80 |62.14Mb
+  password: lGqs95QkFHo2NV
+  port: 5499
+  server: 38.114.114.208
+  type: ss
+- alterId: 0
+  cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 596,820|US641 1.8MB/s
+  password: lGqs95QkFHo2NV
+  port: 5498
+  server: 38.86.135.31
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 596,820|US540 1.7MB/s
+  password: Y6R9pAtvxxzmGC
+  port: 5601
+  server: 23.157.40.119
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 596,820|US451 1.6MB/s
+  password: g5MeD6Ft3CWlJId
+  port: 5004
+  server: 23.157.40.19
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 596,653|🇺🇸 US 1698 → tg@nicevpn123
+  password: Y6R9pAtvxxzmGC
+  port: 3389
+  server: 38.114.114.208
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 596,820|US376 1.4MB/s
+  password: Y6R9pAtvxxzmGC
+  port: 5001
+  server: 23.157.40.120
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 596,820|US691 1.7MB/s
+  password: e4FCWrgpkji3QY
+  port: 9102
+  server: 23.157.40.89
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 596,820|US397 1.7MB/s
+  password: Y6R9pAtvxxzmGC
+  port: 5000
+  server: 38.114.114.207
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 596,820|US636 1.6MB/s
+  password: Y6R9pAtvxxzmGC
+  port: 5600
+  server: 23.157.40.89
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 596,820|US326 1.7MB/s
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 23.157.40.89
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: aes-256-gcm
+  country: 🇸US
+  name: 596,820|US284 1.7MB/s
+  password: FoOiGlkAA9yPEGP
+  port: 7307
+  server: 38.114.114.183
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 596,820|US259 1.7MB/s
+  password: Y6R9pAtvxxzmGC
+  port: 3389
+  server: 23.157.40.120
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 596,597,653,820|US558 1.7MB/s
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 38.75.137.93
+  skip-cert-verify: true
+  tls: true
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 596,820|US512 1.6MB/s
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 23.157.40.120
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 596,653|🇺🇸 US 1523 → tg@nicevpn123
+  password: XKFKl2rULjIp74
+  port: 8008
+  server: 38.114.114.208
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 596,820|US571 1.7MB/s
+  password: lGqs95QkFHo2NV
+  port: 5498
+  server: 23.157.40.89
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 596,820|US600 1.9MB/s
+  password: KixLvKzwjekG00rm
+  port: 8000
+  server: 38.68.135.18
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 596,653,820|US36 1.7MB/s
+  password: PCnnH6SQSnfoS27
+  port: 8091
+  server: 23.157.40.87
+  skip-cert-verify: true
+  tls: true
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 596|🇺🇸US_110 | 7.81Mb
+  password: TEzjfAYq2IjtuoS
+  port: 6697
+  server: 15.204.87.217
+  type: ss
+- alterId: 0
+  cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 596,820|US312 1.7MB/s
+  password: pKEW8JPByTVTLtM
+  port: 443
+  server: 23.157.40.120
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 596,653,820|US75 1.6MB/s
+  password: zDNVedRFPQexG9v
+  port: 445
+  server: 23.157.40.89
+  skip-cert-verify: true
+  tls: true
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 596,820|US45 2.0MB/s
+  password: pKEW8JPByTVTLtM
+  port: 443
+  server: 15.204.87.222
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 596,653,820|US298 1.7MB/s
+  password: g5MeD6Ft3CWlJId
+  port: 5004
+  server: 23.157.40.89
+  skip-cert-verify: true
+  tls: true
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 596,820|US283 1.6MB/s
+  password: RexnBgU7EV5ADxG
+  port: 7002
+  server: 15.204.87.222
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 596,597,820|US625 1.7MB/s
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 38.75.137.93
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 596,820|US608 1.7MB/s
+  password: XKFKl2rULjIp74
+  port: 8008
+  server: 23.157.40.120
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 596,820|US500 1.6MB/s
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 23.157.40.89
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 596,820|US528 1.9MB/s
+  password: pKEW8JPByTVTLtM
+  port: 443
+  server: 142.202.48.43
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 596,820|US244 1.9MB/s
+  password: zDNVedRFPQexG9v
+  port: 445
+  server: 38.86.135.31
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 596,820|US322 1.7MB/s
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 23.157.40.89
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇺🇸US
+  name: '596,597,604,824,825|I0QwOUIvQVMxNzQ6IFVuaXRlZCBTdG... #1'
+  obfs: plain
+  obfs-param: ''
+  password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D
+  port: '8097'
+  protocol: origin
+  protocol-param: ''
+  server: 192.240.99.182
+  type: ssr
+- alterId: 64
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: '596,656,742,743,855|美国_0624281 #1'
+  network: ws
+  port: '38001'
+  server: 192.74.240.231
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/191019072927
+- alterId: 64
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 596,768|0|-https://t.me/MrXbin-92
+  network: ws
+  port: 30000
+  server: 107.167.20.178
+  servername: www.15314695.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    path: /path/191019072927
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 596|🇸US_143 |53.26Mb
+  network: ws
+  port: 443
+  server: tgju.org
+  servername: connect.sleepingjempa.ir
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 6ff9afb4-e8e6-4b82-aa4c-7e14f972e39a
+  ws-opts:
+    headers:
+      HOST: connect.sleepingjempa.ir
+    path: /10001
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 596,653|🇬🇧 GB 25 → tg@nicevpn123
+  network: ws
+  port: 80
+  server: 213.35.113.150
+  servername: dl.kgvn.garenanow.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: eaf5e01b-f27d-44cf-94ae-87196143eef9
+  ws-opts:
+    path: /
 - cipher: aes-256-gcm
   country: 🇸US
-  name: 597|🇸US_131
+  name: 597|🇸US_129
   password: faBAoD54k87UJG7
   port: 2376
   server: 38.75.137.93
   type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 597,653|🇺🇸 US 1633 → tg@nicevpn123
+  password: zDNVedRFPQexG9v
+  port: 6379
+  server: 38.75.136.33
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 597,653|🇺🇸 US 682 → tg@nicevpn123
+  password: kDWvXYZoTBcGkC4
+  port: 8881
+  server: 38.75.137.42
+  type: ss
+  udp: true
 - alterId: 0
   cipher: aes-256-gcm
   country: 🇺🇸US
@@ -19035,6 +19730,61 @@ proxies:
   password: faBAoD54k87UJG7
   port: 2375
   server: 38.75.136.33
+  skip-cert-verify: true
+  tls: true
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 597,653,820|US428 1.7MB/s
+  password: RexnBgU7EV5ADxG
+  port: 7002
+  server: 38.75.137.42
+  skip-cert-verify: true
+  tls: true
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 597|🇸US_153
+  password: zDNVedRFPQexG9v
+  port: 6379
+  server: 38.75.137.93
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 597|🇺🇸US_154
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 38.75.137.42
+  type: ss
+- alterId: 0
+  cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 597,653,820|US206 1.7MB/s
+  password: e4FCWrgpkji3QY
+  port: 9101
+  server: 38.75.137.105
+  skip-cert-verify: true
+  tls: true
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 597,653|🇺🇸 US 1188 → tg@nicevpn123
+  password: XKFKl2rULjIp74
+  port: 8008
+  server: 38.75.137.93
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 597,653,820|US647 1.7MB/s
+  password: kDWvXYZoTBcGkC4
+  port: 8881
+  server: 38.75.137.105
   skip-cert-verify: true
   tls: true
   type: ss
@@ -19052,104 +19802,29 @@ proxies:
   udp: true
 - cipher: aes-256-gcm
   country: 🇺🇸US
-  name: 597,653|🇺🇸 US 1685 → tg@nicevpn123
-  password: KixLvKzwjekG00rm
-  port: 8000
-  server: 38.75.137.42
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 597,653,820|US647 1.7MB/s
-  password: kDWvXYZoTBcGkC4
-  port: 8881
-  server: 38.75.137.105
-  skip-cert-verify: true
-  tls: true
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 597,653|🇺🇸 US 682 → tg@nicevpn123
-  password: kDWvXYZoTBcGkC4
-  port: 8881
-  server: 38.75.137.42
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 597,653|🇺🇸 US 1188 → tg@nicevpn123
-  password: XKFKl2rULjIp74
-  port: 8008
-  server: 38.75.137.93
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 597|🇺🇸US_162
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 38.75.137.42
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 597,653|🇺🇸 US 242 → tg@nicevpn123
-  password: FoOiGlkAA9yPEGP
-  port: 7306
-  server: 38.75.136.33
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 597,653|🇺🇸 US 1633 → tg@nicevpn123
-  password: zDNVedRFPQexG9v
-  port: 6379
-  server: 38.75.136.33
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 597,653,820|US73 1.6MB/s
-  password: TEzjfAYq2IjtuoS
-  port: 6697
-  server: 38.75.136.33
-  skip-cert-verify: true
-  tls: true
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 597|🇺🇸US_166
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 38.75.136.33
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 597,653|🇺🇸 US 152 → tg@nicevpn123
-  password: cdBIDV42DCwnfIN
-  port: 8118
-  server: 38.75.136.33
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 597|🇺🇸US_168
-  password: zDNVedRFPQexG9v
-  port: 6379
-  server: 38.75.137.93
-  type: ss
-- alterId: 0
-  cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 597,653,820|US206 1.7MB/s
+  name: 597,653|🇺🇸 US 1568 → tg@nicevpn123
   password: e4FCWrgpkji3QY
-  port: 9101
-  server: 38.75.137.105
+  port: 9102
+  server: 38.75.137.93
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 597,653,820|US629 1.9MB/s
+  password: Y6R9pAtvxxzmGC
+  port: 5001
+  server: 38.75.136.33
   skip-cert-verify: true
   tls: true
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 597,653|🇺🇸 US 611 → tg@nicevpn123
+  password: Y6R9pAtvxxzmGC
+  port: 3389
+  server: 38.75.137.93
   type: ss
   udp: true
 - alterId: 0
@@ -19166,9 +19841,49 @@ proxies:
 - alterId: 0
   cipher: aes-256-gcm
   country: 🇺🇸US
-  name: 597,653,820|US476 1.6MB/s
-  password: zDNVedRFPQexG9v
-  port: 6379
+  name: 597,653,820|US548 1.6MB/s
+  password: cdBIDV42DCwnfIN
+  port: 8119
+  server: 38.75.136.33
+  skip-cert-verify: true
+  tls: true
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 597,653,820|US234 1.7MB/s
+  password: Y6R9pAtvxxzmGC
+  port: 5601
+  server: 38.75.137.93
+  skip-cert-verify: true
+  tls: true
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 597,653,820|US311 1.6MB/s
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 38.75.136.33
+  skip-cert-verify: true
+  tls: true
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 597|🇺🇸US_167
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 38.75.136.33
+  type: ss
+- alterId: 0
+  cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 597,653,820|US680 1.7MB/s
+  password: TEzjfAYq2IjtuoS
+  port: 6697
   server: 38.75.137.105
   skip-cert-verify: true
   tls: true
@@ -19196,35 +19911,6 @@ proxies:
 - alterId: 0
   cipher: aes-256-gcm
   country: 🇺🇸US
-  name: 597,820|US625 1.7MB/s
-  password: faBAoD54k87UJG7
-  port: 2375
-  server: 38.75.137.93
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 597,653,820|US680 1.7MB/s
-  password: TEzjfAYq2IjtuoS
-  port: 6697
-  server: 38.75.137.105
-  skip-cert-verify: true
-  tls: true
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 597,653|🇺🇸 US 1750 → tg@nicevpn123
-  password: faBAoD54k87UJG7
-  port: 2375
-  server: 38.75.137.42
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: aes-256-gcm
-  country: 🇺🇸US
   name: 597,653,820|US178 1.6MB/s
   password: Y6R9pAtvxxzmGC
   port: 5600
@@ -19236,134 +19922,13 @@ proxies:
 - alterId: 0
   cipher: aes-256-gcm
   country: 🇺🇸US
-  name: 597,653,820|US80 1.8MB/s
+  name: 597,820|US468 1.7MB/s
   password: KixLvKzwjekG00rm
-  port: 8080
-  server: 38.75.137.42
-  skip-cert-verify: true
-  tls: true
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 597|🇺🇸US_181
-  password: cdBIDV42DCwnfIN
-  port: 8119
-  server: 38.75.137.105
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 597,653|🇺🇸 US 1776 → tg@nicevpn123
-  password: XKFKl2rULjIp74
-  port: 8009
-  server: 38.75.137.93
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 597,653,820|US629 1.9MB/s
-  password: Y6R9pAtvxxzmGC
-  port: 5001
-  server: 38.75.136.33
-  skip-cert-verify: true
-  tls: true
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 597,653|🇺🇸 US 1323 → tg@nicevpn123
-  password: e4FCWrgpkji3QY
-  port: 9101
-  server: 38.75.137.93
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 597,653,820|US558 1.7MB/s
-  password: g5MeD6Ft3CWlJId
-  port: 5003
+  port: 5500
   server: 38.75.137.93
   skip-cert-verify: true
   tls: true
   type: ss
-  udp: true
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 597,653|🇺🇸 US 611 → tg@nicevpn123
-  password: Y6R9pAtvxxzmGC
-  port: 3389
-  server: 38.75.137.93
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 597,653|🇺🇸 US 1568 → tg@nicevpn123
-  password: e4FCWrgpkji3QY
-  port: 9102
-  server: 38.75.137.93
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 597,653,820|US281 1.7MB/s
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  server: 38.75.137.93
-  skip-cert-verify: true
-  tls: true
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 597,653|🇺🇸 US 812 → tg@nicevpn123
-  password: Y6R9pAtvxxzmGC
-  port: 3389
-  server: 38.75.137.105
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 597,820|US226 1.7MB/s
-  password: PCnnH6SQSnfoS27
-  port: 8091
-  server: 38.75.137.93
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 597,653,820|US428 1.7MB/s
-  password: RexnBgU7EV5ADxG
-  port: 7002
-  server: 38.75.137.42
-  skip-cert-verify: true
-  tls: true
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 597,653|🇺🇸 US 916 → tg@nicevpn123
-  password: Y6R9pAtvxxzmGC
-  port: 5001
-  server: 38.75.137.93
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 597,653,820|US234 1.7MB/s
-  password: Y6R9pAtvxxzmGC
-  port: 5601
-  server: 38.75.137.93
-  skip-cert-verify: true
-  tls: true
-  type: ss
-  udp: true
 - cipher: aes-256-gcm
   country: 🇺🇸US
   name: 597,653|🇺🇸 US 253 → tg@nicevpn123
@@ -19383,48 +19948,37 @@ proxies:
   tls: true
   type: ss
   udp: true
-- alterId: 0
-  cipher: aes-256-gcm
+- cipher: aes-256-gcm
   country: 🇺🇸US
-  name: 597,820|US468 1.7MB/s
-  password: KixLvKzwjekG00rm
-  port: 5500
-  server: 38.75.137.93
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 597,820|US521 1.9MB/s
+  name: 597,653|🇺🇸 US 812 → tg@nicevpn123
   password: Y6R9pAtvxxzmGC
-  port: 5600
-  server: 38.75.136.33
-  skip-cert-verify: true
-  tls: true
+  port: 3389
+  server: 38.75.137.105
   type: ss
-- alterId: 0
-  cipher: aes-256-gcm
+  udp: true
+- cipher: aes-256-gcm
   country: 🇺🇸US
-  name: 597,653,820|US554 1.6MB/s
-  password: cdBIDV42DCwnfIN
-  port: 8119
+  name: 597,653|🇺🇸 US 1685 → tg@nicevpn123
+  password: KixLvKzwjekG00rm
+  port: 8000
+  server: 38.75.137.42
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 597,653|🇺🇸 US 916 → tg@nicevpn123
+  password: Y6R9pAtvxxzmGC
+  port: 5001
   server: 38.75.137.93
-  skip-cert-verify: true
-  tls: true
   type: ss
   udp: true
-- alterId: 0
-  cipher: aes-256-gcm
+- cipher: aes-256-gcm
   country: 🇺🇸US
-  name: 597,653,820|US498 1.6MB/s
-  password: TEzjfAYq2IjtuoS
-  port: 6679
+  name: 597|🇺🇸US_184
+  password: kDWvXYZoTBcGkC4
+  port: 8882
   server: 38.75.136.33
-  skip-cert-verify: true
-  tls: true
   type: ss
-  udp: true
 - alterId: 0
   cipher: aes-256-gcm
   country: 🇺🇸US
@@ -19447,34 +20001,39 @@ proxies:
 - alterId: 0
   cipher: aes-256-gcm
   country: 🇺🇸US
-  name: 597,653,820|US28 1.7MB/s
-  password: faBAoD54k87UJG7
-  port: 2376
+  name: 597,653,820|US73 1.6MB/s
+  password: TEzjfAYq2IjtuoS
+  port: 6697
   server: 38.75.136.33
   skip-cert-verify: true
   tls: true
   type: ss
   udp: true
-- alterId: 0
-  cipher: aes-256-gcm
+- cipher: aes-256-gcm
   country: 🇺🇸US
-  name: 597,653,820|US311 1.6MB/s
-  password: g5MeD6Ft3CWlJId
-  port: 5003
+  name: 597,653|🇺🇸 US 242 → tg@nicevpn123
+  password: FoOiGlkAA9yPEGP
+  port: 7306
   server: 38.75.136.33
-  skip-cert-verify: true
-  tls: true
   type: ss
   udp: true
 - alterId: 0
   cipher: aes-256-gcm
   country: 🇺🇸US
-  name: 597,653,820|US548 1.6MB/s
+  name: 597,653,820|US498 1.6MB/s
+  password: TEzjfAYq2IjtuoS
+  port: 6679
+  server: 38.75.136.33
+  skip-cert-verify: true
+  tls: true
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 597,653|🇺🇸 US 152 → tg@nicevpn123
   password: cdBIDV42DCwnfIN
-  port: 8119
+  port: 8118
   server: 38.75.136.33
-  skip-cert-verify: true
-  tls: true
   type: ss
   udp: true
 - alterId: 0
@@ -19488,22 +20047,110 @@ proxies:
   tls: true
   type: ss
   udp: true
-- cipher: aes-256-gcm
+- alterId: 0
+  cipher: aes-256-gcm
   country: 🇺🇸US
-  name: 597|🇺🇸US_210
-  password: KixLvKzwjekG00rm
-  port: 8080
+  name: 597,653,820|US28 1.7MB/s
+  password: faBAoD54k87UJG7
+  port: 2376
   server: 38.75.136.33
+  skip-cert-verify: true
+  tls: true
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 597,820|US521 1.9MB/s
+  password: Y6R9pAtvxxzmGC
+  port: 5600
+  server: 38.75.136.33
+  skip-cert-verify: true
+  tls: true
   type: ss
 - alterId: 0
   cipher: aes-256-gcm
   country: 🇺🇸US
-  name: 597,653,820|US95 1.8MB/s
+  name: 597,653,820|US80 1.8MB/s
   password: KixLvKzwjekG00rm
   port: 8080
-  server: 38.121.43.65
+  server: 38.75.137.42
   skip-cert-verify: true
   tls: true
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 597,820|US226 1.7MB/s
+  password: PCnnH6SQSnfoS27
+  port: 8091
+  server: 38.75.137.93
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 597|🇺🇸US_198
+  password: cdBIDV42DCwnfIN
+  port: 8119
+  server: 38.75.137.105
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 597,653|🇺🇸 US 1750 → tg@nicevpn123
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 38.75.137.42
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 597,653,820|US476 1.6MB/s
+  password: zDNVedRFPQexG9v
+  port: 6379
+  server: 38.75.137.105
+  skip-cert-verify: true
+  tls: true
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 597,653,820|US281 1.7MB/s
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 38.75.137.93
+  skip-cert-verify: true
+  tls: true
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 597,653,820|US554 1.6MB/s
+  password: cdBIDV42DCwnfIN
+  port: 8119
+  server: 38.75.137.93
+  skip-cert-verify: true
+  tls: true
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 597,653|🇺🇸 US 1776 → tg@nicevpn123
+  password: XKFKl2rULjIp74
+  port: 8009
+  server: 38.75.137.93
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 597,653|🇺🇸 US 1323 → tg@nicevpn123
+  password: e4FCWrgpkji3QY
+  port: 9101
+  server: 38.75.137.93
   type: ss
   udp: true
 - alterId: 0
@@ -19516,22 +20163,23 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸US
-  name: 597|🇺🇸US_216
-  password: Y6R9pAtvxxzmGC
-  port: 8888
-  server: 38.121.43.65
-  type: ss
 - alterId: 0
   cipher: aes-256-gcm
   country: 🇺🇸US
-  name: 597,820|US569 1.9MB/s
-  password: faBAoD54k87UJG7
-  port: 2375
-  server: 142.202.48.43
+  name: 597,653,820|US95 1.8MB/s
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 38.121.43.65
   skip-cert-verify: true
   tls: true
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 597|🇺🇸US_214
+  password: Y6R9pAtvxxzmGC
+  port: 8888
+  server: 38.121.43.65
   type: ss
 - alterId: 0
   cipher: aes-256-gcm
@@ -19543,32 +20191,24 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: ss
-- cipher: chacha20-ietf-poly1305
+- alterId: 0
+  cipher: aes-256-gcm
   country: 🇺🇸US
-  name: 597,604|Relay_🇸US-🇳NL_123
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 45.158.171.66
+  name: 597,820|US569 1.9MB/s
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 142.202.48.43
+  skip-cert-verify: true
+  tls: true
   type: ss
 - cipher: aes-192-ctr
   country: 🇸US
-  name: 597|Relay_🇺🇸US-🇸US_228
+  name: 597|Relay_🇺🇸US-🇸US_225
   obfs: tls1.2_ticket_auth
   password: JUBXCP
   port: 19155
   protocol: auth_sha1_v4
   server: us.linode.rbqis.me
-  type: ssr
-- cipher: aes-256-cfb
-  country: 🇺🇸US
-  name: '597,604,824,825|I0QwOUIvQVMxNzQ6IFVuaXRlZCBTdG... #1'
-  obfs: plain
-  obfs-param: ''
-  password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D
-  port: '8097'
-  protocol: origin
-  protocol-param: ''
-  server: 192.240.99.182
   type: ssr
 - alterId: 0
   cipher: auto
@@ -21325,7 +21965,7 @@ proxies:
     path: /ray
 - alterId: 32
   cipher: auto
-  name: '628|🇺🇸US_175 #1'
+  name: 628|🇺🇸US_175
   network: tcp
   port: 443
   server: 51.81.223.36
@@ -21400,7 +22040,7 @@ proxies:
   uuid: c0156451-4efb-45e2-84fc-8d315c4650db
 - alterId: 32
   cipher: auto
-  name: 628|🇺🇸US_170
+  name: '628|🇺🇸US_170 #1'
   network: tcp
   port: 443
   server: 51.81.223.13
@@ -21432,7 +22072,7 @@ proxies:
   uuid: c0156451-4efb-45e2-84fc-8d315c4650db
 - alterId: 0
   cipher: auto
-  name: '628,682|未命名 #299'
+  name: '628,682|未命名 #281'
   network: ws
   port: 443
   server: vfly1.win
@@ -21455,7 +22095,7 @@ proxies:
   uuid: 39a1dff4-9c7d-487b-9917-2f2c8e9572f2
 - alterId: 32
   cipher: auto
-  name: '628|🇺🇸US_172 #1'
+  name: 628|🇺🇸US_172
   network: tcp
   port: 443
   server: 51.81.223.12
@@ -27689,19 +28329,6 @@ proxies:
   tls: true
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 653|🇺🇸 US 1129 → tg@nicevpn123
-  network: ws
-  port: 8080
-  server: 172.67.185.64
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    path: /
 - name: 653|🇺🇸 US 113 → tg@nicevpn123
   network: ws
   password: 8380da47-5632-4b0a-8047-b0939f797112
@@ -29771,6 +30398,19 @@ proxies:
   ws-opts:
     path: /ws?ed=2048
 - alterId: 0
+  cipher: auto
+  name: 653|🇺🇸 US 1336 → tg@nicevpn123
+  network: ws
+  port: 443
+  server: 172.67.207.26
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
+  ws-opts:
+    path: /linkws
+- alterId: 0
   cipher: aes-256-gcm
   name: 653,820|US665 1.9MB/s
   password: RexnBgU7EV5ADxG
@@ -29858,13 +30498,6 @@ proxies:
     headers:
       Host: fr1.test3.net
     path: '%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252Fhowdy'
-- cipher: aes-256-gcm
-  name: 653|🇺🇸 US 1344 → tg@nicevpn123
-  password: FoOiGlkAA9yPEGP
-  port: 7306
-  server: 38.114.114.208
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   name: 653|🇺🇸 US 1345 → tg@nicevpn123
@@ -31599,13 +32232,6 @@ proxies:
   uuid: df208a40-27f1-4ff4-e54a-ee0c6782f019
   ws-opts:
     path: /er208a4028472
-- cipher: aes-256-gcm
-  name: 653|🇺🇸 US 1523 → tg@nicevpn123
-  password: XKFKl2rULjIp74
-  port: 8008
-  server: 38.114.114.208
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   name: 653|🇺🇸 US 1524 → tg@nicevpn123
@@ -33161,13 +33787,6 @@ proxies:
   uuid: 7a737f41-b792-4260-94ff-3d864da67b80
   ws-opts:
     path: /
-- cipher: aes-256-gcm
-  name: 653|🇺🇸 US 1698 → tg@nicevpn123
-  password: Y6R9pAtvxxzmGC
-  port: 3389
-  server: 38.114.114.208
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   name: 653|🇺🇸 US 1699 → tg@nicevpn123
@@ -37565,16 +38184,6 @@ proxies:
   ws-opts:
     path: /
 - alterId: 0
-  cipher: aes-256-gcm
-  name: 653,820|US670 1.8MB/s
-  password: TEzjfAYq2IjtuoS
-  port: 6697
-  server: 38.86.135.225
-  skip-cert-verify: true
-  tls: true
-  type: ss
-  udp: true
-- alterId: 0
   cipher: auto
   name: 653|🇺🇸 US 271 → tg@nicevpn123
   network: ws
@@ -39553,13 +40162,6 @@ proxies:
   password: ba89b12a-b50b-45a1-ba6b-0181f24fd68b
   port: 30314
   server: shct.pkyun.xyz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 653|🇺🇸 US 501 → tg@nicevpn123
-  password: Y6R9pAtvxxzmGC
-  port: 9090
-  server: 38.114.114.208
   type: ss
   udp: true
 - alterId: 0
@@ -42206,13 +42808,6 @@ proxies:
     headers:
       Host: us2.laobideng.xyz
     path: /
-- cipher: aes-256-gcm
-  name: 653|🇺🇸 US 779 → tg@nicevpn123
-  password: KixLvKzwjekG00rm
-  port: 8080
-  server: 38.114.114.208
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   grpc-opts:
@@ -43447,13 +44042,6 @@ proxies:
   tls: true
   type: ss
   udp: true
-- cipher: aes-256-gcm
-  name: 653|🇺🇸 US 890 → tg@nicevpn123
-  password: PCnnH6SQSnfoS27
-  port: 8091
-  server: 38.114.114.208
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   name: 653|🇺🇸 US 891 → tg@nicevpn123
@@ -44167,9 +44755,9 @@ proxies:
     path: '%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252Fwebsocket'
 - alterId: 0
   cipher: auto
-  name: '653,668,801|🔒 VM-WS-NA 🇺🇸 US-155.138.242.2... #4'
+  name: 653,668|(S2) - E•A 63
   network: ws
-  port: 80
+  port: '80'
   server: 155.138.242.207
   servername: ''
   skip-cert-verify: true
@@ -45061,20 +45649,6 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: '656,742,743,855|美国_0624281 #1'
-  network: ws
-  port: '38001'
-  server: 192.74.240.231
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: ''
-    path: /path/191019072927
-- alterId: 64
-  cipher: auto
   name: '656,742,743,855|美国_0624282 #1'
   network: ws
   port: '38001'
@@ -45431,6 +46005,16 @@ proxies:
     headers:
       Host: oiictw.yydsii.com
     path: /?ed=2048&Telegram🇨🇳 @WangCai2
+- alterId: 64
+  cipher: auto
+  name: '668,755,801,809|🔒 VM-TCP-NA 🇺🇸 US-107.148.192.... #5'
+  network: tcp
+  port: '41911'
+  server: 107.148.192.148
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: '668|🔒 VM-WS-NA 🏴‍☠️ NA-104.16.148.... #1'
@@ -52431,15 +53015,6 @@ proxies:
   type: ss
 - alterId: 0
   cipher: aes-256-gcm
-  name: 820|US45 2.0MB/s
-  password: pKEW8JPByTVTLtM
-  port: 443
-  server: 15.204.87.222
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: aes-256-gcm
   name: 820|US49 1.8MB/s
   password: Y6R9pAtvxxzmGC
   port: 3306
@@ -52975,15 +53550,6 @@ proxies:
   type: ss
 - alterId: 0
   cipher: aes-256-gcm
-  name: 820|🇺🇸US美国14 1.8MB/s
-  password: pKEW8JPByTVTLtM
-  port: 443
-  server: 23.162.200.133
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: aes-256-gcm
   name: 820|US170 1.9MB/s
   password: RexnBgU7EV5ADxG
   port: 7001
@@ -53039,15 +53605,6 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- alterId: 0
-  cipher: aes-256-gcm
-  name: 820|US181 1.9MB/s
-  password: TEzjfAYq2IjtuoS
-  port: 6679
-  server: 23.154.136.148
-  skip-cert-verify: true
-  tls: true
-  type: ss
 - alterId: 0
   cipher: aes-256-gcm
   name: 820|US183 1.6MB/s
@@ -53317,15 +53874,6 @@ proxies:
   type: ss
 - alterId: 0
   cipher: aes-256-gcm
-  name: 820|US244 1.9MB/s
-  password: zDNVedRFPQexG9v
-  port: 445
-  server: 38.86.135.31
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: aes-256-gcm
   name: 820|US246 1.7MB/s
   password: Y6R9pAtvxxzmGC
   port: 5601
@@ -53357,15 +53905,6 @@ proxies:
   password: e4FCWrgpkji3QY
   port: 9101
   server: 38.86.135.117
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: aes-256-gcm
-  name: 820|US259 1.7MB/s
-  password: Y6R9pAtvxxzmGC
-  port: 3389
-  server: 23.157.40.120
   skip-cert-verify: true
   tls: true
   type: ss
@@ -53494,24 +54033,6 @@ proxies:
   type: ss
 - alterId: 0
   cipher: aes-256-gcm
-  name: 820|US283 1.6MB/s
-  password: RexnBgU7EV5ADxG
-  port: 7002
-  server: 15.204.87.222
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: aes-256-gcm
-  name: 820|US284 1.7MB/s
-  password: FoOiGlkAA9yPEGP
-  port: 7307
-  server: 38.114.114.183
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: aes-256-gcm
   name: 820|US285 1.1MB/s
   password: e4FCWrgpkji3QY
   port: 9101
@@ -53626,15 +54147,6 @@ proxies:
   udp: true
 - alterId: 0
   cipher: aes-256-gcm
-  name: 820|US312 1.7MB/s
-  password: pKEW8JPByTVTLtM
-  port: 443
-  server: 23.157.40.120
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: aes-256-gcm
   name: 820|US316 1.6MB/s
   password: cdBIDV42DCwnfIN
   port: 8119
@@ -53671,28 +54183,10 @@ proxies:
   type: ss
 - alterId: 0
   cipher: aes-256-gcm
-  name: 820|US322 1.7MB/s
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  server: 23.157.40.89
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: aes-256-gcm
   name: 820|US324 1.9MB/s
   password: e4FCWrgpkji3QY
   port: 9102
   server: 38.121.43.65
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: aes-256-gcm
-  name: 820|US326 1.7MB/s
-  password: faBAoD54k87UJG7
-  port: 2375
-  server: 23.157.40.89
   skip-cert-verify: true
   tls: true
   type: ss
@@ -53932,15 +54426,6 @@ proxies:
   type: ss
 - alterId: 0
   cipher: aes-256-gcm
-  name: 820|US376 1.4MB/s
-  password: Y6R9pAtvxxzmGC
-  port: 5001
-  server: 23.157.40.120
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: aes-256-gcm
   name: 820|US380 1.6MB/s
   password: RexnBgU7EV5ADxG
   port: 7001
@@ -53982,20 +54467,23 @@ proxies:
   type: trojan
   udp: true
 - alterId: 0
+  cipher: auto
+  name: 820|🇺🇸US美国33 3.9MB/s
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 15.237.15.188
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
   cipher: aes-256-gcm
   name: 820|US392 1.8MB/s
   password: zDNVedRFPQexG9v
   port: 6379
   server: 38.86.135.117
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: aes-256-gcm
-  name: 820|US397 1.7MB/s
-  password: Y6R9pAtvxxzmGC
-  port: 5000
-  server: 38.114.114.207
   skip-cert-verify: true
   tls: true
   type: ss
@@ -54233,15 +54721,6 @@ proxies:
   type: ss
 - alterId: 0
   cipher: aes-256-gcm
-  name: 820|US451 1.6MB/s
-  password: g5MeD6Ft3CWlJId
-  port: 5004
-  server: 23.157.40.19
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: aes-256-gcm
   name: 820|US452 1.7MB/s
   password: cdBIDV42DCwnfIN
   port: 8118
@@ -54469,15 +54948,6 @@ proxies:
   type: ss
 - alterId: 0
   cipher: aes-256-gcm
-  name: 820|US500 1.6MB/s
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 23.157.40.89
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: aes-256-gcm
   name: 820|US501 1.6MB/s
   password: g5MeD6Ft3CWlJId
   port: 5004
@@ -54509,15 +54979,6 @@ proxies:
   password: zDNVedRFPQexG9v
   port: 6379
   server: 23.157.40.89
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: aes-256-gcm
-  name: 820|US512 1.6MB/s
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 23.157.40.120
   skip-cert-verify: true
   tls: true
   type: ss
@@ -54606,15 +55067,6 @@ proxies:
   type: trojan
   udp: true
 - alterId: 0
-  cipher: aes-256-gcm
-  name: 820|US528 1.9MB/s
-  password: pKEW8JPByTVTLtM
-  port: 443
-  server: 142.202.48.43
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
   cipher: auto
   name: 820|US531
   network: grpc
@@ -54669,15 +55121,6 @@ proxies:
   type: ss
 - alterId: 0
   cipher: aes-256-gcm
-  name: 820|US540 1.7MB/s
-  password: Y6R9pAtvxxzmGC
-  port: 5601
-  server: 23.157.40.119
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: aes-256-gcm
   name: 820|US544 1.7MB/s
   password: RexnBgU7EV5ADxG
   port: 7002
@@ -54691,15 +55134,6 @@ proxies:
   password: PCnnH6SQSnfoS27
   port: 8090
   server: 38.75.137.71
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 820|US547 2.9MB/s
-  password: a8bt9fY0QsLS6eLnXUe0Ym
-  port: 8080
-  server: 45.158.171.129
   skip-cert-verify: true
   tls: true
   type: ss
@@ -54782,15 +55216,6 @@ proxies:
   type: ss
 - alterId: 0
   cipher: aes-256-gcm
-  name: 820|US571 1.7MB/s
-  password: lGqs95QkFHo2NV
-  port: 5498
-  server: 23.157.40.89
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: aes-256-gcm
   name: 820|US572 1.8MB/s
   password: e4FCWrgpkji3QY
   port: 9102
@@ -54857,15 +55282,6 @@ proxies:
   type: ss
 - alterId: 0
   cipher: aes-256-gcm
-  name: 820|US600 1.9MB/s
-  password: KixLvKzwjekG00rm
-  port: 8000
-  server: 38.68.135.18
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: aes-256-gcm
   name: 820|US601 1.9MB/s
   password: PCnnH6SQSnfoS27
   port: 8090
@@ -54913,15 +55329,6 @@ proxies:
   type: trojan
   udp: true
 - alterId: 0
-  cipher: aes-256-gcm
-  name: 820|US608 1.7MB/s
-  password: XKFKl2rULjIp74
-  port: 8008
-  server: 23.157.40.120
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
   cipher: auto
   name: 820|🇺🇸US美国46
   network: grpc
@@ -54945,15 +55352,6 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- alterId: 0
-  cipher: aes-256-gcm
-  name: 820|US614 1.6MB/s
-  password: Y6R9pAtvxxzmGC
-  port: 3389
-  server: 38.75.137.139
-  skip-cert-verify: true
-  tls: true
-  type: ss
 - alterId: 0
   cipher: aes-256-gcm
   name: 820|US617 1.6MB/s
@@ -55037,15 +55435,6 @@ proxies:
   type: ss
 - alterId: 0
   cipher: aes-256-gcm
-  name: 820|US636 1.6MB/s
-  password: Y6R9pAtvxxzmGC
-  port: 5600
-  server: 23.157.40.89
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: aes-256-gcm
   name: 820|US637 1.9MB/s
   password: XKFKl2rULjIp74
   port: 8008
@@ -55068,15 +55457,6 @@ proxies:
   password: Yc2CtrIz8L
   port: 16899
   server: 75.102.51.61
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: aes-256-gcm
-  name: 820|US641 1.8MB/s
-  password: lGqs95QkFHo2NV
-  port: 5498
-  server: 38.86.135.31
   skip-cert-verify: true
   tls: true
   type: ss
@@ -55290,28 +55670,10 @@ proxies:
   udp: true
 - alterId: 0
   cipher: aes-256-gcm
-  name: 820|US684 1.7MB/s
-  password: g5MeD6Ft3CWlJId
-  port: 5004
-  server: 38.114.114.207
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: aes-256-gcm
   name: 820|US685 1.7MB/s
   password: zDNVedRFPQexG9v
   port: 6379
   server: 23.157.40.87
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: aes-256-gcm
-  name: 820|US691 1.7MB/s
-  password: e4FCWrgpkji3QY
-  port: 9102
-  server: 23.157.40.89
   skip-cert-verify: true
   tls: true
   type: ss
@@ -56662,45 +57024,6 @@ proxies:
     headers:
       Host: us.mojc.xyz
     path: /?ed=2048
-- dns:
-  - 1.1.1.1
-  - 1.0.0.1
-  ip: 172.16.0.2
-  mtu: 1280
-  name: 990|US-CF-WARP-3
-  port: 3854
-  private-key: uBSzWHMiCj2f2nM1stdn2zklDUC9vQ7D2ZvWxdIeuFM=
-  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
-  remote-dns-resolve: true
-  server: 162.159.195.40
-  type: wireguard
-  udp: true
-- dns:
-  - 1.1.1.1
-  - 1.0.0.1
-  ip: 172.16.0.2
-  mtu: 1280
-  name: 990|US-CF-WARP-5
-  port: 8886
-  private-key: uBSzWHMiCj2f2nM1stdn2zklDUC9vQ7D2ZvWxdIeuFM=
-  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
-  remote-dns-resolve: true
-  server: 162.159.192.248
-  type: wireguard
-  udp: true
-- dns:
-  - 1.1.1.1
-  - 1.0.0.1
-  ip: 172.16.0.2
-  mtu: 1280
-  name: 990|US-CF-WARP-7
-  port: 8886
-  private-key: uBSzWHMiCj2f2nM1stdn2zklDUC9vQ7D2ZvWxdIeuFM=
-  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
-  remote-dns-resolve: true
-  server: 162.159.192.94
-  type: wireguard
-  udp: true
 - alterId: 0
   cipher: auto
   name: 1005|美国4
@@ -57038,62 +57361,84 @@ proxies:
   tls: false
   type: vmess
   uuid: d3a515b4-6fcb-38c8-93d3-2c17da360f89
-- cipher: aes-128-gcm
-  name: '1125|🇺🇸 美国 01 #2'
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 20741
-  server: ss.usalink.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: '1125|🇺🇸 美国 02 #1'
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 20742
-  server: ss.usalink.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: '1125|🇺🇸 美国 03 #1'
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 20743
-  server: ss.usalink.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 1125|🇺🇸 美国 04
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 20744
-  server: ss.usalink.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 1125|🇺🇸 美国 05
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 20745
-  server: ss.usalink.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 1125|🇺🇸 美国 06
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 20746
-  server: ss.usalink.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 1125|🇺🇸 美国 07
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 20747
-  server: ss.usalink.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 1125|🇺🇸 美国 08
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 20748
-  server: ss.usalink.xyz
-  type: ss
-  udp: true
+- alterId: 0
+  cipher: auto
+  name: 1122|do美国1
+  network: ws
+  port: '2082'
+  server: yx1.xsjhl.xyz
+  tls: false
+  type: vmess
+  uuid: 4b5ce38b-1de2-4666-8f4f-7070e5c9643c
+  ws-opts:
+    headers:
+      Host: us1.xsjhl.xyz
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 1122|do美国2
+  network: ws
+  port: '2082'
+  server: yx2.xsjhl.xyz
+  tls: false
+  type: vmess
+  uuid: 4b5ce38b-1de2-4666-8f4f-7070e5c9643c
+  ws-opts:
+    headers:
+      Host: us1.xsjhl.xyz
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 1122|do美国3
+  network: ws
+  port: '2082'
+  server: yx3.xsjhl.xyz
+  tls: false
+  type: vmess
+  uuid: 4b5ce38b-1de2-4666-8f4f-7070e5c9643c
+  ws-opts:
+    headers:
+      Host: us1.xsjhl.xyz
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '1122|op美国1-解锁 #1'
+  network: ws
+  port: '2082'
+  server: yx1.xsjhl.xyz
+  tls: false
+  type: vmess
+  uuid: 4b5ce38b-1de2-4666-8f4f-7070e5c9643c
+  ws-opts:
+    headers:
+      Host: opus.xsjhl.xyz
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '1122|op美国2-解锁 #1'
+  network: ws
+  port: '2082'
+  server: yx2.xsjhl.xyz
+  tls: false
+  type: vmess
+  uuid: 4b5ce38b-1de2-4666-8f4f-7070e5c9643c
+  ws-opts:
+    headers:
+      Host: opus.xsjhl.xyz
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '1122|op美国3-解锁 #1'
+  network: ws
+  port: '2082'
+  server: yx3.xsjhl.xyz
+  tls: false
+  type: vmess
+  uuid: 4b5ce38b-1de2-4666-8f4f-7070e5c9643c
+  ws-opts:
+    headers:
+      Host: opus.xsjhl.xyz
+    path: /?ed=2048
 - alterId: 233
   cipher: auto
   name: 1141|美国
