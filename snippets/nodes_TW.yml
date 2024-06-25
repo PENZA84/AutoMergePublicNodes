@@ -157,7 +157,7 @@ proxies:
   name: 325|🇹🇼台湾区域2-三网优化-解锁Netflix
   network: tcp
   port: '60180'
-  server: 7RgELC.gov.goldliond.top
+  server: BnJm0R.gov.goldliond.top
   tls: false
   type: vmess
   uuid: dff90a14-6c25-4181-9791-0be9131da5a3
@@ -166,7 +166,7 @@ proxies:
   name: 325|🇹🇼台湾区域3-三网优化-解锁Netflix
   network: tcp
   port: '60180'
-  server: gRikvU.gov.goldliond.top
+  server: ky7eY5.gov.goldliond.top
   tls: false
   type: vmess
   uuid: dff90a14-6c25-4181-9791-0be9131da5a3
@@ -188,12 +188,9 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  country: 🇼TW
-  h2-opts: {}
-  http-opts: {}
-  name: 365,366,665,677,680,751,752,764,810,818,829,830,843,864,1023|TW_1276 | 1.81Mb
+  name: '365,366,665,677,680,751,752,764,810,818,829,830,843,864|台湾_0624002 #1'
   network: ws
-  port: 31945
+  port: '31945'
   server: 103.159.206.35
   servername: ''
   skip-cert-verify: true
@@ -201,10 +198,12 @@ proxies:
   type: vmess
   uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
   ws-opts:
+    headers:
+      Host: ''
     path: /
 - alterId: 0
   cipher: auto
-  name: '365,818|🔒 VM-WS-NA 🇹🇼 TW-118.170.96.24... #1'
+  name: 365|🔒 VM-WS-NA 🇹🇼 TW-118.170.96.24...
   network: ws
   port: '37902'
   server: 118.170.96.244
@@ -434,7 +433,7 @@ proxies:
     path: /nishikata3
 - alterId: 0
   cipher: auto
-  name: '366,637,751,752|🇹🇼TW-220.130.80.179-5540 #1'
+  name: '366,637,641,751,752|🇹🇼TW-220.130.80.179-5540 #1'
   network: ws
   port: 443
   server: 220.130.80.179
@@ -642,7 +641,7 @@ proxies:
     path: /AUIKN8AU
 - alterId: 0
   cipher: aes-128-gcm
-  name: 429|台湾-4.61MB/s
+  name: '429,641|台湾-4.61MB/s #1'
   network: tcp
   port: 4443
   server: nb24.ntbq.dynu.net
@@ -914,6 +913,20 @@ proxies:
   ws-headers:
     host: polotw1.applebench.tech
   ws-path: /
+- alterId: 64
+  cipher: auto
+  name: 641|🇹🇼TW-103.177.33.22-1304
+  network: ws
+  port: '30001'
+  server: 103.177.33.22
+  servername: www.35709620.xyz
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.35709620.xyz
+    path: /path/191019072927
 - alterId: 0
   cipher: auto
   name: '644,646|台湾_121320001 #1'
@@ -984,13 +997,11 @@ proxies:
   uuid: e160d0ba-5b1a-448c-fcfb-35bfc5c2b1b5
 - alterId: 0
   cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 645,1023|Relay_ |34.95Mb
+  name: 645|台湾_062523003
   network: ws
-  port: 443
+  port: '443'
   server: tw1g.forlive.live
-  servername: tms.dingtalk.com
+  servername: ''
   tls: false
   type: vmess
   uuid: 4ccc923e-8452-418c-9222-87ee8f295e14
@@ -1222,9 +1233,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  h2-opts: {}
-  http-opts: {}
-  name: 769,1023|Relay_ |30.39Mb
+  name: 769|🇹🇼 TW 00
   network: ws
   port: 443
   server: tw1g.xn--vhq70hxyat50h6wk.com
@@ -1303,6 +1312,20 @@ proxies:
   tls: true
   type: vmess
   uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b
+- alterId: 0
+  cipher: auto
+  name: 818|🔒 VM-WS-NA 🇹🇼 TW-36.232.11.64:...
+  network: ws
+  port: '37902'
+  server: 36.232.11.64
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1057c0f5-8662-4902-8d2f-eb6e3ecdf5c5
+  ws-opts:
+    headers:
+      Host: hinet-wap.myddns.me
+    path: /index?ed=2560
 - cipher: aes-256-cfb
   name: 828|TG频道@mfbpn-台湾3
   obfs: tls1.2_ticket_auth
@@ -1421,18 +1444,6 @@ proxies:
     path: /ws?ed=2048
 - alterId: 0
   cipher: auto
-  grpc-opts:
-    grpc-service-name: posteio
-  name: 917|台湾 01【vip3 | NEW】
-  network: grpc
-  port: '56741'
-  server: f10021.flyflylflyflysbs.sbs
-  servername: tw01.ckcloud.info
-  tls: true
-  type: vmess
-  uuid: 416dba75-3512-41ca-b3f4-389e4c140a24
-- alterId: 0
-  cipher: auto
   name: 921|TW.台湾.A
   network: tcp
   port: '13218'
@@ -1489,70 +1500,6 @@ proxies:
     headers:
       Host: tw02.xn--io0a7iw0ab67b.xyz
     path: /
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 1023|Relay_-🇹🇼TW_849 | 3.48Mb
-  network: ws
-  port: 8080
-  server: 104.19.47.132
-  servername: oiictw.yydsii.com
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: oiictw.yydsii.com
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 1023|Relay_-🇹TW_894 | 4.02Mb
-  network: ws
-  port: 8080
-  server: 104.19.47.142
-  skip-cert-verify: true
-  type: vmess
-  udp: true
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: oiictw.yydsii.com
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 1023|Relay_-🇹🇼TW_895 | 0.36Mb
-  network: ws
-  port: 8080
-  server: 104.18.6.141
-  skip-cert-verify: true
-  type: vmess
-  udp: true
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: oiictw.yydsii.com
-    path: /
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 1023|Relay_🏁ZZ-TW_1901 | 1.88Mb
-  network: ws
-  port: 8080
-  server: 104.19.47.254
-  servername: oiictw.yydsii.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      HOST: oiictw.yydsii.com
-    path: /?ed=2048&Telegram🇨 @WangCai2
 - alterId: 0
   cipher: auto
   name: 1055|台湾2 直连
