@@ -1,6 +1,15 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 16|香港|广州移动|Neko|1.5x
+  network: tcp
+  port: 13337
+  server: gdcm.r1u.cn
+  tls: false
+  type: vmess
+  uuid: f010dd01-c54a-3c03-95ce-0838214259c6
+- alterId: 0
+  cipher: auto
   name: '19,20,21,22,24|🇭🇰 香港1 #4'
   network: ws
   port: '80'
@@ -604,6 +613,19 @@ proxies:
   uuid: f6195be4-37bc-3cc8-917e-50c704e2f974
 - alterId: 0
   cipher: auto
+  name: 285|🇭🇰HKAK-t.me/Hikarimiko
+  network: ws
+  port: '80'
+  server: yx.99294837.xyz
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: akhk.xlb8.eu.org
+    path: /
+- alterId: 0
+  cipher: auto
   name: 318|说明客户端版本太低/HKA/Z
   network: ws
   port: '443'
@@ -677,7 +699,7 @@ proxies:
   name: 323|🇭🇰香港区域1-三网优化
   network: tcp
   port: '60181'
-  server: wOx1Zf.gov.goldliond.top
+  server: fioBym.gov.goldliond.top
   tls: false
   type: vmess
   uuid: dff90a14-6c25-4181-9791-0be9131da5a3
@@ -686,7 +708,7 @@ proxies:
   name: 323|🇭🇰香港区域2-三网优化
   network: tcp
   port: '60181'
-  server: CHwEaq.gov.goldliond.top
+  server: doDMLx.gov.goldliond.top
   tls: false
   type: vmess
   uuid: dff90a14-6c25-4181-9791-0be9131da5a3
@@ -695,7 +717,7 @@ proxies:
   name: 323|🇭🇰香港区域3-三网优化
   network: tcp
   port: '60181'
-  server: EPGemY.gov.goldliond.top
+  server: KkkG3r.gov.goldliond.top
   tls: false
   type: vmess
   uuid: dff90a14-6c25-4181-9791-0be9131da5a3
@@ -1504,7 +1526,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '363,670,811,823|HK55 #2'
+  name: '363,670,811,823|HK47 #1'
   network: ws
   port: '4431'
   server: 152.32.190.239
@@ -12555,7 +12577,7 @@ proxies:
     path: 55021a7c-bd6c-418e-be95-ceac8ba27b45-vm
 - alterId: 0
   cipher: auto
-  name: '731,836|美国 CloudFlare节点 #63'
+  name: '731,836|美国 CloudFlare节点 #64'
   network: ws
   port: '8080'
   server: yh1.freeh1.xyz
@@ -13824,20 +13846,29 @@ proxies:
   uuid: 49933ab7-7ec2-3024-9f6e-b7ad9da24c8f
 - alterId: 0
   cipher: chacha20-ietf-poly1305
-  name: 822|HK
+  name: 822|HK2
+  password: d31534ff-83a3-4137-91b7-79e144489643
+  port: 50243
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 822|HK3
   password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 10014
+  port: 20003
   server: 46.232.123.37
   skip-cert-verify: true
   tls: true
   type: ss
 - alterId: 0
   cipher: auto
-  name: 822|HK2
+  name: 822|HK4
   network: ws
   password: 0fd9b883-0551-4ed1-b978-528183b459a2
   port: 2053
-  server: 47.76.49.246
+  server: 47.242.183.7
   skip-cert-verify: true
   sni: mfjd.591haoka.com
   tls: true
@@ -13845,18 +13876,9 @@ proxies:
   udp: true
 - alterId: 0
   cipher: chacha20-ietf-poly1305
-  name: 822|HK3
-  password: d31534ff-83a3-4137-91b7-79e144489643
-  port: 50223
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
   name: 822|HK5
   password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 20002
+  port: 10012
   server: 46.232.123.37
   skip-cert-verify: true
   tls: true
@@ -13864,8 +13886,8 @@ proxies:
 - alterId: 0
   cipher: chacha20-ietf-poly1305
   name: 822|HK6
-  password: d31534ff-83a3-4137-91b7-79e144489643
-  port: 50217
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 30016
   server: 46.232.123.37
   skip-cert-verify: true
   tls: true
@@ -13874,6 +13896,126 @@ proxies:
   cipher: aes-128-gcm
   name: 822|HK7
   password: 0bf41810-5477-4940-9064-e37055cda6b1
+  port: 11001
+  server: 203.218.240.98
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 822|HK9
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 40030
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 822|HK10
+  password: AHyDyR
+  port: 56047
+  server: 103.172.81.184
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 822|HK11
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 20002
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 822|HK13 2.1MB/s
+  password: 3pURuTUf-lFgg5qWg8euFA
+  port: 1080
+  server: 141.98.234.8
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 822|HK14
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 30017
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: aes-128-gcm
+  name: 822|HK15
+  password: 0bf41810-5477-4940-9064-e37055cda6b1
+  port: 20644
+  server: 203.218.240.98
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 822|HK16
+  password: 5ddbeb21-15fb-4aa5-8cc3-34df601c1f02
+  port: 50226
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 822|HK18
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 30008
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 822|HK19
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 20005
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 822|HK20
+  network: ws
+  password: 0fd9b883-0551-4ed1-b978-528183b459a2
+  port: 2087
+  server: 8.217.181.213
+  skip-cert-verify: true
+  sni: mfjd.591haoka.com
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 822|HK21
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 40007
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 822|HK22
+  password: d31534ff-83a3-4137-91b7-79e144489643
+  port: 50217
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: aes-128-gcm
+  name: 822|HK23
+  password: 0bf41810-5477-4940-9064-e37055cda6b1
   port: 11002
   server: 203.218.240.98
   skip-cert-verify: true
@@ -13881,16 +14023,61 @@ proxies:
   type: ss
 - alterId: 0
   cipher: chacha20-ietf-poly1305
-  name: 822|HK8
+  name: 822|HK24
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 30012
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 822|HK25
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 30011
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 822|HK26
   password: AHyDyR
-  port: 56012
+  port: 56032
   server: 38.150.12.187
   skip-cert-verify: true
   tls: true
   type: ss
 - alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 822|HK27
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 10008
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 822|HK28
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 10101
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 822|HK29
+  password: 033c8fd4-ef0c-479c-a4ff-cbd0f4bd3ef1
+  port: 50225
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
   cipher: aes-128-gcm
-  name: 822|HK9
+  name: 822|HK30
   password: 0bf41810-5477-4940-9064-e37055cda6b1
   port: 11005
   server: 203.218.240.98
@@ -13899,184 +14086,43 @@ proxies:
   type: ss
 - alterId: 0
   cipher: chacha20-ietf-poly1305
-  name: 822|HK10
-  password: 5ddbeb21-15fb-4aa5-8cc3-34df601c1f02
-  port: 50202
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 822|HK11
-  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 50001
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 822|HK12
-  network: ws
-  password: 182228812d1e0f23
-  port: 3306
-  server: 45.11.104.94
-  skip-cert-verify: true
-  sni: n2.gladns.com
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 822|HK13
-  password: d31534ff-83a3-4137-91b7-79e144489643
-  port: 50215
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 822|HK14
-  password: d31534ff-83a3-4137-91b7-79e144489643
-  port: 50207
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 822|HK15
-  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 30016
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 822|HK16
-  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 40020
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: aes-128-gcm
-  name: 822|HK17
-  password: 0bf41810-5477-4940-9064-e37055cda6b1
-  port: 20641
-  server: 203.218.240.98
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 822|HK19
-  password: 5ddbeb21-15fb-4aa5-8cc3-34df601c1f02
-  port: 50212
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 822|HK20
-  password: 033c8fd4-ef0c-479c-a4ff-cbd0f4bd3ef1
-  port: 50204
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 822|HK22
-  password: 5ddbeb21-15fb-4aa5-8cc3-34df601c1f02
-  port: 50236
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 822|HK23
-  password: 5ddbeb21-15fb-4aa5-8cc3-34df601c1f02
-  port: 50211
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 822|HK24
-  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 20011
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 822|HK25
-  password: d31534ff-83a3-4137-91b7-79e144489643
-  port: 50241
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 822|HK26
-  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 30005
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 822|HK27
-  password: AHyDyR
-  port: 56032
-  server: 103.172.81.184
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 822|HK29
-  password: 5ddbeb21-15fb-4aa5-8cc3-34df601c1f02
-  port: 50213
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 822|HK30
-  network: ws
-  password: NISHIKUITAN222
-  port: 443
-  server: 47.242.125.241
-  skip-cert-verify: true
-  sni: t667.ylks.link
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: aes-128-gcm
   name: 822|HK31
-  password: 0bf41810-5477-4940-9064-e37055cda6b1
-  port: 11001
-  server: 203.218.240.98
+  password: AHyDyR
+  port: 56012
+  server: 38.150.12.188
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 822|HK33
+  password: d31534ff-83a3-4137-91b7-79e144489643
+  port: 50239
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 822|HK34
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 40023
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 822|HK35
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 40026
+  server: 46.232.123.37
   skip-cert-verify: true
   tls: true
   type: ss
 - alterId: 0
   cipher: auto
-  name: 822|HK32
+  name: 822|HK36
   network: ws
   password: NISHIKUITAN222
   port: 443
@@ -14088,11 +14134,11 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 822|HK33
+  name: 822|HK37
   network: ws
   password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 2053
-  server: 8.218.98.75
+  port: 2083
+  server: 8.218.173.78
   skip-cert-verify: true
   sni: mfjd.591haoka.com
   tls: true
@@ -14100,69 +14146,45 @@ proxies:
   udp: true
 - alterId: 0
   cipher: chacha20-ietf-poly1305
-  name: 822|HK34
-  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 30008
+  name: 822|HK38
+  password: 5ddbeb21-15fb-4aa5-8cc3-34df601c1f02
+  port: 50227
   server: 46.232.123.37
   skip-cert-verify: true
   tls: true
   type: ss
 - alterId: 0
   cipher: chacha20-ietf-poly1305
-  name: 822|HK35
-  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 30013
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 822|HK36
+  name: 822|HK39
   password: AHyDyR
   port: 56012
-  server: 38.150.12.188
+  server: 38.150.12.187
   skip-cert-verify: true
   tls: true
   type: ss
 - alterId: 0
   cipher: chacha20-ietf-poly1305
-  name: 822|HK37
-  password: d31534ff-83a3-4137-91b7-79e144489643
-  port: 50243
-  server: 46.232.123.37
+  name: 822|HK40
+  password: AHyDyR
+  port: 56032
+  server: 103.172.81.184
   skip-cert-verify: true
   tls: true
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 822|HK38
-  network: ws
-  password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 8443
-  server: 8.210.43.213
-  skip-cert-verify: true
-  sni: mfjd.591haoka.com
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 822|HK39
-  network: tcp
-  password: 10f87a8e-a6f6-319d-a895-8310d326ecce
-  port: 20897
-  server: 8.217.193.174
-  skip-cert-verify: true
-  sni: hkhe02.bcloudv.cyou
-  tls: true
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: chacha20-ietf-poly1305
   name: 822|HK41
   password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 10011
+  port: 10017
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 822|HK42
+  password: d31534ff-83a3-4137-91b7-79e144489643
+  port: 50216
   server: 46.232.123.37
   skip-cert-verify: true
   tls: true
@@ -14172,8 +14194,8 @@ proxies:
   name: 822|HK43
   network: ws
   password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 2087
-  server: 8.217.123.243
+  port: 2083
+  server: 8.217.154.218
   skip-cert-verify: true
   sni: mfjd.591haoka.com
   tls: true
@@ -14182,72 +14204,33 @@ proxies:
 - alterId: 0
   cipher: chacha20-ietf-poly1305
   name: 822|HK44
-  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 40004
+  password: 5ddbeb21-15fb-4aa5-8cc3-34df601c1f02
+  port: 50213
   server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 822|HK45
+  password: AHyDyR
+  port: 56026
+  server: 38.150.12.187
   skip-cert-verify: true
   tls: true
   type: ss
 - alterId: 0
   cipher: chacha20-ietf-poly1305
   name: 822|HK46
-  password: 033c8fd4-ef0c-479c-a4ff-cbd0f4bd3ef1
-  port: 50234
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 822|HK49
-  password: 033c8fd4-ef0c-479c-a4ff-cbd0f4bd3ef1
-  port: 50225
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 822|HK50
-  password: d31534ff-83a3-4137-91b7-79e144489643
-  port: 50242
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 822|HK51
   password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 20004
+  port: 30002
   server: 46.232.123.37
   skip-cert-verify: true
   tls: true
   type: ss
 - alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 822|HK52
-  password: AHyDyR
-  port: 56047
-  server: 103.172.81.184
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
   cipher: auto
-  name: 822|HK53
-  network: ws
-  password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 2096
-  server: 8.218.228.152
-  skip-cert-verify: true
-  sni: mfjd.591haoka.com
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: '822|HK55 #1'
+  name: 822|HK47
   network: ws
   port: 4431
   server: 152.32.190.239
@@ -14260,29 +14243,8 @@ proxies:
       host: cfhk.393930.xyz
     path: /
 - alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 822|HK56
-  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 10016
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
   cipher: auto
-  name: 822|HK57
-  network: ws
-  password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 2087
-  server: 47.243.70.186
-  skip-cert-verify: true
-  sni: mfjd.591haoka.com
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 822|HK58
+  name: 822|HK48
   network: ws
   password: 0fd9b883-0551-4ed1-b978-528183b459a2
   port: 2087
@@ -14293,24 +14255,105 @@ proxies:
   type: trojan
   udp: true
 - alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 822|HK49
+  password: 5ddbeb21-15fb-4aa5-8cc3-34df601c1f02
+  port: 50224
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 822|HK50
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 40020
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 822|HK51
+  password: 5ddbeb21-15fb-4aa5-8cc3-34df601c1f02
+  port: 50212
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 822|HK52
+  password: 033c8fd4-ef0c-479c-a4ff-cbd0f4bd3ef1
+  port: 50204
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 822|HK53
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 30010
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 822|HK54
+  password: d31534ff-83a3-4137-91b7-79e144489643
+  port: 50242
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: '822|HK55 #1'
+  password: AHyDyR
+  port: 56047
+  server: 38.150.12.187
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
   cipher: auto
-  name: 822|HK59
+  name: 822|HK56
   network: ws
   password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 2083
-  server: 8.217.154.218
+  port: 2053
+  server: 47.76.49.246
   skip-cert-verify: true
   sni: mfjd.591haoka.com
   tls: true
   type: trojan
   udp: true
 - alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 822|HK58
+  password: d31534ff-83a3-4137-91b7-79e144489643
+  port: 50208
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 822|HK59
+  password: 033c8fd4-ef0c-479c-a4ff-cbd0f4bd3ef1
+  port: 50233
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
   cipher: auto
   name: 822|HK60
   network: ws
   password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 2053
-  server: 8.217.232.246
+  port: 2087
+  server: 47.243.70.186
   skip-cert-verify: true
   sni: mfjd.591haoka.com
   tls: true
@@ -14320,162 +14363,6 @@ proxies:
   cipher: chacha20-ietf-poly1305
   name: 822|HK61
   password: AHyDyR
-  port: 56047
-  server: 38.150.12.188
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 822|HK63
-  password: 033c8fd4-ef0c-479c-a4ff-cbd0f4bd3ef1
-  port: 58456
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 822|HK64
-  password: 5ddbeb21-15fb-4aa5-8cc3-34df601c1f02
-  port: 50206
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 822|HK65
-  network: ws
-  password: moist
-  port: 2087
-  server: 8.210.203.7
-  skip-cert-verify: true
-  sni: trojan.freenods.sbs
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 822|HK66
-  password: 2155145a-b1b5-443a-8977-670f6bd10f02
-  port: 50001
-  server: 43.198.138.21
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 822|HK67
-  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 10017
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 822|HK68
-  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 40001
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 822|HK69 1.9MB/s
-  password: 3pURuTUf-lFgg5qWg8euFA
-  port: 1080
-  server: 141.98.234.8
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 822|HK70
-  password: 5ddbeb21-15fb-4aa5-8cc3-34df601c1f02
-  port: 50240
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 822|HK71
-  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 20003
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 822|HK72
-  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 40033
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 822|HK73
-  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 20006
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 822|HK74
-  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 10015
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 822|HK75
-  password: 5ddbeb21-15fb-4aa5-8cc3-34df601c1f02
-  port: 50200
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 822|HK76
-  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 40026
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 822|HK77
-  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 50005
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 822|HK78
-  password: 5ddbeb21-15fb-4aa5-8cc3-34df601c1f02
-  port: 50219
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 822|HK79
-  password: AHyDyR
   port: 56026
   server: 103.172.81.184
   skip-cert-verify: true
@@ -14483,34 +14370,16 @@ proxies:
   type: ss
 - alterId: 0
   cipher: chacha20-ietf-poly1305
-  name: 822|HK80
-  password: d31534ff-83a3-4137-91b7-79e144489643
-  port: 50208
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 822|HK81
-  password: AHyDyR
-  port: 56047
-  server: 38.150.12.187
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 822|HK82
+  name: 822|HK62
   password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 40028
+  port: 10014
   server: 46.232.123.37
   skip-cert-verify: true
   tls: true
   type: ss
 - alterId: 0
   cipher: auto
-  name: 822|HK83
+  name: 822|HK63
   network: ws
   password: moist
   port: 2083
@@ -14521,30 +14390,60 @@ proxies:
   type: trojan
   udp: true
 - alterId: 0
-  cipher: aes-128-gcm
-  name: 822|HK84
-  password: 0bf41810-5477-4940-9064-e37055cda6b1
-  port: 11004
-  server: 203.218.240.98
+  cipher: chacha20-ietf-poly1305
+  name: 822|HK64
+  password: 033c8fd4-ef0c-479c-a4ff-cbd0f4bd3ef1
+  port: 50238
+  server: 46.232.123.37
   skip-cert-verify: true
   tls: true
   type: ss
 - alterId: 0
   cipher: chacha20-ietf-poly1305
-  name: 822|HK87
+  name: 822|HK66
   password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 30011
+  port: 30009
   server: 46.232.123.37
   skip-cert-verify: true
   tls: true
   type: ss
 - alterId: 0
   cipher: auto
-  name: 822|HK88
+  name: 822|HK67
+  network: ws
+  password: 182228812d1e0f23
+  port: 3306
+  server: 45.11.104.94
+  skip-cert-verify: true
+  sni: n2.gladns.com
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 822|HK68
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 20004
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 822|HK69
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 40051
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 822|HK70
   network: ws
   password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 2087
-  server: 8.217.181.213
+  port: 2053
+  server: 47.243.51.171
   skip-cert-verify: true
   sni: mfjd.591haoka.com
   tls: true
@@ -14552,85 +14451,46 @@ proxies:
   udp: true
 - alterId: 0
   cipher: chacha20-ietf-poly1305
-  name: 822|HK89
-  password: AHyDyR
-  port: 56026
-  server: 38.150.12.187
+  name: 822|HK72
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 50005
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 822|HK74
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 20006
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 822|HK75
+  password: d31534ff-83a3-4137-91b7-79e144489643
+  port: 50241
+  server: 46.232.123.37
   skip-cert-verify: true
   tls: true
   type: ss
 - alterId: 0
   cipher: auto
-  name: 822|HK90
+  name: 822|HK76
   network: ws
   password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 8443
-  server: 47.242.107.109
+  port: 2096
+  server: 8.218.228.152
   skip-cert-verify: true
   sni: mfjd.591haoka.com
   tls: true
   type: trojan
   udp: true
 - alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 822|HK91
-  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 10101
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: '822|HK92 #1'
-  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 50002
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 822|HK93
-  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 20005
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 822|HK94
-  password: AHyDyR
-  port: 56026
-  server: 38.150.12.188
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
   cipher: auto
-  name: 822|HK95
-  network: ws
-  password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 2087
-  server: 8.217.50.252
-  skip-cert-verify: true
-  sni: mfjd.591haoka.com
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: aes-128-gcm
-  name: 822|HK97
-  password: 0bf41810-5477-4940-9064-e37055cda6b1
-  port: 20644
-  server: 203.218.240.98
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 822|HK98
+  name: 822|HK77
   network: ws
   password: moist
   port: 2096
@@ -14642,148 +14502,16 @@ proxies:
   udp: true
 - alterId: 0
   cipher: chacha20-ietf-poly1305
-  name: 822|HK99
+  name: 822|HK78
   password: d31534ff-83a3-4137-91b7-79e144489643
-  port: 50222
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 822|HK100
-  password: 5ddbeb21-15fb-4aa5-8cc3-34df601c1f02
-  port: 50226
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 822|HK101
-  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 50004
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 822|HK102
-  password: d31534ff-83a3-4137-91b7-79e144489643
-  port: 50216
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 822|HK103
-  password: AHyDyR
-  port: 56012
-  server: 103.172.81.184
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 822|HK106
-  password: AHyDyR
-  port: 56032
-  server: 38.150.12.187
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 822|HK107
-  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 40023
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 822|HK108
-  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 30009
+  port: 50223
   server: 46.232.123.37
   skip-cert-verify: true
   tls: true
   type: ss
 - alterId: 0
   cipher: auto
-  name: 822|HK110
-  network: ws
-  password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 2053
-  server: 47.243.18.199
-  skip-cert-verify: true
-  sni: mfjd.591haoka.com
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 822|HK111
-  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 10005
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 822|HK112
-  password: 033c8fd4-ef0c-479c-a4ff-cbd0f4bd3ef1
-  port: 50238
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 822|HK113
-  password: d31534ff-83a3-4137-91b7-79e144489643
-  port: 50239
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 822|HK114
-  password: 5ddbeb21-15fb-4aa5-8cc3-34df601c1f02
-  port: 50235
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 822|HK115
-  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 10008
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 822|HK117
-  network: ws
-  password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 2053
-  server: 47.243.51.171
-  skip-cert-verify: true
-  sni: mfjd.591haoka.com
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 822|HK118
+  name: 822|HK79
   network: tcp
   password: 918eba0d3ff04abc803fb00e18d0fcb5
   port: 443
@@ -14795,7 +14523,262 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 822|HK119
+  name: 822|HK80
+  network: ws
+  password: 0fd9b883-0551-4ed1-b978-528183b459a2
+  port: 2053
+  server: 8.218.98.75
+  skip-cert-verify: true
+  sni: mfjd.591haoka.com
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 822|HK81
+  password: d31534ff-83a3-4137-91b7-79e144489643
+  port: 50222
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 822|HK82
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 10016
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 822|HK84
+  password: 5ddbeb21-15fb-4aa5-8cc3-34df601c1f02
+  port: 50236
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 822|HK87
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 20011
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 822|HK88
+  password: 5ddbeb21-15fb-4aa5-8cc3-34df601c1f02
+  port: 50219
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 822|HK89
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 40001
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 822|HK90
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 10004
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 822|HK91
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 50002
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: '822|HK92 #1'
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 30005
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 822|HK93
+  password: 5ddbeb21-15fb-4aa5-8cc3-34df601c1f02
+  port: 50200
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 822|HK94
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 30013
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 822|HK95
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 10015
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 822|HK96 1.7MB/s
+  network: tcp
+  password: 9a72dfcb-b2bf-3969-aef1-5e0e94a4f84c
+  port: 19223
+  server: 91.149.237.179
+  skip-cert-verify: true
+  sni: eplcgame.com
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 822|HK98
+  password: d31534ff-83a3-4137-91b7-79e144489643
+  port: 50246
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 822|HK99
+  network: ws
+  password: 0fd9b883-0551-4ed1-b978-528183b459a2
+  port: 2053
+  server: 47.243.18.199
+  skip-cert-verify: true
+  sni: mfjd.591haoka.com
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 822|HK101
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 10011
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: aes-128-gcm
+  name: 822|HK102
+  password: 0bf41810-5477-4940-9064-e37055cda6b1
+  port: 20641
+  server: 203.218.240.98
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 822|HK103
+  password: 5ddbeb21-15fb-4aa5-8cc3-34df601c1f02
+  port: 50235
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 822|HK104
+  password: AHyDyR
+  port: 56047
+  server: 38.150.12.188
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 822|HK105
+  password: 5ddbeb21-15fb-4aa5-8cc3-34df601c1f02
+  port: 50206
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 822|HK106
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 40033
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 822|HK107
+  password: 033c8fd4-ef0c-479c-a4ff-cbd0f4bd3ef1
+  port: 50234
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 822|HK109
+  password: AHyDyR
+  port: 56032
+  server: 38.150.12.188
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 822|HK110
+  network: ws
+  password: 0fd9b883-0551-4ed1-b978-528183b459a2
+  port: 2087
+  server: 8.217.123.243
+  skip-cert-verify: true
+  sni: mfjd.591haoka.com
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 822|HK111
+  password: 5ddbeb21-15fb-4aa5-8cc3-34df601c1f02
+  port: 50202
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 822|HK112
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 50001
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 822|HK113
   network: ws
   password: 0fd9b883-0551-4ed1-b978-528183b459a2
   port: 2096
@@ -14806,29 +14789,107 @@ proxies:
   type: trojan
   udp: true
 - alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 822|HK120
-  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 40051
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
   cipher: auto
-  name: 822|HK121
+  name: 822|HK114
   network: ws
   password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 2053
-  server: 47.242.183.7
+  port: 8443
+  server: 47.242.107.109
   skip-cert-verify: true
   sni: mfjd.591haoka.com
   tls: true
   type: trojan
   udp: true
 - alterId: 0
-  cipher: aes-128-gcm
+  cipher: auto
+  name: 822|HK115
+  network: ws
+  password: moist
+  port: 2087
+  server: 8.210.203.7
+  skip-cert-verify: true
+  sni: trojan.freenods.sbs
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 822|HK116
+  password: AHyDyR
+  port: 56026
+  server: 38.150.12.188
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 822|HK117
+  password: AHyDyR
+  port: 56012
+  server: 103.172.81.184
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 822|HK119
+  password: 033c8fd4-ef0c-479c-a4ff-cbd0f4bd3ef1
+  port: 58456
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 822|HK120
+  network: tcp
+  password: 10f87a8e-a6f6-319d-a895-8310d326ecce
+  port: 20897
+  server: 8.217.193.174
+  skip-cert-verify: true
+  sni: hkhe02.bcloudv.cyou
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 822|HK122
+  password: d31534ff-83a3-4137-91b7-79e144489643
+  port: 50245
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 822|HK123
+  password: d31534ff-83a3-4137-91b7-79e144489643
+  port: 50215
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
   name: 822|HK124
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 50004
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: aes-128-gcm
+  name: 822|HK126
+  password: 0bf41810-5477-4940-9064-e37055cda6b1
+  port: 11004
+  server: 203.218.240.98
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: aes-128-gcm
+  name: 822|HK127
   password: 0bf41810-5477-4940-9064-e37055cda6b1
   port: 20648
   server: 203.218.240.98
@@ -14837,36 +14898,9 @@ proxies:
   type: ss
 - alterId: 0
   cipher: chacha20-ietf-poly1305
-  name: 822|HK125
-  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 30017
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 822|HK126
-  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 30012
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 822|HK127
-  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 30002
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
   name: 822|HK128
-  password: d31534ff-83a3-4137-91b7-79e144489643
-  port: 50246
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 40028
   server: 46.232.123.37
   skip-cert-verify: true
   tls: true
@@ -14876,8 +14910,8 @@ proxies:
   name: 822|HK129
   network: ws
   password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 2083
-  server: 8.218.173.78
+  port: 2053
+  server: 8.217.232.246
   skip-cert-verify: true
   sni: mfjd.591haoka.com
   tls: true
@@ -14886,17 +14920,8 @@ proxies:
 - alterId: 0
   cipher: chacha20-ietf-poly1305
   name: 822|HK130
-  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 10012
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 822|HK131
-  password: d31534ff-83a3-4137-91b7-79e144489643
-  port: 50245
+  password: 5ddbeb21-15fb-4aa5-8cc3-34df601c1f02
+  port: 50240
   server: 46.232.123.37
   skip-cert-verify: true
   tls: true
@@ -14904,17 +14929,17 @@ proxies:
 - alterId: 0
   cipher: chacha20-ietf-poly1305
   name: 822|HK132
-  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 40007
+  password: d31534ff-83a3-4137-91b7-79e144489643
+  port: 50207
   server: 46.232.123.37
   skip-cert-verify: true
   tls: true
   type: ss
 - alterId: 0
   cipher: chacha20-ietf-poly1305
-  name: 822|HK134
+  name: 822|HK133
   password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 10004
+  port: 10005
   server: 46.232.123.37
   skip-cert-verify: true
   tls: true
@@ -14922,57 +14947,57 @@ proxies:
 - alterId: 0
   cipher: chacha20-ietf-poly1305
   name: 822|HK135
-  password: AHyDyR
-  port: 56032
-  server: 38.150.12.188
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 40004
+  server: 46.232.123.37
   skip-cert-verify: true
   tls: true
   type: ss
 - alterId: 0
-  cipher: chacha20-ietf-poly1305
+  cipher: auto
   name: 822|HK136
-  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 40030
+  network: ws
+  password: NISHIKUITAN222
+  port: 443
+  server: 47.242.125.241
+  skip-cert-verify: true
+  sni: t667.ylks.link
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 822|HK138
+  password: 5ddbeb21-15fb-4aa5-8cc3-34df601c1f02
+  port: 50211
   server: 46.232.123.37
   skip-cert-verify: true
   tls: true
   type: ss
 - alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 822|HK137
-  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 30010
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
+  cipher: auto
   name: 822|HK139
-  password: 5ddbeb21-15fb-4aa5-8cc3-34df601c1f02
-  port: 50227
-  server: 46.232.123.37
+  network: ws
+  password: 0fd9b883-0551-4ed1-b978-528183b459a2
+  port: 2087
+  server: 8.217.50.252
   skip-cert-verify: true
+  sni: mfjd.591haoka.com
   tls: true
-  type: ss
+  type: trojan
+  udp: true
 - alterId: 0
-  cipher: chacha20-ietf-poly1305
+  cipher: auto
   name: 822|HK140
-  password: 033c8fd4-ef0c-479c-a4ff-cbd0f4bd3ef1
-  port: 50233
-  server: 46.232.123.37
+  network: ws
+  password: 0fd9b883-0551-4ed1-b978-528183b459a2
+  port: 8443
+  server: 8.210.43.213
   skip-cert-verify: true
+  sni: mfjd.591haoka.com
   tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 822|HK141
-  password: 5ddbeb21-15fb-4aa5-8cc3-34df601c1f02
-  port: 50224
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
+  type: trojan
+  udp: true
 - alterId: 64
   cipher: auto
   name: '835,836|香港1|@ripaojiedian #1'
