@@ -72,97 +72,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 8907aeec-189d-48d9-b557-fb242a4d8127
-- cipher: rc4-md5
-  name: 234|🇼🇸 IPLC｜台湾<-河北 [2.0][原生]
-  obfs: http_simple
-  obfs-param: ajax.microsoft.com
-  obfsparam: ajax.microsoft.com
-  password: caomeijump.com
-  port: 767
-  protocol: auth_aes128_md5
-  protocol-param: 167153:5b4c3ff4-16c7-35f5-97e9-68eb9a053815
-  protocolparam: 167153:5b4c3ff4-16c7-35f5-97e9-68eb9a053815
-  server: iplc-ji.cmydns2.com
-  type: ssr
-  udp: true
-- cipher: rc4-md5
-  name: '234,1023|Relay_ |106.00Mb #1'
-  obfs: http_simple
-  obfs-param: ajax.microsoft.com
-  obfsparam: ajax.microsoft.com
-  password: caomeijump.com
-  port: 767
-  protocol: auth_aes128_md5
-  protocol-param: 167153:5b4c3ff4-16c7-35f5-97e9-68eb9a053815
-  protocolparam: 167153:5b4c3ff4-16c7-35f5-97e9-68eb9a053815
-  server: iplc-xiang.cmydns2.com
-  type: ssr
-  udp: true
-- cipher: rc4-md5
-  name: '234,1023|Relay_ |106.00Mb #2'
-  obfs: http_simple
-  obfs-param: ajax.microsoft.com
-  obfsparam: ajax.microsoft.com
-  password: caomeijump.com
-  port: 767
-  protocol: auth_aes128_md5
-  protocol-param: 167153:5b4c3ff4-16c7-35f5-97e9-68eb9a053815
-  protocolparam: 167153:5b4c3ff4-16c7-35f5-97e9-68eb9a053815
-  server: iplc-zhu.cmydns2.com
-  type: ssr
-  udp: true
-- cipher: rc4-md5
-  name: 234,1023|Relay_ |101.00Mb
-  obfs: http_simple
-  obfs-param: ajax.microsoft.com
-  obfsparam: ajax.microsoft.com
-  password: caomeijump.com
-  port: 767
-  protocol: auth_aes128_md5
-  protocol-param: 167153:5b4c3ff4-16c7-35f5-97e9-68eb9a053815
-  protocolparam: 167153:5b4c3ff4-16c7-35f5-97e9-68eb9a053815
-  server: iplc-min.cmydns2.com
-  type: ssr
-  udp: true
-- cipher: rc4-md5
-  name: 234,1023|Relay_ |127.00Mb
-  obfs: http_simple
-  obfs-param: ajax.microsoft.com
-  obfsparam: ajax.microsoft.com
-  password: caomeijump.com
-  port: 767
-  protocol: auth_aes128_md5
-  protocol-param: 167153:5b4c3ff4-16c7-35f5-97e9-68eb9a053815
-  protocolparam: 167153:5b4c3ff4-16c7-35f5-97e9-68eb9a053815
-  server: iplc-su.cmydns2.com
-  type: ssr
-  udp: true
-- cipher: rc4-md5
-  name: 234,1023|Relay_ |190.00Mb
-  obfs: http_simple
-  obfs-param: ajax.microsoft.com
-  obfsparam: ajax.microsoft.com
-  password: caomeijump.com
-  port: 765
-  protocol: auth_aes128_md5
-  protocol-param: 167153:5b4c3ff4-16c7-35f5-97e9-68eb9a053815
-  protocolparam: 167153:5b4c3ff4-16c7-35f5-97e9-68eb9a053815
-  server: iplc-nf-1.cmydns2.com
-  type: ssr
-  udp: true
-- alpn:
-  - h2
-  grpc-opts:
-    grpc-service-name: mm_grpc
-  name: 234|🇼🇸 直连｜台湾-07 [1.0][原生][gRPC]
-  network: grpc
-  password: 5b4c3ff4-16c7-35f5-97e9-68eb9a053815cmynw
-  port: 667
-  server: kaizen-tw-7.cmydns2.com
-  sni: chimuni.com
-  tls: true
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: 257|TW-台湾 | CDN | 翻墙0.5×
@@ -248,7 +157,7 @@ proxies:
   name: 325|🇹🇼台湾区域2-三网优化-解锁Netflix
   network: tcp
   port: '60180'
-  server: xR7HSj.gov.goldliond.top
+  server: 7RgELC.gov.goldliond.top
   tls: false
   type: vmess
   uuid: dff90a14-6c25-4181-9791-0be9131da5a3
@@ -257,7 +166,7 @@ proxies:
   name: 325|🇹🇼台湾区域3-三网优化-解锁Netflix
   network: tcp
   port: '60180'
-  server: 186xDQ.gov.goldliond.top
+  server: gRikvU.gov.goldliond.top
   tls: false
   type: vmess
   uuid: dff90a14-6c25-4181-9791-0be9131da5a3
@@ -279,9 +188,12 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '365,366,665,677,680,751,752,764,810,818,829,830,843,864|台湾_0624002 #1'
+  country: 🇼TW
+  h2-opts: {}
+  http-opts: {}
+  name: 365,366,665,677,680,751,752,764,810,818,829,830,843,864,1023|TW_1276 | 1.81Mb
   network: ws
-  port: '31945'
+  port: 31945
   server: 103.159.206.35
   servername: ''
   skip-cert-verify: true
@@ -289,8 +201,6 @@ proxies:
   type: vmess
   uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
   ws-opts:
-    headers:
-      Host: ''
     path: /
 - alterId: 0
   cipher: auto
@@ -1076,7 +986,7 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 645,1023|Relay_ |26.95Mb
+  name: 645,1023|Relay_ |34.95Mb
   network: ws
   port: 443
   server: tw1g.forlive.live
@@ -1314,7 +1224,7 @@ proxies:
   client-fingerprint: chrome
   h2-opts: {}
   http-opts: {}
-  name: 769,1023|Relay_ |64.15Mb
+  name: 769,1023|Relay_ |30.39Mb
   network: ws
   port: 443
   server: tw1g.xn--vhq70hxyat50h6wk.com

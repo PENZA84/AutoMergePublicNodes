@@ -26,7 +26,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 0,1,2,3,365,527,528,530,531,633,663,681,729,761,762,820,861|CN_speednode_0023
+  name: 0,1,2,3,365,527,528,530,531,729,761,762,820,861|CN_speednode_0023
   network: tcp
   port: 36002
   server: 183.240.235.162
@@ -629,7 +629,7 @@ proxies:
   uuid: 887c60ea-1b1f-4f8f-92a0-ab5970387835
 - alterId: 64
   cipher: auto
-  name: '365,761,762,820|🇨🇳 CN😈SSRSUB_252344610 #1'
+  name: '365,633,663,681,761,762,820|🇨🇳 CN😈SSRSUB_252344610 #1'
   network: tcp
   port: '35601'
   server: 120.232.153.40
@@ -687,7 +687,7 @@ proxies:
     path: /zh-cn
 - alterId: 64
   cipher: auto
-  name: 365,686,761,762,820,861|CN_speednode_0030
+  name: 365,633,663,681,686,761,762,820,861|CN_speednode_0030
   network: tcp
   port: 54002
   server: 183.240.235.162
@@ -726,7 +726,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: '365,633,663,665,681,686,761,762,820|🇨🇳 CN😈SSRSUB_1325262272 #1'
+  name: '365,665,686,761,762,820|🇨🇳 CN😈SSRSUB_1325262272 #1'
   network: tcp
   port: '55908'
   server: 183.240.235.164
@@ -757,7 +757,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: '365,633,663,681,820,829,830|🇨🇳广东4 #1'
+  name: '365,820,829,830|🇨🇳广东4 #1'
   network: tcp
   port: '54437'
   server: 183.236.51.23
@@ -3095,18 +3095,20 @@ proxies:
   server: 14.29.124.168
   type: ss
   udp: true
-- cipher: aes-128-gcm
+- cipher: chacha20-ietf-poly1305
   name: 632|[SS] 广东省 移动
-  password: e19c3b26-dd0e-414b-8c40-ce1b46a4b45e
-  port: 56705
+  password: 7de2cdca-e3cd-4f0c-bf8e-3eef9f89df79
+  port: 20015
   server: gy.666666222.shop
   type: ss
   udp: true
-- cipher: aes-128-gcm
-  name: 632|[SS] 广东省 移动 2
-  password: b25e7d13-e6bc-4b2f-9810-594d6a45ed5c
-  port: 56701
-  server: gy.666666222.shop
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 632,662,769|🇯🇵 JP 01
+  password: 127e812d-4f78-4eb4-8c3c-4ae7ffe0368c
+  port: 61001
+  server: 4.forlive.live
+  tfo: false
   type: ss
   udp: true
 - alterId: 64
@@ -3115,16 +3117,6 @@ proxies:
   network: tcp
   port: '44602'
   server: 183.240.235.170
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: '633,663,681,820|UM😈SSRSUB_-1044557709 #1'
-  network: tcp
-  port: '41490'
-  server: 183.240.235.166
   servername: ''
   tls: false
   type: vmess
@@ -9271,6 +9263,16 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
+  name: '820|UM😈SSRSUB_-1044557709 #1'
+  network: tcp
+  port: '41490'
+  server: 183.240.235.166
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
   name: '820|🇨🇳 CN😈SSRSUB_-154286188 #1'
   network: tcp
   port: '48815'
@@ -9344,9 +9346,42 @@ proxies:
     headers:
       Host: '%7B%22host%22:%22193.25.215.160%22%7D'
     path: /v2ray
+- cipher: rc4-md5
+  name: 1023|Relay_-CN_782 |104.00Mb
+  obfs: http_simple
+  obfs-param: ajax.microsoft.com
+  password: caomeijump.com
+  port: 769
+  protocol: auth_aes128_md5
+  protocol-param: 167153:5b4c3ff4-16c7-35f5-97e9-68eb9a053815
+  server: iplc-zhu.cmydns2.com
+  type: ssr
+  udp: true
+- cipher: rc4-md5
+  name: 1023|Relay_-🇨🇳CN_792 |412.00Mb
+  obfs: http_simple
+  obfs-param: ajax.microsoft.com
+  password: caomeijump.com
+  port: 766
+  protocol: auth_aes128_md5
+  protocol-param: 167153:5b4c3ff4-16c7-35f5-97e9-68eb9a053815
+  server: iplc-su.cmydns2.com
+  type: ssr
+  udp: true
+- cipher: rc4-md5
+  name: 1023|Relay_-🇨🇳CN_794 |100.00Mb
+  obfs: http_simple
+  obfs-param: ajax.microsoft.com
+  password: caomeijump.com
+  port: 764
+  protocol: auth_aes128_md5
+  protocol-param: 167153:5b4c3ff4-16c7-35f5-97e9-68eb9a053815
+  server: iplc-su.cmydns2.com
+  type: ssr
+  udp: true
 - cipher: aes-256-cfb
   country: 🇨CN
-  name: 1023|Relay_🇨🇳CN-🇨🇳CN_1050 |97.00Mb
+  name: 1023|Relay_🇨CN-🇨🇳CN_1050 |99.00Mb
   obfs: tls1.2_ticket_auth
   obfs-param: ajax.microsoft.com
   password: hGkQ6915tD
@@ -9357,7 +9392,7 @@ proxies:
   type: ssr
 - cipher: aes-256-cfb
   country: 🇨🇳CN
-  name: 1023|Relay_🇨🇳CN-🇨🇳CN_1051 |97.00Mb
+  name: 1023|Relay_🇨🇳CN-🇨🇳CN_1051 |99.00Mb
   obfs: tls1.2_ticket_auth
   obfs-param: ajax.microsoft.com
   password: hGkQ6915tD
@@ -9368,7 +9403,7 @@ proxies:
   type: ssr
 - cipher: aes-256-cfb
   country: 🇨🇳CN
-  name: 1023|Relay_🇨🇳CN-🇨🇳CN_1052 |106.00Mb
+  name: 1023|Relay_🇨🇳CN-🇨🇳CN_1052 |103.00Mb
   obfs: tls1.2_ticket_auth
   obfs-param: ajax.microsoft.com
   password: hGkQ6915tD
@@ -9379,7 +9414,7 @@ proxies:
   type: ssr
 - cipher: aes-256-cfb
   country: 🇨🇳CN
-  name: 1023|Relay_🇨🇳CN-🇨🇳CN_1053 |110.00Mb
+  name: 1023|Relay_🇨🇳CN-🇨🇳CN_1053 |100.00Mb
   obfs: tls1.2_ticket_auth
   obfs-param: ajax.microsoft.com
   password: hGkQ6915tD
@@ -9390,7 +9425,7 @@ proxies:
   type: ssr
 - cipher: aes-256-cfb
   country: 🇨🇳CN
-  name: 1023|Relay_🇨🇳CN-🇨🇳CN_1054 |130.00Mb
+  name: 1023|Relay_🇨🇳CN-🇨🇳CN_1054 |98.00Mb
   obfs: tls1.2_ticket_auth
   obfs-param: ajax.microsoft.com
   password: hGkQ6915tD
@@ -9401,7 +9436,7 @@ proxies:
   type: ssr
 - cipher: aes-256-cfb
   country: 🇨🇳CN
-  name: 1023|Relay_🇨🇳CN-🇨🇳CN_1055 |117.00Mb
+  name: 1023|Relay_🇨🇳CN-🇨🇳CN_1055 |158.00Mb
   obfs: tls1.2_ticket_auth
   obfs-param: ajax.microsoft.com
   password: hGkQ6915tD
@@ -9412,7 +9447,7 @@ proxies:
   type: ssr
 - cipher: aes-256-cfb
   country: 🇨🇳CN
-  name: 1023|Relay_🇨🇳CN-🇨🇳CN_1056 |104.00Mb
+  name: 1023|Relay_🇨🇳CN-🇨🇳CN_1056 |99.00Mb
   obfs: tls1.2_ticket_auth
   obfs-param: ajax.microsoft.com
   password: hGkQ6915tD
@@ -9423,7 +9458,7 @@ proxies:
   type: ssr
 - cipher: aes-256-cfb
   country: 🇨🇳CN
-  name: 1023|Relay_🇨🇳CN-🇨🇳CN_1057 |97.00Mb
+  name: 1023|Relay_🇨🇳CN-🇨🇳CN_1057 |98.00Mb
   obfs: tls1.2_ticket_auth
   obfs-param: ajax.microsoft.com
   password: hGkQ6915tD
@@ -9434,7 +9469,7 @@ proxies:
   type: ssr
 - cipher: aes-256-cfb
   country: 🇨🇳CN
-  name: 1023|Relay_🇨🇳CN-🇨🇳CN_1058 |99.00Mb
+  name: 1023|Relay_🇨🇳CN-🇨🇳CN_1058 |102.00Mb
   obfs: tls1.2_ticket_auth
   obfs-param: ajax.microsoft.com
   password: hGkQ6915tD
@@ -9445,7 +9480,7 @@ proxies:
   type: ssr
 - cipher: aes-256-cfb
   country: 🇨🇳CN
-  name: 1023|Relay_🇨🇳CN-🇨🇳CN_1059 |97.00Mb
+  name: 1023|Relay_🇨🇳CN-🇨🇳CN_1059 |101.00Mb
   obfs: tls1.2_ticket_auth
   obfs-param: ajax.microsoft.com
   password: hGkQ6915tD
