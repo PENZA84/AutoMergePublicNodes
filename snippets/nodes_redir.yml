@@ -11,7 +11,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  country: 🇺RU
+  country: 🇷🇺RU
   h2-opts: {}
   http-opts: {}
   name: '0,1,2,3,380,548,549,551,552,553,631,670,672,691,755,787,788,790,890,892|俄罗斯联邦_0628001
@@ -180,10 +180,11 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '380,381,787,788|🇺🇸 _US_美国->🇨🇦_CA_加拿大 #8'
+  name: '380,381,777,778,787,788|🇺🇸 _US_美国->🇨🇦_CA_加拿大 #8'
   network: ws
   port: '2052'
   server: 104.18.57.121
+  servername: ''
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -194,10 +195,11 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '380,381,787,788|🇺🇸 _US_美国->🇨🇦_CA_加拿大 #9'
+  name: '380,381,777,778,787,788|🇺🇸 _US_美国->🇨🇦_CA_加拿大 #9'
   network: ws
   port: '2052'
   server: 104.19.46.103
+  servername: ''
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -545,81 +547,6 @@ proxies:
     headers:
       Host: x1.ylks01.eu.org
     path: /blue01
-- alterId: 0
-  cipher: auto
-  name: 658,659,707,739|_TW_->🇸_US_美国
-  network: ws
-  port: 80
-  server: 107.167.182.230
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: efcb7d7c-c582-46f5-eeff-0e553342528d
-  ws-opts:
-    headers:
-      host: br.gy.youxuan-1.66688888.xyz
-    path: /tg@hkaa0
-- alterId: 0
-  cipher: auto
-  name: '658,659,707,740|🇺🇸_US_美国->🇩🇪_DE_德国 #1'
-  network: ws
-  port: 80
-  server: flkf2.shabijichang.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: flkf2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 658,659,707,740|🇺🇸_US_美国->🇬🇧_GB_英国
-  network: ws
-  port: 80
-  server: mrb2.shabijichang.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: mrb2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 658,659,707,739|🇺🇸_US_美国->🇳_IN__1
-  network: ws
-  port: 80
-  server: 104.17.18.26
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5180444a-4756-43b4-960b-49eb9052e4e8
-  ws-opts:
-    headers:
-      host: a.109420.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 658,659,707,739|🇺🇸_US_美国->🇮🇳_IN_印度_2
-  network: ws
-  port: 80
-  server: 104.26.8.44
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5180444a-4756-43b4-960b-49eb9052e4e8
-  ws-opts:
-    headers:
-      host: a.109420.xyz
-    path: /
 - name: 704|🇨🇳_CN_中国->🇭🇰_HK_香港_0@17
   network: tcp
   password: 61c6ceee-ee4f-475f-867d-dcfda15490fb
@@ -2373,6 +2300,34 @@ proxies:
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
 - alterId: 0
   cipher: auto
+  name: 739|🇺🇸_US_美国->🇳_IN__1
+  network: ws
+  port: 80
+  server: 104.17.18.26
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 5180444a-4756-43b4-960b-49eb9052e4e8
+  ws-opts:
+    headers:
+      host: a.109420.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 739|🇺🇸_US_美国->🇮🇳_IN_印度_2
+  network: ws
+  port: 80
+  server: 104.26.8.44
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 5180444a-4756-43b4-960b-49eb9052e4e8
+  ws-opts:
+    headers:
+      host: a.109420.xyz
+    path: /
+- alterId: 0
+  cipher: auto
   name: 739|🇺🇸_US_美国->_DE_国
   network: ws
   port: 80
@@ -2413,6 +2368,20 @@ proxies:
     headers:
       host: mm2.shabijichang.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: 739|_TW_->🇸_US_美国
+  network: ws
+  port: 80
+  server: 107.167.182.230
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: efcb7d7c-c582-46f5-eeff-0e553342528d
+  ws-opts:
+    headers:
+      host: br.gy.youxuan-1.66688888.xyz
+    path: /tg@hkaa0
 - alterId: 0
   cipher: auto
   name: 739|🇺🇸_US_美国->_GB_国_1
@@ -2496,6 +2465,19 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: '740|🇺🇸_US_美国->🇩🇪_DE_德国 #1'
+  network: ws
+  port: 80
+  server: flkf2.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: flkf2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
   name: 740|🇹🇼_TW_台湾->🇺🇸_US_美国
   network: ws
   port: 80
@@ -2507,6 +2489,19 @@ proxies:
     headers:
       Host: br.gy.youxuan-1.66688888.xyz
     path: /tg@hkaa0
+- alterId: 0
+  cipher: auto
+  name: 740|🇺🇸_US_美国->🇬🇧_GB_英国
+  network: ws
+  port: 80
+  server: mrb2.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: mrb2.shabijichang.com
+    path: /
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: 443trojan
