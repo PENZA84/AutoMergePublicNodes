@@ -1,6 +1,15 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 16|香港|徐州移动|Neko|1.5x
+  network: tcp
+  port: '13335'
+  server: jscm.r1u.cn
+  tls: false
+  type: vmess
+  uuid: f010dd01-c54a-3c03-95ce-0838214259c6
+- alterId: 0
+  cipher: auto
   name: '19,20,21,22,24|🇭🇰 香港1 #4'
   network: ws
   port: '80'
@@ -176,14 +185,15 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 30,136,384,719,781,782,794|🇨🇦 加拿大 018
+  name: '30,136,384,662,663,711,719,781,782,794|🇨🇦 加拿大 018 #2'
   network: ws
   port: '2082'
   server: tgqyjc2024.qyjc.xyz
   servername: ''
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: false
   type: vmess
+  udp: true
   uuid: 1e3e82b2-36c0-44aa-80ad-5c3f693824f1
   ws-opts:
     headers:
@@ -191,9 +201,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 30,384,1057|Pool__946
+  name: 30,384|🏁RELAY-162.159.152.2-0096
   network: ws
   port: 2086
   server: tgqyjc2024.qyjc.xyz
@@ -461,7 +469,7 @@ proxies:
       Host: pqhk.chinayyds.xyz
     path: /?ed=2048
 - cipher: rc4-md5
-  name: 247,1057|Relay_-🇨🇳CN_721
+  name: 247,1057|Relay_-🇨🇳CN_755 |95.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -474,7 +482,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 247,1057|Relay_-🇨🇳CN_747
+  name: 247,1057|Relay_-🇨🇳CN_770 |98.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -487,7 +495,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 247,1057|Relay_-🇨🇳CN_725
+  name: 247,1057|Relay_-🇨🇳CN_728 |106.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -500,7 +508,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 247,1057|Relay_-🇨🇳CN_746
+  name: 247,1057|Relay_-🇨🇳CN_736 |154.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -513,7 +521,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 247,1057|Relay_-🇨🇳CN_732
+  name: 247,1057|Relay_-🇨🇳CN_749 |160.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -724,11 +732,15 @@ proxies:
   uuid: f6195be4-37bc-3cc8-917e-50c704e2f974
 - alterId: 0
   cipher: auto
-  name: 275,675|日本_063004015
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 275,675,1057|Relay_🇺🇸US-🇸US_1854
   network: tcp
-  port: '39589'
+  port: 39589
   server: line.acetace.com
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: f6195be4-37bc-3cc8-917e-50c704e2f974
@@ -816,7 +828,7 @@ proxies:
   name: 343|🇭🇰香港区域1-三网优化
   network: tcp
   port: '60181'
-  server: yP5odf.gov.goldliond.top
+  server: z1UQjL.gov.goldliond.top
   tls: false
   type: vmess
   uuid: dff90a14-6c25-4181-9791-0be9131da5a3
@@ -825,7 +837,7 @@ proxies:
   name: 343|🇭🇰香港区域2-三网优化
   network: tcp
   port: '60181'
-  server: QyNE2o.gov.goldliond.top
+  server: u9GEfI.gov.goldliond.top
   tls: false
   type: vmess
   uuid: dff90a14-6c25-4181-9791-0be9131da5a3
@@ -834,7 +846,7 @@ proxies:
   name: 343|🇭🇰香港区域3-三网优化
   network: tcp
   port: '60181'
-  server: srqjqf.gov.goldliond.top
+  server: mZndqF.gov.goldliond.top
   tls: false
   type: vmess
   uuid: dff90a14-6c25-4181-9791-0be9131da5a3
@@ -2299,7 +2311,7 @@ proxies:
       Host: ''
     path: /
 - cipher: chacha20-ietf-poly1305
-  name: 384|🇰HK-16.163.56.161-2887
+  name: 384,1057|Relay_-HK_153 |72.81Mb
   password: 2155145a-b1b5-443a-8977-670f6bd10f02
   port: 50001
   server: bgroup.node4.s.nodelist-gfwairport2.top
@@ -2921,7 +2933,9 @@ proxies:
   uuid: 87ed289f-cae3-49b4-bbe3-23da298c0e81
 - alterId: 64
   cipher: auto
-  name: 384,692,781,782,873|🇭🇰HK-182.16.1.194-8978
+  h2-opts: {}
+  http-opts: {}
+  name: 384,692,781,782,873,1057|_835 |52.64Mb
   network: ws
   port: 80
   server: hrgdvpn.flycdnedc55.vip
@@ -3290,7 +3304,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '592,593|🇭🇰香港-02|2.0x #1'
+  name: 593|🇭🇰香港-02|2.0x
   network: ws
   port: '2052'
   server: hkjpkrsg.diao.icu
@@ -3303,7 +3317,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '592,593|🇭🇰香港-03|2.0x #1'
+  name: 593|🇭🇰香港-03|2.0x
   network: ws
   port: '2052'
   server: hkjpkrsg.diao.icu
@@ -3316,7 +3330,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '592,593|🇭🇰香港-04|2.0x #1'
+  name: 593|🇭🇰香港-04|2.0x
   network: ws
   port: '2052'
   server: hkhk.diao.icu
@@ -3329,7 +3343,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '592,593|🇭🇰香港-05|2.0x #1'
+  name: 593|🇭🇰香港-05|2.0x
   network: ws
   port: '2052'
   server: hkhk.diao.icu
@@ -3342,7 +3356,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '592,593|🇭🇰香港-负载|2.0x #1'
+  name: 593|🇭🇰香港-负载|2.0x
   network: ws
   port: '27381'
   server: 203.69.248.40
@@ -3798,7 +3812,7 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 692,1057|_819
+  name: 692,1057|_813 |46.36Mb
   network: ws
   port: 80
   server: 182.16.1.194
@@ -4617,7 +4631,7 @@ proxies:
     path: 55021a7c-bd6c-418e-be95-ceac8ba27b45-vm
 - alterId: 0
   cipher: auto
-  name: '768,873|美国 CloudFlare节点 #51'
+  name: '768,873|美国 CloudFlare节点 #47'
   network: ws
   port: '8080'
   server: yh1.freeh1.xyz
