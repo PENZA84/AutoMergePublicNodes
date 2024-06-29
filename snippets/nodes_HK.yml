@@ -94,15 +94,14 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '29,135,383,660,661,709,717,779,780|🏁RELAY-162.159.153.2-1351 #2'
+  name: '29,135,383,717,779,780|🏁RELAY-162.159.153.2-1351 #2'
   network: ws
   port: 2082
   server: tgqyjc2024.qyjc.xyz
   servername: ''
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: false
   type: vmess
-  udp: true
   uuid: 1e3e82b2-36c0-44aa-80ad-5c3f693824f1
   ws-opts:
     headers:
@@ -724,7 +723,7 @@ proxies:
   name: 342|🇭🇰香港区域1-三网优化
   network: tcp
   port: '60181'
-  server: CA3Yzu.gov.goldliond.top
+  server: 5bvwrg.gov.goldliond.top
   tls: false
   type: vmess
   uuid: dff90a14-6c25-4181-9791-0be9131da5a3
@@ -733,7 +732,7 @@ proxies:
   name: 342|🇭🇰香港区域2-三网优化
   network: tcp
   port: '60181'
-  server: yMb7zs.gov.goldliond.top
+  server: ykQh4j.gov.goldliond.top
   tls: false
   type: vmess
   uuid: dff90a14-6c25-4181-9791-0be9131da5a3
@@ -742,7 +741,7 @@ proxies:
   name: 342|🇭🇰香港区域3-三网优化
   network: tcp
   port: '60181'
-  server: LUMv7Y.gov.goldliond.top
+  server: 6Fn0KN.gov.goldliond.top
   tls: false
   type: vmess
   uuid: dff90a14-6c25-4181-9791-0be9131da5a3
@@ -4270,7 +4269,7 @@ proxies:
     path: 55021a7c-bd6c-418e-be95-ceac8ba27b45-vm
 - alterId: 0
   cipher: auto
-  name: '766,871|美国 CloudFlare节点 #68'
+  name: '766,871|美国 CloudFlare节点 #70'
   network: ws
   port: '8080'
   server: yh1.freeh1.xyz
@@ -5536,19 +5535,17 @@ proxies:
   type: vmess
   uuid: 49933ab7-7ec2-3024-9f6e-b7ad9da24c8f
 - alterId: 0
-  name: 857|HK2
-  network: ws
-  password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 2096
-  server: 8.218.3.198
+  cipher: chacha20-ietf-poly1305
+  name: 857|HK
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 20006
+  server: 46.232.123.37
   skip-cert-verify: true
-  sni: mfjd.591haoka.com
   tls: true
-  type: trojan
-  udp: true
+  type: ss
 - alterId: 0
   cipher: chacha20-ietf-poly1305
-  name: 857|HK3
+  name: 857|HK2
   password: 5ddbeb21-15fb-4aa5-8cc3-34df601c1f02
   port: 50206
   server: 46.232.123.37
@@ -5557,47 +5554,67 @@ proxies:
   type: ss
 - alterId: 0
   cipher: chacha20-ietf-poly1305
-  name: 857|HK5
-  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 10101
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 857|HK6
+  name: 857|HK3
   password: d31534ff-83a3-4137-91b7-79e144489643
-  port: 50217
+  port: 50245
   server: 46.232.123.37
   skip-cert-verify: true
   tls: true
   type: ss
 - alterId: 0
   cipher: chacha20-ietf-poly1305
-  name: 857|HK7
-  password: 033c8fd4-ef0c-479c-a4ff-cbd0f4bd3ef1
-  port: 58456
+  name: 857|HK4
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 50001
   server: 46.232.123.37
   skip-cert-verify: true
   tls: true
   type: ss
 - alterId: 0
-  name: 857|HK8
-  network: tcp
-  password: 10f87a8e-a6f6-319d-a895-8310d326ecce
-  port: 20897
-  server: 8.217.193.174
+  name: 857|HK5
+  network: ws
+  password: 0fd9b883-0551-4ed1-b978-528183b459a2
+  port: 8443
+  server: 47.242.107.109
   skip-cert-verify: true
-  sni: hkhe02.bcloudv.cyou
+  sni: mfjd.591haoka.com
   tls: true
   type: trojan
   udp: true
 - alterId: 0
   cipher: chacha20-ietf-poly1305
-  name: 857|HK9
+  name: 857|HK6
+  password: 9c2bf54f-5f13-4d71-b866-3a3f23c4d86b
+  port: 40722
+  server: 38.207.154.30
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  name: 857|HK7
+  network: tcp
+  password: 77891e6750
+  port: 443
+  server: 27.0.232.204
+  skip-cert-verify: true
+  sni: hk1.connecton.surf
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 857|HK8
   password: d31534ff-83a3-4137-91b7-79e144489643
-  port: 50208
+  port: 50222
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 857|HK9
+  password: 5ddbeb21-15fb-4aa5-8cc3-34df601c1f02
+  port: 50227
   server: 46.232.123.37
   skip-cert-verify: true
   tls: true
@@ -5606,7 +5623,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   name: 857|HK10
   password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 40023
+  port: 30005
   server: 46.232.123.37
   skip-cert-verify: true
   tls: true
@@ -5615,8 +5632,8 @@ proxies:
   name: 857|HK11
   network: ws
   password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 2083
-  server: 8.218.173.78
+  port: 2053
+  server: 8.218.98.75
   skip-cert-verify: true
   sni: mfjd.591haoka.com
   tls: true
@@ -5624,13 +5641,33 @@ proxies:
   udp: true
 - alterId: 0
   cipher: chacha20-ietf-poly1305
-  name: 857|HK14
+  name: 857|HK12
   password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 40001
+  port: 40030
   server: 46.232.123.37
   skip-cert-verify: true
   tls: true
   type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 857|HK13
+  password: 9c2bf54f-5f13-4d71-b866-3a3f23c4d86b
+  port: 40703
+  server: 38.207.154.30
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  name: 857|HK14
+  network: ws
+  password: 0fd9b883-0551-4ed1-b978-528183b459a2
+  port: 2053
+  server: 47.242.183.7
+  skip-cert-verify: true
+  sni: mfjd.591haoka.com
+  tls: true
+  type: trojan
+  udp: true
 - alterId: 64
   cipher: auto
   name: '870,871|香港1|@ripaojiedian #1'
