@@ -61,8 +61,8 @@ proxies:
   uuid: d9f14a88-9b82-3380-bba0-29c46e775e2e
 - alterId: 64
   cipher: auto
-  name: '0,1,2,3,70,383,551,552,554,555,556,716,742,759,791,792,850|🇨🇳 CN😈SSRSUB_252344610
-    #1'
+  name: '0,1,2,3,70,383,551,552,554,555,556,663,671,693,711,716,742,759,791,792,850|🇨🇳
+    CN😈SSRSUB_252344610 #1'
   network: tcp
   port: '35601'
   server: 120.232.153.40
@@ -115,7 +115,7 @@ proxies:
   ws-opts: {}
 - cipher: aes-256-gcm
   country: 🇺🇸US
-  name: 1,2,384,742,1057|Pool_🇺🇸US_1802 | 3.91Mb
+  name: 1,2,384,742,1057|Pool_🇺🇸US_1768 | 3.91Mb
   password: 241f9bb7-186b-4161-a517-84bece5b54a1
   port: 8443
   server: es-full.privateip.net
@@ -135,7 +135,7 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-256-cfb
-  name: 1,2,384,742,1057|_27 | 2.62Mb
+  name: 1,2,384,742,1057|_620 | 2.62Mb
   password: ZET59LF6DvCC8KVt
   port: 9005
   server: 80.92.204.106
@@ -368,7 +368,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: aes-128-gcm
-  name: 450|中转节点-1.47MB/s
+  name: '450,671|中转节点-1.47MB/s #1'
   network: tcp
   port: 1002
   server: 183.236.48.169
@@ -618,7 +618,7 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: '610,695,781,782,873,894,1076|🇺🇸_US_美国->🇫🇷_FR_法国 #6'
+  name: '610,671,695,781,782,873,894,1076|🇺🇸_US_美国->🇫🇷_FR_法国 #6'
   network: ws
   port: 2082
   server: 104.21.8.157
@@ -632,7 +632,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '610,781,782,871,873,1076|🇺🇸_US_美国->🇫🇷_FR_法国 #5'
+  name: '610,671,781,782,871,873,1076|🇺🇸_US_美国->🇫🇷_FR_法国 #5'
   network: ws
   port: 2082
   server: 172.67.130.140
@@ -688,6 +688,82 @@ proxies:
     headers:
       Host: x1.ylks01.eu.org
     path: /blue01
+- alterId: 0
+  cipher: auto
+  name: 662,663,711,743|_TW_->🇸_US_美国
+  network: ws
+  port: 80
+  server: 107.167.182.230
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: efcb7d7c-c582-46f5-eeff-0e553342528d
+  ws-opts:
+    headers:
+      host: br.gy.youxuan-1.66688888.xyz
+    path: /tg@hkaa0
+- alterId: 0
+  cipher: auto
+  name: '662,663,671,711,744|🇺🇸_US_美国->🇩🇪_DE_德国 #1'
+  network: ws
+  port: 80
+  server: flkf2.shabijichang.com
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: flkf2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 662,663,711,744|🇺🇸_US_美国->🇬🇧_GB_英国
+  network: ws
+  port: 80
+  server: mrb2.shabijichang.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: mrb2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 662,663,711,743|🇺🇸_US_美国->🇳_IN__1
+  network: ws
+  port: 80
+  server: 104.17.18.26
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5180444a-4756-43b4-960b-49eb9052e4e8
+  ws-opts:
+    headers:
+      host: a.109420.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 662,663,711,743|🇺🇸_US_美国->🇮🇳_IN_印度_2
+  network: ws
+  port: 80
+  server: 104.26.8.44
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5180444a-4756-43b4-960b-49eb9052e4e8
+  ws-opts:
+    headers:
+      host: a.109420.xyz
+    path: /
 - name: 708|🇨🇳_CN_中国->🇭🇰_HK_香港_0@17
   network: tcp
   password: 61c6ceee-ee4f-475f-867d-dcfda15490fb
@@ -2375,34 +2451,6 @@ proxies:
   ws-path: /videos
 - alterId: 0
   cipher: auto
-  name: 743|🇺🇸_US_美国->🇳_IN__1
-  network: ws
-  port: 80
-  server: 104.17.18.26
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 5180444a-4756-43b4-960b-49eb9052e4e8
-  ws-opts:
-    headers:
-      host: a.109420.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 743|🇺🇸_US_美国->🇮🇳_IN_印度_2
-  network: ws
-  port: 80
-  server: 104.26.8.44
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 5180444a-4756-43b4-960b-49eb9052e4e8
-  ws-opts:
-    headers:
-      host: a.109420.xyz
-    path: /
-- alterId: 0
-  cipher: auto
   name: 743|🇺🇸_US_美国->_DE_国
   network: ws
   port: 80
@@ -2443,20 +2491,6 @@ proxies:
     headers:
       host: mm2.shabijichang.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: 743|_TW_->🇸_US_美国
-  network: ws
-  port: 80
-  server: 107.167.182.230
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: efcb7d7c-c582-46f5-eeff-0e553342528d
-  ws-opts:
-    headers:
-      host: br.gy.youxuan-1.66688888.xyz
-    path: /tg@hkaa0
 - alterId: 0
   cipher: auto
   name: 743|🇺🇸_US_美国->_GB_国_1
@@ -2540,19 +2574,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '744|🇺🇸_US_美国->🇩🇪_DE_德国 #1'
-  network: ws
-  port: 80
-  server: flkf2.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: flkf2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
   name: 744|🇹🇼_TW_台湾->🇺🇸_US_美国
   network: ws
   port: 80
@@ -2564,19 +2585,6 @@ proxies:
     headers:
       Host: br.gy.youxuan-1.66688888.xyz
     path: /tg@hkaa0
-- alterId: 0
-  cipher: auto
-  name: 744|🇺🇸_US_美国->🇬🇧_GB_英国
-  network: ws
-  port: 80
-  server: mrb2.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: mrb2.shabijichang.com
-    path: /
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: 443trojan
@@ -2918,29 +2926,23 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 817,1057|Relay_🏁ZZ-🇨🇦CA_2005 |13.38Mb
+  name: '817|🇺🇸_US_美国->🇨🇦_CA_加拿大 #20'
   network: ws
   port: 2052
   server: cdncdncdncdn.784654.xyz
-  servername: ca-cfcdn.aikunapp.com
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 5290b612-5ba5-4ac1-af45-da81dab91ef1
+  uuid: 8c8dabbc-93a6-44ad-b878-0d980fa249d1
   ws-opts:
     headers:
-      HOST: ca-cfcdn.aikunapp.com
+      host: ca-cfcdn.aikunapp.com
     path: /index?ed=2048
 - alterId: 0
   cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 817,871,873,1057|_888
+  name: '817,871,873|美国 CloudFlare节点 #55'
   network: ws
-  port: 2082
+  port: '2082'
   server: s1c.v2.v001sss.xyz
   servername: ''
   skip-cert-verify: true
@@ -2949,7 +2951,7 @@ proxies:
   uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
   ws-opts:
     headers:
-      host: s1c.v2.v001sss.xyz
+      Host: ''
     path: /
 - alterId: 0
   cipher: auto
