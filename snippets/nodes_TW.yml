@@ -59,7 +59,7 @@ proxies:
   type: vmess
   uuid: 8907aeec-189d-48d9-b557-fb242a4d8127
 - cipher: rc4-md5
-  name: 250|🇼🇸 IPLC｜台湾<-河北 [2.0][原生]
+  name: 250,1073| |518.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -72,7 +72,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 250|🇼🇸 IPLC｜台湾<-湖南 [2.0][原生]
+  name: 250,1073| |286.00Mb
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -111,7 +111,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 250|🇼🇸 IPLC｜台湾<-苏州 [2.0][原生]
+  name: '250,1073| |103.00Mb #1'
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -124,7 +124,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: rc4-md5
-  name: 250|🇼🇸 IPLC｜台湾媒体专线-1 [2.0][NF][Dis...
+  name: '250,1073| |108.00Mb #1'
   obfs: http_simple
   obfs-param: ajax.microsoft.com
   obfsparam: ajax.microsoft.com
@@ -234,7 +234,7 @@ proxies:
   name: 352|🇹🇼台湾区域1-三网优化-解锁Netflix
   network: tcp
   port: '60180'
-  server: VYpUGG.gov.goldliond.top
+  server: kWUM3i.gov.goldliond.top
   tls: false
   type: vmess
   uuid: dff90a14-6c25-4181-9791-0be9131da5a3
@@ -243,7 +243,7 @@ proxies:
   name: 352|🇹🇼台湾区域2-三网优化-解锁Netflix
   network: tcp
   port: '60180'
-  server: LqHdQB.gov.goldliond.top
+  server: xtSDJP.gov.goldliond.top
   tls: false
   type: vmess
   uuid: dff90a14-6c25-4181-9791-0be9131da5a3
@@ -252,7 +252,7 @@ proxies:
   name: 352|🇹🇼台湾区域3-三网优化-解锁Netflix
   network: tcp
   port: '60180'
-  server: T7GZKT.gov.goldliond.top
+  server: JmoAGC.gov.goldliond.top
   tls: false
   type: vmess
   uuid: dff90a14-6c25-4181-9791-0be9131da5a3
@@ -274,7 +274,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '392,862|🔒 VM-TCP-NA 🇹🇼 TW-122.118.172.... #1'
+  name: 392|🔒 VM-TCP-NA 🇹🇼 TW-122.118.172....
   network: tcp
   port: 61012
   server: 122.118.172.110
@@ -283,7 +283,7 @@ proxies:
   uuid: 4b804301-23ce-378f-87df-af85f73c611f
 - alterId: 0
   cipher: auto
-  name: '392,862|🔒 VM-WS-TLS 🇹🇼 TW-122.118.172.... #1'
+  name: 392|🔒 VM-WS-TLS 🇹🇼 TW-122.118.172....
   network: ws
   port: 3041
   server: 122.118.172.110
@@ -829,6 +829,32 @@ proxies:
     headers:
       Host: ee1683cb66f83a1d45e5fdf2e7bdc7dd.mobgslb.tbcache.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: '602,603,604|🇹🇼台湾-01|1.0x #2'
+  network: ws
+  port: '2052'
+  server: usus.diao.icu
+  tls: false
+  type: vmess
+  uuid: 6f00f5bb-90cd-41c3-8ab4-67dfe7ee7247
+  ws-opts:
+    headers:
+      Host: tw.niao.icu
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '602,603,604|🇹🇼台湾-02|1.0x #2'
+  network: ws
+  port: '2052'
+  server: hkjpkrsg.diao.icu
+  tls: false
+  type: vmess
+  uuid: 6f00f5bb-90cd-41c3-8ab4-67dfe7ee7247
+  ws-opts:
+    headers:
+      Host: tw.niaoba.top
+    path: /
 - cipher: rc4-md5
   name: 605|Premium|广台|IEPL|01
   password: RenzheCloudSS
@@ -1096,14 +1122,16 @@ proxies:
   uuid: e160d0ba-5b1a-448c-fcfb-35bfc5c2b1b5
 - alterId: 0
   cipher: auto
-  name: 689|台湾_070113013
+  h2-opts: {}
+  http-opts: {}
+  name: 689,1073| |88.20Mb
   network: ws
-  port: '443'
+  port: 443
   server: tw1g.forlive.live
-  servername: ''
+  servername: tms.dingtalk.com
   tls: false
   type: vmess
-  uuid: b74eae4e-90c6-46c0-b744-595ca9dd3b8a
+  uuid: 4ccc923e-8452-418c-9222-87ee8f295e14
   ws-opts:
     headers:
       Host: tw1g.forlive.live
@@ -1352,7 +1380,9 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 813|🇹🇼 TW 00
+  h2-opts: {}
+  http-opts: {}
+  name: 813,1073| |93.95Mb
   network: ws
   port: 443
   server: tw1g.xn--vhq70hxyat50h6wk.com
