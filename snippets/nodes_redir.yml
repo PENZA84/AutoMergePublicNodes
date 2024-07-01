@@ -293,10 +293,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: '393,394,652,709,779,798,799,808,809,834,1076|未命名 #358'
+  name: '393,394,709,779,798,799,808,809,834|🇺🇸_US_美国_5 #3'
   network: ws
   port: 2082
   server: 172.67.130.140
@@ -327,7 +324,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: aes-128-gcm
-  name: 462|中转节点-1.47MB/s
+  name: '462,688|中转节点-1.47MB/s #1'
   network: tcp
   port: 1002
   server: 183.236.48.169
@@ -577,10 +574,11 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: '626,890,1095|🇺🇸_US_美国->🇫🇷_FR_法国 #10'
+  name: '626,688,890,1095|🇺🇸_US_美国->🇫🇷_FR_法国 #10'
   network: ws
   port: 2082
   server: 104.21.8.157
+  servername: ''
   tls: false
   type: vmess
   uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
@@ -649,10 +647,11 @@ proxies:
     path: /tg@hkaa0
 - alterId: 0
   cipher: auto
-  name: '679,680,728,761|🇺🇸_US_美国->🇩🇪_DE_德国 #1'
+  name: '679,680,688,728,761|🇺🇸_US_美国->🇩🇪_DE_德国 #1'
   network: ws
   port: 80
   server: flkf2.shabijichang.com
+  servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -2877,11 +2876,23 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: '834,888,890,1076|未命名 #357'
+  name: '834|🇺🇸_US_美国->🇨🇦_CA_加拿大 #17'
   network: ws
-  port: 2082
+  port: 2052
+  server: cdncdncdncdn.784654.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 8c8dabbc-93a6-44ad-b878-0d980fa249d1
+  ws-opts:
+    headers:
+      host: ca-cfcdn.aikunapp.com
+    path: /index?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '834,888,890|美国 CloudFlare节点 #36'
+  network: ws
+  port: '2082'
   server: s1c.v2.v001sss.xyz
   servername: ''
   skip-cert-verify: true
@@ -2890,7 +2901,7 @@ proxies:
   uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
   ws-opts:
     headers:
-      host: s1c.v2.v001sss.xyz
+      Host: ''
     path: /
 - alterId: 0
   cipher: auto
