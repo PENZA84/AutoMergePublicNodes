@@ -714,7 +714,7 @@ proxies:
   name: 353|🇯🇵日本区域1自动运维节点
   network: tcp
   port: '20181'
-  server: ZqKcyT.gov.goldliond.top
+  server: n9OEoH.gov.goldliond.top
   tls: false
   type: vmess
   uuid: dff90a14-6c25-4181-9791-0be9131da5a3
@@ -723,7 +723,7 @@ proxies:
   name: 353|🇯🇵日本区域2自动运维节点
   network: tcp
   port: '20181'
-  server: P7ZRGQ.gov.goldliond.top
+  server: 0HfW2q.gov.goldliond.top
   tls: false
   type: vmess
   uuid: dff90a14-6c25-4181-9791-0be9131da5a3
@@ -732,7 +732,7 @@ proxies:
   name: 353|🇯🇵日本区域3自动运维节点
   network: tcp
   port: '20181'
-  server: MIzZkF.gov.goldliond.top
+  server: sFfcGa.gov.goldliond.top
   tls: false
   type: vmess
   uuid: dff90a14-6c25-4181-9791-0be9131da5a3
@@ -741,7 +741,7 @@ proxies:
   name: 353|🇯🇵日本区域1-三网优化-解锁Netflix/DisneyP...
   network: tcp
   port: '60183'
-  server: qUDox3.gov.goldliond.top
+  server: QHvyGA.gov.goldliond.top
   tls: false
   type: vmess
   uuid: dff90a14-6c25-4181-9791-0be9131da5a3
@@ -880,7 +880,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '393,808,809|🇯🇵 日本(油管:破解资源君2.0) #5'
+  name: '393|🇯🇵 日本(油管:破解资源君2.0) #1'
   network: tcp
   port: '26008'
   server: ppy-cmcc.0098dns02in.work
@@ -889,33 +889,18 @@ proxies:
   uuid: 708310bf-b4b2-3826-8071-956a85b1fe4b
 - alterId: 0
   cipher: auto
-  name: '393,865|🔒 VM-TCP-NA 🇯🇵 JP-167.88.184.6... #1'
-  network: tcp
-  port: '49455'
-  server: 167.88.184.65
-  servername: ''
-  tls: false
+  name: '393,857,865|🔒 VM-WS-TLS 🇯🇵 JP-103.168.155.... #2'
+  network: ws
+  port: 888
+  server: 103.168.155.26
+  servername: cdn.cjhh.lol
+  tls: true
   type: vmess
-  uuid: 46dc80bd-4883-4021-8c37-f3c6d6c46a34
-- alterId: 2
-  cipher: auto
-  name: '393,857,865|🔒 VM-TCP-NA 🇯🇵 JP-154.31.112.5... #2'
-  network: tcp
-  port: '229'
-  server: 154.31.112.51
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 40bc7b65-ec8a-3201-a646-c9d1b71091c6
-- alterId: 0
-  cipher: auto
-  name: '393,865|🔒 VM-TCP-NA 🇯🇵 JP-18.181.119.1... #1'
-  network: tcp
-  port: 11773
-  server: 18.181.119.117
-  tls: false
-  type: vmess
-  uuid: c2365e4e-3700-323a-b889-fea7677ef8d1
+  uuid: 8d994cc0-a8a7-4f66-b1e4-771c7e7c6ecd
+  ws-opts:
+    headers:
+      Host: cdn.cjhh.lol
+    path: /je5x3pBN1vez3NQudNkB
 - alterId: 0
   cipher: auto
   name: '393,709,712,727,857,865,911|日本_0702002 #1'
@@ -934,18 +919,33 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '393,857,865|🔒 VM-WS-TLS 🇯🇵 JP-103.168.155.... #2'
-  network: ws
-  port: 888
-  server: 103.168.155.26
-  servername: cdn.cjhh.lol
-  tls: true
+  name: '393,865|🔒 VM-TCP-NA 🇯🇵 JP-167.88.184.6... #1'
+  network: tcp
+  port: '49455'
+  server: 167.88.184.65
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 8d994cc0-a8a7-4f66-b1e4-771c7e7c6ecd
-  ws-opts:
-    headers:
-      Host: cdn.cjhh.lol
-    path: /je5x3pBN1vez3NQudNkB
+  uuid: 46dc80bd-4883-4021-8c37-f3c6d6c46a34
+- alterId: 0
+  cipher: auto
+  name: '393,865|🔒 VM-TCP-NA 🇯🇵 JP-54.248.214.2... #1'
+  network: tcp
+  port: 11773
+  server: 54.248.214.210
+  tls: false
+  type: vmess
+  uuid: c2365e4e-3700-323a-b889-fea7677ef8d1
+- alterId: 2
+  cipher: auto
+  name: '393,857,865|🔒 VM-TCP-NA 🇯🇵 JP-154.31.112.5... #2'
+  network: tcp
+  port: '229'
+  server: 154.31.112.51
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 40bc7b65-ec8a-3201-a646-c9d1b71091c6
 - cipher: chacha20-ietf-poly1305
   name: 394|🇵JP-89.31.126.150-0230
   password: G!yBwPWH3Vao
@@ -1211,6 +1211,15 @@ proxies:
   server: 52.194.225.73
   tfo: false
   type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 394,709,816,866|🇯🇵 JP😈SSRSUB_1145725734
+  password: 1ebd556c-b630-3d2f-9f5f-e97ef248198c
+  port: 61002
+  server: 4.forlive.live
+  tfo: false
+  type: ss
+  udp: true
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 394,866|🇯🇵 JP😈SSRSUB_1127044940
@@ -2732,7 +2741,7 @@ proxies:
     path: /azjp.pengui.xyz
 - alterId: 0
   cipher: auto
-  name: '684,738|未命名 #245'
+  name: '684,738|未命名 #240'
   network: ws
   port: 80
   server: v116.v2dns.bar
