@@ -573,7 +573,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: aes-128-gcm
-  name: '463,690|中转节点-1.47MB/s #1'
+  name: 463|中转节点-1.47MB/s
   network: tcp
   port: 1002
   server: 183.236.48.169
@@ -601,11 +601,10 @@ proxies:
   ws-path: /downloads
 - alterId: 0
   cipher: auto
-  name: '628,690,892,1099|🇺🇸_US_美国->🇫🇷_FR_法国 #7'
+  name: '628,892,1099|🇺🇸_US_美国->🇫🇷_FR_法国 #7'
   network: ws
   port: 2082
   server: 104.21.8.157
-  servername: ''
   tls: false
   type: vmess
   uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
@@ -2558,6 +2557,19 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 763|🇺🇸_US_美国->🇩🇪_DE_德国
+  network: ws
+  port: 80
+  server: flkf2.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: flkf2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
   name: 763|🇹🇼_TW_台湾->🇺🇸_US_美国
   network: ws
   port: 80
@@ -2584,16 +2596,21 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 781|🇺🇸_US_美国->_CA_
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 781,1080|Relay_🏁ZZ-🇨🇦CA_1946 |58.27Mb
   network: ws
   port: 2052
   server: 104.19.46.123
+  servername: cdn1.freegradely.xyz
+  skip-cert-verify: true
   sni: cdn2.freegradely.xyz
   type: vmess
   uuid: d6b6d982-d52f-465a-b988-85670b23f64a
   ws-opts:
     headers:
-      host: cdn2.freegradely.xyz
+      HOST: cdn1.freegradely.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -2610,47 +2627,21 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 781|🇺🇸_US_美国->🇨🇦_CA_加拿大_2
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 781,1080|Relay_🏁ZZ-🇺🇸US_1928 |13.87Mb
   network: ws
   port: 2086
   server: 104.19.47.80
+  servername: ip14.freegradely.xyz
+  skip-cert-verify: true
   sni: ip14.freegradely.xyz
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts:
     headers:
-      host: ip14.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: '781,800,801|🏁RELAY-172.64.99.22-2720 #1'
-  network: ws
-  port: 2086
-  server: 172.64.99.22
-  servername: ip11.freegradely.xyz
-  sni: ''
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ''
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: '781,800,801|🏁RELAY-172.64.175.213-2719 #1'
-  network: ws
-  port: 2086
-  server: 172.64.175.213
-  servername: ip11.freegradely.xyz
-  skip-cert-verify: true
-  sni: ''
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ''
+      HOST: ip14.freegradely.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -2963,9 +2954,27 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '836,890,892|美国 CloudFlare节点 #83'
+  h2-opts: {}
+  http-opts: {}
+  name: 836,1080|Relay_-🇦CA_801 | 8.63Mb
   network: ws
-  port: '2082'
+  port: 2052
+  server: cdncdncdncdn.784654.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 8c8dabbc-93a6-44ad-b878-0d980fa249d1
+  ws-opts:
+    headers:
+      host: ca-cfcdn.aikunapp.com
+    path: /index?ed=2048
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 836,890,892,1080|Relay_-🇷FR_757
+  network: ws
+  port: 2082
   server: s1c.v2.v001sss.xyz
   servername: ''
   skip-cert-verify: true
@@ -2974,7 +2983,7 @@ proxies:
   uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
   ws-opts:
     headers:
-      Host: ''
+      host: s1c.v2.v001sss.xyz
     path: /
 - alterId: 0
   cipher: auto
