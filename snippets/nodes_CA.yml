@@ -15,7 +15,7 @@ proxies:
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   country: 🇦CA
-  name: 28,246,405,669,882|🇨🇦 CA😈SSRSUB_-554483118
+  name: 28,246,405,669,676,882|🇨🇦 CA😈SSRSUB_-554483118
   password: JIhN6rBKkaEboLNXVSv5rq
   port: 80
   server: 142.4.216.225
@@ -48,19 +48,27 @@ proxies:
     headers:
       Host: jnd.888553.xyz
     path: /cctv13.m3u8
-- cipher: chacha20-ietf-poly1305
-  name: 246,405,725|RW 8 → tg@nicevpn123
-  password: G!yBwPWH3Vao
-  port: 804
-  server: 134.195.196.178
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   name: '246,405,728,814,815,927|加拿大_0706013 #1'
   network: ws
   port: '443'
   server: 158.51.121.36
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '246,405,728,814,815,927|未知_0706118 #1'
+  network: ws
+  port: '443'
+  server: 23.162.200.227
   servername: ''
   skip-cert-verify: false
   tls: false
@@ -104,7 +112,7 @@ proxies:
   name: 364|🇨🇦加州区域1自动运维节点
   network: tcp
   port: '20185'
-  server: 4gYV3R.gov.goldliond.top
+  server: 8qcnKx.gov.goldliond.top
   tls: false
   type: vmess
   uuid: dff90a14-6c25-4181-9791-0be9131da5a3
@@ -113,7 +121,7 @@ proxies:
   name: 364|🇨🇦加州区域2自动运维节点
   network: tcp
   port: '20185'
-  server: qpR1qZ.gov.goldliond.top
+  server: jgCdmU.gov.goldliond.top
   tls: false
   type: vmess
   uuid: dff90a14-6c25-4181-9791-0be9131da5a3
@@ -122,7 +130,7 @@ proxies:
   name: 364|🇨🇦加州区域3自动运维节点
   network: tcp
   port: '20185'
-  server: rnmVbd.gov.goldliond.top
+  server: AjCHuR.gov.goldliond.top
   tls: false
   type: vmess
   uuid: dff90a14-6c25-4181-9791-0be9131da5a3
@@ -210,16 +218,6 @@ proxies:
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
-  name: '404,708,713,827|🔒 VM-TCP-NA 🇨🇦 CA-178.128.237.... #1'
-  network: tcp
-  port: '3389'
-  server: 178.128.237.6
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- alterId: 0
-  cipher: auto
   client-fingerprint: chrome
   name: '404,405,725,814,815,882,883|🇨🇦 CA😈SSRSUB_806363324 #1'
   network: ws
@@ -257,21 +255,6 @@ proxies:
   port: 811
   server: 138.197.166.205
   type: ss
-- alterId: 0
-  cipher: auto
-  name: '405,728,814,815,927|未知_0706118 #1'
-  network: ws
-  port: '443'
-  server: 23.162.200.227
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
 - cipher: aes-256-gcm
   name: 405|CA-134.195.196.149-1071
   password: FoOiGlkAA9yPEGP
@@ -316,6 +299,13 @@ proxies:
   protocol-param: ''
   server: z0115.security-cloudfront-cdn.com
   type: ssr
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 405,725|RW 8 → tg@nicevpn123
+  password: G!yBwPWH3Vao
+  port: 804
+  server: 134.195.196.178
+  type: ss
   udp: true
 - cipher: aes-256-gcm
   name: 405|🇦CA-198.8.92.84-2379
@@ -911,6 +901,16 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
+  name: '577,578|加拿大_多伦多 #33'
+  network: ws
+  port: 2052
+  server: 104.19.38.18
+  tls: false
+  type: vmess
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
   name: '577,578|加拿大_多伦多 #35'
   network: ws
   port: 2086
@@ -1267,6 +1267,16 @@ proxies:
   network: tcp
   port: '3389'
   server: 167.99.179.27
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- alterId: 0
+  cipher: auto
+  name: '708,713,827,881|🔒 VM-TCP-NA 🇨🇦 CA-178.128.237.... #1'
+  network: tcp
+  port: '3389'
+  server: 178.128.237.6
   servername: ''
   tls: false
   type: vmess
