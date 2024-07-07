@@ -15,7 +15,7 @@ proxies:
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   country: 🇦CA
-  name: 28,246,405,669,882|🇨🇦 CA😈SSRSUB_-554483118
+  name: 28,246,405,669,676,882|🇨🇦 CA😈SSRSUB_-554483118
   password: JIhN6rBKkaEboLNXVSv5rq
   port: 80
   server: 142.4.216.225
@@ -78,15 +78,25 @@ proxies:
     headers:
       Host: ''
     path: /
-- alterId: 0
-  cipher: aes-256-gcm
-  name: 246,405,725,892|未知86 48.8MB/s
+- cipher: aes-256-gcm
+  name: 246,405,725|🇫🇷 FR 51 → tg@nicevpn123
   password: 7gaTTlW73G
   port: 49602
   server: 51.222.157.179
-  skip-cert-verify: true
-  tls: true
   type: ss
+  udp: true
+- alpn:
+  - h2
+  grpc-opts:
+    grpc-service-name: mm_grpc
+  name: 259|🇨🇦 特殊｜加拿大-A [1.5][gRPC]
+  network: grpc
+  password: 5b4c3ff4-16c7-35f5-97e9-68eb9a053815cmynw
+  port: 443
+  server: special-ca-1.cmydns2.com
+  sni: chimuni.com
+  tls: true
+  type: trojan
   udp: true
 - alterId: 0
   cipher: auto
@@ -102,7 +112,7 @@ proxies:
   name: 364|🇨🇦加州区域1自动运维节点
   network: tcp
   port: '20185'
-  server: xvLSCh.gov.goldliond.top
+  server: 8DHK3n.gov.goldliond.top
   tls: false
   type: vmess
   uuid: dff90a14-6c25-4181-9791-0be9131da5a3
@@ -111,7 +121,7 @@ proxies:
   name: 364|🇨🇦加州区域2自动运维节点
   network: tcp
   port: '20185'
-  server: AFMyW2.gov.goldliond.top
+  server: rMckOx.gov.goldliond.top
   tls: false
   type: vmess
   uuid: dff90a14-6c25-4181-9791-0be9131da5a3
@@ -120,7 +130,7 @@ proxies:
   name: 364|🇨🇦加州区域3自动运维节点
   network: tcp
   port: '20185'
-  server: EGut43.gov.goldliond.top
+  server: j5tcRk.gov.goldliond.top
   tls: false
   type: vmess
   uuid: dff90a14-6c25-4181-9791-0be9131da5a3
@@ -206,6 +216,37 @@ proxies:
   tls: false
   type: vmess
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- alterId: 0
+  cipher: auto
+  name: '404,708,719,728,740,814,815,913,921,927|未知_0706119 #1'
+  network: ws
+  port: '80'
+  server: speed.cloudflare.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
+  ws-opts:
+    headers:
+      Host: us2e-20240116.v2freevpn.com
+    path: /us2ekjds3nay
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: '404,405,719,728,740,814,815,882,883,913,921,927|美国_0706004 #1'
+  network: ws
+  port: '8080'
+  server: russia.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
+  ws-opts:
+    headers:
+      Host: sssub.v2.001.ssrsub.com
+    path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
   name: '404,708,713,740,827,881|🔒 VM-TCP-NA 🇨🇦 CA-178.128.237.... #3'
@@ -338,14 +379,11 @@ proxies:
   port: 445
   server: 38.111.114.133
   type: ss
-- alterId: 0
-  cipher: aes-256-gcm
-  name: 405,892|🇨CA 2.0MB/s
+- cipher: aes-256-gcm
+  name: 405|🇦CA-38.111.114.133-2251
   password: FoOiGlkAA9yPEGP
   port: 7306
   server: 38.111.114.133
-  skip-cert-verify: true
-  tls: true
   type: ss
 - cipher: aes-256-gcm
   name: 405|🇦CA-198.8.92.84-2372
@@ -2408,20 +2446,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: '740|Canada #15'
-  network: ws
-  port: '2052'
-  server: 23.227.38.13
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  ws-opts:
-    headers:
-      Host: cdn2.freegradely.xyz
-    path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
   name: 741|🇨🇦_CA_加拿大_3_2@44
