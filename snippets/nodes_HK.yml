@@ -1,6 +1,15 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 16|香港|徐州移动|Neko|1.5x
+  network: tcp
+  port: '13335'
+  server: jscm.r1u.cn
+  tls: false
+  type: vmess
+  uuid: f010dd01-c54a-3c03-95ce-0838214259c6
+- alterId: 0
+  cipher: auto
   name: 31,32,738|未知_071018592
   network: ws
   port: '8080'
@@ -1287,6 +1296,16 @@ proxies:
   uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d
 - alterId: 0
   cipher: auto
+  name: '428,770,911|🔒 VM-TCP-NA 🇭🇰 HK-42.3.134.80:... #2'
+  network: tcp
+  port: '23129'
+  server: 42.3.134.80
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a83fccdb-eeec-4dab-a8c9-a105acbd89e5
+- alterId: 0
+  cipher: auto
   name: '428,770,911|🔒 VM-WS-TLS 🇭🇰 HK-152.32.190.2... #2'
   network: ws
   port: '4431'
@@ -1301,36 +1320,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '428,738,911|🔒 VM-TCP-NA 🇭🇰 HK-91.149.236.4... #1'
-  network: tcp
-  port: '20143'
-  server: 91.149.236.46
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6785594d-31c8-48ff-c7ad-9f99c9483bf0
-- alterId: 0
-  cipher: auto
-  name: '428,770,911|🔒 VM-TCP-NA 🇭🇰 HK-42.3.134.80:... #2'
-  network: tcp
-  port: '23129'
-  server: 42.3.134.80
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a83fccdb-eeec-4dab-a8c9-a105acbd89e5
-- alterId: 0
-  cipher: auto
-  name: '428,770,903,911|🔒 VM-TCP-NA 🇭🇰 HK-163.53.18.19... #3'
-  network: tcp
-  port: '10010'
-  server: 163.53.18.195
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a58a91d7-6c29-40b8-bf0a-c231aa37932f
-- alterId: 0
-  cipher: auto
   name: '428,738,857,903,911|🔒 VM-WS-TLS 🇭🇰 HK-210.0.158.21... #3'
   network: ws
   port: '12909'
@@ -1343,6 +1332,43 @@ proxies:
     headers:
       Host: 19.lwdh.us
     path: ''
+- alterId: 0
+  cipher: auto
+  name: '428,770,903,911|🔒 VM-TCP-NA 🇭🇰 HK-163.53.18.19... #3'
+  network: tcp
+  port: '10010'
+  server: 163.53.18.195
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a58a91d7-6c29-40b8-bf0a-c231aa37932f
+- alterId: 0
+  cipher: auto
+  name: '428,738,911|🔒 VM-TCP-NA 🇭🇰 HK-91.149.236.4... #1'
+  network: tcp
+  port: '20143'
+  server: 91.149.236.46
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6785594d-31c8-48ff-c7ad-9f99c9483bf0
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 428,429,738,758,844,845,857,870,877,878,957|香港_0710014
+  network: ws
+  port: '2052'
+  server: freehk2.sbjc.shop
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 7cd8389b-3185-4515-86cb-6b70f53f2db6
+  ws-opts:
+    headers:
+      Host: aeza.baijia.cfd
+    path: /fdsffgfdgdfgdf
 - cipher: chacha20-ietf-poly1305
   name: 429|HK-62.216.92.167-0004
   password: G!yBwPWH3Vao
@@ -1680,23 +1706,6 @@ proxies:
   port: 80
   server: 47.243.99.111
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 429,738,758,844,845,857,870,877,878,957|香港_0710014
-  network: ws
-  port: '2052'
-  server: freehk2.sbjc.shop
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 7cd8389b-3185-4515-86cb-6b70f53f2db6
-  ws-opts:
-    headers:
-      Host: aeza.baijia.cfd
-    path: /fdsffgfdgdfgdf
 - cipher: aes-128-gcm
   name: 429,755|🇭🇰 HK 1 → tg@nicevpn123
   password: a-wym4ovY4Yw
@@ -2648,15 +2657,6 @@ proxies:
       Host: cn.bing.com
     path: /
   ws-path: /
-- cipher: aes-256-cfb
-  country: 🇰HK
-  name: 699,928|[02-24]-🇸-欧洲-096-150.107.46.21
-  obfs: tls1.2_ticket_auth
-  password: iFqnzSscN
-  port: 8083
-  protocol: origin
-  server: 150.107.46.21
-  type: ssr
 - alterId: 0
   cipher: auto
   name: '713|🇨🇳中国【YouTube-由零開始】 #7'
@@ -5857,3 +5857,66 @@ proxies:
     headers:
       Host: pqhk.xsjhl.xyz
     path: /?ed=2048
+- cipher: aes-128-gcm
+  name: 1257|🇭🇰 香港 01 SS
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 11001
+  server: ss.hkglink.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 1257|🇭🇰 香港 02 SS
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 11002
+  server: ss.hkglink.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 1257|🇭🇰 香港 03 SS
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 11003
+  server: ss.hkglink.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 1257|🇭🇰 香港 04 SS
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 11004
+  server: ss.hkglink.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 1257|🇭🇰 香港 05 SS
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 11005
+  server: ss.hkglink.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 1257|🇭🇰 香港 06 SS
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 11006
+  server: ss.hkglink.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 1257|🇭🇰 香港 07 SS
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 11007
+  server: ss.hkglink.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 1257|🇭🇰 香港 08 SS
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 11008
+  server: ss.hkglink.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 1257|🇭🇰 香港 IPLC 限速10Mbps
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 1024
+  server: 222909df61922934.cdn.jiashule.com
+  type: ss
+  udp: true
