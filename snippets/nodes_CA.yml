@@ -1,22 +1,22 @@
 proxies:
-- cipher: aes-256-gcm
-  country: ' CA'
-  name: 29,430|CA-38.111.114.133-1505
-  password: PCnnH6SQSnfoS27
-  port: 8091
-  server: 38.111.114.133
-  type: ss
 - alterId: 0
   cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   country: 🇦CA
-  name: 29,262,430,702,915,925|未知61 20.1MB/s
+  name: 29,262,430,702,709,915,925|未知61 20.1MB/s
   password: JIhN6rBKkaEboLNXVSv5rq
   port: 80
   server: 142.4.216.225
   skip-cert-verify: true
   tfo: false
   tls: true
+  type: ss
+- cipher: aes-256-gcm
+  country: ' CA'
+  name: 29,430|CA-38.111.114.133-1505
+  password: PCnnH6SQSnfoS27
+  port: 8091
+  server: 38.111.114.133
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 262,430,758|RW 8 → tg@nicevpn123
@@ -64,20 +64,22 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
+  client-fingerprint: chrome
   country: ZZ
+  fingerprint: ''
   h2-opts: {}
   http-opts: {}
-  name: 263|netflix_CA
+  name: 263,422|1b73b15600fb499ea97edcb0e9fff8...
   network: ws
   port: 2086
   server: 104.19.51.232
   servername: ip005.dtku47.xyz
   skip-cert-verify: true
+  tls: false
   type: vmess
+  udp: false
   uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
   ws-opts:
-    headers:
-      HOST: ip005.dtku47.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -167,16 +169,6 @@ proxies:
   port: 3389
   server: 159.203.9.214
   skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- alterId: 0
-  cipher: auto
-  name: '429,741,746,773|🔒 VM-TCP-NA 🇨🇦 CA-178.128.237.... #1'
-  network: tcp
-  port: '3389'
-  server: 178.128.237.6
-  servername: ''
   tls: false
   type: vmess
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
@@ -852,16 +844,6 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '607,608|加拿大_多伦多 #33'
-  network: ws
-  port: 2052
-  server: 104.19.38.18
-  tls: false
-  type: vmess
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
   name: '607,608|加拿大_多伦多 #35'
   network: ws
   port: 2086
@@ -1236,7 +1218,17 @@ proxies:
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
-  name: 741|加拿大_071123101
+  name: 741,746,773|🔒 VM-TCP-NA 🇨🇦 CA-178.128.237....
+  network: tcp
+  port: '3389'
+  server: 178.128.237.6
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- alterId: 0
+  cipher: auto
+  name: 741|加拿大_071204100
   network: ws
   port: '2086'
   server: 23.227.38.8
@@ -2368,20 +2360,6 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 773,860|美国 CloudFlare公司CDN节点(shopify)（...
-  network: ws
-  port: '2086'
-  server: 23.227.38.5
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
-  ws-opts:
-    headers:
-      Host: ip005.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
   name: '773|Canada #22'
   network: tcp
   port: '33342'
@@ -2862,10 +2840,3 @@ proxies:
   tls: false
   type: vmess
   uuid: d3a515b4-6fcb-38c8-93d3-2c17da360f89
-- cipher: aes-128-gcm
-  name: 1262|🇨🇦 加拿大 01
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 22002
-  server: ens.node1link.xyz
-  type: ss
-  udp: true
