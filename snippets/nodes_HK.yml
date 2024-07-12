@@ -296,13 +296,12 @@ proxies:
     path: /?ed=1024
 - alterId: 0
   cipher: auto
-  delay: 2044
-  name: '305,306,436,776,800,862,863,975|美国_0712198 #1'
+  name: '305,306,436,776,862,863,975|美国_0712198 #1'
   network: ws
   port: '2086'
   server: mbngfvbcvb_cdn.vbdf.lol
   servername: ''
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: false
   type: vmess
   uuid: 3711385d-9e52-497f-943b-18c6e74aa137
@@ -1308,7 +1307,7 @@ proxies:
     path: /ray
 - alterId: 0
   cipher: auto
-  name: '435,788,921,929,941|HK9 #1'
+  name: '435,788,921,929|🔒 VM-TCP-NA 🇭🇰 HK-163.53.18.19... #3'
   network: tcp
   port: '10010'
   server: 163.53.18.195
@@ -1332,11 +1331,12 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '435,756,921,929|🔒 VM-TCP-NA 🇭🇰 HK-91.149.236.4... #2'
+  name: '435,756,921,929,940,941|HK5 135.9KB/s #2'
   network: tcp
   port: '20143'
   server: 91.149.236.46
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 6785594d-31c8-48ff-c7ad-9f99c9483bf0
@@ -1366,7 +1366,7 @@ proxies:
     path: ''
 - alterId: 0
   cipher: auto
-  name: 436,776,800,875,975|香港_0712009
+  name: 436,776,875,975|香港_0712009
   network: ws
   port: '12909'
   server: 210.0.158.219
@@ -3368,19 +3368,6 @@ proxies:
     path: /v2ray
 - alterId: 0
   cipher: auto
-  name: 800|香港 004
-  network: ws
-  port: 2052
-  server: hk.wish.ml
-  tls: false
-  type: vmess
-  uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8
-  ws-opts:
-    headers:
-      Host: us6_0.wish.ml
-    path: /
-- alterId: 0
-  cipher: auto
   name: 801|香港-谷歌云
   network: ws
   port: 443
@@ -3903,7 +3890,7 @@ proxies:
     path: 55021a7c-bd6c-418e-be95-ceac8ba27b45-vm
 - alterId: 0
   cipher: auto
-  name: '849,954|美国 CloudFlare节点 #161'
+  name: '849,954|美国 CloudFlare节点 #156'
   network: ws
   port: '8080'
   server: yh1.freeh1.xyz
@@ -4393,6 +4380,19 @@ proxies:
     headers:
       Host: hkt.gotochinatown.net
     path: /
+- alterId: 0
+  cipher: auto
+  name: 875|🇭🇰香港IPLC砖线
+  network: ws
+  port: '80'
+  server: hk2.wgxghhur.skynode.top
+  tls: false
+  type: vmess
+  uuid: fda1ef74-4329-341c-a477-f14cad182e77
+  ws-opts:
+    headers:
+      Host: baiducdncmn2.inter.iqiyi.com
+    path: /ws?ed=2048
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 880|🇭🇰 ~ZF~HKˣ⁰˙¹
@@ -5161,6 +5161,89 @@ proxies:
   tls: false
   type: vmess
   uuid: 49933ab7-7ec2-3024-9f6e-b7ad9da24c8f
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 940|HK
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 40051
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 940|HK2
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 40028
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  name: 940|HK3
+  network: ws
+  password: 0fd9b883-0551-4ed1-b978-528183b459a2
+  port: 2053
+  server: 47.76.49.246
+  skip-cert-verify: true
+  sni: mfjd.591haoka.com
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 940|HK4
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 20004
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 940|HK7
+  password: 5ddbeb21-15fb-4aa5-8cc3-34df601c1f02
+  port: 50224
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 940|HK8
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 30012
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 940|HK9
+  password: 5ddbeb21-15fb-4aa5-8cc3-34df601c1f02
+  port: 50202
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 940|HK10
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 10017
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 940|HK11
+  password: d31534ff-83a3-4137-91b7-79e144489643
+  port: 50241
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
 - alterId: 64
   cipher: auto
   name: '953,954|香港1|@ripaojiedian #1'
