@@ -507,7 +507,7 @@ proxies:
     path: /blue
 - alterId: 64
   cipher: auto
-  name: '443,799,883,884|🇨🇳 广东省广州市 移动 #10'
+  name: '443,785,799,883,884|🇨🇳 广东省广州市 移动 #10'
   network: tcp
   port: '45972'
   server: 120.232.153.71
@@ -618,23 +618,21 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: '443,799,854,940|🔒 VM-TCP-NA 🇨🇳 CN-120.210.205.... #2'
+  name: '443,799,940|🔒 VM-TCP-NA 🇨🇳 CN-120.210.205.... #2'
   network: tcp
   port: '50002'
   server: 120.210.205.82
   servername: ''
-  sni: ''
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: '443,799,932,940,951,952|未知110 #2'
+  name: '443,799,932,940|🔒 VM-TCP-NA 🇨🇳 CN-112.132.212.... #3'
   network: tcp
   port: '50004'
   server: 112.132.212.19
   servername: ''
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -644,11 +642,14 @@ proxies:
   port: 8070
   server: 120.233.151.171
   type: ss
-- cipher: aes-128-gcm
-  name: 444|🇨CN-120.233.151.171-0034
+- alterId: 0
+  cipher: aes-128-gcm
+  name: 444,951|未知94
   password: 18269676-71ae-476d-b6d3-26ca391424b9
   port: 8060
   server: 120.233.151.171
+  skip-cert-verify: true
+  tls: true
   type: ss
 - cipher: aes-128-gcm
   name: 444|🇳CN-120.233.151.171-0036
@@ -801,7 +802,7 @@ proxies:
   udp: true
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 444,906,941|🇨🇳 CN😈SSRSUB_-1037551786
+  name: 444,854,906,941|🇨🇳 CN😈SSRSUB_-1037551786
   password: hGkQ6915tD
   port: 15083
   server: 59.56.77.178
@@ -883,13 +884,16 @@ proxies:
   tfo: false
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 444,807,906|🇭🇰 香港|@ripaojiedian
+  name: '444,807,906,951|未命名 #336'
   password: 7514d66e-9bd7-4fd6-91a0-0532aec92f9d
   port: 65045
   server: 123.88.148.9
+  skip-cert-verify: true
   tfo: false
+  tls: true
   type: ss
 - cipher: rc4-md5
   name: 444|🇳CN-42.157.196.103-2319
@@ -8295,7 +8299,7 @@ proxies:
   uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
 - alterId: 64
   cipher: auto
-  name: '834,854,942|🇨🇳 CN😈SSRSUB_461201426 #1'
+  name: '834,942|🇨🇳 CN😈SSRSUB_461201426 #1'
   network: tcp
   port: '36002'
   server: 183.240.235.162
