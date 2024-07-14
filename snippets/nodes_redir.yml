@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '2,641,642,694,695,696|🇺🇸_US_美国->🇨🇦_CA_加拿大 #8'
+  name: '2,641,642,694|_US_->_CA__1 #1'
   network: ws
   port: 2086
   server: 104.19.47.79
@@ -18,7 +18,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '2,641,642,694,695,696|🇺🇸_US_美国->🇨🇦_CA_加拿大 #9'
+  name: '2,641,642,694|_US_->_CA__2 #1'
   network: ws
   port: 2086
   server: 104.19.46.39
@@ -29,47 +29,39 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '2,694,695,696|🇺🇸_US_美国->🇨🇳_CN_中国 #3'
+  name: '2,694|_US_->_CN__1 #1'
   network: ws
   port: 2052
   server: 104.19.21.240
   sni: cdn2.freegradely.xyz
-  tls: false
   type: vmess
   uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '2,694,695,696|🇺🇸_US_美国->🇨🇦_CA_加拿大 #10'
+  name: '2,694|_US_->_CA__3 #1'
   network: ws
   port: 2086
   server: 104.19.47.32
   sni: ip14.freegradely.xyz
-  tls: false
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '2,694,695,696|🇺🇸_US_美国->🇸🇬_SG_新加坡 #1'
+  name: '2,694|_US_->_SG_ #1'
   network: ws
   port: 2052
   server: cfcdn2.sanfencdn9.com
   sni: ''
-  tls: false
   type: vmess
   uuid: ab1ee1ac-884c-44dc-ab65-d533d32e2b1a
-  ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '2,694,695,696|🇺🇸_US_美国->🇳🇱_NL_荷兰 #1'
+  name: '2,694|_US_->_NL_ #1'
   network: ws
   port: 2086
   server: 172.64.198.249
-  tls: false
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts: {}
 - cipher: chacha20-ietf-poly1305
   name: '2,447,694|_US_->_ES_ #1'
   password: 2062a5ca-a34e-47bf-9810-db91185f07fc
@@ -78,7 +70,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '2,641,642,694,695,696|🇺🇸_US_美国->🇨🇦_CA_加拿大 #11'
+  name: '2,641,642,694|_US_->_CA__4 #1'
   network: ws
   port: 2086
   server: 104.19.45.47
@@ -89,96 +81,65 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '2,694,695,696|🇺🇸_US_美国->🇨🇳_CN_中国 #4'
+  name: '2,694|_US_->_CN__2 #1'
   network: ws
   port: 8080
   server: 104.19.47.126
   sni: ''
-  tls: false
   type: vmess
   uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '3,1200,1201|🇺🇸_US_美国->🇧🇷_BR_巴西 #4'
+  name: 96|香港-CF中转-1
   network: ws
-  port: 2052
-  server: 104.18.37.248
+  port: '80'
+  server: duo-hk-v6.moshen.tech
   tls: false
   type: vmess
-  uuid: 60bcbd52-0c88-4da3-aee2-cc1f9d5ca224
-  ws-opts: {}
+  uuid: e7c2b346-ae51-4ad6-ab6e-cd7f094455a8
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
 - alterId: 0
   cipher: auto
-  name: '3,1200,1201|🇺🇸_US_美国->🇨🇳_CN_中国 #6'
+  name: 96|香港-CF中转-2
   network: ws
-  port: 8080
-  server: 104.19.47.16
+  port: '80'
+  server: dci-hk.skygov.de
   tls: false
   type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts: {}
+  uuid: e7c2b346-ae51-4ad6-ab6e-cd7f094455a8
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
 - alterId: 0
   cipher: auto
-  name: '3,641,642,843,1200,1201|🇺🇸_US_美国->🇨🇦_CA_加拿大 #25'
+  name: 96|美国-CF中转-2
   network: ws
-  port: 2086
-  server: 104.19.47.65
-  tls: false
+  port: '443'
+  server: wawo-us.skyorg.me
+  tls: true
   type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts: {}
+  uuid: e7c2b346-ae51-4ad6-ab6e-cd7f094455a8
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
 - alterId: 0
   cipher: auto
-  name: '3,1200,1201|🇨🇳_CN_中国->🇺🇸_US_美国 #4'
+  name: 96|法国-CF中转-GPT
   network: ws
-  port: 16928
-  server: 120.232.240.56
+  port: '80'
+  server: faguo-kuxue.mjjloc.xyz
   tls: false
   type: vmess
-  uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973
-  ws-opts: {}
-- alterId: 64
-  cipher: auto
-  name: '3,530,643,808,843,951,1200,1201|🇨🇳_CN_中国->🇺🇸_US_美国 #5'
-  network: tcp
-  port: 54002
-  server: 183.240.235.162
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: '3,1200,1201|🇺🇸_US_美国->🇧🇷_BR_巴西 #5'
-  network: ws
-  port: 2052
-  server: p3.v2raybrasil.cloud
-  tls: false
-  type: vmess
-  uuid: 60bcbd52-0c88-4da3-aee2-cc1f9d5ca224
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: '3,1200,1201|🇺🇸_US_美国->🇫🇷_FR_法国 #8'
-  network: ws
-  port: 2082
-  server: 172.67.130.140
-  tls: false
-  type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: '3,843,1200,1201|🇺🇸_US_美国->🇨🇦_CA_加拿大 #28'
-  network: ws
-  port: 2086
-  server: 172.64.175.213
-  sni: ''
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts: {}
+  uuid: e7c2b346-ae51-4ad6-ab6e-cd7f094455a8
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
 - alterId: 0
   cipher: auto
   name: '310,311|RU-俄罗斯 02 | 隧道中转 | 免流 5x #1'
@@ -635,7 +596,8 @@ proxies:
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
 - alterId: 0
   cipher: auto
-  name: '708,796,808,972,974,995,997,1185,1199,1278|美国【付费推荐：https://a0a.xyz】196 #2'
+  name: '708,787,794,796,808,972,974,981,989,995,997,1185,1199,1278|美国【付费推荐：https://a0a.xyz】196
+    #2'
   network: ws
   port: '2082'
   server: 172.67.130.140
@@ -2378,7 +2340,16 @@ proxies:
   ws-path: /videos
 - alterId: 0
   cipher: auto
-  name: '843|🇺🇸_US_美国->🇫🇷_FR_法国 #3'
+  name: '843|_US_->_CA__1 #2'
+  network: ws
+  port: 2086
+  server: 172.64.175.213
+  sni: ''
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+- alterId: 0
+  cipher: auto
+  name: '843|🇺🇸_US_美国->🇫🇷_FR_法国 #2'
   network: ws
   port: 80
   server: 104.20.12.10
@@ -2521,7 +2492,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: '845|🇺🇸_US_美国->🇳🇱_NL_荷兰 #2'
+  name: 845|🇺🇸_US_美国->🇳🇱_NL_荷兰
   network: ws
   port: 30000
   server: 45.199.138.191
@@ -2625,20 +2596,6 @@ proxies:
     headers:
       host: oiictw.yydsii.com
     path: /?ed=2048&Telegram🇨🇳 @WangCai2
-- alterId: 0
-  cipher: auto
-  name: 863|🇺🇸_US_美国->🇨_CA_
-  network: ws
-  port: 2052
-  server: 104.20.17.196
-  skip-cert-verify: true
-  sni: ''
-  type: vmess
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  ws-opts:
-    headers:
-      host: cdn2.freegradely.xyz
-    path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
   name: 863|🇺🇸_US_美国->🇨🇳_CN_中国_2
@@ -2993,7 +2950,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '918|🇺🇸_US_美国->🇨🇦_CA_加拿大 #13'
+  name: '918|🇺🇸_US_美国->🇨🇦_CA_加拿大 #1'
   network: ws
   port: 2052
   server: cdncdncdncdn.784654.xyz
