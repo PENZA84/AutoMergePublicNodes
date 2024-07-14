@@ -1,6 +1,15 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 16|日本|徐州移动|纸盒|1x
+  network: tcp
+  port: '26179'
+  server: jscm.r1u.cn
+  tls: false
+  type: vmess
+  uuid: f010dd01-c54a-3c03-95ce-0838214259c6
+- alterId: 0
+  cipher: auto
   name: '17,38|日本01-Vmess #1'
   network: ws
   port: '8080'
@@ -69,7 +78,7 @@ proxies:
   country: 🇺🇸US
   h2-opts: {}
   http-opts: {}
-  name: 29,437,526,740,764,771,773,804,860,877,974,993|日本_0713002
+  name: 29,437,526,733,764,771,773,804,860,877,974,993|日本_0714002
   network: tcp
   port: '1069'
   server: 152.69.197.60
@@ -94,7 +103,7 @@ proxies:
     path: /?ed=2048
 - alterId: 64
   cipher: auto
-  name: '78,446,790,804,904,912,947|广东省 移动 #10'
+  name: '78,446,804,904,912,947|广东省 移动 #11'
   network: tcp
   port: '51193'
   server: 183.238.202.173
@@ -110,12 +119,12 @@ proxies:
     grpc-service-name: 1654431
   h2-opts: {}
   http-opts: {}
-  name: '95,271,447,459,553,650,686,732,749,753,757,789,805,812,817,822,827,829,839,844,865,892,893,896,897,902,906,911,914,946,956,962,988,989,1210|🇯🇵
+  name: '95,271,439,447,459,553,650,686,732,749,753,757,789,805,812,817,822,827,829,839,844,865,892,893,896,897,902,906,911,914,946,956,962,988,989,1210|🇯🇵
     免费-日本7-Ver.1 #3'
   network: grpc
   password: bbab60b8-779f-31e2-916e-571f7d7023c4
   port: 28785
-  server: 1zoen-g03.jp07-1f28-vm0.entry.fr0307a.art
+  server: fw9hl-g03.jp07-1f28-vm0.entry.fr0307a.art
   servername: 45.144.2.113
   skip-cert-verify: false
   sni: jd5.zahuopu.top
@@ -153,26 +162,28 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 153|🇯🇵日本-01|1.0x
+  name: '153,679,680,681,682|🇯🇵日本-01|1.0x #4'
   network: ws
-  port: '2052'
+  port: 2052
   server: usus.diao.icu
   tls: false
   type: vmess
-  uuid: 4000219a-a199-441d-abc7-70359c60ed44
+  udp: true
+  uuid: 7f37cafd-fcc7-4e14-b991-6a7b51edfc24
   ws-opts:
     headers:
       Host: jp.diao.icu
     path: /
 - alterId: 0
   cipher: auto
-  name: 153|🇯🇵日本-02|1.0x
+  name: '153,679,680,681,682|🇯🇵日本-02|1.0x #4'
   network: ws
-  port: '2052'
+  port: 2052
   server: hkjpkrsg.diao.icu
   tls: false
   type: vmess
-  uuid: 4000219a-a199-441d-abc7-70359c60ed44
+  udp: true
+  uuid: 7f37cafd-fcc7-4e14-b991-6a7b51edfc24
   ws-opts:
     headers:
       Host: jp2.diao.icu
@@ -657,22 +668,6 @@ proxies:
     path: /jp2
 - alterId: 0
   cipher: auto
-  name: '446,447,789,792,804,807,878,879,937,945,991|日本_0714006 #1'
-  network: ws
-  port: '41597'
-  server: 183.181.36.194
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4a6eaa2d-5603-4c05-d967-fb6f42250a5a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
   name: '446,804,937,945|🔒 VM-WS-TLS 🇯🇵 JP-103.168.155.... #3'
   network: ws
   port: 888
@@ -687,23 +682,29 @@ proxies:
     path: /je5x3pBN1vez3NQudNkB
 - alterId: 0
   cipher: auto
-  name: 446|🔒 VM-TCP-NA 🇯🇵 JP-54.168.225.1...
+  name: '446,945|🔒 VM-TCP-NA 🇯🇵 JP-13.115.145.8... #1'
   network: tcp
   port: 11773
-  server: 54.168.225.142
+  server: 13.115.145.89
   tls: false
   type: vmess
   uuid: c2365e4e-3700-323a-b889-fea7677ef8d1
 - alterId: 0
   cipher: auto
-  name: '446,937,945|🔒 VM-TCP-NA 🇯🇵 JP-4.189.243.62... #2'
-  network: tcp
-  port: '53001'
-  server: 4.189.243.62
+  name: '446,447,789,792,804,807,878,879,937,945,991|日本_0714006 #1'
+  network: ws
+  port: '41597'
+  server: 183.181.36.194
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 60626f2a-a43d-3ef0-9e7a-f527d5ebe6fb
+  udp: true
+  uuid: 4a6eaa2d-5603-4c05-d967-fb6f42250a5a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 2
   cipher: auto
   name: '446,804,937,945|🔒 VM-TCP-NA 🇯🇵 JP-154.31.112.5... #3'
@@ -714,6 +715,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 40bc7b65-ec8a-3201-a646-c9d1b71091c6
+- alterId: 0
+  cipher: auto
+  name: '446,937,945|🔒 VM-TCP-NA 🇯🇵 JP-4.189.243.62... #2'
+  network: tcp
+  port: '53001'
+  server: 4.189.243.62
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 60626f2a-a43d-3ef0-9e7a-f527d5ebe6fb
 - cipher: chacha20-ietf-poly1305
   name: 447,827|_油管：全网最强白嫖 233
   password: G!yBwPWH3Vao
@@ -2118,6 +2129,45 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
+  name: '679,680,681,682|🇯🇵日本-03|1.0x #3'
+  network: ws
+  port: 2052
+  server: hkjpkrsg.diao.icu
+  type: vmess
+  udp: true
+  uuid: 7f37cafd-fcc7-4e14-b991-6a7b51edfc24
+  ws-opts:
+    headers:
+      Host: jp.niaodi.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '679,680,681,682|🇯🇵日本-04|1.0x #3'
+  network: ws
+  port: 2052
+  server: hkjpkrsg.diao.icu
+  type: vmess
+  udp: true
+  uuid: 7f37cafd-fcc7-4e14-b991-6a7b51edfc24
+  ws-opts:
+    headers:
+      Host: jp2.niaodi.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '679,680,681,682|🇯🇵日本-05|1.0x #3'
+  network: ws
+  port: 2052
+  server: hkhk.diao.icu
+  type: vmess
+  udp: true
+  uuid: 7f37cafd-fcc7-4e14-b991-6a7b51edfc24
+  ws-opts:
+    headers:
+      Host: jp3.diao.icu
+    path: /
+- alterId: 0
+  cipher: auto
   name: 686|日本1—E3
   network: ws
   port: 30100
@@ -2337,7 +2387,7 @@ proxies:
     path: /azjp.pengui.xyz
 - alterId: 0
   cipher: auto
-  name: '764,804,818|未命名 #242'
+  name: '764,804,818|未命名 #245'
   network: ws
   port: 80
   server: v116.v2dns.bar
@@ -4305,15 +4355,6 @@ proxies:
     headers:
       Host: a.189.cn
     path: /adobe
-- alterId: 0
-  cipher: auto
-  name: 945|🔒 VM-TCP-NA 🇯🇵 JP-13.115.145.8...
-  network: tcp
-  port: 11773
-  server: 13.115.145.89
-  tls: false
-  type: vmess
-  uuid: c2365e4e-3700-323a-b889-fea7677ef8d1
 - alterId: -1
   cipher: aes-256-cfb
   country: ???? JP
@@ -4738,71 +4779,6 @@ proxies:
     headers:
       Host: ''
     path: ''
-- alterId: 0
-  cipher: auto
-  name: 1254|日本高速1|5倍率
-  network: ws
-  port: '2052'
-  server: ss.moonriver.sbs
-  tls: false
-  type: vmess
-  uuid: cf505c9b-9003-416a-bf9f-847a51be9a8b
-  ws-opts:
-    headers:
-      Host: rbgs1.moonriver.sbs
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1254|日本高速2
-  network: ws
-  port: '2052'
-  server: ss.moonriver.sbs
-  tls: false
-  type: vmess
-  uuid: cf505c9b-9003-416a-bf9f-847a51be9a8b
-  ws-opts:
-    headers:
-      Host: rbgs2.moonriver.one
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1254|日本高速3
-  network: ws
-  port: '2052'
-  server: ss.moonriver.sbs
-  tls: false
-  type: vmess
-  uuid: cf505c9b-9003-416a-bf9f-847a51be9a8b
-  ws-opts:
-    headers:
-      Host: rbgs3.moonriver.sbs
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1254|日本高速4
-  network: ws
-  port: '80'
-  server: ss.moonriver.sbs
-  tls: false
-  type: vmess
-  uuid: cf505c9b-9003-416a-bf9f-847a51be9a8b
-  ws-opts:
-    headers:
-      Host: rbgs4.moonriver.sbs
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1254|NI尼日利亚-01|X5.0
-  network: ws
-  port: '2052'
-  server: ss.moonriver.sbs
-  tls: false
-  type: vmess
-  uuid: cf505c9b-9003-416a-bf9f-847a51be9a8b
-  ws-opts:
-    headers:
-      Host: ni1.moonriver.sbs
-    path: /1111a
 - grpc-opts:
     grpc-service-name: jpvip101
   name: '1259,1261|日本 101 #1'

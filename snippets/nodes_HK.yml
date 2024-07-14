@@ -1,15 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 16|香港|广州移动|Neko|1.5x
-  network: tcp
-  port: 13337
-  server: gdcm.r1u.cn
-  tls: false
-  type: vmess
-  uuid: f010dd01-c54a-3c03-95ce-0838214259c6
-- alterId: 0
-  cipher: auto
   name: '17,38|香港02-vmess #1'
   network: ws
   port: '8445'
@@ -518,19 +509,20 @@ proxies:
   tls: false
   type: vmess
   uuid: 1b600cbc-5417-41cb-a109-f02f1b70e853
-- alterId: 32
+- alterId: 64
   cipher: auto
-  name: 437|🆔@LuxyNet💎❖🇭🇰❖HK❖298
+  client-fingerprint: chrome
+  fingerprint: ''
+  name: 437,439|43962eeed10c497fbd934470370636...
   network: ws
   port: 80
   server: hrgdvpn.flycdnedc55.vip
   skip-cert-verify: true
   tls: false
   type: vmess
+  udp: false
   uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
   ws-opts:
-    headers:
-      host: hrgdvpn.flycdnedc55.vip
     path: /opt/video/images
 - alterId: 0
   cipher: auto
@@ -1447,6 +1439,16 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: '446,945|🔒 VM-TCP-NA 🇭🇰 HK-42.3.124.158... #1'
+  network: tcp
+  port: '23129'
+  server: 42.3.124.158
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a83fccdb-eeec-4dab-a8c9-a105acbd89e5
+- alterId: 0
+  cipher: auto
   name: '446,891,945|🔒 VM-WS-TLS 🇭🇰 HK-210.0.158.21... #2'
   network: ws
   port: '12909'
@@ -1461,16 +1463,6 @@ proxies:
     path: ''
 - alterId: 0
   cipher: auto
-  name: '446,945|🔒 VM-TCP-NA 🇭🇰 HK-112.120.212.... #1'
-  network: tcp
-  port: '20003'
-  server: 112.120.212.47
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7aca895e-9734-4784-9437-ce6420d45968
-- alterId: 0
-  cipher: auto
   name: '446,804,937,945|🔒 VM-TCP-NA 🇭🇰 HK-163.53.18.19... #3'
   network: tcp
   port: '10010'
@@ -1479,6 +1471,16 @@ proxies:
   tls: false
   type: vmess
   uuid: a58a91d7-6c29-40b8-bf0a-c231aa37932f
+- alterId: 0
+  cipher: auto
+  name: '446,945|🔒 VM-TCP-NA 🇭🇰 HK-112.120.212.... #1'
+  network: tcp
+  port: '20003'
+  server: 112.120.212.47
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7aca895e-9734-4784-9437-ce6420d45968
 - alterId: 0
   cipher: auto
   name: 447,792,878,879,991|香港_0714010
@@ -2663,6 +2665,71 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
+  name: '679,680,681,682|🇭🇰香港-01|2.0x #3'
+  network: ws
+  port: 2052
+  server: hkjpkrsg.diao.icu
+  type: vmess
+  udp: true
+  uuid: 7f37cafd-fcc7-4e14-b991-6a7b51edfc24
+  ws-opts:
+    headers:
+      Host: hk.diao.icu
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '679,680,681,682|🇭🇰香港-02|2.0x #3'
+  network: ws
+  port: 2052
+  server: hkjpkrsg.diao.icu
+  type: vmess
+  udp: true
+  uuid: 7f37cafd-fcc7-4e14-b991-6a7b51edfc24
+  ws-opts:
+    headers:
+      Host: hk2.diao.icu
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '679,680,681,682|🇭🇰香港-03|2.0x #3'
+  network: ws
+  port: 2052
+  server: hkjpkrsg.diao.icu
+  type: vmess
+  udp: true
+  uuid: 7f37cafd-fcc7-4e14-b991-6a7b51edfc24
+  ws-opts:
+    headers:
+      Host: hk.niaodi.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '679,680,681,682|🇭🇰香港-04|2.0x #3'
+  network: ws
+  port: 2052
+  server: hkhk.diao.icu
+  type: vmess
+  udp: true
+  uuid: 7f37cafd-fcc7-4e14-b991-6a7b51edfc24
+  ws-opts:
+    headers:
+      Host: hk2.niaodi.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '679,680,681,682|🇭🇰香港-05|2.0x #3'
+  network: ws
+  port: 2052
+  server: hkhk.diao.icu
+  type: vmess
+  udp: true
+  uuid: 7f37cafd-fcc7-4e14-b991-6a7b51edfc24
+  ws-opts:
+    headers:
+      Host: hk3.niaoba.top
+    path: /
+- alterId: 0
+  cipher: auto
   name: 686|香港—E3
   network: ws
   port: 30015
@@ -2712,20 +2779,6 @@ proxies:
       Host: cn.bing.com
     path: /
   ws-path: /
-- alterId: 0
-  cipher: auto
-  country: 🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: '732,790,804|香港 特别行政区 #2'
-  network: tcp
-  port: '19901'
-  server: xg.dashuai.cyou
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 0763d364-e5fc-417a-90c9-d516ce936d0d
 - cipher: aes-256-cfb
   country: 🇰HK
   name: 733,962|[02-24]-🇸-欧洲-096-150.107.46.21
@@ -3152,15 +3205,6 @@ proxies:
     headers:
       Host: ''
     path: /opt/video/images
-- alterId: 0
-  cipher: auto
-  name: '790|香港 特别行政区 #1'
-  network: tcp
-  port: 10010
-  server: xg3.tcity8.buzz
-  tls: false
-  type: vmess
-  uuid: 1ccffb2a-e14b-40d0-a2c9-f6395db996e9
 - alterId: 1
   cipher: auto
   name: '804|🇭🇰 香港(油管:破解资源君2.0) #11'
@@ -4074,7 +4118,7 @@ proxies:
     path: 55021a7c-bd6c-418e-be95-ceac8ba27b45-vm
 - alterId: 0
   cipher: auto
-  name: '865,970|美国 CloudFlare节点 #617'
+  name: '865,970|美国 CloudFlare节点 #601'
   network: ws
   port: '8080'
   server: yh1.freeh1.xyz
@@ -4577,6 +4621,19 @@ proxies:
   ws-opts:
     headers:
       Host: 20.239.179.251
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 891|香港高速1最新官网地址：https://one.moonri...
+  network: ws
+  port: '2052'
+  server: ss.moonriver.sbs
+  tls: false
+  type: vmess
+  uuid: 9f104453-9e04-4150-b851-768990422e01
+  ws-opts:
+    headers:
+      Host: hkgs01.moonriver.sbs
     path: /
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
@@ -5273,16 +5330,6 @@ proxies:
     headers:
       host: hktx.n.optage.moe
     path: /aln/12?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 945|🔒 VM-TCP-NA 🇭🇰 HK-42.3.124.158...
-  network: tcp
-  port: '23129'
-  server: 42.3.124.158
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a83fccdb-eeec-4dab-a8c9-a105acbd89e5
 - alterId: -1
   cipher: chacha20-ietf-poly1305
   name: 946|HK??SSRSUB_1112365116
@@ -5295,7 +5342,7 @@ proxies:
   country: ????CN
   h2-opts: {}
   http-opts: {}
-  name: '946,947|广东省广州市 移动 #11'
+  name: '946,947|广东省广州市 移动 #9'
   network: tcp
   port: '54002'
   server: 183.236.49.92
@@ -5855,32 +5902,6 @@ proxies:
     headers:
       Host: ''
     path: ''
-- alterId: 0
-  cipher: auto
-  name: 1254|香港高速1最新官网地址：https://one.moonri...
-  network: ws
-  port: '2052'
-  server: ss.moonriver.sbs
-  tls: false
-  type: vmess
-  uuid: cf505c9b-9003-416a-bf9f-847a51be9a8b
-  ws-opts:
-    headers:
-      Host: hkgs01.moonriver.sbs
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1254|香港高速2
-  network: ws
-  port: '2052'
-  server: ss.moonriver.sbs
-  tls: false
-  type: vmess
-  uuid: cf505c9b-9003-416a-bf9f-847a51be9a8b
-  ws-opts:
-    headers:
-      Host: hkgs02.moonriver.sbs
-    path: /
 - grpc-opts:
     grpc-service-name: hkvip101
   name: '1259,1261|香港 101 #1'
