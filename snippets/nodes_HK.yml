@@ -513,7 +513,7 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   fingerprint: ''
-  name: 438,440|d491cccc4ee24c19a4b9f1d4cd7575...
+  name: 438,440|c3af3b0678424d728058b5dcda1999...
   network: ws
   port: 80
   server: hrgdvpn.flycdnedc55.vip
@@ -1424,41 +1424,6 @@ proxies:
   uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d
 - alterId: 0
   cipher: auto
-  name: '447,950|🔒 VM-TCP-NA 🇭🇰 HK-42.3.124.158... #1'
-  network: tcp
-  port: '23129'
-  server: 42.3.124.158
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a83fccdb-eeec-4dab-a8c9-a105acbd89e5
-- alterId: 0
-  cipher: auto
-  name: '447,809,950,961,962|HK5 #2'
-  network: tcp
-  port: '10010'
-  server: 163.53.18.195
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: a58a91d7-6c29-40b8-bf0a-c231aa37932f
-- alterId: 0
-  cipher: auto
-  name: '447,809,950|🔒 VM-WS-TLS 🇭🇰 HK-152.32.190.2... #2'
-  network: ws
-  port: '4431'
-  server: 152.32.190.239
-  servername: cfhk.393930.xyz
-  tls: true
-  type: vmess
-  uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9
-  ws-opts:
-    headers:
-      Host: cfhk.393930.xyz
-    path: /
-- alterId: 0
-  cipher: auto
   name: '447,950|🔒 VM-TCP-NA 🇭🇰 HK-112.120.212.... #1'
   network: tcp
   port: '20003'
@@ -1481,6 +1446,40 @@ proxies:
     headers:
       Host: 19.lwdh.us
     path: ''
+- alterId: 0
+  cipher: auto
+  name: '447,809,950|🔒 VM-TCP-NA 🇭🇰 HK-163.53.18.19... #2'
+  network: tcp
+  port: '10010'
+  server: 163.53.18.195
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a58a91d7-6c29-40b8-bf0a-c231aa37932f
+- alterId: 0
+  cipher: auto
+  name: '447,950|🔒 VM-TCP-NA 🇭🇰 HK-42.3.124.158... #1'
+  network: tcp
+  port: '23129'
+  server: 42.3.124.158
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a83fccdb-eeec-4dab-a8c9-a105acbd89e5
+- alterId: 0
+  cipher: auto
+  name: '447,809,950|🔒 VM-WS-TLS 🇭🇰 HK-152.32.190.2... #2'
+  network: ws
+  port: '4431'
+  server: 152.32.190.239
+  servername: cfhk.393930.xyz
+  tls: true
+  type: vmess
+  uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9
+  ws-opts:
+    headers:
+      Host: cfhk.393930.xyz
+    path: /
 - alterId: 0
   cipher: auto
   name: 448,797,883,884,996|香港_0714010
@@ -5392,19 +5391,82 @@ proxies:
   type: vmess
   uuid: 49933ab7-7ec2-3024-9f6e-b7ad9da24c8f
 - alterId: 0
-  name: 961|HK2
-  network: ws
-  password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 2053
-  server: 47.243.51.171
+  cipher: chacha20-ietf-poly1305
+  name: 961|HK
+  password: 033c8fd4-ef0c-479c-a4ff-cbd0f4bd3ef1
+  port: 50233
+  server: 46.232.123.37
   skip-cert-verify: true
-  sni: mfjd.591haoka.com
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 961|HK2
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 10008
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  name: 961|HK3
+  network: grpc
+  password: fdc65525-e161-3356-9992-f0446eff60fc
+  port: 46216
+  server: 47.242.1.206
+  skip-cert-verify: true
+  sni: hkvip104.qlgq.fun
   tls: true
   type: trojan
   udp: true
 - alterId: 0
   cipher: chacha20-ietf-poly1305
-  name: 961|HK3
+  name: 961|HK4
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 40001
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: '961|HK5 #1'
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 20005
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 961|HK6
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 30012
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 961|HK7
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 40051
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 961|HK8
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 50005
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 961|HK9
   password: 5ddbeb21-15fb-4aa5-8cc3-34df601c1f02
   port: 50200
   server: 46.232.123.37
@@ -5413,47 +5475,9 @@ proxies:
   type: ss
 - alterId: 0
   cipher: chacha20-ietf-poly1305
-  name: 961|HK6
-  password: AHyDyR
-  port: 56012
-  server: 38.150.12.187
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  name: 961|HK8
-  network: ws
-  password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 2053
-  server: 8.218.98.75
-  skip-cert-verify: true
-  sni: mfjd.591haoka.com
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 961|HK9
-  password: 9c2bf54f-5f13-4d71-b866-3a3f23c4d86b
-  port: 30203
-  server: 38.207.154.30
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
   name: 961|HK10
   password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 30013
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 961|HK11
-  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 40020
+  port: 30008
   server: 46.232.123.37
   skip-cert-verify: true
   tls: true
@@ -5462,8 +5486,17 @@ proxies:
   cipher: chacha20-ietf-poly1305
   name: 961|HK12
   password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 20011
+  port: 10015
   server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 961|HK13
+  password: AHyDyR
+  port: 56012
+  server: 38.150.12.187
   skip-cert-verify: true
   tls: true
   type: ss
