@@ -256,32 +256,6 @@ proxies:
     path: /cctv13.m3u8
 - alterId: 0
   cipher: auto
-  name: 270|超级|香港1
-  network: ws
-  port: '2082'
-  server: chaoji1.chaozhijc.xyz
-  tls: false
-  type: vmess
-  uuid: a0c04579-be22-4817-ae0a-c6c4e897c216
-  ws-opts:
-    headers:
-      Host: xg.chaozhijc.xyz
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 270|超级|香港2
-  network: ws
-  port: '2082'
-  server: chaojj2.chaozhijc.xyz
-  tls: false
-  type: vmess
-  uuid: a0c04579-be22-4817-ae0a-c6c4e897c216
-  ws-opts:
-    headers:
-      Host: xg.chaozhijc.xyz
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
   name: '278,279,280,281,282,284,484,485,486,487,488|p香港-1 #10'
   network: ws
   port: '8880'
@@ -318,45 +292,6 @@ proxies:
   ws-opts:
     headers:
       Host: pqxg1.gyyun.top
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 285|pq香港1
-  network: ws
-  port: '2052'
-  server: yx1.chinayyds.xyz
-  tls: false
-  type: vmess
-  uuid: 36b2ebbd-4bf5-48a6-94c1-03877708e29b
-  ws-opts:
-    headers:
-      Host: pqhk.chinayyds.xyz
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 285|pq香港2
-  network: ws
-  port: '2052'
-  server: yx2.chinayyds.xyz
-  tls: false
-  type: vmess
-  uuid: 36b2ebbd-4bf5-48a6-94c1-03877708e29b
-  ws-opts:
-    headers:
-      Host: pqhk.chinayyds.xyz
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 285|pq香港3
-  network: ws
-  port: '2052'
-  server: yx3.chinayyds.xyz
-  tls: false
-  type: vmess
-  uuid: 36b2ebbd-4bf5-48a6-94c1-03877708e29b
-  ws-opts:
-    headers:
-      Host: pqhk.chinayyds.xyz
     path: /?ed=2048
 - alterId: 0
   cipher: auto
@@ -1311,6 +1246,20 @@ proxies:
   uuid: 2919ef6f-b8d3-49ea-a32d-2f95d346e4cb
 - alterId: 0
   cipher: auto
+  name: '451,818,959|🔒 VM-WS-TLS 🇭🇰 HK-152.32.190.2... #2'
+  network: ws
+  port: '4431'
+  server: 152.32.190.239
+  servername: cfhk.393930.xyz
+  tls: true
+  type: vmess
+  uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9
+  ws-opts:
+    headers:
+      Host: cfhk.393930.xyz
+    path: /
+- alterId: 0
+  cipher: auto
   name: '451,818,959|🔒 VM-TCP-NA 🇭🇰 HK-163.53.18.19... #2'
   network: tcp
   port: '10010'
@@ -1333,20 +1282,6 @@ proxies:
     headers:
       Host: 19.lwdh.us
     path: ''
-- alterId: 0
-  cipher: auto
-  name: '451,818,959|🔒 VM-WS-TLS 🇭🇰 HK-152.32.190.2... #2'
-  network: ws
-  port: '4431'
-  server: 152.32.190.239
-  servername: cfhk.393930.xyz
-  tls: true
-  type: vmess
-  uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9
-  ws-opts:
-    headers:
-      Host: cfhk.393930.xyz
-    path: /
 - alterId: 32
   cipher: auto
   name: '451,452,803,806,892,893,984,1005|香港_0716021 #1'
@@ -3938,7 +3873,7 @@ proxies:
     path: 55021a7c-bd6c-418e-be95-ceac8ba27b45-vm
 - alterId: 0
   cipher: auto
-  name: '879,984|美国 CloudFlare节点 #412'
+  name: '879,984|美国 CloudFlare节点 #387'
   network: ws
   port: '8080'
   server: yh1.freeh1.xyz
@@ -5701,32 +5636,6 @@ proxies:
     headers:
       Host: ''
     path: ''
-- alterId: 0
-  cipher: auto
-  name: 1271|香港高速1最新官网地址：https://one.moonri...
-  network: ws
-  port: '2052'
-  server: ss.moonriver.sbs
-  tls: false
-  type: vmess
-  uuid: 9f104453-9e04-4150-b851-768990422e01
-  ws-opts:
-    headers:
-      Host: hkgs01.moonriver.sbs
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1271|香港高速2
-  network: ws
-  port: '2052'
-  server: ss.moonriver.sbs
-  tls: false
-  type: vmess
-  uuid: 9f104453-9e04-4150-b851-768990422e01
-  ws-opts:
-    headers:
-      Host: hkgs02.moonriver.sbs
-    path: /
 - grpc-opts:
     grpc-service-name: hkvip101
   name: '1277,1279|香港 101 #1'
@@ -5887,66 +5796,3 @@ proxies:
   tls: false
   type: vmess
   uuid: d3a515b4-6fcb-38c8-93d3-2c17da360f89
-- cipher: aes-128-gcm
-  name: 1322|🇭🇰 香港 01 SS
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 11001
-  server: ss.hkglink.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 1322|🇭🇰 香港 02 SS
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 11002
-  server: ss.hkglink.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 1322|🇭🇰 香港 03 SS
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 11003
-  server: ss.hkglink.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 1322|🇭🇰 香港 04 SS
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 11004
-  server: ss.hkglink.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 1322|🇭🇰 香港 05 SS
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 11005
-  server: ss.hkglink.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 1322|🇭🇰 香港 06 SS
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 11006
-  server: ss.hkglink.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 1322|🇭🇰 香港 07 SS
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 11007
-  server: ss.hkglink.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 1322|🇭🇰 香港 08 SS
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 11008
-  server: ss.hkglink.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 1322|🇭🇰 香港 IPLC 限速10Mbps
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 1024
-  server: 222909df61922934.cdn.jiashule.com
-  type: ss
-  udp: true
