@@ -7,10 +7,23 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 16|新加坡|徐州移动|Linode|1x
+  name: 16|Singapore01
+  network: ws
+  port: 8443
+  server: polosg.9x.cx
+  tls: true
+  type: vmess
+  uuid: a6dfb50f-75bb-48e0-b56a-1edeb62b5a49
+  ws-opts:
+    headers:
+      Host: ''
+    path: /boluosg
+- alterId: 0
+  cipher: auto
+  name: 16|新加坡|湖南移动|Linode|1x
   network: tcp
-  port: 39226
-  server: jscm.r1u.cn
+  port: 39288
+  server: cs.guanguan.club
   tls: false
   type: vmess
   uuid: f010dd01-c54a-3c03-95ce-0838214259c6
@@ -81,75 +94,61 @@ proxies:
       Host: ''
     path: ''
 - cipher: aes-256-cfb
-  country: 🇸🇬SG
-  name: 29,750|🇸🇬SG_104
-  password: TN2YqghxeFDKZfLU
-  port: 9037
-  server: 103.172.116.94
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇸🇬SG
-  name: 29,750|🇸🇬SG_103
-  password: GeregetR8cvQHzYr
-  port: 9030
-  server: 103.172.116.94
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇸🇬SG
-  name: 29,750|🇸🇬SG_105
-  password: 9XwYyZsK8SNzQDtY
-  port: 9059
-  server: 103.172.116.94
-  type: ss
-- cipher: aes-256-cfb
   country: 🇬SG
-  name: 29,750|🇬SG_100
-  password: dML2sfhbVwvtfNPe
-  port: 9058
-  server: 103.172.116.94
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇸🇬SG
-  name: 29,750|🇸🇬SG_102
-  password: JdmRK9gMEqFgs8nP
-  port: 9003
-  server: 103.172.116.94
-  type: ss
-- cipher: aes-256-cfb
-  country: ' SG'
-  name: 29| SG_29
+  name: 29,750|🇬SG_103
   password: f63gg8EruDnUrmz4
   port: 9010
   server: 103.172.116.94
   type: ss
 - cipher: aes-256-cfb
   country: 🇸🇬SG
-  name: 29,750|🇬SG_101
-  password: HSZuyJQcWe8dxNdF
-  port: 9043
+  name: 29,750|🇸🇬SG_110
+  password: GeregetR8cvQHzYr
+  port: 9030
+  server: 103.172.116.94
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇸🇬SG
+  name: 29,750|🇸🇬SG_108
+  password: 9XwYyZsK8SNzQDtY
+  port: 9059
   server: 103.172.116.94
   type: ss
 - cipher: aes-256-cfb
   country: 🇸🇬SG
   name: 29,750|🇸🇬SG_106
+  password: JdmRK9gMEqFgs8nP
+  port: 9003
+  server: 103.172.116.94
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇸🇬SG
+  name: 29,750|🇸🇬SG_107
+  password: TN2YqghxeFDKZfLU
+  port: 9037
+  server: 103.172.116.94
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇸🇬SG
+  name: 29,750|🇸🇬SG_105
+  password: UTJA57ypk2XKQpnm
+  port: 9033
+  server: 103.172.116.94
+  type: ss
+- cipher: aes-256-cfb
+  country: ' SG'
+  name: 29| SG_31
   password: VP8ZPxQpJtZRCjfZ
   port: 9080
   server: 103.172.116.94
   type: ss
-- alterId: 0
-  cipher: auto
-  country: ' SG'
-  h2-opts: {}
-  http-opts: {}
-  name: 29| SG_32
-  network: tcp
-  port: 15002
-  server: 15002.kuaiyin02.top
-  servername: 15002.kuaiyin02.top
-  skip-cert-verify: true
-  type: vmess
-  uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6
-  ws-path: /
+- cipher: aes-256-cfb
+  country: 🇸🇬SG
+  name: 29,750|🇸🇬SG_111
+  password: HSZuyJQcWe8dxNdF
+  port: 9043
+  server: 103.172.116.94
+  type: ss
 - alterId: 0
   cipher: auto
   name: 97|新加坡-1
@@ -454,45 +453,6 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 286|新加坡1
-  network: ws
-  port: '2052'
-  server: yx1.chinayyds.xyz
-  tls: false
-  type: vmess
-  uuid: 36b2ebbd-4bf5-48a6-94c1-03877708e29b
-  ws-opts:
-    headers:
-      Host: sg1.chinayyds.xyz
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 286|新加坡2
-  network: ws
-  port: '2052'
-  server: yx2.chinayyds.xyz
-  tls: false
-  type: vmess
-  uuid: 36b2ebbd-4bf5-48a6-94c1-03877708e29b
-  ws-opts:
-    headers:
-      Host: sg1.chinayyds.xyz
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 286|新加坡3
-  network: ws
-  port: '2052'
-  server: yx3.chinayyds.xyz
-  tls: false
-  type: vmess
-  uuid: 36b2ebbd-4bf5-48a6-94c1-03877708e29b
-  ws-opts:
-    headers:
-      Host: sg1.chinayyds.xyz
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
   name: 326|🇸🇬 新加坡 | V1 | 01
   network: tcp
   port: 11209
@@ -634,7 +594,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '446,456,810,897,1009|新加坡_0716014 #1'
+  name: '446,456,810,896,897,1009|新加坡_0716014 #1'
   network: ws
   port: '80'
   server: 8.222.222.64
@@ -649,7 +609,7 @@ proxies:
     path: /2TokGE9A/
 - alterId: 0
   cipher: auto
-  name: 446,456,897|🇸🇬SG-8.222.138.164-8268
+  name: '446,456,896,897|🇸🇬SG-8.222.138.164-8268 #1'
   network: ws
   port: 80
   server: 8.222.138.164
@@ -664,7 +624,7 @@ proxies:
     path: /2TokGE9A/
 - alterId: 0
   cipher: auto
-  name: 446,456,897|🇸🇬SG-8.219.150.28-8269
+  name: '446,456,896,897|🇸🇬SG-8.219.150.28-8269 #1'
   network: ws
   port: 443
   server: 8.219.150.28
@@ -679,7 +639,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 446,456,897|🇸🇬SG-8.219.123.35-8270
+  name: '446,456,896,897|🇸🇬SG-8.219.123.35-8270 #1'
   network: ws
   port: 80
   server: 8.219.123.35
@@ -875,7 +835,7 @@ proxies:
   type: ss
 - alterId: 64
   cipher: auto
-  name: 446,456,897|🇸🇬SG-118.107.46.173-9002
+  name: '446,456,896,897|🇸🇬SG-118.107.46.173-9002 #1'
   network: ws
   port: 443
   server: 118.107.46.173
@@ -896,25 +856,15 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '455,790,963,974|未知89 433.3KB/s #1'
+  name: '455,790,963,974,975|未知89 433.3KB/s #2'
   network: tcp
-  port: 57614
+  port: '57614'
   server: 5.34.176.111
   servername: ''
   skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 4e55ce40-9f8e-417d-f8ae-aa6af97a7097
-- alterId: 0
-  cipher: auto
-  name: '455,790,963|🔒 VM-TCP-NONE 🇸🇬 SG-178.128.18... #1'
-  network: tcp
-  port: 31515
-  server: 178.128.18.62
-  servername: ''
   tls: false
   type: vmess
-  uuid: e6707204-43ff-4507-da41-aa0e95719a3b
+  uuid: 4e55ce40-9f8e-417d-f8ae-aa6af97a7097
 - alterId: 0
   cipher: auto
   name: '455,790,963|🔒 VM-TCP-NONE 🇸🇬 SG-104.248.14... #1'
@@ -927,6 +877,26 @@ proxies:
   uuid: f804fdbf-df2d-444b-cd0a-10363ba474a8
 - alterId: 0
   cipher: auto
+  name: 455,790|新加坡_071704589
+  network: tcp
+  port: '23975'
+  server: 128.199.138.135
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 644e9adb-92af-4912-83cf-e57b3f1bdf8f
+- alterId: 0
+  cipher: auto
+  name: '455,790,963|🔒 VM-TCP-NONE 🇸🇬 SG-188.166.21... #1'
+  network: tcp
+  port: 32075
+  server: 188.166.215.109
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e70ccc0e-def4-4e86-c549-0c1699a73c98
+- alterId: 0
+  cipher: auto
   name: '455,963|🔒 VM-TCP-NONE 🇸🇬 SG-68.183.224... #1'
   network: tcp
   port: 27782
@@ -934,6 +904,26 @@ proxies:
   tls: false
   type: vmess
   uuid: 86c947cd-225b-4533-a94e-cd804244364e
+- alterId: 0
+  cipher: auto
+  name: '455,790,963|🔒 VM-TCP-NONE 🇸🇬 SG-178.128.18... #1'
+  network: tcp
+  port: 31515
+  server: 178.128.18.62
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e6707204-43ff-4507-da41-aa0e95719a3b
+- alterId: 0
+  cipher: auto
+  name: 455,790|新加坡_071704590
+  network: tcp
+  port: '54217'
+  server: 128.199.151.232
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ff03a4d5-1b50-40d2-8dd6-2ca0223d8eea
 - alterId: 0
   cipher: auto
   country: ????SG
@@ -950,37 +940,7 @@ proxies:
   uuid: 0782d3ab-ee9f-4de2-9201-81f83863e32a
 - alterId: 0
   cipher: auto
-  name: '455,790,963|🔒 VM-TCP-NONE 🇸🇬 SG-128.199.13... #1'
-  network: tcp
-  port: 23975
-  server: 128.199.138.135
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 644e9adb-92af-4912-83cf-e57b3f1bdf8f
-- alterId: 0
-  cipher: auto
-  name: '455,790,963|🔒 VM-TCP-NONE 🇸🇬 SG-128.199.15... #1'
-  network: tcp
-  port: 54217
-  server: 128.199.151.232
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ff03a4d5-1b50-40d2-8dd6-2ca0223d8eea
-- alterId: 0
-  cipher: auto
-  name: '455,790,963|🔒 VM-TCP-NONE 🇸🇬 SG-188.166.21... #1'
-  network: tcp
-  port: 32075
-  server: 188.166.215.109
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e70ccc0e-def4-4e86-c549-0c1699a73c98
-- alterId: 0
-  cipher: auto
-  name: '456,897|🇸🇬SG-159.223.32.230-0095 #1'
+  name: '456,896,897|🇸🇬SG-159.223.32.230-0095 #2'
   network: ws
   port: 8080
   server: 159.223.32.230
@@ -1229,7 +1189,7 @@ proxies:
   type: ss
 - alterId: 4
   cipher: auto
-  name: 456,782,897|🇸🇬SG-103.253.26.134-0184
+  name: '456,782,896,897|🇸🇬SG-103.253.26.134-0184 #1'
   network: ws
   port: 443
   server: 103.253.26.134
@@ -1244,7 +1204,7 @@ proxies:
     path: /ws
 - alterId: 0
   cipher: auto
-  name: '456,897|🇸🇬SG-180.215.130.123-0185 #1'
+  name: '456,896,897|🇸🇬SG-180.215.130.123-0185 #2'
   network: ws
   port: 46452
   server: 180.215.130.123
@@ -1259,7 +1219,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '456,897|🇸🇬SG-8.214.33.158-0186 #1'
+  name: '456,896,897|🇸🇬SG-8.214.33.158-0186 #2'
   network: ws
   port: 80
   server: 8.214.33.158
@@ -1274,7 +1234,7 @@ proxies:
     path: /
 - alterId: 4
   cipher: auto
-  name: '456,782,897|🇸🇬SG-202.61.141.130-0188 #1'
+  name: '456,782,896,897|🇸🇬SG-202.61.141.130-0188 #2'
   network: ws
   port: 443
   server: 202.61.141.130
@@ -1289,7 +1249,7 @@ proxies:
     path: /ws
 - alterId: 4
   cipher: auto
-  name: '456,782,897|🇸🇬SG-103.253.26.20-0189 #1'
+  name: '456,782,896,897|🇸🇬SG-103.253.26.20-0189 #2'
   network: ws
   port: 443
   server: 103.253.26.20
@@ -1304,7 +1264,7 @@ proxies:
     path: /ws
 - alterId: 0
   cipher: auto
-  name: '456,782,897|🇸🇬SG-180.215.130.123-0190 #1'
+  name: '456,782,896,897|🇸🇬SG-180.215.130.123-0190 #2'
   network: ws
   port: 11584
   server: 180.215.130.123
@@ -1319,7 +1279,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '456,790,810,822,897,1009|新加坡_0716001 #1'
+  name: '456,790,810,822,896,897,965,1009|新加坡_0716001 #1'
   network: ws
   port: '2082'
   server: 8.222.174.108
@@ -1334,7 +1294,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '456,810,822,897,1009|新加坡_0716002 #1'
+  name: '456,810,822,896,897,965,1009|新加坡_0716002 #1'
   network: ws
   port: '2082'
   server: 8.222.167.147
@@ -1349,7 +1309,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 456,782,897|🇸🇬SG-139.99.61.53-0901
+  name: '456,782,896,897|🇸🇬SG-139.99.61.53-0901 #1'
   network: ws
   port: 80
   server: 139.99.61.53
@@ -1364,7 +1324,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 456,824,842,897|🇸🇬SG-15.235.147.186-0983
+  name: '456,824,842,896,897|🇸🇬SG-15.235.147.186-0983 #1'
   network: ws
   port: 80
   server: sg-lb.vhax.net
@@ -1379,7 +1339,7 @@ proxies:
     path: /sshkit/Ertusg86/635014638c264/
 - alterId: 0
   cipher: auto
-  name: 456,816,824,842,897|🇸🇬SG-15.235.147.186-0987
+  name: '456,816,824,842,896,897|🇸🇬SG-15.235.147.186-0987 #1'
   network: ws
   port: 80
   server: 15.235.147.186
@@ -1412,7 +1372,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 456,823,897,910|0.35|SG2
+  name: 456,823,896,897,910|0.35|SG2
   network: ws
   port: 8880
   server: 174.138.25.187
@@ -1425,7 +1385,7 @@ proxies:
     path: /hkaa0
 - alterId: 0
   cipher: auto
-  name: 456,810,897,1009|美国_0716184
+  name: 456,810,896,897,1009|美国_0716184
   network: ws
   port: '443'
   server: osg4.dean52.top
@@ -1462,7 +1422,7 @@ proxies:
     path: /gwdef.sbs/linkws
 - alterId: 1
   cipher: auto
-  name: '456,828,897,992|这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使... #84'
+  name: '456,828,896,897,992|这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使... #84'
   network: ws
   port: '8888'
   server: 103.83.156.89
@@ -1477,7 +1437,7 @@ proxies:
     path: /
 - alterId: 1
   cipher: auto
-  name: '456,828,897,992|这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使... #7'
+  name: '456,828,896,897,992|这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使... #7'
   network: ws
   port: '21888'
   server: 104.248.148.147
@@ -1492,7 +1452,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 456,897|🇸🇬SG-139.99.61.53-2094
+  name: '456,896,897|🇸🇬SG-139.99.61.53-2094 #1'
   network: ws
   port: 80
   server: 139.99.61.53
@@ -1507,7 +1467,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '456,782,897,992|这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使... #39'
+  name: '456,782,896,897,992|这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使... #39'
   network: ws
   port: '80'
   server: 139.99.61.154
@@ -1522,7 +1482,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 456,897|🇸🇬SG-15.235.202.196-2169
+  name: '456,896,897|🇸🇬SG-15.235.202.196-2169 #1'
   network: ws
   port: 80
   server: 15.235.202.196
@@ -1537,7 +1497,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: '456,810,823,897,1009|新加坡_0716005 #1'
+  name: '456,810,823,896,897,1009|新加坡_0716005 #1'
   network: ws
   port: '443'
   server: 202.79.172.53
@@ -1552,7 +1512,7 @@ proxies:
     path: /path/220128071100
 - alterId: 0
   cipher: auto
-  name: 456,823,897|🇸🇬SG-143.198.219.182-2280
+  name: '456,823,896,897|🇸🇬SG-143.198.219.182-2280 #1'
   network: ws
   port: 80
   server: 143.198.219.182
@@ -1567,7 +1527,7 @@ proxies:
     path: /v2ray
 - alterId: 0
   cipher: auto
-  name: 456,823,897|🇸🇬SG-146.190.82.241-2317
+  name: '456,823,896,897|🇸🇬SG-146.190.82.241-2317 #1'
   network: ws
   port: 80
   server: 146.190.82.241
@@ -1588,7 +1548,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 456,824,897|🇸🇬SG-18.143.123.35-2353
+  name: '456,824,896,897|🇸🇬SG-18.143.123.35-2353 #1'
   network: ws
   port: 80
   server: 18.143.123.35
@@ -1609,7 +1569,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 456,897|🇸🇬SG-51.79.146.225-2394
+  name: '456,896,897|🇸🇬SG-51.79.146.225-2394 #1'
   network: ws
   port: 443
   server: sg-5.0rd.net
@@ -1630,7 +1590,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 456,823,897|🇸🇬SG-178.128.61.149-2547
+  name: '456,823,896,897|🇸🇬SG-178.128.61.149-2547 #1'
   network: ws
   port: 50328
   server: 178.128.61.149
@@ -1645,7 +1605,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 456,897|🇸🇬SG-165.22.107.124-2596
+  name: '456,896,897|🇸🇬SG-165.22.107.124-2596 #1'
   network: ws
   port: 443
   server: sg2.safepn.net
@@ -1660,7 +1620,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 456,897|🇸🇬SG-165.22.107.124-2599
+  name: '456,896,897|🇸🇬SG-165.22.107.124-2599 #1'
   network: ws
   port: 80
   server: sg2.safepn.net
@@ -1685,7 +1645,7 @@ proxies:
     method: GET
     path:
     - /
-  name: 456,823,897|🇸🇬SG-138.2.83.217-2677
+  name: '456,823,896,897|🇸🇬SG-138.2.83.217-2677 #1'
   network: http
   port: 43863
   server: 138.2.83.217
@@ -1696,7 +1656,7 @@ proxies:
   uuid: ca984457-b017-46e5-d973-42a3c3fdc292
 - alterId: 0
   cipher: auto
-  name: 456,823,897|🇸🇬SG-146.190.82.241-2730
+  name: '456,823,896,897|🇸🇬SG-146.190.82.241-2730 #1'
   network: ws
   port: 443
   server: 146.190.82.241
@@ -1717,7 +1677,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 456,897|🇸🇬SG-129.150.44.64-3456
+  name: '456,896,897|🇸🇬SG-129.150.44.64-3456 #1'
   network: ws
   port: 46075
   server: 129.150.44.64
@@ -1736,7 +1696,7 @@ proxies:
     method: GET
     path:
     - /
-  name: 456,897|🇸🇬SG-152.69.211.235-3111
+  name: '456,896,897|🇸🇬SG-152.69.211.235-3111 #1'
   network: http
   port: 80
   server: 152.69.211.235
@@ -1747,7 +1707,7 @@ proxies:
   uuid: d345916f-1673-4a98-f37d-49357c84ce03
 - alterId: 0
   cipher: auto
-  name: 456,897|🇸🇬SG-15.235.184.36-3166
+  name: '456,896,897|🇸🇬SG-15.235.184.36-3166 #1'
   network: ws
   port: 80
   server: 15.235.184.36
@@ -1762,7 +1722,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 456,897|🇸🇬SG-139.99.61.154-3171
+  name: '456,896,897|🇸🇬SG-139.99.61.154-3171 #1'
   network: ws
   port: 80
   server: 139.99.61.154
@@ -1777,7 +1737,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 456,897|🇸🇬SG-109.123.237.41-3198
+  name: '456,896,897|🇸🇬SG-109.123.237.41-3198 #1'
   network: ws
   port: 80
   server: 109.123.237.41
@@ -1798,7 +1758,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 456,897|🇸🇬SG-109.123.237.41-3360
+  name: '456,896,897|🇸🇬SG-109.123.237.41-3360 #1'
   network: ws
   port: 80
   server: 109.123.237.41
@@ -1819,7 +1779,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 456,897|🇸🇬SG-15.235.192.196-3452
+  name: '456,896,897|🇸🇬SG-15.235.192.196-3452 #1'
   network: ws
   port: 80
   server: 15.235.192.196
@@ -1834,7 +1794,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 456,897|🇸🇬SG-157.230.36.235-3453
+  name: '456,896,897|🇸🇬SG-157.230.36.235-3453 #1'
   network: ws
   port: 80
   server: 157.230.36.235
@@ -1861,7 +1821,7 @@ proxies:
   type: ss
 - alterId: 64
   cipher: auto
-  name: 456,897|🇸🇬SG-202.79.171.157-3621
+  name: '456,896,897|🇸🇬SG-202.79.171.157-3621 #1'
   network: ws
   port: 443
   server: 202.79.171.157
@@ -1924,7 +1884,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 456,897|🇸🇬SG-8.219.58.58-5182
+  name: '456,896,897|🇸🇬SG-8.219.58.58-5182 #1'
   network: ws
   port: 443
   server: 8.219.58.58
@@ -1939,7 +1899,7 @@ proxies:
     path: /ray
 - alterId: 0
   cipher: auto
-  name: '456,842,897,940|کانفینگ های بیشتر داخل کانال: ... #22'
+  name: '456,842,896,897,940|کانفینگ های بیشتر داخل کانال: ... #22'
   network: ws
   port: '80'
   server: sg-lb.vhax.net
@@ -1954,7 +1914,7 @@ proxies:
     path: /sshkit/Ertusg86/635014638c264/
 - alterId: 0
   cipher: auto
-  name: 456,842,897|🇸🇬SG-15.235.147.186-5506
+  name: '456,842,896,897|🇸🇬SG-15.235.147.186-5506 #1'
   network: ws
   port: 80
   server: 15.235.147.186
@@ -1969,7 +1929,7 @@ proxies:
     path: /sshkit/Ertusg86/635014638c264/
 - alterId: 0
   cipher: auto
-  name: 456,782,895,897,940|@MyPremium98🇸🇬
+  name: 456,782,895,896,897,940|@MyPremium98🇸🇬
   network: ws
   port: '80'
   server: 8.214.33.158
@@ -1984,7 +1944,7 @@ proxies:
     path: /
 - alterId: 4
   cipher: auto
-  name: 456,897|🇸🇬SG-202.61.141.130-5798
+  name: '456,896,897|🇸🇬SG-202.61.141.130-5798 #1'
   network: ws
   port: 443
   server: 202.61.141.130
@@ -1999,7 +1959,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 456,782,897|🇸🇬SG-180.215.130.123-5806
+  name: '456,782,896,897|🇸🇬SG-180.215.130.123-5806 #1'
   network: ws
   port: 46452
   server: 180.215.130.123
@@ -2014,7 +1974,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 456,897|🇸🇬SG-139.99.61.53-5818
+  name: '456,896,897|🇸🇬SG-139.99.61.53-5818 #1'
   network: ws
   port: 80
   server: 139.99.61.53
@@ -2029,7 +1989,7 @@ proxies:
     path: /
 - alterId: 4
   cipher: auto
-  name: 456,897|🇸🇬SG-159.223.32.230-6072
+  name: '456,896,897|🇸🇬SG-159.223.32.230-6072 #1'
   network: ws
   port: 8080
   server: 159.223.32.230
@@ -2086,7 +2046,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 456,897|🇸🇬SG-8.219.120.168-7997
+  name: '456,896,897|🇸🇬SG-8.219.120.168-7997 #1'
   network: ws
   port: 443
   server: 8.219.120.168
@@ -2101,7 +2061,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 456,897|🇸🇬SG-8.219.214.221-7998
+  name: '456,896,897|🇸🇬SG-8.219.214.221-7998 #1'
   network: ws
   port: 443
   server: 8.219.214.221
@@ -2116,7 +2076,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 456,897|🇸🇬SG-8.219.211.222-8001
+  name: '456,896,897|🇸🇬SG-8.219.211.222-8001 #1'
   network: ws
   port: 443
   server: 8.219.211.222
@@ -2503,6 +2463,20 @@ proxies:
     headers:
       Host: s-mini.mlampah-mlampah.eu.org
     path: /ewfwef
+- cipher: aes-256-cfb
+  country: 🇸🇬SG
+  name: 750|🇬SG_104
+  password: dML2sfhbVwvtfNPe
+  port: 9058
+  server: 103.172.116.94
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇸🇬SG
+  name: 750|🇸🇬SG_109
+  password: fG2artUmHfNT2cX7
+  port: 9018
+  server: 103.172.116.94
+  type: ss
 - alterId: 0
   cipher: auto
   name: 765|SG_youtube@资源分享师_38
@@ -4905,7 +4879,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 988|🇸🇬新加坡 01
+  name: 986,988|🇸🇬新加坡 01
   network: ws
   port: '443'
   server: wap.appleid.bf
@@ -5011,7 +4985,7 @@ proxies:
   uuid: 3b40af01-e7e5-3cf2-807d-3f6df986f34b
 - alterId: 0
   cipher: auto
-  name: '1135|新加坡2 #1'
+  name: 1135|新加坡2
   network: tcp
   port: 16603
   server: bgp1.line.ktyyun.com
@@ -5230,3 +5204,59 @@ proxies:
   tls: false
   type: vmess
   uuid: d3a515b4-6fcb-38c8-93d3-2c17da360f89
+- cipher: aes-128-gcm
+  name: 1329|🇸🇬 狮城 01
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 20641
+  server: ss.sgplink.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 1329|🇸🇬 狮城 02
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 20642
+  server: ss.sgplink.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 1329|🇸🇬 狮城 03
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 20643
+  server: ss.sgplink.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 1329|🇸🇬 狮城 04
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 20644
+  server: ss.sgplink.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 1329|🇸🇬 狮城 05
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 20645
+  server: ss.sgplink.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 1329|🇸🇬 狮城 06
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 20646
+  server: ss.sgplink.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 1329|🇸🇬 狮城 07
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 20647
+  server: ss.sgplink.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 1329|🇸🇬 狮城 08
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 20648
+  server: ss.sgplink.xyz
+  type: ss
+  udp: true
