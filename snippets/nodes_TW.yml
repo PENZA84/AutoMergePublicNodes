@@ -3,7 +3,7 @@ proxies:
   cipher: auto
   name: '17,38|台湾01-Vmess #1'
   network: ws
-  port: '443'
+  port: '8443'
   server: iplt.52pokemon.cc
   servername: ''
   tls: true
@@ -1158,19 +1158,28 @@ proxies:
   server: ununim.yangliq.com
   tfo: false
   type: ss
-- client-fingerprint: chrome
+- alterId: 0
+  cipher: auto
+  name: 922,930|台湾2|@ripaojiedian
+  network: tcp
+  port: '3223'
+  server: pro01.dns2024.org
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 4ff0df2c-2092-36ab-882f-29e46fea089c
+- cipher: chacha20-ietf
+  client-fingerprint: chrome
   name: 929|🇹🇼 台湾|@ripaojiedian
-  network: ws
-  password: moist
-  port: 23555
-  server: 211.72.156.17
-  skip-cert-verify: false
-  sni: trojan.freenods.sbs
-  type: trojan
-  ws-opts:
-    headers:
-      Host: trojan.freenods.sbs
-    path: /?ed=2560
+  password: HuTaoCloud
+  plugin: obfs
+  plugin-opts:
+    host: 36a1a32505.microsoft.com
+    mode: http
+  port: 12556
+  server: cm1-tw.hutaonode3.top
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 940|v2cross.com - 台湾省花莲县中华电信 4
