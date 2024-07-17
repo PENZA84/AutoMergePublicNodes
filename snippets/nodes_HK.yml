@@ -1,6 +1,15 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 16|香港|广州移动|Neko|1.5x
+  network: tcp
+  port: 13337
+  server: gdcm.r1u.cn
+  tls: false
+  type: vmess
+  uuid: f010dd01-c54a-3c03-95ce-0838214259c6
+- alterId: 0
+  cipher: auto
   name: '17,38|香港02-vmess #1'
   network: ws
   port: '8445'
@@ -1289,11 +1298,12 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 455,822|🇭🇰HK | 🟢 | vmess | @mftizi | 6
+  name: '455,822,974,975|HK5 #2'
   network: tcp
   port: '14979'
   server: 38.147.188.239
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 2919ef6f-b8d3-49ea-a32d-2f95d346e4cb
@@ -1330,30 +1340,6 @@ proxies:
   uuid: f8d24f06-1513-33fc-bf49-34ac231fd665
 - alterId: 0
   cipher: auto
-  name: '455,963|🔒 VM-WS-TLS 🇭🇰 HK-210.0.158.21... #1'
-  network: ws
-  port: '12909'
-  server: 210.0.158.219
-  servername: 19.lwdh.us
-  tls: true
-  type: vmess
-  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
-  ws-opts:
-    headers:
-      Host: 19.lwdh.us
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: '455,822,963|🔒 VM-TCP-NA 🇭🇰 HK-163.53.18.19... #2'
-  network: tcp
-  port: '10010'
-  server: 163.53.18.195
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a58a91d7-6c29-40b8-bf0a-c231aa37932f
-- alterId: 0
-  cipher: auto
   name: '455,822,963|🔒 VM-WS-TLS 🇭🇰 HK-152.32.190.2... #2'
   network: ws
   port: '4431'
@@ -1366,6 +1352,30 @@ proxies:
     headers:
       Host: cfhk.393930.xyz
     path: /
+- alterId: 0
+  cipher: auto
+  name: '455,822,963|🔒 VM-TCP-NA 🇭🇰 HK-163.53.18.19... #2'
+  network: tcp
+  port: '10010'
+  server: 163.53.18.195
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a58a91d7-6c29-40b8-bf0a-c231aa37932f
+- alterId: 0
+  cipher: auto
+  name: '455,963|🔒 VM-WS-TLS 🇭🇰 HK-210.0.158.21... #1'
+  network: ws
+  port: '12909'
+  server: 210.0.158.219
+  servername: 19.lwdh.us
+  tls: true
+  type: vmess
+  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+  ws-opts:
+    headers:
+      Host: 19.lwdh.us
+    path: ''
 - alterId: 32
   cipher: auto
   name: '455,456,807,810,896,897,988,1009|香港_0716021 #1'
@@ -2552,6 +2562,23 @@ proxies:
       Host: cn.bing.com
     path: /
   ws-path: /
+- alterId: 0
+  cipher: auto
+  country: 🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: 749|Relay_HK-🇭🇰HK_32 | 8.61Mb
+  network: ws
+  port: 80
+  server: hk5g.forlive.live
+  servername: hk5g.forlive.live
+  skip-cert-verify: true
+  type: vmess
+  uuid: 5e48ff00-5af2-4d7d-8c7d-57ed72ad5a1a
+  ws-opts:
+    headers:
+      HOST: hk5g.forlive.live
+    path: /
 - cipher: aes-256-cfb
   country: 🇰HK
   name: 750,980|[02-24]-🇸-欧洲-096-150.107.46.21
@@ -3957,7 +3984,7 @@ proxies:
     path: 55021a7c-bd6c-418e-be95-ceac8ba27b45-vm
 - alterId: 0
   cipher: auto
-  name: '883,988|美国 CloudFlare节点 #471'
+  name: '883,988|美国 CloudFlare节点 #440'
   network: ws
   port: '8080'
   server: yh1.freeh1.xyz
@@ -4447,591 +4474,6 @@ proxies:
     headers:
       Host: hkt.gotochinatown.net
     path: /
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 914|🇭🇰 ~ZF~HKˣ⁰˙¹
-  password: 5dd37d4f-7726-40e8-9405-f80c702073be
-  port: 43136
-  server: 36.139.1.243
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: none
-    grpc-service-name: yydshk
-  name: 914|🇭🇰 ~NF~HKˣ⁰˙⁰¹
-  network: grpc
-  port: 34237
-  server: hk.yydsb.link
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 5dd37d4f-7726-40e8-9405-f80c702073be
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: none
-    grpc-service-name: hkyydsnf
-  name: 914|🇭🇰 ~CF~HKˣ⁰˙⁰¹
-  network: grpc
-  port: 34237
-  server: ls.wvw.mom
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 5dd37d4f-7726-40e8-9405-f80c702073be
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: none
-    grpc-service-name: yydsrongseven
-  name: 914|🇭🇰 ~FS~HKˣ⁰˙⁰¹
-  network: grpc
-  port: 34237
-  server: hk.yydsb.link
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 5dd37d4f-7726-40e8-9405-f80c702073be
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: none
-    grpc-service-name: hkyydsrongseven
-  name: 914|🇭🇰 ~WF~HKˣ⁰
-  network: grpc
-  port: 34237
-  server: ls.wvw.mom
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 5dd37d4f-7726-40e8-9405-f80c702073be
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 914|🇭🇰 HK 02
-  password: d20ef6d0-1339-3970-9194-9726b5ee6224
-  port: 50001
-  server: iepl1.forlive.live
-  tfo: false
-  type: ss
-- alterId: -1
-  cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 914,1006|CN_speednode_0044
-  password: a2014791-2c9c-4fcd-9359-80b3f2bb2e2e
-  port: 42010
-  server: dc3.forlive.live
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 914|🇭🇰 香港-有种榨干我 0x
-  network: ws
-  port: 8080
-  server: cfzl1.freeapp.buzz
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: eedfc125-cc91-4f47-bc7b-41157c200283
-  ws-opts:
-    headers:
-      Host: hk.bitsbear.com
-    path: /fdsffgfdgdfgdf
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 914|🇭🇰 香港-移动优先
-  network: ws
-  port: 8080
-  server: 104.19.34.235
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: eedfc125-cc91-4f47-bc7b-41157c200283
-  ws-opts:
-    headers:
-      Host: hk.bitsbear.com
-    path: /fdsffgfdgdfgdf
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 914|🇭🇰 Hong Kong_1
-  password: 93ec2378-1151-4db5-9c56-d1387f36882d
-  port: 10001
-  server: hk01.mmyjiedian.com
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 914|🇭🇰 Hong Kong_2
-  password: 93ec2378-1151-4db5-9c56-d1387f36882d
-  port: 10002
-  server: hk02.mmyjiedian.com
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 914|🇭🇰 Hong Kong_3
-  password: 93ec2378-1151-4db5-9c56-d1387f36882d
-  port: 10003
-  server: hk03.mmyjiedian.com
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 914|🇭🇰 Hong Kong_4
-  password: 93ec2378-1151-4db5-9c56-d1387f36882d
-  port: 10004
-  server: hk04.mmyjiedian.com
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 914|🇭🇰 Hong Kong_5
-  password: 93ec2378-1151-4db5-9c56-d1387f36882d
-  port: 10005
-  server: hk05.mmyjiedian.com
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 914|🇭🇰 Hong Kong_6
-  password: 93ec2378-1151-4db5-9c56-d1387f36882d
-  port: 10006
-  server: hk06.mmyjiedian.com
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 914|🇭🇰 Hong Kong_7
-  password: 93ec2378-1151-4db5-9c56-d1387f36882d
-  port: 10007
-  server: hk07.mmyjiedian.com
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 914|🇭🇰 Hong Kong_8
-  password: 93ec2378-1151-4db5-9c56-d1387f36882d
-  port: 10008
-  server: hk08.mmyjiedian.com
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 914|🇭🇰 Hong Kong_9
-  password: 93ec2378-1151-4db5-9c56-d1387f36882d
-  port: 10009
-  server: hk09.mmyjiedian.com
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 914|🇭🇰 Hong Kong_10
-  password: 93ec2378-1151-4db5-9c56-d1387f36882d
-  port: 10010
-  server: hk10.mmyjiedian.com
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 914|🇭🇰 Hong Kong_11
-  password: 93ec2378-1151-4db5-9c56-d1387f36882d
-  port: 10011
-  server: hk11.mmyjiedian.com
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 914|🇭🇰 Hong Kong_12
-  password: 93ec2378-1151-4db5-9c56-d1387f36882d
-  port: 10012
-  server: hk12.mmyjiedian.com
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 914|🇭🇰 Hong Kong_15
-  password: 93ec2378-1151-4db5-9c56-d1387f36882d
-  port: 10015
-  server: hk15.mmyjiedian.com
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 914|🇭🇰 Hong Kong_17
-  password: 93ec2378-1151-4db5-9c56-d1387f36882d
-  port: 10017
-  server: hk17.mmyjiedian.com
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 914|🇭🇰 Hong Kong_18
-  password: 93ec2378-1151-4db5-9c56-d1387f36882d
-  port: 10018
-  server: hk18.mmyjiedian.com
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 914|🇭🇰 Hong Kong_19
-  password: 93ec2378-1151-4db5-9c56-d1387f36882d
-  port: 10019
-  server: hk19.mmyjiedian.com
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 914|🇭🇰 Hong Kong_20
-  password: 93ec2378-1151-4db5-9c56-d1387f36882d
-  port: 10020
-  server: hk20.mmyjiedian.com
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 914|🇭🇰 HK香港-电信优化
-  password: 1cce1062-972c-4ac0-a511-b9168e761512
-  port: 27259
-  server: gtm1.ktmwan.com
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 914|🇭🇰 [香港] Hong Kong 3
-  password: dbfc85d7-a9e7-465a-ba53-3bf9f5e66ba5
-  port: 16982
-  server: zy.aand.site
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 914|🇭🇰 [香港] Hong Kong 6
-  password: dbfc85d7-a9e7-465a-ba53-3bf9f5e66ba5
-  port: 38532
-  server: zy.aand.site
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 914|🇭🇰 [香港] Hong Kong 5
-  password: dbfc85d7-a9e7-465a-ba53-3bf9f5e66ba5
-  port: 38532
-  server: sz.aand.site
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 914|🇭🇰 [香港] Hong Kong  18
-  password: dbfc85d7-a9e7-465a-ba53-3bf9f5e66ba5
-  port: 24201
-  server: sz.aand.site
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 914|🇭🇰 [香港] Hong Kong  9
-  password: dbfc85d7-a9e7-465a-ba53-3bf9f5e66ba5
-  port: 24201
-  server: zy.aand.site
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 914|🇭🇰 [香港] Hong Kong  12
-  password: dbfc85d7-a9e7-465a-ba53-3bf9f5e66ba5
-  port: 14099
-  server: sz.aand.site
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 914|🇭🇰 [香港] Hong Kong  21
-  password: dbfc85d7-a9e7-465a-ba53-3bf9f5e66ba5
-  port: 49754
-  server: sz.aand.site
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 914|HKLite
-  network: ws
-  port: 80
-  server: cf1.go-relay.top
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: dbfc85d7-a9e7-465a-ba53-3bf9f5e66ba5
-  ws-opts:
-    headers:
-      Host: cf1.go-relay.top
-    path: /ws?ed=2560
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 914|HKLite2
-  network: ws
-  port: 80
-  server: cf2.go-relay.top
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: dbfc85d7-a9e7-465a-ba53-3bf9f5e66ba5
-  ws-opts:
-    headers:
-      Host: cf1.go-relay.top
-    path: /ws?ed=2560
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 914|HKLite3
-  network: ws
-  port: 80
-  server: cf3.go-relay.top
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: dbfc85d7-a9e7-465a-ba53-3bf9f5e66ba5
-  ws-opts:
-    headers:
-      Host: cf1.go-relay.top
-    path: /ws?ed=2560
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 914|🇭🇰 香港 01
-  password: 030741c1-8706-41f6-93ae-f97585365627
-  port: 21101
-  server: ununim.yangliq.com
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 914|🇭🇰 香港 02
-  password: 030741c1-8706-41f6-93ae-f97585365627
-  port: 21102
-  server: ununim.yangliq.com
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 914|🇭🇰 香港 03
-  password: 030741c1-8706-41f6-93ae-f97585365627
-  port: 21103
-  server: ununim.yangliq.com
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 914|🇭🇰 香港 04
-  password: 030741c1-8706-41f6-93ae-f97585365627
-  port: 21004
-  server: ununim.yangliq.com
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 914|🇭🇰 香港 05
-  password: 030741c1-8706-41f6-93ae-f97585365627
-  port: 21005
-  server: ununim.yangliq.com
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 914|🇭🇰 香港 01 深港
-  password: e776be71-b347-4159-8503-5f80e21b1ff8
-  port: 12001
-  server: mdss-hk.04z3susick.download
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 914|🇭🇰 香港 02 深港
-  password: e776be71-b347-4159-8503-5f80e21b1ff8
-  port: 12002
-  server: mdss-hk.04z3susick.download
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 914|🇭🇰 香港 03 深港
-  password: e776be71-b347-4159-8503-5f80e21b1ff8
-  port: 12003
-  server: mdss-hk.04z3susick.download
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 914|🇭🇰 香港 04 深港
-  password: e776be71-b347-4159-8503-5f80e21b1ff8
-  port: 12004
-  server: mdss-hk.04z3susick.download
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 914|🇭🇰 香港 05 深港
-  password: e776be71-b347-4159-8503-5f80e21b1ff8
-  port: 12005
-  server: mdss-hk.04z3susick.download
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 914|🇭🇰 香港 06 深港
-  password: e776be71-b347-4159-8503-5f80e21b1ff8
-  port: 12006
-  server: mdss-hk.04z3susick.download
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 914|🇭🇰 香港 07 深港
-  password: e776be71-b347-4159-8503-5f80e21b1ff8
-  port: 12007
-  server: mdss-hk.04z3susick.download
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 914|🇭🇰 香港 08 深港
-  password: e776be71-b347-4159-8503-5f80e21b1ff8
-  port: 12008
-  server: mdss-hk.04z3susick.download
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 914|🇭🇰 香港 09 深港
-  password: e776be71-b347-4159-8503-5f80e21b1ff8
-  port: 12009
-  server: mdss-hk.04z3susick.download
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 914|🇭🇰 香港 10 深港
-  password: e776be71-b347-4159-8503-5f80e21b1ff8
-  port: 12010
-  server: mdss-hk.04z3susick.download
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 914|🇭🇰 柬埔寨 01 | 深港
-  password: e776be71-b347-4159-8503-5f80e21b1ff8
-  port: 12035
-  server: mdss-other.04z3susick.download
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 914|🇭🇰 柬埔寨 02 | 深港
-  password: e776be71-b347-4159-8503-5f80e21b1ff8
-  port: 12036
-  server: mdss-other.04z3susick.download
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 914|🇭🇰 德国 01 深港
-  password: e776be71-b347-4159-8503-5f80e21b1ff8
-  port: 12037
-  server: mdss-other.04z3susick.download
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 914|🇭🇰 德国 02 深港
-  password: e776be71-b347-4159-8503-5f80e21b1ff8
-  port: 12038
-  server: mdss-other.04z3susick.download
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 914|🇭🇰 荷兰 01 深港
-  password: e776be71-b347-4159-8503-5f80e21b1ff8
-  port: 12039
-  server: mdss-other.04z3susick.download
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 914|🇭🇰 荷兰 02 深港
-  password: e776be71-b347-4159-8503-5f80e21b1ff8
-  port: 12040
-  server: mdss-other.04z3susick.download
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 914|🇭🇰 印度 01 深港
-  password: e776be71-b347-4159-8503-5f80e21b1ff8
-  port: 12041
-  server: mdss-other.04z3susick.download
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 914|🇭🇰 印度 02 深港
-  password: e776be71-b347-4159-8503-5f80e21b1ff8
-  port: 12042
-  server: mdss-other.04z3susick.download
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 914|🇭🇰 英国 01 深港
-  password: e776be71-b347-4159-8503-5f80e21b1ff8
-  port: 12043
-  server: mdss-other.04z3susick.download
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 914|🇭🇰 英国 02 深港
-  password: e776be71-b347-4159-8503-5f80e21b1ff8
-  port: 12044
-  server: mdss-other.04z3susick.download
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 914|🇭🇰 澳大利亚 01 深港
-  password: e776be71-b347-4159-8503-5f80e21b1ff8
-  port: 12047
-  server: mdss-other.04z3susick.download
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 914|🇭🇰 澳大利亚 02 深港
-  password: e776be71-b347-4159-8503-5f80e21b1ff8
-  port: 12048
-  server: mdss-other.04z3susick.download
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   name: 915|香港【YouTube @Play实验室】
@@ -5255,8 +4697,8 @@ proxies:
 - alterId: 0
   cipher: chacha20-ietf-poly1305
   name: 974|HK
-  password: 033c8fd4-ef0c-479c-a4ff-cbd0f4bd3ef1
-  port: 50236
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 30002
   server: 46.232.123.37
   skip-cert-verify: true
   tls: true
@@ -5265,69 +4707,20 @@ proxies:
   cipher: chacha20-ietf-poly1305
   name: 974|HK2
   password: AHyDyR
-  port: 56047
+  port: 56032
   server: 38.150.12.187
   skip-cert-verify: true
   tls: true
   type: ss
 - alterId: 0
   cipher: chacha20-ietf-poly1305
-  name: 974|HK3
-  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 30017
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
   name: 974|HK4
-  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 50002
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  name: 974|HK6
-  network: ws
-  password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 2087
-  server: 8.217.181.213
-  skip-cert-verify: true
-  sni: mfjd.591haoka.com
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 974|HK7
-  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 40001
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 974|HK8
   password: 5ddbeb21-15fb-4aa5-8cc3-34df601c1f02
-  port: 50235
+  port: 50202
   server: 46.232.123.37
   skip-cert-verify: true
   tls: true
   type: ss
-- alterId: 0
-  name: 974|HK10
-  network: tcp
-  password: 77891e6750
-  port: 443
-  server: 27.0.232.204
-  skip-cert-verify: true
-  sni: hk1.connecton.surf
-  tls: true
-  type: trojan
-  udp: true
 - alterId: 64
   cipher: auto
   name: '987,988|香港1|@ripaojiedian #1'
@@ -5810,66 +5203,3 @@ proxies:
   tls: false
   type: vmess
   uuid: d3a515b4-6fcb-38c8-93d3-2c17da360f89
-- cipher: aes-128-gcm
-  name: 1329|🇭🇰 香港 01 SS
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 11001
-  server: ss.hkglink.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 1329|🇭🇰 香港 02 SS
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 11002
-  server: ss.hkglink.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 1329|🇭🇰 香港 03 SS
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 11003
-  server: ss.hkglink.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 1329|🇭🇰 香港 04 SS
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 11004
-  server: ss.hkglink.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 1329|🇭🇰 香港 05 SS
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 11005
-  server: ss.hkglink.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 1329|🇭🇰 香港 06 SS
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 11006
-  server: ss.hkglink.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 1329|🇭🇰 香港 07 SS
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 11007
-  server: ss.hkglink.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 1329|🇭🇰 香港 08 SS
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 11008
-  server: ss.hkglink.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 1329|🇭🇰 香港 IPLC 限速10Mbps
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 1024
-  server: 222909df61922934.cdn.jiashule.com
-  type: ss
-  udp: true
