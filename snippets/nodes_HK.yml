@@ -269,6 +269,21 @@ proxies:
     headers:
       Host: xg6.888553.xyz
     path: /cctv13.m3u8
+- alterId: 64
+  cipher: auto
+  name: 275,459,813,899,900,1012|香港_0718009
+  network: ws
+  port: '80'
+  server: hrgdvpn.flycdnedc55.vip
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
+  ws-opts:
+    headers:
+      Host: hrgdvpn.flycdnedc55.vip
+    path: /
 - cipher: chacha20-ietf-poly1305
   country: HK
   name: 276|disney_netflix_HK
@@ -558,19 +573,20 @@ proxies:
   tls: false
   type: vmess
   uuid: 1b600cbc-5417-41cb-a109-f02f1b70e853
-- alterId: 32
+- alterId: 64
   cipher: auto
-  name: 449|🆔@LuxyNet💎❖🇭🇰❖HK❖298
+  client-fingerprint: chrome
+  fingerprint: ''
+  name: 449,451|f6899f41a21d4099bfbc17ab7d172a...
   network: ws
   port: 80
   server: hrgdvpn.flycdnedc55.vip
   skip-cert-verify: true
   tls: false
   type: vmess
+  udp: false
   uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
   ws-opts:
-    headers:
-      host: hrgdvpn.flycdnedc55.vip
     path: /opt/video/images
 - alterId: 0
   cipher: auto
@@ -1469,18 +1485,14 @@ proxies:
   uuid: f7b831ca-a674-4474-b543-5705f344023e
 - alterId: 0
   cipher: auto
-  name: '458,825,966|🔒 VM-WS-TLS 🇭🇰 HK-152.32.190.2... #2'
-  network: ws
-  port: '4431'
-  server: 152.32.190.239
-  servername: cfhk.393930.xyz
-  tls: true
+  name: '458,825,966|🔒 VM-TCP-NA 🇭🇰 HK-163.53.18.19... #2'
+  network: tcp
+  port: '10010'
+  server: 163.53.18.195
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9
-  ws-opts:
-    headers:
-      Host: cfhk.393930.xyz
-    path: /
+  uuid: a58a91d7-6c29-40b8-bf0a-c231aa37932f
 - alterId: 0
   cipher: auto
   name: '458,966|🔒 VM-WS-TLS 🇭🇰 HK-210.0.158.21... #1'
@@ -1497,14 +1509,18 @@ proxies:
     path: ''
 - alterId: 0
   cipher: auto
-  name: '458,825,966|🔒 VM-TCP-NA 🇭🇰 HK-163.53.18.19... #2'
-  network: tcp
-  port: '10010'
-  server: 163.53.18.195
-  servername: ''
-  tls: false
+  name: '458,825,966|🔒 VM-WS-TLS 🇭🇰 HK-152.32.190.2... #2'
+  network: ws
+  port: '4431'
+  server: 152.32.190.239
+  servername: cfhk.393930.xyz
+  tls: true
   type: vmess
-  uuid: a58a91d7-6c29-40b8-bf0a-c231aa37932f
+  uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9
+  ws-opts:
+    headers:
+      Host: cfhk.393930.xyz
+    path: /
 - alterId: 32
   cipher: auto
   name: '458,459,810,813,899,900,991,1012|香港_0718019 #1'
@@ -1521,21 +1537,6 @@ proxies:
     headers:
       Host: hrgdvpn.flycdnedc55.vip
     path: /opt/video/images
-- alterId: 64
-  cipher: auto
-  name: 459,813,899,900,1012|香港_0718009
-  network: ws
-  port: '80'
-  server: hrgdvpn.flycdnedc55.vip
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
-  ws-opts:
-    headers:
-      Host: hrgdvpn.flycdnedc55.vip
-    path: /
 - name: 459|🇰HK-152.32.169.42-1021
   port: 21830
   server: www.chrome-helper.cc
@@ -4199,7 +4200,7 @@ proxies:
     path: 55021a7c-bd6c-418e-be95-ceac8ba27b45-vm
 - alterId: 0
   cipher: auto
-  name: '886,991|美国 CloudFlare节点 #504'
+  name: '886,991|美国 CloudFlare节点 #459'
   network: ws
   port: '8080'
   server: yh1.freeh1.xyz
@@ -4793,7 +4794,7 @@ proxies:
   country: ????CN
   h2-opts: {}
   http-opts: {}
-  name: '967,968|广东省广州市 移动 #9'
+  name: '967,968|广东省广州市 移动 #7'
   network: tcp
   port: '54002'
   server: 183.236.49.92
