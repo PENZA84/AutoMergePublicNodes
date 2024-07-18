@@ -1,4 +1,19 @@
 proxies:
+- cipher: aes-256-cfb
+  name: '2,456,707|_SG_ #1'
+  password: amazonskr05
+  port: 443
+  server: 54.179.87.28
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 16|新加坡|广州移动|Polo|1x
+  network: tcp
+  port: '17162'
+  server: gdcm.r1u.cn
+  tls: false
+  type: vmess
+  uuid: f010dd01-c54a-3c03-95ce-0838214259c6
 - alterId: 0
   cipher: auto
   name: '17,38|新加坡01-Vmess #1'
@@ -67,28 +82,14 @@ proxies:
     path: ''
 - cipher: aes-256-cfb
   country: 🇸🇬SG
-  name: 29,750|🇸🇬SG_108
+  name: 29,750|🇸🇬SG_102
   password: GeregetR8cvQHzYr
   port: 9030
   server: 103.172.116.94
   type: ss
 - cipher: aes-256-cfb
   country: 🇸🇬SG
-  name: 29,750|🇸🇬SG_109
-  password: JdmRK9gMEqFgs8nP
-  port: 9003
-  server: 103.172.116.94
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇬SG
-  name: 29,750|🇬SG_101
-  password: f8npKgNzdkss2ytn
-  port: 9088
-  server: 103.172.116.94
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇸🇬SG
-  name: 29,750|🇸🇬SG_107
+  name: 29,750|🇸🇬SG_104
   password: dML2sfhbVwvtfNPe
   port: 9058
   server: 103.172.116.94
@@ -96,13 +97,20 @@ proxies:
 - cipher: aes-256-cfb
   country: 🇸🇬SG
   name: 29,750|🇸🇬SG_103
-  password: QWDDvVE9npNurQfA
-  port: 9026
+  password: JdmRK9gMEqFgs8nP
+  port: 9003
   server: 103.172.116.94
   type: ss
 - cipher: aes-256-cfb
   country: 🇸🇬SG
-  name: 29,750|🇬SG_102
+  name: 29,750|🇸🇬SG_107
+  password: f8npKgNzdkss2ytn
+  port: 9088
+  server: 103.172.116.94
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇸🇬SG
+  name: 29,750|🇬SG_101
   password: TN2YqghxeFDKZfLU
   port: 9037
   server: 103.172.116.94
@@ -115,15 +123,15 @@ proxies:
   server: 103.172.116.94
   type: ss
 - cipher: aes-256-cfb
-  country: 🇸🇬SG
-  name: 29,750|🇸🇬SG_104
+  country: 🇬SG
+  name: 29,750|🇸🇬SG_105
   password: HSZuyJQcWe8dxNdF
   port: 9043
   server: 103.172.116.94
   type: ss
 - cipher: aes-256-cfb
-  country: 🇸🇬SG
-  name: 29,750|🇸🇬SG_105
+  country: 🇬SG
+  name: 29,750|🇬SG_100
   password: BejrQvtu9sqUeNuZ
   port: 9024
   server: 103.172.116.94
@@ -874,33 +882,6 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  country: 🇬SG
-  h2-opts: {}
-  http-opts: {}
-  name: '455,749,790,955,963|🔒 VM-WS-NA 🇸🇬 SG-139.59.96.11:... #2'
-  network: ws
-  port: '53625'
-  server: 139.59.96.11
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: ec2cafaa-fa6d-4a97-dd6a-4d5bbdde731f
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '455,963|🔒 VM-TCP-NONE 🇸🇬 SG-68.183.224... #1'
-  network: tcp
-  port: 27782
-  server: 68.183.224.20
-  tls: false
-  type: vmess
-  uuid: 86c947cd-225b-4533-a94e-cd804244364e
-- alterId: 0
-  cipher: auto
   name: '455,790,963|🔒 VM-TCP-NA 🇸🇬 SG-5.34.176.111... #1'
   network: tcp
   port: '57614'
@@ -923,12 +904,33 @@ proxies:
   tls: true
   type: vmess
   uuid: 0782d3ab-ee9f-4de2-9201-81f83863e32a
-- cipher: aes-256-cfb
-  name: 456|🇬SG-54.179.87.28-0093
-  password: amazonskr05
-  port: 443
-  server: 54.179.87.28
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: '455,963|🔒 VM-TCP-NONE 🇸🇬 SG-68.183.224... #1'
+  network: tcp
+  port: 27782
+  server: 68.183.224.20
+  tls: false
+  type: vmess
+  uuid: 86c947cd-225b-4533-a94e-cd804244364e
+- alterId: 0
+  cipher: auto
+  country: SG
+  h2-opts: {}
+  http-opts: {}
+  name: '455,749,790,955,963|🔒 VM-WS-NA 🇸🇬 SG-139.59.96.11:... #2'
+  network: ws
+  port: '53625'
+  server: 139.59.96.11
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: ec2cafaa-fa6d-4a97-dd6a-4d5bbdde731f
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
   name: '456,896,897|🇸🇬SG-159.223.32.230-0112 #1'
@@ -1823,7 +1825,7 @@ proxies:
   server: 13.215.174.243
   type: ss
 - cipher: aes-128-gcm
-  name: 456,840|_SG_
+  name: '456,840|_SG_ #2'
   password: YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU
   port: 443
   server: 13.250.46.178
@@ -2439,23 +2441,6 @@ proxies:
     headers:
       Host: s-mini.mlampah-mlampah.eu.org
     path: /ewfwef
-- alterId: 0
-  cipher: auto
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 749|Relay_ZZ-🇬SG_150 |31.42Mb
-  network: ws
-  port: 2052
-  server: cfcdn2.sanfencdn9.com
-  servername: jpafzyhfsg3.yofnhkfc.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: d9e68c12-ae26-4c90-9608-0ad10c7509c1
-  ws-opts:
-    headers:
-      HOST: jpafzyhfsg3.yofnhkfc.xyz
-    path: /video/u4eCZTxW
 - alterId: 0
   cipher: auto
   name: 765|SG_youtube@资源分享师_38
