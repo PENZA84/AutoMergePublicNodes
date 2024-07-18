@@ -73,60 +73,46 @@ proxies:
     path: ''
 - cipher: aes-256-cfb
   country: 🇸🇬SG
-  name: 29,753|🇬SG_100
-  password: cp8pRSUAyLhTfVWH
-  port: 9064
+  name: 29,753|🇸🇬SG_104
+  password: QWDDvVE9npNurQfA
+  port: 9026
   server: 103.172.116.94
   type: ss
 - cipher: aes-256-cfb
   country: 🇸🇬SG
-  name: 29,753|🇸🇬SG_105
+  name: 29,753|🇬SG_101
   password: BejrQvtu9sqUeNuZ
   port: 9024
   server: 103.172.116.94
   type: ss
 - cipher: aes-256-cfb
   country: 🇸🇬SG
-  name: 29,753|🇸🇬SG_103
-  password: f8npKgNzdkss2ytn
-  port: 9088
-  server: 103.172.116.94
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇸🇬SG
-  name: 29,753|🇸🇬SG_101
-  password: QWDDvVE9npNurQfA
-  port: 9026
-  server: 103.172.116.94
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇬SG
-  name: 29,753|🇬SG_99
+  name: 29,753|🇸🇬SG_102
   password: f63gg8EruDnUrmz4
   port: 9010
   server: 103.172.116.94
   type: ss
 - cipher: aes-256-cfb
   country: 🇸🇬SG
-  name: 29,753|🇸🇬SG_102
+  name: 29,753|🇸🇬SG_103
+  password: cp8pRSUAyLhTfVWH
+  port: 9064
+  server: 103.172.116.94
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇸🇬SG
+  name: 29,753|🇸🇬SG_106
+  password: f8npKgNzdkss2ytn
+  port: 9088
+  server: 103.172.116.94
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇸🇬SG
+  name: 29,753|🇸🇬SG_105
   password: HSZuyJQcWe8dxNdF
   port: 9043
   server: 103.172.116.94
   type: ss
-- alterId: 0
-  cipher: auto
-  country: ' SG'
-  h2-opts: {}
-  http-opts: {}
-  name: 29| SG_27
-  network: tcp
-  port: 15002
-  server: 15002.kuaiyin02.top
-  servername: 15002.kuaiyin02.top
-  skip-cert-verify: true
-  type: vmess
-  uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6
-  ws-path: /
 - alterId: 0
   cipher: auto
   name: 97|新加坡-1
@@ -233,10 +219,14 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '103,458,834,909,910|🇸🇬 新加坡 Amazon数据中心 #3'
+  country: 🇬SG
+  h2-opts: {}
+  http-opts: {}
+  name: '103,458,752,834,909,910|🇸🇬 新加坡 Amazon数据中心 #3'
   network: tcp
   port: '60001'
   server: bgroup.node3.v.nodelist-airport.com
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 2155145a-b1b5-443a-8977-670f6bd10f02
@@ -951,20 +941,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 86c947cd-225b-4533-a94e-cd804244364e
-- alterId: 0
-  cipher: auto
-  name: '458,793,958,966|🔒 VM-WS-NA 🇸🇬 SG-139.59.96.11:... #2'
-  network: ws
-  port: '53625'
-  server: 139.59.96.11
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ec2cafaa-fa6d-4a97-dd6a-4d5bbdde731f
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
 - alterId: 0
   cipher: auto
   name: '458,793,966|🔒 VM-TCP-NONE 🇸🇬 SG-188.166.21... #1'
@@ -2464,9 +2440,26 @@ proxies:
     headers:
       Host: s-mini.mlampah-mlampah.eu.org
     path: /ewfwef
+- alterId: 0
+  cipher: auto
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 752|Relay_🏁ZZ-🇬SG_117 |19.55Mb
+  network: ws
+  port: 2052
+  server: cfcdn2.sanfencdn9.com
+  servername: jpafzyhfsg3.yofnhkfc.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: d9e68c12-ae26-4c90-9608-0ad10c7509c1
+  ws-opts:
+    headers:
+      HOST: jpafzyhfsg3.yofnhkfc.xyz
+    path: /video/u4eCZTxW
 - cipher: aes-256-cfb
-  country: 🇸🇬SG
-  name: 753|🇸🇬SG_104
+  country: 🇬SG
+  name: 753|🇬SG_100
   password: fG2artUmHfNT2cX7
   port: 9018
   server: 103.172.116.94
@@ -4700,6 +4693,18 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
+  grpc-opts:
+    grpc-service-name: posteio
+  name: 1076|新加坡 02【vip3 | 专线】
+  network: grpc
+  port: '63150'
+  server: f10021.flyflylflyflysbs.sbs
+  servername: sg01.ckcloud.info
+  tls: true
+  type: vmess
+  uuid: fcb72275-0f50-4657-981a-a6dfd10db179
+- alterId: 0
+  cipher: auto
   name: 1082|SGP.新加坡.B | 负载均衡
   network: tcp
   port: '10420'
@@ -4972,59 +4977,3 @@ proxies:
   tls: false
   type: vmess
   uuid: d3a515b4-6fcb-38c8-93d3-2c17da360f89
-- cipher: aes-128-gcm
-  name: 1339|🇸🇬 狮城 01
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 20641
-  server: ss.sgplink.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 1339|🇸🇬 狮城 02
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 20642
-  server: ss.sgplink.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 1339|🇸🇬 狮城 03
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 20643
-  server: ss.sgplink.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 1339|🇸🇬 狮城 04
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 20644
-  server: ss.sgplink.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 1339|🇸🇬 狮城 05
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 20645
-  server: ss.sgplink.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 1339|🇸🇬 狮城 06
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 20646
-  server: ss.sgplink.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 1339|🇸🇬 狮城 07
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 20647
-  server: ss.sgplink.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 1339|🇸🇬 狮城 08
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 20648
-  server: ss.sgplink.xyz
-  type: ss
-  udp: true
