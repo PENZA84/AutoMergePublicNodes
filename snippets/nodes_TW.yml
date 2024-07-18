@@ -195,12 +195,12 @@ proxies:
     path: /cctv3/hd.m3u8
 - alterId: 0
   cipher: auto
-  name: '455,456,810,822,825,896,897,963,988,1009|台湾_0718002 #1'
+  name: '455,456,810,822,825,896,897,974,975,988,1009|台湾_0718002 #1'
   network: ws
   port: '31945'
   server: 103.159.206.35
   servername: ''
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
@@ -1274,6 +1274,17 @@ proxies:
   tls: false
   type: vmess
   uuid: 49933ab7-7ec2-3024-9f6e-b7ad9da24c8f
+- alterId: 0
+  name: 974|TW2
+  network: ws
+  password: auto
+  port: 443
+  server: 35.201.203.106
+  skip-cert-verify: true
+  sni: vip.123789.pp.ua
+  tls: true
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: 988|🇹🇼台湾 01
