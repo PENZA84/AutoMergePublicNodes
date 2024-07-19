@@ -98,7 +98,7 @@ proxies:
   country: 🇺🇸US
   h2-opts: {}
   http-opts: {}
-  name: 30,452,545,758,759,766,791,798,800,887,904,1001,1020|日本_0719002
+  name: 30,452,545,758,766,791,798,800,887,904,1001,1020|日本_0719002
   network: tcp
   port: '1069'
   server: 152.69.197.60
@@ -116,7 +116,7 @@ proxies:
     grpc-service-name: 1654431
   h2-opts: {}
   http-opts: {}
-  name: '97,278,454,462,474,572,672,709,758,776,780,784,816,832,839,844,849,854,856,858,866,871,886,892,919,920,924,929,933,938,941,973,983,989,1015,1016,1026,1252,1255,1256,1258|🇭🇰套餐已到达阀值_等待次月恢复
+  name: '97,278,279,454,462,474,572,672,709,758,776,780,784,816,832,839,844,849,854,856,858,866,871,886,892,919,920,924,929,933,938,941,973,983,989,1015,1016,1026,1252,1255,1256,1258|🇭🇰套餐已到达阀值_等待次月恢复
     #2'
   network: ws
   password: bbab60b8-779f-31e2-916e-571f7d7023c4
@@ -134,6 +134,32 @@ proxies:
     headers:
       Host: null
     path: /name
+- alterId: 0
+  cipher: auto
+  name: 98|日本-三网-禁大带宽
+  network: ws
+  port: '80'
+  server: 107.148.5.238
+  tls: false
+  type: vmess
+  uuid: e7c2b346-ae51-4ad6-ab6e-cd7f094455a8
+  ws-opts:
+    headers:
+      Host: gw.alicdn.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 98|日本-解锁(移动>联通)
+  network: ws
+  port: '80'
+  server: 38.207.137.201
+  tls: false
+  type: vmess
+  uuid: e7c2b346-ae51-4ad6-ab6e-cd7f094455a8
+  ws-opts:
+    headers:
+      Host: gw.alicdn.com
+    path: /
 - alterId: 0
   cipher: auto
   name: '111,521|日本01 #1'
@@ -256,6 +282,20 @@ proxies:
     headers:
       Host: ''
     path: /
+- cipher: aes-128-gcm
+  country: CN
+  name: 279|disney_netflix_JP
+  password: 53d0b499-e928-4813-9a4c-7af1ba318767
+  port: 30032
+  server: china3.cdn.yushe-node.top
+  type: ss
+- cipher: aes-128-gcm
+  country: CN
+  name: '279|disney_netflix_JP #1'
+  password: 53d0b499-e928-4813-9a4c-7af1ba318767
+  port: 30031
+  server: china3.cdn.yushe-node.top
+  type: ss
 - alterId: 0
   cipher: auto
   name: '282,283,284,285,286,288,494,495,496,497,498|l日本-1 #10'
@@ -333,45 +373,6 @@ proxies:
   ws-opts:
     headers:
       Host: pqrb1.gyyun.top
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 289|pq日本1-解锁
-  network: ws
-  port: '2052'
-  server: yx1.chinayyds.xyz
-  tls: false
-  type: vmess
-  uuid: 36b2ebbd-4bf5-48a6-94c1-03877708e29b
-  ws-opts:
-    headers:
-      Host: pqrb.chinayyds.xyz
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 289|pq日本2-解锁
-  network: ws
-  port: '2052'
-  server: yx2.chinayyds.xyz
-  tls: false
-  type: vmess
-  uuid: 36b2ebbd-4bf5-48a6-94c1-03877708e29b
-  ws-opts:
-    headers:
-      Host: pqrb.chinayyds.xyz
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 289|pq日本3-解锁
-  network: ws
-  port: '2052'
-  server: yx3.chinayyds.xyz
-  tls: false
-  type: vmess
-  uuid: 36b2ebbd-4bf5-48a6-94c1-03877708e29b
-  ws-opts:
-    headers:
-      Host: pqrb.chinayyds.xyz
     path: /?ed=2048
 - alterId: 0
   cipher: auto
@@ -709,7 +710,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '461,915,916|🇯🇵 日本(油管:破解资源君2.0) #2'
+  name: 461|🇯🇵 日本(油管:破解资源君2.0)
   network: tcp
   port: '26401'
   server: 146.56.110.129
@@ -732,7 +733,7 @@ proxies:
     path: /je5x3pBN1vez3NQudNkB
 - alterId: 0
   cipher: auto
-  name: '461,972|🔒 VM-TCP-NA 🇯🇵 JP-52.195.156.3... #1'
+  name: 461|🔒 VM-TCP-NA 🇯🇵 JP-52.195.156.3...
   network: tcp
   port: 11773
   server: 52.195.156.37
@@ -3950,6 +3951,15 @@ proxies:
     headers:
       Host: a.189.cn
     path: /adobe
+- alterId: 0
+  cipher: auto
+  name: 972|🔒 VM-TCP-NA 🇯🇵 JP-35.78.170.12...
+  network: tcp
+  port: 11773
+  server: 35.78.170.12
+  tls: false
+  type: vmess
+  uuid: c2365e4e-3700-323a-b889-fea7677ef8d1
 - alterId: -1
   cipher: aes-256-cfb
   country: ???? JP
