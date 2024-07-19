@@ -7,10 +7,38 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '17,38|新加坡01-Vmess #1'
+  name: '17,38|新加坡01-联通-Vmess #1'
   network: ws
   port: '8443'
-  server: iplt.52pokemon.cc
+  server: iplt.poke-mon.xyz
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: e26385ec-04a2-4033-820b-ab11c799163b
+  ws-opts:
+    headers:
+      Host: sg01vm.poke-mon.xyz
+    path: /52pokemon?ed=2560
+- alterId: 0
+  cipher: auto
+  name: '17,38|新加坡01-移动-Vmess #1'
+  network: ws
+  port: '8443'
+  server: ipyd.52pokemon.cc
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: e26385ec-04a2-4033-820b-ab11c799163b
+  ws-opts:
+    headers:
+      Host: sg01vm.poke-mon.xyz
+    path: /52pokemon?ed=2560
+- alterId: 0
+  cipher: auto
+  name: '17,38|新加坡01-电信-Vmess #1'
+  network: ws
+  port: '8443'
+  server: ipdx.52pokemon.cc
   servername: ''
   tls: true
   type: vmess
@@ -73,72 +101,58 @@ proxies:
     path: ''
 - cipher: aes-256-cfb
   country: 🇸🇬SG
-  name: 29,753|🇬SG_100
-  password: cp8pRSUAyLhTfVWH
-  port: 9064
-  server: 103.172.116.94
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇸🇬SG
-  name: 29,753|🇸🇬SG_107
-  password: GeregetR8cvQHzYr
-  port: 9030
-  server: 103.172.116.94
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇬SG
-  name: 29,753|🇬SG_99
-  password: dML2sfhbVwvtfNPe
-  port: 9058
-  server: 103.172.116.94
-  type: ss
-- cipher: aes-256-cfb
-  country: ' SG'
-  name: 29| SG_25
-  password: 9XwYyZsK8SNzQDtY
-  port: 9059
-  server: 103.172.116.94
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇸🇬SG
-  name: 29,753|🇸🇬SG_104
-  password: JdmRK9gMEqFgs8nP
-  port: 9003
-  server: 103.172.116.94
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇸🇬SG
-  name: 29,753|🇸🇬SG_108
-  password: f8npKgNzdkss2ytn
-  port: 9088
-  server: 103.172.116.94
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇸🇬SG
   name: '29,753,880|未命名 #319'
   password: QWDDvVE9npNurQfA
   port: 9026
   server: 103.172.116.94
   type: ss
 - cipher: aes-256-cfb
+  country: 🇬SG
+  name: 29,753|🇬SG_96
+  password: dML2sfhbVwvtfNPe
+  port: 9058
+  server: 103.172.116.94
+  type: ss
+- cipher: aes-256-cfb
   country: 🇸🇬SG
-  name: 29,753|🇸🇬SG_102
-  password: TN2YqghxeFDKZfLU
-  port: 9037
+  name: 29,753|🇸🇬SG_100
+  password: GeregetR8cvQHzYr
+  port: 9030
+  server: 103.172.116.94
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇸🇬SG
+  name: 29,753|🇸🇬SG_98
+  password: 9XwYyZsK8SNzQDtY
+  port: 9059
+  server: 103.172.116.94
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇸🇬SG
+  name: 29,753|🇸🇬SG_99
+  password: f8npKgNzdkss2ytn
+  port: 9088
   server: 103.172.116.94
   type: ss
 - cipher: aes-256-cfb
   country: 🇸🇬SG
   name: 29,753|🇸🇬SG_101
-  password: VP8ZPxQpJtZRCjfZ
-  port: 9080
+  password: cp8pRSUAyLhTfVWH
+  port: 9064
   server: 103.172.116.94
   type: ss
 - cipher: aes-256-cfb
-  country: 🇸🇬SG
-  name: 29,753|🇸🇬SG_103
-  password: HSZuyJQcWe8dxNdF
-  port: 9043
+  country: ' SG'
+  name: 29| SG_28
+  password: TN2YqghxeFDKZfLU
+  port: 9037
+  server: 103.172.116.94
+  type: ss
+- cipher: aes-256-cfb
+  country: ' SG'
+  name: 29| SG_29
+  password: VP8ZPxQpJtZRCjfZ
+  port: 9080
   server: 103.172.116.94
   type: ss
 - alterId: 0
@@ -247,10 +261,14 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 103,458|🇸🇬 新加坡 Amazon数据中心
+  country: 🇬SG
+  h2-opts: {}
+  http-opts: {}
+  name: 103,752|🇬SG_33
   network: tcp
-  port: '60001'
+  port: 60001
   server: bgroup.node3.v.nodelist-airport.com
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 2155145a-b1b5-443a-8977-670f6bd10f02
@@ -442,6 +460,45 @@ proxies:
   ws-opts:
     headers:
       Host: doxjp1.gyyun.top
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 286|新加坡1
+  network: ws
+  port: '2052'
+  server: yx1.chinayyds.xyz
+  tls: false
+  type: vmess
+  uuid: 36b2ebbd-4bf5-48a6-94c1-03877708e29b
+  ws-opts:
+    headers:
+      Host: sg1.chinayyds.xyz
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 286|新加坡2
+  network: ws
+  port: '2052'
+  server: yx2.chinayyds.xyz
+  tls: false
+  type: vmess
+  uuid: 36b2ebbd-4bf5-48a6-94c1-03877708e29b
+  ws-opts:
+    headers:
+      Host: sg1.chinayyds.xyz
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 286|新加坡3
+  network: ws
+  port: '2052'
+  server: yx3.chinayyds.xyz
+  tls: false
+  type: vmess
+  uuid: 36b2ebbd-4bf5-48a6-94c1-03877708e29b
+  ws-opts:
+    headers:
+      Host: sg1.chinayyds.xyz
     path: /?ed=2048
 - alterId: 0
   cipher: auto
@@ -896,25 +953,6 @@ proxies:
   uuid: ff03a4d5-1b50-40d2-8dd6-2ca0223d8eea
 - alterId: 0
   cipher: auto
-  name: '458,793,966|🔒 VM-TCP-NONE 🇸🇬 SG-104.248.14... #1'
-  network: tcp
-  port: 33018
-  server: 104.248.149.45
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f804fdbf-df2d-444b-cd0a-10363ba474a8
-- alterId: 0
-  cipher: auto
-  name: '458,966|🔒 VM-TCP-NONE 🇸🇬 SG-68.183.224... #1'
-  network: tcp
-  port: 27782
-  server: 68.183.224.20
-  tls: false
-  type: vmess
-  uuid: 86c947cd-225b-4533-a94e-cd804244364e
-- alterId: 0
-  cipher: auto
   name: '458,966|🔒 VM-TCP-NONE 🇸🇬 SG-178.128.18... #1'
   network: tcp
   port: 31515
@@ -922,6 +960,16 @@ proxies:
   tls: false
   type: vmess
   uuid: e6707204-43ff-4507-da41-aa0e95719a3b
+- alterId: 0
+  cipher: auto
+  name: '458,793,966|🔒 VM-TCP-NONE 🇸🇬 SG-188.166.21... #1'
+  network: tcp
+  port: 32075
+  server: 188.166.215.109
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e70ccc0e-def4-4e86-c549-0c1699a73c98
 - alterId: 0
   cipher: auto
   country: ????SG
@@ -938,16 +986,6 @@ proxies:
   uuid: 0782d3ab-ee9f-4de2-9201-81f83863e32a
 - alterId: 0
   cipher: auto
-  name: '458,793,966|🔒 VM-TCP-NONE 🇸🇬 SG-188.166.21... #1'
-  network: tcp
-  port: 32075
-  server: 188.166.215.109
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e70ccc0e-def4-4e86-c549-0c1699a73c98
-- alterId: 0
-  cipher: auto
   name: '458,966|🔒 VM-TCP-NONE 🇸🇬 SG-128.199.13... #1'
   network: tcp
   port: 23975
@@ -955,6 +993,25 @@ proxies:
   tls: false
   type: vmess
   uuid: 644e9adb-92af-4912-83cf-e57b3f1bdf8f
+- alterId: 0
+  cipher: auto
+  name: '458,966|🔒 VM-TCP-NONE 🇸🇬 SG-68.183.224... #1'
+  network: tcp
+  port: 27782
+  server: 68.183.224.20
+  tls: false
+  type: vmess
+  uuid: 86c947cd-225b-4533-a94e-cd804244364e
+- alterId: 0
+  cipher: auto
+  name: '458,793,966|🔒 VM-TCP-NONE 🇸🇬 SG-104.248.14... #1'
+  network: tcp
+  port: 33018
+  server: 104.248.149.45
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f804fdbf-df2d-444b-cd0a-10363ba474a8
 - alterId: 0
   cipher: auto
   name: '458,793,966|🔒 VM-TCP-NA 🇸🇬 SG-5.34.176.111... #1'
@@ -2427,9 +2484,9 @@ proxies:
     path: /ewfwef
 - cipher: aes-256-cfb
   country: 🇸🇬SG
-  name: 753|🇸🇬SG_106
-  password: fG2artUmHfNT2cX7
-  port: 9018
+  name: 753|🇬SG_97
+  password: HSZuyJQcWe8dxNdF
+  port: 9043
   server: 103.172.116.94
   type: ss
 - alterId: 0
@@ -4711,7 +4768,7 @@ proxies:
   uuid: 3b40af01-e7e5-3cf2-807d-3f6df986f34b
 - alterId: 0
   cipher: auto
-  name: 1142|新加坡2
+  name: '1142|新加坡2 #1'
   network: tcp
   port: 16603
   server: bgp1.line.ktyyun.com

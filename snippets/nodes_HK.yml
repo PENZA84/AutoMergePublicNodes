@@ -1,6 +1,48 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: '17,38|香港01-移动-Vmess #1'
+  network: ws
+  port: '8443'
+  server: ipyd.52pokemon.cc
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: e26385ec-04a2-4033-820b-ab11c799163b
+  ws-opts:
+    headers:
+      Host: vmhk01.poke-mon.xyz
+    path: /52pokemon?ed=2560
+- alterId: 0
+  cipher: auto
+  name: '17,38|香港01-电信-Vmess #1'
+  network: ws
+  port: '8443'
+  server: ipdx.52pokemon.cc
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: e26385ec-04a2-4033-820b-ab11c799163b
+  ws-opts:
+    headers:
+      Host: vmhk01.poke-mon.xyz
+    path: /52pokemon?ed=2560
+- alterId: 0
+  cipher: auto
+  name: '17,38|香港01-三网-Vmess #1'
+  network: ws
+  port: '8443'
+  server: ipcdn.poke-mon.xyz
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: e26385ec-04a2-4033-820b-ab11c799163b
+  ws-opts:
+    headers:
+      Host: vmhk01.poke-mon.xyz
+    path: /52pokemon?ed=2560
+- alterId: 0
+  cipher: auto
   name: 97|香港-混合节点(电信>三网)
   network: ws
   port: '80'
@@ -311,6 +353,45 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
+  name: 286|pq香港1
+  network: ws
+  port: '2052'
+  server: yx1.chinayyds.xyz
+  tls: false
+  type: vmess
+  uuid: 36b2ebbd-4bf5-48a6-94c1-03877708e29b
+  ws-opts:
+    headers:
+      Host: pqhk.chinayyds.xyz
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 286|pq香港2
+  network: ws
+  port: '2052'
+  server: yx2.chinayyds.xyz
+  tls: false
+  type: vmess
+  uuid: 36b2ebbd-4bf5-48a6-94c1-03877708e29b
+  ws-opts:
+    headers:
+      Host: pqhk.chinayyds.xyz
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 286|pq香港3
+  network: ws
+  port: '2052'
+  server: yx3.chinayyds.xyz
+  tls: false
+  type: vmess
+  uuid: 36b2ebbd-4bf5-48a6-94c1-03877708e29b
+  ws-opts:
+    headers:
+      Host: pqhk.chinayyds.xyz
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
   name: '312,717|香港1 | 1倍 #1'
   network: ws
   port: '80'
@@ -493,7 +574,7 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   fingerprint: ''
-  name: 449,451|77c595fae9054bb3ba5d3cb088c459...
+  name: 449,451|f0e8a62d6df24516b43c7ef8a795ea...
   network: ws
   port: 80
   server: hrgdvpn.flycdnedc55.vip
@@ -1365,26 +1446,6 @@ proxies:
     path: /event
 - alterId: 0
   cipher: auto
-  name: 458,825|香港 特别行政区
-  network: tcp
-  port: '19901'
-  server: xg.dashuai.cyou
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 0763d364-e5fc-417a-90c9-d516ce936d0d
-- alterId: 0
-  cipher: auto
-  name: '458,825,966|🔒 VM-TCP-NA 🇭🇰 HK-163.53.18.19... #2'
-  network: tcp
-  port: '10010'
-  server: 163.53.18.195
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a58a91d7-6c29-40b8-bf0a-c231aa37932f
-- alterId: 0
-  cipher: auto
   name: '458,966|🔒 VM-WS-TLS 🇭🇰 HK-210.0.158.21... #1'
   network: ws
   port: '12909'
@@ -1411,6 +1472,16 @@ proxies:
     headers:
       Host: cfhk.393930.xyz
     path: /
+- alterId: 0
+  cipher: auto
+  name: '458,825,966|🔒 VM-TCP-NA 🇭🇰 HK-163.53.18.19... #2'
+  network: tcp
+  port: '10010'
+  server: 163.53.18.195
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a58a91d7-6c29-40b8-bf0a-c231aa37932f
 - alterId: 32
   cipher: auto
   name: '458,459,810,813,899,900,991,1012|香港_0718019 #1'
@@ -3019,6 +3090,16 @@ proxies:
     path: /hls/cctv5phd.m3u8
 - alterId: 0
   cipher: auto
+  name: 825|香港 特别行政区
+  network: tcp
+  port: '19901'
+  server: xg.dashuai.cyou
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0763d364-e5fc-417a-90c9-d516ce936d0d
+- alterId: 0
+  cipher: auto
   name: 825|🔒 VM-TCP-NA 🇭🇰 HK-42.3.134.80:...
   network: tcp
   port: '23129'
@@ -4074,7 +4155,7 @@ proxies:
     path: 55021a7c-bd6c-418e-be95-ceac8ba27b45-vm
 - alterId: 0
   cipher: auto
-  name: '886,991|美国 CloudFlare节点 #446'
+  name: '886,991|美国 CloudFlare节点 #445'
   network: ws
   port: '8080'
   server: yh1.freeh1.xyz
