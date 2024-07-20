@@ -98,7 +98,7 @@ proxies:
   country: 🇺🇸US
   h2-opts: {}
   http-opts: {}
-  name: 30,457,550,773,798,805,807,894,911,1008,1027|日本_0720002
+  name: 30,457,550,765,798,805,807,894,911,1008,1027|日本_0720002
   network: tcp
   port: '1069'
   server: 152.69.197.60
@@ -694,6 +694,16 @@ proxies:
   port: 989
   server: 103.75.118.27
   type: ss
+- alterId: 0
+  cipher: auto
+  name: '466,971,979|🔒 VM-TCP-NA 🇯🇵 JP-4.189.243.62... #2'
+  network: tcp
+  port: '53001'
+  server: 4.189.243.62
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 60626f2a-a43d-3ef0-9e7a-f527d5ebe6fb
 - alterId: 2
   cipher: auto
   name: '466,971,979,990,991|未知 #1'
@@ -721,6 +731,15 @@ proxies:
     path: /je5x3pBN1vez3NQudNkB
 - alterId: 0
   cipher: auto
+  name: '466,979|🔒 VM-TCP-NA 🇯🇵 JP-18.181.217.1... #1'
+  network: tcp
+  port: 11773
+  server: 18.181.217.152
+  tls: false
+  type: vmess
+  uuid: c2365e4e-3700-323a-b889-fea7677ef8d1
+- alterId: 0
+  cipher: auto
   name: '466,823,838,841,979|🔒 VM-WS-NA 🇯🇵 JP-183.181.36.19... #1'
   network: ws
   port: '41597'
@@ -735,25 +754,6 @@ proxies:
     headers:
       Host: ''
     path: /
-- alterId: 0
-  cipher: auto
-  name: '466,971,979|🔒 VM-TCP-NA 🇯🇵 JP-4.189.243.62... #2'
-  network: tcp
-  port: '53001'
-  server: 4.189.243.62
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 60626f2a-a43d-3ef0-9e7a-f527d5ebe6fb
-- alterId: 0
-  cipher: auto
-  name: 466|🔒 VM-TCP-NA 🇯🇵 JP-54.168.170.4...
-  network: tcp
-  port: 11773
-  server: 54.168.170.42
-  tls: false
-  type: vmess
-  uuid: c2365e4e-3700-323a-b889-fea7677ef8d1
 - cipher: chacha20-ietf-poly1305
   name: 467|🇵JP-89.31.126.150-0179
   password: G!yBwPWH3Vao
@@ -3834,15 +3834,6 @@ proxies:
     headers:
       Host: a.189.cn
     path: /adobe
-- alterId: 0
-  cipher: auto
-  name: 979|🔒 VM-TCP-NA 🇯🇵 JP-18.181.217.1...
-  network: tcp
-  port: 11773
-  server: 18.181.217.152
-  tls: false
-  type: vmess
-  uuid: c2365e4e-3700-323a-b889-fea7677ef8d1
 - alterId: -1
   cipher: aes-256-cfb
   country: ???? JP
@@ -4177,6 +4168,19 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 1040|🇯🇵 Japan D - Unlocked
+  network: ws
+  port: '80'
+  server: jp04.elizabethgilbert.buzz
+  tls: false
+  type: vmess
+  uuid: 8aa67fc2-83d7-4554-8d66-4f06c63de0da
+  ws-opts:
+    headers:
+      Host: jp04.elizabethgilbert.buzz
+    path: /
+- alterId: 0
+  cipher: auto
   grpc-opts:
     grpc-service-name: posteio
   name: '1089,1090|日本04【vip1 | NEW】 #1'
@@ -4480,8 +4484,8 @@ proxies:
   uuid: 6d1e5aed-703b-48c6-a58e-06fd07f99f78
   ws-opts:
     headers:
-      Host: ni1.moonriver.sbs
-    path: /1111a
+      Host: ni01.moonriver.sbs
+    path: /
 - grpc-opts:
     grpc-service-name: jpvip101
   name: '1316,1318|日本 101 #1'
@@ -4623,3 +4627,59 @@ proxies:
   tls: false
   type: vmess
   uuid: d3a515b4-6fcb-38c8-93d3-2c17da360f89
+- cipher: aes-128-gcm
+  name: 1361|🇯🇵 日本 01
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 20841
+  server: ss.jpnlink.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 1361|🇯🇵 日本 02
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 20842
+  server: ss.jpnlink.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 1361|🇯🇵 日本 03
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 20843
+  server: ss.jpnlink.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 1361|🇯🇵 日本 04
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 20844
+  server: ss.jpnlink.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 1361|🇯🇵 日本 05
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 20845
+  server: ss.jpnlink.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 1361|🇯🇵 日本 06
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 20846
+  server: ss.jpnlink.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 1361|🇯🇵 日本 07
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 20847
+  server: ss.jpnlink.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 1361|🇯🇵 日本 08
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 20848
+  server: ss.jpnlink.xyz
+  type: ss
+  udp: true
