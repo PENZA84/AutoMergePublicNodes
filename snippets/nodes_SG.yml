@@ -7,6 +7,15 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
+  name: 17|新加坡|广州移动|Polo|1x
+  network: tcp
+  port: '17162'
+  server: gdcm.r1u.cn
+  tls: false
+  type: vmess
+  uuid: f010dd01-c54a-3c03-95ce-0838214259c6
+- alterId: 0
+  cipher: auto
   name: '18,39|新加坡01-联通-Vmess #1'
   network: ws
   port: '8443'
@@ -100,31 +109,17 @@ proxies:
       Host: ''
     path: ''
 - cipher: aes-256-cfb
-  country: 🇸🇬SG
-  name: 30,767|🇸🇬SG_104
-  password: JdmRK9gMEqFgs8nP
-  port: 9003
-  server: 103.172.116.94
-  type: ss
-- cipher: aes-256-cfb
   country: 🇬SG
-  name: 30,767|🇬SG_100
-  password: QWDDvVE9npNurQfA
-  port: 9026
-  server: 103.172.116.94
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇸🇬SG
-  name: 30,767|🇸🇬SG_106
-  password: cp8pRSUAyLhTfVWH
-  port: 9064
-  server: 103.172.116.94
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇸🇬SG
-  name: 30,767|🇸🇬SG_103
+  name: 30,767|🇬SG_98
   password: f63gg8EruDnUrmz4
   port: 9010
+  server: 103.172.116.94
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇸🇬SG
+  name: 30,767|🇸🇬SG_100
+  password: JdmRK9gMEqFgs8nP
+  port: 9003
   server: 103.172.116.94
   type: ss
 - alterId: 0
@@ -903,52 +898,6 @@ proxies:
     path: /vpnjantit
 - alterId: 0
   cipher: auto
-  country: 🇸🇬SG
-  h2-opts: {}
-  http-opts: {}
-  name: '467,766,825,848,851,923,924,980|🔒 VM-TCP-NONE 🇸🇬 SG-128.199.15... #1'
-  network: tcp
-  port: 54217
-  server: 128.199.151.232
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: ff03a4d5-1b50-40d2-8dd6-2ca0223d8eea
-- alterId: 0
-  cipher: auto
-  name: '467,972,980|🔒 VM-TCP-NA 🇸🇬 SG-128.199.138.... #2'
-  network: tcp
-  port: '23975'
-  server: 128.199.138.135
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 644e9adb-92af-4912-83cf-e57b3f1bdf8f
-- alterId: 0
-  cipher: auto
-  country: 🇸SG
-  h2-opts: {}
-  http-opts: {}
-  name: '467,766,980|🔒 VM-TCP-NA 🇸🇬 SG-5.34.176.111... #1'
-  network: tcp
-  port: '57614'
-  server: 5.34.176.111
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 4e55ce40-9f8e-417d-f8ae-aa6af97a7097
-- alterId: 0
-  cipher: auto
-  name: '467,980|🔒 VM-TCP-NONE 🇸🇬 SG-178.128.18... #1'
-  network: tcp
-  port: 31515
-  server: 178.128.18.62
-  tls: false
-  type: vmess
-  uuid: e6707204-43ff-4507-da41-aa0e95719a3b
-- alterId: 0
-  cipher: auto
   country: ????SG
   h2-opts: {}
   http-opts: {}
@@ -972,6 +921,29 @@ proxies:
   uuid: 86c947cd-225b-4533-a94e-cd804244364e
 - alterId: 0
   cipher: auto
+  name: '467,980|🔒 VM-TCP-NONE 🇸🇬 SG-178.128.18... #1'
+  network: tcp
+  port: 31515
+  server: 178.128.18.62
+  tls: false
+  type: vmess
+  uuid: e6707204-43ff-4507-da41-aa0e95719a3b
+- alterId: 0
+  cipher: auto
+  country: 🇸SG
+  h2-opts: {}
+  http-opts: {}
+  name: '467,766,980|🔒 VM-TCP-NA 🇸🇬 SG-5.34.176.111... #1'
+  network: tcp
+  port: '57614'
+  server: 5.34.176.111
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 4e55ce40-9f8e-417d-f8ae-aa6af97a7097
+- alterId: 0
+  cipher: auto
   name: '467,980|🔒 VM-TCP-NONE 🇸🇬 SG-188.166.21... #1'
   network: tcp
   port: 32075
@@ -990,7 +962,17 @@ proxies:
   uuid: f804fdbf-df2d-444b-cd0a-10363ba474a8
 - alterId: 0
   cipher: auto
-  name: '467,468,791,807,827,913,914,1026|南非_0720001 #1'
+  name: '467,972,980|🔒 VM-TCP-NA 🇸🇬 SG-128.199.138.... #3'
+  network: tcp
+  port: '23975'
+  server: 128.199.138.135
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 644e9adb-92af-4912-83cf-e57b3f1bdf8f
+- alterId: 0
+  cipher: auto
+  name: '467,468,791,807,825,827,913,914,1026|南非_0720001 #1'
   network: ws
   port: '80'
   server: 206.238.236.36
@@ -2234,13 +2216,6 @@ proxies:
   server: 167.99.31.176
   type: vmess
   uuid: d58f81a7-083a-4ff2-e50a-7078c58bbccf
-- cipher: chacha20-ietf-poly1305
-  name: 523|🇸🇬 新加坡5 IEPL专线 x2
-  password: 9a998239-c2c2-4e11-bc0d-b0b5444a983d
-  port: 25747
-  server: iepl.hongxingdl.vip
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   name: '632,1114|新加坡-05 #1'
@@ -2470,32 +2445,32 @@ proxies:
     headers:
       Host: s-mini.mlampah-mlampah.eu.org
     path: /ewfwef
-- cipher: chacha20-ietf-poly1305
-  country: 🇬SG
-  name: 766|SG_54 | 7.94Mb
-  password: LF4svUqscBPkl0sWGEBaeJ
-  port: 3127
-  server: 128.199.91.218
+- cipher: aes-256-cfb
+  country: 🇸🇬SG
+  name: 767|🇬SG_99
+  password: cp8pRSUAyLhTfVWH
+  port: 9064
+  server: 103.172.116.94
   type: ss
 - cipher: aes-256-cfb
   country: 🇸🇬SG
-  name: 767|🇬SG_101
-  password: fG2artUmHfNT2cX7
-  port: 9018
+  name: 767|🇸🇬SG_101
+  password: QWDDvVE9npNurQfA
+  port: 9026
   server: 103.172.116.94
   type: ss
 - cipher: aes-256-cfb
   country: 🇸🇬SG
   name: 767|🇸🇬SG_102
-  password: VP8ZPxQpJtZRCjfZ
-  port: 9080
+  password: TN2YqghxeFDKZfLU
+  port: 9037
   server: 103.172.116.94
   type: ss
 - cipher: aes-256-cfb
   country: 🇸🇬SG
-  name: 767|🇸🇬SG_105
-  password: TN2YqghxeFDKZfLU
-  port: 9037
+  name: 767|🇸🇬SG_103
+  password: VP8ZPxQpJtZRCjfZ
+  port: 9080
   server: 103.172.116.94
   type: ss
 - alterId: 0
@@ -4376,6 +4351,15 @@ proxies:
     headers:
       Host: namava.ir
     path: /JAGOANSSH/
+- alterId: 0
+  cipher: auto
+  name: 980|🔒 VM-TCP-NONE 🇸🇬 SG-152.42.172...
+  network: tcp
+  port: 24276
+  server: 152.42.172.181
+  tls: false
+  type: vmess
+  uuid: 685fc2c0-bff5-48e5-b10a-0847a912270c
 - alterId: -1
   cipher: aes-256-cfb
   name: 981|SG??SSRSUB_1370891487
