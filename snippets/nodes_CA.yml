@@ -14,7 +14,7 @@ proxies:
     path: /52pokemon?ed=2560
 - cipher: aes-256-gcm
   country: ' CA'
-  name: 30| CA_02 | 0.02Mb
+  name: 30| CA_03 | 0.02Mb
   password: PCnnH6SQSnfoS27
   port: 8091
   server: 38.111.114.133
@@ -155,7 +155,7 @@ proxies:
     path: ''
 - alterId: 0
   cipher: auto
-  name: '457,467,912,913|🇺🇸US-23.26.239.163-8377 #1'
+  name: '457,467,912,913|🇺🇸US-23.26.239.163-8628 #1'
   network: ws
   port: 18420
   server: 23.26.239.163
@@ -172,7 +172,7 @@ proxies:
   cipher: none
   grpc-opts:
     grpc-service-name: /
-  name: 457,467|RELAY-23.227.60.184-8506
+  name: 457,467|RELAY-23.227.60.184-8629
   network: grpc
   port: 2096
   server: 23.227.60.184
@@ -203,11 +203,14 @@ proxies:
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
-  name: '466,806,824,847,922,923|🇨🇦 加拿大 V2CROSS.COM #2'
+  client-fingerprint: chrome
+  name: '466,467,806,846,847,912,913,922,923|🇨🇦 加拿大 V2CROSS.COM #2'
   network: ws
   port: '80'
   server: edge.get.media.laserbylily.ca
   servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
   uuid: bd831106-94e1-4ef3-b473-c1a8418ca107
@@ -217,7 +220,7 @@ proxies:
     path: /2jLawPUqb4le83LAqUg
 - alterId: 0
   cipher: auto
-  name: '466,838,971,979|🔒 VM-TCP-TLS 🇨🇦 CA-75.156.27.7... #4'
+  name: '466,838,971,979|🔒 VM-TCP-TLS 🇨🇦 CA-75.156.27.7... #3'
   network: tcp
   port: '444'
   server: 75.156.27.77
@@ -237,7 +240,24 @@ proxies:
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
-  name: '466,467,912,913|🇨🇦CA-158.51.121.36-2958 #2'
+  client-fingerprint: chrome
+  name: '466,467,824,846,847,912,913|🇺🇸US-108.181.24.77-1402 #1'
+  network: ws
+  port: 2086
+  server: ip001.dtku47.xyz
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip001.dtku47.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: '466,467,912,913|🇨🇦CA-158.51.121.36-3209 #1'
   network: ws
   port: 443
   server: 158.51.121.36
@@ -251,44 +271,37 @@ proxies:
       Host: ''
     path: /linkvws
 - cipher: aes-256-gcm
-  name: 467|🇨CA-134.195.196.128-0046
-  password: TEzjfAYq2IjtuoS
-  port: 6679
-  server: 134.195.196.128
-  type: ss
-- cipher: aes-256-gcm
-  name: 467|🇦CA-134.195.196.128-0048
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 134.195.196.128
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 467|🇨🇦CA-196.247.59.154-0061
-  password: G!yBwPWH3Vao
-  port: 802
-  server: 196.247.59.154
-  type: ss
-- cipher: aes-256-gcm
-  name: 467|🇨🇦CA-134.195.196.150-0064
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 134.195.196.150
-  type: ss
-- cipher: aes-256-gcm
-  name: 467|🇦CA-134.195.196.149-0939
+  name: 467|CA-134.195.196.149-0005
   password: FoOiGlkAA9yPEGP
   port: 7307
   server: 134.195.196.149
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 467|🇦CA-196.247.59.154-0956
+  name: 467|🇨CA-196.247.59.154-0039
   password: G!yBwPWH3Vao
   port: 800
   server: 196.247.59.154
   type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 467,823,846|🇺🇸 美国+v2rayfree.eu.org 3
+  password: TEzjfAYq2IjtuoS
+  port: 6697
+  server: 23.162.200.181
+  tfo: false
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 467,846|🇺🇸 美国+v2rayfree.eu.org 4
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 23.162.200.133
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: '467,912,913|🇨🇦CA-104.247.81.52-1285 #1'
+  name: '467,912,913|🇨🇦CA-104.247.81.52-1445 #2'
   network: ws
   port: 443
   server: uk.xlkjjs.top
@@ -312,48 +325,38 @@ proxies:
   server: z0115.security-cloudfront-cdn.com
   type: ssr
   udp: true
-- alterId: 0
-  cipher: aes-256-gcm
-  name: 467,823,990|未知98 1.9MB/s
-  password: KixLvKzwjekG00rm
-  port: 8000
-  server: 23.162.200.181
-  skip-cert-verify: true
-  tls: true
-  type: ss
-  udp: true
 - cipher: aes-256-gcm
-  name: 467|🇦CA-198.8.92.84-2023
+  name: 467|🇦CA-198.8.92.84-2142
   password: ugyBkSEFxVEmUYSHyvxmWNj9
   port: 40220
   server: 198.8.92.84
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 467|🇦CA-138.197.174.245-2045
+  name: 467|🇦CA-138.197.174.245-2164
   password: yuMqkGIx6Ia0
   port: 56443
   server: 138.197.174.245
   type: ss
 - cipher: aes-256-gcm
-  name: 467|🇨🇦CA-198.8.92.84-2062
+  name: 467|🇨🇦CA-198.8.92.84-2181
   password: J9Y2ncrdPEC38gwydNFFGBna
   port: 35294
   server: 198.8.92.84
   type: ss
 - cipher: aes-256-gcm
-  name: 467|🇨🇦CA-198.8.92.84-2066
+  name: 467|🇨🇦CA-198.8.92.84-2185
   password: F5bKkb9ggkLx4JbQrbLn7LjZ
   port: 44945
   server: 198.8.92.84
   type: ss
 - cipher: aes-256-gcm
-  name: 467|🇨🇦CA-198.8.92.84-2078
+  name: 467|🇨🇦CA-198.8.92.84-2197
   password: Kquv5UhvZXNMemAQy8DxZ7qn
   port: 38620
   server: 198.8.92.84
   type: ss
 - cipher: aes-256-gcm
-  name: 467|🇨🇦CA-198.8.92.84-2079
+  name: 467|🇨🇦CA-198.8.92.84-2198
   password: BdRWC38L5JUDMTYNNxJGcUwB
   port: 49396
   server: 198.8.92.84
@@ -428,7 +431,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '467,839,912,913|🇨🇦CA-132.145.99.228-2359 #1'
+  name: '467,839,912,913|🇨🇦CA-132.145.99.228-2607 #1'
   network: ws
   port: 13724
   server: 132.145.99.228
@@ -443,7 +446,7 @@ proxies:
     path: /ws-path
 - alterId: 0
   cipher: auto
-  name: '467,912,913|🇨🇦CA-192.99.8.99-2459 #1'
+  name: '467,912,913|🇨🇦CA-192.99.8.99-2707 #1'
   network: ws
   port: 36005
   server: 192.99.8.99
@@ -458,7 +461,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '467,912,913|🇨🇦CA-192.99.8.99-2462 #1'
+  name: '467,912,913|🇨🇦CA-192.99.8.99-2710 #1'
   network: ws
   port: 36005
   server: tcas.padra-holding.com
@@ -495,20 +498,20 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 467|🇦CA-72.140.224.195-3222
+  name: 467|🇦CA-72.140.224.195-3345
   password: G!yBwPWH3Vao
   port: 800
   server: 72.140.224.195
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 467|🇦CA-196.247.59.156-5263
+  name: 467|🇦CA-196.247.59.156-5386
   password: G!yBwPWH3Vao
   port: 806
   server: 196.247.59.156
   type: ss
 - alterId: 0
   cipher: auto
-  name: '467,858,912,913|🇨🇦CA-159.203.18.119-5356 #1'
+  name: '467,858,912,913|🇨🇦CA-159.203.18.119-5607 #1'
   network: ws
   port: 80
   server: 159.203.18.119
@@ -523,7 +526,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: '467,858,912,913|🇨🇦CA-159.203.18.119-5365 #1'
+  name: '467,858,912,913|🇨🇦CA-159.203.18.119-5616 #1'
   network: ws
   port: 80
   server: 159.203.18.119
@@ -537,26 +540,26 @@ proxies:
       Host: ''
     path: /vmess
 - cipher: aes-256-gcm
-  name: 467|🇨🇦CA-134.195.196.231-5511
+  name: 467|🇨🇦CA-134.195.196.231-5634
   password: Y6R9pAtvxxzmGC
   port: 3306
   server: 134.195.196.231
   type: ss
 - cipher: aes-256-gcm
-  name: 467|🇨CA-134.195.196.231-5512
+  name: 467|🇨CA-134.195.196.231-5635
   password: PCnnH6SQSnfoS27
   port: 8090
   server: 134.195.196.231
   type: ss
 - cipher: aes-256-gcm
-  name: 467|🇦CA-134.195.196.231-5513
+  name: 467|🇦CA-134.195.196.231-5636
   password: cdBIDV42DCwnfIN
   port: 8119
   server: 134.195.196.231
   type: ss
 - alterId: 0
   cipher: auto
-  name: '467,798,912,913|🇨🇦CA-104.247.81.52-5519 #1'
+  name: '467,798,912,913|🇨🇦CA-104.247.81.52-5770 #2'
   network: ws
   port: 443
   server: tw.xlkjjs.top
@@ -571,7 +574,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '467,798,912,913|🇨🇦CA-149.56.95.159-5547 #1'
+  name: '467,798,912,913|🇨🇦CA-149.56.95.159-5798 #2'
   network: ws
   port: 23784
   server: 149.56.95.159
@@ -586,7 +589,7 @@ proxies:
     path: /
 - alterId: 4
   cipher: auto
-  name: '467,912,913|🇨🇦CA-138.197.165.31-5976 #1'
+  name: '467,912,913|🇨🇦CA-138.197.165.31-6227 #1'
   network: ws
   port: 8080
   server: 138.197.165.31
@@ -600,193 +603,199 @@ proxies:
       Host: ''
     path: /cctv13/hd.m3u8
 - cipher: aes-256-gcm
-  name: 467|🇨CA-134.195.196.149-6381
+  name: 467|🇨CA-134.195.196.149-6504
   password: PCnnH6SQSnfoS27
   port: 8090
   server: 134.195.196.149
   type: ss
 - cipher: aes-256-gcm
-  name: 467|🇨CA-134.195.196.149-6382
+  name: 467|🇨CA-134.195.196.149-6505
   password: Y6R9pAtvxxzmGC
   port: 3306
   server: 134.195.196.149
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 467|🇦CA-196.247.59.154-6388
+  name: 467|🇦CA-196.247.59.154-6511
   password: G!yBwPWH3Vao
   port: 801
   server: 196.247.59.154
   type: ss
 - cipher: aes-256-gcm
-  name: 467|🇨CA-134.195.196.149-6408
+  name: 467|🇨CA-134.195.196.149-6531
   password: TEzjfAYq2IjtuoS
   port: 6679
   server: 134.195.196.149
   type: ss
 - cipher: aes-256-gcm
-  name: 467|🇦CA-134.195.196.149-6409
+  name: 467|🇦CA-134.195.196.149-6532
   password: cdBIDV42DCwnfIN
   port: 8119
   server: 134.195.196.149
   type: ss
 - cipher: aes-256-gcm
-  name: 467|🇦CA-134.195.196.85-6410
+  name: 467|🇦CA-134.195.196.85-6533
   password: Y6R9pAtvxxzmGC
   port: 5001
   server: 134.195.196.85
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 467|🇦CA-196.247.59.154-6411
+  name: 467|🇦CA-196.247.59.154-6534
   password: G!yBwPWH3Vao
   port: 806
   server: 196.247.59.154
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 467|🇦CA-196.247.59.154-6413
+  name: 467|🇦CA-196.247.59.154-6536
   password: G!yBwPWH3Vao
   port: 809
   server: 196.247.59.154
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 467|🇦CA-196.247.59.154-6414
+  name: 467|🇦CA-196.247.59.154-6537
   password: G!yBwPWH3Vao
   port: 803
   server: 196.247.59.154
   type: ss
 - cipher: aes-256-gcm
-  name: 467|🇦CA-134.195.196.230-6483
+  name: 467|🇦CA-134.195.196.230-6606
   password: TEzjfAYq2IjtuoS
   port: 6679
   server: 134.195.196.230
   type: ss
 - cipher: aes-256-gcm
-  name: 467|🇦CA-38.111.114.246-6584
+  name: 467|🇦CA-38.111.114.246-6707
   password: cdBIDV42DCwnfIN
   port: 8119
   server: 38.111.114.246
   type: ss
 - cipher: aes-256-gcm
-  name: 467|🇨🇦CA-38.111.114.246-6585
+  name: 467|🇨🇦CA-38.111.114.246-6708
   password: kDWvXYZoTBcGkC4
   port: 8882
   server: 38.111.114.246
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 467|🇦CA-196.247.59.154-6830
+  name: 467|🇦CA-196.247.59.154-6953
   password: G!yBwPWH3Vao
   port: 805
   server: 196.247.59.154
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 467|🇦CA-196.247.59.156-6835
+  name: 467|🇦CA-196.247.59.156-6958
   password: G!yBwPWH3Vao
   port: 803
   server: 196.247.59.156
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 467|🇨🇦CA-196.247.59.156-6837
+  name: 467|🇨🇦CA-196.247.59.154-6959
+  password: G!yBwPWH3Vao
+  port: 802
+  server: 196.247.59.154
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 467|🇨🇦CA-196.247.59.156-6960
   password: G!yBwPWH3Vao
   port: 801
   server: 196.247.59.156
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 467|🇦CA-196.247.59.156-6838
+  name: 467|🇦CA-196.247.59.156-6961
   password: G!yBwPWH3Vao
   port: 808
   server: 196.247.59.156
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 467|🇨🇦CA-196.247.59.156-6841
+  name: 467|🇨🇦CA-196.247.59.156-6964
   password: G!yBwPWH3Vao
   port: 809
   server: 196.247.59.156
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 467|🇨🇦CA-196.247.59.156-6844
+  name: 467|🇨🇦CA-196.247.59.156-6967
   password: G!yBwPWH3Vao
   port: 804
   server: 196.247.59.156
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 467|🇨🇦CA-51.161.118.38-6846
+  name: 467|🇨🇦CA-51.161.118.38-6969
   password: G!yBwPWH3Vao
   port: 806
   server: 51.161.118.38
   type: ss
 - cipher: aes-256-gcm
-  name: 467|🇦CA-134.195.196.149-6927
+  name: 467|🇦CA-134.195.196.149-7050
   password: XKFKl2rULjIp74
   port: 8009
   server: 134.195.196.149
   type: ss
 - cipher: aes-256-gcm
-  name: 467|🇦CA-134.195.198.95-6928
+  name: 467|🇦CA-134.195.198.95-7051
   password: faBAoD54k87UJG7
   port: 2376
   server: 134.195.198.95
   type: ss
 - cipher: aes-256-gcm
-  name: 467|🇦CA-134.195.196.149-6929
+  name: 467|🇦CA-134.195.196.149-7052
   password: kDWvXYZoTBcGkC4
   port: 8881
   server: 134.195.196.149
   type: ss
 - cipher: aes-256-gcm
-  name: 467|🇦CA-134.195.198.95-6930
+  name: 467|🇦CA-134.195.198.95-7053
   password: pKEW8JPByTVTLtM
   port: 443
   server: 134.195.198.95
   type: ss
 - cipher: aes-256-gcm
-  name: 467|🇦CA-134.195.196.149-6931
+  name: 467|🇦CA-134.195.196.149-7054
   password: kDWvXYZoTBcGkC4
   port: 8882
   server: 134.195.196.149
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 467|🇦CA-134.195.196.143-6932
+  name: 467|🇦CA-134.195.196.143-7055
   password: G!yBwPWH3Vao
   port: 805
   server: 134.195.196.143
   type: ss
 - cipher: aes-256-gcm
-  name: 467|🇨🇦CA-134.195.196.107-6933
+  name: 467|🇨🇦CA-134.195.196.107-7056
   password: FoOiGlkAA9yPEGP
   port: 7306
   server: 134.195.196.107
   type: ss
 - cipher: aes-256-gcm
-  name: 467|🇦CA-134.195.196.149-6936
+  name: 467|🇦CA-134.195.196.149-7059
   password: g5MeD6Ft3CWlJId
   port: 5003
   server: 134.195.196.149
   type: ss
 - cipher: aes-256-gcm
-  name: 467|🇨🇦CA-134.195.196.107-6938
+  name: 467|🇨🇦CA-134.195.196.107-7061
   password: XKFKl2rULjIp74
   port: 8009
   server: 134.195.196.107
   type: ss
 - cipher: aes-256-gcm
-  name: 467|🇨🇦CA-134.195.198.95-6939
+  name: 467|🇨🇦CA-134.195.198.95-7062
   password: PCnnH6SQSnfoS27
   port: 8091
   server: 134.195.198.95
   type: ss
 - cipher: aes-256-gcm
-  name: 467|🇦CA-134.195.198.95-6940
+  name: 467|🇦CA-134.195.198.95-7063
   password: PCnnH6SQSnfoS27
   port: 8090
   server: 134.195.198.95
   type: ss
 - cipher: aes-256-gcm
-  name: 467|🇦CA-134.195.196.107-6943
+  name: 467|🇦CA-134.195.196.107-7066
   password: cdBIDV42DCwnfIN
   port: 8118
   server: 134.195.196.107
   type: ss
 - cipher: aes-256-gcm
-  name: 467|🇦CA-134.195.196.149-6945
+  name: 467|🇦CA-134.195.196.149-7068
   password: KixLvKzwjekG00rm
   port: 8080
   server: 134.195.196.149
@@ -2358,17 +2367,17 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '824,847|加拿大 v2rayfree.eu.org #1'
+  name: 824,1040|🇸🇬 Singapore B - Unlocked
   network: ws
-  port: 2086
-  server: ip001.dtku47.xyz
+  port: '80'
+  server: sg02.elizabethgilbert.buzz
   tls: false
   type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  uuid: 8aa67fc2-83d7-4554-8d66-4f06c63de0da
   ws-opts:
     headers:
-      Host: ip001.dtku47.xyz
-    path: github.com/Alvin9999
+      Host: sg02.elizabethgilbert.buzz
+    path: /
 - alterId: 0
   cipher: auto
   name: '826,1006,1027|加拿大_0720007 #2'
@@ -3019,6 +3028,19 @@ proxies:
     headers:
       HOST: ip14.freegradely.xyz
     path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 980|CA??SSRSUB_942096065
+  network: ws
+  port: 8080
+  server: 104.19.47.10
+  tls: false
+  type: vmess
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      Host: oiictw.yydsii.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 980|CA??SSRSUB_502464794
