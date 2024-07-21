@@ -1,15 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 17|香港|广州移动|Neko|1.5x
-  network: tcp
-  port: 13337
-  server: gdcm.r1u.cn
-  tls: false
-  type: vmess
-  uuid: f010dd01-c54a-3c03-95ce-0838214259c6
-- alterId: 0
-  cipher: auto
   name: '18,39|香港01-联通-Vmess #1'
   network: ws
   port: '8443'
@@ -358,27 +349,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 54de5bc2-fd5d-4aa1-adc8-6beb11e402b5
-- cipher: chacha20-ietf-poly1305
-  country: HK
-  name: 281|disney_netflix_HK
-  password: fb4f378f-a7f6-44f5-8e32-ec7f84b817fd
-  port: 50201
-  server: hk02.ssyhi.xyz
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: HK
-  name: '281|disney_netflix_HK #1'
-  password: fb4f378f-a7f6-44f5-8e32-ec7f84b817fd
-  port: 50202
-  server: hk03.ssyhi.xyz
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: HK
-  name: '281|disney_netflix_HK #2'
-  password: fb4f378f-a7f6-44f5-8e32-ec7f84b817fd
-  port: 50254
-  server: hk15.ssyhi.xyz
-  type: ss
 - alterId: 0
   cipher: auto
   name: '285,286,287,288,289,291,500,501,502,503,504|p香港-1 #10'
@@ -546,19 +516,20 @@ proxies:
   tls: false
   type: vmess
   uuid: f6195be4-37bc-3cc8-917e-50c704e2f974
-- alterId: 32
+- alterId: 64
   cipher: auto
-  name: 458|🆔@LuxyNet💎❖🇭🇰❖HK❖298
+  client-fingerprint: chrome
+  fingerprint: ''
+  name: 458,460|4f05251b01804060b4d501f0d23178...
   network: ws
   port: 80
   server: hrgdvpn.flycdnedc55.vip
   skip-cert-verify: true
   tls: false
   type: vmess
+  udp: false
   uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
   ws-opts:
-    headers:
-      host: hrgdvpn.flycdnedc55.vip
     path: /opt/video/images
 - alterId: 0
   cipher: auto
@@ -2603,6 +2574,15 @@ proxies:
       Host: cn.bing.com
     path: /
   ws-path: /
+- cipher: aes-256-cfb
+  country: 🇰HK
+  name: 767,866,997|[02-24]-🇸-欧洲-096-150.107.46.21
+  obfs: tls1.2_ticket_auth
+  password: iFqnzSscN
+  port: 8083
+  protocol: origin
+  server: 150.107.46.21
+  type: ssr
 - alterId: 0
   cipher: auto
   name: '782|🇨🇳中国【YouTube-由零開始】 #7'
@@ -4044,7 +4024,7 @@ proxies:
     path: 55021a7c-bd6c-418e-be95-ceac8ba27b45-vm
 - alterId: 0
   cipher: auto
-  name: '900,1005|美国 CloudFlare节点 #335'
+  name: '900,1005|美国 CloudFlare节点 #333'
   network: ws
   port: '8080'
   server: yh1.freeh1.xyz
@@ -4639,7 +4619,7 @@ proxies:
   country: ????CN
   h2-opts: {}
   http-opts: {}
-  name: 981,982|广东省广州市 移动
+  name: '981,982|广东省广州市 移动 #1'
   network: tcp
   port: '54002'
   server: 183.236.49.92
@@ -4767,17 +4747,75 @@ proxies:
   uuid: 49933ab7-7ec2-3024-9f6e-b7ad9da24c8f
 - alterId: 0
   name: 991|HK
-  network: ws
-  password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 2087
-  server: 8.217.181.213
+  network: tcp
+  password: 10f87a8e-a6f6-319d-a895-8310d326ecce
+  port: 20897
+  server: 8.217.193.174
   skip-cert-verify: true
-  sni: mfjd.591haoka.com
+  sni: hkhe02.bcloudv.cyou
   tls: true
   type: trojan
   udp: true
 - alterId: 0
   name: 991|HK2
+  network: grpc
+  password: fdc65525-e161-3356-9992-f0446eff60fc
+  port: 45136
+  server: 47.242.1.206
+  skip-cert-verify: true
+  sni: hkvip104.qlgq.fun
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 991|HK3
+  password: AHyDyR
+  port: 56012
+  server: 38.150.12.187
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  name: 991|HK4
+  network: ws
+  password: moist
+  port: 2083
+  server: 47.243.67.28
+  skip-cert-verify: true
+  sni: trojan.freenods.sbs
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 991|HK5
+  password: d31534ff-83a3-4137-91b7-79e144489643
+  port: 50223
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 991|HK6
+  password: 033c8fd4-ef0c-479c-a4ff-cbd0f4bd3ef1
+  port: 50233
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 991|HK7
+  password: d31534ff-83a3-4137-91b7-79e144489643
+  port: 50217
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  name: 991|HK8
   network: ws
   password: moist
   port: 2087
@@ -4788,16 +4826,23 @@ proxies:
   type: trojan
   udp: true
 - alterId: 0
-  name: 991|HK3
-  network: ws
-  password: 0fd9b883-0551-4ed1-b978-528183b459a2
-  port: 2087
-  server: 8.217.50.252
+  cipher: chacha20-ietf-poly1305
+  name: 991|HK9
+  password: 033c8fd4-ef0c-479c-a4ff-cbd0f4bd3ef1
+  port: 50234
+  server: 46.232.123.37
   skip-cert-verify: true
-  sni: mfjd.591haoka.com
   tls: true
-  type: trojan
-  udp: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 991|HK10
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 40020
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
 - alterId: 64
   cipher: auto
   name: '1004,1005|香港1|@ripaojiedian #1'
