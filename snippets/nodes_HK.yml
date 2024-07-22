@@ -1385,7 +1385,7 @@ proxies:
   uuid: a58a91d7-6c29-40b8-bf0a-c231aa37932f
 - alterId: 0
   cipher: auto
-  name: '469,984|🔒 VM-WS-TLS 🇭🇰 HK-152.32.190.2... #1'
+  name: '469,984,996|HK11 #2'
   network: ws
   port: '4431'
   server: 152.32.190.239
@@ -4601,16 +4601,6 @@ proxies:
   ws-headers:
     Host: vn3.thanhhaivpn.name.vn
   ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 943,951|香港|@ripaojiedian
-  network: tcp
-  port: '29767'
-  server: bvip.hongxingdl.vip
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 0daceca8-228a-4cc6-a613-db4c6b05c899
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 950|🇭🇰 香港KT|@ripaojiedian
@@ -4781,9 +4771,18 @@ proxies:
   uuid: 49933ab7-7ec2-3024-9f6e-b7ad9da24c8f
 - alterId: 0
   cipher: chacha20-ietf-poly1305
+  name: 995|HK
+  password: 033c8fd4-ef0c-479c-a4ff-cbd0f4bd3ef1
+  port: 58456
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
   name: 995|HK2
-  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 40004
+  password: d31534ff-83a3-4137-91b7-79e144489643
+  port: 50208
   server: 46.232.123.37
   skip-cert-verify: true
   tls: true
@@ -4791,8 +4790,8 @@ proxies:
 - alterId: 0
   cipher: chacha20-ietf-poly1305
   name: 995|HK3
-  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 40007
+  password: d31534ff-83a3-4137-91b7-79e144489643
+  port: 50216
   server: 46.232.123.37
   skip-cert-verify: true
   tls: true
@@ -4800,8 +4799,8 @@ proxies:
 - alterId: 0
   cipher: chacha20-ietf-poly1305
   name: 995|HK4
-  password: 033c8fd4-ef0c-479c-a4ff-cbd0f4bd3ef1
-  port: 50238
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 10004
   server: 46.232.123.37
   skip-cert-verify: true
   tls: true
@@ -4809,28 +4808,28 @@ proxies:
 - alterId: 0
   cipher: chacha20-ietf-poly1305
   name: 995|HK5
-  password: 5ddbeb21-15fb-4aa5-8cc3-34df601c1f02
-  port: 50227
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 20011
   server: 46.232.123.37
   skip-cert-verify: true
   tls: true
   type: ss
 - alterId: 0
   name: 995|HK6
-  network: ws
-  password: b84d16a244460e09
-  port: 3306
-  server: 45.11.104.94
+  network: tcp
+  password: 77891e6750
+  port: 443
+  server: 27.0.232.204
   skip-cert-verify: true
-  sni: n2.gladns.com
+  sni: hk1.connecton.surf
   tls: true
   type: trojan
   udp: true
 - alterId: 0
   cipher: chacha20-ietf-poly1305
   name: 995|HK7
-  password: 5ddbeb21-15fb-4aa5-8cc3-34df601c1f02
-  port: 50240
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 40026
   server: 46.232.123.37
   skip-cert-verify: true
   tls: true
@@ -4838,8 +4837,8 @@ proxies:
 - alterId: 0
   cipher: chacha20-ietf-poly1305
   name: 995|HK8
-  password: d31534ff-83a3-4137-91b7-79e144489643
-  port: 50241
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 20005
   server: 46.232.123.37
   skip-cert-verify: true
   tls: true
@@ -4847,8 +4846,8 @@ proxies:
 - alterId: 0
   cipher: chacha20-ietf-poly1305
   name: 995|HK9
-  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 50002
+  password: d31534ff-83a3-4137-91b7-79e144489643
+  port: 50242
   server: 46.232.123.37
   skip-cert-verify: true
   tls: true
@@ -4856,17 +4855,31 @@ proxies:
 - alterId: 0
   cipher: chacha20-ietf-poly1305
   name: 995|HK10
-  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 40030
+  password: 033c8fd4-ef0c-479c-a4ff-cbd0f4bd3ef1
+  port: 50238
   server: 46.232.123.37
   skip-cert-verify: true
   tls: true
   type: ss
 - alterId: 0
+  cipher: auto
+  name: '995|HK11 #1'
+  network: ws
+  port: 4431
+  server: 152.32.190.239
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9
+  ws-opts:
+    headers:
+      host: cfhk.393930.xyz
+    path: /
+- alterId: 0
   cipher: chacha20-ietf-poly1305
-  name: 995|HK11
-  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 40033
+  name: 995|HK12
+  password: 5ddbeb21-15fb-4aa5-8cc3-34df601c1f02
+  port: 50202
   server: 46.232.123.37
   skip-cert-verify: true
   tls: true
