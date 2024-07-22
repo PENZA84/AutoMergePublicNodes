@@ -98,7 +98,7 @@ proxies:
   country: 🇺🇸US
   h2-opts: {}
   http-opts: {}
-  name: 30,458,551,766,767,774,799,806,808,895,912,1009,1028|日本_0722002
+  name: 30,458,551,774,799,806,808,895,912,1009,1028|日本_0722002
   network: tcp
   port: '1069'
   server: 152.69.197.60
@@ -116,7 +116,7 @@ proxies:
     grpc-service-name: 1654431
   h2-opts: {}
   http-opts: {}
-  name: '97,280,460,468,480,523,578,679,784,788,792,824,840,847,852,857,862,864,866,874,879,900,927,928,932,937,941,946,949,981,991,997,1023,1024,1034,1261,1264,1265,1267|🇭🇰套餐已到达阀值_等待次月恢复
+  name: '97,280,468,480,523,578,679,766,784,788,792,824,840,847,852,857,862,864,866,874,879,900,927,928,932,937,941,946,949,981,991,997,1023,1024,1034,1261,1264,1265,1267|🇭🇰套餐已到达阀值_等待次月恢复
     #2'
   network: ws
   password: bbab60b8-779f-31e2-916e-571f7d7023c4
@@ -425,6 +425,45 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
+  name: 292|pq日本1-解锁
+  network: ws
+  port: '2052'
+  server: yx1.chinayyds.xyz
+  tls: false
+  type: vmess
+  uuid: 36b2ebbd-4bf5-48a6-94c1-03877708e29b
+  ws-opts:
+    headers:
+      Host: pqrb.chinayyds.xyz
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 292|pq日本2-解锁
+  network: ws
+  port: '2052'
+  server: yx2.chinayyds.xyz
+  tls: false
+  type: vmess
+  uuid: 36b2ebbd-4bf5-48a6-94c1-03877708e29b
+  ws-opts:
+    headers:
+      Host: pqrb.chinayyds.xyz
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 292|pq日本3-解锁
+  network: ws
+  port: '2052'
+  server: yx3.chinayyds.xyz
+  tls: false
+  type: vmess
+  uuid: 36b2ebbd-4bf5-48a6-94c1-03877708e29b
+  ws-opts:
+    headers:
+      Host: pqrb.chinayyds.xyz
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
   name: '323,324|JP-日本01 | CDN | 翻墙0.5× #1'
   network: ws
   port: '2052'
@@ -706,7 +745,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '467,980|🔒 VM-TCP-NA 🇯🇵 JP-54.250.47.23... #1'
+  name: 467|🔒 VM-TCP-NA 🇯🇵 JP-54.250.47.23...
   network: tcp
   port: 11773
   server: 54.250.47.237
@@ -749,14 +788,11 @@ proxies:
   port: 7002
   server: 85.208.108.20
   type: ss
-- alterId: 0
-  cipher: aes-256-gcm
-  name: 468,991|未知95
+- cipher: aes-256-gcm
+  name: 468|🇯🇵JP-85.208.108.93-0057
   password: FoOiGlkAA9yPEGP
   port: 7306
   server: 85.208.108.93
-  skip-cert-verify: true
-  tls: true
   type: ss
 - cipher: aes-256-gcm
   name: 468|🇯🇵JP-85.208.108.90-0058
@@ -770,11 +806,14 @@ proxies:
   port: 6379
   server: 85.208.108.90
   type: ss
-- cipher: aes-256-gcm
-  name: 468|🇵JP-85.208.108.62-0062
+- alterId: 0
+  cipher: aes-256-gcm
+  name: 468,991|未知88
   password: faBAoD54k87UJG7
   port: 2375
   server: 85.208.108.62
+  skip-cert-verify: true
+  tls: true
   type: ss
 - cipher: aes-256-gcm
   name: 468|🇯🇵JP-85.208.108.18-0073
@@ -3791,6 +3830,15 @@ proxies:
     headers:
       Host: a.189.cn
     path: /adobe
+- alterId: 0
+  cipher: auto
+  name: 980|🔒 VM-TCP-NA 🇯🇵 JP-13.231.135.2...
+  network: tcp
+  port: 11773
+  server: 13.231.135.241
+  tls: false
+  type: vmess
+  uuid: c2365e4e-3700-323a-b889-fea7677ef8d1
 - alterId: -1
   cipher: aes-256-cfb
   country: ???? JP
