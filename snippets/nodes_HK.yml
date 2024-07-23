@@ -334,45 +334,6 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 292|pq香港1
-  network: ws
-  port: '2052'
-  server: yx1.chinayyds.xyz
-  tls: false
-  type: vmess
-  uuid: 36b2ebbd-4bf5-48a6-94c1-03877708e29b
-  ws-opts:
-    headers:
-      Host: pqhk.chinayyds.xyz
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 292|pq香港2
-  network: ws
-  port: '2052'
-  server: yx2.chinayyds.xyz
-  tls: false
-  type: vmess
-  uuid: 36b2ebbd-4bf5-48a6-94c1-03877708e29b
-  ws-opts:
-    headers:
-      Host: pqhk.chinayyds.xyz
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 292|pq香港3
-  network: ws
-  port: '2052'
-  server: yx3.chinayyds.xyz
-  tls: false
-  type: vmess
-  uuid: 36b2ebbd-4bf5-48a6-94c1-03877708e29b
-  ws-opts:
-    headers:
-      Host: pqhk.chinayyds.xyz
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
   name: '324,325|HK-香港 | CDN | 翻墙0.5× #1'
   network: ws
   port: '2086'
@@ -1398,17 +1359,7 @@ proxies:
   uuid: 4ca1ed3c-b0d4-4872-b260-774fbe3021b0
 - alterId: 0
   cipher: auto
-  name: '469,984|🔒 VM-TCP-NA 🇭🇰 HK-163.53.18.19... #1'
-  network: tcp
-  port: '10010'
-  server: 163.53.18.195
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a58a91d7-6c29-40b8-bf0a-c231aa37932f
-- alterId: 0
-  cipher: auto
-  name: '469,984,996|HK2 #2'
+  name: '469,984|🔒 VM-WS-TLS 🇭🇰 HK-152.32.190.2... #1'
   network: ws
   port: '4431'
   server: 152.32.190.239
@@ -1420,6 +1371,16 @@ proxies:
     headers:
       Host: cfhk.393930.xyz
     path: /
+- alterId: 0
+  cipher: auto
+  name: '469,984|🔒 VM-TCP-NA 🇭🇰 HK-163.53.18.19... #1'
+  network: tcp
+  port: '10010'
+  server: 163.53.18.195
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a58a91d7-6c29-40b8-bf0a-c231aa37932f
 - name: 470|🇰HK-152.32.169.42-1066
   port: 21830
   server: www.chrome-helper.cc
@@ -3952,7 +3913,7 @@ proxies:
     path: 55021a7c-bd6c-418e-be95-ceac8ba27b45-vm
 - alterId: 0
   cipher: auto
-  name: '904,1009|美国 CloudFlare节点 #374'
+  name: '904,1009|美国 CloudFlare节点 #334'
   network: ws
   port: '8080'
   server: yh1.freeh1.xyz
@@ -4507,6 +4468,20 @@ proxies:
   port: 36141
   server: free.2weradf.xyz
   type: ss
+- alterId: 64
+  cipher: auto
+  country: ????CN
+  h2-opts: {}
+  http-opts: {}
+  name: 985,986|广东省广州市 移动
+  network: tcp
+  port: '54002'
+  server: 183.236.49.92
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: -1
   cipher: chacha20-ietf-poly1305
   name: 985|HK??SSRSUB_627992356
@@ -4625,63 +4600,47 @@ proxies:
   type: vmess
   uuid: 49933ab7-7ec2-3024-9f6e-b7ad9da24c8f
 - alterId: 0
-  cipher: auto
-  name: '995|HK2 #1'
-  network: ws
-  port: 4431
-  server: 152.32.190.239
+  cipher: chacha20-ietf-poly1305
+  name: 995|HK
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 10015
+  server: 46.232.123.37
   skip-cert-verify: true
   tls: true
-  type: vmess
-  uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9
-  ws-opts:
-    headers:
-      host: cfhk.393930.xyz
-    path: /
+  type: ss
 - alterId: 0
-  name: 995|HK3
-  network: grpc
-  password: fdc65525-e161-3356-9992-f0446eff60fc
-  port: 45136
-  server: 47.242.1.206
+  cipher: chacha20-ietf-poly1305
+  name: 995|HK2
+  password: 5ddbeb21-15fb-4aa5-8cc3-34df601c1f02
+  port: 50200
+  server: 46.232.123.37
   skip-cert-verify: true
-  sni: hkvip104.qlgq.fun
   tls: true
-  type: trojan
-  udp: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 995|HK3
+  password: d31534ff-83a3-4137-91b7-79e144489643
+  port: 50239
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
 - alterId: 0
   cipher: chacha20-ietf-poly1305
   name: 995|HK4
-  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 40004
+  password: 033c8fd4-ef0c-479c-a4ff-cbd0f4bd3ef1
+  port: 50225
   server: 46.232.123.37
   skip-cert-verify: true
   tls: true
   type: ss
 - alterId: 0
-  cipher: chacha20-ietf-poly1305
   name: 995|HK5
-  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 30016
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 995|HK6
-  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 50001
-  server: 46.232.123.37
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  name: 995|HK7
   network: ws
   password: moist
-  port: 2096
-  server: 47.238.0.114
+  port: 2083
+  server: 47.243.67.28
   skip-cert-verify: true
   sni: trojan.freenods.sbs
   tls: true
@@ -4689,9 +4648,27 @@ proxies:
   udp: true
 - alterId: 0
   cipher: chacha20-ietf-poly1305
-  name: 995|HK8
+  name: 995|HK6
+  password: 033c8fd4-ef0c-479c-a4ff-cbd0f4bd3ef1
+  port: 50238
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 995|HK7
   password: 5ddbeb21-15fb-4aa5-8cc3-34df601c1f02
-  port: 50219
+  port: 50227
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 995|HK8
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 10101
   server: 46.232.123.37
   skip-cert-verify: true
   tls: true
@@ -4699,36 +4676,38 @@ proxies:
 - alterId: 0
   cipher: chacha20-ietf-poly1305
   name: 995|HK9
-  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 10008
-  server: 46.232.123.37
+  password: 9c2bf54f-5f13-4d71-b866-3a3f23c4d86b
+  port: 45077
+  server: 38.207.154.30
   skip-cert-verify: true
   tls: true
   type: ss
 - alterId: 0
-  cipher: chacha20-ietf-poly1305
   name: 995|HK10
-  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 50005
-  server: 46.232.123.37
+  network: ws
+  password: 0fd9b883-0551-4ed1-b978-528183b459a2
+  port: 2053
+  server: 47.243.51.171
   skip-cert-verify: true
+  sni: mfjd.591haoka.com
   tls: true
-  type: ss
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: chacha20-ietf-poly1305
   name: 995|HK11
-  password: 033c8fd4-ef0c-479c-a4ff-cbd0f4bd3ef1
-  port: 50233
-  server: 46.232.123.37
+  password: AHyDyR
+  port: 56026
+  server: 38.150.12.187
   skip-cert-verify: true
   tls: true
   type: ss
 - alterId: 0
   cipher: chacha20-ietf-poly1305
   name: 995|HK12
-  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
-  port: 40030
-  server: 46.232.123.37
+  password: 9c2bf54f-5f13-4d71-b866-3a3f23c4d86b
+  port: 45079
+  server: 38.207.154.30
   skip-cert-verify: true
   tls: true
   type: ss
@@ -4736,7 +4715,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   name: 995|HK13
   password: 5ddbeb21-15fb-4aa5-8cc3-34df601c1f02
-  port: 50212
+  port: 50240
   server: 46.232.123.37
   skip-cert-verify: true
   tls: true
