@@ -7,6 +7,15 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
+  name: 17|新加坡|湖南移动|Linode|1x
+  network: tcp
+  port: 39288
+  server: cs.guanguan.club
+  tls: false
+  type: vmess
+  uuid: f010dd01-c54a-3c03-95ce-0838214259c6
+- alterId: 0
+  cipher: auto
   name: 18|新加坡01-联通-Vmess
   network: ws
   port: '8443'
@@ -101,42 +110,49 @@ proxies:
     path: ''
 - cipher: aes-256-cfb
   country: 🇸🇬SG
-  name: 30,782|🇸🇬SG_99
-  password: VP8ZPxQpJtZRCjfZ
-  port: 9080
-  server: 103.172.116.94
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇸🇬SG
-  name: 30,782|🇸🇬SG_101
+  name: 30,782|🇸🇬SG_100
   password: GeregetR8cvQHzYr
   port: 9030
   server: 103.172.116.94
   type: ss
 - cipher: aes-256-cfb
   country: 🇸🇬SG
-  name: 30,782|🇸🇬SG_100
+  name: 30,782|🇸🇬SG_95
   password: JdmRK9gMEqFgs8nP
   port: 9003
   server: 103.172.116.94
   type: ss
 - cipher: aes-256-cfb
-  country: ' SG'
-  name: 30| SG_23
+  country: 🇸🇬SG
+  name: 30,782|🇸🇬SG_96
   password: f8npKgNzdkss2ytn
   port: 9088
   server: 103.172.116.94
   type: ss
 - cipher: aes-256-cfb
   country: 🇸🇬SG
-  name: 30,782|🇸🇬SG_97
+  name: 30,782|🇸🇬SG_99
   password: QWDDvVE9npNurQfA
   port: 9026
   server: 103.172.116.94
   type: ss
 - cipher: aes-256-cfb
   country: 🇸🇬SG
+  name: 30,782|🇬SG_94
+  password: UTJA57ypk2XKQpnm
+  port: 9033
+  server: 103.172.116.94
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇸🇬SG
   name: 30,782|🇸🇬SG_98
+  password: VP8ZPxQpJtZRCjfZ
+  port: 9080
+  server: 103.172.116.94
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇸🇬SG
+  name: 30,782|🇸🇬SG_97
   password: f63gg8EruDnUrmz4
   port: 9010
   server: 103.172.116.94
@@ -1041,6 +1057,20 @@ proxies:
   uuid: 4e55ce40-9f8e-417d-f8ae-aa6af97a7097
 - alterId: 0
   cipher: auto
+  name: '476,822,987,995|🔒 VM-WS-NONE 🇸🇬 SG-54.255.222.... #2'
+  network: ws
+  port: 34175
+  server: 54.255.222.11
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a9dc4e28-b990-4f52-ad4a-83e3b9a1020f
+  ws-opts:
+    headers:
+      Host: m.zoom.us
+    path: /
+- alterId: 0
+  cipher: auto
   country: ????SG
   h2-opts: {}
   http-opts: {}
@@ -1053,19 +1083,6 @@ proxies:
   tls: true
   type: vmess
   uuid: 0782d3ab-ee9f-4de2-9201-81f83863e32a
-- alterId: 0
-  cipher: auto
-  name: '476,987,995|🔒 VM-WS-NONE 🇸🇬 SG-54.255.222.... #2'
-  network: ws
-  port: 34175
-  server: 54.255.222.11
-  tls: false
-  type: vmess
-  uuid: a9dc4e28-b990-4f52-ad4a-83e3b9a1020f
-  ws-opts:
-    headers:
-      Host: m.zoom.us
-    path: /
 - alterId: 0
   cipher: auto
   name: '476,995|🔒 VM-TCP-NONE 🇸🇬 SG-68.183.224... #1'
@@ -1416,7 +1433,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 477,822,928,929,997,1041|新加坡_0722001
+  name: 477,928,929,997,1041|新加坡_0722001
   network: ws
   port: '2082'
   server: 8.222.174.108
@@ -1431,7 +1448,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 477,822,928,929,997,1041|新加坡_0722002
+  name: 477,928,929,997,1041|新加坡_0722002
   network: ws
   port: '2082'
   server: 8.222.167.147
@@ -2306,6 +2323,13 @@ proxies:
   server: 167.99.31.176
   type: vmess
   uuid: d58f81a7-083a-4ff2-e50a-7078c58bbccf
+- cipher: chacha20-ietf-poly1305
+  name: 532|🇸🇬 新加坡5 IEPL专线
+  password: 9a998239-c2c2-4e11-bc0d-b0b5444a983d
+  port: 25747
+  server: iepl.hongxingdl.vip
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: '641,1130|新加坡-05 #1'
@@ -2643,16 +2667,9 @@ proxies:
     path: /
 - cipher: aes-256-cfb
   country: 🇬SG
-  name: 782|🇬SG_95
+  name: 782|🇬SG_93
   password: fG2artUmHfNT2cX7
   port: 9018
-  server: 103.172.116.94
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇸🇬SG
-  name: 782|🇬SG_96
-  password: BejrQvtu9sqUeNuZ
-  port: 9024
   server: 103.172.116.94
   type: ss
 - alterId: 0
@@ -5058,59 +5075,3 @@ proxies:
   tls: false
   type: vmess
   uuid: d3a515b4-6fcb-38c8-93d3-2c17da360f89
-- cipher: aes-128-gcm
-  name: 1382|🇸🇬 狮城 01
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 20641
-  server: ss.sgplink.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 1382|🇸🇬 狮城 02
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 20642
-  server: ss.sgplink.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 1382|🇸🇬 狮城 03
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 20643
-  server: ss.sgplink.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 1382|🇸🇬 狮城 04
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 20644
-  server: ss.sgplink.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 1382|🇸🇬 狮城 05
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 20645
-  server: ss.sgplink.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 1382|🇸🇬 狮城 06
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 20646
-  server: ss.sgplink.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 1382|🇸🇬 狮城 07
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 20647
-  server: ss.sgplink.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 1382|🇸🇬 狮城 08
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
-  port: 20648
-  server: ss.sgplink.xyz
-  type: ss
-  udp: true
