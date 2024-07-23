@@ -1,6 +1,15 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 17|日本|湖南移动|纸盒|1x
+  network: tcp
+  port: 26181
+  server: cs.guanguan.club
+  tls: false
+  type: vmess
+  uuid: f010dd01-c54a-3c03-95ce-0838214259c6
+- alterId: 0
+  cipher: auto
   name: 18|日本01-联通-Vmess
   network: ws
   port: '8443'
@@ -95,28 +104,13 @@ proxies:
     path: ''
 - alterId: 0
   cipher: auto
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: 30,460,553,771,778,803,810,812,899,916,1013,1032|日本_0722002
-  network: tcp
-  port: '1069'
-  server: 152.69.197.60
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
-  ws-path: /
-- alterId: 0
-  cipher: auto
   client-fingerprint: chrome
   country: ????US
   grpc-opts:
     grpc-service-name: 1654431
   h2-opts: {}
   http-opts: {}
-  name: '97,280,462,470,482,580,681,719,788,792,796,828,844,851,856,861,866,868,870,878,883,904,931,932,936,941,945,950,953,985,995,1001,1027,1028,1038,1267,1270,1271,1273|🇭🇰套餐已到达阀值_等待次月恢复
+  name: '97,280,470,482,580,681,719,770,788,792,796,828,844,851,856,861,866,868,870,878,883,904,931,932,936,941,945,950,953,985,995,1001,1027,1028,1038,1267,1270,1271,1273|🇭🇰套餐已到达阀值_等待次月恢复
     #2'
   network: ws
   password: bbab60b8-779f-31e2-916e-571f7d7023c4
@@ -360,6 +354,12 @@ proxies:
     headers:
       Host: ''
     path: /
+- cipher: aes-256-cfb
+  name: 280,470|🇯🇵JP-18.183.77.249-2741
+  password: amazonskr05
+  port: 443
+  server: 18.183.77.249
+  type: ss
 - alterId: 0
   cipher: auto
   name: '285,286,287,288,289,291,502,503,504,505,506|l日本-1 #10'
@@ -709,6 +709,20 @@ proxies:
     path: /bb
 - alterId: 0
   cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 460,553,771,778,803,810,812,899,916,1013,1032|日本_0722002
+  network: tcp
+  port: '1069'
+  server: 152.69.197.60
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
+- alterId: 0
+  cipher: auto
   name: 460|🆔@LuxyNet💎❖🇵❖JP❖1479
   network: tcp
   port: 31845
@@ -758,7 +772,7 @@ proxies:
     path: /je5x3pBN1vez3NQudNkB
 - alterId: 0
   cipher: auto
-  name: '469,984|🔒 VM-TCP-NA 🇯🇵 JP-54.95.82.94:... #1'
+  name: 469|🔒 VM-TCP-NA 🇯🇵 JP-54.95.82.94:...
   network: tcp
   port: 11773
   server: 54.95.82.94
@@ -793,11 +807,12 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '469,976,984|🔒 VM-TCP-NA 🇯🇵 JP-20.243.98.11... #2'
+  name: '469,976,984,995,996|未知93 #1'
   network: tcp
   port: '53001'
   server: 20.243.98.115
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 60626f2a-a43d-3ef0-9e7a-f527d5ebe6fb
@@ -825,11 +840,14 @@ proxies:
   port: 8090
   server: 85.208.108.58
   type: ss
-- cipher: aes-256-gcm
-  name: 470|🇵JP-85.208.108.93-0071
+- alterId: 0
+  cipher: aes-256-gcm
+  name: '470,995|未命名 #332'
   password: RexnBgU7EV5ADxG
   port: 7001
   server: 85.208.108.93
+  skip-cert-verify: true
+  tls: true
   type: ss
 - cipher: aes-256-gcm
   name: 470|🇵JP-85.208.108.93-0075
@@ -837,14 +855,11 @@ proxies:
   port: 7306
   server: 85.208.108.93
   type: ss
-- alterId: 0
-  cipher: aes-256-gcm
-  name: 470,995|未知7
+- cipher: aes-256-gcm
+  name: 470|🇯🇵JP-85.208.108.18-0076
   password: RexnBgU7EV5ADxG
   port: 7001
   server: 85.208.108.18
-  skip-cert-verify: true
-  tls: true
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 470|🇵JP-45.66.134.176-0086
@@ -1315,12 +1330,6 @@ proxies:
   password: amazonskr05
   port: 443
   server: 52.195.207.131
-  type: ss
-- cipher: aes-256-cfb
-  name: 470|🇯🇵JP-18.183.77.249-2741
-  password: amazonskr05
-  port: 443
-  server: 18.183.77.249
   type: ss
 - cipher: aes-256-gcm
   name: 470,805|347_日本-1.13MB
@@ -3931,6 +3940,15 @@ proxies:
     headers:
       Host: a.189.cn
     path: /adobe
+- alterId: 0
+  cipher: auto
+  name: 984|🔒 VM-TCP-NA 🇯🇵 JP-18.181.187.2...
+  network: tcp
+  port: 11773
+  server: 18.181.187.249
+  tls: false
+  type: vmess
+  uuid: c2365e4e-3700-323a-b889-fea7677ef8d1
 - alterId: -1
   cipher: aes-256-cfb
   country: ???? JP
@@ -4557,62 +4575,6 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- alterId: 2
-  cipher: auto
-  name: 1328|日本-v2ray
-  network: ws
-  port: '443'
-  server: jp.sstank.top
-  servername: jp.sstank.top
-  tls: true
-  type: vmess
-  uuid: 6b772c91-a7e1-36a5-aa59-1b12f4339508
-  ws-opts:
-    headers:
-      Host: jp.sstank.top
-    path: /v2ray
-- alterId: 2
-  cipher: auto
-  name: 1328|日本1-v2ray
-  network: ws
-  port: '443'
-  server: jp1.sstank.top
-  servername: jp1.sstank.top
-  tls: true
-  type: vmess
-  uuid: 6b772c91-a7e1-36a5-aa59-1b12f4339508
-  ws-opts:
-    headers:
-      Host: jp1.sstank.top
-    path: /hello
-- alterId: 2
-  cipher: auto
-  name: 1328|日本2-v2ray
-  network: ws
-  port: '443'
-  server: jp2.sstank.top
-  servername: jp2.sstank.top
-  tls: true
-  type: vmess
-  uuid: 6b772c91-a7e1-36a5-aa59-1b12f4339508
-  ws-opts:
-    headers:
-      Host: jp2.sstank.top
-    path: /hello
-- alterId: 0
-  cipher: auto
-  name: 1328|日本3-V2ray
-  network: ws
-  port: '443'
-  server: jp3.sstank.top
-  servername: jp3.sstank.top
-  tls: true
-  type: vmess
-  uuid: 6b772c91-a7e1-36a5-aa59-1b12f4339508
-  ws-opts:
-    headers:
-      Host: jp3.sstank.top
-    path: /hello
 - alterId: 0
   cipher: auto
   name: 1331|🇯🇵 日本A丨Lin丨流媒体
