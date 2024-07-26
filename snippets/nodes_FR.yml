@@ -1,25 +1,26 @@
 proxies:
 - cipher: aes-256-gcm
-  country: 🇫🇷FR
-  name: 30,799|🇫🇷FR_16
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  server: 149.202.82.172
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇫🇷FR
-  name: 30,489,799,806,856|🇫🇷 FR 16 → tg@nicevpn123
-  password: KixLvKzwjekG00rm
-  port: 8080
-  server: 149.202.82.172
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
   country: 🇷FR
   name: 30,489,799,806,856|🇫🇷 FR 25 → tg@nicevpn123
   password: TEzjfAYq2IjtuoS
   port: 6697
   server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  country: ' FR'
+  name: 30,479,489,856|🇫🇷 FR 11 → tg@nicevpn123
+  password: G!yBwPWH3Vao
+  port: 810
+  server: 51.178.87.37
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  country: ' FR'
+  name: 30,489,856|🇫🇷 FR 26 → tg@nicevpn123
+  password: G!yBwPWH3Vao
+  port: 805
+  server: 51.178.87.37
   type: ss
   udp: true
 - cipher: aes-256-gcm
@@ -30,29 +31,27 @@ proxies:
   server: 149.202.82.172
   type: ss
   udp: true
+- cipher: aes-256-gcm
+  country: 🇫🇷FR
+  name: 30,489,799,806,856|🇫🇷 FR 16 → tg@nicevpn123
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  country: 🇫🇷FR
+  name: 30,799|🇫🇷FR_37
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 149.202.82.172
+  type: ss
 - alterId: 0
   cipher: auto
   country: ' FR'
   h2-opts: {}
   http-opts: {}
   name: 30| FR_14
-  network: ws
-  port: 443
-  server: az05.beyondy.cfd
-  servername: az05.beyondy.cfd
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
-  ws-headers:
-    HOST: az05.beyondy.cfd
-  ws-path: /link
-- alterId: 0
-  cipher: auto
-  country: ' FR'
-  h2-opts: {}
-  http-opts: {}
-  name: 30| FR_15
   network: ws
   port: 443
   server: 193.160.130.117
@@ -64,6 +63,23 @@ proxies:
   ws-headers:
     HOST: beyonddsz.cfd
   ws-path: /linkws
+- alterId: 0
+  cipher: auto
+  country: ' FR'
+  h2-opts: {}
+  http-opts: {}
+  name: 30| FR_15
+  network: ws
+  port: 443
+  server: az05.beyondy.cfd
+  servername: az05.beyondy.cfd
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
+  ws-headers:
+    HOST: az05.beyondy.cfd
+  ws-path: /link
 - alterId: 0
   cipher: auto
   name: '80,1060,1269,1283,1376|法国【付费推荐：https://a0a.xyz】38 #2'
@@ -156,7 +172,7 @@ proxies:
   udp: true
 - cipher: aes-256-cfb
   country: 🇫🇷FR
-  name: 287,489,799|🇫🇷FR_20
+  name: 287,489,799|🇫🇷FR_22
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 195.154.185.174
@@ -168,7 +184,7 @@ proxies:
   server: 51.15.27.48
   type: ss
 - cipher: aes-256-cfb
-  country: 🇫FR
+  country: 🇫🇷FR
   name: 287,489,799,856|🇫🇷 FR 38 → tg@nicevpn123
   password: f8f7aCzcPKbsF8p3
   port: 989
@@ -194,7 +210,7 @@ proxies:
       HOST: az05.beyondy.cfd
     path: /link
 - country: FR
-  name: 288|FR_06
+  name: '288|disney_netflix_FR #1'
   network: tcp
   password: telegram-id-privatevpns
   port: 22222
@@ -214,31 +230,12 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  country: US
-  fingerprint: ''
-  h2-opts: {}
-  http-opts: {}
-  name: 288,481,856|🇺🇸 US 429 → tg@nicevpn123
-  network: ws
-  port: 443
-  server: 172.67.175.56
-  servername: obdii.cfd
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    path: /linkws
 - country: ZZ
   name: '288|disney_netflix_FR #3'
   network: ws
   password: auto
-  port: 8443
-  server: 162.159.138.232
+  port: 443
+  server: 104.26.12.54
   sni: e9464f45.trauma-2r4.pages.dev
   type: trojan
   udp: true
@@ -260,21 +257,8 @@ proxies:
       Host: e9464f45.trauma-2r4.pages.dev
     path: /
 - country: ZZ
-  name: '288|disney_netflix_FR #5'
-  network: ws
-  password: auto
-  port: 443
-  server: 104.26.12.54
-  sni: e9464f45.trauma-2r4.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: e9464f45.trauma-2r4.pages.dev
-    path: /
-- country: ZZ
   fingerprint: chrome
-  name: '288|disney_netflix_FR #6'
+  name: '288|disney_netflix_FR #5'
   network: ws
   password: Watashi_VPN
   port: 8443
@@ -286,6 +270,19 @@ proxies:
     headers:
       Host: t-watashi-r-jacket-o-people-jan.watashi-java.ir
     path: /?ed=2560
+- country: ZZ
+  name: '288|disney_netflix_FR #6'
+  network: ws
+  password: auto
+  port: 8443
+  server: 162.159.138.232
+  sni: e9464f45.trauma-2r4.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: e9464f45.trauma-2r4.pages.dev
+    path: /
 - alterId: 0
   cipher: auto
   name: 347|🇫🇷 法国 | V1 | 01
@@ -621,14 +618,6 @@ proxies:
   port: 804
   server: 51.178.87.37
   type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇫🇷FR
-  name: 479,489,799,856|🇫🇷 FR 11 → tg@nicevpn123
-  password: G!yBwPWH3Vao
-  port: 810
-  server: 51.178.87.37
-  type: ss
-  udp: true
 - alterId: 0
   cipher: aes-128-gcm
   name: 479|🆔@LuxyNet💎❖🇷❖FR❖629
@@ -928,7 +917,7 @@ proxies:
   udp: true
 - cipher: aes-256-gcm
   country: 🇫🇷FR
-  name: 489,799|🇫🇷FR_33
+  name: 489,799|🇫🇷FR_45
   password: Y6R9pAtvxxzmGC
   port: 5001
   server: 149.202.82.172
@@ -969,14 +958,6 @@ proxies:
   server: 149.202.82.172
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  country: 🇫🇷FR
-  name: 489,799,856|🇫🇷 FR 26 → tg@nicevpn123
-  password: G!yBwPWH3Vao
-  port: 805
-  server: 51.178.87.37
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   name: '489,891,945,946|🇫🇷FR-51.77.212.145-0969 #1'
@@ -1008,7 +989,7 @@ proxies:
       Host: ''
     path: /
 - cipher: aes-256-gcm
-  name: 489,826,856|🇵🇱 PL 20 → tg@nicevpn123
+  name: 489,856|🇵🇱 PL 20 → tg@nicevpn123
   password: 7BcLdsO1WweoGD0X
   port: 40368
   server: 193.243.147.128
@@ -1360,7 +1341,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  country: 🇫🇷FR
+  country: 🇫FR
   name: 489,799,856|🇫🇷 FR 10 → tg@nicevpn123
   password: kDWvXYZoTBcGkC4
   port: 8881
@@ -1559,6 +1540,13 @@ proxies:
     headers:
       Host: ftsxkc.freefly.pp.ua
     path: /
+- cipher: aes-256-gcm
+  country: 🇫🇷FR
+  name: 799|🇫🇷FR_15
+  password: TEzjfAYq2IjtuoS
+  port: 6679
+  server: 149.202.82.172
+  type: ss
 - alterId: 0
   cipher: aes-256-gcm
   country: 🇫🇷FR
@@ -1572,10 +1560,34 @@ proxies:
   udp: true
 - cipher: aes-256-gcm
   country: 🇫🇷FR
+  name: 799,856|🇫🇷 FR 24 → tg@nicevpn123
+  password: Y6R9pAtvxxzmGC
+  port: 8888
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  country: 🇫🇷FR
+  name: 799,856|🇫🇷 FR 28 → tg@nicevpn123
+  password: FoOiGlkAA9yPEGP
+  port: 7307
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  country: 🇫🇷FR
   name: 799,856|🇩🇪 DE 14 → tg@nicevpn123
   password: Y6R9pAtvxxzmGC
   port: 3389
   server: 217.182.198.219
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  country: 🇫🇷FR
+  name: 799,856|🇵🇱 PL 42 → tg@nicevpn123
+  password: Y6R9pAtvxxzmGC
+  port: 5001
+  server: 54.36.174.181
   type: ss
   udp: true
 - alterId: 0
@@ -1591,38 +1603,6 @@ proxies:
   udp: true
 - cipher: aes-256-gcm
   country: 🇫🇷FR
-  name: 799,856|🇫🇷 FR 34 → tg@nicevpn123
-  password: faBAoD54k87UJG7
-  port: 2375
-  server: 149.202.82.172
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  country: 🇫🇷FR
-  name: 799,856|🇵🇱 PL 42 → tg@nicevpn123
-  password: Y6R9pAtvxxzmGC
-  port: 5001
-  server: 54.36.174.181
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  country: 🇫🇷FR
-  name: 799,856|🇫🇷 FR 6 → tg@nicevpn123
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 149.202.82.172
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  country: 🇫🇷FR
-  name: 799,856|🇫🇷 FR 24 → tg@nicevpn123
-  password: Y6R9pAtvxxzmGC
-  port: 8888
-  server: 149.202.82.172
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  country: 🇫🇷FR
   name: 799,856|🇵🇱 PL 43 → tg@nicevpn123
   password: PCnnH6SQSnfoS27
   port: 8090
@@ -1631,25 +1611,17 @@ proxies:
   udp: true
 - cipher: aes-256-gcm
   country: 🇫🇷FR
+  name: 799,856|🇫🇷 FR 32 → tg@nicevpn123
+  password: RexnBgU7EV5ADxG
+  port: 7002
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  country: 🇫🇷FR
   name: 799,856|🇫🇷 FR 19 → tg@nicevpn123
   password: Y6R9pAtvxxzmGC
   port: 5000
-  server: 149.202.82.172
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  country: 🇫🇷FR
-  name: 799,856|🇫🇷 FR 28 → tg@nicevpn123
-  password: FoOiGlkAA9yPEGP
-  port: 7307
-  server: 149.202.82.172
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  country: 🇫🇷FR
-  name: 799,856|🇫🇷 FR 20 → tg@nicevpn123
-  password: zDNVedRFPQexG9v
-  port: 6379
   server: 149.202.82.172
   type: ss
   udp: true
@@ -1663,6 +1635,30 @@ proxies:
   udp: true
 - cipher: aes-256-gcm
   country: 🇫🇷FR
+  name: 799,856|🇫🇷 FR 39 → tg@nicevpn123
+  password: pKEW8JPByTVTLtM
+  port: 4444
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  country: 🇫🇷FR
+  name: 799,856|🇫🇷 FR 34 → tg@nicevpn123
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  country: 🇫🇷FR
+  name: 799,856|🇫🇷 FR 20 → tg@nicevpn123
+  password: zDNVedRFPQexG9v
+  port: 6379
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  country: 🇫🇷FR
   name: 799,856|🇫🇷 FR 30 → tg@nicevpn123
   password: KixLvKzwjekG00rm
   port: 8000
@@ -1671,24 +1667,9 @@ proxies:
   udp: true
 - cipher: aes-256-gcm
   country: 🇫🇷FR
-  name: 799,856|🇫🇷 FR 32 → tg@nicevpn123
-  password: RexnBgU7EV5ADxG
-  port: 7002
-  server: 149.202.82.172
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  country: 🇫🇷FR
-  name: 799|🇫🇷FR_50
-  password: TEzjfAYq2IjtuoS
-  port: 6679
-  server: 149.202.82.172
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇫🇷FR
-  name: 799,856|🇫🇷 FR 39 → tg@nicevpn123
-  password: pKEW8JPByTVTLtM
-  port: 4444
+  name: 799,856|🇫🇷 FR 6 → tg@nicevpn123
+  password: g5MeD6Ft3CWlJId
+  port: 5003
   server: 149.202.82.172
   type: ss
   udp: true
