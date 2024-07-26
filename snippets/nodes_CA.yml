@@ -14,7 +14,7 @@ proxies:
     path: /52pokemon?ed=2560
 - cipher: aes-256-gcm
   country: ' CA'
-  name: 30| CA_03 | 0.00Mb
+  name: 30| CA_02 | 0.00Mb
   password: PCnnH6SQSnfoS27
   port: 8091
   server: 38.111.114.133
@@ -452,16 +452,6 @@ proxies:
     path: /linkws/obdii.cfd
 - alterId: 0
   cipher: auto
-  name: '487,867,1000,1008|🔒 VM-TCP-TLS 🇨🇦 CA-75.156.27.7... #3'
-  network: tcp
-  port: '444'
-  server: 75.156.27.77
-  servername: catel.yangon.club
-  tls: true
-  type: vmess
-  uuid: 43d16822-8ffa-45b6-9d1d-f5a1186d8aa1
-- alterId: 0
-  cipher: auto
   name: '487,835,840,1008|🔒 VM-TCP-NA 🇨🇦 CA-178.128.237.... #1'
   network: tcp
   port: '3389'
@@ -470,6 +460,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- alterId: 0
+  cipher: auto
+  name: '487,867,1000,1008|🔒 VM-TCP-TLS 🇨🇦 CA-75.156.27.7... #3'
+  network: tcp
+  port: '444'
+  server: 75.156.27.77
+  servername: catel.yangon.club
+  tls: true
+  type: vmess
+  uuid: 43d16822-8ffa-45b6-9d1d-f5a1186d8aa1
 - alterId: 0
   cipher: auto
   name: '487,488,852,855,941,942,1054|未知_0726377 #1'
@@ -1379,21 +1379,6 @@ proxies:
   tls: false
   type: vmess
   uuid: dbda54b7-b273-491b-86d6-64e88d955672
-- alterId: 0
-  cipher: auto
-  name: 822,823,871,903|_CA_
-  network: ws
-  port: 80
-  server: 108.181.10.17
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 474e8680-701f-11ee-b436-205c6d5f5d78
-  ws-opts:
-    headers:
-      host: teams.microsoft.com
-    path: /
 - alterId: 0
   cipher: auto
   name: 827|🇨🇦 加拿大_1210014
@@ -2957,6 +2942,20 @@ proxies:
     path: /bb2b34a1
 - alterId: 0
   cipher: auto
+  name: 903|_CA_
+  network: ws
+  port: 80
+  server: 108.181.10.17
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 474e8680-701f-11ee-b436-205c6d5f5d78
+  ws-opts:
+    headers:
+      host: teams.microsoft.com
+    path: /
+- alterId: 0
+  cipher: auto
   name: '904|🇨🇦_CA_加拿大 #1'
   network: ws
   port: 80
@@ -4435,3 +4434,10 @@ proxies:
   tls: false
   type: vmess
   uuid: d3a515b4-6fcb-38c8-93d3-2c17da360f89
+- cipher: aes-128-gcm
+  name: 1404|🇨🇦 加拿大 01
+  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  port: 22002
+  server: ens.node1link.xyz
+  type: ss
+  udp: true
