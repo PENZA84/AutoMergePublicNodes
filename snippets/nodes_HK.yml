@@ -1,19 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 65|🇭🇰 香港1
-  network: ws
-  port: '80'
-  server: hk01.33run.fun
-  tls: false
-  type: vmess
-  uuid: bda0b5bf-e2a7-445e-9b4f-ea1b80803c0d
-  ws-opts:
-    headers:
-      Host: hk01.33run.fun
-    path: /
-- alterId: 0
-  cipher: auto
   name: 65|🇭🇰 香港2
   network: ws
   port: '80'
@@ -37,19 +24,6 @@ proxies:
   ws-opts:
     headers:
       Host: hk03.33run.fun
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 65|🇭🇰 香港4
-  network: ws
-  port: '80'
-  server: hk04.33run.fun
-  tls: false
-  type: vmess
-  uuid: bda0b5bf-e2a7-445e-9b4f-ea1b80803c0d
-  ws-opts:
-    headers:
-      Host: hk04.33run.fun
     path: /
 - alterId: 0
   cipher: auto
@@ -203,6 +177,45 @@ proxies:
     headers:
       Host: hk4vm.fuckvps.top
     path: /hk4vm
+- alterId: 0
+  cipher: auto
+  name: 304|pq香港1
+  network: ws
+  port: '2052'
+  server: yx1.chinayyds.xyz
+  tls: false
+  type: vmess
+  uuid: 36b2ebbd-4bf5-48a6-94c1-03877708e29b
+  ws-opts:
+    headers:
+      Host: pqhk.chinayyds.xyz
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 304|pq香港2
+  network: ws
+  port: '2052'
+  server: yx2.chinayyds.xyz
+  tls: false
+  type: vmess
+  uuid: 36b2ebbd-4bf5-48a6-94c1-03877708e29b
+  ws-opts:
+    headers:
+      Host: pqhk.chinayyds.xyz
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 304|pq香港3
+  network: ws
+  port: '2052'
+  server: yx3.chinayyds.xyz
+  tls: false
+  type: vmess
+  uuid: 36b2ebbd-4bf5-48a6-94c1-03877708e29b
+  ws-opts:
+    headers:
+      Host: pqhk.chinayyds.xyz
+    path: /?ed=2048
 - alterId: 0
   cipher: auto
   name: 351|🇭🇰 香港 | V1 | 01
@@ -2267,6 +2280,23 @@ proxies:
       Host: cn.bing.com
     path: /
   ws-path: /
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 806|Relay_🏁ZZ-HK_215 | 2.85Mb
+  network: ws
+  port: 2052
+  server: cfcdn2.sanfencdn9.com
+  servername: zifstzamhk1.yofnhkfc.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: a223af01-b481-4abf-a305-60d60587d1e4
+  ws-opts:
+    headers:
+      HOST: zifstzamhk1.yofnhkfc.xyz
+    path: /video/VuDFdktz
 - cipher: aes-256-cfb
   country: 🇰HK
   name: 807,906,1037|[02-24]-🇸-欧洲-096-150.107.46.21
@@ -3067,13 +3097,16 @@ proxies:
   server: free.2weradf.xyz
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 887,986|🇭🇰 香港|@ripaojiedian
+  name: 887,986,1031|🇨🇳广东2
   password: XoYrrEfZYxxHL3AI
   port: 16983
   server: kis7as.9sjd2dkesl2.shop
+  skip-cert-verify: true
   tfo: false
+  tls: true
   type: ss
 - alterId: 0
   cipher: auto
@@ -3599,7 +3632,7 @@ proxies:
     path: 55021a7c-bd6c-418e-be95-ceac8ba27b45-vm
 - alterId: 0
   cipher: auto
-  name: '940,1045|美国 CloudFlare节点 #357'
+  name: '940,1045|美国 CloudFlare节点 #353'
   network: ws
   port: '8080'
   server: yh1.freeh1.xyz
@@ -4278,6 +4311,91 @@ proxies:
   tls: false
   type: vmess
   uuid: 49933ab7-7ec2-3024-9f6e-b7ad9da24c8f
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 1031|HK
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 20005
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 1031|HK2
+  password: d31534ff-83a3-4137-91b7-79e144489643
+  port: 50207
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 1031|HK3
+  password: 9c2bf54f-5f13-4d71-b866-3a3f23c4d86b
+  port: 30204
+  server: 38.207.154.30
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 1031|HK4
+  password: 033c8fd4-ef0c-479c-a4ff-cbd0f4bd3ef1
+  port: 58456
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 1031|HK5
+  password: 5ddbeb21-15fb-4aa5-8cc3-34df601c1f02
+  port: 50224
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  name: 1031|HK6
+  network: ws
+  password: 0fd9b883-0551-4ed1-b978-528183b459a2
+  port: 2053
+  server: 47.243.51.171
+  skip-cert-verify: true
+  sni: mfjd.591haoka.com
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  name: 1031|HK7
+  network: ws
+  password: b84d16a244460e09
+  port: 3306
+  server: 45.11.104.94
+  skip-cert-verify: true
+  sni: n2.gladns.com
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 1031|HK8
+  password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
+  port: 50002
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 1031|HK9
+  password: d31534ff-83a3-4137-91b7-79e144489643
+  port: 50241
+  server: 46.232.123.37
+  skip-cert-verify: true
+  tls: true
+  type: ss
 - alterId: 64
   cipher: auto
   name: '1044,1045|香港1|@ripaojiedian #1'
@@ -4673,64 +4791,64 @@ proxies:
   type: vmess
   uuid: d3a515b4-6fcb-38c8-93d3-2c17da360f89
 - cipher: aes-128-gcm
-  name: '1426,1427,1428|🇭🇰 香港 01 SS #2'
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  name: 1427|🇭🇰 香港 01 SS
+  password: 59e5a6d1-530d-44f4-9578-d451a9c1ef06
   port: 11001
   server: ss.hkglink.xyz
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: '1426,1427,1428|🇭🇰 香港 02 SS #2'
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  name: 1427|🇭🇰 香港 02 SS
+  password: 59e5a6d1-530d-44f4-9578-d451a9c1ef06
   port: 11002
   server: ss.hkglink.xyz
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: '1426,1427,1428|🇭🇰 香港 03 SS #2'
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  name: 1427|🇭🇰 香港 03 SS
+  password: 59e5a6d1-530d-44f4-9578-d451a9c1ef06
   port: 11003
   server: ss.hkglink.xyz
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: '1426,1427,1428|🇭🇰 香港 04 SS #2'
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  name: 1427|🇭🇰 香港 04 SS
+  password: 59e5a6d1-530d-44f4-9578-d451a9c1ef06
   port: 11004
   server: ss.hkglink.xyz
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: '1426,1427,1428|🇭🇰 香港 05 SS #2'
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  name: 1427|🇭🇰 香港 05 SS
+  password: 59e5a6d1-530d-44f4-9578-d451a9c1ef06
   port: 11005
   server: ss.hkglink.xyz
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: '1426,1427,1428|🇭🇰 香港 06 SS #2'
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  name: 1427|🇭🇰 香港 06 SS
+  password: 59e5a6d1-530d-44f4-9578-d451a9c1ef06
   port: 11006
   server: ss.hkglink.xyz
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: '1426,1427,1428|🇭🇰 香港 07 SS #2'
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  name: 1427|🇭🇰 香港 07 SS
+  password: 59e5a6d1-530d-44f4-9578-d451a9c1ef06
   port: 11007
   server: ss.hkglink.xyz
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: '1426,1427,1428|🇭🇰 香港 08 SS #2'
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  name: 1427|🇭🇰 香港 08 SS
+  password: 59e5a6d1-530d-44f4-9578-d451a9c1ef06
   port: 11008
   server: ss.hkglink.xyz
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: '1426,1427,1428|🇭🇰 香港 IPLC 限速10Mbps #2'
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  name: 1427|🇭🇰 香港 IPLC 限速10Mbps
+  password: 59e5a6d1-530d-44f4-9578-d451a9c1ef06
   port: 1024
   server: 222909df61922934.cdn.jiashule.com
   type: ss
