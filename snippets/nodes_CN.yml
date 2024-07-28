@@ -15,22 +15,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  country: ' CN'
-  name: 30,495,887,986|🇭🇰 香港R|@ripaojiedian
-  password: hGkQ6915tD
-  port: 15001
-  server: 59.56.77.178
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  country: ' CN'
-  name: 30,495|🇳CN-59.56.77.178-2969
-  password: hGkQ6915tD
-  port: 15084
-  server: 59.56.77.178
-  type: ss
 - alterId: -1
   cipher: aes-256-cfb
   client-fingerprint: chrome
@@ -38,6 +22,15 @@ proxies:
   name: 30,290,495,807,887,986,1021|CN??SSRSUB_-1037551786
   password: hGkQ6915tD
   port: 15083
+  server: 59.56.77.178
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  country: ' CN'
+  name: 30,290,495,887,986|🇭🇰 香港R|@ripaojiedian
+  password: hGkQ6915tD
+  port: 15001
   server: 59.56.77.178
   tfo: false
   type: ss
@@ -579,21 +572,6 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  country: ???? CN
-  h2-opts: {}
-  http-opts: {}
-  name: 494,1012,1020,1021|CN??SSRSUB_-195404888
-  network: tcp
-  port: 50004
-  server: 112.132.212.19
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-path: /
-- alterId: 64
-  cipher: auto
   country: ????CN
   h2-opts: {}
   http-opts: {}
@@ -608,12 +586,36 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: '494,1022,1031,1032|🇨🇳广东 #1'
+  country: ???? CN
+  h2-opts: {}
+  http-opts: {}
+  name: 494,1012,1020,1021|CN??SSRSUB_-195404888
+  network: tcp
+  port: 50004
+  server: 112.132.212.19
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: '494,1020|🔒 VM-TCP-NA 🇨🇳 CN-183.239.109.... #1'
+  network: tcp
+  port: '19358'
+  server: 183.239.109.89
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b8b99a7a-c4a5-4ccd-ad36-8a66067d123d
+- alterId: 64
+  cipher: auto
+  name: '494,1022|广东省广州市 移动 #9'
   network: tcp
   port: '42055'
   server: 120.232.153.37
   servername: ''
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -629,17 +631,23 @@ proxies:
   port: 20007
   server: 111.45.30.41
   type: ss
-- cipher: aes-128-gcm
-  name: 495|🇳CN-52.81.179.243-0056
+- alterId: 0
+  cipher: aes-128-gcm
+  name: 495,1031|🇯🇵JP日本2
   password: 61e2d024-31ac-4c8a-8ca8-6ea85ae7941b
   port: 10002
   server: 52.81.179.243
+  skip-cert-verify: true
+  tls: true
   type: ss
-- cipher: aes-128-gcm
-  name: 495|🇨🇳CN-111.45.30.41-0060
+- alterId: 0
+  cipher: aes-128-gcm
+  name: 495,1031|🇭🇰HK香港2
   password: 61e2d024-31ac-4c8a-8ca8-6ea85ae7941b
   port: 10001
   server: 111.45.30.41
+  skip-cert-verify: true
+  tls: true
   type: ss
 - cipher: aes-128-gcm
   name: 495|🇨🇳CN-52.81.179.243-0069
@@ -758,11 +766,14 @@ proxies:
   port: 11044
   server: 14.29.124.174
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 495|🇨CN-120.241.39.204-0620
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 495,1031|🇨🇳广东2
   password: 70747514-fb14-4f31-8390-e1f0453eff6d
   port: 20014
   server: jp2.mhw7e2.online
+  skip-cert-verify: true
+  tls: true
   type: ss
 - alterId: -1
   cipher: chacha20-ietf-poly1305
@@ -794,14 +805,14 @@ proxies:
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 495,864|🇨🇳 CN 320 → tg@nicevpn123
+  name: 495,834,864|🇨🇳 CN 320 → tg@nicevpn123
   password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
   port: 20003
   server: service.ouluyun9803.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 495,864|🇨🇳 CN 503 → tg@nicevpn123
+  name: 495,834,864|🇨🇳 CN 503 → tg@nicevpn123
   password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
   port: 26667
   server: service.ouluyun9803.com
@@ -1638,6 +1649,12 @@ proxies:
   password: HuTaoCloud
   port: 12556
   server: cm1-tw.hutaonode3.top
+  type: ss
+- cipher: aes-256-cfb
+  name: 495|🇳CN-59.56.77.178-2969
+  password: hGkQ6915tD
+  port: 15084
+  server: 59.56.77.178
   type: ss
 - alterId: 0
   cipher: auto
@@ -2804,11 +2821,12 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: '698,1022|广东省广州市 移动 #6'
+  name: '698,1022,1031,1032|🇨🇳广东 #1'
   network: tcp
   port: '35601'
   server: 120.232.153.40
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -3025,7 +3043,7 @@ proxies:
   udp: true
 - alterId: 4
   cipher: auto
-  name: '836,893|未命名 #192'
+  name: '836,893|未命名 #191'
   network: ws
   port: '2164'
   server: sxqxj.cn
@@ -4376,7 +4394,7 @@ proxies:
   ws-path: /aceamedv
 - alterId: 2
   cipher: auto
-  name: '841,893|未命名 #229'
+  name: '841,893|未命名 #228'
   network: tcp
   port: 53900
   server: jpgithub.edgehelper.com
