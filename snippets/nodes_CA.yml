@@ -65,11 +65,14 @@ proxies:
   server: 134.195.196.178
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 290,496|🇦CA-134.195.196.178-0817
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 290,496,1033|未知15 7.0MB/s
   password: G!yBwPWH3Vao
   port: 807
   server: 134.195.196.178
+  skip-cert-verify: true
+  tls: true
   type: ss
 - alterId: 0
   cipher: auto
@@ -91,7 +94,7 @@ proxies:
   country: 🇨🇦CA
   h2-opts: {}
   http-opts: {}
-  name: 291,808|Relay_🇨🇦CA-🇨🇦CA_06 | 5.01Mb
+  name: 291,808|Relay_🇨🇦CA-🇨🇦CA_05 | 5.01Mb
   network: ws
   port: 2086
   server: 23.227.38.5
@@ -209,43 +212,13 @@ proxies:
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  fingerprint: ''
-  name: 488|e41b4320d6614b219c874734b907ad...
-  network: ws
-  port: 80
-  server: www.speedtest.net
-  tls: false
-  type: vmess
-  udp: false
-  uuid: 3e5cda0a-6122-4f54-9e3c-3f49e7a526f9
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: none
-  client-fingerprint: chrome
-  fingerprint: ''
-  name: 488|919a7e4e74084b9aa3d7bd4d163d30...
-  network: ws
-  port: 2096
-  server: zula.ir
-  servername: fr1.vmess.site
-  tls: true
-  type: vmess
-  udp: false
-  uuid: fa1d73ef-560e-546d-b791-2290f153a92f
-  ws-opts:
-    headers:
-      host: fr1.vmess.site
-    path: /TaHa-Is-ThE-BeSt-AstroVPN_Official
-- alterId: 0
-  cipher: auto
-  name: '495,860,881,1014,1054,1062|رایگان | VMESS | @ShadowProxy6... #15'
+  name: 495,860,881,1014,1033|未知13 14.3MB/s
   network: tcp
-  port: '22324'
+  port: 22324
   server: 23.162.200.182
   servername: ''
-  tls: false
+  skip-cert-verify: true
+  tls: true
   type: vmess
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
@@ -260,12 +233,12 @@ proxies:
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
-  country: CA
+  country: 🇨🇦CA
   h2-opts: {}
   http-opts: {}
-  name: '495,808,881,1014,1022|🔒 VM-TCP-TLS 🇨🇦 CA-75.156.27.7... #3'
+  name: 495,808,881,1014,1022,1033|未知63
   network: tcp
-  port: '444'
+  port: 444
   server: 75.156.27.77
   servername: catel.yangon.club
   skip-cert-verify: true
@@ -301,7 +274,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  country: ZZ
+  country: 🏁ZZ
   h2-opts: {}
   http-opts: {}
   name: '496,808,866,869,1068|未知_0728357 #1'
@@ -1147,7 +1120,24 @@ proxies:
   country: 🇨🇦CA
   h2-opts: {}
   http-opts: {}
-  name: 808|Relay_🇨🇦CA-🇨🇦CA_08 | 2.00Mb
+  name: 808|Relay_CA-🇨🇦CA_04 | 1.59Mb
+  network: ws
+  port: 2052
+  server: 23.227.38.13
+  servername: cdn3.freegradely.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts:
+    headers:
+      HOST: cdn3.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  country: 🇨🇦CA
+  h2-opts: {}
+  http-opts: {}
+  name: 808|Relay_🇨🇦CA-🇨🇦CA_06 | 2.00Mb
   network: ws
   port: 2086
   server: 23.227.38.6
@@ -1178,40 +1168,6 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  country: 🇨🇦CA
-  h2-opts: {}
-  http-opts: {}
-  name: 808|Relay_🇨🇦CA-🇨🇦CA_04 | 1.59Mb
-  network: ws
-  port: 2052
-  server: 23.227.38.13
-  servername: cdn3.freegradely.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  ws-opts:
-    headers:
-      HOST: cdn3.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 808,1023|CA??SSRSUB_-2062220493
-  network: ws
-  port: 2086
-  server: 104.19.59.89
-  servername: ip1.1457230.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      HOST: ip1.1457230.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
   country: ??ZZ
   h2-opts: {}
   http-opts: {}
@@ -1229,30 +1185,30 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  country: ??ZZ
+  country: 🏁ZZ
   h2-opts: {}
   http-opts: {}
-  name: 808,1023|CA??SSRSUB_499487889
+  name: 808|Relay_ZZ-🇨🇦CA_202 |21.05Mb
   network: ws
   port: 2086
-  server: 104.19.46.39
-  servername: ip2.1457230.xyz
+  server: 162.159.140.77
+  servername: ip1.1789034.xyz
   skip-cert-verify: true
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts:
     headers:
-      HOST: ip2.1457230.xyz
+      HOST: ip1.1789034.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  country: 🏁ZZ
+  country: ZZ
   h2-opts: {}
   http-opts: {}
-  name: 808|Relay_🏁ZZ-🇨🇦CA_285 | 2.38Mb
+  name: 808|Relay_ZZ-🇨🇦CA_203 |16.95Mb
   network: ws
   port: 2052
-  server: 104.19.21.73
+  server: 104.19.46.123
   servername: cdn3.freegradely.xyz
   skip-cert-verify: true
   type: vmess
@@ -1263,13 +1219,13 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  country: ??ZZ
+  country: 🏁ZZ
   h2-opts: {}
   http-opts: {}
-  name: 808,1023|CA??SSRSUB_797720458
+  name: 808|Relay_🏁ZZ-🇨🇦CA_204 |13.66Mb
   network: ws
   port: 2052
-  server: 104.19.21.240
+  server: 104.20.17.186
   servername: cdn1.freegradely.xyz
   skip-cert-verify: true
   type: vmess
@@ -1280,13 +1236,47 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  country: ??ZZ
+  country: 🏁ZZ
   h2-opts: {}
   http-opts: {}
-  name: 808,1023|CA??SSRSUB_1379407824
+  name: 808,1023|CA??SSRSUB_-2062220493
   network: ws
   port: 2086
-  server: 104.19.45.11
+  server: 104.19.59.89
+  servername: ip1.1457230.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      HOST: ip1.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 808|Relay_🏁ZZ-🇨🇦CA_206 | 2.00Mb
+  network: ws
+  port: 2086
+  server: 104.19.51.232
+  servername: ip006.freegradely.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+  ws-opts:
+    headers:
+      HOST: ip006.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 808|Relay_🏁ZZ-🇨🇦CA_207 |23.51Mb
+  network: ws
+  port: 2086
+  server: 104.19.45.19
   servername: ip13.freegradely.xyz
   skip-cert-verify: true
   type: vmess
@@ -1297,167 +1287,13 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  country: ??ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 808,1023|CA??SSRSUB_399459405
-  network: ws
-  port: 2086
-  server: 104.19.45.15
-  servername: ip14.freegradely.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      HOST: ip14.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
   country: 🏁ZZ
   h2-opts: {}
   http-opts: {}
-  name: 808|Relay_🏁ZZ-🇨🇦CA_230 |18.62Mb
-  network: ws
-  port: 2086
-  server: fbi.gov
-  servername: ip1.1789034.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      HOST: ip1.1789034.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  country: ??ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 808,1023|Other??SSRSUB_-1650884680
-  network: ws
-  port: 2086
-  server: 104.19.32.88
-  servername: ip5-4.freegradely.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      HOST: ip5-4.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  country: ??ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 808,1023|CA??SSRSUB_603636125
-  network: ws
-  port: 2086
-  server: 104.19.45.50
-  servername: ip13.freegradely.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      HOST: ip13.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  country: ??ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 808,1023|CA??SSRSUB_-641764676
-  network: ws
-  port: 2086
-  server: 104.19.57.4
-  servername: ip14.freegradely.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      HOST: ip14.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 808|Relay_ZZ-🇨🇦CA_245 |25.50Mb
-  network: ws
-  port: 2086
-  server: 162.159.140.19
-  servername: ip1.1789034.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      HOST: ip1.1789034.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  country: ??ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 808,1023|CA??SSRSUB_636442388
-  network: ws
-  port: 2086
-  server: 104.19.47.80
-  servername: ip2.1457230.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      HOST: ip2.1457230.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 808,936|_US_->_CA_
+  name: 808|Relay_🏁ZZ-🇨🇦CA_208 | 2.16Mb
   network: ws
   port: 2052
-  server: 104.19.42.79
-  servername: cdn3.freegradely.xyz
-  skip-cert-verify: false
-  sni: cdn3.freegradely.xyz
-  type: vmess
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  ws-opts:
-    headers:
-      host: cdn3.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  country: ??ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 808,1023|CA??SSRSUB_118788987
-  network: ws
-  port: 2086
-  server: 104.19.32.216
-  servername: ip11.freegradely.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      HOST: ip11.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 808|Relay_🏁ZZ-🇨🇦CA_214 | 2.67Mb
-  network: ws
-  port: 2052
-  server: 104.20.17.196
+  server: 104.19.21.81
   servername: cdn3.freegradely.xyz
   skip-cert-verify: true
   type: vmess
@@ -1488,27 +1324,114 @@ proxies:
   country: ??ZZ
   h2-opts: {}
   http-opts: {}
-  name: 808,1023|CA??SSRSUB_-1309884769
+  name: 808,1023|CA??SSRSUB_2087881845
   network: ws
-  port: 2052
-  server: 104.19.21.63
-  servername: cdn1.freegradely.xyz
+  port: 2086
+  server: 104.19.47.88
+  servername: ip14.freegradely.xyz
   skip-cert-verify: true
   type: vmess
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts:
     headers:
-      HOST: cdn1.freegradely.xyz
+      HOST: ip14.freegradely.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
   country: ??ZZ
   h2-opts: {}
   http-opts: {}
-  name: 808,1023|CA??SSRSUB_1402945740
+  name: 808,1023|Other??SSRSUB_2023783093
+  network: ws
+  port: 2052
+  server: 104.19.21.220
+  servername: cdn2.freegradely.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts:
+    headers:
+      HOST: cdn2.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 808|Relay_🏁ZZ-🇨🇦CA_212 |21.26Mb
   network: ws
   port: 2086
-  server: 104.19.47.79
+  server: 162.159.140.56
+  servername: ip1.1789034.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      HOST: ip1.1789034.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  country: ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 808|Relay_🏁ZZ-🇨🇦CA_213 | 1.64Mb
+  network: ws
+  port: 2052
+  server: 104.19.57.24
+  servername: cdn3.freegradely.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts:
+    headers:
+      HOST: cdn3.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  country: ??ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 808,936,1023|CA??SSRSUB_-808485071
+  network: ws
+  port: 2086
+  server: 104.19.47.122
+  servername: ip2.1457230.xyz
+  skip-cert-verify: true
+  sni: ''
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      HOST: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 808,936|_US_->_CA_
+  network: ws
+  port: 2052
+  server: 104.19.42.79
+  servername: cdn3.freegradely.xyz
+  skip-cert-verify: false
+  sni: cdn3.freegradely.xyz
+  type: vmess
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts:
+    headers:
+      host: cdn3.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  country: ??ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 808,1023|CA??SSRSUB_-1342879154
+  network: ws
+  port: 2086
+  server: 104.19.46.27
   servername: ip2.1457230.xyz
   skip-cert-verify: true
   type: vmess
@@ -1522,96 +1445,10 @@ proxies:
   country: ??ZZ
   h2-opts: {}
   http-opts: {}
-  name: 808,936,1023|CA??SSRSUB_-426882445
+  name: 808,1023|CA??SSRSUB_797720458
   network: ws
   port: 2052
-  server: 104.18.57.111
-  servername: cdn1.freegradely.xyz
-  skip-cert-verify: true
-  sni: ''
-  type: vmess
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  ws-opts:
-    headers:
-      HOST: cdn1.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  country: ??ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 808,1023|CA??SSRSUB_-976838107
-  network: ws
-  port: 2086
-  server: 104.19.46.59
-  servername: ip13.freegradely.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      HOST: ip13.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 808|Relay_🏁ZZ-🇨🇦CA_246 | 2.16Mb
-  network: ws
-  port: 2052
-  server: 104.19.21.81
-  servername: cdn3.freegradely.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  ws-opts:
-    headers:
-      HOST: cdn3.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 808|Relay_🏁ZZ-🇨🇦CA_212 | 8.49Mb
-  network: ws
-  port: 2052
-  server: 104.19.47.75
-  servername: cdn3.freegradely.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  ws-opts:
-    headers:
-      HOST: cdn3.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 808|Relay_🏁ZZ-🇨🇦CA_279 | 1.59Mb
-  network: ws
-  port: 2052
-  server: 104.19.32.226
-  servername: cdn3.freegradely.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  ws-opts:
-    headers:
-      HOST: cdn3.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 808|Relay_🏁ZZ-🇨🇦CA_218 |15.87Mb
-  network: ws
-  port: 2052
-  server: 104.17.106.151
+  server: 104.19.21.240
   servername: cdn1.freegradely.xyz
   skip-cert-verify: true
   type: vmess
@@ -1642,438 +1479,10 @@ proxies:
   country: ??ZZ
   h2-opts: {}
   http-opts: {}
-  name: 808,1023|CA??SSRSUB_-703693948
-  network: ws
-  port: 2086
-  server: 104.19.46.36
-  servername: ip2.1457230.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      HOST: ip2.1457230.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  country: ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 808|Relay_🏁ZZ-🇨🇦CA_274 | 1.64Mb
+  name: 808,1023|CA??SSRSUB_1176774539
   network: ws
   port: 2052
-  server: 104.19.57.24
-  servername: cdn3.freegradely.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  ws-opts:
-    headers:
-      HOST: cdn3.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 808|Relay_🏁ZZ-🇨🇦CA_290 | 2.40Mb
-  network: ws
-  port: 2052
-  server: 104.19.59.89
-  servername: cdn1.freegradely.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  ws-opts:
-    headers:
-      HOST: cdn1.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  country: ??ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 808,1023|CA??SSRSUB_-1806403033
-  network: ws
-  port: 2086
-  server: 104.19.47.45
-  servername: ip2.1457230.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      HOST: ip2.1457230.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 808|Relay_🏁ZZ-🇨🇦CA_216 | 2.09Mb
-  network: ws
-  port: 2052
-  server: 104.20.25.176
-  servername: cdn3.freegradely.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  ws-opts:
-    headers:
-      HOST: cdn3.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  country: ??ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 808,1023|CA??SSRSUB_-2097798293
-  network: ws
-  port: 2086
-  server: 104.19.42.49
-  servername: ip14.freegradely.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      HOST: ip14.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  country: ??ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 808,1023|CA??SSRSUB_-647930587
-  network: ws
-  port: 2086
-  server: 104.17.106.151
-  servername: ip2.1457230.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      HOST: ip2.1457230.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 808|Relay_🏁ZZ-🇨🇦CA_215 | 3.29Mb
-  network: ws
-  port: 2052
-  server: 104.19.59.99
-  servername: cdn3.freegradely.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  ws-opts:
-    headers:
-      HOST: cdn3.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 808,936|🇺🇸_US_美国->🇨🇦_CA_加拿大_7
-  network: ws
-  port: 2052
-  server: 104.19.55.79
-  servername: cdn3.freegradely.xyz
-  skip-cert-verify: true
-  sni: ''
-  type: vmess
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  ws-opts:
-    headers:
-      host: cdn3.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  country: ??ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 808,1023|CA??SSRSUB_-1984716987
-  network: ws
-  port: 2052
-  server: 104.19.38.12
-  servername: cdn1.freegradely.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  ws-opts:
-    headers:
-      HOST: cdn1.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 808,936|🇺🇸_US_美国->🇨🇦_CA_加拿大_10
-  network: ws
-  port: 2052
-  server: 104.19.123.11
-  servername: cdn1.freegradely.xyz
-  skip-cert-verify: true
-  sni: ''
-  type: vmess
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  ws-opts:
-    headers:
-      host: cdn1.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 808|Relay_🏁ZZ-🇨🇦CA_263 | 2.25Mb
-  network: ws
-  port: 2052
-  server: 104.20.25.146
-  servername: cdn1.freegradely.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  ws-opts:
-    headers:
-      HOST: cdn1.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 808|Relay_🏁ZZ-🇨🇦CA_265 | 0.99Mb
-  network: ws
-  port: 2086
-  server: 104.19.38.62
-  servername: ip006.freegradely.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
-  ws-opts:
-    headers:
-      HOST: ip006.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 808|Relay_🏁ZZ-🇨🇦CA_225 |25.70Mb
-  network: ws
-  port: 2086
-  server: 104.20.17.186
-  servername: ip11.freegradely.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      HOST: ip11.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  country: ??ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 808,1023|CA??SSRSUB_18168793
-  network: ws
-  port: 2052
-  server: 104.19.47.65
-  servername: cdn1.freegradely.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  ws-opts:
-    headers:
-      HOST: cdn1.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 808|Relay_🏁ZZ-🇨🇦CA_202 |21.61Mb
-  network: ws
-  port: 2086
-  server: 104.19.46.56
-  servername: ip2.1457230.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      HOST: ip2.1457230.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 808|Relay_🏁ZZ-🇨🇦CA_281 |11.71Mb
-  network: ws
-  port: 2086
-  server: 104.19.45.90
-  servername: ip13.freegradely.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      HOST: ip13.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  country: ??ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 808,1023|CA??SSRSUB_521230290
-  network: ws
-  port: 2086
-  server: 104.19.45.17
-  servername: ip2.1457230.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      HOST: ip2.1457230.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  country: ??ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 808,1023|CA??SSRSUB_1754191286
-  network: ws
-  port: 2052
-  server: 104.19.21.71
-  servername: cdn1.freegradely.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  ws-opts:
-    headers:
-      HOST: cdn1.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 808|Relay_🏁ZZ-🇨🇦CA_224 |30.14Mb
-  network: ws
-  port: 2086
-  server: 104.19.46.33
-  servername: ip13.freegradely.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      HOST: ip13.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  country: ??ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 808,1023|CA??SSRSUB_-546980564
-  network: ws
-  port: 2052
-  server: 104.19.55.49
-  servername: cdn1.freegradely.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  ws-opts:
-    headers:
-      HOST: cdn1.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  country: ??ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 808,1023|CA??SSRSUB_21702678
-  network: ws
-  port: 2086
-  server: 104.19.47.77
-  servername: ip2.1457230.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      HOST: ip2.1457230.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  country: ??ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 808,1023|CA??SSRSUB_591417717
-  network: ws
-  port: 2052
-  server: 104.19.58.175
-  servername: cdn1.freegradely.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  ws-opts:
-    headers:
-      HOST: cdn1.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  country: ??ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 808,936,1023|UM??SSRSUB_-1255271172
-  network: ws
-  port: 2086
-  server: 104.19.45.47
-  servername: ip14.freegradely.xyz
-  skip-cert-verify: true
-  sni: ''
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      HOST: ip14.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  country: ??ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 808,1023|CA??SSRSUB_1830081272
-  network: ws
-  port: 2086
-  server: 104.20.25.146
-  servername: ip14.freegradely.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      HOST: ip14.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  country: ??ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 808,1023|Other??SSRSUB_2023783093
-  network: ws
-  port: 2052
-  server: 104.19.21.220
+  server: 104.18.57.121
   servername: cdn2.freegradely.xyz
   skip-cert-verify: true
   type: vmess
@@ -2084,304 +1493,13 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  country: ??ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 808,1023|CA??SSRSUB_-924342577
-  network: ws
-  port: 2086
-  server: 104.19.45.35
-  servername: ip1.1457230.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      HOST: ip1.1457230.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
   country: 🏁ZZ
   h2-opts: {}
   http-opts: {}
-  name: 808,936|🇺🇸_US_美国->🇨🇦_CA_加拿大_6
-  network: ws
-  port: 2052
-  server: 104.19.42.49
-  servername: cdn1.freegradely.xyz
-  skip-cert-verify: true
-  sni: ''
-  type: vmess
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  ws-opts:
-    headers:
-      host: cdn1.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  country: ??ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 808,1023|CA??SSRSUB_599727490
+  name: 808|Relay_🏁ZZ-🇨🇦CA_222 |21.61Mb
   network: ws
   port: 2086
-  server: 104.19.45.31
-  servername: ip13.freegradely.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      HOST: ip13.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  country: ??ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 808,1023|CA??SSRSUB_1516354058
-  network: ws
-  port: 2086
-  server: 104.19.47.27
-  servername: ip1.1457230.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      HOST: ip1.1457230.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  country: ??ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 808,1023|CA??SSRSUB_-1342879154
-  network: ws
-  port: 2086
-  server: 104.19.46.27
-  servername: ip2.1457230.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      HOST: ip2.1457230.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  country: ??ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 808,1023|CA??SSRSUB_-1354540667
-  network: ws
-  port: 2086
-  server: 104.19.47.36
-  servername: ip2.1457230.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      HOST: ip2.1457230.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 808|Relay_🏁ZZ-🇨🇦CA_280 | 1.15Mb
-  network: ws
-  port: 2052
-  server: 104.19.21.230
-  servername: cdn1.freegradely.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  ws-opts:
-    headers:
-      HOST: cdn1.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 808|Relay_🏁ZZ-🇨🇦CA_286 | 1.74Mb
-  network: ws
-  port: 2052
-  server: 104.19.123.31
-  servername: cdn3.freegradely.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  ws-opts:
-    headers:
-      HOST: cdn3.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 808|Relay_🏁ZZ-🇨🇦CA_295 |21.05Mb
-  network: ws
-  port: 2086
-  server: 162.159.140.77
-  servername: ip1.1789034.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      HOST: ip1.1789034.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 808|Relay_🏁ZZ-🇨🇦CA_223 |13.66Mb
-  network: ws
-  port: 2052
-  server: 104.20.17.186
-  servername: cdn1.freegradely.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  ws-opts:
-    headers:
-      HOST: cdn1.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  country: ??ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 808,1023|CA??SSRSUB_675968739
-  network: ws
-  port: 2086
-  server: 104.19.46.103
-  servername: ip11.freegradely.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      HOST: ip11.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 808|Relay_🏁ZZ-🇨🇦CA_288 | 2.06Mb
-  network: ws
-  port: 2086
-  server: 104.19.46.233
-  servername: ip005.dtku47.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
-  ws-opts:
-    headers:
-      HOST: ip005.dtku47.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  country: ??ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 808,1023|CA??SSRSUB_2087881845
-  network: ws
-  port: 2086
-  server: 104.19.47.88
-  servername: ip14.freegradely.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      HOST: ip14.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 808|Relay_🏁ZZ-🇨🇦CA_289 | 2.00Mb
-  network: ws
-  port: 2086
-  server: 104.19.51.232
-  servername: ip006.freegradely.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
-  ws-opts:
-    headers:
-      HOST: ip006.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 808|Relay_🏁ZZ-🇨🇦CA_231 | 1.60Mb
-  network: ws
-  port: 2052
-  server: 104.19.57.4
-  servername: cdn1.freegradely.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  ws-opts:
-    headers:
-      HOST: cdn1.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  country: ??ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 808,936,1023|CA??SSRSUB_-808485071
-  network: ws
-  port: 2086
-  server: 104.19.47.122
-  servername: ip2.1457230.xyz
-  skip-cert-verify: true
-  sni: ''
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      HOST: ip2.1457230.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 808|Relay_🏁ZZ-🇨🇦CA_222 |16.95Mb
-  network: ws
-  port: 2052
-  server: 104.19.46.123
-  servername: cdn3.freegradely.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  ws-opts:
-    headers:
-      HOST: cdn3.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  country: ??ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 808,1023|UM??SSRSUB_1300612203
-  network: ws
-  port: 2086
-  server: 104.18.57.111
+  server: 104.19.46.56
   servername: ip2.1457230.xyz
   skip-cert-verify: true
   type: vmess
@@ -2412,10 +1530,10 @@ proxies:
   country: 🏁ZZ
   h2-opts: {}
   http-opts: {}
-  name: 808|Relay_🏁ZZ-🇨🇦CA_229 | 1.95Mb
+  name: 808|Relay_🏁ZZ-🇨🇦CA_224 | 1.74Mb
   network: ws
   port: 2052
-  server: 104.19.58.185
+  server: 104.19.123.31
   servername: cdn3.freegradely.xyz
   skip-cert-verify: true
   type: vmess
@@ -2446,34 +1564,35 @@ proxies:
   country: 🏁ZZ
   h2-opts: {}
   http-opts: {}
-  name: 808|Relay_🏁ZZ-🇨🇦CA_283 |23.51Mb
+  name: 808|Relay_🏁ZZ-🇨🇦CA_226 | 2.25Mb
   network: ws
-  port: 2086
-  server: 104.19.45.19
-  servername: ip13.freegradely.xyz
+  port: 2052
+  server: 104.20.25.146
+  servername: cdn1.freegradely.xyz
   skip-cert-verify: true
   type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
   ws-opts:
     headers:
-      HOST: ip13.freegradely.xyz
+      HOST: cdn1.freegradely.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  country: 🏁ZZ
+  country: ??ZZ
   h2-opts: {}
   http-opts: {}
-  name: 808|Relay_🏁ZZ-🇨🇦CA_275 | 6.42Mb
+  name: 808,936,1023|Other??SSRSUB_-1752138399
   network: ws
-  port: 2086
-  server: 104.16.148.244
-  servername: ip006.freegradely.xyz
+  port: 2052
+  server: 104.19.38.22
+  servername: cdn2.freegradely.xyz
   skip-cert-verify: true
+  sni: ''
   type: vmess
-  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
   ws-opts:
     headers:
-      HOST: ip006.freegradely.xyz
+      HOST: cdn2.freegradely.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -2497,7 +1616,640 @@ proxies:
   country: 🏁ZZ
   h2-opts: {}
   http-opts: {}
-  name: 808|Relay_🏁ZZ-🇨🇦CA_239 | 2.09Mb
+  name: 808|Relay_🏁ZZ-🇨🇦CA_231 | 2.38Mb
+  network: ws
+  port: 2052
+  server: 104.19.21.73
+  servername: cdn3.freegradely.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts:
+    headers:
+      HOST: cdn3.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 808|Relay_🏁ZZ-🇨🇦CA_232 |30.14Mb
+  network: ws
+  port: 2086
+  server: 104.19.46.33
+  servername: ip13.freegradely.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      HOST: ip13.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  country: ??ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 808,1023|CA??SSRSUB_499487889
+  network: ws
+  port: 2086
+  server: 104.19.46.39
+  servername: ip2.1457230.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      HOST: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  country: ??ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 808,1023|CA??SSRSUB_521230290
+  network: ws
+  port: 2086
+  server: 104.19.45.17
+  servername: ip2.1457230.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      HOST: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  country: ??ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 808,1023|CA??SSRSUB_399459405
+  network: ws
+  port: 2086
+  server: 104.19.45.15
+  servername: ip14.freegradely.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      HOST: ip14.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 808|Relay_🏁ZZ-🇨🇦CA_237 |18.62Mb
+  network: ws
+  port: 2086
+  server: fbi.gov
+  servername: ip1.1789034.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      HOST: ip1.1789034.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 808|Relay_🏁ZZ-🇨🇦CA_238 | 8.49Mb
+  network: ws
+  port: 2052
+  server: 104.19.47.75
+  servername: cdn3.freegradely.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts:
+    headers:
+      HOST: cdn3.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 808,936|🇺🇸_US_美国->🇨🇦_CA_加拿大_10
+  network: ws
+  port: 2052
+  server: 104.19.123.11
+  servername: cdn1.freegradely.xyz
+  skip-cert-verify: true
+  sni: ''
+  type: vmess
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts:
+    headers:
+      host: cdn1.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 808|Relay_🏁ZZ-🇨🇦CA_241 | 2.09Mb
+  network: ws
+  port: 2052
+  server: 104.20.25.176
+  servername: cdn3.freegradely.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts:
+    headers:
+      HOST: cdn3.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  country: ??ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 808,1023|CA??SSRSUB_521458978
+  network: ws
+  port: 2086
+  server: 104.19.58.175
+  servername: ip14.freegradely.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      HOST: ip14.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  country: ??ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 808,1023|CA??SSRSUB_21702678
+  network: ws
+  port: 2086
+  server: 104.19.47.77
+  servername: ip2.1457230.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      HOST: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  country: ??ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 808,1023|CA??SSRSUB_-2097798293
+  network: ws
+  port: 2086
+  server: 104.19.42.49
+  servername: ip14.freegradely.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      HOST: ip14.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  country: ??ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 808,1023|CA??SSRSUB_1379407824
+  network: ws
+  port: 2086
+  server: 104.19.45.11
+  servername: ip13.freegradely.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      HOST: ip13.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 808,936|🇺🇸_US_美国->🇨🇦_CA_加拿大_7
+  network: ws
+  port: 2052
+  server: 104.19.55.79
+  servername: cdn3.freegradely.xyz
+  skip-cert-verify: true
+  sni: ''
+  type: vmess
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts:
+    headers:
+      host: cdn3.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  country: ??ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 808,1023|CA??SSRSUB_-647930587
+  network: ws
+  port: 2086
+  server: 104.17.106.151
+  servername: ip2.1457230.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      HOST: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  country: ??ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 808,1023|CA??SSRSUB_-1309884769
+  network: ws
+  port: 2052
+  server: 104.19.21.63
+  servername: cdn1.freegradely.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts:
+    headers:
+      HOST: cdn1.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  country: ??ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 808,1023|CA??SSRSUB_18168793
+  network: ws
+  port: 2052
+  server: 104.19.47.65
+  servername: cdn1.freegradely.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts:
+    headers:
+      HOST: cdn1.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  country: ??ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 808,1023|CA??SSRSUB_603636125
+  network: ws
+  port: 2086
+  server: 104.19.45.50
+  servername: ip13.freegradely.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      HOST: ip13.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  country: ??ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 808,1023|CA??SSRSUB_599727490
+  network: ws
+  port: 2086
+  server: 104.19.45.31
+  servername: ip13.freegradely.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      HOST: ip13.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  country: ??ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 808,1023|CA??SSRSUB_-924342577
+  network: ws
+  port: 2086
+  server: 104.19.45.35
+  servername: ip1.1457230.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      HOST: ip1.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  country: ??ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 808,1023|CA??SSRSUB_675968739
+  network: ws
+  port: 2086
+  server: 104.19.46.103
+  servername: ip11.freegradely.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      HOST: ip11.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 808,1023|CA??SSRSUB_1351143043
+  network: ws
+  port: 2086
+  server: 104.19.45.13
+  servername: ip14.freegradely.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      HOST: ip14.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  country: ??ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 808,1023|CA??SSRSUB_-1806403033
+  network: ws
+  port: 2086
+  server: 104.19.47.45
+  servername: ip2.1457230.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      HOST: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  country: ??ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 808,1023|CA??SSRSUB_1402945740
+  network: ws
+  port: 2086
+  server: 104.19.47.79
+  servername: ip2.1457230.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      HOST: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  country: ??ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 808,1023|CA??SSRSUB_-703693948
+  network: ws
+  port: 2086
+  server: 104.19.46.36
+  servername: ip2.1457230.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      HOST: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 808|Relay_🏁ZZ-🇨🇦CA_258 |11.71Mb
+  network: ws
+  port: 2086
+  server: 104.19.45.90
+  servername: ip13.freegradely.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      HOST: ip13.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 808|Relay_🏁ZZ-🇨🇦CA_259 | 1.59Mb
+  network: ws
+  port: 2052
+  server: 104.19.32.226
+  servername: cdn3.freegradely.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts:
+    headers:
+      HOST: cdn3.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  country: ??ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 808,936,1023|UM??SSRSUB_-1255271172
+  network: ws
+  port: 2086
+  server: 104.19.45.47
+  servername: ip14.freegradely.xyz
+  skip-cert-verify: true
+  sni: ''
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      HOST: ip14.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  country: ??ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 808,1023|CA??SSRSUB_591417717
+  network: ws
+  port: 2052
+  server: 104.19.58.175
+  servername: cdn1.freegradely.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts:
+    headers:
+      HOST: cdn1.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 808|Relay_🏁ZZ-🇨🇦CA_262 |25.70Mb
+  network: ws
+  port: 2086
+  server: 104.20.17.186
+  servername: ip11.freegradely.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      HOST: ip11.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 808|Relay_🏁ZZ-🇨🇦CA_263 | 1.60Mb
+  network: ws
+  port: 2052
+  server: 104.19.57.4
+  servername: cdn1.freegradely.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts:
+    headers:
+      HOST: cdn1.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 808,936|🇺🇸_US_美国->🇨🇦_CA_加拿大_6
+  network: ws
+  port: 2052
+  server: 104.19.42.49
+  servername: cdn1.freegradely.xyz
+  skip-cert-verify: true
+  sni: ''
+  type: vmess
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts:
+    headers:
+      host: cdn1.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 808|Relay_🏁ZZ-🇨🇦CA_265 | 2.06Mb
+  network: ws
+  port: 2086
+  server: 104.19.46.233
+  servername: ip005.dtku47.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+  ws-opts:
+    headers:
+      HOST: ip005.dtku47.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 808|Relay_🏁ZZ-🇨🇦CA_266 |24.09Mb
+  network: ws
+  port: 2086
+  server: 104.19.21.63
+  servername: ip11.freegradely.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      HOST: ip11.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  country: ??ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 808,1023|UM??SSRSUB_1300612203
+  network: ws
+  port: 2086
+  server: 104.18.57.111
+  servername: ip2.1457230.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      HOST: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  country: ??ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 808,1023|CA??SSRSUB_-1354540667
+  network: ws
+  port: 2086
+  server: 104.19.47.36
+  servername: ip2.1457230.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      HOST: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  country: ??ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 808,1023|CA??SSRSUB_-627998723
+  network: ws
+  port: 2086
+  server: 104.19.38.8
+  servername: ip14.freegradely.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      HOST: ip14.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 808|Relay_🏁ZZ-🇨🇦CA_270 | 2.09Mb
   network: ws
   port: 2052
   server: 104.17.106.171
@@ -2509,13 +2261,400 @@ proxies:
     headers:
       HOST: cdn2.freegradely.xyz
     path: github.com/Alvin9999
-- cipher: chacha20-ietf-poly1305
-  country: 🇦CA
-  name: 809|🇦CA_07
-  password: JIhN6rBKkaEboLNXVSv5rq
-  port: 80
-  server: 142.4.216.225
-  type: ss
+- alterId: 0
+  cipher: auto
+  country: ??ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 808,1023|CA??SSRSUB_-546980564
+  network: ws
+  port: 2052
+  server: 104.19.55.49
+  servername: cdn1.freegradely.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts:
+    headers:
+      HOST: cdn1.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 808|Relay_🏁ZZ-🇨🇦CA_272 | 6.42Mb
+  network: ws
+  port: 2086
+  server: 104.16.148.244
+  servername: ip006.freegradely.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+  ws-opts:
+    headers:
+      HOST: ip006.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 808,936|🇺🇸_US_美国->🇨🇦_CA_加拿大_8
+  network: ws
+  port: 2052
+  server: 104.19.38.18
+  servername: cdn3.freegradely.xyz
+  skip-cert-verify: false
+  sni: cdn3.freegradely.xyz
+  type: vmess
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts:
+    headers:
+      host: cdn3.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  country: ??ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 808,1023|CA??SSRSUB_1516354058
+  network: ws
+  port: 2086
+  server: 104.19.47.27
+  servername: ip1.1457230.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      HOST: ip1.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 808|Relay_🏁ZZ-🇨🇦CA_276 |15.87Mb
+  network: ws
+  port: 2052
+  server: 104.17.106.151
+  servername: cdn1.freegradely.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts:
+    headers:
+      HOST: cdn1.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 808|Relay_🏁ZZ-🇨🇦CA_277 |16.16Mb
+  network: ws
+  port: 2086
+  server: 104.19.123.11
+  servername: ip2.1457230.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      HOST: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  country: ??ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 808,1023|CA??SSRSUB_1754191286
+  network: ws
+  port: 2052
+  server: 104.19.21.71
+  servername: cdn1.freegradely.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts:
+    headers:
+      HOST: cdn1.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  country: ??ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 808,1023|CA??SSRSUB_-641764676
+  network: ws
+  port: 2086
+  server: 104.19.57.4
+  servername: ip14.freegradely.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      HOST: ip14.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  country: ??ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 808,1023|CA??SSRSUB_1830081272
+  network: ws
+  port: 2086
+  server: 104.20.25.146
+  servername: ip14.freegradely.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      HOST: ip14.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 808|Relay_🏁ZZ-🇨🇦CA_281 | 1.71Mb
+  network: ws
+  port: 2086
+  server: 104.19.32.46
+  servername: ip006.dtku47.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+  ws-opts:
+    headers:
+      HOST: ip006.dtku47.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 808|Relay_🏁ZZ-🇨🇦CA_282 |25.50Mb
+  network: ws
+  port: 2086
+  server: 162.159.140.19
+  servername: ip1.1789034.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      HOST: ip1.1789034.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  country: ??ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 808,1023|CA??SSRSUB_636442388
+  network: ws
+  port: 2086
+  server: 104.19.47.80
+  servername: ip2.1457230.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      HOST: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  country: ??ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 808,1023|CA??SSRSUB_-976838107
+  network: ws
+  port: 2086
+  server: 104.19.46.59
+  servername: ip13.freegradely.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      HOST: ip13.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  country: ??ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 808,1023|CA??SSRSUB_118788987
+  network: ws
+  port: 2086
+  server: 104.19.32.216
+  servername: ip11.freegradely.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      HOST: ip11.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  country: ??ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 808,1023|CA??SSRSUB_-1984716987
+  network: ws
+  port: 2052
+  server: 104.19.38.12
+  servername: cdn1.freegradely.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts:
+    headers:
+      HOST: cdn1.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 808|Relay_🏁ZZ-🇨🇦CA_287 | 2.67Mb
+  network: ws
+  port: 2052
+  server: 104.20.17.196
+  servername: cdn3.freegradely.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts:
+    headers:
+      HOST: cdn3.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 808|Relay_🏁ZZ-🇨🇦CA_288 | 1.15Mb
+  network: ws
+  port: 2052
+  server: 104.19.21.230
+  servername: cdn1.freegradely.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts:
+    headers:
+      HOST: cdn1.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 808|Relay_🏁ZZ-🇨🇦CA_290 | 2.40Mb
+  network: ws
+  port: 2052
+  server: 104.19.59.89
+  servername: cdn1.freegradely.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts:
+    headers:
+      HOST: cdn1.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  country: ??ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 808,1023|Other??SSRSUB_-1650884680
+  network: ws
+  port: 2086
+  server: 104.19.32.88
+  servername: ip5-4.freegradely.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      HOST: ip5-4.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 808|Relay_🏁ZZ-🇨🇦CA_292 | 3.29Mb
+  network: ws
+  port: 2052
+  server: 104.19.59.99
+  servername: cdn3.freegradely.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts:
+    headers:
+      HOST: cdn3.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 808|Relay_🏁ZZ-🇨🇦CA_294 | 1.95Mb
+  network: ws
+  port: 2052
+  server: 104.19.58.185
+  servername: cdn3.freegradely.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts:
+    headers:
+      HOST: cdn3.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  country: ??ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 808,936,1023|CA??SSRSUB_-426882445
+  network: ws
+  port: 2052
+  server: 104.18.57.111
+  servername: cdn1.freegradely.xyz
+  skip-cert-verify: true
+  sni: ''
+  type: vmess
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts:
+    headers:
+      HOST: cdn1.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 808,1033|未知19 4.3MB/s
+  network: ws
+  port: 2052
+  server: 104.20.25.166
+  servername: cdn3.freegradely.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts:
+    headers:
+      host: cdn2.freegradely.xyz
+    path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
   name: 824|🇨🇦CA加拿大(youtube阿伟科技)
@@ -2702,7 +2841,7 @@ proxies:
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
-  name: 849|加拿大_072813098
+  name: 849|加拿大_072818101
   network: ws
   port: '2095'
   server: 23.227.38.8
@@ -2716,7 +2855,7 @@ proxies:
     path: /WNh8bXQv/
 - alterId: 0
   cipher: auto
-  name: 849|加拿大_072813099
+  name: 849|加拿大_072818102
   network: ws
   port: '8080'
   server: 23.227.38.3
@@ -3298,6 +3437,19 @@ proxies:
     headers:
       Host: syndication-statutes-wanted-logo.trycloudflare.com
     path: '%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252Fargox-tr'
+- alterId: 0
+  cipher: auto
+  name: 866|🇨🇦 CA 45 → tg@nicevpn123
+  network: ws
+  port: 8080
+  server: 23.227.38.23
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b
+  ws-opts:
+    path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
 - name: 866|🇨🇦 CA 46 → tg@nicevpn123
   network: ws
   password: b17fa17d-13a0-4e8a-a398-8e549ea8b208
@@ -3741,7 +3893,7 @@ proxies:
     path: '%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252Fargox-tr'
 - alterId: 0
   cipher: auto
-  name: '869,1068,1070,1286,1300,1396|美国【付费推荐：https://a0a.xyz】119 #2'
+  name: '869,1068,1070|加拿大_0728003 #2'
   network: ws
   port: '2086'
   server: 23.227.38.3
@@ -4399,6 +4551,23 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
+  country: ??ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 1023|CA??SSRSUB_1715774426
+  network: ws
+  port: 2086
+  server: 104.19.55.49
+  servername: ip2.1457230.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      HOST: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
   name: 1023|CA??SSRSUB_-981011999
   network: ws
   port: 80
@@ -4512,6 +4681,23 @@ proxies:
     headers:
       Host: cdn1.freegradely.xyz
     path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  country: ??ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 1023|CA??SSRSUB_1654579559
+  network: ws
+  port: 80
+  server: 104.21.51.208
+  servername: de01.tradex2080.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cb4fca5f-edf8-415b-aa8f-ac52f415296a
+  ws-opts:
+    headers:
+      HOST: de01.tradex2080.com
+    path: /0fpZFB6IbpNptGAxAtI0QM
 - alterId: 0
   cipher: auto
   h2-opts: {}
@@ -4840,8 +5026,8 @@ proxies:
   type: vmess
   uuid: d3a515b4-6fcb-38c8-93d3-2c17da360f89
 - cipher: aes-128-gcm
-  name: '1434,1436|🇨🇦 加拿大 01 #1'
-  password: 7f1ab4bf-f28c-405b-afcc-0bc780358c2a
+  name: 1434|🇨🇦 加拿大 01
+  password: 83f8a51b-bf9c-4935-8a0e-b3a9b97cbea2
   port: 22002
   server: ens.node1link.xyz
   type: ss
