@@ -1,6 +1,15 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 17|香港|广州移动|Neko|1.5x
+  network: tcp
+  port: 13337
+  server: gdcm.r1u.cn
+  tls: false
+  type: vmess
+  uuid: f010dd01-c54a-3c03-95ce-0838214259c6
+- alterId: 0
+  cipher: auto
   name: 65|🇭🇰 香港1
   network: ws
   port: '80'
@@ -1283,7 +1292,7 @@ proxies:
     path: /?ed=2560
 - alterId: 0
   cipher: auto
-  name: '495,1022|🔒 VM-WS-TLS 🇭🇰 HK-152.32.190.2... #1'
+  name: '495,1022,1034|HK #3'
   network: ws
   port: '4431'
   server: 152.32.190.239
@@ -2263,6 +2272,15 @@ proxies:
   server: 8.210.87.130
   type: vmess
   uuid: bc75a7aa-fbd0-4fc3-a08c-c21192cfca43
+- alterId: 0
+  cipher: auto
+  name: 551|🇭🇰 香港5 定制IEPL专线
+  network: tcp
+  port: '29767'
+  server: iepl.hongxingdl.vip
+  tls: false
+  type: vmess
+  uuid: 9a998239-c2c2-4e11-bc0d-b0b5444a983d
 - alterId: 64
   cipher: auto
   name: '559|🇭🇰 Hong Kong #01「AGA」'
@@ -2454,23 +2472,15 @@ proxies:
       Host: cn.bing.com
     path: /
   ws-path: /
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 808|Relay_🏁ZZ-🇰HK_230 | 3.03Mb
-  network: ws
-  port: 2052
-  server: cfcdn2.sanfencdn9.com
-  servername: zifstzamhk1.yofnhkfc.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: a223af01-b481-4abf-a305-60d60587d1e4
-  ws-opts:
-    headers:
-      HOST: zifstzamhk1.yofnhkfc.xyz
-    path: /video/VuDFdktz
+- cipher: aes-256-cfb
+  country: 🇰HK
+  name: 809,908,1039|[02-24]-🇸-欧洲-096-150.107.46.21
+  obfs: tls1.2_ticket_auth
+  password: iFqnzSscN
+  port: 8083
+  protocol: origin
+  server: 150.107.46.21
+  type: ssr
 - alterId: 0
   cipher: auto
   name: '824|🇨🇳中国【YouTube-由零開始】 #7'
@@ -3788,7 +3798,7 @@ proxies:
     path: 55021a7c-bd6c-418e-be95-ceac8ba27b45-vm
 - alterId: 0
   cipher: auto
-  name: '942,1047|美国 CloudFlare节点 #337'
+  name: '942,1047|美国 CloudFlare节点 #332'
   network: ws
   port: '8080'
   server: yh1.freeh1.xyz
@@ -4469,7 +4479,7 @@ proxies:
   uuid: 49933ab7-7ec2-3024-9f6e-b7ad9da24c8f
 - alterId: 0
   cipher: auto
-  name: 1033|HK
+  name: '1033|HK #1'
   network: ws
   port: 4431
   server: 152.32.190.239
@@ -4566,7 +4576,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: aes-128-gcm
-  name: '1033|HK #1'
+  name: '1033|HK #2'
   password: 61e2d024-31ac-4c8a-8ca8-6ea85ae7941b
   port: 10001
   server: hk-az-001.anrun-ix.top
