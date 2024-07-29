@@ -95,6 +95,20 @@ proxies:
     path: ''
 - alterId: 0
   cipher: auto
+  country: ' JP'
+  h2-opts: {}
+  http-opts: {}
+  name: 30,111|Tokyo V2 - B Group
+  network: tcp
+  port: '60001'
+  server: bgroup.node1.v.nodelist-airport.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 2155145a-b1b5-443a-8977-670f6bd10f02
+  ws-path: /
+- alterId: 0
+  cipher: auto
   name: '65|🇯🇵 日本1 #1'
   network: ws
   port: '80'
@@ -257,7 +271,7 @@ proxies:
     grpc-service-name: 1654431
   h2-opts: {}
   http-opts: {}
-  name: '104,294,310,311,493,501,513,612,716,759,817,835,839,843,845,875,891,898,903,908,913,915,917,925,930,951,978,979,983,988,992,997,1000,1032,1042,1048,1074,1075,1085,1328,1334,1336,1338|🇭🇰套餐已到达阀值_等待次月恢复
+  name: '104,294,310,311,493,501,513,556,612,716,759,817,835,839,843,845,875,891,898,903,908,913,915,917,925,930,951,978,979,983,988,992,997,1000,1032,1042,1048,1074,1075,1085,1328,1334,1336,1338|🇭🇰套餐已到达阀值_等待次月恢复
     #2'
   network: ws
   password: bbab60b8-779f-31e2-916e-571f7d7023c4
@@ -519,52 +533,12 @@ proxies:
     path: /
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  country: 🇵JP
-  name: 294,501,817,898,997|🇸🇬 狮城特殊|@ripaojiedian
+  name: 294,501,898,997|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 54.95.170.220
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 308|pq日本1-解锁
-  network: ws
-  port: '2052'
-  server: yx1.chinayyds.xyz
-  tls: false
-  type: vmess
-  uuid: 36b2ebbd-4bf5-48a6-94c1-03877708e29b
-  ws-opts:
-    headers:
-      Host: pqrb.chinayyds.xyz
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 308|pq日本2-解锁
-  network: ws
-  port: '2052'
-  server: yx2.chinayyds.xyz
-  tls: false
-  type: vmess
-  uuid: 36b2ebbd-4bf5-48a6-94c1-03877708e29b
-  ws-opts:
-    headers:
-      Host: pqrb.chinayyds.xyz
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 308|pq日本3-解锁
-  network: ws
-  port: '2052'
-  server: yx3.chinayyds.xyz
-  tls: false
-  type: vmess
-  uuid: 36b2ebbd-4bf5-48a6-94c1-03877708e29b
-  ws-opts:
-    headers:
-      Host: pqrb.chinayyds.xyz
-    path: /?ed=2048
 - cipher: rc4-md5
   name: '310,311|🇯🇵 IPLC｜冀日 [2.0][原生] #1'
   obfs: http_simple
@@ -1053,7 +1027,7 @@ proxies:
   uuid: bbe8249a-3bfe-43c2-fe55-838e7ae13c45
 - alterId: 0
   cipher: auto
-  name: '500,1031|🔒 VM-TCP-NA 🇯🇵 JP-54.168.14.13... #1'
+  name: 500|🔒 VM-TCP-NA 🇯🇵 JP-54.168.14.13...
   network: tcp
   port: 11773
   server: 54.168.14.131
@@ -2288,6 +2262,13 @@ proxies:
     headers:
       Host: ''
     path: /
+- cipher: chacha20-ietf-poly1305
+  name: 556|🇯🇵 日本5 定制IEPL专线
+  password: 9a998239-c2c2-4e11-bc0d-b0b5444a983d
+  port: 37459
+  server: iepl.hongxingdl.vip
+  type: ss
+  udp: true
 - alterId: 2
   cipher: auto
   name: '564|🇯🇵 Japan #01 *NF'
