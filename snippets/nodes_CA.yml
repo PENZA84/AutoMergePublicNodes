@@ -94,6 +94,19 @@ proxies:
     headers:
       HOST: ip14.freegradely.xyz
     path: github.com/Alvin9999
+- alpn:
+  - h2
+  grpc-opts:
+    grpc-service-name: mm_grpc
+  name: '315,316|🇨🇦 特殊｜加拿大-A [1.5][gRPC] #1'
+  network: grpc
+  password: 5b4c3ff4-16c7-35f5-97e9-68eb9a053815cmynw
+  port: 443
+  server: special-ca-1.cmydns2.com
+  sni: chimuni.com
+  tls: true
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: 361|🇨🇦 加拿大 | V1 | 01
@@ -121,7 +134,7 @@ proxies:
   name: 456|🇨🇦加州区域1自动运维节点
   network: tcp
   port: '20185'
-  server: g5c0Sg.gov.goldliond.top
+  server: 2ZGbiz.gov.goldliond.top
   tls: false
   type: vmess
   uuid: dff90a14-6c25-4181-9791-0be9131da5a3
@@ -130,7 +143,7 @@ proxies:
   name: 456|🇨🇦加州区域2自动运维节点
   network: tcp
   port: '20185'
-  server: kNoy6H.gov.goldliond.top
+  server: kpRjlj.gov.goldliond.top
   tls: false
   type: vmess
   uuid: dff90a14-6c25-4181-9791-0be9131da5a3
@@ -139,7 +152,7 @@ proxies:
   name: 456|🇨🇦加州区域3自动运维节点
   network: tcp
   port: '20185'
-  server: SyHBeR.gov.goldliond.top
+  server: UiqPCa.gov.goldliond.top
   tls: false
   type: vmess
   uuid: dff90a14-6c25-4181-9791-0be9131da5a3
@@ -226,6 +239,20 @@ proxies:
   type: vmess
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
+  cipher: none
+  client-fingerprint: chrome
+  fingerprint: ''
+  name: 504|3426fc82002e4473842ae313a7d9d8...
+  network: ws
+  port: 80
+  server: 104.16.232.76
+  tls: false
+  type: vmess
+  udp: false
+  uuid: 7e7325be-5c04-400a-9f11-e7f51c9cb1a9
+  ws-opts:
+    path: /vmess
+- alterId: 0
   cipher: auto
   name: '511,867,883,888,1056|🔒 VM-TCP-NA 🇨🇦 CA-178.128.237.... #1'
   network: tcp
@@ -237,7 +264,7 @@ proxies:
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
-  name: '511,915,1048,1056|🔒 VM-TCP-NA 🇨🇦 CA-23.162.200.1... #2'
+  name: '511,915,1048|🔒 VM-TCP-NA 🇨🇦 CA-23.162.200.1... #1'
   network: tcp
   port: '22324'
   server: 23.162.200.182
@@ -376,17 +403,6 @@ proxies:
   port: 810
   server: 72.140.224.195
   type: ss
-- alterId: 0
-  cipher: aes-256-gcm
-  country: 🏁ZZ
-  name: 512,850,900,1067|未知125 1.9MB/s
-  password: Y6R9pAtvxxzmGC
-  port: 3389
-  server: 23.162.200.28
-  skip-cert-verify: true
-  tls: true
-  type: ss
-  udp: true
 - cipher: aes-256-gcm
   name: 512|CA-134.195.196.149-0892
   password: FoOiGlkAA9yPEGP
@@ -415,7 +431,8 @@ proxies:
     path: /linkvws
 - alterId: -1
   cipher: chacha20-ietf-poly1305
-  name: 512,1099|CA_speednode_0011
+  country: 🇦CA
+  name: 512,843,1099|CA_speednode_0011
   password: JIhN6rBKkaEboLNXVSv5rq
   port: 80
   server: 142.4.216.225
@@ -457,7 +474,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 512,900|RW 60 → tg@nicevpn123
+  name: 512,900,901|美国 V2CROSS.COM
   network: ws
   port: 443
   server: 23.162.200.227
@@ -467,6 +484,8 @@ proxies:
   udp: true
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
+    headers:
+      Host: ''
     path: /linkvws
 - cipher: aes-256-gcm
   name: 512|🇦CA-23.162.200.181-1893
@@ -3734,23 +3753,6 @@ proxies:
     headers:
       HOST: ip2.1457230.xyz
     path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  country: ??ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 1057|CA??SSRSUB_1654579559
-  network: ws
-  port: 80
-  server: 104.21.51.208
-  servername: de01.tradex2080.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cb4fca5f-edf8-415b-aa8f-ac52f415296a
-  ws-opts:
-    headers:
-      HOST: de01.tradex2080.com
-    path: /0fpZFB6IbpNptGAxAtI0QM
 - alterId: 0
   cipher: auto
   country: ??ZZ
