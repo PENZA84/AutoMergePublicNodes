@@ -7,19 +7,6 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 17|Singapore01
-  network: ws
-  port: 8443
-  server: polosg.9x.cx
-  tls: true
-  type: vmess
-  uuid: a6dfb50f-75bb-48e0-b56a-1edeb62b5a49
-  ws-opts:
-    headers:
-      Host: ''
-    path: /boluosg
-- alterId: 0
-  cipher: auto
   name: 18|新加坡01-联通-Vmess
   network: ws
   port: '8080'
@@ -69,6 +56,19 @@ proxies:
   ws-opts:
     headers:
       Host: sg02.thomasina.buzz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 66|🇸🇬 新加坡3
+  network: ws
+  port: '80'
+  server: sg03.thomasina.buzz
+  tls: false
+  type: vmess
+  uuid: bda0b5bf-e2a7-445e-9b4f-ea1b80803c0d
+  ws-opts:
+    headers:
+      Host: sg03.thomasina.buzz
     path: /
 - alterId: 0
   cipher: auto
@@ -362,45 +362,6 @@ proxies:
     headers:
       Host: sg5vm.fuckvps.top
     path: /sg5vm
-- alterId: 0
-  cipher: auto
-  name: 313|新加坡1
-  network: ws
-  port: '2052'
-  server: yx1.chinayyds.xyz
-  tls: false
-  type: vmess
-  uuid: 36b2ebbd-4bf5-48a6-94c1-03877708e29b
-  ws-opts:
-    headers:
-      Host: sg1.chinayyds.xyz
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 313|新加坡2
-  network: ws
-  port: '2052'
-  server: yx2.chinayyds.xyz
-  tls: false
-  type: vmess
-  uuid: 36b2ebbd-4bf5-48a6-94c1-03877708e29b
-  ws-opts:
-    headers:
-      Host: sg1.chinayyds.xyz
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 313|新加坡3
-  network: ws
-  port: '2052'
-  server: yx3.chinayyds.xyz
-  tls: false
-  type: vmess
-  uuid: 36b2ebbd-4bf5-48a6-94c1-03877708e29b
-  ws-opts:
-    headers:
-      Host: sg1.chinayyds.xyz
-    path: /?ed=2048
 - cipher: rc4-md5
   name: '315,316|🇸🇬 IPLC｜冀新 [2.0][UDP][ChatGPT] #1'
   obfs: http_simple
@@ -642,7 +603,7 @@ proxies:
   name: 456|🇸🇬狮城区域1自动运维节点
   network: tcp
   port: '20182'
-  server: 998Aqo.gov.goldliond.top
+  server: 7qP1nR.gov.goldliond.top
   tls: false
   type: vmess
   uuid: dff90a14-6c25-4181-9791-0be9131da5a3
@@ -651,7 +612,7 @@ proxies:
   name: 456|🇸🇬狮城区域2自动运维节点
   network: tcp
   port: '20182'
-  server: 3pmjDI.gov.goldliond.top
+  server: debr5S.gov.goldliond.top
   tls: false
   type: vmess
   uuid: dff90a14-6c25-4181-9791-0be9131da5a3
@@ -660,7 +621,7 @@ proxies:
   name: 456|🇸🇬狮城区域3自动运维节点
   network: tcp
   port: '20182'
-  server: 3Aa38A.gov.goldliond.top
+  server: fAvj2Z.gov.goldliond.top
   tls: false
   type: vmess
   uuid: dff90a14-6c25-4181-9791-0be9131da5a3
@@ -669,7 +630,7 @@ proxies:
   name: 456|🇸🇬狮城区域1-三网优化-解锁Netflix
   network: tcp
   port: '60184'
-  server: WQT1MZ.gov.goldliond.top
+  server: 4TTvst.gov.goldliond.top
   tls: false
   type: vmess
   uuid: dff90a14-6c25-4181-9791-0be9131da5a3
@@ -1210,15 +1171,6 @@ proxies:
     path: /zh-cn
 - alterId: 0
   cipher: auto
-  name: '511,1060|🔒 VM-TCP-NA 🇸🇬 SG-3.0.147.231:... #1'
-  network: tcp
-  port: 54126
-  server: 3.0.147.231
-  tls: false
-  type: vmess
-  uuid: 2062a5ca-a34e-47bf-9810-db91185f07fc
-- alterId: 0
-  cipher: auto
   country: ????SG
   h2-opts: {}
   http-opts: {}
@@ -1231,6 +1183,25 @@ proxies:
   tls: true
   type: vmess
   uuid: 0782d3ab-ee9f-4de2-9201-81f83863e32a
+- alterId: 0
+  cipher: auto
+  name: '511,1060|🔒 VM-TCP-NA 🇸🇬 SG-5.34.176.111... #1'
+  network: tcp
+  port: '57614'
+  server: 5.34.176.111
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4e55ce40-9f8e-417d-f8ae-aa6af97a7097
+- alterId: 0
+  cipher: auto
+  name: '511,1060|🔒 VM-TCP-NA 🇸🇬 SG-3.0.147.231:... #1'
+  network: tcp
+  port: 54126
+  server: 3.0.147.231
+  tls: false
+  type: vmess
+  uuid: 2062a5ca-a34e-47bf-9810-db91185f07fc
 - alterId: 0
   cipher: auto
   name: '512,993,994|🇸🇬SG-159.223.32.230-0142 #2'
@@ -2908,10 +2879,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  country: ZZ
+  country: 🏁ZZ
   h2-opts: {}
   http-opts: {}
-  name: 846|Relay_🏁ZZ-SG_179 |48.34Mb
+  name: 846|Relay_🏁ZZ-SG_213 |48.34Mb
   network: ws
   port: 2052
   server: cfcdn2.sanfencdn9.com
@@ -4648,16 +4619,6 @@ proxies:
     headers:
       Host: namava.ir
     path: /JAGOANSSH/
-- alterId: 0
-  cipher: auto
-  name: 1060|🔒 VM-TCP-NA 🇸🇬 SG-5.34.176.111...
-  network: tcp
-  port: '57614'
-  server: 5.34.176.111
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4e55ce40-9f8e-417d-f8ae-aa6af97a7097
 - alterId: -1
   cipher: aes-256-cfb
   name: 1061|SG??SSRSUB_1370891487
@@ -5064,7 +5025,7 @@ proxies:
   uuid: 3b40af01-e7e5-3cf2-807d-3f6df986f34b
 - alterId: 0
   cipher: auto
-  name: '1256|新加坡2 #1'
+  name: 1256|新加坡2
   network: tcp
   port: 16603
   server: bgp1.line.ktyyun.com
