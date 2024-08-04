@@ -7,6 +7,15 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
+  name: 17|新加坡|广州移动|Polo|1x
+  network: tcp
+  port: '17162'
+  server: gdcm.r1u.cn
+  tls: false
+  type: vmess
+  uuid: f010dd01-c54a-3c03-95ce-0838214259c6
+- alterId: 0
+  cipher: auto
   name: 18|新加坡01-联通-Vmess
   network: ws
   port: '8080'
@@ -56,6 +65,32 @@ proxies:
   ws-opts:
     headers:
       Host: sg01.thomasina.buzz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 66|🇸🇬 新加坡
+  network: ws
+  port: '80'
+  server: sg02.thomasina.buzz
+  tls: false
+  type: vmess
+  uuid: bda0b5bf-e2a7-445e-9b4f-ea1b80803c0d
+  ws-opts:
+    headers:
+      Host: sg02.thomasina.buzz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 66|🇸🇬 新加坡4
+  network: ws
+  port: '80'
+  server: sg04.thomasina.buzz
+  tls: false
+  type: vmess
+  uuid: bda0b5bf-e2a7-445e-9b4f-ea1b80803c0d
+  ws-opts:
+    headers:
+      Host: sg04.thomasina.buzz
     path: /
 - alterId: 0
   cipher: auto
@@ -336,6 +371,45 @@ proxies:
     headers:
       Host: sg5vm.fuckvps.top
     path: /sg5vm
+- alterId: 0
+  cipher: auto
+  name: 313|新加坡1
+  network: ws
+  port: '2052'
+  server: yx1.chinayyds.xyz
+  tls: false
+  type: vmess
+  uuid: 36b2ebbd-4bf5-48a6-94c1-03877708e29b
+  ws-opts:
+    headers:
+      Host: sg1.chinayyds.xyz
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 313|新加坡2
+  network: ws
+  port: '2052'
+  server: yx2.chinayyds.xyz
+  tls: false
+  type: vmess
+  uuid: 36b2ebbd-4bf5-48a6-94c1-03877708e29b
+  ws-opts:
+    headers:
+      Host: sg1.chinayyds.xyz
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 313|新加坡3
+  network: ws
+  port: '2052'
+  server: yx3.chinayyds.xyz
+  tls: false
+  type: vmess
+  uuid: 36b2ebbd-4bf5-48a6-94c1-03877708e29b
+  ws-opts:
+    headers:
+      Host: sg1.chinayyds.xyz
+    path: /?ed=2048
 - cipher: rc4-md5
   name: '315,316|🇸🇬 IPLC｜冀新 [2.0][UDP][ChatGPT] #1'
   obfs: http_simple
@@ -577,7 +651,7 @@ proxies:
   name: 456|🇸🇬狮城区域1自动运维节点
   network: tcp
   port: '20182'
-  server: gojn04.gov.goldliond.top
+  server: i9GgcC.gov.goldliond.top
   tls: false
   type: vmess
   uuid: dff90a14-6c25-4181-9791-0be9131da5a3
@@ -586,7 +660,7 @@ proxies:
   name: 456|🇸🇬狮城区域2自动运维节点
   network: tcp
   port: '20182'
-  server: SITYp8.gov.goldliond.top
+  server: PaMUE4.gov.goldliond.top
   tls: false
   type: vmess
   uuid: dff90a14-6c25-4181-9791-0be9131da5a3
@@ -595,7 +669,7 @@ proxies:
   name: 456|🇸🇬狮城区域3自动运维节点
   network: tcp
   port: '20182'
-  server: QLzzS1.gov.goldliond.top
+  server: 8pSi1I.gov.goldliond.top
   tls: false
   type: vmess
   uuid: dff90a14-6c25-4181-9791-0be9131da5a3
@@ -604,7 +678,7 @@ proxies:
   name: 456|🇸🇬狮城区域1-三网优化-解锁Netflix
   network: tcp
   port: '60184'
-  server: KCUN7o.gov.goldliond.top
+  server: V7ryhB.gov.goldliond.top
   tls: false
   type: vmess
   uuid: dff90a14-6c25-4181-9791-0be9131da5a3
@@ -1166,7 +1240,7 @@ proxies:
   uuid: 0782d3ab-ee9f-4de2-9201-81f83863e32a
 - alterId: 0
   cipher: auto
-  name: '511,1056|🔒 VM-TCP-NA 🇸🇬 SG-5.34.176.111... #1'
+  name: '511,1048,1056|🔒 VM-TCP-NA 🇸🇬 SG-5.34.176.111... #2'
   network: tcp
   port: '57614'
   server: 5.34.176.111
@@ -1177,7 +1251,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '511,512,870,871,901,919,923,924,989,990,1015,1022,1023,1025,1102,1214,1215,1216|🇸🇬新加坡高速接入点-01
+  name: '511,512,923,924,989,990,1015,1022,1023,1025,1102,1214,1215,1216|🇸🇬新加坡高速接入点-01
     #2'
   network: ws
   port: '2052'
@@ -1187,26 +1261,11 @@ proxies:
   tfo: false
   tls: false
   type: vmess
-  udp: true
   uuid: a3e22d25-a56e-4d2d-b54b-1f5cffd13e96
   ws-opts:
     headers:
       Host: 7nAi74jJsg1.yofnhkfc.xyz
     path: /video/c9efxRCi
-- alterId: 0
-  cipher: auto
-  name: 511,901,924,1015,1023,1346|中国【付费推荐：https://a0a.xyz】28
-  network: ws
-  port: '46016'
-  server: mmsg16.micloud.buzz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f9b02d8c-b69b-435f-aa25-68393e5fb121
-  ws-opts:
-    headers:
-      Host: ''
-    path: /zh-cn
 - alterId: 0
   cipher: auto
   name: '512,989,990|🇸🇬SG-159.223.32.230-0142 #2'
@@ -2646,7 +2705,7 @@ proxies:
   name: 763|🇸🇬 狮城沙爹 02-IP
   network: ws
   port: '80'
-  server: 54.151.175.165
+  server: 13.251.193.222
   tls: false
   type: vmess
   uuid: 4e26bc93-18eb-41d4-9d12-0bc27d30869e
@@ -2672,7 +2731,7 @@ proxies:
   name: 763|🇸🇬 狮城辣蟹 03-IP
   network: ws
   port: '80'
-  server: 52.221.20.230
+  server: 18.143.253.18
   tls: false
   type: vmess
   uuid: 4e26bc93-18eb-41d4-9d12-0bc27d30869e
@@ -2875,23 +2934,6 @@ proxies:
     headers:
       Host: sgpcpcd.freefly.pp.ua
     path: /
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 842|Relay_🏁ZZ-🇬SG_367 |53.51Mb
-  network: ws
-  port: 2052
-  server: cfcdn2.sanfencdn9.com
-  servername: 7nAi74jJsg1.yofnhkfc.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: 22ec0027-5230-462c-8100-ef7d489caaef
-  ws-opts:
-    headers:
-      HOST: 7nAi74jJsg1.yofnhkfc.xyz
-    path: /video/c9efxRCi
 - alterId: 0
   cipher: auto
   name: 858|SG_youtube@资源分享师_38
@@ -5037,7 +5079,7 @@ proxies:
   uuid: 3b40af01-e7e5-3cf2-807d-3f6df986f34b
 - alterId: 0
   cipher: auto
-  name: 1251|新加坡2
+  name: '1251|新加坡2 #1'
   network: tcp
   port: 16603
   server: bgp1.line.ktyyun.com
@@ -5165,48 +5207,6 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 1435|新加坡1-v2ray
-  network: ws
-  port: '443'
-  server: sgoracle1.sstank.top
-  servername: sgoracle1.sstank.top
-  tls: true
-  type: vmess
-  uuid: 6b772c91-a7e1-36a5-aa59-1b12f4339508
-  ws-opts:
-    headers:
-      Host: sgoracle1.sstank.top
-    path: /H6MDrCvt
-- alterId: 0
-  cipher: auto
-  name: 1435|新加坡2-v2ray
-  network: ws
-  port: '443'
-  server: sgoracle2.sstank.top
-  servername: sgoracle2.sstank.top
-  tls: true
-  type: vmess
-  uuid: 6b772c91-a7e1-36a5-aa59-1b12f4339508
-  ws-opts:
-    headers:
-      Host: sgoracle2.sstank.top
-    path: /H6MDrCvt
-- alterId: 0
-  cipher: auto
-  name: 1435|新加坡3-v2ray
-  network: ws
-  port: '443'
-  server: sgoracle3.sstank.top
-  servername: sgoracle3.sstank.top
-  tls: true
-  type: vmess
-  uuid: 6b772c91-a7e1-36a5-aa59-1b12f4339508
-  ws-opts:
-    headers:
-      Host: sgoracle3.sstank.top
-    path: /H6MDrCvt
 - alterId: 0
   cipher: auto
   name: 1438|🇸🇬 新加坡A丨Wap丨流媒体

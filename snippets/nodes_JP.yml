@@ -43,7 +43,7 @@ proxies:
   country: 🇺🇸US
   h2-opts: {}
   http-opts: {}
-  name: 30,502,597,842,843,875,882,884,903,971,988,1085,1102,1104|日本_0803003
+  name: 30,502,597,843,850,875,882,884,903,971,988,1085,1102,1104|日本_0803003
   network: tcp
   port: '1069'
   server: 152.69.197.60
@@ -91,6 +91,19 @@ proxies:
   ws-opts:
     headers:
       Host: jp03.thomasina.buzz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 66|🇯🇵 日本4
+  network: ws
+  port: '80'
+  server: jp04.thomasina.buzz
+  tls: false
+  type: vmess
+  uuid: bda0b5bf-e2a7-445e-9b4f-ea1b80803c0d
+  ws-opts:
+    headers:
+      Host: jp04.thomasina.buzz
     path: /
 - alterId: 0
   cipher: auto
@@ -360,12 +373,50 @@ proxies:
       Host: ''
     path: /
 - cipher: aes-256-cfb
-  country: JP
-  name: 299,512,842| |10.17Mb
+  name: 299,512|🇯🇵JP-54.95.170.220-0786
   password: amazonskr05
   port: 443
   server: 54.95.170.220
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 313|pq日本1-解锁
+  network: ws
+  port: '2052'
+  server: yx1.chinayyds.xyz
+  tls: false
+  type: vmess
+  uuid: 36b2ebbd-4bf5-48a6-94c1-03877708e29b
+  ws-opts:
+    headers:
+      Host: pqrb.chinayyds.xyz
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 313|pq日本2-解锁
+  network: ws
+  port: '2052'
+  server: yx2.chinayyds.xyz
+  tls: false
+  type: vmess
+  uuid: 36b2ebbd-4bf5-48a6-94c1-03877708e29b
+  ws-opts:
+    headers:
+      Host: pqrb.chinayyds.xyz
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 313|pq日本3-解锁
+  network: ws
+  port: '2052'
+  server: yx3.chinayyds.xyz
+  tls: false
+  type: vmess
+  uuid: 36b2ebbd-4bf5-48a6-94c1-03877708e29b
+  ws-opts:
+    headers:
+      Host: pqrb.chinayyds.xyz
+    path: /?ed=2048
 - cipher: rc4-md5
   name: '315,316|🇯🇵 IPLC｜冀日 [2.0][原生] #1'
   obfs: http_simple
@@ -677,7 +728,7 @@ proxies:
   name: 456|🇯🇵日本区域1自动运维节点
   network: tcp
   port: '20181'
-  server: bnPdkM.gov.goldliond.top
+  server: ExKfWj.gov.goldliond.top
   tls: false
   type: vmess
   uuid: dff90a14-6c25-4181-9791-0be9131da5a3
@@ -686,7 +737,7 @@ proxies:
   name: 456|🇯🇵日本区域2自动运维节点
   network: tcp
   port: '20181'
-  server: teSxim.gov.goldliond.top
+  server: Ls4eSC.gov.goldliond.top
   tls: false
   type: vmess
   uuid: dff90a14-6c25-4181-9791-0be9131da5a3
@@ -695,7 +746,7 @@ proxies:
   name: 456|🇯🇵日本区域3自动运维节点
   network: tcp
   port: '20181'
-  server: SfmSR3.gov.goldliond.top
+  server: h5a9Zu.gov.goldliond.top
   tls: false
   type: vmess
   uuid: dff90a14-6c25-4181-9791-0be9131da5a3
@@ -704,7 +755,7 @@ proxies:
   name: 456|🇯🇵日本区域1-三网优化-解锁Netflix/DisneyP...
   network: tcp
   port: '60183'
-  server: gM9jE8.gov.goldliond.top
+  server: WaoLVx.gov.goldliond.top
   tls: false
   type: vmess
   uuid: dff90a14-6c25-4181-9791-0be9131da5a3
@@ -1026,13 +1077,14 @@ proxies:
     path: /video/ibCT6z55
 - alterId: 0
   cipher: auto
-  name: '511,1056|🔒 VM-TCP-NA 🇯🇵 JP-13.231.133.5... #1'
+  name: '511,883,1048,1056,1068|未知23 #1'
   network: tcp
-  port: 11773
-  server: 13.231.133.58
+  port: '53001'
+  server: 20.243.98.115
+  servername: ''
   tls: false
   type: vmess
-  uuid: c2365e4e-3700-323a-b889-fea7677ef8d1
+  uuid: 60626f2a-a43d-3ef0-9e7a-f527d5ebe6fb
 - alterId: 2
   cipher: auto
   name: '511,1056|🔒 VM-TCP-NA 🇯🇵 JP-154.31.112.5... #1'
@@ -1045,14 +1097,13 @@ proxies:
   uuid: 40bc7b65-ec8a-3201-a646-c9d1b71091c6
 - alterId: 0
   cipher: auto
-  name: '511,1048,1056|🔒 VM-TCP-NA 🇯🇵 JP-45.159.50.96... #2'
+  name: '511,1056|🔒 VM-TCP-NA 🇯🇵 JP-13.231.133.5... #1'
   network: tcp
-  port: '10417'
-  server: 45.159.50.96
-  servername: ''
+  port: 11773
+  server: 13.231.133.58
   tls: false
   type: vmess
-  uuid: 712fa20b-7d84-4383-87e2-b5f2c57aa045
+  uuid: c2365e4e-3700-323a-b889-fea7677ef8d1
 - alterId: 0
   cipher: auto
   name: '511,1056|🔒 VM-TCP-NA 🇯🇵 JP-52.198.166.1... #1'
@@ -1080,18 +1131,8 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '511,883,1048,1056,1068|未知23 #1'
-  network: tcp
-  port: '53001'
-  server: 20.243.98.115
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 60626f2a-a43d-3ef0-9e7a-f527d5ebe6fb
-- alterId: 0
-  cipher: auto
   client-fingerprint: chrome
-  name: '511,512,791,903,923,924,989,990,1015,1022,1023,1102|未知_0804414 #1'
+  name: '511,512,791,903,923,924,927,989,990,1015,1022,1023,1102|未知_0804414 #1'
   network: ws
   port: '80'
   server: sc.yydspp.cc
@@ -1108,8 +1149,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '511,512,870,871,901,919,923,924,989,990,1015,1022,1023,1214,1215,1216|🇯🇵日本高速接入点-05
-    #2'
+  name: '511,512,923,924,989,990,1015,1022,1023,1214,1215,1216|🇯🇵日本高速接入点-05 #2'
   network: ws
   port: '2052'
   server: cfcdn3.sanfencdn9.com
@@ -1118,7 +1158,6 @@ proxies:
   tfo: false
   tls: false
   type: vmess
-  udp: true
   uuid: a3e22d25-a56e-4d2d-b54b-1f5cffd13e96
   ws-opts:
     headers:
@@ -2496,7 +2535,7 @@ proxies:
   name: 763|🇯🇵 日本拉面 03-IP
   network: ws
   port: '80'
-  server: 52.195.69.233
+  server: 3.113.158.97
   tls: false
   type: vmess
   uuid: 4e26bc93-18eb-41d4-9d12-0bc27d30869e
@@ -2828,7 +2867,7 @@ proxies:
     path: /azjp.pengui.xyz
 - alterId: 0
   cipher: auto
-  name: '875,929|未命名 #241'
+  name: '875,929|未命名 #238'
   network: ws
   port: 80
   server: v116.v2dns.bar
@@ -4110,20 +4149,7 @@ proxies:
   tfo: false
   type: ss
 - client-fingerprint: chrome
-  name: 923,1022|🇯🇵 日本2|@ripaojiedian
-  network: ws
-  password: f2191442-1436-3d79-801e-80d8de896c73
-  port: 443
-  server: jp1-july.88888802.xyz
-  skip-cert-verify: false
-  sni: jp1-july.88888802.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: jp1-july.88888802.xyz
-    path: /91838f3b905c42c7aa5b664b27d8193b
-- client-fingerprint: chrome
-  name: 923,1022|🇯🇵 日本3|@ripaojiedian
+  name: 923,927,1022|🇯🇵 日本3|@ripaojiedian
   network: ws
   password: f2191442-1436-3d79-801e-80d8de896c73
   port: 443
@@ -5079,62 +5105,6 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- alterId: 2
-  cipher: auto
-  name: 1435|日本-v2ray
-  network: ws
-  port: '443'
-  server: jp.sstank.top
-  servername: jp.sstank.top
-  tls: true
-  type: vmess
-  uuid: 6b772c91-a7e1-36a5-aa59-1b12f4339508
-  ws-opts:
-    headers:
-      Host: jp.sstank.top
-    path: /v2ray
-- alterId: 2
-  cipher: auto
-  name: 1435|日本1-v2ray
-  network: ws
-  port: '443'
-  server: jp1.sstank.top
-  servername: jp1.sstank.top
-  tls: true
-  type: vmess
-  uuid: 6b772c91-a7e1-36a5-aa59-1b12f4339508
-  ws-opts:
-    headers:
-      Host: jp1.sstank.top
-    path: /hello
-- alterId: 2
-  cipher: auto
-  name: 1435|日本2-v2ray
-  network: ws
-  port: '443'
-  server: jp2.sstank.top
-  servername: jp2.sstank.top
-  tls: true
-  type: vmess
-  uuid: 6b772c91-a7e1-36a5-aa59-1b12f4339508
-  ws-opts:
-    headers:
-      Host: jp2.sstank.top
-    path: /hello
-- alterId: 0
-  cipher: auto
-  name: 1435|日本3-V2ray
-  network: ws
-  port: '443'
-  server: jp3.sstank.top
-  servername: jp3.sstank.top
-  tls: true
-  type: vmess
-  uuid: 6b772c91-a7e1-36a5-aa59-1b12f4339508
-  ws-opts:
-    headers:
-      Host: jp3.sstank.top
-    path: /hello
 - alterId: 0
   cipher: auto
   name: 1438|🇯🇵 日本A丨Lin丨流媒体
