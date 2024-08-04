@@ -101,7 +101,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '3,599,1353,1354|🇺🇸_US_美国->🇧🇷_BR_巴西 #4'
+  name: '3,599,1356,1357|🇺🇸_US_美国->🇧🇷_BR_巴西 #4'
   network: ws
   port: 2052
   server: 104.18.37.248
@@ -111,7 +111,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '3,599,1353,1354|🇺🇸_US_美国->🇨🇳_CN_中国 #6'
+  name: '3,599,1356,1357|🇺🇸_US_美国->🇨🇳_CN_中国 #6'
   network: ws
   port: 8080
   server: 104.19.47.16
@@ -121,7 +121,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '3,599,1353,1354|🇺🇸_US_美国->🇨🇦_CA_加拿大 #25'
+  name: '3,599,1356,1357|🇺🇸_US_美国->🇨🇦_CA_加拿大 #25'
   network: ws
   port: 2086
   server: 104.19.47.65
@@ -131,7 +131,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '3,599,1353,1354|🇨🇳_CN_中国->🇺🇸_US_美国 #4'
+  name: '3,599,1356,1357|🇨🇳_CN_中国->🇺🇸_US_美国 #4'
   network: ws
   port: 16928
   server: 120.232.240.56
@@ -141,7 +141,7 @@ proxies:
   ws-opts: {}
 - alterId: 64
   cipher: auto
-  name: '3,599,1062,1353,1354|🇨🇳_CN_中国->🇺🇸_US_美国 #5'
+  name: '3,599,1062,1356,1357|🇨🇳_CN_中国->🇺🇸_US_美国 #5'
   network: tcp
   port: 54002
   server: 183.240.235.162
@@ -151,7 +151,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '3,599,1353,1354|🇺🇸_US_美国->🇧🇷_BR_巴西 #5'
+  name: '3,599,1356,1357|🇺🇸_US_美国->🇧🇷_BR_巴西 #5'
   network: ws
   port: 2052
   server: p3.v2raybrasil.cloud
@@ -161,7 +161,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '3,599,721,722,1353,1354|🇺🇸_US_美国->🇫🇷_FR_法国 #7'
+  name: '3,599,721,722,1356,1357|🇺🇸_US_美国->🇫🇷_FR_法国 #7'
   network: ws
   port: 2082
   server: 172.67.130.140
@@ -171,7 +171,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '3,599,1353,1354|🇺🇸_US_美国->🇨🇦_CA_加拿大 #28'
+  name: '3,599,1356,1357|🇺🇸_US_美国->🇨🇦_CA_加拿大 #28'
   network: ws
   port: 2086
   server: 172.64.175.213
@@ -299,69 +299,60 @@ proxies:
     headers:
       Host: ''
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: 569|🇨🇳 台湾1 广东中转
-  password: 9a998239-c2c2-4e11-bc0d-b0b5444a983d
-  port: 45053
-  server: bvip.hongxingdl.vip
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 569|🇨🇳 台湾2 广东中转
-  password: 9a998239-c2c2-4e11-bc0d-b0b5444a983d
-  port: 45053
+- alterId: 0
+  cipher: auto
+  name: 569|🇭🇰 香港2 广东中转
+  network: tcp
+  port: '29767'
   server: gvip.hongxingdl.vip
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 569|🇨🇳 台湾3 广东中转
-  password: 9a998239-c2c2-4e11-bc0d-b0b5444a983d
-  port: 45053
-  server: svip.hongxingdl.vip
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 569|🇸🇬 新加坡1 广东中转
-  password: 9a998239-c2c2-4e11-bc0d-b0b5444a983d
-  port: 25747
+  tls: false
+  type: vmess
+  uuid: 9a998239-c2c2-4e11-bc0d-b0b5444a983d
+- alterId: 0
+  cipher: auto
+  name: 569|🇺🇸 美国1 广东中转
+  network: tcp
+  port: '19358'
   server: bvip.hongxingdl.vip
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 569|🇸🇬 新加坡2 广东中转
-  password: 9a998239-c2c2-4e11-bc0d-b0b5444a983d
-  port: 25747
+  tls: false
+  type: vmess
+  uuid: 9a998239-c2c2-4e11-bc0d-b0b5444a983d
+- alterId: 0
+  cipher: auto
+  name: 569|🇺🇸 美国2 广东中转
+  network: tcp
+  port: '19358'
   server: gvip.hongxingdl.vip
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 569|🇸🇬 新加坡3 广东中转
-  password: 9a998239-c2c2-4e11-bc0d-b0b5444a983d
-  port: 25747
+  tls: false
+  type: vmess
+  uuid: 9a998239-c2c2-4e11-bc0d-b0b5444a983d
+- alterId: 0
+  cipher: auto
+  name: 569|🇺🇸 美国3 广东中转
+  network: tcp
+  port: '19358'
   server: svip.hongxingdl.vip
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 569|🇯🇵 日本1 广东中转
-  password: 9a998239-c2c2-4e11-bc0d-b0b5444a983d
-  port: 37459
-  server: bvip.hongxingdl.vip
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 569|🇯🇵 日本2 广东中转
-  password: 9a998239-c2c2-4e11-bc0d-b0b5444a983d
-  port: 37459
+  tls: false
+  type: vmess
+  uuid: 9a998239-c2c2-4e11-bc0d-b0b5444a983d
+- alterId: 0
+  cipher: auto
+  name: 569|🇳🇱 荷兰 广东中转
+  network: tcp
+  port: '36248'
   server: gvip.hongxingdl.vip
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 569|🇯🇵 日本3 广东中转
-  password: 9a998239-c2c2-4e11-bc0d-b0b5444a983d
-  port: 37459
-  server: svip.hongxingdl.vip
-  type: ss
-  udp: true
+  tls: false
+  type: vmess
+  uuid: 9a998239-c2c2-4e11-bc0d-b0b5444a983d
+- alterId: 0
+  cipher: auto
+  name: 569|🇩🇪 德国 广东中转
+  network: tcp
+  port: '46326'
+  server: gvip.hongxingdl.vip
+  tls: false
+  type: vmess
+  uuid: 9a998239-c2c2-4e11-bc0d-b0b5444a983d
 - alterId: 0
   cipher: auto
   name: 660|🇺🇸 美国 01-中转
@@ -2784,7 +2775,7 @@ proxies:
   country: ??ZZ
   h2-opts: {}
   http-opts: {}
-  name: 974,993,994,1044,1061|CA??SSRSUB_1402945740
+  name: 974,1044,1061|CA??SSRSUB_1402945740
   network: ws
   port: 2086
   server: 104.19.47.79
@@ -2800,26 +2791,24 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '974,993,994|🏁RELAY-104.19.59.89-1046 #1'
+  name: '974|🇺🇸_US_美国->🇨🇦_CA_加拿大_2 #1'
   network: ws
   port: 2052
   server: 104.19.59.89
-  servername: ''
   skip-cert-verify: true
   sni: ''
-  tls: false
   type: vmess
   uuid: d6b6d982-d52f-465a-b988-85670b23f64a
   ws-opts:
     headers:
-      Host: ''
+      host: cdn1.freegradely.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
   country: ??ZZ
   h2-opts: {}
   http-opts: {}
-  name: 974,993,994,1044,1061|CA??SSRSUB_636442388
+  name: 974,1044,1061|CA??SSRSUB_636442388
   network: ws
   port: 2086
   server: 104.19.47.80
@@ -3108,20 +3097,7 @@ proxies:
     path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
 - alterId: 0
   cipher: auto
-  name: 1473|CDN中转1-香港
-  network: ws
-  port: '80'
-  server: 8.212.41.98
-  tls: false
-  type: vmess
-  uuid: 5d69710a-af13-4405-b92e-1caf0ed79bd2
-  ws-opts:
-    headers:
-      Host: 32092911088940.hk.chibaba.filegear-sg.me
-    path: /mls.html?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 1473|CDN中转2-香港
+  name: 1476|CDN中转1-香港
   network: ws
   port: '80'
   server: 8.219.42.72
@@ -3130,115 +3106,11 @@ proxies:
   uuid: 5d69710a-af13-4405-b92e-1caf0ed79bd2
   ws-opts:
     headers:
-      Host: 49139108831617.hk.chibaba.filegear-sg.me
+      Host: 77152549229561.hk.chibaba.filegear-sg.me
     path: /mls.html?ed=2048
 - alterId: 0
   cipher: auto
-  name: 1473|CDN中转3-香港
-  network: ws
-  port: '80'
-  server: 172.64.229.172
-  tls: false
-  type: vmess
-  uuid: 5d69710a-af13-4405-b92e-1caf0ed79bd2
-  ws-opts:
-    headers:
-      Host: 44925151556188.hk.chibaba.filegear-sg.me
-    path: /mls.html?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 1473|CDN中转4-香港
-  network: ws
-  port: '80'
-  server: 172.64.229.226
-  tls: false
-  type: vmess
-  uuid: 5d69710a-af13-4405-b92e-1caf0ed79bd2
-  ws-opts:
-    headers:
-      Host: 96398758171947.hk.chibaba.filegear-sg.me
-    path: /mls.html?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 1473|CDN中转5-香港
-  network: ws
-  port: '80'
-  server: 172.64.229.67
-  tls: false
-  type: vmess
-  uuid: 5d69710a-af13-4405-b92e-1caf0ed79bd2
-  ws-opts:
-    headers:
-      Host: 1514663680159.hk.chibaba.filegear-sg.me
-    path: /mls.html?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 1473|CDN中转6-香港
-  network: ws
-  port: '80'
-  server: 172.64.229.129
-  tls: false
-  type: vmess
-  uuid: 5d69710a-af13-4405-b92e-1caf0ed79bd2
-  ws-opts:
-    headers:
-      Host: 26778076039188.hk.chibaba.filegear-sg.me
-    path: /mls.html?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 1473|CDN中转7-香港
-  network: ws
-  port: '80'
-  server: 172.64.229.126
-  tls: false
-  type: vmess
-  uuid: 5d69710a-af13-4405-b92e-1caf0ed79bd2
-  ws-opts:
-    headers:
-      Host: 58702617777948.hk.chibaba.filegear-sg.me
-    path: /mls.html?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 1473|CDN中转8-香港
-  network: ws
-  port: '80'
-  server: 172.64.229.121
-  tls: false
-  type: vmess
-  uuid: 5d69710a-af13-4405-b92e-1caf0ed79bd2
-  ws-opts:
-    headers:
-      Host: 44896134597018.hk.chibaba.filegear-sg.me
-    path: /mls.html?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 1473|CDN中转9-香港
-  network: ws
-  port: '80'
-  server: 172.64.229.219
-  tls: false
-  type: vmess
-  uuid: 5d69710a-af13-4405-b92e-1caf0ed79bd2
-  ws-opts:
-    headers:
-      Host: 19604211114119.hk.chibaba.filegear-sg.me
-    path: /mls.html?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 1473|CDN中转10-香港
-  network: ws
-  port: '80'
-  server: 172.64.229.11
-  tls: false
-  type: vmess
-  uuid: 5d69710a-af13-4405-b92e-1caf0ed79bd2
-  ws-opts:
-    headers:
-      Host: 72591698839202.hk.chibaba.filegear-sg.me
-    path: /mls.html?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 1473|CDN中转1-英国1-1倍率-M
+  name: 1476|CDN中转2-香港
   network: ws
   port: '80'
   server: 8.212.41.98
@@ -3247,11 +3119,115 @@ proxies:
   uuid: 5d69710a-af13-4405-b92e-1caf0ed79bd2
   ws-opts:
     headers:
-      Host: 95407228091163.tw.chibaba.filegear-sg.me
+      Host: 18917853396896.hk.chibaba.filegear-sg.me
     path: /mls.html?ed=2048
 - alterId: 0
   cipher: auto
-  name: 1473|CDN中转2-英国2-1倍率-M
+  name: 1476|CDN中转3-香港
+  network: ws
+  port: '80'
+  server: 104.16.34.239
+  tls: false
+  type: vmess
+  uuid: 5d69710a-af13-4405-b92e-1caf0ed79bd2
+  ws-opts:
+    headers:
+      Host: 80589238953931.hk.chibaba.filegear-sg.me
+    path: /mls.html?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 1476|CDN中转4-香港
+  network: ws
+  port: '80'
+  server: 172.64.229.30
+  tls: false
+  type: vmess
+  uuid: 5d69710a-af13-4405-b92e-1caf0ed79bd2
+  ws-opts:
+    headers:
+      Host: 28996540182524.hk.chibaba.filegear-sg.me
+    path: /mls.html?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 1476|CDN中转5-香港
+  network: ws
+  port: '80'
+  server: 138.2.18.184
+  tls: false
+  type: vmess
+  uuid: 5d69710a-af13-4405-b92e-1caf0ed79bd2
+  ws-opts:
+    headers:
+      Host: 50129597511418.hk.chibaba.filegear-sg.me
+    path: /mls.html?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 1476|CDN中转6-香港
+  network: ws
+  port: '80'
+  server: 104.16.212.186
+  tls: false
+  type: vmess
+  uuid: 5d69710a-af13-4405-b92e-1caf0ed79bd2
+  ws-opts:
+    headers:
+      Host: 38580469622739.hk.chibaba.filegear-sg.me
+    path: /mls.html?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 1476|CDN中转7-香港
+  network: ws
+  port: '80'
+  server: 172.64.229.196
+  tls: false
+  type: vmess
+  uuid: 5d69710a-af13-4405-b92e-1caf0ed79bd2
+  ws-opts:
+    headers:
+      Host: 29400535387834.hk.chibaba.filegear-sg.me
+    path: /mls.html?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 1476|CDN中转8-香港
+  network: ws
+  port: '80'
+  server: 104.29.69.145
+  tls: false
+  type: vmess
+  uuid: 5d69710a-af13-4405-b92e-1caf0ed79bd2
+  ws-opts:
+    headers:
+      Host: 1568188451070.hk.chibaba.filegear-sg.me
+    path: /mls.html?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 1476|CDN中转9-香港
+  network: ws
+  port: '80'
+  server: 162.159.18.91
+  tls: false
+  type: vmess
+  uuid: 5d69710a-af13-4405-b92e-1caf0ed79bd2
+  ws-opts:
+    headers:
+      Host: 31639034789120.hk.chibaba.filegear-sg.me
+    path: /mls.html?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 1476|CDN中转10-香港
+  network: ws
+  port: '80'
+  server: 104.29.68.93
+  tls: false
+  type: vmess
+  uuid: 5d69710a-af13-4405-b92e-1caf0ed79bd2
+  ws-opts:
+    headers:
+      Host: 88821970418269.hk.chibaba.filegear-sg.me
+    path: /mls.html?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 1476|CDN中转1-英国1-1倍率-M
   network: ws
   port: '80'
   server: 8.219.42.72
@@ -3260,109 +3236,122 @@ proxies:
   uuid: 5d69710a-af13-4405-b92e-1caf0ed79bd2
   ws-opts:
     headers:
-      Host: 36058436251847.tw.chibaba.filegear-sg.me
+      Host: 31759463180351.tw.chibaba.filegear-sg.me
     path: /mls.html?ed=2048
 - alterId: 0
   cipher: auto
-  name: 1473|CDN中转3-英国2-1倍率-M
+  name: 1476|CDN中转2-英国2-1倍率-M
   network: ws
   port: '80'
-  server: 172.64.229.172
+  server: 8.212.41.98
   tls: false
   type: vmess
   uuid: 5d69710a-af13-4405-b92e-1caf0ed79bd2
   ws-opts:
     headers:
-      Host: 56883222170272.tw.chibaba.filegear-sg.me
+      Host: 45001086088473.tw.chibaba.filegear-sg.me
     path: /mls.html?ed=2048
 - alterId: 0
   cipher: auto
-  name: 1473|CDN中转4-英国2-1倍率-M
+  name: 1476|CDN中转3-英国2-1倍率-M
   network: ws
   port: '80'
-  server: 172.64.229.226
+  server: 104.16.34.239
   tls: false
   type: vmess
   uuid: 5d69710a-af13-4405-b92e-1caf0ed79bd2
   ws-opts:
     headers:
-      Host: 37692637037346.tw.chibaba.filegear-sg.me
+      Host: 68851405488685.tw.chibaba.filegear-sg.me
     path: /mls.html?ed=2048
 - alterId: 0
   cipher: auto
-  name: 1473|CDN中转5-英国2-1倍率-M
+  name: 1476|CDN中转4-英国2-1倍率-M
   network: ws
   port: '80'
-  server: 172.64.229.67
+  server: 172.64.229.30
   tls: false
   type: vmess
   uuid: 5d69710a-af13-4405-b92e-1caf0ed79bd2
   ws-opts:
     headers:
-      Host: 22210408986061.tw.chibaba.filegear-sg.me
+      Host: 14574849428257.tw.chibaba.filegear-sg.me
     path: /mls.html?ed=2048
 - alterId: 0
   cipher: auto
-  name: 1473|CDN中转6-英国2-1倍率-M
+  name: 1476|CDN中转5-英国2-1倍率-M
   network: ws
   port: '80'
-  server: 172.64.229.129
+  server: 138.2.18.184
   tls: false
   type: vmess
   uuid: 5d69710a-af13-4405-b92e-1caf0ed79bd2
   ws-opts:
     headers:
-      Host: 35594036115598.tw.chibaba.filegear-sg.me
+      Host: 27309791092254.tw.chibaba.filegear-sg.me
     path: /mls.html?ed=2048
 - alterId: 0
   cipher: auto
-  name: 1473|CDN中转7-英国2-1倍率-M
+  name: 1476|CDN中转6-英国2-1倍率-M
   network: ws
   port: '80'
-  server: 172.64.229.126
+  server: 104.16.212.186
   tls: false
   type: vmess
   uuid: 5d69710a-af13-4405-b92e-1caf0ed79bd2
   ws-opts:
     headers:
-      Host: 71446080523840.tw.chibaba.filegear-sg.me
+      Host: 14109543944880.tw.chibaba.filegear-sg.me
     path: /mls.html?ed=2048
 - alterId: 0
   cipher: auto
-  name: 1473|CDN中转8-英国2-1倍率-M
+  name: 1476|CDN中转7-英国2-1倍率-M
   network: ws
   port: '80'
-  server: 172.64.229.121
+  server: 172.64.229.196
   tls: false
   type: vmess
   uuid: 5d69710a-af13-4405-b92e-1caf0ed79bd2
   ws-opts:
     headers:
-      Host: 794769619806.tw.chibaba.filegear-sg.me
+      Host: 74074489519107.tw.chibaba.filegear-sg.me
     path: /mls.html?ed=2048
 - alterId: 0
   cipher: auto
-  name: 1473|CDN中转9-英国2-1倍率-M
+  name: 1476|CDN中转8-英国2-1倍率-M
   network: ws
   port: '80'
-  server: 172.64.229.219
+  server: 104.29.69.145
   tls: false
   type: vmess
   uuid: 5d69710a-af13-4405-b92e-1caf0ed79bd2
   ws-opts:
     headers:
-      Host: 92198469859526.tw.chibaba.filegear-sg.me
+      Host: 86582890500137.tw.chibaba.filegear-sg.me
     path: /mls.html?ed=2048
 - alterId: 0
   cipher: auto
-  name: 1473|CDN中转10-英国2-1倍率-M
+  name: 1476|CDN中转9-英国2-1倍率-M
   network: ws
   port: '80'
-  server: 172.64.229.11
+  server: 162.159.18.91
   tls: false
   type: vmess
   uuid: 5d69710a-af13-4405-b92e-1caf0ed79bd2
   ws-opts:
     headers:
-      Host: 88229405985837.tw.chibaba.filegear-sg.me
+      Host: 38369955061983.tw.chibaba.filegear-sg.me
+    path: /mls.html?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 1476|CDN中转10-英国2-1倍率-M
+  network: ws
+  port: '80'
+  server: 104.29.68.93
+  tls: false
+  type: vmess
+  uuid: 5d69710a-af13-4405-b92e-1caf0ed79bd2
+  ws-opts:
+    headers:
+      Host: 29205782398434.tw.chibaba.filegear-sg.me
     path: /mls.html?ed=2048
