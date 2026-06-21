@@ -143,31 +143,36 @@ proxies:
   server: 103.75.118.27
   type: ss
 - cipher: aes-128-gcm
-  name: 1170|🇵JP-149.22.87.240-0134
+  country: 🇺🇸US
+  name: 1170,1730|🇺🇸US_110
   password: shadowsocks
   port: 443
   server: 149.22.87.240
   type: ss
 - cipher: aes-128-gcm
-  name: 1170|🇵JP-149.22.87.241-0135
+  country: 🇺🇸US
+  name: 1170,1730|🇺US_112
   password: shadowsocks
   port: 443
   server: 149.22.87.241
   type: ss
 - cipher: aes-128-gcm
-  name: 1170|🇯🇵JP-149.22.87.204-0136
+  country: 🇸US
+  name: 1170,1730|🇺🇸US_111
   password: shadowsocks
   port: 443
   server: 149.22.87.204
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇯🇵JP-103.106.228.175-0138
+  country: IN
+  name: 1170,1730|🇮IN_64
   password: XKFKl2rULjIp74
   port: 8009
   server: 103.106.228.175
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇯🇵JP-47.79.144.115-0192
+  country: 🇺 US
+  name: 1170,1730|🇺 US_102
   password: GTZI5AbjNAeWQG0oVNptvWJogHNKiiKA
   port: 40003
   server: 47.79.144.115
@@ -1110,6 +1115,21 @@ proxies:
     headers:
       Host: ae9c0de474c64c03db9edbf3fc4d8c68.mobgslb.tbcache.com
     path: /
+- alterId: 1
+  cipher: auto
+  country: 🇵JP
+  h2-opts: {}
+  http-opts: {}
+  name: 1730,1816|https://t.me/ForceRunVPN-🇯🇵-To...
+  network: tcp
+  port: '22324'
+  server: 172.104.80.66
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: 1770,1904|0.55|JPhttpsawkjcfky 注册体验流媒体机场...
@@ -1969,16 +1989,6 @@ proxies:
   server: 13.231.229.41
   type: ss
   udp: true
-- alterId: 1
-  cipher: auto
-  name: 1816|https://t.me/ForceRunVPN-🇯🇵-To...
-  network: tcp
-  port: '22324'
-  server: 172.104.80.66
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
   name: 1817|🇯🇵_JP_日本_1_0@8
@@ -2930,11 +2940,22 @@ proxies:
       Host: v6.583181.xyz
     path: /
 - cipher: chacha20-ietf-poly1305
+  name: 2763|JP-Dedicated-B1-1
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 502d36f.default.nvidia.com:25488
+    mode: tls
+  port: 2377
+  server: 502d36f.e9.glados-config.com
+  type: ss
+  udp: false
+- cipher: chacha20-ietf-poly1305
   name: 2763|JP-Dedicated-B1-2
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.nintendo.jp:25488
+    host: 502d36f.default.epicgames.com:25488
     mode: tls
   port: 2377
   server: 502d36f.e9.glados-config.com
@@ -2945,7 +2966,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.fi:25488
+    host: 502d36f.default.nintendo.net:25488
     mode: tls
   port: 2377
   server: 502d36f.e7.glados-config.com
@@ -2956,7 +2977,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.nintendo.de:25488
+    host: 502d36f.default.microsoft.cz:25488
     mode: tls
   port: 2377
   server: 502d36f.e7.glados-config.com
@@ -2967,7 +2988,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.net:25488
+    host: 502d36f.default.microsoft.de:25488
     mode: tls
   port: 2377
   server: 502d36f.e6.glados-config.com
@@ -2978,7 +2999,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.blizzard.com:25488
+    host: 502d36f.default.nintendo.jp:25488
     mode: tls
   port: 2377
   server: 502d36f.e6.glados-config.com
@@ -2989,7 +3010,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.fi:25488
+    host: 502d36f.default.nintendo.be:25488
     mode: tls
   port: 2377
   server: 502d36f.e8.glados-config.com
@@ -3000,7 +3021,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.md:25488
+    host: 502d36f.default.nintendo.de:25488
     mode: tls
   port: 2377
   server: 502d36f.e8.glados-config.com
