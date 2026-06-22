@@ -45,7 +45,7 @@ proxies:
     path: ''
 - alterId: 0
   cipher: auto
-  name: '1160,1170,1890,1891|🇦🇺AU-23.26.239.163-7584 #1'
+  name: '1160,1170,1890,1891|🇦🇺AU-23.26.239.163-7683 #1'
   network: ws
   port: 18420
   server: 23.26.239.163
@@ -62,7 +62,7 @@ proxies:
   cipher: none
   grpc-opts:
     grpc-service-name: /
-  name: 1160,1170|RELAY-23.227.60.184-7684
+  name: 1160,1170|RELAY-23.227.60.184-7686
   network: grpc
   port: 2096
   server: 23.227.60.184
@@ -82,14 +82,29 @@ proxies:
   type: vmess
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - cipher: rc4-md5
-  name: 1170|CA-137.184.174.93-0098
+  country: 🇺🇸US
+  name: 1170,1730|🇸US_119
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 137.184.174.93
   type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇦CA
+  name: 1170,1730|🇨🇦CA_07
+  password: G5p6ww4o67HB
+  port: 8388
+  server: 108.181.118.10
+  type: ss
+- cipher: aes-128-gcm
+  country: 🇺🇸US
+  name: 1170,1730|🇺🇸US_116
+  password: shadowsocks
+  port: 443
+  server: 149.22.95.183
+  type: ss
 - alterId: 0
   cipher: auto
-  name: '1170,1890,1891|🇨🇦CA-23.162.200.227-0148 #1'
+  name: '1170,1890,1891|🇨🇦CA-23.162.200.227-0155 #1'
   network: ws
   port: 443
   server: 23.162.200.227
@@ -102,9 +117,19 @@ proxies:
     headers:
       Host: ''
     path: /
+- cipher: aes-128-cfb
+  name: '1170,1890,1891|8J%2BHqPCfh6ZDQS00NS4xNTQuMjA0... #1'
+  obfs: http_post
+  obfs-param: ''
+  password: $$Turb0VPN$$
+  port: '443'
+  protocol: auth_aes128_md5
+  protocol-param: ''
+  server: ssca.irundns.net
+  type: ssr
 - alterId: 0
   cipher: auto
-  name: '1170,1890,1891|🇨🇦CA-134.195.198.147-0153 #1'
+  name: '1170,1890,1891|🇨🇦CA-134.195.198.147-0157 #1'
   network: ws
   port: 443
   server: 134.195.198.147
@@ -117,18 +142,14 @@ proxies:
     headers:
       Host: inna.cfd
     path: /
-- cipher: aes-128-cfb
-  name: '1170,1890,1891|8J%2BHqPCfh6ZDQS00NS4xNTQuMjA0... #1'
-  obfs: http_post
-  obfs-param: ''
-  password: $$Turb0VPN$$
-  port: '443'
-  protocol: auth_aes128_md5
-  protocol-param: ''
-  server: ssca.irundns.net
-  type: ssr
 - cipher: aes-256-gcm
-  name: 1170|🇨🇦CA-134.195.198.95-0225
+  name: 1170|🇦CA-134.195.196.107-0247
+  password: XKFKl2rULjIp74
+  port: 8009
+  server: 134.195.196.107
+  type: ss
+- cipher: aes-256-gcm
+  name: 1170|🇦CA-134.195.198.95-0270
   password: PCnnH6SQSnfoS27
   port: 8091
   server: 134.195.198.95
@@ -146,13 +167,13 @@ proxies:
   server: 51.161.118.38
   type: ss
 - cipher: aes-256-cfb
-  name: 1170|🇨🇦CA-35.183.126.173-0231
+  name: 1170|🇨🇦CA-35.183.126.173-0275
   password: amazonskr05
   port: 443
   server: 35.183.126.173
   type: ss
 - cipher: aes-256-cfb
-  name: 1170|🇦CA-15.223.5.86-0232
+  name: 1170|🇨🇦CA-15.223.5.86-0276
   password: amazonskr05
   port: 443
   server: 15.223.5.86
@@ -170,7 +191,7 @@ proxies:
   server: 51.161.118.38
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇦CA-85.208.108.20-2800
+  name: 1170|🇦CA-85.208.108.20-2803
   password: zDNVedRFPQexG9v
   port: 6379
   server: 85.208.108.20
@@ -182,151 +203,13 @@ proxies:
   server: 85.208.108.60
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇦CA-85.208.108.20-0254
-  password: Y6R9pAtvxxzmGC
-  port: 5601
-  server: 85.208.108.20
-  type: ss
-- cipher: aes-256-gcm
-  name: 1170|🇨🇦CA-85.208.108.18-0256
-  password: Y6R9pAtvxxzmGC
-  port: 5001
-  server: 85.208.108.18
-  type: ss
-- cipher: aes-256-gcm
-  name: 1170|🇦CA-85.208.108.18-0259
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 85.208.108.18
-  type: ss
-- cipher: aes-256-gcm
-  name: 1170|🇦CA-85.208.108.20-0261
-  password: RexnBgU7EV5ADxG
-  port: 7002
-  server: 85.208.108.20
-  type: ss
-- cipher: aes-256-cfb
-  name: 1170|🇨🇦CA-52.60.99.199-0263
-  password: amazonskr05
-  port: 443
-  server: 52.60.99.199
-  type: ss
-- cipher: aes-256-gcm
-  name: 1170|🇨🇦CA-85.208.108.20-0266
-  password: TEzjfAYq2IjtuoS
-  port: 6679
-  server: 85.208.108.20
-  type: ss
-- cipher: aes-256-gcm
-  name: 1170|🇦CA-85.208.108.20-0267
-  password: TEzjfAYq2IjtuoS
-  port: 6697
-  server: 85.208.108.20
-  type: ss
-- cipher: aes-256-gcm
-  name: 1170|🇦CA-85.208.108.20-0269
-  password: cdBIDV42DCwnfIN
-  port: 8119
-  server: 85.208.108.20
-  type: ss
-- cipher: aes-256-gcm
-  name: 1170|🇦CA-85.208.108.20-0270
-  password: Y6R9pAtvxxzmGC
-  port: 5000
-  server: 85.208.108.20
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 1170|🇦CA-51.161.118.38-0271
-  password: G!yBwPWH3Vao
-  port: 806
-  server: 51.161.118.38
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 1170,1817|🇨🇦_CA_加拿大_3_3@4
-  password: G!yBwPWH3Vao
-  port: 808
-  server: 51.161.118.38
-  type: ss
-- cipher: aes-256-gcm
-  name: 1170|🇨🇦CA-134.195.196.149-0273
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 134.195.196.149
-  type: ss
-- cipher: aes-256-gcm
-  name: 1170|🇨🇦CA-198.57.27.225-0275
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 198.57.27.225
-  type: ss
-- cipher: aes-256-gcm
-  name: 1170|🇦CA-198.57.27.225-0276
-  password: zDNVedRFPQexG9v
-  port: 6379
-  server: 198.57.27.225
-  type: ss
-- cipher: aes-256-gcm
-  name: 1170|🇨🇦CA-198.57.27.225-0277
-  password: KixLvKzwjekG00rm
-  port: 5500
-  server: 198.57.27.225
-  type: ss
-- cipher: aes-256-gcm
-  name: 1170|🇦CA-198.57.27.225-0278
-  password: Y6R9pAtvxxzmGC
-  port: 5600
-  server: 198.57.27.225
-  type: ss
-- cipher: aes-256-gcm
-  name: 1170|🇦CA-198.57.27.225-0279
-  password: cdBIDV42DCwnfIN
-  port: 8118
-  server: 198.57.27.225
-  type: ss
-- cipher: aes-256-gcm
-  name: 1170|🇨🇦CA-198.57.27.225-0280
-  password: e4FCWrgpkji3QY
-  port: 9101
-  server: 198.57.27.225
-  type: ss
-- cipher: aes-256-gcm
-  name: 1170|🇦CA-198.57.27.225-0281
-  password: TEzjfAYq2IjtuoS
-  port: 6697
-  server: 198.57.27.225
-  type: ss
-- cipher: aes-256-gcm
-  name: 1170|🇦CA-198.57.27.225-0282
-  password: Y6R9pAtvxxzmGC
-  port: 8888
-  server: 198.57.27.225
-  type: ss
-- cipher: aes-256-gcm
-  name: 1170|🇦CA-198.57.27.225-0283
-  password: Y6R9pAtvxxzmGC
-  port: 3306
-  server: 198.57.27.225
-  type: ss
-- cipher: aes-256-gcm
-  name: 1170|🇨🇦CA-198.57.27.225-0285
-  password: RexnBgU7EV5ADxG
-  port: 7002
-  server: 198.57.27.225
-  type: ss
-- cipher: aes-256-gcm
-  name: 1170|🇨🇦CA-85.208.108.20-0291
-  password: Y6R9pAtvxxzmGC
-  port: 5001
-  server: 85.208.108.20
-  type: ss
-- cipher: aes-256-gcm
-  name: 1170|🇨🇦CA-134.195.196.149-0306
+  name: 1170|🇦CA-134.195.196.149-0314
   password: FoOiGlkAA9yPEGP
   port: 7307
   server: 134.195.196.149
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 1170|🇨🇦CA-196.247.59.154-0323
+  name: 1170|🇦CA-196.247.59.154-0331
   password: G!yBwPWH3Vao
   port: 800
   server: 196.247.59.154
@@ -348,17 +231,14 @@ proxies:
   server: z0115.security-cloudfront-cdn.com
   type: ssr
   udp: true
-- alterId: 0
-  cipher: aes-256-gcm
-  name: 1170,1968|🇦CA加拿大2
+- cipher: aes-256-gcm
+  name: 1170|🇦CA-144.217.164.29-0756
   password: 8JCsPssfgS8tiRwiMlhARg==
   port: 12000
   server: 144.217.164.29
-  skip-cert-verify: true
-  tls: true
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 1170|🇨🇦CA-45.154.204.7-0754
+  name: 1170|🇨🇦CA-45.154.204.7-0759
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   port: 990
   server: 45.154.204.7
@@ -379,7 +259,7 @@ proxies:
       Host: ''
     path: /IOebhLMhl1CTbFHbL95myfRX2
 - cipher: chacha20-ietf-poly1305
-  name: 1170|🇨🇦CA-23.95.76.59-0759
+  name: 1170|🇨🇦CA-23.95.76.59-0764
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   port: 990
   server: 23.95.76.59
@@ -399,53 +279,50 @@ proxies:
     headers:
       Host: ''
     path: /IOebhLMhl1CTbFHbL95myfRX2
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 1170,1968|🇦CA
+- cipher: chacha20-ietf-poly1305
+  name: 1170|🇦CA-79.127.233.170-0770
   password: f8f7aCzcPKbsF8p3
   port: 990
   server: 79.127.233.170
-  skip-cert-verify: true
-  tls: true
   type: ss
 - cipher: aes-256-cfb
-  name: 1170|🇨🇦CA-79.127.233.170-0769
+  name: 1170|🇨🇦CA-79.127.233.170-0774
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 79.127.233.170
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇦CA-198.8.92.84-0915
+  name: 1170|🇦CA-198.8.92.84-0916
   password: ugyBkSEFxVEmUYSHyvxmWNj9
   port: 40220
   server: 198.8.92.84
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 1170|🇦CA-138.197.174.245-0937
+  name: 1170|🇦CA-138.197.174.245-0938
   password: yuMqkGIx6Ia0
   port: 56443
   server: 138.197.174.245
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇨🇦CA-198.8.92.84-0954
+  name: 1170|🇦CA-198.8.92.84-0955
   password: J9Y2ncrdPEC38gwydNFFGBna
   port: 35294
   server: 198.8.92.84
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇨🇦CA-198.8.92.84-0958
+  name: 1170|🇨🇦CA-198.8.92.84-0959
   password: F5bKkb9ggkLx4JbQrbLn7LjZ
   port: 44945
   server: 198.8.92.84
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇨🇦CA-198.8.92.84-0970
+  name: 1170|🇨🇦CA-198.8.92.84-0971
   password: Kquv5UhvZXNMemAQy8DxZ7qn
   port: 38620
   server: 198.8.92.84
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇨🇦CA-198.8.92.84-0971
+  name: 1170|🇨🇦CA-198.8.92.84-0972
   password: BdRWC38L5JUDMTYNNxJGcUwB
   port: 49396
   server: 198.8.92.84
@@ -461,6 +338,12 @@ proxies:
   password: zDNVedRFPQexG9v
   port: 6379
   server: 85.208.108.90
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 1170,1817|🇨🇦_CA_加拿大_3_3@4
+  password: G!yBwPWH3Vao
+  port: 808
+  server: 51.161.118.38
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 1170,1817|🇨🇦_CA_加拿大_5_3@6
@@ -508,7 +391,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '1170,1817,1890,1891|🇨🇦CA-132.145.99.228-1233 #1'
+  name: '1170,1817,1890,1891|🇨🇦CA-132.145.99.228-1335 #1'
   network: ws
   port: 13724
   server: 132.145.99.228
@@ -523,7 +406,7 @@ proxies:
     path: /ws-path
 - alterId: 0
   cipher: auto
-  name: '1170,1890,1891|🇨🇦CA-192.99.8.99-1333 #1'
+  name: '1170,1890,1891|🇨🇦CA-192.99.8.99-1435 #1'
   network: ws
   port: 36005
   server: 192.99.8.99
@@ -550,7 +433,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '1170,1890,1891|🇨🇦CA-158.51.121.36-1702 #1'
+  name: '1170,1890,1891|🇨🇦CA-158.51.121.36-1802 #1'
   network: ws
   port: 443
   server: 158.51.121.36
@@ -571,7 +454,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1170|🇦CA-72.140.224.195-1938
+  name: 1170|🇦CA-72.140.224.195-1941
   password: G!yBwPWH3Vao
   port: 800
   server: 72.140.224.195
@@ -583,13 +466,13 @@ proxies:
   server: 85.208.108.60
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇦CA-85.208.108.60-2005
+  name: 1170|🇦CA-85.208.108.60-2008
   password: KixLvKzwjekG00rm
   port: 5500
   server: 85.208.108.60
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇨CA-85.208.108.60-2022
+  name: 1170|🇨CA-85.208.108.60-2025
   password: Y6R9pAtvxxzmGC
   port: 3389
   server: 85.208.108.60
@@ -625,7 +508,7 @@ proxies:
   server: 85.208.108.60
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇦CA-85.208.108.60-2130
+  name: 1170|🇦CA-85.208.108.60-2133
   password: KixLvKzwjekG00rm
   port: 8080
   server: 85.208.108.60
@@ -637,7 +520,7 @@ proxies:
   server: 85.208.108.60
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇦CA-85.208.108.60-2132
+  name: 1170|🇦CA-85.208.108.60-2135
   password: cdBIDV42DCwnfIN
   port: 8119
   server: 85.208.108.60
@@ -716,7 +599,7 @@ proxies:
   server: 85.208.108.60
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇨🇦CA-85.208.108.60-3474
+  name: 1170|🇨🇦CA-85.208.108.60-3477
   password: e4FCWrgpkji3QY
   port: 9101
   server: 85.208.108.60
@@ -740,13 +623,19 @@ proxies:
   server: 85.208.108.60
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇦CA-85.208.108.59-2554
+  name: 1170|🇨🇦CA-85.208.108.18-2418
+  password: Y6R9pAtvxxzmGC
+  port: 5001
+  server: 85.208.108.18
+  type: ss
+- cipher: aes-256-gcm
+  name: 1170|🇦CA-85.208.108.59-2557
   password: XKFKl2rULjIp74
   port: 8009
   server: 85.208.108.59
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇦CA-85.208.108.59-2693
+  name: 1170|🇦CA-85.208.108.59-2696
   password: zDNVedRFPQexG9v
   port: 6379
   server: 85.208.108.59
@@ -764,26 +653,26 @@ proxies:
   server: 85.208.108.60
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇦CA-85.208.108.61-3803
+  name: 1170|🇦CA-85.208.108.61-3806
   password: pKEW8JPByTVTLtM
   port: 443
   server: 85.208.108.61
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇨🇦CA-85.208.108.92-3804
+  name: 1170|🇨🇦CA-85.208.108.92-3807
   password: pKEW8JPByTVTLtM
   port: 443
   server: 85.208.108.92
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 1170|🇦CA-196.247.59.156-3979
+  name: 1170|🇦CA-196.247.59.156-3982
   password: G!yBwPWH3Vao
   port: 806
   server: 196.247.59.156
   type: ss
 - alterId: 0
   cipher: auto
-  name: '1170,1776,1890,1891|🇨🇦CA-149.56.95.159-3991 #1'
+  name: '1170,1776,1890,1891|🇨🇦CA-149.56.95.159-4091 #1'
   network: ws
   port: 23784
   server: 149.56.95.159
@@ -798,7 +687,7 @@ proxies:
     path: /
 - alterId: 4
   cipher: auto
-  name: '1170,1890,1891|🇨🇦CA-138.197.165.31-4321 #1'
+  name: '1170,1890,1891|🇨🇦CA-138.197.165.31-4421 #1'
   network: ws
   port: 8080
   server: 138.197.165.31
@@ -811,18 +700,6 @@ proxies:
     headers:
       Host: ''
     path: /cctv13/hd.m3u8
-- cipher: chacha20-ietf-poly1305
-  name: 1170|🇦CA-108.181.118.10-4467
-  password: G5p6ww4o67HB
-  port: 8388
-  server: 108.181.118.10
-  type: ss
-- cipher: aes-128-gcm
-  name: 1170|🇨🇦CA-149.22.95.183-4558
-  password: shadowsocks
-  port: 443
-  server: 149.22.95.183
-  type: ss
 - cipher: aes-256-gcm
   name: 1170|🇨🇦CA-134.195.196.149-4682
   password: PCnnH6SQSnfoS27
@@ -1052,7 +929,13 @@ proxies:
   server: 85.208.108.58
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇦CA-85.208.108.94-4971
+  name: 1170|🇦CA-85.208.108.20-4970
+  password: TEzjfAYq2IjtuoS
+  port: 6679
+  server: 85.208.108.20
+  type: ss
+- cipher: aes-256-gcm
+  name: 1170|🇨🇦CA-85.208.108.94-4971
   password: Y6R9pAtvxxzmGC
   port: 5001
   server: 85.208.108.94
@@ -1100,7 +983,13 @@ proxies:
   server: 85.208.108.20
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇨🇦CA-85.208.108.59-4986
+  name: 1170|🇨🇦CA-85.208.108.20-4985
+  password: cdBIDV42DCwnfIN
+  port: 8119
+  server: 85.208.108.20
+  type: ss
+- cipher: aes-256-gcm
+  name: 1170|🇦CA-85.208.108.59-4986
   password: cdBIDV42DCwnfIN
   port: 8119
   server: 85.208.108.59
@@ -1159,6 +1048,12 @@ proxies:
   port: 804
   server: 196.247.59.156
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 1170|🇨🇦CA-51.161.118.38-5147
+  password: G!yBwPWH3Vao
+  port: 806
+  server: 51.161.118.38
+  type: ss
 - cipher: aes-256-gcm
   name: 1170|🇦CA-134.195.196.149-5228
   password: XKFKl2rULjIp74
@@ -1209,10 +1104,10 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 1170|🇦CA-134.195.196.107-5239
-  password: XKFKl2rULjIp74
-  port: 8009
-  server: 134.195.196.107
+  name: 1170|🇨🇦CA-134.195.196.149-5237
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 134.195.196.149
   type: ss
 - cipher: aes-256-gcm
   name: 1170|🇨🇦CA-134.195.198.95-5241
@@ -1234,7 +1129,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '1170,1890,1891|🇨🇦CA-137.184.164.233-6248 #1'
+  name: '1170,1890,1891|🇨🇦CA-137.184.164.233-6348 #1'
   network: ws
   port: 80
   server: 137.184.164.233
@@ -1249,7 +1144,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: '1170,1763,1764,1890,1891,1969|未知77 #1'
+  name: 1170,1763,1764,1890,1891,1969|未知18
   network: ws
   port: '443'
   server: 158.51.121.63
@@ -1264,7 +1159,7 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: '1170,1801,1890,1891|🇨🇦CA-23.162.200.227-6272 #1'
+  name: '1170,1801,1890,1891|🇨🇦CA-23.162.200.227-6372 #1'
   network: ws
   port: 443
   server: 23.162.200.227
@@ -1280,7 +1175,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '1170,1890,1891|🇨🇦CA-134.195.198.147-6274 #1'
+  name: '1170,1890,1891|🇨🇦CA-134.195.198.147-6374 #2'
   network: ws
   port: 443
   server: 134.195.198.147
@@ -1295,7 +1190,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '1170,1890,1891|🇨🇦CA-148.113.176.192-6282 #1'
+  name: '1170,1890,1891|🇨🇦CA-148.113.176.192-6382 #1'
   network: ws
   port: 443
   server: 148.113.176.192
@@ -1310,7 +1205,7 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: '1170,1890,1891|🇨🇦CA-148.113.153.109-6285 #1'
+  name: '1170,1890,1891|🇨🇦CA-148.113.153.109-6385 #1'
   network: ws
   port: 443
   server: 148.113.153.109
@@ -1325,7 +1220,7 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: '1170,1890,1891|🇨🇦CA-15.235.50.172-6294 #1'
+  name: '1170,1890,1891|🇨🇦CA-15.235.50.172-6394 #1'
   network: ws
   port: 443
   server: 15.235.50.172
@@ -1340,7 +1235,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '1170,1890,1891|🇨🇦CA-15.235.85.147-6303 #1'
+  name: '1170,1890,1891|🇨🇦CA-15.235.85.147-6403 #1'
   network: ws
   port: 443
   server: 15.235.85.147
@@ -1355,7 +1250,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '1170,1890,1891|🇨🇦CA-15.235.85.156-6314 #1'
+  name: '1170,1890,1891|🇨🇦CA-15.235.85.156-6414 #1'
   network: ws
   port: 443
   server: 15.235.85.156
@@ -1370,7 +1265,7 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: '1170,1890,1891|🇨🇦CA-15.235.83.228-6321 #1'
+  name: '1170,1890,1891|🇨🇦CA-15.235.83.228-6421 #1'
   network: ws
   port: 443
   server: 15.235.83.228
@@ -1385,7 +1280,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '1170,1890,1891|🇨🇦CA-15.235.83.227-6325 #1'
+  name: '1170,1890,1891|🇨🇦CA-15.235.83.227-6425 #2'
   network: ws
   port: 443
   server: 15.235.83.227
@@ -1400,7 +1295,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '1170,1890,1891|🇨🇦CA-23.162.200.94-6997 #1'
+  name: '1170,1890,1891|🇨🇦CA-23.162.200.94-7096 #1'
   network: ws
   port: 443
   server: 23.162.200.94
@@ -1428,85 +1323,7 @@ proxies:
     path: /IYKLD53M
 - alterId: 0
   cipher: auto
-  name: 1520|加拿大-优化
-  network: ws
-  port: '16641'
-  server: planb.mojcn.com
-  tls: false
-  type: vmess
-  uuid: d0774966-fb63-4aca-9478-16c3f32be220
-  ws-opts:
-    headers:
-      Host: 706dc7c0280181c5816781dea5ae3d87.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1520|加拿大-优化2
-  network: ws
-  port: '16641'
-  server: m.cnmjin.net
-  tls: false
-  type: vmess
-  uuid: d0774966-fb63-4aca-9478-16c3f32be220
-  ws-opts:
-    headers:
-      Host: 706dc7c0280181c5816781dea5ae3d87.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1520|加拿大-优化3
-  network: ws
-  port: '16641'
-  server: t.cnmjcn.cyou
-  tls: false
-  type: vmess
-  uuid: d0774966-fb63-4aca-9478-16c3f32be220
-  ws-opts:
-    headers:
-      Host: 706dc7c0280181c5816781dea5ae3d87.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '1528|加拿大-优化 #1'
-  network: ws
-  port: '16641'
-  server: planb.mojcn.com
-  tls: false
-  type: vmess
-  uuid: 820517c1-1cfb-47ff-bfdd-48faf83773b5
-  ws-opts:
-    headers:
-      Host: cd8e88d8bdf6378f00346c2973620506.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '1528|加拿大-优化2 #1'
-  network: ws
-  port: '16641'
-  server: m.cnmjin.net
-  tls: false
-  type: vmess
-  uuid: 820517c1-1cfb-47ff-bfdd-48faf83773b5
-  ws-opts:
-    headers:
-      Host: cd8e88d8bdf6378f00346c2973620506.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '1528|加拿大-优化3 #1'
-  network: ws
-  port: '16641'
-  server: t.cnmjcn.cyou
-  tls: false
-  type: vmess
-  uuid: 820517c1-1cfb-47ff-bfdd-48faf83773b5
-  ws-opts:
-    headers:
-      Host: cd8e88d8bdf6378f00346c2973620506.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '1530|加拿大-优化 #2'
+  name: 1530|加拿大-优化
   network: ws
   port: '16641'
   server: planb.mojcn.com
@@ -1519,7 +1336,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '1530|加拿大-优化2 #2'
+  name: 1530|加拿大-优化2
   network: ws
   port: '16641'
   server: m.cnmjin.net
@@ -1532,7 +1349,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '1530|加拿大-优化3 #2'
+  name: 1530|加拿大-优化3
   network: ws
   port: '16641'
   server: t.cnmjcn.cyou
@@ -1545,7 +1362,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '1619,1620,1621|加拿大-优化 #5'
+  name: '1619,1620,1621|加拿大-优化 #3'
   network: ws
   port: '16641'
   server: planb.mojcn.com
@@ -1558,7 +1375,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '1619,1620,1621|加拿大-优化2 #5'
+  name: '1619,1620,1621|加拿大-优化2 #3'
   network: ws
   port: '16641'
   server: m.cnmjin.net
@@ -1571,7 +1388,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '1619,1620,1621|加拿大-优化3 #5'
+  name: '1619,1620,1621|加拿大-优化3 #3'
   network: ws
   port: '16641'
   server: t.cnmjcn.cyou
@@ -1584,7 +1401,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '1623|加拿大-优化 #6'
+  name: '1623|加拿大-优化 #4'
   network: ws
   port: '16641'
   server: planb.mojcn.com
@@ -1597,7 +1414,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '1623|加拿大-优化2 #6'
+  name: '1623|加拿大-优化2 #4'
   network: ws
   port: '16641'
   server: m.cnmjin.net
@@ -1610,7 +1427,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '1623|加拿大-优化3 #6'
+  name: '1623|加拿大-优化3 #4'
   network: ws
   port: '16641'
   server: t.cnmjcn.cyou
@@ -1633,22 +1450,21 @@ proxies:
   uuid: 58fe1542-5290-40ad-815a-77707a81afe5
 - alterId: 0
   cipher: auto
-  name: 1763,1764,1968|未知77
+  name: '1763,1764|t.me/v2Line | Free | 3191 | Ca... #1'
   network: ws
-  port: 443
+  port: '443'
   server: 158.51.121.63
   servername: seribus.org
-  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      host: seribus.org
+      Host: ''
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: '1763,1764,1969|未知9 #1'
+  name: 1763,1764,1969|未知22
   network: ws
   port: '443'
   server: 15.235.83.228
@@ -1699,6 +1515,20 @@ proxies:
     headers:
       Host: gaio.miaoge110.cf
     path: /jcnf
+- alterId: 2
+  cipher: auto
+  name: '1776,1874,1890,1891|🇺🇸US-13.248.169.48-0077 #1'
+  network: ws
+  port: 443
+  server: 330tw.fans8.xyz
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
+  ws-opts:
+    headers:
+      Host: 330tw.fans8.xyz
+    path: /ray
 - alterId: 4
   cipher: aes-128-gcm
   name: 1776,1842|美国 06 ServerMania
