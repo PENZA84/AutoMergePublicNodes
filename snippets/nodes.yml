@@ -11482,7 +11482,7 @@ proxies:
   uuid: 388add20-90e0-40b7-b891-74ed3b817d71
 - alterId: 0
   cipher: auto
-  name: '412,1780,1828|比利时 036 #1'
+  name: '412,1763,1764,1780,1828|比利时 036 #1'
   network: tcp
   port: 10086
   server: 57.151.100.27
@@ -25608,7 +25608,6 @@ proxies:
   network: tcp
   port: 8088
   server: 65.109.218.60
-  servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -38574,7 +38573,8 @@ proxies:
   server: 185.189.160.105
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 1170|🇬🇧GB-82.38.31.216-0148
+  country: 🇬🇧GB
+  name: 1170,1735|Relay_GB-NL_01
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.216
@@ -40147,7 +40147,7 @@ proxies:
   type: http
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '1170,1851|🇺🇸_US_美国 #2'
+  name: '1170,1851|🇺🇸_US_美国_2 #1'
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -40159,7 +40159,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1170,1851,2000|US_speednode_0022
+  name: 1170,2000|US_speednode_0022
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -40168,12 +40168,11 @@ proxies:
     tls: false
   port: 2377
   server: 134.195.101.118
-  skip-cert-verify: true
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: '1170,1763,1764,1780,1851,1890,1891,1968,1969|未知4 36.2KB/s #1'
+  name: '1170,1763,1764,1780,1890,1891,1968,1969|未知4 36.2KB/s #1'
   network: ws
   port: '36703'
   server: 47.244.120.197
@@ -40181,14 +40180,13 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: vmess
-  udp: true
   uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
   ws-opts:
     headers:
       Host: ''
     path: /arki?ed=2048
 - cipher: chacha20-ietf-poly1305
-  name: '1170,1851|🇺🇸_US_美国_3 #1'
+  name: '1170,1851|🇺🇸_US_美国_1 #1'
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -40200,7 +40198,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '1170,1851|🇺🇸_US_美国_4 #1'
+  name: '1170,1851|🇺🇸_US_美国 #2'
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -40212,7 +40210,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1170,1851,2000|US_speednode_0023
+  name: 1170,2000|US_speednode_0023
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -40221,7 +40219,6 @@ proxies:
     tls: false
   port: 2377
   server: 134.195.101.117
-  skip-cert-verify: true
   type: ss
   udp: true
 - alterId: 0
@@ -41493,7 +41490,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '1170,1890,1891,1901|🇭🇰_HK_中国香港 #2'
+  name: '1170,1890,1891,1901|🇭🇰_HK_中国香港 #1'
   network: ws
   port: 36703
   server: 47.244.120.197
@@ -49190,7 +49187,7 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   country: 🇬🇧GB
-  name: 1170,1735|Relay_GB-NL_01
+  name: 1170,1735|Relay_🇬🇧GB-🇳🇱NL_02
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.219
@@ -64430,6 +64427,15 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 2
+  cipher: auto
+  name: '1731|🇺🇸US_38|1.1MB/s | 更多节点: https:...'
+  network: tcp
+  port: '30845'
+  server: v45.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: aes-256-cfb
   country: 🇸US
   name: '1735,1805|未命名 #15'
@@ -64439,30 +64445,6 @@ proxies:
   protocol: auth_aes128_sha1
   server: nm3.boom.party
   type: ssr
-- alterId: 2
-  cipher: auto
-  country: 🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: 1735|Relay_🇺🇸US-🇺🇸US_03
-  network: tcp
-  port: 30829
-  server: v29.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: 1735|Relay_🇺🇸US-🇺🇸US_04
-  network: tcp
-  port: 30845
-  server: v45.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
   name: 1759|US_youtube@资源分享师_148
@@ -65823,7 +65805,7 @@ proxies:
   cipher: auto
   grpc-opts:
     grpc-service-name: api
-  name: '1763,1764|GB 🇬🇧 | @Raydikalx | 2591 #1'
+  name: '1763,1764|GB 🇬🇧 | @Raydikalx | 2597 #1'
   network: grpc
   port: '2096'
   server: 57.128.174.124
@@ -65844,7 +65826,7 @@ proxies:
   uuid: 3d358ea5-465b-46ac-a2df-98ca1555194f
 - alterId: 0
   cipher: auto
-  name: '1763,1764|Global 🌐 | @Raydikalx | 2593 #1'
+  name: '1763,1764|Global 🌐 | @Raydikalx | 2599 #1'
   network: ws
   port: '443'
   server: 57.129.28.64
@@ -65898,7 +65880,7 @@ proxies:
     path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1/?de=2560
 - alterId: 0
   cipher: auto
-  name: '1763,1764|TR 🇹🇷 | @Raydikalx | 2616 #1'
+  name: '1763,1764|TR 🇹🇷 | @Raydikalx | 2621 #1'
   network: ws
   port: '80'
   server: 185.104.189.38
@@ -65977,7 +65959,7 @@ proxies:
     path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
 - alterId: 0
   cipher: auto
-  name: '1763,1764|TR 🇹🇷 | @Raydikalx | 2624 #1'
+  name: '1763,1764|TR 🇹🇷 | @Raydikalx | 2629 #1'
   network: ws
   port: '80'
   server: tr1-smart.adelping.com
@@ -66002,7 +65984,7 @@ proxies:
   uuid: c8b3fd38-cb60-434c-bd7e-63638226f4a8
 - alterId: 0
   cipher: auto
-  name: '1763,1764|Global 🌐 | @Raydikalx | 2629 #1'
+  name: '1763,1764|Global 🌐 | @Raydikalx | 2634 #1'
   network: xhttp
   port: '443'
   server: www.speedtest.net
@@ -66066,7 +66048,7 @@ proxies:
   uuid: 98bd500d-cd2e-4e6a-a2ae-59a1f40930af
 - alterId: 0
   cipher: auto
-  name: '1763,1764|US 🇺🇸 | @Raydikalx | 2690 #1'
+  name: '1763,1764|US 🇺🇸 | @Raydikalx | 2695 #1'
   network: ws
   port: 443
   server: xcf037.facai2024.com
@@ -66080,7 +66062,7 @@ proxies:
     path: /d9863037
 - alterId: 0
   cipher: auto
-  name: '1763,1764|CZ 🇨🇿 | @Raydikalx | 2691 #1'
+  name: '1763,1764|CZ 🇨🇿 | @Raydikalx | 2696 #1'
   network: ws
   port: 443
   server: time.is
@@ -66137,6 +66119,20 @@ proxies:
     headers:
       Host: glweidf.sbs
     path: /linkws
+- alterId: 0
+  cipher: auto
+  name: '1763,1764|US 🇺🇸 | @Raydikalx | 3274 #1'
+  network: ws
+  port: '443'
+  server: yg1.ygkkk.dpdns.org
+  servername: attitude-interracial-country-gen.trycloudflare.com
+  tls: true
+  type: vmess
+  uuid: 6a25f9ba-70a0-4d53-a2a9-19d8f1fcad76
+  ws-opts:
+    headers:
+      Host: attitude-interracial-country-gen.trycloudflare.com
+    path: /6a25f9ba-70a0-4d53-a2a9-19d8f1fcad76-vm
 - alterId: 0
   cipher: auto
   name: '1763,1764,1968,1969|未知71 #1'
@@ -116650,11 +116646,19 @@ proxies:
   ws-headers:
     Host: rn.qiutan.pw
   ws-path: /videos
+- cipher: chacha20-ietf-poly1305
+  name: 1851|🇱🇹_LT_立陶宛
+  password: 4LuSQluWs3meAy5vOo7ikZ
+  port: 443
+  server: 80.208.229.172
+  skip-cert-verify: true
+  type: ss
+  udp: true
 - alpn:
   - h3
   auth_str: dongtaiwang.com
   down: '1000'
-  name: 1851|🇩🇪_DE_德国
+  name: '1851|🇩🇪_DE_德国_1 #1'
   port: 54177
   server: 5.83.129.90
   skip-cert-verify: true
@@ -116800,7 +116804,7 @@ proxies:
   type: ss
 - alterId: 64
   cipher: auto
-  name: '1852|🇺🇸_US_美国_3 #2'
+  name: '1852|🇺🇸_US_美国_3 #1'
   network: ws
   port: 30000
   server: 45.199.138.186
@@ -116814,7 +116818,7 @@ proxies:
     path: /path/1696682720138
 - alterId: 0
   cipher: auto
-  name: '1852|🇺🇸_US_美国_4 #2'
+  name: '1852|🇺🇸_US_美国_4 #1'
   network: ws
   port: 80
   server: wnd3.shabijichang.com
@@ -116870,7 +116874,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '1852,1907|🇺🇸_US_美国_3 #3'
+  name: '1852,1907|🇺🇸_US_美国_3 #2'
   network: ws
   port: 80
   server: mm3.shabijichang.com
@@ -131614,7 +131618,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.is:25488
+    host: 502d36f.default.nintendo.jp:25488
     mode: tls
   port: 2377
   server: 502d36f.r9.glados-config.com
@@ -131625,7 +131629,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.ch:25488
+    host: 502d36f.default.microsoft.dk:25488
     mode: tls
   port: 2377
   server: 502d36f.r9.glados-config.com
@@ -131636,7 +131640,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.nintendo.de:25488
+    host: 502d36f.default.blizzard.com:25488
     mode: tls
   port: 2377
   server: 502d36f.r7.glados-config.com
@@ -131647,7 +131651,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.cz:25488
+    host: 502d36f.default.nintendo.de:25488
     mode: tls
   port: 2377
   server: 502d36f.r7.glados-config.com
@@ -131658,7 +131662,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.nintendo.com:25488
+    host: 502d36f.default.microsoft.es:25488
     mode: tls
   port: 2377
   server: 502d36f.r6.glados-config.com
@@ -131669,7 +131673,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.xboxlive.com:25488
+    host: 502d36f.default.microsoft.cat:25488
     mode: tls
   port: 2377
   server: 502d36f.r6.glados-config.com
@@ -131680,7 +131684,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.jp:25488
+    host: 502d36f.default.microsoft.ge:25488
     mode: tls
   port: 2377
   server: 502d36f.r8.glados-config.com
@@ -131691,7 +131695,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.nintendo.be:25488
+    host: 502d36f.default.microsoft.lt:25488
     mode: tls
   port: 2377
   server: 502d36f.r8.glados-config.com
@@ -131702,7 +131706,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.net:25488
+    host: 502d36f.default.microsoft.jp:25488
     mode: tls
   port: 2377
   server: 502d36f.b9.glados-config.com
@@ -131713,7 +131717,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.nintendo.be:25488
+    host: 502d36f.default.nintendo.net:25488
     mode: tls
   port: 2377
   server: 502d36f.b9.glados-config.com
@@ -131724,7 +131728,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.nintendo.eu:25488
+    host: 502d36f.default.epicgames.com:25488
     mode: tls
   port: 2377
   server: 502d36f.b7.glados-config.com
@@ -131735,7 +131739,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.nintendo.es:25488
+    host: 502d36f.default.nintendo.net:25488
     mode: tls
   port: 2377
   server: 502d36f.b7.glados-config.com
@@ -131746,7 +131750,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.lu:25488
+    host: 502d36f.default.nintendo.net:25488
     mode: tls
   port: 2377
   server: 502d36f.b6.glados-config.com
@@ -131757,7 +131761,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.es:25488
+    host: 502d36f.default.mozilla.net:25488
     mode: tls
   port: 2377
   server: 502d36f.b6.glados-config.com
@@ -131768,7 +131772,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.nintendo.net:25488
+    host: 502d36f.default.microsoft.hu:25488
     mode: tls
   port: 2377
   server: 502d36f.b8.glados-config.com
@@ -131779,7 +131783,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.epicgames.com:25488
+    host: 502d36f.default.microsoft.es:25488
     mode: tls
   port: 2377
   server: 502d36f.b8.glados-config.com
@@ -131790,7 +131794,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.cz:25488
+    host: 502d36f.default.microsoft.de:25488
     mode: tls
   port: 2377
   server: 502d36f.di.glados-config.com
@@ -131801,7 +131805,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.fi:25488
+    host: 502d36f.default.microsoft.is:25488
     mode: tls
   port: 2377
   server: 502d36f.di.glados-config.com
@@ -131812,7 +131816,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.ch:25488
+    host: 502d36f.default.microsoft.hu:25488
     mode: tls
   port: 2377
   server: 502d36f.dg.glados-config.com
@@ -131823,7 +131827,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.lu:25488
+    host: 502d36f.default.microsoft.de:25488
     mode: tls
   port: 2377
   server: 502d36f.dg.glados-config.com
@@ -131834,7 +131838,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.is:25488
+    host: 502d36f.default.microsoft.dk:25488
     mode: tls
   port: 2377
   server: 502d36f.df.glados-config.com
@@ -131845,7 +131849,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.lt:25488
+    host: 502d36f.default.nintendo.com:25488
     mode: tls
   port: 2377
   server: 502d36f.df.glados-config.com
@@ -131856,7 +131860,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.nintendo.eu:25488
+    host: 502d36f.default.microsoft.net:25488
     mode: tls
   port: 2377
   server: 502d36f.dh.glados-config.com
@@ -131867,7 +131871,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.ch:25488
+    host: 502d36f.default.nintendo.eu:25488
     mode: tls
   port: 2377
   server: 502d36f.dh.glados-config.com
@@ -131878,7 +131882,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.lt:25488
+    host: 502d36f.default.nvidia.com:25488
     mode: tls
   port: 2377
   server: 502d36f.m9.glados-config.com
@@ -131889,10 +131893,21 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.nintendo.net:25488
+    host: 502d36f.default.microsoft.it:25488
     mode: tls
   port: 2377
   server: 502d36f.m9.glados-config.com
+  type: ss
+  udp: false
+- cipher: chacha20-ietf-poly1305
+  name: 2763|TW-IPv6-P1-3
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 502d36f.default.microsoft.fi:25488
+    mode: tls
+  port: 2377
+  server: 502d36f.m7.glados-config.com
   type: ss
   udp: false
 - cipher: chacha20-ietf-poly1305
@@ -131900,7 +131915,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.md:25488
+    host: 502d36f.default.microsoft.dk:25488
     mode: tls
   port: 2377
   server: 502d36f.m7.glados-config.com
@@ -131911,7 +131926,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.nintendo.it:25488
+    host: 502d36f.default.epicgames.com:25488
     mode: tls
   port: 2377
   server: 502d36f.m6.glados-config.com
@@ -131922,7 +131937,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.fastly.net:25488
+    host: 502d36f.default.nintendo.es:25488
     mode: tls
   port: 2377
   server: 502d36f.m6.glados-config.com
@@ -131933,7 +131948,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.nintendo.it:25488
+    host: 502d36f.default.nintendo.jp:25488
     mode: tls
   port: 2377
   server: 502d36f.m8.glados-config.com
@@ -131944,7 +131959,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.nintendo.net:25488
+    host: 502d36f.default.microsoft.jp:25488
     mode: tls
   port: 2377
   server: 502d36f.m8.glados-config.com
@@ -131955,7 +131970,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.is:25488
+    host: 502d36f.default.xboxlive.com:25488
     mode: tls
   port: 2377
   server: 502d36f.d9.glados-config.com
@@ -131966,7 +131981,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.nintendo.de:25488
+    host: 502d36f.default.microsoft.dk:25488
     mode: tls
   port: 2377
   server: 502d36f.d9.glados-config.com
@@ -131977,7 +131992,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.nintendo.jp:25488
+    host: 502d36f.default.microsoft.cz:25488
     mode: tls
   port: 2377
   server: 502d36f.d7.glados-config.com
@@ -131988,7 +132003,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.io:25488
+    host: 502d36f.default.microsoft.ge:25488
     mode: tls
   port: 2377
   server: 502d36f.d7.glados-config.com
@@ -131999,7 +132014,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.nintendo.net:25488
+    host: 502d36f.default.nintendo.de:25488
     mode: tls
   port: 2377
   server: 502d36f.d6.glados-config.com
@@ -132010,7 +132025,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.md:25488
+    host: 502d36f.default.microsoft.ee:25488
     mode: tls
   port: 2377
   server: 502d36f.d6.glados-config.com
@@ -132021,7 +132036,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.ee:25488
+    host: 502d36f.default.microsoft.eu:25488
     mode: tls
   port: 2377
   server: 502d36f.d8.glados-config.com
@@ -132032,7 +132047,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.jp:25488
+    host: 502d36f.default.nintendo.net:25488
     mode: tls
   port: 2377
   server: 502d36f.d8.glados-config.com
@@ -132043,7 +132058,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.blizzard.com:25488
+    host: 502d36f.default.microsoft.ch:25488
     mode: tls
   port: 2377
   server: 502d36f.f9.glados-config.com
@@ -132054,7 +132069,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.com:25488
+    host: 502d36f.default.microsoft.fi:25488
     mode: tls
   port: 2377
   server: 502d36f.f9.glados-config.com
@@ -132076,7 +132091,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.ee:25488
+    host: 502d36f.default.microsoft.cz:25488
     mode: tls
   port: 2377
   server: 502d36f.f7.glados-config.com
@@ -132087,7 +132102,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.nintendo.eu:25488
+    host: 502d36f.default.microsoft.cat:25488
     mode: tls
   port: 2377
   server: 502d36f.f6.glados-config.com
@@ -132098,7 +132113,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.nintendo.net:25488
+    host: 502d36f.default.microsoft.lv:25488
     mode: tls
   port: 2377
   server: 502d36f.f6.glados-config.com
@@ -132109,7 +132124,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.mozilla.net:25488
+    host: 502d36f.default.microsoft.is:25488
     mode: tls
   port: 2377
   server: 502d36f.f8.glados-config.com
@@ -132120,7 +132135,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.nintendo.eu:25488
+    host: 502d36f.default.blizzard.com:25488
     mode: tls
   port: 2377
   server: 502d36f.f8.glados-config.com
@@ -132142,7 +132157,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.xboxlive.com:25488
+    host: 502d36f.default.microsoft.de:25488
     mode: tls
   port: 2377
   server: 502d36f.q9.glados-config.com
@@ -132153,7 +132168,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.cl:25488
+    host: 502d36f.default.microsoft.de:25488
     mode: tls
   port: 2377
   server: 502d36f.q7.glados-config.com
@@ -132164,7 +132179,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.com:25488
+    host: 502d36f.default.microsoft.dk:25488
     mode: tls
   port: 2377
   server: 502d36f.q7.glados-config.com
@@ -132175,7 +132190,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.nintendo.jp:25488
+    host: 502d36f.default.microsoft.lt:25488
     mode: tls
   port: 2377
   server: 502d36f.q6.glados-config.com
@@ -132186,7 +132201,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.ch:25488
+    host: 502d36f.default.microsoft.eu:25488
     mode: tls
   port: 2377
   server: 502d36f.q6.glados-config.com
@@ -132197,7 +132212,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.nintendo.net:25488
+    host: 502d36f.default.epicgames.com:25488
     mode: tls
   port: 2377
   server: 502d36f.q8.glados-config.com
@@ -132208,21 +132223,10 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.jp:25488
+    host: 502d36f.default.microsoft.hu:25488
     mode: tls
   port: 2377
   server: 502d36f.q8.glados-config.com
-  type: ss
-  udp: false
-- cipher: chacha20-ietf-poly1305
-  name: 2763|JP-Dedicated-B1-1
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 502d36f.default.nintendo.jp:25488
-    mode: tls
-  port: 2377
-  server: 502d36f.e9.glados-config.com
   type: ss
   udp: false
 - cipher: chacha20-ietf-poly1305
@@ -132230,7 +132234,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.cat:25488
+    host: 502d36f.default.nintendo.net:25488
     mode: tls
   port: 2377
   server: 502d36f.e9.glados-config.com
@@ -132241,7 +132245,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.fi:25488
+    host: 502d36f.default.microsoft.hu:25488
     mode: tls
   port: 2377
   server: 502d36f.e7.glados-config.com
@@ -132252,7 +132256,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.ee:25488
+    host: 502d36f.default.microsoft.de:25488
     mode: tls
   port: 2377
   server: 502d36f.e7.glados-config.com
@@ -132263,7 +132267,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.fastly.net:25488
+    host: 502d36f.default.microsoft.de:25488
     mode: tls
   port: 2377
   server: 502d36f.e6.glados-config.com
@@ -132274,21 +132278,10 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.cl:25488
+    host: 502d36f.default.epicgames.com:25488
     mode: tls
   port: 2377
   server: 502d36f.e6.glados-config.com
-  type: ss
-  udp: false
-- cipher: chacha20-ietf-poly1305
-  name: 2763|JP-Dedicated-B1-7
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 502d36f.default.microsoft.md:25488
-    mode: tls
-  port: 2377
-  server: 502d36f.e8.glados-config.com
   type: ss
   udp: false
 - cipher: chacha20-ietf-poly1305
@@ -132296,7 +132289,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.nintendo.eu:25488
+    host: 502d36f.default.microsoft.de:25488
     mode: tls
   port: 2377
   server: 502d36f.e8.glados-config.com
@@ -132307,7 +132300,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.dk:25488
+    host: 502d36f.default.microsoft.eu:25488
     mode: tls
   port: 2377
   server: 502d36f.u9.glados-config.com
@@ -132318,7 +132311,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.es:25488
+    host: 502d36f.default.microsoft.fi:25488
     mode: tls
   port: 2377
   server: 502d36f.u9.glados-config.com
@@ -132329,7 +132322,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.cl:25488
+    host: 502d36f.default.microsoft.lt:25488
     mode: tls
   port: 2377
   server: 502d36f.u7.glados-config.com
@@ -132340,21 +132333,10 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.nintendo.net:25488
+    host: 502d36f.default.nintendo.eu:25488
     mode: tls
   port: 2377
   server: 502d36f.u7.glados-config.com
-  type: ss
-  udp: false
-- cipher: chacha20-ietf-poly1305
-  name: 2763|US-X1-5
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 502d36f.default.microsoft.com:25488
-    mode: tls
-  port: 2377
-  server: 502d36f.u6.glados-config.com
   type: ss
   udp: false
 - cipher: chacha20-ietf-poly1305
@@ -132362,7 +132344,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.fi:25488
+    host: 502d36f.default.microsoft.hu:25488
     mode: tls
   port: 2377
   server: 502d36f.u6.glados-config.com
@@ -132373,7 +132355,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.ge:25488
+    host: 502d36f.default.nintendo.es:25488
     mode: tls
   port: 2377
   server: 502d36f.u8.glados-config.com
@@ -132384,7 +132366,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.is:25488
+    host: 502d36f.default.microsoft.hu:25488
     mode: tls
   port: 2377
   server: 502d36f.u8.glados-config.com
@@ -132395,7 +132377,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.mozilla.net:25488
+    host: 502d36f.default.microsoft.cl:25488
     mode: tls
   port: 2377
   server: 502d36f.t9.glados-config.com
@@ -132406,7 +132388,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.eu:25488
+    host: 502d36f.default.microsoft.ee:25488
     mode: tls
   port: 2377
   server: 502d36f.t9.glados-config.com
@@ -132417,7 +132399,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.net:25488
+    host: 502d36f.default.microsoft.fi:25488
     mode: tls
   port: 2377
   server: 502d36f.t7.glados-config.com
@@ -132428,7 +132410,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.blizzard.com:25488
+    host: 502d36f.default.mozilla.net:25488
     mode: tls
   port: 2377
   server: 502d36f.t7.glados-config.com
@@ -132439,7 +132421,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.blizzard.com:25488
+    host: 502d36f.default.microsoft.lt:25488
     mode: tls
   port: 2377
   server: 502d36f.t6.glados-config.com
@@ -132450,7 +132432,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.nintendo.es:25488
+    host: 502d36f.default.nintendo.de:25488
     mode: tls
   port: 2377
   server: 502d36f.t6.glados-config.com
@@ -132461,7 +132443,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.xboxlive.com:25488
+    host: 502d36f.default.microsoft.cz:25488
     mode: tls
   port: 2377
   server: 502d36f.t8.glados-config.com
@@ -132472,15 +132454,9 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.fi:25488
+    host: 502d36f.default.nintendo.jp:25488
     mode: tls
   port: 2377
   server: 502d36f.t8.glados-config.com
   type: ss
   udp: false
-- cipher: aes-256-gcm
-  name: 2979|官网：miyun.de
-  password: 0_110abc
-  port: 10081
-  server: www.baidu.com
-  type: ss
