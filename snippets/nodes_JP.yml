@@ -348,13 +348,17 @@ proxies:
     path: /vmess/
 - alterId: 0
   cipher: auto
-  name: '412,1828|日本 044 #1'
+  country: 🇵JP
+  h2-opts: {}
+  http-opts: {}
+  name: '412,1730,1828|日本 044 #1'
   network: tcp
   port: 22324
   server: 172.104.80.66
   skip-cert-verify: true
   type: vmess
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: 412,1763,1764,1780,1828,1901|免費節點
@@ -672,25 +676,29 @@ proxies:
   server: 103.75.118.27
   type: ss
 - cipher: aes-128-gcm
-  name: 1170|JP-149.22.87.204-0062
+  country: 🇸US
+  name: 1170,1730|🇺🇸US_90
   password: shadowsocks
   port: 443
   server: 149.22.87.204
   type: ss
 - cipher: aes-128-gcm
-  name: 1170|🇵JP-149.22.87.240-0063
+  country: 🇺🇸US
+  name: 1170,1730|🇺US_85
   password: shadowsocks
   port: 443
   server: 149.22.87.240
   type: ss
 - cipher: aes-128-gcm
-  name: 1170|🇯🇵JP-149.22.87.241-0064
+  country: 🇸US
+  name: 1170,1730|🇺🇸US_88
   password: shadowsocks
   port: 443
   server: 149.22.87.241
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇯🇵JP-103.106.228.175-0067
+  country: IN
+  name: 1170,1730|🇮IN_57
   password: XKFKl2rULjIp74
   port: 8009
   server: 103.106.228.175
@@ -711,7 +719,8 @@ proxies:
       Host: jp02.a0a.xyz
     path: /
 - cipher: aes-256-gcm
-  name: 1170|🇵JP-47.79.144.115-0122
+  country: 🇸 US
+  name: 1170,1730| US_82
   password: GTZI5AbjNAeWQG0oVNptvWJogHNKiiKA
   port: 40003
   server: 47.79.144.115
@@ -1121,9 +1130,9 @@ proxies:
   type: ssr
 - alterId: 0
   cipher: auto
-  name: '1170,1731|🇯🇵JP_1|4.9MB/s | 更多节点: https:/...'
+  name: 1170|🇯🇵JP-172.111.146.64-6147
   network: ws
-  port: '80'
+  port: 80
   server: 172.111.146.64
   skip-cert-verify: false
   tls: false
@@ -2729,6 +2738,62 @@ proxies:
   port: 443
   server: 43.207.88.83
   type: ss
+- alterId: 2
+  cipher: auto
+  name: 1840|🇯🇵_油管：全网最强白嫖
+  network: ws
+  port: '15665'
+  server: jpaws002.xmrth-node.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 60517dbb-a465-32c6-87e7-2a457663de53
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /index
+- alterId: 0
+  cipher: auto
+  name: '1840|🇯🇵_油管：全网最强白嫖 #5'
+  network: ws
+  port: '20000'
+  server: jp02.henet.cyou
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 279e0915-b0ce-49c7-a4df-39f9232d2034
+  ws-opts:
+    headers:
+      Host: cctv.com
+    path: /live
+- alterId: 0
+  cipher: auto
+  name: '1840|🇯🇵_油管：全网最强白嫖 #4'
+  network: ws
+  port: '80'
+  server: janpanbpjcyos.loseyourip.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: dcec9778-3e07-4800-824e-5bccb04bc2b8
+  ws-opts:
+    headers:
+      Host: v.qq.com
+    path: /images
+- alterId: 2
+  cipher: auto
+  name: '1840|🇯🇵_油管：全网最强白嫖 #3'
+  network: ws
+  port: '15698'
+  server: jplin005.xmrth-node.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 60517dbb-a465-32c6-87e7-2a457663de53
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /index
 - alterId: 1
   cipher: auto
   name: '1840|🇯🇵_油管：全网最强白嫖 #6'
@@ -2743,6 +2808,20 @@ proxies:
     headers:
       Host: ''
     path: ''
+- alterId: 2
+  cipher: auto
+  name: '1840|🇯🇵_油管：全网最强白嫖 #7'
+  network: ws
+  port: '15863'
+  server: jpaws006.xmrth-node.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 60517dbb-a465-32c6-87e7-2a457663de53
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /index
 - cipher: chacha20-ietf-poly1305
   name: 1841|Japan-01
   password: b94015c7-5989-4a9f-8918-ab51727bfe6c
@@ -3182,7 +3261,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.epicgames.com:25488
+    host: 502d36f.default.microsoft.ee:25488
     mode: tls
   port: 2377
   server: 502d36f.e9.glados-config.com
@@ -3193,7 +3272,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.io:25488
+    host: 502d36f.default.microsoft.md:25488
     mode: tls
   port: 2377
   server: 502d36f.e9.glados-config.com
@@ -3204,7 +3283,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.cz:25488
+    host: 502d36f.default.microsoft.fi:25488
     mode: tls
   port: 2377
   server: 502d36f.e7.glados-config.com
@@ -3215,7 +3294,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.de:25488
+    host: 502d36f.default.microsoft.cat:25488
     mode: tls
   port: 2377
   server: 502d36f.e7.glados-config.com
@@ -3226,7 +3305,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.nintendo.it:25488
+    host: 502d36f.default.fastly.net:25488
     mode: tls
   port: 2377
   server: 502d36f.e6.glados-config.com
@@ -3237,7 +3316,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.nintendo.com:25488
+    host: 502d36f.default.microsoft.fi:25488
     mode: tls
   port: 2377
   server: 502d36f.e6.glados-config.com
@@ -3248,7 +3327,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.lt:25488
+    host: 502d36f.default.microsoft.ge:25488
     mode: tls
   port: 2377
   server: 502d36f.e8.glados-config.com
