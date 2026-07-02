@@ -810,7 +810,7 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   country: 🇰HK
-  name: 1170,1730|🇰HK_40
+  name: 1170,1730|🇰HK_48
   password: qwerREWQ@@
   port: 41632
   server: 112.213.102.188
@@ -2085,13 +2085,15 @@ proxies:
       Host: ''
     path: /
 - cipher: chacha20-ietf
-  name: 1170|🇰HK-103.149.182.105-6194
+  country: 🇰HK
+  name: 1170,1730|🇰HK_46
   password: asd123456
   port: 8388
   server: 103.149.182.105
   type: ss
 - cipher: chacha20-ietf
-  name: 1170|🇭🇰HK-103.141.221.124-6195
+  country: 🇰HK
+  name: 1170,1730|🇰HK_50
   password: asd123456
   port: 8388
   server: 103.141.221.124
@@ -2313,7 +2315,7 @@ proxies:
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: '1170,1780,1890,1891|🇭🇰HK-47.244.120.197-6269 #1'
+  name: '1170,1763,1764,1780,1890,1891|🇭🇰HK-47.244.120.197-6269 #1'
   network: ws
   port: 44867
   server: 47.244.120.197
@@ -4298,13 +4300,6 @@ proxies:
     headers:
       Host: ae9c0de474c64c03db9edbf3fc4d8c68.mobgslb.tbcache.com
     path: /
-- cipher: chacha20-ietf
-  country: 🇰HK
-  name: 1730|🇰HK_42
-  password: asd123456
-  port: 8388
-  server: 103.149.182.79
-  type: ss
 - alterId: 2
   cipher: auto
   country: 🇰HK
@@ -4595,6 +4590,19 @@ proxies:
   ws-headers:
     host: z61.hongkongnode.top
   ws-path: /
+- alterId: 0
+  cipher: auto
+  name: '1780,1828,1901|🇺🇸 US美国(mibei77.com 米贝节点分享) #1'
+  network: tcp
+  port: '52080'
+  server: 154.37.223.56
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: f1ac5c82-00a4-400b-bb20-530c91b7c5bb
+  ws-headers:
+    Host: 154.37.223.56
 - alterId: 0
   cipher: auto
   name: 1785|香港_121320001
