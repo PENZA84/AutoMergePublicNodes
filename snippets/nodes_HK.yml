@@ -818,13 +818,15 @@ proxies:
       Host: ''
     path: /
 - cipher: chacha20-ietf
-  name: 1170|🇰HK-103.149.182.105-0139
+  country: 🇰HK
+  name: 1170,1730|🇰HK_42
   password: asd123456
   port: 8388
   server: 103.149.182.105
   type: ss
 - cipher: aes-256-cfb
-  name: 1170|🇰HK-112.213.102.188-0140
+  country: 🇰HK
+  name: 1170,1730|🇰HK_43
   password: qwerREWQ@@
   port: 41632
   server: 112.213.102.188
@@ -1304,7 +1306,7 @@ proxies:
   type: ssr
 - alterId: 0
   cipher: auto
-  name: '1170,1780,1890,1891|🇭🇰HK-47.244.120.197-6166 #2'
+  name: '1170,1763,1764,1780,1890,1891|🇭🇰HK-47.244.120.197-6166 #2'
   network: ws
   port: 44867
   server: 47.244.120.197
@@ -3304,6 +3306,28 @@ proxies:
     headers:
       Host: ae9c0de474c64c03db9edbf3fc4d8c68.mobgslb.tbcache.com
     path: /
+- cipher: chacha20-ietf
+  country: 🇰HK
+  name: 1730|🇭🇰HK_46
+  password: asd123456
+  port: 8388
+  server: 103.141.221.124
+  type: ss
+- alterId: 2
+  cipher: auto
+  country: 🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: '1730,1901,1916,1924|香港|@ripaojiedian #1'
+  network: tcp
+  port: '30807'
+  server: v10.hdacd.com
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: '1759|🇨🇳中国【YouTube-由零開始】 #7'
@@ -3332,32 +3356,6 @@ proxies:
     headers:
       Host: www.baidu.com
     path: /zh-cn/
-- alterId: 0
-  cipher: auto
-  name: '1763,1764|HK 🇭🇰 | @Raydikalx | 2992 #1'
-  network: ws
-  port: '16632'
-  server: t.cnmjcn.cyou
-  tls: false
-  type: vmess
-  uuid: ebe53a1b-7a2b-42d9-b323-423104ad026e
-  ws-opts:
-    headers:
-      Host: 2a070082cba893b78ec6c7c74f8a9603.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '1763,1764|HK 🇭🇰 | @Raydikalx | 2997 #1'
-  network: ws
-  port: '16622'
-  server: planb.mojcn.com
-  tls: false
-  type: vmess
-  uuid: ebe53a1b-7a2b-42d9-b323-423104ad026e
-  ws-opts:
-    headers:
-      Host: 2a070082cba893b78ec6c7c74f8a9603.mobgslb.tbcache.com
-    path: /
 - alterId: 0
   cipher: auto
   name: '1763,1764,1968,1969|未知50 #1'
@@ -4866,16 +4864,6 @@ proxies:
     headers:
       Host: widescreen-instruction-breakdown-postage.trycloudflare.com
     path: 55021a7c-bd6c-418e-be95-ceac8ba27b45-vm
-- alterId: 2
-  cipher: auto
-  name: '1901,1916,1924|香港|@ripaojiedian #1'
-  network: tcp
-  port: '30807'
-  server: v10.hdacd.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
   name: 1909|香港【YouTube @Play实验室】
@@ -4920,6 +4908,19 @@ proxies:
   ws-headers:
     Host: vn3.thanhhaivpn.name.vn
   ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 1916|🇭🇰HK_1|2.1MB/s
+  network: ws
+  port: '16632'
+  server: m.cnmjin.net
+  tls: false
+  type: vmess
+  uuid: ebe53a1b-7a2b-42d9-b323-423104ad026e
+  ws-opts:
+    headers:
+      Host: 2a070082cba893b78ec6c7c74f8a9603.mobgslb.tbcache.com
+    path: /
 - cipher: chacha20-ietf-poly1305
   name: 1926|0|🇭 01 | 1x HK
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
