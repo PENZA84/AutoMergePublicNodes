@@ -63,7 +63,7 @@ proxies:
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-256-cfb
-  name: 1160,1170|🇵JP-43.207.83.221-9356
+  name: 1160,1170|🇵JP-43.207.83.221-9366
   password: amazonskr05
   port: 443
   server: 43.207.83.221
@@ -137,25 +137,75 @@ proxies:
   type: vmess
   uuid: 94c5ef37-4d82-49f9-c624-f01259374a17
 - cipher: aes-256-cfb
-  name: 1160,1170|JP-103.75.118.27-10140
+  name: 1160,1170|JP-103.75.118.27-10150
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 103.75.118.27
   type: ss
 - alterId: 0
   cipher: auto
-  name: '1170,1890,1891|🇯🇵JP-138.2.49.230-0094 #1'
+  name: 1170|JP-20.222.34.96-0026
   network: ws
-  port: 10021
-  server: 138.2.49.230
+  port: 20011
+  server: 20.222.34.96
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: e4a18b10-3916-3eff-a165-5801ec3fe8d4
+  ws-opts:
+    headers:
+      Host: jp2.daydaygeek.icu
+    path: /public
+- cipher: aes-128-gcm
+  country: 🇺🇸US
+  name: 1170,1730|🇺US_93
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.204
+  type: ss
+- cipher: aes-128-gcm
+  country: 🇺🇸US
+  name: 1170,1730|🇸US_95
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.241
+  type: ss
+- cipher: aes-128-gcm
+  country: 🇺🇸US
+  name: 1170,1730|🇺🇸US_102
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.240
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '1170,1890,1891|🇯🇵JP-157.85.230.247-0203 #1'
+  network: ws
+  port: 2052
+  server: 157.85.230.247
   servername: ''
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: a12e496e-f89a-434a-8011-108846f0e412
+  uuid: 85357d35-492e-4814-835a-aba4cb7f00ad
   ws-opts:
     headers:
-      Host: 138.2.49.230
+      Host: www.bing.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '1170,1890,1891|🇯🇵JP-140.83.51.161-0221 #1'
+  network: ws
+  port: 25686
+  server: 140.83.51.161
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 6733c357-ba11-4e9f-f00f-7d87f2776ff9
+  ws-opts:
+    headers:
+      Host: jp02.a0a.xyz
     path: /
 - alterId: 0
   cipher: auto
@@ -172,84 +222,30 @@ proxies:
     headers:
       Host: ''
     path: /
-- cipher: aes-128-gcm
-  country: 🇸US
-  name: 1170,1730|🇺🇸US_102
-  password: shadowsocks
-  port: 443
-  server: 149.22.87.241
-  type: ss
-- cipher: aes-128-gcm
-  country: 🇺🇸US
-  name: 1170,1730|🇺🇸US_104
-  password: shadowsocks
-  port: 443
-  server: 149.22.87.240
-  type: ss
-- cipher: aes-128-gcm
-  country: 🇸US
-  name: 1170,1730|🇺🇸US_103
-  password: shadowsocks
-  port: 443
-  server: 149.22.87.204
-  type: ss
 - alterId: 0
   cipher: auto
-  name: '1170,1890,1891|🇯🇵JP-157.85.230.247-0179 #1'
+  name: '1170,1890,1891|🇯🇵JP-138.2.49.230-0094 #1'
   network: ws
-  port: 2052
-  server: 157.85.230.247
+  port: 10021
+  server: 138.2.49.230
   servername: ''
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: 85357d35-492e-4814-835a-aba4cb7f00ad
+  uuid: a12e496e-f89a-434a-8011-108846f0e412
   ws-opts:
     headers:
-      Host: www.bing.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '1170,1890,1891|🇯🇵JP-140.83.51.161-0187 #1'
-  network: ws
-  port: 25686
-  server: 140.83.51.161
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 6733c357-ba11-4e9f-f00f-7d87f2776ff9
-  ws-opts:
-    headers:
-      Host: jp02.a0a.xyz
+      Host: 138.2.49.230
     path: /
 - cipher: aes-256-cfb
-  name: 1170|🇵JP-3.112.132.169-0277
-  password: amazonskr05
-  port: 443
-  server: 3.112.132.169
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 1170|🇯🇵JP-194.156.231.254-0285
-  password: G!yBwPWH3Vao
-  port: 803
-  server: 194.156.231.254
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 1170|🇵JP-194.156.231.254-0291
-  password: G!yBwPWH3Vao
-  port: 806
-  server: 194.156.231.254
-  type: ss
-- cipher: aes-256-cfb
-  name: 1170|🇵JP-172.104.123.158-0407
+  name: 1170|🇵JP-172.104.123.158-0415
   password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D
   port: 8097
   server: 172.104.123.158
   type: ss
 - alterId: 0
   cipher: auto
-  name: '1170,1828,1890,1891|🇯🇵JP-40.74.100.129-0408 #2'
+  name: '1170,1828,1890,1891|🇯🇵JP-40.74.100.129-0408 #1'
   network: ws
   port: 443
   server: fullaccesstojapannetsubnode1.azurewebsites.net
@@ -264,7 +260,7 @@ proxies:
     path: /ws
 - alterId: 0
   cipher: auto
-  name: '1170,1828,1890,1891|🇯🇵JP-168.138.203.232-0437 #2'
+  name: '1170,1828,1890,1891|🇯🇵JP-168.138.203.232-0437 #1'
   network: ws
   port: 443
   server: suzhihan.eu.org
@@ -278,14 +274,14 @@ proxies:
       Host: suzhihan.eu.org
     path: /roewesu
 - cipher: aes-256-gcm
-  name: 1170|🇯🇵JP-20.210.122.21-0498
+  name: 1170|🇯🇵JP-20.210.122.21-0507
   password: 233blog.com
   port: 443
   server: 20.210.122.21
   type: ss
 - alterId: 0
   cipher: auto
-  name: '1170,1890,1891|🇯🇵JP-172.105.219.18-0509 #1'
+  name: '1170,1890,1891|🇯🇵JP-172.105.219.18-0510 #1'
   network: ws
   port: 443
   server: 172.105.219.18
@@ -300,7 +296,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '1170,1828,1890,1891|🇯🇵JP-91.200.242.187-0555 #1'
+  name: '1170,1828,1890,1891|🇯🇵JP-91.200.242.187-0556 #1'
   network: ws
   port: 14954
   server: 91.200.242.187
@@ -316,7 +312,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: '1170,1828,1890,1891|🇯🇵JP-154.12.191.76-0556 #1'
+  name: '1170,1828,1890,1891|🇯🇵JP-154.12.191.76-0557 #1'
   network: ws
   port: 8080
   server: 154.12.191.76
@@ -332,7 +328,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: '1170,1828,1890,1891|🇯🇵JP-52.197.107.193-0568 #1'
+  name: '1170,1828,1890,1891|🇯🇵JP-52.197.107.193-0569 #1'
   network: ws
   port: 10241
   server: 52.197.107.193
@@ -348,7 +344,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: '1170,1828,1890,1891|🇯🇵JP-138.2.24.162-0569 #1'
+  name: '1170,1828,1890,1891|🇯🇵JP-138.2.24.162-0570 #1'
   network: ws
   port: 8100
   server: 138.2.24.162
@@ -364,7 +360,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: '1170,1828,1890,1891|🇯🇵JP-52.253.97.125-0570 #1'
+  name: '1170,1828,1890,1891|🇯🇵JP-52.253.97.125-0571 #1'
   network: ws
   port: 59929
   server: 52.253.97.125
@@ -380,7 +376,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: '1170,1828,1890,1891|🇯🇵JP-20.210.122.98-0571 #1'
+  name: '1170,1828,1890,1891|🇯🇵JP-20.210.122.98-0572 #1'
   network: ws
   port: 8080
   server: 20.210.122.98
@@ -396,7 +392,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: '1170,1828,1890,1891|🇯🇵JP-5.226.49.4-0572 #1'
+  name: '1170,1828,1890,1891|🇯🇵JP-5.226.49.4-0573 #1'
   network: ws
   port: 8080
   server: 5.226.49.4
@@ -412,7 +408,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: '1170,1828,1890,1891|🇯🇵JP-141.11.139.82-0574 #1'
+  name: '1170,1828,1890,1891|🇯🇵JP-141.11.139.82-0575 #1'
   network: ws
   port: 8080
   server: 141.11.139.82
@@ -428,7 +424,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: '1170,1828,1890,1891|🇯🇵JP-147.78.243.36-0575 #1'
+  name: '1170,1828,1890,1891|🇯🇵JP-147.78.243.36-0576 #1'
   network: ws
   port: 8080
   server: 147.78.243.36
@@ -444,7 +440,7 @@ proxies:
     path: /download
 - alterId: 1
   cipher: auto
-  name: '1170,1828,1890,1891|🇯🇵JP-45.66.218.242-0576 #1'
+  name: '1170,1828,1890,1891|🇯🇵JP-45.66.218.242-0577 #1'
   network: ws
   port: 31800
   server: 45.66.218.242
@@ -460,7 +456,7 @@ proxies:
     path: /download
 - alterId: 1
   cipher: auto
-  name: '1170,1828,1890,1891|🇯🇵JP-176.119.149.46-0577 #1'
+  name: '1170,1828,1890,1891|🇯🇵JP-176.119.149.46-0578 #1'
   network: ws
   port: 8080
   server: 176.119.149.46
@@ -476,7 +472,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: '1170,1828,1890,1891|🇯🇵JP-123.108.70.211-0579 #1'
+  name: '1170,1828,1890,1891|🇯🇵JP-123.108.70.211-0580 #1'
   network: ws
   port: 8080
   server: 123.108.70.211
@@ -492,7 +488,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: '1170,1828,1890,1891|🇯🇵JP-176.126.114.248-0581 #1'
+  name: '1170,1828,1890,1891|🇯🇵JP-176.126.114.248-0582 #1'
   network: ws
   port: 8080
   server: 176.126.114.248
@@ -508,7 +504,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: '1170,1828,1890,1891|🇯🇵JP-195.245.242.152-0592 #1'
+  name: '1170,1828,1890,1891|🇯🇵JP-195.245.242.152-0593 #1'
   network: ws
   port: 8080
   server: bnm.skyin.net
@@ -524,7 +520,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: '1170,1828,1890,1891|🇯🇵JP-20.210.126.84-0593 #1'
+  name: '1170,1828,1890,1891|🇯🇵JP-20.210.126.84-0594 #1'
   network: ws
   port: 8080
   server: 20.210.126.84
@@ -540,7 +536,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: '1170,1828,1890,1891|🇯🇵JP-140.83.50.52-0597 #1'
+  name: '1170,1828,1890,1891|🇯🇵JP-140.83.50.52-0598 #1'
   network: ws
   port: 8080
   server: 140.83.50.52
@@ -556,7 +552,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: '1170,1828,1890,1891|🇯🇵JP-4.216.173.159-0604 #1'
+  name: '1170,1828,1890,1891|🇯🇵JP-4.216.173.159-0605 #1'
   network: ws
   port: 8080
   server: 4.216.173.159
@@ -572,7 +568,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: '1170,1828,1890,1891|🇯🇵JP-20.222.39.3-0605 #1'
+  name: '1170,1828,1890,1891|🇯🇵JP-20.222.39.3-0606 #1'
   network: ws
   port: 8080
   server: 20.222.39.3
@@ -588,7 +584,7 @@ proxies:
     path: /download
 - alterId: 1
   cipher: auto
-  name: '1170,1828,1890,1891|🇯🇵JP-150.230.204.219-0606 #1'
+  name: '1170,1828,1890,1891|🇯🇵JP-150.230.204.219-0607 #1'
   network: ws
   port: 8080
   server: 150.230.204.219
@@ -604,7 +600,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: '1170,1828,1890,1891|🇯🇵JP-193.32.151.103-0607 #1'
+  name: '1170,1828,1890,1891|🇯🇵JP-193.32.151.103-0608 #1'
   network: ws
   port: 8080
   server: 193.32.151.103
@@ -620,7 +616,7 @@ proxies:
     path: /download
 - alterId: 1
   cipher: auto
-  name: '1170,1828,1890,1891|🇯🇵JP-147.78.245.166-0609 #1'
+  name: '1170,1828,1890,1891|🇯🇵JP-147.78.245.166-0610 #1'
   network: ws
   port: 8080
   server: 147.78.245.166
@@ -636,7 +632,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: '1170,1828,1890,1891|🇯🇵JP-150.230.193.37-0617 #1'
+  name: '1170,1828,1890,1891|🇯🇵JP-150.230.193.37-0618 #1'
   network: ws
   port: 10618
   server: 150.230.193.37
@@ -652,7 +648,7 @@ proxies:
     path: /download
 - alterId: 1
   cipher: auto
-  name: '1170,1828,1890,1891|🇯🇵JP-141.147.161.53-0618 #1'
+  name: '1170,1828,1890,1891|🇯🇵JP-141.147.161.53-0619 #1'
   network: ws
   port: 8080
   server: 141.147.161.53
@@ -668,7 +664,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: '1170,1828,1890,1891|🇯🇵JP-193.32.148.12-0619 #1'
+  name: '1170,1828,1890,1891|🇯🇵JP-193.32.148.12-0620 #1'
   network: ws
   port: 8080
   server: 193.32.148.12
@@ -717,7 +713,7 @@ proxies:
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: '1170,1828,1890,1891|🇯🇵JP-134.122.139.79-0721 #1'
+  name: '1170,1828,1890,1891|🇯🇵JP-134.122.139.79-0722 #1'
   network: ws
   port: 443
   server: 134.122.139.79
@@ -734,7 +730,7 @@ proxies:
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: '1170,1828,1890,1891|🇯🇵JP-137.220.130.58-0724 #1'
+  name: '1170,1828,1890,1891|🇯🇵JP-137.220.130.58-0725 #1'
   network: ws
   port: 30000
   server: 137.220.130.58
@@ -794,7 +790,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '1170,1801,1828,1890,1891|🇯🇵JP-203.137.112.120-1049 #1'
+  name: '1170,1801,1828,1890,1891|🇯🇵JP-203.137.112.120-1050 #1'
   network: ws
   port: 80
   server: max8.flash5g.com
@@ -822,7 +818,7 @@ proxies:
     path: /?ed=2560&proxyip=103.232.213.117:8080
 - alterId: 0
   cipher: auto
-  name: '1170,1763,1764,1828,1890,1891,1969|HK3 #1'
+  name: '1170,1764,1828,1890,1891,1969|HK2 #1'
   network: ws
   port: '11655'
   server: 131.186.63.89
@@ -837,7 +833,7 @@ proxies:
     path: /aa
 - alterId: 64
   cipher: auto
-  name: '1170,1828,1890,1891|🇯🇵JP-103.72.5.227-1343 #1'
+  name: '1170,1828,1890,1891|🇯🇵JP-103.72.5.227-1344 #1'
   network: ws
   port: 46666
   server: 103.72.5.227
@@ -852,7 +848,7 @@ proxies:
     path: /path/191019072927
 - alterId: 64
   cipher: auto
-  name: '1170,1828,1890,1891|🇯🇵JP-104.219.208.195-1344 #1'
+  name: '1170,1828,1890,1891|🇯🇵JP-104.219.208.195-1345 #1'
   network: ws
   port: 34001
   server: 104.219.208.195
@@ -867,7 +863,7 @@ proxies:
     path: /path/191019072927
 - alterId: 0
   cipher: auto
-  name: '1170,1780,1828,1890,1891|🇯🇵JP-140.83.51.161-1427 #1'
+  name: '1170,1780,1828,1890,1891|🇯🇵JP-140.83.51.161-1428 #1'
   network: ws
   port: 25686
   server: 140.83.51.161
@@ -882,7 +878,7 @@ proxies:
     path: /cctv13.m3u8
 - alterId: 64
   cipher: auto
-  name: '1170,1828,1890,1891|🇯🇵JP-152.70.103.195-1537 #1'
+  name: '1170,1828,1890,1891|🇯🇵JP-152.70.103.195-1538 #1'
   network: ws
   port: 37206
   server: 152.70.103.195
@@ -897,7 +893,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '1170,1828,1890,1891|🇯🇵JP-138.2.52.176-1540 #1'
+  name: '1170,1828,1890,1891|🇯🇵JP-138.2.52.176-1541 #1'
   network: ws
   port: 24429
   server: 138.2.52.176
@@ -912,7 +908,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '1170,1828,1890,1891|🇯🇵JP-52.196.144.61-1608 #1'
+  name: '1170,1828,1890,1891|🇯🇵JP-52.196.144.61-1609 #1'
   network: ws
   port: 3331
   server: f1f3227.u1.glados-config.net
@@ -927,7 +923,37 @@ proxies:
     path: /s/f1f3227.fm.apple.com:111548
 - alterId: 0
   cipher: auto
-  name: '1170,1818,1828,1890,1891|🇯🇵JP-140.83.35.62-1638 #1'
+  name: '1170,1828,1890,1891|🇸🇬SG-13.229.197.10-1613 #1'
+  network: ws
+  port: 5001
+  server: steam.dnspro.icu
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: d4c93465-70f0-30d5-ab5f-a8881f3f49e7
+  ws-opts:
+    headers:
+      Host: steam.dnspro.icu
+    path: /iso
+- alterId: 0
+  cipher: auto
+  name: '1170,1828,1890,1891|🇸🇬SG-13.229.197.10-1616 #1'
+  network: ws
+  port: 5100
+  server: st-2.dnspro.icu
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 13ef5f2c-d002-36a2-9e96-a13d5e3ae03b
+  ws-opts:
+    headers:
+      Host: st-2.dnspro.icu
+    path: /iso
+- alterId: 0
+  cipher: auto
+  name: '1170,1818,1828,1890,1891|🇯🇵JP-140.83.35.62-1639 #1'
   network: ws
   port: 443
   server: jp-amd1.018999.xyz
@@ -942,7 +968,7 @@ proxies:
     path: /65e619e7-0bf1-4f5b-a390-5735b01a3713
 - alterId: 0
   cipher: auto
-  name: '1170,1828,1890,1891|🇯🇵JP-161.129.34.102-1645 #1'
+  name: '1170,1828,1890,1891|🇯🇵JP-161.129.34.102-1646 #1'
   network: ws
   port: 443
   server: 161.129.34.102
@@ -957,7 +983,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '1170,1776,1828,1890,1891|🇯🇵JP-172.105.223.136-1688 #1'
+  name: '1170,1776,1828,1890,1891|🇯🇵JP-172.105.223.136-1689 #1'
   network: ws
   port: 443
   server: 172.105.223.136
@@ -972,7 +998,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '1170,1776,1828,1890,1891|🇯🇵JP-52.196.144.61-1689 #1'
+  name: '1170,1776,1828,1890,1891|🇯🇵JP-52.196.144.61-1690 #1'
   network: ws
   port: 3331
   server: f1f3227.v1.glados-config.net
@@ -987,7 +1013,7 @@ proxies:
     path: /s/f1f3227.fm.apple.com:111548
 - alterId: 0
   cipher: auto
-  name: '1170,1828,1890,1891|🇯🇵JP-147.78.244.7-1712 #1'
+  name: '1170,1828,1890,1891|🇯🇵JP-147.78.244.7-1713 #1'
   network: ws
   port: 443
   server: 147.78.244.7
@@ -1002,7 +1028,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '1170,1828,1890,1891|🇯🇵JP-124.156.225.184-1714 #1'
+  name: '1170,1828,1890,1891|🇯🇵JP-124.156.225.184-1715 #1'
   network: ws
   port: 443
   server: 124.156.225.184
@@ -1017,7 +1043,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '1170,1828,1890,1891|🇯🇵JP-47.245.42.92-1741 #1'
+  name: '1170,1828,1890,1891|🇯🇵JP-47.245.42.92-1742 #1'
   network: ws
   port: 443
   server: 47.245.42.92
@@ -1032,7 +1058,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '1170,1828,1890,1891|🇯🇵JP-130.33.99.43-8214 #1'
+  name: '1170,1828,1890,1891|🇯🇵JP-130.33.99.18-8200 #1'
   network: ws
   port: 12883
   server: gtm1.ktmwan.net
@@ -1047,7 +1073,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '1170,1828,1890,1891|🇯🇵JP-131.186.57.111-2045 #1'
+  name: '1170,1828,1890,1891|🇯🇵JP-131.186.57.111-2046 #1'
   network: ws
   port: 443
   server: 131.186.57.111
@@ -1062,7 +1088,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '1170,1819,1828,1890,1891|🇯🇵JP-109.123.230.157-2081 #1'
+  name: '1170,1819,1828,1890,1891|🇯🇵JP-109.123.230.157-2082 #1'
   network: ws
   port: 80
   server: 109.123.230.157
@@ -1077,7 +1103,7 @@ proxies:
     path: /takeshi.wiki
 - alterId: 0
   cipher: auto
-  name: '1170,1763,1764,1828,1890,1891|🇯🇵JP-168.138.43.75-2203 #1'
+  name: '1170,1828,1890,1891|🇯🇵JP-168.138.43.75-2204 #1'
   network: ws
   port: 80
   server: 168.138.43.75
@@ -1094,7 +1120,7 @@ proxies:
   cipher: auto
   grpc-opts:
     grpc-service-name: /
-  name: 1170|🇯🇵JP-20.89.94.62-2241
+  name: 1170|🇯🇵JP-20.89.94.62-2250
   network: grpc
   port: 443
   server: 20.89.94.62
@@ -1105,7 +1131,7 @@ proxies:
   uuid: c85b08cb-e81a-4d8b-997f-e43870dc52dc
 - alterId: 0
   cipher: auto
-  name: '1170,1763,1764,1828,1890,1891,1969|未知74 696.2KB/s #1'
+  name: '1170,1763,1764,1828,1890,1891,1969|未知76 589.1KB/s #1'
   network: ws
   port: '2052'
   server: 157.85.230.247
@@ -1120,7 +1146,7 @@ proxies:
     path: 85357d35-492e-4814-835a-aba4cb7f00ad-vm
 - alterId: 0
   cipher: auto
-  name: '1170,1828,1890,1891|🇯🇵JP-43.165.172.213-2335 #1'
+  name: '1170,1828,1890,1891|🇯🇵JP-43.165.172.213-2336 #1'
   network: ws
   port: 8998
   server: cc26.goingside.site
@@ -1136,7 +1162,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '1170,1828,1890,1891|🇯🇵JP-130.33.96.204-2345 #1'
+  name: '1170,1828,1890,1891|🇯🇵JP-130.33.96.204-2346 #1'
   network: ws
   port: 16645
   server: 130.33.96.204
@@ -1153,7 +1179,7 @@ proxies:
   xudp: true
 - alterId: 0
   cipher: auto
-  name: '1170,1890,1891|🇯🇵JP-139.162.117.173-2363 #1'
+  name: '1170,1890,1891|🇯🇵JP-139.162.117.173-2361 #1'
   network: ws
   port: 443
   server: 139.162.117.173
@@ -1167,14 +1193,14 @@ proxies:
       Host: ''
     path: /chat
 - cipher: chacha20-ietf-poly1305
-  name: 1170|🇵JP-54.250.165.160-2641
+  name: 1170|🇵JP-54.250.165.160-2649
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   port: 2377
   server: 54.250.165.160
   type: ss
 - alterId: 0
   cipher: auto
-  name: '1170,1817,1890,1891|🇯🇵JP-140.83.84.209-2941 #1'
+  name: '1170,1817,1890,1891|🇯🇵JP-140.83.84.209-2942 #1'
   network: ws
   port: 1234
   server: 140.83.84.209
@@ -1195,7 +1221,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '1170,1817,1890,1891|🇯🇵JP-172.104.78.98-3235 #1'
+  name: '1170,1817,1890,1891|🇯🇵JP-172.104.78.98-3236 #1'
   network: ws
   port: 443
   server: 172.104.78.98
@@ -1222,7 +1248,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '1170,1817,1890,1891|🇯🇵JP-138.2.45.89-3323 #1'
+  name: '1170,1817,1890,1891|🇯🇵JP-138.2.45.89-3324 #1'
   network: ws
   port: 4430
   server: 138.2.45.89
@@ -1243,7 +1269,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '1170,1817,1890,1891|🇯🇵JP-43.128.225.220-3353 #1'
+  name: '1170,1817,1890,1891|🇯🇵JP-43.128.225.220-3354 #1'
   network: ws
   port: 80
   server: 43.128.225.220
@@ -1258,7 +1284,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '1170,1182,1817,1818,1890,1891|🇯🇵JP-138.2.39.67-3372 #1'
+  name: '1170,1182,1817,1818,1890,1891|🇯🇵JP-138.2.39.67-3373 #1'
   network: ws
   port: 80
   server: 138.2.39.67
@@ -1273,7 +1299,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '1170,1817,1890,1891|🇯🇵JP-141.147.181.219-3375 #1'
+  name: '1170,1817,1890,1891|🇯🇵JP-141.147.181.219-3376 #1'
   network: ws
   port: 443
   server: 141.147.181.219
@@ -1288,7 +1314,7 @@ proxies:
     path: /roewesu
 - alterId: 0
   cipher: auto
-  name: '1170,1817,1890,1891|🇯🇵JP-161.129.34.126-3409 #1'
+  name: '1170,1817,1890,1891|🇯🇵JP-161.129.34.126-3410 #1'
   network: ws
   port: 443
   server: 161.129.34.126
@@ -1308,7 +1334,7 @@ proxies:
   server: 43.207.82.53
   type: ss
 - cipher: aes-128-gcm
-  name: 1170|🇵JP-47.245.62.4-3482
+  name: 1170|🇵JP-47.245.62.4-3494
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   plugin: v2ray-plugin
   plugin-opts:
@@ -1322,26 +1348,26 @@ proxies:
   server: 47.245.62.4
   type: ss
 - cipher: aes-256-cfb
-  name: 1170|🇵JP-43.207.68.169-3774
+  name: 1170|🇵JP-43.207.68.169-3786
   password: amazonskr05
   port: 443
   server: 43.207.68.169
   type: ss
 - cipher: aes-256-cfb
-  name: 1170|🇵JP-43.207.1.14-3871
+  name: 1170|🇵JP-43.207.1.14-3883
   password: amazonskr05
   port: 443
   server: 43.207.1.14
   type: ss
 - cipher: aes-256-cfb
-  name: 1170|🇵JP-43.206.221.164-3931
+  name: 1170|🇵JP-43.206.221.164-3943
   password: amazonskr05
   port: 443
   server: 43.206.221.164
   type: ss
 - alterId: 2
   cipher: auto
-  name: '1170,1890,1891|🇯🇵JP-153.122.173.53-4049 #1'
+  name: '1170,1890,1891|🇯🇵JP-153.122.173.53-4035 #1'
   network: ws
   port: 32407
   server: 153.122.173.53
@@ -1355,14 +1381,14 @@ proxies:
       Host: ''
     path: /v2ray
 - cipher: aes-256-cfb
-  name: 1170|🇯🇵JP-43.206.219.140-4095
+  name: 1170|🇯🇵JP-43.206.219.140-4107
   password: amazonskr05
   port: 443
   server: 43.206.219.140
   type: ss
 - alterId: 0
   cipher: auto
-  name: '1170,1890,1891|🇯🇵JP-161.129.34.102-4697 #1'
+  name: '1170,1890,1891|🇯🇵JP-161.129.34.102-4683 #1'
   network: ws
   port: 443
   server: 161.129.34.102
@@ -1376,20 +1402,20 @@ proxies:
       Host: ''
     path: /
 - cipher: chacha20-ietf-poly1305
-  name: 1170|🇵JP-185.160.26.91-4257
+  name: 1170|🇵JP-185.160.26.91-4269
   password: Xs9ORT4j65b8HreZrg0p
   port: 1664
   server: 185.160.26.91
   type: ss
 - cipher: aes-256-cfb
-  name: 1170|🇯🇵JP-3.112.193.151-5227
+  name: 1170|🇯🇵JP-3.112.193.151-5239
   password: amazonskr05
   port: 443
   server: 3.112.193.151
   type: ss
 - alterId: 0
   cipher: auto
-  name: '1170,1776,1890,1891|🇯🇵JP-152.69.193.245-5933 #1'
+  name: '1170,1776,1890,1891|🇯🇵JP-152.69.193.245-5919 #1'
   network: ws
   port: 80
   server: 152.69.193.245
@@ -1403,7 +1429,7 @@ proxies:
       Host: ''
     path: /
 - cipher: chacha20-ietf-poly1305
-  name: 1170|🇵JP-193.38.139.204-6163
+  name: 1170|🇵JP-193.38.139.204-6175
   password: G!yBwPWH3Vao
   port: 806
   server: 193.38.139.204
@@ -1416,7 +1442,7 @@ proxies:
   type: ss
 - alterId: 4
   cipher: auto
-  name: '1170,1890,1891|🇯🇵JP-157.254.193.68-6206 #1'
+  name: '1170,1890,1891|🇯🇵JP-157.254.193.68-6192 #1'
   network: ws
   port: 10020
   server: 157.254.193.68
@@ -1430,17 +1456,7 @@ proxies:
       Host: ''
     path: /
 - cipher: chacha20-ietf
-  name: '1170,1890,1891|8J%2BHr%2FCfh7VKUC00My4yMDcuMT... #8'
-  obfs: plain
-  obfs-param: ''
-  password: Mv4e0QHWPwdbKiCF
-  port: '54112'
-  protocol: auth_aes128_sha1
-  protocol-param: ''
-  server: live.bilibilicloud01.com
-  type: ssr
-- cipher: chacha20-ietf
-  name: '1170,1890,1891|8J%2BHr%2FCfh7VKUC00My4yMDcuMT... #9'
+  name: '1170,1890,1891|8J%2BHr%2FCfh7VKUC0xMy4xNTguND... #9'
   obfs: plain
   obfs-param: ''
   password: Mv4e0QHWPwdbKiCF
@@ -1450,68 +1466,7 @@ proxies:
   server: show.bilibilicloud01.com
   type: ssr
 - cipher: chacha20-ietf
-  name: '1170,1890,1891|8J%2BHr%2FCfh7VKUC00My4yMDcuMT... #10'
-  obfs: plain
-  obfs-param: ''
-  password: Mv4e0QHWPwdbKiCF
-  port: '54114'
-  protocol: auth_aes128_sha1
-  protocol-param: ''
-  server: show.bilibilicloud01.com
-  type: ssr
-- cipher: chacha20-ietf
-  name: '1170,1890,1891|8J%2BHr%2FCfh7VKUC00My4yMDcuMT... #11'
-  obfs: plain
-  obfs-param: ''
-  password: Mv4e0QHWPwdbKiCF
-  port: '54103'
-  protocol: auth_aes128_sha1
-  protocol-param: ''
-  server: show.bilibilicloud01.com
-  type: ssr
-- cipher: chacha20-ietf-poly1305
-  name: 1170|🇵JP-18.181.95.40-6353
-  password: 792e0bdb-01db-450c-94c4-925151eb396e
-  port: 16688
-  server: ss.041.node-for-bigairport.win
-  type: ss
-- cipher: chacha20-ietf
-  name: '1170,1890,1891|8J%2BHr%2FCfh7VKUC00My4yMDcuMT... #12'
-  obfs: plain
-  obfs-param: ''
-  password: Mv4e0QHWPwdbKiCF
-  port: '54101'
-  protocol: auth_aes128_sha1
-  protocol-param: ''
-  server: show.bilibilicloud01.com
-  type: ssr
-- alterId: 0
-  cipher: auto
-  name: '1170,1890,1891|🇯🇵JP-172.111.146.64-6369 #1'
-  network: ws
-  port: 80
-  server: 172.111.146.64
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 05b8c783-7f59-47f9-9923-06a465679f6a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /vmess/
-- cipher: chacha20-ietf
-  name: '1170,1890,1891|8J%2BHr%2FCfh7VKUC00My4yMDcuMT... #13'
-  obfs: plain
-  obfs-param: ''
-  password: Mv4e0QHWPwdbKiCF
-  port: '54113'
-  protocol: auth_aes128_sha1
-  protocol-param: ''
-  server: live.bilibilicloud01.com
-  type: ssr
-- cipher: chacha20-ietf
-  name: '1170,1890,1891|8J%2BHr%2FCfh7VKUC00My4yMDcuMT... #14'
+  name: '1170,1890,1891|8J%2BHr%2FCfh7VKUC0xMy4xNTguND... #14'
   obfs: plain
   obfs-param: ''
   password: Mv4e0QHWPwdbKiCF
@@ -1521,7 +1476,27 @@ proxies:
   server: show.bilibilicloud01.com
   type: ssr
 - cipher: chacha20-ietf
-  name: '1170,1890,1891|8J%2BHr%2FCfh7VKUC0xMy4xNTguND... #1'
+  name: '1170,1890,1891|8J%2BHr%2FCfh7VKUC0xMy4xNTguND... #11'
+  obfs: plain
+  obfs-param: ''
+  password: Mv4e0QHWPwdbKiCF
+  port: '54103'
+  protocol: auth_aes128_sha1
+  protocol-param: ''
+  server: show.bilibilicloud01.com
+  type: ssr
+- cipher: chacha20-ietf
+  name: '1170,1890,1891|8J%2BHr%2FCfh7VKUC0xMy4xNTguND... #10'
+  obfs: plain
+  obfs-param: ''
+  password: Mv4e0QHWPwdbKiCF
+  port: '54114'
+  protocol: auth_aes128_sha1
+  protocol-param: ''
+  server: show.bilibilicloud01.com
+  type: ssr
+- cipher: chacha20-ietf
+  name: '1170,1890,1891|8J%2BHr%2FCfh7VKUC0xMy4yMzAuMT... #1'
   obfs: plain
   obfs-param: ''
   password: Mv4e0QHWPwdbKiCF
@@ -1531,7 +1506,37 @@ proxies:
   server: manga.bilibilicloud01.com
   type: ssr
 - cipher: chacha20-ietf
-  name: '1170,1890,1891|8J%2BHr%2FCfh7VKUC00My4yMDcuMT... #15'
+  name: '1170,1890,1891|8J%2BHr%2FCfh7VKUC0xMy4xNTguND... #8'
+  obfs: plain
+  obfs-param: ''
+  password: Mv4e0QHWPwdbKiCF
+  port: '54112'
+  protocol: auth_aes128_sha1
+  protocol-param: ''
+  server: live.bilibilicloud01.com
+  type: ssr
+- cipher: chacha20-ietf
+  name: '1170,1890,1891|8J%2BHr%2FCfh7VKUC0xMy4xNTguND... #12'
+  obfs: plain
+  obfs-param: ''
+  password: Mv4e0QHWPwdbKiCF
+  port: '54101'
+  protocol: auth_aes128_sha1
+  protocol-param: ''
+  server: show.bilibilicloud01.com
+  type: ssr
+- cipher: chacha20-ietf
+  name: '1170,1890,1891|8J%2BHr%2FCfh7VKUC0xMy4xNTguND... #13'
+  obfs: plain
+  obfs-param: ''
+  password: Mv4e0QHWPwdbKiCF
+  port: '54113'
+  protocol: auth_aes128_sha1
+  protocol-param: ''
+  server: live.bilibilicloud01.com
+  type: ssr
+- cipher: chacha20-ietf
+  name: '1170,1890,1891|8J%2BHr%2FCfh7VKUC0xMy4xNTguND... #15'
   obfs: plain
   obfs-param: ''
   password: Mv4e0QHWPwdbKiCF
@@ -1542,7 +1547,7 @@ proxies:
   type: ssr
 - alterId: 0
   cipher: auto
-  name: '1170,1890,1891|🇯🇵JP-138.2.52.244-8104 #1'
+  name: '1170,1890,1891|🇯🇵JP-138.2.52.244-8090 #1'
   network: ws
   port: 443
   server: 138.2.52.244
@@ -1557,7 +1562,7 @@ proxies:
     path: /ray
 - alterId: 0
   cipher: auto
-  name: '1170,1890,1891|🇯🇵JP-166.88.95.249-8229 #1'
+  name: '1170,1890,1891|🇯🇵JP-166.88.95.249-8215 #1'
   network: ws
   port: 20255
   server: 166.88.95.249
@@ -1572,7 +1577,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '1170,1890,1891|🇯🇵JP-47.74.10.111-8403 #1'
+  name: '1170,1890,1891|🇯🇵JP-47.74.10.111-8389 #1'
   network: ws
   port: 34029
   server: 47.74.10.111
@@ -1587,7 +1592,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '1170,1890,1891|🇯🇵JP-144.48.8.51-8455 #1'
+  name: '1170,1890,1891|🇯🇵JP-144.48.8.51-8441 #1'
   network: ws
   port: 19887
   server: 144.48.8.51
@@ -1602,7 +1607,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '1170,1890,1891|🇯🇵JP-23.27.169.228-8461 #1'
+  name: '1170,1890,1891|🇯🇵JP-23.27.169.228-8447 #1'
   network: ws
   port: 12604
   server: 23.27.169.228
@@ -1617,7 +1622,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '1170,1890,1891|🇯🇵JP-116.206.93.165-8472 #1'
+  name: '1170,1890,1891|🇯🇵JP-116.206.93.165-8458 #1'
   network: ws
   port: 39975
   server: 116.206.93.165
@@ -1851,19 +1856,6 @@ proxies:
     headers:
       Host: ae9c0de474c64c03db9edbf3fc4d8c68.mobgslb.tbcache.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: '1763,1764|JP 🇯🇵 | @Raydikalx | 2862 #1'
-  network: ws
-  port: '80'
-  server: 168.138.43.75
-  tls: false
-  type: vmess
-  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
-  ws-opts:
-    headers:
-      Host: None
-    path: /cctv13.m3u8
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -3337,6 +3329,15 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
+  name: 1828|日本 052
+  network: tcp
+  port: 8888
+  server: 146.56.112.110
+  skip-cert-verify: true
+  type: vmess
+  uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707
+- alterId: 0
+  cipher: auto
   name: 1828|日本 054
   network: tcp
   port: 22324
@@ -3479,7 +3480,7 @@ proxies:
   uuid: 1c7adb68-7eb3-419f-e104-afad83996410
 - alterId: 0
   cipher: auto
-  name: '1890,1891|🇯🇵JP-172.111.146.64-0300 #1'
+  name: '1890,1891|🇯🇵JP-172.111.146.64-6355 #1'
   network: ws
   port: 80
   server: 172.111.146.64
@@ -3490,7 +3491,7 @@ proxies:
   ws-opts:
     headers:
       Host: ''
-    path: /
+    path: /vmess/
 - cipher: aes-128-gcm
   name: 1914|youtube@资源分享师_日本_101
   password: '!!str 202211000000000000000020'
@@ -3599,24 +3600,6 @@ proxies:
     headers:
       Host: a.189.cn
     path: /adobe
-- alterId: 0
-  cipher: auto
-  name: 1963|🇯🇵 机场推荐:dafei.de 日本 03
-  network: tcp
-  port: '6666'
-  server: 34.85.93.29
-  tls: false
-  type: vmess
-  uuid: d2642f6b-04b8-4b84-ab3c-4143faf1c90c
-- alterId: 0
-  cipher: auto
-  name: 1963|🇯🇵 机场推荐:dafei.de 日本 04
-  network: tcp
-  port: '1552'
-  server: 103.201.131.66
-  tls: false
-  type: vmess
-  uuid: d2642f6b-04b8-4b84-ab3c-4143faf1c90c
 - cipher: aes-256-cfb
   name: 1967|TG频道@mfbpn-日本2
   obfs: tls1.2_ticket_auth
@@ -3865,7 +3848,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.es:25488
+    host: 502d36f.default.fastly.net:25488
     mode: tls
   port: 2377
   server: 502d36f.e9.glados-config.com
@@ -3876,7 +3859,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.nvidia.com:25488
+    host: 502d36f.default.nintendo.net:25488
     mode: tls
   port: 2377
   server: 502d36f.e7.glados-config.com
@@ -3887,7 +3870,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.hu:25488
+    host: 502d36f.default.microsoft.net:25488
     mode: tls
   port: 2377
   server: 502d36f.e7.glados-config.com
@@ -3909,7 +3892,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.dk:25488
+    host: 502d36f.default.nintendo.net:25488
     mode: tls
   port: 2377
   server: 502d36f.e6.glados-config.com
@@ -3920,7 +3903,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.nintendo.net:25488
+    host: 502d36f.default.microsoft.jp:25488
     mode: tls
   port: 2377
   server: 502d36f.e8.glados-config.com
@@ -3931,7 +3914,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.es:25488
+    host: 502d36f.default.nintendo.be:25488
     mode: tls
   port: 2377
   server: 502d36f.e8.glados-config.com
