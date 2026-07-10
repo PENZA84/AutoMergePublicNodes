@@ -173,22 +173,22 @@ proxies:
       Host: ''
     path: /
 - cipher: aes-128-gcm
-  country: 🇺🇸US
-  name: 1170,1730|🇸US_107
+  country: 🇸US
+  name: 1170,1730|🇺🇸US_102
   password: shadowsocks
   port: 443
   server: 149.22.87.241
   type: ss
 - cipher: aes-128-gcm
   country: 🇺🇸US
-  name: 1170,1730|🇺🇸US_111
+  name: 1170,1730|🇺🇸US_104
   password: shadowsocks
   port: 443
   server: 149.22.87.240
   type: ss
 - cipher: aes-128-gcm
   country: 🇸US
-  name: 1170,1730|🇺US_102
+  name: 1170,1730|🇺🇸US_103
   password: shadowsocks
   port: 443
   server: 149.22.87.204
@@ -1077,7 +1077,7 @@ proxies:
     path: /takeshi.wiki
 - alterId: 0
   cipher: auto
-  name: '1170,1828,1890,1891|🇯🇵JP-168.138.43.75-2203 #1'
+  name: '1170,1763,1764,1828,1890,1891|🇯🇵JP-168.138.43.75-2203 #1'
   network: ws
   port: 80
   server: 168.138.43.75
@@ -1853,17 +1853,17 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  country: 🇵JP
-  h2-opts: {}
-  http-opts: {}
-  name: 1735,1963|🇯🇵 机场推荐:dafei.de 日本 04
-  network: tcp
-  port: '1552'
-  server: 103.201.131.66
-  skip-cert-verify: true
+  name: '1763,1764|JP 🇯🇵 | @Raydikalx | 2862 #1'
+  network: ws
+  port: '80'
+  server: 168.138.43.75
   tls: false
   type: vmess
-  uuid: d2642f6b-04b8-4b84-ab3c-4143faf1c90c
+  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
+  ws-opts:
+    headers:
+      Host: None
+    path: /cctv13.m3u8
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -3337,15 +3337,6 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 1828|日本 052
-  network: tcp
-  port: 8888
-  server: 146.56.112.110
-  skip-cert-verify: true
-  type: vmess
-  uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707
-- alterId: 0
-  cipher: auto
   name: 1828|日本 054
   network: tcp
   port: 22324
@@ -3617,6 +3608,15 @@ proxies:
   tls: false
   type: vmess
   uuid: d2642f6b-04b8-4b84-ab3c-4143faf1c90c
+- alterId: 0
+  cipher: auto
+  name: 1963|🇯🇵 机场推荐:dafei.de 日本 04
+  network: tcp
+  port: '1552'
+  server: 103.201.131.66
+  tls: false
+  type: vmess
+  uuid: d2642f6b-04b8-4b84-ab3c-4143faf1c90c
 - cipher: aes-256-cfb
   name: 1967|TG频道@mfbpn-日本2
   obfs: tls1.2_ticket_auth
@@ -3854,7 +3854,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.fastly.net:25488
+    host: 502d36f.default.nintendo.com:25488
     mode: tls
   port: 2377
   server: 502d36f.e9.glados-config.com
@@ -3865,7 +3865,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.cz:25488
+    host: 502d36f.default.microsoft.es:25488
     mode: tls
   port: 2377
   server: 502d36f.e9.glados-config.com
@@ -3876,7 +3876,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.jp:25488
+    host: 502d36f.default.nvidia.com:25488
     mode: tls
   port: 2377
   server: 502d36f.e7.glados-config.com
@@ -3887,7 +3887,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.dk:25488
+    host: 502d36f.default.microsoft.hu:25488
     mode: tls
   port: 2377
   server: 502d36f.e7.glados-config.com
@@ -3898,7 +3898,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.ch:25488
+    host: 502d36f.default.microsoft.es:25488
     mode: tls
   port: 2377
   server: 502d36f.e6.glados-config.com
@@ -3909,7 +3909,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.mozilla.net:25488
+    host: 502d36f.default.microsoft.dk:25488
     mode: tls
   port: 2377
   server: 502d36f.e6.glados-config.com
@@ -3920,7 +3920,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.ee:25488
+    host: 502d36f.default.nintendo.net:25488
     mode: tls
   port: 2377
   server: 502d36f.e8.glados-config.com
@@ -3931,7 +3931,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.lv:25488
+    host: 502d36f.default.microsoft.es:25488
     mode: tls
   port: 2377
   server: 502d36f.e8.glados-config.com
