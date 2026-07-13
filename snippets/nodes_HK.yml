@@ -818,8 +818,7 @@ proxies:
       Host: 20.239.179.251
     path: /
 - cipher: aes-256-cfb
-  country: 🇰HK
-  name: 1170,1730|🇰HK_57
+  name: 1170|🇰HK-112.213.102.188-0209
   password: qwerREWQ@@
   port: 41632
   server: 112.213.102.188
@@ -1155,7 +1154,7 @@ proxies:
     path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
 - alterId: 2
   cipher: auto
-  name: '1170,1763,1764,1828,1890,1891,1969|HK #2'
+  name: '1170,1763,1764,1828,1890,1891,1969|HK2 #1'
   network: ws
   port: '80'
   server: e0349a52-sv8cg0-t7uinf-i8ie.hk3.p5pv.com
@@ -4369,9 +4368,9 @@ proxies:
     path: /zh-cn/
 - alterId: 0
   cipher: auto
-  name: '1763,1764,1828,1901,1968,1969|HK4 168.6KB/s #1'
+  name: '1763,1764,1828,1901|🇭🇰_HK_中国香港特别行政区 #1'
   network: tcp
-  port: '80'
+  port: 80
   server: 47.83.221.185
   servername: ''
   skip-cert-verify: true
@@ -4380,7 +4379,17 @@ proxies:
   uuid: 771a590c-5eac-5732-b796-17251132f8d2
 - alterId: 0
   cipher: auto
-  name: '1763,1764,1968,1969|未知78 #1'
+  name: 1763,1764,2003|美国_0712018
+  network: tcp
+  port: '5566'
+  server: 47.76.127.88
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 44712929-c2b7-4fa4-93bd-9de332a78c8c
+- alterId: 0
+  cipher: auto
+  name: '1763,1764,1968,1969|未知3 #1'
   network: ws
   port: '54809'
   server: 8.210.140.23
@@ -4395,7 +4404,7 @@ proxies:
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: '1763,1764,1968,1969|未知58 #1'
+  name: '1763,1764,1968,1969|未知42 #1'
   network: ws
   port: '36968'
   server: 47.83.18.10
@@ -6188,34 +6197,9 @@ proxies:
   tls: false
   type: vmess
   uuid: 49933ab7-7ec2-3024-9f6e-b7ad9da24c8f
-- alterId: 2
+- alterId: 0
   cipher: auto
   name: '1968|HK #1'
-  network: ws
-  port: 80
-  server: e0349a52-sv8cg0-t7uinf-i8ie.hk3.p5pv.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 990e8f34-bd4f-11ef-bdb9-f23c91cfbbc9
-  ws-opts:
-    headers:
-      host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1968,1969,2003|美国_0712018
-  network: tcp
-  port: '5566'
-  server: 47.76.127.88
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 44712929-c2b7-4fa4-93bd-9de332a78c8c
-- alterId: 0
-  cipher: auto
-  name: 1968|HK3
   network: ws
   port: 11655
   server: 131.186.63.89
@@ -6227,6 +6211,20 @@ proxies:
     headers:
       host: hk.nbee.pp.ua
     path: /aa
+- alterId: 2
+  cipher: auto
+  name: 1968|HK2
+  network: ws
+  port: 80
+  server: e0349a52-sv8cg0-t7uinf-i8ie.hk3.p5pv.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 990e8f34-bd4f-11ef-bdb9-f23c91cfbbc9
+  ws-opts:
+    headers:
+      host: broadcastlv.chat.bilibili.com
+    path: /
 - alterId: 64
   cipher: auto
   name: '1981,1982|香港1|@ripaojiedian #1'
