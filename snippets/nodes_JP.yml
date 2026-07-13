@@ -63,7 +63,7 @@ proxies:
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-256-cfb
-  name: 1160,1170|🇵JP-43.207.83.221-9391
+  name: 1160,1170|🇵JP-43.207.83.221-9319
   password: amazonskr05
   port: 443
   server: 43.207.83.221
@@ -137,7 +137,7 @@ proxies:
   type: vmess
   uuid: 94c5ef37-4d82-49f9-c624-f01259374a17
 - cipher: aes-256-cfb
-  name: 1160,1170|JP-103.75.118.27-10175
+  name: 1160,1170|JP-103.75.118.27-10103
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 103.75.118.27
@@ -145,6 +145,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
+  country: 🏁ZZ
   grpc-opts:
     grpc-service-name: 1654431
   name: Relay_🏁ZZ-🏁ZZ_1452
@@ -152,7 +153,7 @@ proxies:
   password: bbab60b8-779f-31e2-916e-571f7d7023c4
   port: 35115
   server: jd5.zahuopu.top
-  servername: 45.144.2.113
+  servername: gw.alicdn.com
   skip-cert-verify: true
   sni: jd5.zahuopu.top
   tfo: false
@@ -161,28 +162,37 @@ proxies:
   udp: true
   uuid: 010a6106-960a-4a3c-94d3-410a50c1219d
 - cipher: aes-128-gcm
-  name: 1170|🇵JP-149.22.87.241-0141
+  country: 🇸US
+  name: 1170,1730|🇺🇸US_100
   password: shadowsocks
   port: 443
   server: 149.22.87.241
   type: ss
 - cipher: aes-128-gcm
-  name: 1170|🇵JP-149.22.87.240-0142
+  country: 🇺US
+  name: 1170,1730|🇺🇸US_98
   password: shadowsocks
   port: 443
   server: 149.22.87.240
   type: ss
-- cipher: aes-128-gcm
-  name: 1170|🇯🇵JP-149.22.87.204-0143
-  password: shadowsocks
-  port: 443
-  server: 149.22.87.204
-  type: ss
 - cipher: aes-256-cfb
-  name: 1170|🇵JP-13.193.101.147-0145
+  name: 1170|🇵JP-13.193.101.147-0159
   password: amazonskr05
   port: 443
   server: 13.193.101.147
+  type: ss
+- cipher: aes-256-cfb
+  name: 1170|🇵JP-35.77.98.65-0160
+  password: amazonskr05
+  port: 443
+  server: 35.77.98.65
+  type: ss
+- cipher: aes-128-gcm
+  country: 🇸US
+  name: 1170,1730|🇺🇸US_99
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.204
   type: ss
 - alterId: 0
   cipher: auto
@@ -214,24 +224,6 @@ proxies:
     headers:
       Host: www.bing.com
     path: /
-- cipher: aes-256-cfb
-  name: 1170|🇵JP-35.77.98.65-0237
-  password: amazonskr05
-  port: 443
-  server: 35.77.98.65
-  type: ss
-- cipher: aes-256-cfb
-  name: 1170|🇯🇵JP-54.238.164.53-0238
-  password: amazonskr05
-  port: 443
-  server: 54.238.164.53
-  type: ss
-- cipher: aes-256-cfb
-  name: 1170|🇯🇵JP-13.192.184.199-0239
-  password: amazonskr05
-  port: 443
-  server: 13.192.184.199
-  type: ss
 - alterId: 0
   cipher: auto
   name: '1170,1890,1891|🇯🇵JP-152.69.206.209-0101 #1'
@@ -258,6 +250,21 @@ proxies:
   tls: false
   type: vmess
   uuid: fb908160-9697-4bfd-f5b7-f1fbc53e60fa
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '1170,1776,1890,1891|🇯🇵JP-152.69.193.245-0097 #1'
+  network: ws
+  port: 80
+  server: 152.69.193.245
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 6697776b-d009-413b-8708-822ee2e02515
   ws-opts:
     headers:
       Host: ''
@@ -302,26 +309,12 @@ proxies:
   name: 1170,1851|🇯🇵_JP_日本_1
   password: amazonskr05
   port: 443
-  server: 18.183.180.62
+  server: 52.195.12.64
   skip-cert-verify: true
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 1170,1731,1851|🇯🇵_JP_日本_2
-  network: ws
-  port: 58905
-  server: 161.33.139.138
-  servername: 161.33.139.138
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 1610f8dc-0661-4032-ac6a-a7250603f608
-  ws-opts:
-    path: /1610f8dc-0661-4032-ac6a-a7250603f608-vm
 - cipher: aes-256-gcm
-  name: 1170|🇵JP-20.210.122.21-0482
+  name: 1170|🇯🇵JP-20.210.122.21-0482
   password: 233blog.com
   port: 443
   server: 20.210.122.21
@@ -726,7 +719,7 @@ proxies:
       Host: download.windowsupdate.com
     path: /download
 - client-fingerprint: chrome
-  name: 1170,1828|美国 236
+  name: 1170,1828|美国 245
   network: ws
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 443
@@ -804,7 +797,7 @@ proxies:
       Host: tjsp.hhxaf.cc.cd
     path: /
 - client-fingerprint: chrome
-  name: 1170,1828|美国 330
+  name: 1170,1828|美国 339
   network: ws
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 443
@@ -820,7 +813,7 @@ proxies:
         like Gecko) Chrome/65.0.3325.181 Safari/537.36
     path: /
 - client-fingerprint: chrome
-  name: 1170,1828|美国 332
+  name: 1170,1828|美国 341
   network: ws
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 443
@@ -968,36 +961,6 @@ proxies:
     headers:
       Host: f1f3227.u1.glados-config.net
     path: /s/f1f3227.fm.apple.com:111548
-- alterId: 0
-  cipher: auto
-  name: 1170,1828,1890,1891,2003|日本_0712010
-  network: ws
-  port: '9111'
-  server: st-1.dnspro.icu
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 13ef5f2c-d002-36a2-9e96-a13d5e3ae03b
-  ws-opts:
-    headers:
-      Host: st-1.dnspro.icu
-    path: /iso
-- alterId: 0
-  cipher: auto
-  name: 1170,1828,1890,1891,2003|新加坡_0712007
-  network: ws
-  port: '20025'
-  server: sh-cn-1.dnspro.icu
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 13ef5f2c-d002-36a2-9e96-a13d5e3ae03b
-  ws-opts:
-    headers:
-      Host: sh-cn-1.dnspro.icu
-    path: /iso
 - alterId: 0
   cipher: auto
   name: '1170,1818,1828,1890,1891|🇯🇵JP-140.83.35.62-1661 #1'
@@ -1239,12 +1202,27 @@ proxies:
     headers:
       Host: ''
     path: /chat
-- cipher: chacha20-ietf-poly1305
-  name: 1170|🇵JP-54.250.165.160-2650
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  port: 2377
-  server: 54.250.165.160
+- cipher: aes-256-cfb
+  name: 1170|🇯🇵JP-18.183.180.62-2616
+  password: amazonskr05
+  port: 443
+  server: 18.183.180.62
   type: ss
+- alterId: 0
+  cipher: auto
+  name: '1170,1901|🇯🇵_JP_日本 #2'
+  network: ws
+  port: 58905
+  server: 161.33.139.138
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 1610f8dc-0661-4032-ac6a-a7250603f608
+  ws-opts:
+    headers:
+      Host: 161.33.139.138
+    path: /1610f8dc-0661-4032-ac6a-a7250603f608-vm
 - alterId: 0
   cipher: auto
   name: '1170,1817,1890,1891|🇯🇵JP-140.83.84.209-2922 #1'
@@ -1381,7 +1359,7 @@ proxies:
   server: 43.207.82.53
   type: ss
 - cipher: aes-128-gcm
-  name: 1170|🇵JP-47.245.62.4-3504
+  name: 1170|🇵JP-47.245.62.4-3432
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   plugin: v2ray-plugin
   plugin-opts:
@@ -1395,19 +1373,19 @@ proxies:
   server: 47.245.62.4
   type: ss
 - cipher: aes-256-cfb
-  name: 1170|🇵JP-43.207.68.169-3796
+  name: 1170|🇵JP-43.207.68.169-3724
   password: amazonskr05
   port: 443
   server: 43.207.68.169
   type: ss
 - cipher: aes-256-cfb
-  name: 1170|🇵JP-43.207.1.14-3893
+  name: 1170|🇵JP-43.207.1.14-3821
   password: amazonskr05
   port: 443
   server: 43.207.1.14
   type: ss
 - cipher: aes-256-cfb
-  name: 1170|🇵JP-43.206.221.164-3953
+  name: 1170|🇵JP-43.206.221.164-3881
   password: amazonskr05
   port: 443
   server: 43.206.221.164
@@ -1428,7 +1406,7 @@ proxies:
       Host: ''
     path: /v2ray
 - cipher: aes-256-cfb
-  name: 1170|🇵JP-43.206.219.140-4117
+  name: 1170|🇯🇵JP-43.206.219.140-4045
   password: amazonskr05
   port: 443
   server: 43.206.219.140
@@ -1449,7 +1427,7 @@ proxies:
       Host: ''
     path: /
 - cipher: chacha20-ietf-poly1305
-  name: 1170|🇯🇵JP-185.160.26.91-4279
+  name: 1170|🇯🇵JP-185.160.26.91-4207
   password: Xs9ORT4j65b8HreZrg0p
   port: 1664
   server: 185.160.26.91
@@ -1470,28 +1448,13 @@ proxies:
       Host: ''
     path: /
 - cipher: aes-256-cfb
-  name: 1170|🇯🇵JP-3.112.193.151-5249
+  name: 1170|🇯🇵JP-3.112.193.151-5177
   password: amazonskr05
   port: 443
   server: 3.112.193.151
   type: ss
-- alterId: 0
-  cipher: auto
-  name: '1170,1776,1890,1891|🇯🇵JP-152.69.193.245-0097 #1'
-  network: ws
-  port: 80
-  server: 152.69.193.245
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 6697776b-d009-413b-8708-822ee2e02515
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
 - cipher: chacha20-ietf-poly1305
-  name: 1170|🇵JP-193.38.139.204-6185
+  name: 1170|🇵JP-193.38.139.204-6113
   password: G!yBwPWH3Vao
   port: 806
   server: 193.38.139.204
@@ -1517,12 +1480,6 @@ proxies:
     headers:
       Host: ''
     path: /
-- cipher: aes-256-cfb
-  name: 1170|🇵JP-52.195.12.64-6395
-  password: amazonskr05
-  port: 443
-  server: 52.195.12.64
-  type: ss
 - cipher: chacha20-ietf
   name: 1170,1890,1891,2003|5pel5pysXzA3MTIwMzA
   obfs: plain
@@ -1926,6 +1883,17 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: '1731|🇯🇵JP_2|2.6MB/s | 网盘搜宝: https:/...'
+  network: ws
+  port: '58905'
+  server: 161.33.139.138
+  tls: false
+  type: vmess
+  uuid: 1610f8dc-0661-4032-ac6a-a7250603f608
+  ws-opts:
+    path: /1610f8dc-0661-4032-ac6a-a7250603f608-vm
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
   name: 1770,1828,1904|0.55|JPhttpsawkjcfky 注册体验流媒体机场...
   network: ws
@@ -2228,7 +2196,7 @@ proxies:
   uuid: d9dc506b-9bcf-497e-ea11-53c369e2b343
 - alterId: 64
   cipher: auto
-  name: 1785,1819,1828|美国 1795
+  name: 1785,1819,1828|美国 1803
   network: tcp
   port: 20081
   server: 138.2.44.211
@@ -3580,20 +3548,6 @@ proxies:
     headers:
       Host: 152.69.206.209
     path: /
-- alterId: 0
-  cipher: auto
-  name: '1901|🇯🇵_JP_日本 #2'
-  network: ws
-  port: 58905
-  server: 161.33.139.138
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1610f8dc-0661-4032-ac6a-a7250603f608
-  ws-opts:
-    headers:
-      Host: 161.33.139.138
-    path: /1610f8dc-0661-4032-ac6a-a7250603f608-vm
 - cipher: aes-128-gcm
   name: 1914|youtube@资源分享师_日本_101
   password: '!!str 202211000000000000000020'
@@ -3702,6 +3656,18 @@ proxies:
     headers:
       Host: a.189.cn
     path: /adobe
+- alterId: 0
+  cipher: auto
+  name: 1963|🇯🇵 机场推荐:dafei.de 日本 04
+  network: ws
+  port: '443'
+  server: vps123.kbxa.top
+  servername: vps123.kbxa.top
+  tls: true
+  type: vmess
+  uuid: cd07d6e6-f631-4757-a03c-b8727c568c85
+  ws-opts:
+    path: /123
 - cipher: aes-256-cfb
   name: 1967|TG频道@mfbpn-日本2
   obfs: tls1.2_ticket_auth
@@ -3939,7 +3905,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.blizzard.com:25488
+    host: 502d36f.default.mozilla.net:25488
     mode: tls
   port: 2377
   server: 502d36f.e9.glados-config.com
@@ -3950,7 +3916,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.com:25488
+    host: 502d36f.default.microsoft.de:25488
     mode: tls
   port: 2377
   server: 502d36f.e9.glados-config.com
@@ -3961,7 +3927,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.nintendo.es:25488
+    host: 502d36f.default.microsoft.cat:25488
     mode: tls
   port: 2377
   server: 502d36f.e7.glados-config.com
@@ -3972,7 +3938,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.ee:25488
+    host: 502d36f.default.microsoft.it:25488
     mode: tls
   port: 2377
   server: 502d36f.e7.glados-config.com
@@ -3983,7 +3949,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.nintendo.it:25488
+    host: 502d36f.default.microsoft.lt:25488
     mode: tls
   port: 2377
   server: 502d36f.e6.glados-config.com
@@ -3994,7 +3960,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.lu:25488
+    host: 502d36f.default.nintendo.net:25488
     mode: tls
   port: 2377
   server: 502d36f.e6.glados-config.com
@@ -4005,7 +3971,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.net:25488
+    host: 502d36f.default.microsoft.io:25488
     mode: tls
   port: 2377
   server: 502d36f.e8.glados-config.com
@@ -4016,7 +3982,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.lv:25488
+    host: 502d36f.default.microsoft.es:25488
     mode: tls
   port: 2377
   server: 502d36f.e8.glados-config.com
