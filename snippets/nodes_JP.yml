@@ -225,25 +225,29 @@ proxies:
       Host: YouTube-aweikeji
     path: /
 - cipher: aes-128-gcm
-  name: 1170|🇯🇵JP-149.22.87.240-0165
+  country: 🇺US
+  name: 1170,1730|🇺🇸US_112
   password: shadowsocks
   port: 443
   server: 149.22.87.240
   type: ss
 - cipher: aes-128-gcm
-  name: 1170|🇯🇵JP-149.22.87.241-0167
+  country: 🇸US
+  name: 1170,1730|🇸US_109
   password: shadowsocks
   port: 443
   server: 149.22.87.241
   type: ss
 - cipher: aes-128-gcm
-  name: 1170|🇵JP-149.22.87.204-0168
+  country: 🇸US
+  name: 1170,1730|🇺🇸US_111
   password: shadowsocks
   port: 443
   server: 149.22.87.204
   type: ss
 - cipher: aes-256-cfb
-  name: 1170|🇯🇵JP-35.77.98.65-0170
+  country: 🇺🇸US
+  name: 1170,1730|🇺🇸US_110
   password: amazonskr05
   port: 443
   server: 35.77.98.65
@@ -1506,7 +1510,8 @@ proxies:
       Host: ''
     path: /
 - cipher: aes-256-cfb
-  name: 1170|🇯🇵JP-13.193.101.147-6299
+  country: 🇸US
+  name: 1170,1730|🇺US_108
   password: amazonskr05
   port: 443
   server: 13.193.101.147
@@ -3468,6 +3473,28 @@ proxies:
   server: proxy1.fanqiecloud.top
   type: ss
   udp: true
+- cipher: aes-256-cfb
+  name: 1851|🇯🇵_JP_日本_1
+  password: amazonskr05
+  port: 443
+  server: 18.183.180.62
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 1851|🇯🇵_JP_日本_2
+  network: ws
+  port: 58905
+  server: 161.33.139.138
+  servername: 161.33.139.138
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1610f8dc-0661-4032-ac6a-a7250603f608
+  ws-opts:
+    path: /1610f8dc-0661-4032-ac6a-a7250603f608-vm
 - alterId: 0
   cipher: auto
   name: 1863|日本_0306001
@@ -3846,7 +3873,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.hu:25488
+    host: 502d36f.default.microsoft.ch:25488
     mode: tls
   port: 2377
   server: 502d36f.e9.glados-config.com
@@ -3857,7 +3884,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.nintendo.it:25488
+    host: 502d36f.default.microsoft.cz:25488
     mode: tls
   port: 2377
   server: 502d36f.e9.glados-config.com
@@ -3868,7 +3895,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.mozilla.net:25488
+    host: 502d36f.default.microsoft.de:25488
     mode: tls
   port: 2377
   server: 502d36f.e7.glados-config.com
@@ -3879,7 +3906,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.fi:25488
+    host: 502d36f.default.epicgames.com:25488
     mode: tls
   port: 2377
   server: 502d36f.e7.glados-config.com
@@ -3890,7 +3917,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.nvidia.com:25488
+    host: 502d36f.default.microsoft.jp:25488
     mode: tls
   port: 2377
   server: 502d36f.e6.glados-config.com
@@ -3901,10 +3928,21 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.nintendo.it:25488
+    host: 502d36f.default.microsoft.hu:25488
     mode: tls
   port: 2377
   server: 502d36f.e6.glados-config.com
+  type: ss
+  udp: false
+- cipher: chacha20-ietf-poly1305
+  name: 2763|JP-Dedicated-B1-7
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 502d36f.default.microsoft.es:25488
+    mode: tls
+  port: 2377
+  server: 502d36f.e8.glados-config.com
   type: ss
   udp: false
 - cipher: chacha20-ietf-poly1305
@@ -3912,7 +3950,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.de:25488
+    host: 502d36f.default.mozilla.net:25488
     mode: tls
   port: 2377
   server: 502d36f.e8.glados-config.com
