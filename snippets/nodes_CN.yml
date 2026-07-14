@@ -14,18 +14,6 @@ proxies:
     headers:
       Host: haxeu7.jsworld.eu.org
     path: /
-- grpc-opts:
-    grpc-service-name: zhs
-  name: '412,1170,1828|中国 002 #1'
-  network: grpc
-  password: c68526b9-f9e1-49a3-9711-e57d5c717563
-  port: 16335
-  server: dev.aoliuqu.press
-  skip-cert-verify: true
-  sni: dev.aoliuqu.press
-  tls: true
-  type: trojan
-  udp: true
 - alterId: 2
   cipher: auto
   name: '412,1170,1763,1764,1828,1890,1891,1969|HK2 #1'
@@ -43,17 +31,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '412,1763,1764,1828,1968,1969|未知55 #1'
-  network: tcp
-  port: '443'
-  server: digi39.ez0535.com
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c1f1060c-6168-4931-a63f-817a7ade25e2
-- alterId: 0
-  cipher: auto
   name: '412,1763,1764,1828,1968,1969|未知54 #1'
   network: tcp
   port: '59121'
@@ -63,6 +40,17 @@ proxies:
   tls: false
   type: vmess
   uuid: d9865d63-d95c-454b-ba07-8e88b838a801
+- alterId: 0
+  cipher: auto
+  name: '412,1763,1764,1828,1968,1969|未知55 #1'
+  network: tcp
+  port: '443'
+  server: digi39.ez0535.com
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c1f1060c-6168-4931-a63f-817a7ade25e2
 - alterId: 0
   cipher: auto
   name: '412,1170,1828,1890,1891|🇨🇳CN-120.82.70.149-0532 #1'
@@ -1975,6 +1963,17 @@ proxies:
   port: 8030
   server: 120.233.151.171
   type: ss
+- grpc-opts:
+    grpc-service-name: zhs
+  name: 1170|🇨🇳CN-49.235.129.184-2373
+  network: grpc
+  password: c68526b9-f9e1-49a3-9711-e57d5c717563
+  port: 16335
+  server: dev.aoliuqu.press
+  skip-cert-verify: false
+  sni: dev.aoliuqu.press
+  tls: true
+  type: trojan
 - cipher: rc4-md5
   name: 1170|🇨CN-42.157.196.103-2774
   obfs: http_post
@@ -3203,49 +3202,6 @@ proxies:
   port: 7719
   server: cm01.newcome.xyz
   type: ss
-- alterId: 2
-  cipher: auto
-  country: 🇨CN
-  h2-opts: {}
-  http-opts: {}
-  name: 1730|🇨CN_12
-  network: tcp
-  port: 30845
-  server: v45.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-path: /
-- alterId: 2
-  cipher: auto
-  country: 🇨🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: '1730,1901|🇭🇰_HK_中国香港->🇩🇪_DE_德国 #1'
-  network: tcp
-  port: 30833
-  server: v33.hdacd.com
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-path: /
-- alterId: 2
-  cipher: auto
-  country: 🇨🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: '1730,1901|🇯🇵_JP_日本->🇫🇷_FR_法国 #1'
-  network: tcp
-  port: 30835
-  server: v35.hdacd.com
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-path: /
 - alterId: 0
   cipher: auto
   name: '1759|🇨🇳中国【YouTube-由零開始】 #5'
