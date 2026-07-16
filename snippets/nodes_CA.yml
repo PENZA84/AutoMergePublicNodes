@@ -638,19 +638,22 @@ proxies:
   server: 134.195.196.200
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 1170|🇨CA-108.181.118.10-0045
+  country: 🇨🇦CA
+  name: 1170,1730|🇦CA_20
   password: G5p6ww4o67HB
   port: 8388
   server: 108.181.118.10
   type: ss
 - cipher: aes-128-gcm
-  name: 1170|🇦CA-149.22.95.183-0049
+  country: 🇺🇸US
+  name: 1170,1730|🇸US_155
   password: shadowsocks
   port: 443
   server: 149.22.95.183
   type: ss
 - cipher: rc4-md5
-  name: 1170|🇨🇦CA-137.184.174.93-0068
+  country: 🇺US
+  name: 1170,1730|🇸US_143
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 137.184.174.93
@@ -1897,6 +1900,19 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  country: 🇨🇦CA
+  h2-opts: {}
+  http-opts: {}
+  name: 1730|🇨🇦CA_23
+  network: tcp
+  port: 18339
+  server: c87s5.portablesubmarines.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 3cd9077d-76f7-4104-bd82-eb6916b89d43
+  ws-path: /
+- alterId: 0
+  cipher: auto
   name: 1759|🇨🇦CA加拿大(youtube阿伟科技)
   network: tcp
   port: '80'
@@ -1922,7 +1938,21 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: '1763,1764|CA 🇨🇦 | @Raydikalx | 2752 #1'
+  name: 1763,1764,1795|رایگان | VMESS | @v2Line | US🇺...
+  network: ws
+  port: '80'
+  server: 104.17.148.22
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6149b865-0d3c-4472-bf9c-3c61bfafa61a
+  ws-opts:
+    headers:
+      Host: 99806388192980142300309475767578.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou
+    path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
+- alterId: 0
+  cipher: auto
+  name: '1763,1764|CA 🇨🇦 | @Raydikalx | 2929 #1'
   network: ws
   port: '2095'
   server: 104.19.45.123
