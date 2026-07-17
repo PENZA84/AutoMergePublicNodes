@@ -1,7 +1,10 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: '412,1828|中国 001 #1'
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: '412,1730,1828|中国 001 #1'
   network: tcp
   port: 30808
   server: v8.hdacd.com
@@ -10,6 +13,7 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-path: /
   xudp: true
 - alterId: 0
   cipher: auto
@@ -28,14 +32,15 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '412,1170,1828,1890,1891|🇭🇰HK-43.100.32.12-2279 #1'
+  name: '412,1170,1828,1851,1890,1891|🇭🇰HK-43.100.32.12-2279 #1'
   network: ws
   port: 443
   server: n1747624274.4u9ma.icu
   servername: ''
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: false
   type: vmess
+  udp: true
   uuid: d8daf507-a4ac-4eea-8399-8f0cd071eb52
   ws-opts:
     headers:
@@ -3343,6 +3348,36 @@ proxies:
   port: 7719
   server: cm01.newcome.xyz
   type: ss
+- alterId: 2
+  cipher: auto
+  country: 🇨CN
+  h2-opts: {}
+  http-opts: {}
+  name: '1730,1901|🇨🇳_CN_中国->🇩🇪_DE_德国 #1'
+  network: tcp
+  port: 30833
+  server: v33.hdacd.com
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-path: /
+- alterId: 2
+  cipher: auto
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: '1730,1901|🇨🇳_CN_中国->🇫🇷_FR_法国 #1'
+  network: tcp
+  port: 30835
+  server: v35.hdacd.com
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: '1759|🇨🇳中国【YouTube-由零開始】 #5'
