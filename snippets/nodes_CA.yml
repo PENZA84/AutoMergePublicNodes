@@ -95,7 +95,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '412,1170,1801,1828,1890,1891|🇨🇦CA-104.247.81.99-0846 #2'
+  name: '412,1170,1801,1828,1890,1891|🇨🇦CA-104.247.81.99-0846 #1'
   network: ws
   port: 443
   server: 507.outline-vpn.cloud
@@ -600,7 +600,7 @@ proxies:
   cipher: none
   grpc-opts:
     grpc-service-name: /
-  name: 1160,1170|RELAY-23.227.60.184-9063
+  name: 1160,1170|RELAY-23.227.60.184-9215
   network: grpc
   port: 2096
   server: 23.227.60.184
@@ -643,16 +643,23 @@ proxies:
   port: 7306
   server: 85.208.108.93
   type: ss
+- cipher: rc4-md5
+  country: 🇺US
+  name: 1170,1730|🇸US_154
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 137.184.174.93
+  type: ss
 - cipher: chacha20-ietf-poly1305
-  country: 🇦CA
+  country: 🇨🇦CA
   name: 1170,1730|🇦CA_18
   password: G5p6ww4o67HB
   port: 8388
   server: 108.181.118.10
   type: ss
 - cipher: aes-128-gcm
-  country: 🇺US
-  name: 1170,1730|🇺🇸US_148
+  country: 🇺🇸US
+  name: 1170,1730|🇸US_163
   password: shadowsocks
   port: 443
   server: 149.22.95.183
@@ -685,58 +692,43 @@ proxies:
   server: 196.247.59.154
   type: ss
 - cipher: aes-256-gcm
-  name: 1170,1862|🇯🇵_JP_日本
+  name: '1170,1862|🇯🇵_JP_日本 #1'
   password: XKFKl2rULjIp74
   port: 8008
   server: 85.208.108.61
   type: ss
-- alterId: 0
-  cipher: auto
-  name: '1170,1890,1891|🇨🇦CA-158.51.121.63-0477 #1'
-  network: ws
-  port: 443
-  server: 158.51.121.63
-  servername: ''
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: seribus.org
-    path: /
 - cipher: aes-256-gcm
-  name: 1170|🇦CA-198.8.92.84-2199
+  name: 1170|🇦CA-198.8.92.84-2310
   password: ugyBkSEFxVEmUYSHyvxmWNj9
   port: 40220
   server: 198.8.92.84
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 1170|🇨🇦CA-138.197.174.245-2221
+  name: 1170|🇨🇦CA-138.197.174.245-2332
   password: yuMqkGIx6Ia0
   port: 56443
   server: 138.197.174.245
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇨🇦CA-198.8.92.84-2238
+  name: 1170|🇦CA-198.8.92.84-2349
   password: J9Y2ncrdPEC38gwydNFFGBna
   port: 35294
   server: 198.8.92.84
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇨🇦CA-198.8.92.84-2242
+  name: 1170|🇨🇦CA-198.8.92.84-2353
   password: F5bKkb9ggkLx4JbQrbLn7LjZ
   port: 44945
   server: 198.8.92.84
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇦CA-198.8.92.84-2254
+  name: 1170|🇦CA-198.8.92.84-2365
   password: Kquv5UhvZXNMemAQy8DxZ7qn
   port: 38620
   server: 198.8.92.84
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇨🇦CA-198.8.92.84-2255
+  name: 1170|🇨🇦CA-198.8.92.84-2366
   password: BdRWC38L5JUDMTYNNxJGcUwB
   port: 49396
   server: 198.8.92.84
@@ -886,7 +878,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1170|🇦CA-72.140.224.195-3233
+  name: 1170|🇦CA-72.140.224.195-3385
   password: G!yBwPWH3Vao
   port: 800
   server: 72.140.224.195
@@ -898,13 +890,13 @@ proxies:
   server: 85.208.108.60
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇦CA-85.208.108.60-3300
+  name: 1170|🇦CA-85.208.108.60-3452
   password: KixLvKzwjekG00rm
   port: 5500
   server: 85.208.108.60
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇨CA-85.208.108.60-3317
+  name: 1170|🇨CA-85.208.108.60-3469
   password: Y6R9pAtvxxzmGC
   port: 3389
   server: 85.208.108.60
@@ -940,7 +932,7 @@ proxies:
   server: 85.208.108.60
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇦CA-85.208.108.60-3425
+  name: 1170|🇦CA-85.208.108.60-3577
   password: KixLvKzwjekG00rm
   port: 8080
   server: 85.208.108.60
@@ -952,7 +944,7 @@ proxies:
   server: 85.208.108.60
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇦CA-85.208.108.60-3427
+  name: 1170|🇦CA-85.208.108.60-3579
   password: cdBIDV42DCwnfIN
   port: 8119
   server: 85.208.108.60
@@ -1037,7 +1029,7 @@ proxies:
   server: 85.208.108.60
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇨🇦CA-85.208.108.60-4769
+  name: 1170|🇨🇦CA-85.208.108.60-4921
   password: e4FCWrgpkji3QY
   port: 9101
   server: 85.208.108.60
@@ -1061,25 +1053,25 @@ proxies:
   server: 85.208.108.60
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇦CA-85.208.108.20-4095
+  name: 1170|🇦CA-85.208.108.20-4247
   password: zDNVedRFPQexG9v
   port: 6379
   server: 85.208.108.20
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇨🇦CA-85.208.108.18-3710
+  name: 1170|🇨🇦CA-85.208.108.18-3862
   password: Y6R9pAtvxxzmGC
   port: 5001
   server: 85.208.108.18
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇦CA-85.208.108.59-3849
+  name: 1170|🇦CA-85.208.108.59-4001
   password: XKFKl2rULjIp74
   port: 8009
   server: 85.208.108.59
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇦CA-85.208.108.59-3988
+  name: 1170|🇦CA-85.208.108.59-4140
   password: zDNVedRFPQexG9v
   port: 6379
   server: 85.208.108.59
@@ -1097,19 +1089,19 @@ proxies:
   server: 85.208.108.60
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇦CA-85.208.108.61-5098
+  name: 1170|🇦CA-85.208.108.61-5250
   password: pKEW8JPByTVTLtM
   port: 443
   server: 85.208.108.61
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇨🇦CA-85.208.108.92-5099
+  name: 1170|🇨🇦CA-85.208.108.92-5251
   password: pKEW8JPByTVTLtM
   port: 443
   server: 85.208.108.92
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 1170|🇦CA-196.247.59.156-5274
+  name: 1170|🇦CA-196.247.59.156-5426
   password: G!yBwPWH3Vao
   port: 806
   server: 196.247.59.156
@@ -1144,398 +1136,392 @@ proxies:
     headers:
       Host: ''
     path: /cctv13/hd.m3u8
-- cipher: rc4-md5
-  name: 1170|🇨CA-137.184.174.93-5984
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 137.184.174.93
-  type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇨🇦CA-134.195.196.149-6059
+  name: 1170|🇨🇦CA-134.195.196.149-6211
   password: PCnnH6SQSnfoS27
   port: 8090
   server: 134.195.196.149
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇦CA-134.195.196.149-6060
+  name: 1170|🇦CA-134.195.196.149-6212
   password: Y6R9pAtvxxzmGC
   port: 3306
   server: 134.195.196.149
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 1170|🇦CA-196.247.59.154-6066
+  name: 1170|🇦CA-196.247.59.154-6218
   password: G!yBwPWH3Vao
   port: 801
   server: 196.247.59.154
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇦CA-134.195.196.149-6086
+  name: 1170|🇦CA-134.195.196.149-6238
   password: TEzjfAYq2IjtuoS
   port: 6679
   server: 134.195.196.149
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇦CA-134.195.196.149-6087
+  name: 1170|🇦CA-134.195.196.149-6239
   password: cdBIDV42DCwnfIN
   port: 8119
   server: 134.195.196.149
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇦CA-134.195.196.85-6088
+  name: 1170|🇦CA-134.195.196.85-6240
   password: Y6R9pAtvxxzmGC
   port: 5001
   server: 134.195.196.85
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 1170|🇨🇦CA-196.247.59.154-6089
+  name: 1170|🇨🇦CA-196.247.59.154-6241
   password: G!yBwPWH3Vao
   port: 806
   server: 196.247.59.154
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 1170|🇦CA-196.247.59.154-6091
+  name: 1170|🇦CA-196.247.59.154-6243
   password: G!yBwPWH3Vao
   port: 809
   server: 196.247.59.154
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 1170|🇦CA-196.247.59.154-6092
+  name: 1170|🇦CA-196.247.59.154-6244
   password: G!yBwPWH3Vao
   port: 803
   server: 196.247.59.154
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇦CA-134.195.196.231-6160
+  name: 1170|🇦CA-134.195.196.231-6312
   password: PCnnH6SQSnfoS27
   port: 8090
   server: 134.195.196.231
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇨🇦CA-134.195.196.230-6161
+  name: 1170|🇨🇦CA-134.195.196.230-6313
   password: TEzjfAYq2IjtuoS
   port: 6679
   server: 134.195.196.230
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇨🇦CA-134.195.196.231-6162
+  name: 1170|🇨🇦CA-134.195.196.231-6314
   password: Y6R9pAtvxxzmGC
   port: 3306
   server: 134.195.196.231
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇦CA-38.111.114.246-6262
+  name: 1170|🇦CA-38.111.114.246-6414
   password: cdBIDV42DCwnfIN
   port: 8119
   server: 38.111.114.246
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇨🇦CA-38.111.114.246-6263
+  name: 1170|🇨🇦CA-38.111.114.246-6415
   password: kDWvXYZoTBcGkC4
   port: 8882
   server: 38.111.114.246
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇦CA-85.208.108.59-6309
+  name: 1170|🇦CA-85.208.108.59-6461
   password: TEzjfAYq2IjtuoS
   port: 6697
   server: 85.208.108.59
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇦CA-85.208.108.60-6310
+  name: 1170|🇦CA-85.208.108.60-6462
   password: TEzjfAYq2IjtuoS
   port: 6697
   server: 85.208.108.60
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇦CA-85.208.108.18-6311
+  name: 1170|🇨🇦CA-85.208.108.18-6463
   password: TEzjfAYq2IjtuoS
   port: 6679
   server: 85.208.108.18
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇨🇦CA-85.208.108.59-6313
+  name: 1170|🇦CA-85.208.108.59-6465
   password: RexnBgU7EV5ADxG
   port: 7001
   server: 85.208.108.59
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇦CA-85.208.108.20-6314
+  name: 1170|🇦CA-85.208.108.20-6466
   password: RexnBgU7EV5ADxG
   port: 7001
   server: 85.208.108.20
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇦CA-85.208.108.21-6315
+  name: 1170|🇦CA-85.208.108.21-6467
   password: TEzjfAYq2IjtuoS
   port: 6679
   server: 85.208.108.21
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇨🇦CA-85.208.108.59-6316
+  name: 1170|🇨🇦CA-85.208.108.59-6468
   password: RexnBgU7EV5ADxG
   port: 7002
   server: 85.208.108.59
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇦CA-85.208.108.21-6317
+  name: 1170|🇦CA-85.208.108.21-6469
   password: RexnBgU7EV5ADxG
   port: 7002
   server: 85.208.108.21
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇨🇦CA-85.208.108.20-6318
+  name: 1170|🇨🇦CA-85.208.108.20-6470
   password: FoOiGlkAA9yPEGP
   port: 7306
   server: 85.208.108.20
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇦CA-85.208.108.21-6319
+  name: 1170|🇦CA-85.208.108.21-6471
   password: FoOiGlkAA9yPEGP
   port: 7307
   server: 85.208.108.21
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇦CA-85.208.108.59-6322
+  name: 1170|🇦CA-85.208.108.59-6474
   password: FoOiGlkAA9yPEGP
   port: 7307
   server: 85.208.108.59
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇨🇦CA-85.208.108.20-6323
+  name: 1170|🇨🇦CA-85.208.108.20-6475
   password: FoOiGlkAA9yPEGP
   port: 7307
   server: 85.208.108.20
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇨🇦CA-85.208.108.20-6324
+  name: 1170|🇨🇦CA-85.208.108.20-6476
   password: KixLvKzwjekG00rm
   port: 8000
   server: 85.208.108.20
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇦CA-85.208.108.59-6326
+  name: 1170|🇦CA-85.208.108.59-6478
   password: KixLvKzwjekG00rm
   port: 8000
   server: 85.208.108.59
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇨🇦CA-85.208.108.59-6327
+  name: 1170|🇨🇦CA-85.208.108.59-6479
   password: XKFKl2rULjIp74
   port: 8008
   server: 85.208.108.59
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇦CA-85.208.108.94-6329
+  name: 1170|🇦CA-85.208.108.94-6481
   password: KixLvKzwjekG00rm
   port: 8080
   server: 85.208.108.94
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇦CA-85.208.108.59-6332
+  name: 1170|🇦CA-85.208.108.59-6484
   password: Y6R9pAtvxxzmGC
   port: 5601
   server: 85.208.108.59
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇨🇦CA-85.208.108.59-6337
+  name: 1170|🇨🇦CA-85.208.108.59-6489
   password: g5MeD6Ft3CWlJId
   port: 5004
   server: 85.208.108.59
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇦CA-85.208.108.59-6341
+  name: 1170|🇦CA-85.208.108.59-6493
   password: Y6R9pAtvxxzmGC
   port: 5001
   server: 85.208.108.59
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇨🇦CA-85.208.108.59-6342
+  name: 1170|🇨🇦CA-85.208.108.59-6494
   password: PCnnH6SQSnfoS27
   port: 8090
   server: 85.208.108.59
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇨🇦CA-85.208.108.21-6344
+  name: 1170|🇨🇦CA-85.208.108.21-6496
   password: e4FCWrgpkji3QY
   port: 9102
   server: 85.208.108.21
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇦CA-85.208.108.59-6345
+  name: 1170|🇦CA-85.208.108.59-6497
   password: e4FCWrgpkji3QY
   port: 9102
   server: 85.208.108.59
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇨🇦CA-85.208.108.58-6346
+  name: 1170|🇨🇦CA-85.208.108.58-6498
   password: e4FCWrgpkji3QY
   port: 9101
   server: 85.208.108.58
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇦CA-85.208.108.20-6347
+  name: 1170|🇦CA-85.208.108.20-6499
   password: TEzjfAYq2IjtuoS
   port: 6679
   server: 85.208.108.20
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇨🇦CA-85.208.108.94-6348
+  name: 1170|🇨🇦CA-85.208.108.94-6500
   password: Y6R9pAtvxxzmGC
   port: 5001
   server: 85.208.108.94
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇨🇦CA-85.208.108.59-6349
+  name: 1170|🇨🇦CA-85.208.108.59-6501
   password: pKEW8JPByTVTLtM
   port: 443
   server: 85.208.108.59
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇦CA-85.208.108.59-6350
+  name: 1170|🇦CA-85.208.108.59-6502
   password: faBAoD54k87UJG7
   port: 2375
   server: 85.208.108.59
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇦CA-85.208.108.59-6352
+  name: 1170|🇦CA-85.208.108.59-6504
   password: faBAoD54k87UJG7
   port: 2376
   server: 85.208.108.59
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇦CA-85.208.108.59-6354
+  name: 1170|🇦CA-85.208.108.59-6506
   password: Y6R9pAtvxxzmGC
   port: 3389
   server: 85.208.108.59
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇨🇦CA-85.208.108.59-6358
+  name: 1170|🇨🇦CA-85.208.108.59-6510
   password: PCnnH6SQSnfoS27
   port: 8091
   server: 85.208.108.59
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇦CA-85.208.108.21-6359
+  name: 1170|🇦CA-85.208.108.21-6511
   password: PCnnH6SQSnfoS27
   port: 8091
   server: 85.208.108.21
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇨🇦CA-85.208.108.20-6360
+  name: 1170|🇨🇦CA-85.208.108.20-6512
   password: PCnnH6SQSnfoS27
   port: 8091
   server: 85.208.108.20
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇨🇦CA-85.208.108.20-6362
+  name: 1170|🇨🇦CA-85.208.108.20-6514
   password: cdBIDV42DCwnfIN
   port: 8119
   server: 85.208.108.20
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇨🇦CA-85.208.108.59-6363
+  name: 1170|🇨🇦CA-85.208.108.59-6515
   password: cdBIDV42DCwnfIN
   port: 8119
   server: 85.208.108.59
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇨🇦CA-85.208.108.59-6365
+  name: 1170|🇨🇦CA-85.208.108.59-6517
   password: kDWvXYZoTBcGkC4
   port: 8882
   server: 85.208.108.59
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇦CA-85.208.108.59-6366
+  name: 1170|🇦CA-85.208.108.59-6518
   password: e4FCWrgpkji3QY
   port: 9101
   server: 85.208.108.59
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 1170|🇦CA-196.247.59.154-6508
+  name: 1170|🇦CA-196.247.59.154-6660
   password: G!yBwPWH3Vao
   port: 805
   server: 196.247.59.154
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 1170|🇦CA-196.247.59.156-6513
+  name: 1170|🇦CA-196.247.59.156-6665
   password: G!yBwPWH3Vao
   port: 803
   server: 196.247.59.156
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 1170|🇨🇦CA-196.247.59.154-6514
+  name: 1170|🇨🇦CA-196.247.59.154-6666
   password: G!yBwPWH3Vao
   port: 802
   server: 196.247.59.154
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 1170|🇨🇦CA-196.247.59.156-6515
+  name: 1170|🇨🇦CA-196.247.59.156-6667
   password: G!yBwPWH3Vao
   port: 801
   server: 196.247.59.156
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 1170|🇦CA-196.247.59.156-6516
+  name: 1170|🇦CA-196.247.59.156-6668
   password: G!yBwPWH3Vao
   port: 808
   server: 196.247.59.156
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 1170|🇨🇦CA-196.247.59.156-6519
+  name: 1170|🇨🇦CA-196.247.59.156-6671
   password: G!yBwPWH3Vao
   port: 809
   server: 196.247.59.156
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 1170|🇨🇦CA-196.247.59.156-6522
+  name: 1170|🇨🇦CA-196.247.59.156-6674
   password: G!yBwPWH3Vao
   port: 804
   server: 196.247.59.156
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 1170|🇨🇦CA-51.161.118.38-6524
+  name: 1170|🇨🇦CA-51.161.118.38-6676
   password: G!yBwPWH3Vao
   port: 806
   server: 51.161.118.38
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇦CA-134.195.196.149-6605
+  name: 1170|🇦CA-134.195.196.149-6757
   password: XKFKl2rULjIp74
   port: 8009
   server: 134.195.196.149
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇦CA-134.195.198.95-6606
+  name: 1170|🇦CA-134.195.198.95-6758
   password: faBAoD54k87UJG7
   port: 2376
   server: 134.195.198.95
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇨🇦CA-134.195.196.149-6607
+  name: 1170|🇨🇦CA-134.195.196.149-6759
   password: kDWvXYZoTBcGkC4
   port: 8881
   server: 134.195.196.149
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇦CA-134.195.198.95-6608
+  name: 1170|🇦CA-134.195.198.95-6760
   password: pKEW8JPByTVTLtM
   port: 443
   server: 134.195.198.95
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇨🇦CA-134.195.196.149-6609
+  name: 1170|🇨🇦CA-134.195.196.149-6761
   password: kDWvXYZoTBcGkC4
   port: 8882
   server: 134.195.196.149
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 1170|🇨🇦CA-134.195.196.143-6610
+  name: 1170|🇨🇦CA-134.195.196.143-6762
   password: G!yBwPWH3Vao
   port: 805
   server: 134.195.196.143
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇨🇦CA-134.195.196.107-6611
+  name: 1170|🇨🇦CA-134.195.196.107-6763
   password: FoOiGlkAA9yPEGP
   port: 7306
   server: 134.195.196.107
@@ -1548,37 +1534,37 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 1170|🇨🇦CA-134.195.196.149-6614
+  name: 1170|🇨🇦CA-134.195.196.149-6766
   password: g5MeD6Ft3CWlJId
   port: 5003
   server: 134.195.196.149
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇨🇦CA-134.195.196.107-6616
+  name: 1170|🇨🇦CA-134.195.196.107-6768
   password: XKFKl2rULjIp74
   port: 8009
   server: 134.195.196.107
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇨🇦CA-134.195.198.95-6617
+  name: 1170|🇨🇦CA-134.195.198.95-6769
   password: PCnnH6SQSnfoS27
   port: 8091
   server: 134.195.198.95
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇨🇦CA-134.195.198.95-6618
+  name: 1170|🇨🇦CA-134.195.198.95-6770
   password: PCnnH6SQSnfoS27
   port: 8090
   server: 134.195.198.95
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇨🇦CA-134.195.196.107-6621
+  name: 1170|🇨🇦CA-134.195.196.107-6773
   password: cdBIDV42DCwnfIN
   port: 8118
   server: 134.195.196.107
   type: ss
 - cipher: aes-256-gcm
-  name: 1170|🇦CA-134.195.196.149-6623
+  name: 1170|🇦CA-134.195.196.149-6775
   password: KixLvKzwjekG00rm
   port: 8080
   server: 134.195.196.149
@@ -3169,6 +3155,20 @@ proxies:
     headers:
       Host: www.bing.com
     path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: '1890,1891|🇨🇦CA-158.51.121.63-0477 #1'
+  network: ws
+  port: 443
+  server: 158.51.121.63
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: seribus.org
+    path: /
 - cipher: chacha20-ietf-poly1305
   name: 1926|0|🇦加拿大 01 | 1x CA
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
