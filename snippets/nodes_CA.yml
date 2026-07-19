@@ -1,6 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: '412,1763,1764,1828,1968,1969|US6 #1'
+  network: tcp
+  port: '3389'
+  server: 178.128.237.6
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- alterId: 0
+  cipher: auto
   name: '412,1170,1828,1890,1891|🇨🇦CA-51.79.102.253-0684 #1'
   network: ws
   port: 80
@@ -662,15 +673,13 @@ proxies:
   server: 85.208.108.90
   type: ss
 - cipher: aes-128-gcm
-  country: 🇺🇸US
-  name: 1170,1730|🇺🇸US_151
+  name: 1170|🇨🇦CA-149.22.95.183-0061
   password: shadowsocks
   port: 443
   server: 149.22.95.183
   type: ss
 - cipher: chacha20-ietf-poly1305
-  country: 🇦CA
-  name: 1170,1730|🇦CA_16
+  name: 1170|🇨🇦CA-108.181.118.10-0064
   password: G5p6ww4o67HB
   port: 8388
   server: 108.181.118.10
@@ -699,6 +708,21 @@ proxies:
   port: 8008
   server: 85.208.108.61
   type: ss
+- alterId: 0
+  cipher: auto
+  name: '1170,1890,1891|🇨🇦CA-134.195.198.147-0497 #1'
+  network: ws
+  port: 443
+  server: 134.195.198.147
+  servername: ''
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: inna.cfd
+    path: /
 - cipher: aes-256-gcm
   name: 1170|🇦CA-198.8.92.84-2292
   password: ugyBkSEFxVEmUYSHyvxmWNj9
@@ -1601,21 +1625,6 @@ proxies:
   ws-opts:
     headers:
       Host: ''
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: '1170,1890,1891|🇨🇦CA-134.195.198.147-7904 #1'
-  network: ws
-  port: 443
-  server: 134.195.198.147
-  servername: ''
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: inna.cfd
     path: /linkvws
 - alterId: 0
   cipher: auto
@@ -3345,17 +3354,3 @@ proxies:
     headers:
       Host: ''
     path: /ray
-- alterId: 0
-  cipher: auto
-  name: '2753,3056|CA【机场推荐：https://a9a.xyz】15 #1'
-  network: ws
-  port: 443
-  server: 104.21.88.22
-  servername: vpn.cyedu.xyz
-  tls: true
-  type: vmess
-  uuid: 79e0df31-8ed5-4213-9fff-292a9fbeae7b
-  ws-opts:
-    headers:
-      Host: vpn.cyedu.xyz
-    path: /ws
