@@ -1103,15 +1103,13 @@ proxies:
       Host: ''
     path: /
 - cipher: chacha20-ietf
-  country: 🇰HK
-  name: 1170,1730|🇰HK_59
+  name: 1170|🇰HK-103.149.182.105-5933
   password: asd123456
   port: 8388
   server: 103.149.182.105
   type: ss
 - cipher: chacha20-ietf
-  country: 🇰HK
-  name: 1170,1730|🇰HK_58
+  name: 1170|🇭🇰HK-103.141.221.124-5934
   password: asd123456
   port: 8388
   server: 103.141.221.124
@@ -3152,19 +3150,20 @@ proxies:
     headers:
       Host: www.baidu.com
     path: /zh-cn/
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: '1763,1764,1780,1901|🇭🇰_HK_中国香港 #2'
+  name: '1763,1764,1901,1968,1969|HK6 14.9KB/s #1'
   network: tcp
-  port: 80
-  server: 47.83.221.185
+  port: '30809'
+  server: v9.hdacd.com
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 771a590c-5eac-5732-b796-17251132f8d2
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: '1763,1764,1968,1969|未知26 #1'
+  name: '1763,1764,1968,1969|未知86 #1'
   network: ws
   port: '54809'
   server: 8.210.140.23
@@ -3179,7 +3178,7 @@ proxies:
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: '1763,1764,1968,1969|未知63 #1'
+  name: '1763,1764,1968,1969|未知18 #1'
   network: ws
   port: '36968'
   server: 47.83.18.10
@@ -3411,6 +3410,16 @@ proxies:
   ws-headers:
     host: z61.hongkongnode.top
   ws-path: /
+- alterId: 0
+  cipher: auto
+  name: '1780,1901|🇭🇰_HK_中国香港 #2'
+  network: tcp
+  port: 80
+  server: 47.83.221.185
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 771a590c-5eac-5732-b796-17251132f8d2
 - alterId: 0
   cipher: auto
   name: 1785|香港_121320001
@@ -4998,23 +5007,9 @@ proxies:
   tls: false
   type: vmess
   uuid: 49933ab7-7ec2-3024-9f6e-b7ad9da24c8f
-- alterId: 2
-  cipher: auto
-  name: 1968|HK3
-  network: ws
-  port: 80
-  server: e0349a52-sv8cg0-t7uinf-i8ie.hk3.p5pv.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 990e8f34-bd4f-11ef-bdb9-f23c91cfbbc9
-  ws-opts:
-    headers:
-      host: broadcastlv.chat.bilibili.com
-    path: /
 - alterId: 0
   cipher: auto
-  name: 1968|HK4
+  name: 1968|HK3
   network: ws
   port: 11655
   server: 131.186.63.89
@@ -5026,6 +5021,20 @@ proxies:
     headers:
       host: hk.nbee.pp.ua
     path: /aa
+- alterId: 2
+  cipher: auto
+  name: 1968|HK5
+  network: ws
+  port: 80
+  server: e0349a52-sv8cg0-t7uinf-i8ie.hk3.p5pv.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 990e8f34-bd4f-11ef-bdb9-f23c91cfbbc9
+  ws-opts:
+    headers:
+      host: broadcastlv.chat.bilibili.com
+    path: /
 - alterId: 64
   cipher: auto
   name: '1981,1982|香港1|@ripaojiedian #1'
