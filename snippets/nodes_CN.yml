@@ -1,13 +1,26 @@
 proxies:
-- name: '412,1828|中国 007 #1'
+- alterId: 0
+  name: '412,1828|中国 006 #1'
   network: tcp
   password: OccIqeORGQwiNkwS
   port: 19128
   server: jpbgp.netvigor.cc
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: yazhou10.dynu.net
+  tls: true
   type: trojan
   udp: true
+- alterId: 2
+  cipher: auto
+  name: '412,1763,1764,1828,1968,1969|未知16 #1'
+  network: tcp
+  port: '30835'
+  server: v35.hdacd.com
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
   name: '412,1170,1763,1764,1828,1890,1891,1969|未知73 #1'
@@ -23,12 +36,23 @@ proxies:
     headers:
       Host: speeches-obligations-view-epinions.trycloudflare.com
     path: 1c503beb-4589-409b-bddf-5190925f72f0-vm
+- alterId: 0
+  cipher: auto
+  name: '412,1763,1764,1828,1968,1969|未知76 #1'
+  network: tcp
+  port: '59121'
+  server: 129.226.157.220
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: d9865d63-d95c-454b-ba07-8e88b838a801
 - alterId: 2
   cipher: auto
-  name: '412,1763,1764,1828,1968,1969|未知16 #1'
+  name: '412,1763,1764,1828,1968,1969|US8 #1'
   network: tcp
-  port: '30835'
-  server: v35.hdacd.com
+  port: '30824'
+  server: v24.hdacd.com
   servername: ''
   skip-cert-verify: true
   tls: false
@@ -51,78 +75,19 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '412,1763,1764,1828,1968,1969|未知76 #1'
-  network: tcp
-  port: '59121'
-  server: 129.226.157.220
+  name: '412,1170,1828,1890,1891|🇨🇳CN-120.233.29.189-0070 #1'
+  network: ws
+  port: 65086
+  server: 120.233.29.189
   servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: d9865d63-d95c-454b-ba07-8e88b838a801
-- alterId: 0
-  cipher: auto
-  name: '412,1828|中国 012 #1'
-  network: tcp
-  port: 10038
-  server: family.bucket.x9.kfc-520.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 1dc73529-f030-3ac5-ad64-f7666b9a51bc
-- alterId: 0
-  cipher: auto
-  name: '412,1828|中国 013 #1'
-  network: tcp
-  port: 10004
-  server: zjs001.kfc-520.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 1dc73529-f030-3ac5-ad64-f7666b9a51bc
-- alterId: 0
-  cipher: auto
-  name: '412,1828|中国 014 #1'
-  network: tcp
-  port: 10047
-  server: family.bucket.x9.kfc-520.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 1dc73529-f030-3ac5-ad64-f7666b9a51bc
-- alterId: 0
-  cipher: auto
-  name: '412,1828|中国 015 #1'
-  network: tcp
-  port: 10046
-  server: family.bucket.x9.kfc-520.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 1dc73529-f030-3ac5-ad64-f7666b9a51bc
-- alterId: 0
-  cipher: auto
-  name: '412,1828|中国 016 #1'
-  network: tcp
-  port: 10050
-  server: family.bucket.x9.kfc-520.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 1dc73529-f030-3ac5-ad64-f7666b9a51bc
-- alterId: 0
-  cipher: auto
-  name: '412,1828|中国 017 #1'
-  network: tcp
-  port: 10043
-  server: family.bucket.x9.kfc-520.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 1dc73529-f030-3ac5-ad64-f7666b9a51bc
-- alterId: 0
-  cipher: auto
-  name: '412,1828|中国 018 #1'
-  network: tcp
-  port: 10039
-  server: family.bucket.x9.kfc-520.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 1dc73529-f030-3ac5-ad64-f7666b9a51bc
+  uuid: 0253b574-8020-3186-a647-0267295ac9bb
+  ws-opts:
+    headers:
+      Host: 120.233.29.189
+    path: /rocket
 - alterId: 0
   cipher: auto
   name: '412,1170,1828,1890,1891|🇹🇼TW-211.72.35.110-0640 #1'
@@ -1737,21 +1702,6 @@ proxies:
     path: /rocket
 - alterId: 0
   cipher: auto
-  name: '412,1170,1828,1890,1891|🇨🇳CN-120.233.150.146-0011 #2'
-  network: ws
-  port: 65066
-  server: 120.233.150.146
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 0253b574-8020-3186-a647-0267295ac9bb
-  ws-opts:
-    headers:
-      Host: 120.233.150.146
-    path: /rocket
-- alterId: 0
-  cipher: auto
   name: '412,1170,1828,1890,1891|🇨🇳CN-120.233.29.189-2024 #2'
   network: ws
   port: 65039
@@ -2250,6 +2200,21 @@ proxies:
     path: /rocket
 - alterId: 0
   cipher: auto
+  name: '1170,1890,1891|🇨🇳CN-120.233.150.146-0011 #2'
+  network: ws
+  port: 65066
+  server: 120.233.150.146
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 0253b574-8020-3186-a647-0267295ac9bb
+  ws-opts:
+    headers:
+      Host: 120.233.150.146
+    path: /rocket
+- alterId: 0
+  cipher: auto
   name: '1170,1890,1891|🇨🇳CN-120.233.150.146-0045 #1'
   network: ws
   port: 65066
@@ -2262,21 +2227,6 @@ proxies:
   ws-opts:
     headers:
       Host: ''
-    path: /rocket
-- alterId: 0
-  cipher: auto
-  name: '1170,1890,1891|🇨🇳CN-120.233.29.189-0070 #1'
-  network: ws
-  port: 65086
-  server: 120.233.29.189
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 0253b574-8020-3186-a647-0267295ac9bb
-  ws-opts:
-    headers:
-      Host: 120.233.29.189
     path: /rocket
 - alterId: 0
   cipher: auto
@@ -3527,6 +3477,19 @@ proxies:
   port: 7719
   server: cm01.newcome.xyz
   type: ss
+- alterId: 2
+  cipher: auto
+  country: 🇨CN
+  h2-opts: {}
+  http-opts: {}
+  name: 1730|🇨CN_10
+  network: tcp
+  port: 30845
+  server: v45.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: '1759|🇨🇳中国【YouTube-由零開始】 #5'
