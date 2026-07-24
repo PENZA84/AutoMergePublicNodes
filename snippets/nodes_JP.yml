@@ -556,21 +556,21 @@ proxies:
     path: /
 - cipher: aes-128-gcm
   country: 🇺🇸US
-  name: 1170,1730|🇺🇸US_117
+  name: 1170,1730|🇺🇸US_126
   password: shadowsocks
   port: 443
   server: 149.22.87.240
   type: ss
 - cipher: aes-128-gcm
-  country: 🇺🇸US
-  name: 1170,1730|🇺🇸US_116
+  country: 🇸US
+  name: 1170,1730|🇸US_124
   password: shadowsocks
   port: 443
   server: 149.22.87.241
   type: ss
 - cipher: aes-128-gcm
-  country: 🇸US
-  name: 1170,1730|🇺🇸US_118
+  country: 🇺US
+  name: 1170,1730|🇺🇸US_125
   password: shadowsocks
   port: 443
   server: 149.22.87.204
@@ -1316,7 +1316,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '1763,1764|JP 🇯🇵 | @Raydikalx | 3635 #1'
+  name: '1763,1764|JP 🇯🇵 | @Raydikalx | 3613 #1'
   network: ws
   port: '80'
   server: 168.138.43.75
@@ -1330,11 +1330,21 @@ proxies:
     path: /cctv13.m3u8
 - alterId: 0
   cipher: auto
-  name: '1763,1764|JP 🇯🇵 | @Raydikalx | 4092 #1'
+  name: '1763,1764|JP 🇯🇵 | @Raydikalx | 3579 #1'
   network: ws
-  port: '25686'
+  port: '80'
+  server: 172.111.146.64
+  tls: false
+  type: vmess
+  uuid: 05b8c783-7f59-47f9-9923-06a465679f6a
+  ws-opts:
+    path: /vmess/
+- alterId: 0
+  cipher: auto
+  name: '1763,1764|JP 🇯🇵 | @Raydikalx | 4123 #1'
+  network: ws
+  port: 25686
   server: 140.83.51.161
-  servername: 140.83.51.161
   tls: false
   type: vmess
   uuid: 6733c357-ba11-4e9f-f00f-7d87f2776ff9
@@ -1344,7 +1354,21 @@ proxies:
     path: /cctv13.m3u8
 - alterId: 0
   cipher: auto
-  name: '1763,1764|JP 🇯🇵 | @Raydikalx | 4096 #1'
+  name: '1763,1764,1890,1891|🇯🇵JP-168.138.43.75-1908 #1'
+  network: ws
+  port: 80
+  server: 168.138.43.75
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
+  ws-opts:
+    headers:
+      Host: jp01.a0a.xyz
+    path: /cctv13.m3u8
+- alterId: 0
+  cipher: auto
+  name: '1763,1764|JP 🇯🇵 | @Raydikalx | 4126 #1'
   network: ws
   port: 80
   server: 168.138.43.75
@@ -1354,6 +1378,20 @@ proxies:
   ws-opts:
     headers:
       Host: 168.138.43.75
+    path: /cctv13.m3u8
+- alterId: 0
+  cipher: auto
+  name: 1763,1764,1968|未知80 312.5KB/s
+  network: ws
+  port: 25686
+  server: 140.83.51.161
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 6733c357-ba11-4e9f-f00f-7d87f2776ff9
+  ws-opts:
+    headers:
+      host: jp02.a0a.xyz
     path: /cctv13.m3u8
 - alterId: 0
   cipher: auto
@@ -1369,20 +1407,6 @@ proxies:
   ws-opts:
     headers:
       Host: ''
-    path: /cctv13.m3u8
-- alterId: 0
-  cipher: auto
-  name: 1763,1764,1968|未知80 312.5KB/s
-  network: ws
-  port: 25686
-  server: 140.83.51.161
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 6733c357-ba11-4e9f-f00f-7d87f2776ff9
-  ws-opts:
-    headers:
-      host: jp02.a0a.xyz
     path: /cctv13.m3u8
 - alterId: 0
   cipher: auto
@@ -2829,20 +2853,6 @@ proxies:
     headers:
       Host: jp02.a0a.xyz
     path: /
-- alterId: 0
-  cipher: auto
-  name: '1890,1891|🇯🇵JP-168.138.43.75-1908 #1'
-  network: ws
-  port: 80
-  server: 168.138.43.75
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
-  ws-opts:
-    headers:
-      Host: jp01.a0a.xyz
-    path: /cctv13.m3u8
 - cipher: aes-128-gcm
   name: 1914|youtube@资源分享师_日本_101
   password: '!!str 202211000000000000000020'
@@ -3226,7 +3236,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.lu:25488
+    host: 502d36f.default.microsoft.hu:25488
     mode: tls
   port: 2377
   server: 502d36f.e9.glados-config.com
@@ -3237,7 +3247,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.nintendo.it:25488
+    host: 502d36f.default.microsoft.lt:25488
     mode: tls
   port: 2377
   server: 502d36f.e9.glados-config.com
@@ -3248,7 +3258,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.com:25488
+    host: 502d36f.default.microsoft.net:25488
     mode: tls
   port: 2377
   server: 502d36f.e7.glados-config.com
@@ -3270,7 +3280,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.lv:25488
+    host: 502d36f.default.microsoft.es:25488
     mode: tls
   port: 2377
   server: 502d36f.e6.glados-config.com
@@ -3281,7 +3291,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.cat:25488
+    host: 502d36f.default.nintendo.jp:25488
     mode: tls
   port: 2377
   server: 502d36f.e6.glados-config.com
@@ -3303,7 +3313,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.md:25488
+    host: 502d36f.default.nintendo.com:25488
     mode: tls
   port: 2377
   server: 502d36f.e8.glados-config.com
