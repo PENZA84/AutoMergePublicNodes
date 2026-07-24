@@ -1,4 +1,28 @@
 proxies:
+- name: '412,1828|日本 001 #1'
+  network: tcp
+  password: b490740312aedb5f9f6b84c7aebd08c0
+  port: 38937
+  server: 18.183.93.55
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: '412,1828|日本 002 #1'
+  network: tcp
+  password: b490740312aedb5f9f6b84c7aebd08c0
+  port: 48738
+  server: 18.183.93.55
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: '412,1828|日本 003 #1'
+  network: tcp
+  password: b490740312aedb5f9f6b84c7aebd08c0
+  port: 6357
+  server: 18.183.93.55
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
 - alterId: 0
   cipher: auto
   name: '412,1170,1828,1890,1891|🇯🇵JP-40.74.100.129-0377 #2'
@@ -332,21 +356,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '412,1170,1828,1890,1891|🇯🇵JP-168.138.43.75-1908 #1'
-  network: ws
-  port: 80
-  server: 168.138.43.75
-  servername: ''
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
-  ws-opts:
-    headers:
-      Host: jp01.a0a.xyz
-    path: /cctv13.m3u8
-- alterId: 0
-  cipher: auto
   name: '412,1170,1828,1890,1891|🇯🇵JP-193.32.148.12-2076 #2'
   network: ws
   port: 8080
@@ -531,26 +540,38 @@ proxies:
   server: 185.172.113.101
   type: ss
 - cipher: aes-128-gcm
-  country: 🇸US
-  name: 1170,1730|🇺🇸US_106
+  name: 1170|🇯🇵JP-149.22.87.204-0195
   password: shadowsocks
   port: 443
   server: 149.22.87.204
   type: ss
 - cipher: aes-128-gcm
-  country: 🇸US
-  name: 1170,1730|🇺🇸US_104
+  name: 1170|🇯🇵JP-149.22.87.241-0197
   password: shadowsocks
   port: 443
   server: 149.22.87.241
   type: ss
 - cipher: aes-128-gcm
-  country: 🇺US
-  name: 1170,1730|🇸US_96
+  name: 1170|🇵JP-149.22.87.240-0198
   password: shadowsocks
   port: 443
   server: 149.22.87.240
   type: ss
+- alterId: 0
+  cipher: auto
+  name: '1170,1890,1891|🇯🇵JP-140.83.51.161-0228 #1'
+  network: ws
+  port: 25686
+  server: 140.83.51.161
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 6733c357-ba11-4e9f-f00f-7d87f2776ff9
+  ws-opts:
+    headers:
+      Host: jp02.a0a.xyz
+    path: /
 - alterId: 0
   cipher: auto
   name: '1170,1890,1891|🇯🇵JP-45.76.202.45-0237 #2'
@@ -600,6 +621,21 @@ proxies:
     headers:
       Host: ''
     path: /
+- alterId: 0
+  cipher: auto
+  name: '1170,1890,1891|🇯🇵JP-168.138.43.75-1908 #1'
+  network: ws
+  port: 80
+  server: 168.138.43.75
+  servername: ''
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
+  ws-opts:
+    headers:
+      Host: jp01.a0a.xyz
+    path: /cctv13.m3u8
 - alterId: 0
   cipher: auto
   grpc-opts:
@@ -1239,7 +1275,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '1763,1764|JP 🇯🇵 | @Raydikalx | 3643 #1'
+  name: '1763,1764|JP 🇯🇵 | @Raydikalx | 3594 #1'
   network: ws
   port: '80'
   server: 168.138.43.75
@@ -1253,18 +1289,15 @@ proxies:
     path: /cctv13.m3u8
 - alterId: 0
   cipher: auto
-  name: '1763,1764,1780,1969|未知29 457.1KB/s #1'
+  name: '1763,1764|JP 🇯🇵 | @Raydikalx | 3562 #1'
   network: ws
-  port: '25686'
-  server: 140.83.51.161
-  servername: jp02.a0a.xyz
+  port: '80'
+  server: 172.111.146.64
   tls: false
   type: vmess
-  uuid: 6733c357-ba11-4e9f-f00f-7d87f2776ff9
+  uuid: 05b8c783-7f59-47f9-9923-06a465679f6a
   ws-opts:
-    headers:
-      Host: jp02.a0a.xyz
-    path: /cctv13.m3u8
+    path: /vmess/
 - alterId: 0
   cipher: auto
   name: 1770,1904|0.55|JPhttpsawkjcfky 注册体验流媒体机场...
@@ -1447,20 +1480,6 @@ proxies:
   ws-headers:
     host: suzhihan.eu.org
   ws-path: /roewesu
-- alterId: 0
-  cipher: auto
-  name: '1780|Channel id: @ShadowProxy66 🇯🇵'
-  network: ws
-  port: '80'
-  server: 168.138.43.75
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
-  ws-opts:
-    headers:
-      Host: 168.138.43.75
-    path: /cctv13.m3u8
 - alterId: 0
   cipher: auto
   name: 1785|日本_121320001
@@ -3089,11 +3108,22 @@ proxies:
       Host: v6.583181.xyz
     path: /
 - cipher: chacha20-ietf-poly1305
+  name: 2763|JP-Dedicated-B1-1
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 502d36f.default.microsoft.cz:25488
+    mode: tls
+  port: 2377
+  server: 502d36f.e9.glados-config.com
+  type: ss
+  udp: false
+- cipher: chacha20-ietf-poly1305
   name: 2763|JP-Dedicated-B1-2
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.nintendo.eu:25488
+    host: 502d36f.default.microsoft.io:25488
     mode: tls
   port: 2377
   server: 502d36f.e9.glados-config.com
@@ -3104,7 +3134,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.xboxlive.com:25488
+    host: 502d36f.default.microsoft.net:25488
     mode: tls
   port: 2377
   server: 502d36f.e7.glados-config.com
@@ -3115,7 +3145,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.com:25488
+    host: 502d36f.default.microsoft.dk:25488
     mode: tls
   port: 2377
   server: 502d36f.e7.glados-config.com
@@ -3126,7 +3156,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.cl:25488
+    host: 502d36f.default.microsoft.fi:25488
     mode: tls
   port: 2377
   server: 502d36f.e6.glados-config.com
@@ -3137,7 +3167,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.nintendo.it:25488
+    host: 502d36f.default.microsoft.io:25488
     mode: tls
   port: 2377
   server: 502d36f.e6.glados-config.com
@@ -3148,7 +3178,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.xboxlive.com:25488
+    host: 502d36f.default.microsoft.lt:25488
     mode: tls
   port: 2377
   server: 502d36f.e8.glados-config.com
@@ -3159,7 +3189,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.is:25488
+    host: 502d36f.default.nintendo.it:25488
     mode: tls
   port: 2377
   server: 502d36f.e8.glados-config.com
