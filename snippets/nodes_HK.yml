@@ -1078,15 +1078,13 @@ proxies:
       Host: ''
     path: /
 - cipher: chacha20-ietf
-  country: 🇰HK
-  name: 1170,1730|🇰HK_60
+  name: 1170|🇰HK-103.149.182.105-5951
   password: asd123456
   port: 8388
   server: 103.149.182.105
   type: ss
 - cipher: chacha20-ietf
-  country: 🇰HK
-  name: 1170,1730|🇰HK_59
+  name: 1170|🇭🇰HK-103.141.221.124-5952
   password: asd123456
   port: 8388
   server: 103.141.221.124
@@ -1629,16 +1627,9 @@ proxies:
     headers:
       Host: ae9c0de474c64c03db9edbf3fc4d8c68.mobgslb.tbcache.com
     path: /
-- cipher: chacha20-ietf
-  country: 🇰HK
-  name: 1730|🇭🇰HK_61
-  password: asd123456
-  port: 8388
-  server: 103.36.91.32
-  type: ss
 - alterId: 0
   cipher: auto
-  name: '1731|🇭🇰HK_1|2.0MB/s | 网盘搜宝: https:/...'
+  name: '1731|🇭🇰HK_1|2.9MB/s | 网盘搜宝: https:/...'
   network: ws
   port: '2086'
   server: 85.113.71.85
@@ -1679,11 +1670,12 @@ proxies:
     path: /zh-cn/
 - alterId: 0
   cipher: auto
-  name: 1763,1764,1969|未知13
+  name: '1763,1764,1968,1969|未知6 #1'
   network: ws
   port: '54809'
   server: 8.210.140.23
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: fde73daf-cc67-42f3-9935-35b132b01abd
@@ -1693,11 +1685,12 @@ proxies:
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: 1763,1764,1969|未知76
+  name: '1763,1764,1968,1969|未知36 #1'
   network: ws
   port: '36968'
   server: 47.83.18.10
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 176bf1dd-647f-4c09-892e-5f9223dc8617
@@ -3525,6 +3518,34 @@ proxies:
   tls: false
   type: vmess
   uuid: 49933ab7-7ec2-3024-9f6e-b7ad9da24c8f
+- alterId: 0
+  cipher: auto
+  name: 1968|HK2
+  network: ws
+  port: 11655
+  server: 131.186.63.89
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 4bf075f5-4d5e-4d39-f5ab-b32a86250f0e
+  ws-opts:
+    headers:
+      host: hk.nbee.pp.ua
+    path: /aa
+- alterId: 2
+  cipher: auto
+  name: 1968|HK3
+  network: ws
+  port: 80
+  server: e0349a52-sv8cg0-t7uinf-i8ie.hk3.p5pv.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 990e8f34-bd4f-11ef-bdb9-f23c91cfbbc9
+  ws-opts:
+    headers:
+      host: broadcastlv.chat.bilibili.com
+    path: /
 - alterId: 64
   cipher: auto
   name: '1981,1982|香港1|@ripaojiedian #1'
