@@ -12,7 +12,7 @@ proxies:
   port: 80
   server: 172.104.182.226
   servername: ''
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 3849e48e-f276-4612-a1b9-6f07d1ab1bad
@@ -231,6 +231,36 @@ proxies:
     headers:
       Host: jp-balancer.myn1des.com
     path: /mugua
+- alterId: 0
+  cipher: auto
+  name: 412,1170,1828,1890,1891,2003|日本_0726017
+  network: ws
+  port: '9111'
+  server: st-1.dnspro.icu
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 13ef5f2c-d002-36a2-9e96-a13d5e3ae03b
+  ws-opts:
+    headers:
+      Host: st-1.dnspro.icu
+    path: /iso
+- alterId: 0
+  cipher: auto
+  name: 412,1170,1828,1890,1891,2003|新加坡_0726019
+  network: ws
+  port: '5100'
+  server: st-2.dnspro.icu
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 13ef5f2c-d002-36a2-9e96-a13d5e3ae03b
+  ws-opts:
+    headers:
+      Host: st-2.dnspro.icu
+    path: /iso
 - alterId: 0
   cipher: auto
   name: 1160,1182,1817|🇸🇬_SG_新加坡_1_1@20
@@ -1129,7 +1159,7 @@ proxies:
   udp: true
 - alterId: 64
   cipher: auto
-  name: '1170,1801,1882,1885,1890,1891,1979,1982|未命名 #32'
+  name: '1170,1801,1882,1885,1890,1891,1979,1982|未命名 #31'
   network: ws
   port: 80
   server: 159.223.94.156
