@@ -656,22 +656,22 @@ proxies:
       Host: ''
     path: /
 - cipher: aes-128-gcm
-  country: 🇸US
-  name: 1170,1730|🇺🇸US_95
+  country: 🇺🇸US
+  name: 1170,1730|🇺🇸US_102
   password: shadowsocks
   port: 443
   server: 149.22.87.240
   type: ss
 - cipher: aes-128-gcm
-  country: 🇺🇸US
-  name: 1170,1730|🇸US_93
+  country: 🇸US
+  name: 1170,1730|🇺🇸US_98
   password: shadowsocks
   port: 443
   server: 149.22.87.241
   type: ss
 - cipher: aes-128-gcm
   country: 🇸US
-  name: 1170,1730|🇺US_94
+  name: 1170,1730|🇺🇸US_93
   password: shadowsocks
   port: 443
   server: 149.22.87.204
@@ -745,7 +745,7 @@ proxies:
     path: /chat
 - alterId: 0
   cipher: auto
-  name: 1170,1731,1890,1891,2003|美国_0726045
+  name: 1170,1763,1764,1890,1891,2003|美国_0726045
   network: ws
   port: '58905'
   server: 161.33.139.138
@@ -1133,7 +1133,7 @@ proxies:
     path: /liksuzcp
 - alterId: 0
   cipher: auto
-  name: '1170,1763,1764,1890,1891|🇯🇵JP-172.111.146.64-6023 #1'
+  name: '1170,1890,1891|🇯🇵JP-172.111.146.64-6023 #1'
   network: ws
   port: 80
   server: 172.111.146.64
@@ -1394,17 +1394,42 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '1763,1764|JP 🇯🇵 | @Raydikalx | 3749 #1'
+  name: '1763,1764|JP 🇯🇵 | @Raydikalx | 4307 #1'
+  network: ws
+  port: 25686
+  server: 140.83.51.161
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6733c357-ba11-4e9f-f00f-7d87f2776ff9
+  ws-opts:
+    headers:
+      Host: 140.83.51.161
+    path: /cctv13.m3u8
+- alterId: 0
+  cipher: auto
+  name: '1763,1764,1969|未知15 802.3KB/s #1'
   network: ws
   port: '80'
   server: 168.138.43.75
-  servername: None
+  servername: ''
   tls: false
   type: vmess
   uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
   ws-opts:
     headers:
-      Host: None
+      Host: jp01.a0a.xyz
+    path: /cctv13.m3u8
+- alterId: 0
+  cipher: auto
+  name: '1763,1764|JP 🇯🇵 | @Raydikalx | 4314 #1'
+  network: ws
+  port: 25686
+  server: 140.83.51.161
+  tls: false
+  type: vmess
+  uuid: 6733c357-ba11-4e9f-f00f-7d87f2776ff9
+  ws-opts:
     path: /cctv13.m3u8
 - alterId: 0
   cipher: auto
@@ -3234,7 +3259,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.io:25488
+    host: 502d36f.default.microsoft.ch:25488
     mode: tls
   port: 2377
   server: 502d36f.e9.glados-config.com
@@ -3252,7 +3277,7 @@ proxies:
   type: ss
   udp: false
 - cipher: chacha20-ietf-poly1305
-  name: 2763|JP-Dedicated-B1-4
+  name: 2763|JP-Dedicated-B1-3
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -3263,11 +3288,22 @@ proxies:
   type: ss
   udp: false
 - cipher: chacha20-ietf-poly1305
+  name: 2763|JP-Dedicated-B1-4
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 502d36f.default.microsoft.de:25488
+    mode: tls
+  port: 2377
+  server: 502d36f.e7.glados-config.com
+  type: ss
+  udp: false
+- cipher: chacha20-ietf-poly1305
   name: 2763|JP-Dedicated-B1-5
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.cl:25488
+    host: 502d36f.default.nintendo.es:25488
     mode: tls
   port: 2377
   server: 502d36f.e6.glados-config.com
@@ -3278,7 +3314,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.epicgames.com:25488
+    host: 502d36f.default.nintendo.eu:25488
     mode: tls
   port: 2377
   server: 502d36f.e6.glados-config.com
@@ -3289,7 +3325,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.com:25488
+    host: 502d36f.default.microsoft.io:25488
     mode: tls
   port: 2377
   server: 502d36f.e8.glados-config.com
@@ -3300,7 +3336,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.ge:25488
+    host: 502d36f.default.microsoft.ch:25488
     mode: tls
   port: 2377
   server: 502d36f.e8.glados-config.com
