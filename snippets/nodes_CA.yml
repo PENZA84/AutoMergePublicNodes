@@ -657,22 +657,22 @@ proxies:
   server: 85.208.108.18
   type: ss
 - cipher: chacha20-ietf-poly1305
-  country: 🇦CA
-  name: 1170,1730|🇦CA_03
+  country: 🇨🇦CA
+  name: 1170,1730|🇨🇦CA_07
   password: G5p6ww4o67HB
   port: 8388
   server: 108.181.118.10
   type: ss
 - cipher: aes-128-gcm
-  country: 🇺US
-  name: 1170,1730|🇺US_92
+  country: 🇺🇸US
+  name: 1170,1730|🇺🇸US_104
   password: shadowsocks
   port: 443
   server: 149.22.95.183
   type: ss
 - cipher: rc4-md5
   country: 🇺US
-  name: 1170,1730|🇸US_90
+  name: 1170,1730|🇸US_101
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 137.184.174.93
@@ -695,16 +695,29 @@ proxies:
   port: 8008
   server: 85.208.108.61
   type: ss
-- alterId: 0
-  cipher: aes-256-gcm
-  name: 1170,1851,1968|🇸US美国7
+- cipher: aes-256-gcm
+  name: 1170,1851|🇨🇦_CA_加拿大
   password: 2803361d6c196af8
   port: 10210
   server: 50.114.177.134
   skip-cert-verify: true
-  tls: true
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  name: '1170,1763,1764,1890,1891,1969|未知28 #1'
+  network: ws
+  port: '443'
+  server: 158.51.121.63
+  servername: seribus.org
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: seribus.org
+    path: linkvws
 - cipher: aes-256-gcm
   name: 1170|🇦CA-198.8.92.84-2427
   password: ugyBkSEFxVEmUYSHyvxmWNj9
@@ -1619,85 +1632,7 @@ proxies:
     path: /IYKLD53M
 - alterId: 0
   cipher: auto
-  name: 1520|加拿大-优化
-  network: ws
-  port: '16641'
-  server: planb.mojcn.com
-  tls: false
-  type: vmess
-  uuid: d0774966-fb63-4aca-9478-16c3f32be220
-  ws-opts:
-    headers:
-      Host: 706dc7c0280181c5816781dea5ae3d87.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1520|加拿大-优化2
-  network: ws
-  port: '16641'
-  server: m.cnmjin.net
-  tls: false
-  type: vmess
-  uuid: d0774966-fb63-4aca-9478-16c3f32be220
-  ws-opts:
-    headers:
-      Host: 706dc7c0280181c5816781dea5ae3d87.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1520|加拿大-优化3
-  network: ws
-  port: '16641'
-  server: t.cnmjcn.cyou
-  tls: false
-  type: vmess
-  uuid: d0774966-fb63-4aca-9478-16c3f32be220
-  ws-opts:
-    headers:
-      Host: 706dc7c0280181c5816781dea5ae3d87.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '1528|加拿大-优化 #1'
-  network: ws
-  port: '16641'
-  server: planb.mojcn.com
-  tls: false
-  type: vmess
-  uuid: 820517c1-1cfb-47ff-bfdd-48faf83773b5
-  ws-opts:
-    headers:
-      Host: cd8e88d8bdf6378f00346c2973620506.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '1528|加拿大-优化2 #1'
-  network: ws
-  port: '16641'
-  server: m.cnmjin.net
-  tls: false
-  type: vmess
-  uuid: 820517c1-1cfb-47ff-bfdd-48faf83773b5
-  ws-opts:
-    headers:
-      Host: cd8e88d8bdf6378f00346c2973620506.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '1528|加拿大-优化3 #1'
-  network: ws
-  port: '16641'
-  server: t.cnmjcn.cyou
-  tls: false
-  type: vmess
-  uuid: 820517c1-1cfb-47ff-bfdd-48faf83773b5
-  ws-opts:
-    headers:
-      Host: cd8e88d8bdf6378f00346c2973620506.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '1530|加拿大-优化 #2'
+  name: 1530|加拿大-优化
   network: ws
   port: '16641'
   server: planb.mojcn.com
@@ -1710,7 +1645,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '1530|加拿大-优化2 #2'
+  name: 1530|加拿大-优化2
   network: ws
   port: '16641'
   server: m.cnmjin.net
@@ -1723,7 +1658,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '1530|加拿大-优化3 #2'
+  name: 1530|加拿大-优化3
   network: ws
   port: '16641'
   server: t.cnmjcn.cyou
@@ -1736,7 +1671,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '1619,1620,1621|加拿大-优化 #5'
+  name: '1619,1620,1621|加拿大-优化 #3'
   network: ws
   port: '16641'
   server: planb.mojcn.com
@@ -1749,7 +1684,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '1619,1620,1621|加拿大-优化2 #5'
+  name: '1619,1620,1621|加拿大-优化2 #3'
   network: ws
   port: '16641'
   server: m.cnmjin.net
@@ -1762,7 +1697,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '1619,1620,1621|加拿大-优化3 #5'
+  name: '1619,1620,1621|加拿大-优化3 #3'
   network: ws
   port: '16641'
   server: t.cnmjcn.cyou
@@ -1775,7 +1710,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '1623|加拿大-优化 #6'
+  name: '1623|加拿大-优化 #4'
   network: ws
   port: '16641'
   server: planb.mojcn.com
@@ -1788,7 +1723,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '1623|加拿大-优化2 #6'
+  name: '1623|加拿大-优化2 #4'
   network: ws
   port: '16641'
   server: m.cnmjin.net
@@ -1801,7 +1736,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '1623|加拿大-优化3 #6'
+  name: '1623|加拿大-优化3 #4'
   network: ws
   port: '16641'
   server: t.cnmjcn.cyou
@@ -1822,6 +1757,21 @@ proxies:
   tls: false
   type: vmess
   uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+- alterId: 0
+  cipher: auto
+  name: 1763,1764,1968|未知28
+  network: ws
+  port: 443
+  server: 158.51.121.63
+  servername: seribus.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      host: seribus.org
+    path: linkvws
 - alterId: 0
   cipher: auto
   name: 1776|🇨🇦 加拿大_1210014
