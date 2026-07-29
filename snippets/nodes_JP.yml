@@ -594,19 +594,22 @@ proxies:
       Host: ''
     path: /
 - cipher: aes-128-gcm
-  name: 1170|🇯🇵JP-149.22.87.204-0102
+  country: 🇸US
+  name: 1170,1730|🇸US_100
   password: shadowsocks
   port: 443
   server: 149.22.87.204
   type: ss
 - cipher: aes-128-gcm
-  name: 1170|🇵JP-149.22.87.240-0103
+  country: 🇺🇸US
+  name: 1170,1730|🇺🇸US_112
   password: shadowsocks
   port: 443
   server: 149.22.87.240
   type: ss
 - cipher: aes-128-gcm
-  name: 1170|🇵JP-149.22.87.241-0109
+  country: 🇺🇸US
+  name: 1170,1730|🇺🇸US_109
   password: shadowsocks
   port: 443
   server: 149.22.87.241
@@ -1277,6 +1280,48 @@ proxies:
     headers:
       Host: ae9c0de474c64c03db9edbf3fc4d8c68.mobgslb.tbcache.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: '1763,1764|JP 🇯🇵 | @Raydikalx | 30BD19 #1'
+  network: ws
+  port: '25686'
+  server: 140.83.51.161
+  servername: 140.83.51.161
+  tls: false
+  type: vmess
+  uuid: 6733c357-ba11-4e9f-f00f-7d87f2776ff9
+  ws-opts:
+    headers:
+      Host: 140.83.51.161
+    path: /cctv13.m3u8
+- alterId: 0
+  cipher: auto
+  name: '1763,1764,1969|未知53 822.2KB/s #1'
+  network: ws
+  port: '80'
+  server: 168.138.43.75
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
+  ws-opts:
+    headers:
+      Host: jp01.a0a.xyz
+    path: /cctv13.m3u8
+- alterId: 0
+  cipher: auto
+  name: '1763,1764|JP 🇯🇵 | @Raydikalx | 1286E2 #1'
+  network: ws
+  port: '80'
+  server: 168.138.43.75
+  servername: None
+  tls: false
+  type: vmess
+  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
+  ws-opts:
+    headers:
+      Host: None
+    path: /cctv13.m3u8
 - alterId: 0
   cipher: auto
   name: 1770,1904|0.55|JPhttpsawkjcfky 注册体验流媒体机场...
@@ -3047,19 +3092,6 @@ proxies:
     path: /CAT
 - alterId: 0
   cipher: auto
-  name: 1982|🇯🇵日本 02
-  network: ws
-  port: '2086'
-  server: cf.335570.xyz
-  tls: false
-  type: vmess
-  uuid: 3960f128-1163-40a3-8dd7-7c91176e14a5
-  ws-opts:
-    headers:
-      Host: linode.appleid.bf
-    path: /CAT
-- alterId: 0
-  cipher: auto
   name: 1984|github.com/freefq - 日本东京Linode...
   network: ws
   port: 443
@@ -3101,11 +3133,22 @@ proxies:
       Host: v6.583181.xyz
     path: /
 - cipher: chacha20-ietf-poly1305
+  name: 2763|JP-Dedicated-B1-1
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 502d36f.default.microsoft.es:25488
+    mode: tls
+  port: 2377
+  server: 502d36f.e9.glados-config.com
+  type: ss
+  udp: false
+- cipher: chacha20-ietf-poly1305
   name: 2763|JP-Dedicated-B1-2
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.xboxlive.com:25488
+    host: 502d36f.default.microsoft.ch:25488
     mode: tls
   port: 2377
   server: 502d36f.e9.glados-config.com
@@ -3116,7 +3159,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.io:25488
+    host: 502d36f.default.microsoft.lv:25488
     mode: tls
   port: 2377
   server: 502d36f.e7.glados-config.com
@@ -3127,7 +3170,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.md:25488
+    host: 502d36f.default.nvidia.com:25488
     mode: tls
   port: 2377
   server: 502d36f.e7.glados-config.com
@@ -3138,7 +3181,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.fastly.net:25488
+    host: 502d36f.default.nintendo.net:25488
     mode: tls
   port: 2377
   server: 502d36f.e6.glados-config.com
@@ -3149,7 +3192,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.dk:25488
+    host: 502d36f.default.microsoft.jp:25488
     mode: tls
   port: 2377
   server: 502d36f.e6.glados-config.com
@@ -3160,7 +3203,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.microsoft.net:25488
+    host: 502d36f.default.fastly.net:25488
     mode: tls
   port: 2377
   server: 502d36f.e8.glados-config.com
@@ -3171,7 +3214,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 502d36f.default.mozilla.net:25488
+    host: 502d36f.default.microsoft.eu:25488
     mode: tls
   port: 2377
   server: 502d36f.e8.glados-config.com
