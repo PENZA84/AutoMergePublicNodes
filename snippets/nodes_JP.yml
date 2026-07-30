@@ -1,7 +1,25 @@
 proxies:
+- name: '412,1828|日本 001 #1'
+  network: tcp
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 38937
+  server: 18.181.205.36
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+  udp: true
+- name: '412,1828|日本 002 #1'
+  network: tcp
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 49277
+  server: 18.181.205.36
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
-  name: '412,1170,1763,1764,1828,1890,1891,1969|未知83 2.3MB/s #1'
+  name: '412,1170,1763,1764,1828,1890,1891,1969|未知107 282.4KB/s #1'
   network: ws
   port: '80'
   server: 168.138.43.75
@@ -450,6 +468,17 @@ proxies:
     headers:
       Host: cvywfavasdc.cymlr.xyz
     path: /ksebupo
+- alterId: 0
+  cipher: auto
+  name: '412,1763,1764,1828|日本 033 #1'
+  network: tcp
+  port: 8888
+  server: 146.56.112.110
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707
 - name: 1160|🆔@LuxyNet💎❖❖JP❖131
   network: tcp
   password: 254aa898-bc2a-4ec8-87d1-9f5d37658f6c
@@ -558,7 +587,7 @@ proxies:
     path: /bb
 - alterId: 0
   cipher: auto
-  name: '1160,1298,1776,1785,1986|这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使... #70'
+  name: '1160,1776,1785,1986|这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使... #70'
   network: tcp
   port: '1069'
   server: 152.69.197.60
@@ -687,22 +716,6 @@ proxies:
     headers:
       Host: ''
     path: /chat
-- alterId: 0
-  cipher: auto
-  name: 1170,1890,1891,1904|0.49|UShttpsawkjcfky 注册体验流媒体机场...
-  network: ws
-  port: 443
-  server: khvwycch.cymlr.xyz
-  servername: khvwycch.cymlr.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: db39ef95-4245-418a-84c0-14c202f29bc6
-  ws-opts:
-    headers:
-      Host: khvwycch.cymlr.xyz
-    path: /videnset
 - alterId: 0
   cipher: auto
   name: '1170,1817,1890,1891|🇯🇵JP-140.83.84.209-2609 #1'
@@ -1047,7 +1060,7 @@ proxies:
   type: ssr
 - alterId: 0
   cipher: auto
-  name: '1170,1763,1764|JP 🇯🇵 | @Raydikalx | 704B44 #1'
+  name: '1170,1731,1763,1764|JP 🇯🇵 | @Raydikalx | 704B44 #1'
   network: ws
   port: '80'
   server: 172.111.146.64
@@ -1310,18 +1323,21 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '1763,1764|JP 🇯🇵 | @Raydikalx | C36E71 #1'
+  name: 1763,1764,1968|未知53 1.2MB/s
   network: ws
   port: 25686
   server: 140.83.51.161
-  tls: false
+  skip-cert-verify: true
+  tls: true
   type: vmess
   uuid: 6733c357-ba11-4e9f-f00f-7d87f2776ff9
   ws-opts:
+    headers:
+      host: jp02.a0a.xyz
     path: /cctv13.m3u8
 - alterId: 0
   cipher: auto
-  name: '1763,1764,1968,1969|未知36 3.1MB/s #1'
+  name: '1763,1764,1968,1969|未知72 1.9MB/s #1'
   network: ws
   port: '58905'
   server: 161.33.139.138
@@ -1336,7 +1352,7 @@ proxies:
     path: /1610f8dc-0661-4032-ac6a-a7250603f608-vm
 - alterId: 0
   cipher: auto
-  name: 1763,1764,1968|未知83 2.3MB/s
+  name: 1763,1764,1968|未知107 282.4KB/s
   network: ws
   port: 80
   server: 168.138.43.75
@@ -1393,11 +1409,11 @@ proxies:
     path: /cctv13.m3u8
 - alterId: 0
   cipher: auto
-  name: 1763,1764,1780|@Arvand_soul @Arvand_soul❤️🧑‍💻...
+  name: '1763,1764,1780,1969|未知53 1.2MB/s #1'
   network: ws
   port: '25686'
   server: 140.83.51.161
-  servername: ''
+  servername: jp02.a0a.xyz
   tls: false
   type: vmess
   uuid: 6733c357-ba11-4e9f-f00f-7d87f2776ff9
@@ -1419,23 +1435,6 @@ proxies:
     headers:
       Host: None
     path: /cctv13.m3u8
-- alterId: 0
-  cipher: auto
-  name: '1763,1764,1801,1858,1890,1891,1982,2007|github.com/freefq - 美国CloudFla...
-    #41'
-  network: ws
-  port: 8080
-  server: www.darkroom.lol
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      Host: www.darkroom.lol
-    path: /
 - alterId: 0
   cipher: auto
   name: 1770,1904|0.55|JPhttpsawkjcfky 注册体验流媒体机场...
